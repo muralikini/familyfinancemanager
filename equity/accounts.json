@@ -10,5 +10,11 @@
     "broker": "Zerodha",
     "filePath": "equity/leena/zerodha_FL3689.json",
     "accountNumber": "FL3689"
+  },
+  {
+    "personId": "muralidhar",
+    "broker": "ICICI",
+    "filePath": "equity/muralidhar/ICICI_Equity.json",
+    "accountNumber": "8504770479"
   }
 ]
