@@ -591,17 +591,39 @@ async function loadBankFile(account) {
         let added = 0;
 
         data.forEach(item => {
-            const dateStr = item.Date || item["Txn Date"] || item["Value Date"] || item["Transaction Date"];
+            const dateStr = item.Date || item["Txn Date"] || item["Value Date"] || item["Value Dt"] || item["Transaction Date"];
             if (!dateStr) return;
+
+            // === Smart key detection for all bank formats ===
+            const withdrawalKey = 
+                item["Withdrawal Amount"] || 
+                item["Withdrawal Amt."] || 
+                item.Debit || 
+                item["Withdrawal Amount (INR )"] ||
+                item["Withdrawal Amount(INR)"];           // ← Added for Leena ICICI
+
+            const depositKey = 
+                item["Deposit Amount"] || 
+                item["Deposit Amt."] || 
+                item.Credit || 
+                item["Deposit Amount (INR )"] ||
+                item["Deposit Amount(INR)"];               // ← Added for Leena ICICI
+
+            const balanceKey = 
+                item["Closing Balance*"] || 
+                item["Closing Balance"] || 
+                item.Balance || 
+                item["Balance (INR )"] ||
+                item["Balance(INR)"];                      // ← Added for Leena ICICI
 
             currentTransactions.push({
                 date: dateStr,
                 personId: account.personId,
                 bankName: account.bankName,
-                narration: item.Narration || item.Description || item["Transaction Remarks"] || item["Chq. / Ref No."] || "",
-                withdrawal: parseAmount(item["Withdrawal Amount"] || item.Debit || item["Withdrawal Amount (INR )"]),
-                deposit: parseAmount(item["Deposit Amount"] || item.Credit || item["Deposit Amount (INR )"]),
-                balance: parseAmount(item["Closing Balance*"] || item.Balance || item["Balance (INR )"])
+                narration: item.Narration || item.Description || item["Transaction Remarks"] || item["Cheque Number"] || "",
+                withdrawal: parseAmount(withdrawalKey),
+                deposit: parseAmount(depositKey),
+                balance: parseAmount(balanceKey)
             });
             added++;
         });
