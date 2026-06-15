@@ -507,6 +507,7 @@ async function loadAccountManifest() {
 }
 
 // ==================== AUTO GENERATE LOAD BUTTONS (Person-wise) ====================
+<!--
 async function generateLoadButtons() {
     const container = document.getElementById('auto-load-buttons');
     container.innerHTML = '';
@@ -545,6 +546,35 @@ async function generateLoadButtons() {
         `;
 
         btn.onclick = () => loadBankFile(account);
+        container.appendChild(btn);
+    });
+}
+-->
+
+async function generateLoadButtons() {
+    const container = document.getElementById('auto-load-buttons');
+    if (!container) return;
+
+    container.innerHTML = '';
+
+    const accounts = await loadAccountManifest();
+    const selectedPerson = document.getElementById('filter-person').value;
+
+    accounts.forEach(acc => {
+        // Show button only if "All Persons" is selected OR if it matches the selected person
+        if (selectedPerson && acc.personId !== selectedPerson) {
+            return;
+        }
+
+        const btn = document.createElement('button');
+        btn.className = `px-5 py-2.5 rounded-2xl text-sm font-semibold flex items-center gap-x-2 text-white ${
+            acc.bankName === 'HDFC' ? 'bg-emerald-600 hover:bg-emerald-700' : 
+            acc.bankName === 'ICICI' ? 'bg-blue-600 hover:bg-blue-700' : 
+            'bg-orange-600 hover:bg-orange-700'
+        }`;
+
+        btn.innerHTML = `🏦 Load ${acc.bankName} (${acc.accountNumber})`;
+        btn.onclick = () => loadBankFile(acc);
         container.appendChild(btn);
     });
 }
