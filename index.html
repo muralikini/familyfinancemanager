@@ -94,31 +94,27 @@
             <div class="flex justify-between items-center mb-6">
                 <h2 class="text-2xl font-semibold">Bank Accounts</h2>
                 <div class="flex gap-x-3">
-                    <button onclick="loadHDFCDataFromFile()" class="px-5 py-2.5 bg-emerald-600 hover:bg-emerald-700 rounded-2xl text-sm font-semibold">
-                        Load HDFC Data
-                    </button>
-                    <button onclick="loadICICIDataFromFile()" class="px-5 py-2.5 bg-blue-600 hover:bg-blue-700 rounded-2xl text-sm font-semibold">
-                        Load ICICI Data
-                    </button>
+                    <button onclick="loadHDFCDataFromFile()" class="px-5 py-2.5 bg-emerald-600 hover:bg-emerald-700 rounded-2xl text-sm font-semibold">Load HDFC</button>
+                    <button onclick="loadICICIDataFromFile()" class="px-5 py-2.5 bg-blue-600 hover:bg-blue-700 rounded-2xl text-sm font-semibold">Load ICICI</button>
                 </div>
             </div>
 
-            <!-- Summary Cards -->
+            <!-- Dynamic Summary Cards -->
             <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mb-6">
                 <div class="bg-zinc-900 border border-zinc-700 rounded-3xl p-6">
-                    <div class="text-sm text-zinc-400">Total Transactions</div>
+                    <div class="text-sm text-zinc-400" id="summary-label-txns">Total Transactions</div>
                     <div class="text-4xl font-bold" id="bank-total-txns">0</div>
                 </div>
                 <div class="bg-zinc-900 border border-zinc-700 rounded-3xl p-6">
-                    <div class="text-sm text-zinc-400">Total Withdrawals</div>
+                    <div class="text-sm text-zinc-400" id="summary-label-withdrawal">Total Withdrawals</div>
                     <div class="text-4xl font-bold text-red-400" id="bank-total-withdrawal">₹0</div>
                 </div>
                 <div class="bg-zinc-900 border border-zinc-700 rounded-3xl p-6">
-                    <div class="text-sm text-zinc-400">Total Deposits</div>
+                    <div class="text-sm text-zinc-400" id="summary-label-deposit">Total Deposits</div>
                     <div class="text-4xl font-bold text-green-400" id="bank-total-deposit">₹0</div>
                 </div>
                 <div class="bg-zinc-900 border border-zinc-700 rounded-3xl p-6">
-                    <div class="text-sm text-zinc-400">Current Balance</div>
+                    <div class="text-sm text-zinc-400" id="summary-label-balance">Current Balance</div>
                     <div class="text-4xl font-bold text-amber-400" id="bank-current-balance">₹0</div>
                 </div>
             </div>
@@ -236,7 +232,7 @@
             renderFamilyTable();
         }
 
-        // ==================== DATE PARSING ====================
+        // ==================== DATE HELPERS ====================
         function parseCustomDate(dateStr) {
             if (!dateStr) return null;
             const str = String(dateStr).trim();
@@ -261,7 +257,7 @@
             return month >= 4 ? `${year}-${(year + 1).toString().slice(-2)}` : `${year - 1}-${year.toString().slice(-2)}`;
         }
 
-        // ==================== LOAD HDFC ====================
+        // ==================== LOAD DATA ====================
         async function loadHDFCDataFromFile() {
             try {
                 const res = await fetch('./bank/muralidhar/HDFC_4684.json');
@@ -281,15 +277,13 @@
                         balance: parseFloat(String(item["Closing Balance*"] || 0).replace(/,/g, '')) || 0
                     });
                 });
-
-                alert("HDFC data loaded successfully!");
+                alert("HDFC data loaded!");
                 renderBankUI();
             } catch (err) {
                 alert("Error loading HDFC: " + err.message);
             }
         }
 
-        // ==================== LOAD ICICI ====================
         async function loadICICIDataFromFile() {
             try {
                 const res = await fetch('./bank/muralidhar/ICICI_0212.json');
@@ -300,7 +294,6 @@
                 data.forEach(item => {
                     const dateStr = item["Value Date"] || item["Transaction Date"];
                     if (!dateStr) return;
-
                     currentTransactions.push({
                         date: dateStr,
                         personId: "muralidhar",
@@ -312,14 +305,14 @@
                     });
                     added++;
                 });
-
-                alert(`${added} ICICI transactions loaded successfully!`);
+                alert(`${added} ICICI transactions loaded!`);
                 renderBankUI();
             } catch (err) {
                 alert("Error loading ICICI: " + err.message);
             }
         }
 
+        // ==================== RENDER & FILTER ====================
         function renderBankUI() {
             const personSel = document.getElementById('filter-person');
             personSel.innerHTML = '<option value="">All Persons</option>';
@@ -345,7 +338,6 @@
             });
 
             filterTransactions();
-            updateBankSummary();
         }
 
         function filterTransactions() {
@@ -376,6 +368,9 @@
                 `;
                 tbody.appendChild(row);
             });
+
+            // Update summary based on current filters
+            updateBankSummary(filtered, fy);
         }
 
         function clearFilters() {
@@ -385,22 +380,58 @@
             filterTransactions();
         }
 
-        function updateBankSummary() {
-            document.getElementById('bank-total-txns').textContent = currentTransactions.length;
-            let w = 0, d = 0;
-            currentTransactions.forEach(t => {
-                w += t.withdrawal || 0;
-                d += t.deposit || 0;
-            });
-            document.getElementById('bank-total-withdrawal').textContent = '₹' + w.toLocaleString('en-IN');
-            document.getElementById('bank-total-deposit').textContent = '₹' + d.toLocaleString('en-IN');
+        // ==================== DYNAMIC SUMMARY ====================
+        function updateBankSummary(filteredTransactions, selectedFY) {
+            const txnsEl = document.getElementById('bank-total-txns');
+            const withdrawalEl = document.getElementById('bank-total-withdrawal');
+            const depositEl = document.getElementById('bank-total-deposit');
+            const balanceEl = document.getElementById('bank-current-balance');
 
-            let bal = 0;
-            if (currentTransactions.length > 0) {
-                bal = currentTransactions[currentTransactions.length - 1].balance || 0;
+            const labelTxns = document.getElementById('summary-label-txns');
+            const labelWithdrawal = document.getElementById('summary-label-withdrawal');
+            const labelDeposit = document.getElementById('summary-label-deposit');
+            const labelBalance = document.getElementById('summary-label-balance');
+
+            if (!filteredTransactions) {
+                filteredTransactions = currentTransactions;
             }
-            document.getElementById('bank-current-balance').textContent = '₹' + bal.toLocaleString('en-IN');
-            document.getElementById('dash-bank-count').textContent = currentTransactions.length > 0 ? 2 : 0;
+
+            // Update labels based on whether FY is selected
+            if (selectedFY) {
+                labelTxns.textContent = `Transactions in FY ${selectedFY}`;
+                labelWithdrawal.textContent = `Withdrawals in FY ${selectedFY}`;
+                labelDeposit.textContent = `Deposits in FY ${selectedFY}`;
+                labelBalance.textContent = `Closing Balance (FY ${selectedFY})`;
+            } else {
+                labelTxns.textContent = "Total Transactions";
+                labelWithdrawal.textContent = "Total Withdrawals";
+                labelDeposit.textContent = "Total Deposits";
+                labelBalance.textContent = "Current Balance";
+            }
+
+            // Calculate values
+            let totalW = 0, totalD = 0;
+            filteredTransactions.forEach(t => {
+                totalW += t.withdrawal || 0;
+                totalD += t.deposit || 0;
+            });
+
+            txnsEl.textContent = filteredTransactions.length;
+            withdrawalEl.textContent = '₹' + totalW.toLocaleString('en-IN');
+            depositEl.textContent = '₹' + totalD.toLocaleString('en-IN');
+
+            // Closing Balance
+            let closingBalance = 0;
+            if (filteredTransactions.length > 0) {
+                // Sort by date to get the latest balance
+                const sorted = [...filteredTransactions].sort((a, b) => {
+                    const da = parseCustomDate(a.date);
+                    const db = parseCustomDate(b.date);
+                    return da - db;
+                });
+                closingBalance = sorted[sorted.length - 1].balance || 0;
+            }
+            balanceEl.textContent = '₹' + closingBalance.toLocaleString('en-IN');
         }
 
         function initApp() {}
