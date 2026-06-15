@@ -256,53 +256,53 @@
     if (!dateStr || String(dateStr).trim() === "") return null;
     const str = String(dateStr).trim();
 
-    // Try DD/MM/YYYY or DD-MM/YYYY first (most common in your data)
+    // === Indian format priority: DD/MM/YY or DD/MM/YYYY ===
+    // Try 4-digit year first
     let match = str.match(/^(\d{1,2})[-\/](\d{1,2})[-\/](\d{4})$/);
     if (match) {
-        let d = parseInt(match[1], 10);
-        let m = parseInt(match[2], 10);
-        let y = parseInt(match[3], 10);
-        // If first number > 12, it must be day (Indian format)
-        if (d > 12) {
-            return new Date(y, m - 1, d);
-        } else {
-            // Otherwise try both interpretations
-            let date1 = new Date(y, m - 1, d);
-            let date2 = new Date(y, d - 1, m);
-            // Prefer the one that makes more sense
-            return (m > 12) ? date2 : date1;
+        const first = parseInt(match[1], 10);
+        const second = parseInt(match[2], 10);
+        const year = parseInt(match[3], 10);
+
+        // If second number > 12 → must be DD/MM format
+        if (second > 12) {
+            return new Date(year, first - 1, second);
         }
+        // Otherwise prefer DD/MM (Indian format)
+        return new Date(year, first - 1, second);
     }
 
-    // Try DD/MM/YY or DD-MM/YY (2-digit year)
+    // Try 2-digit year (DD/MM/YY)
     match = str.match(/^(\d{1,2})[-\/](\d{1,2})[-\/](\d{2})$/);
     if (match) {
-        let d = parseInt(match[1], 10);
-        let m = parseInt(match[2], 10);
-        let y = parseInt(match[3], 10);
-        y += (y < 50) ? 2000 : 1900;
+        const first = parseInt(match[1], 10);
+        const second = parseInt(match[2], 10);
+        let year = parseInt(match[3], 10);
+        year += (year < 50) ? 2000 : 1900;
 
-        if (d > 12) {
-            return new Date(y, m - 1, d);
-        } else {
-            let date1 = new Date(y, m - 1, d);
-            let date2 = new Date(y, d - 1, m);
-            return (m > 12) ? date2 : date1;
+        // If second number > 12 → must be DD/MM format
+        if (second > 12) {
+            return new Date(year, first - 1, second);
         }
+        // Prefer Indian format (first = day)
+        return new Date(year, first - 1, second);
     }
 
-    // DD-MMM-YY format (SBI)
-    const monthMap = { 'Jan':0,'Feb':1,'Mar':2,'Apr':3,'May':4,'Jun':5,'Jul':6,'Aug':7,'Sep':8,'Oct':9,'Nov':10,'Dec':11 };
+    // DD-MMM-YY fallback (SBI style)
+    const monthMap = {
+        'Jan': 0, 'Feb': 1, 'Mar': 2, 'Apr': 3, 'May': 4, 'Jun': 5,
+        'Jul': 6, 'Aug': 7, 'Sep': 8, 'Oct': 9, 'Nov': 10, 'Dec': 11
+    };
     match = str.match(/^(\d{1,2})-([A-Za-z]{3})-(\d{2,4})$/);
     if (match) {
-        let day = parseInt(match[1], 10);
-        let mon = monthMap[match[2]];
+        const day = parseInt(match[1], 10);
+        const mon = monthMap[match[2]];
         let year = parseInt(match[3], 10);
         if (year < 100) year += 2000;
         if (mon !== undefined) return new Date(year, mon, day);
     }
 
-    // Final fallback
+    // Last resort
     const d = new Date(str);
     return isNaN(d.getTime()) ? null : d;
 }
