@@ -409,21 +409,31 @@
             location.reload();
         }
 
-        function switchTab(tab) {
+        function switchTab(tabIndex) {
+    // Hide all tab contents
     document.querySelectorAll('.tab-content').forEach(el => el.classList.add('hidden'));
+    
+    // Remove active class from all buttons
     document.querySelectorAll('.tab-btn').forEach(el => el.classList.remove('tab-active'));
     
-    document.getElementById(`tab-${tab}`).classList.remove('hidden');
-    document.querySelectorAll('.tab-btn')[tab].classList.add('tab-active');
+    // Show selected tab
+    const tabContents = document.querySelectorAll('.tab-content');
+    if (tabContents[tabIndex]) {
+        tabContents[tabIndex].classList.remove('hidden');
+    }
+    
+    // Activate button
+    const buttons = document.querySelectorAll('.tab-btn');
+    if (buttons[tabIndex]) {
+        buttons[tabIndex].classList.add('tab-active');
+    }
+}
 
-    if (tab === 0) refreshDashboard();
-    if (tab === 2) {
-        renderBankUI();
-        generateLoadButtons();           // ← Important
-    }
-    if (index === 3) {
-        initEquityTab();
-    }
+function showToast(message, type = 'info') {
+    console.log(`[Toast ${type}] ${message}`);
+    
+    // Optional: Show a simple alert if you want visible feedback
+    // alert(message);
 }
 
         function initData() {
@@ -1178,7 +1188,39 @@ function populateEquityFYFilter() {
     }
 }
 
+async function loadEquityAccountSafe(filePath, personId, broker, accountNumber) {
+    try {
+        const res = await fetch(filePath);
+        if (!res.ok) {
+            throw new Error(`File not found: ${filePath}`);
+        }
 
+        const data = await res.json();
+        
+        allEquityTransactions = data;
+        equityTransactions = [...data];
+
+        // Populate FY filter
+        populateEquityFYFilter();
+        filterEquityTransactions();
+
+        // Safe toast call
+        if (typeof showToast === 'function') {
+            showToast(`Loaded ${broker} (${accountNumber}) — ${data.length} trades`, 'success');
+        } else {
+            console.log(`Loaded ${broker} — ${data.length} trades`);
+        }
+
+    } catch (err) {
+        console.error("Error loading equity file:", err);
+        
+        if (typeof showToast === 'function') {
+            showToast(`Failed to load: ${filePath}`, 'error');
+        } else {
+            alert(`Failed to load equity file: ${filePath}`);
+        }
+    }
+}
 
 async function generateEquityLoadButtons() {
     const container = document.getElementById('equityLoadButtons');
