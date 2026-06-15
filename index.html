@@ -559,6 +559,7 @@ async function loadBankFile(account) {
         const data = await res.json();
 
         let added = 0;
+
         data.forEach(item => {
             const dateStr = item.Date || item["Txn Date"] || item["Value Date"] || item["Transaction Date"];
             if (!dateStr) return;
@@ -568,19 +569,121 @@ async function loadBankFile(account) {
                 personId: account.personId,
                 bankName: account.bankName,
                 narration: item.Narration || item.Description || item["Transaction Remarks"] || "",
-                withdrawal: parseFloat(String(item["Withdrawal Amount"] || item.Debit || item["Withdrawal Amount (INR )"] || 0).replace(/,/g, '')) || 0,
-                deposit: parseFloat(String(item["Deposit Amount"] || item.Credit || item["Deposit Amount (INR )"] || 0).replace(/,/g, '')) || 0,
-                balance: parseFloat(String(item["Closing Balance*"] || item.Balance || item["Balance (INR )"] || 0).replace(/,/g, '')) || 0
+                withdrawal: parseFloat(String(
+                    item["Withdrawal Amount"] || item.Debit || item["Withdrawal Amount (INR )"] || 0
+                ).replace(/,/g, '')) || 0,
+                deposit: parseFloat(String(
+                    item["Deposit Amount"] || item.Credit || item["Deposit Amount (INR )"] || 0
+                ).replace(/,/g, '')) || 0,
+                balance: parseFloat(String(
+                    item["Closing Balance*"] || item.Balance || item["Balance (INR )"] || 0
+                ).replace(/,/g, '')) || 0
             });
             added++;
         });
 
         alert(`${added} transactions loaded from ${account.bankName}`);
+
+        // Refresh both tabs safely
         filterTransactions();
-        refreshDashboard();
+
+        // Only refresh dashboard if the function exists
+        if (typeof refreshDashboard === "function") {
+            refreshDashboard();
+        }
+
     } catch (err) {
         alert("Error loading file: " + err.message);
     }
+}
+
+function refreshDashboard() {
+    if (currentTransactions.length === 0) {
+        document.getElementById('dash-total-balance').textContent = '₹0';
+        document.getElementById('dash-fy-net').textContent = '₹0';
+        document.getElementById('dash-total-txns').textContent = '0';
+        document.getElementById('dash-fy-txns').textContent = '0';
+        document.getElementById('bank-balance-cards').innerHTML = 
+            '<div class="col-span-3 text-center text-zinc-400 py-8">No bank data loaded yet.</div>';
+        document.getElementById('dash-recent-table').innerHTML = '';
+        return;
+    }
+
+    const currentFY = getCurrentFinancialYear();
+
+    // Calculate bank-wise latest balance
+    const bankBalances = {};
+    currentTransactions.forEach(t => {
+        if (!bankBalances[t.bankName] || 
+            parseCustomDate(t.date) > parseCustomDate(bankBalances[t.bankName].date)) {
+            bankBalances[t.bankName] = { balance: t.balance || 0, date: t.date };
+        }
+    });
+
+    let totalBalance = 0;
+    Object.values(bankBalances).forEach(b => totalBalance += b.balance);
+
+    document.getElementById('dash-total-balance').textContent = '₹' + totalBalance.toLocaleString('en-IN');
+
+    // This FY calculations
+    const fyTransactions = currentTransactions.filter(t => getFinancialYear(t.date) === currentFY);
+    let fyW = 0, fyD = 0;
+
+    fyTransactions.forEach(t => {
+        fyW += t.withdrawal || 0;
+        fyD += t.deposit || 0;
+    });
+
+    const net = fyD - fyW;
+
+    document.getElementById('dash-fy-net').textContent = '₹' + net.toLocaleString('en-IN');
+    document.getElementById('dash-fy-withdrawal').textContent = '₹' + fyW.toLocaleString('en-IN');
+    document.getElementById('dash-fy-deposit').textContent = '₹' + fyD.toLocaleString('en-IN');
+    document.getElementById('dash-fy-net-savings').textContent = '₹' + net.toLocaleString('en-IN');
+
+    document.getElementById('dash-total-txns').textContent = currentTransactions.length;
+    document.getElementById('dash-fy-txns').textContent = fyTransactions.length;
+
+    // Bank cards
+    const container = document.getElementById('bank-balance-cards');
+    container.innerHTML = '';
+
+    Object.keys(bankBalances).forEach(bank => {
+        const div = document.createElement('div');
+        div.className = 'bg-zinc-900 border border-zinc-700 rounded-3xl p-6';
+        div.innerHTML = `
+            <div class="flex justify-between items-center">
+                <div>
+                    <div class="text-sm text-zinc-400">${bank}</div>
+                    <div class="text-3xl font-bold">₹${bankBalances[bank].balance.toLocaleString('en-IN')}</div>
+                </div>
+                <i class="fas fa-university text-3xl text-zinc-500"></i>
+            </div>
+        `;
+        container.appendChild(div);
+    });
+
+    // Recent transactions
+    const recentBody = document.getElementById('dash-recent-table');
+    recentBody.innerHTML = '';
+
+    const sorted = [...currentTransactions]
+        .sort((a, b) => parseCustomDate(b.date) - parseCustomDate(a.date))
+        .slice(0, 8);
+
+    sorted.forEach(t => {
+        const amt = t.withdrawal > 0 ? t.withdrawal : t.deposit;
+        const color = t.withdrawal > 0 ? 'text-red-400' : 'text-green-400';
+        const row = document.createElement('tr');
+        row.innerHTML = `
+            <td class="py-3 px-4">${t.date}</td>
+            <td class="py-3 px-4">${t.bankName}</td>
+            <td class="py-3 px-4 text-xs max-w-xs truncate">${t.narration}</td>
+            <td class="py-3 px-4 text-right ${color}">₹${amt.toLocaleString('en-IN')}</td>
+            <td class="py-3 px-4 text-right">₹${(t.balance || 0).toLocaleString('en-IN')}</td>
+        `;
+        recentBody.appendChild(row);
+    });
 }
 
 // ==================== PERSON FILTER CHANGE ====================
