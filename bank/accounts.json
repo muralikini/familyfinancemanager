@@ -1,0 +1,20 @@
+[
+  {
+    "personId": "muralidhar",
+    "bankName": "HDFC",
+    "filePath": "bank/muralidhar/HDFC_4684.json",
+    "accountNumber": "4684"
+  },
+  {
+    "personId": "muralidhar",
+    "bankName": "ICICI",
+    "filePath": "bank/muralidhar/ICICI_0212.json",
+    "accountNumber": "0212"
+  },
+  {
+    "personId": "muralidhar",
+    "bankName": "SBI",
+    "filePath": "bank/muralidhar/SBI_16269.json",
+    "accountNumber": "16269"
+  }
+]
