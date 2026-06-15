@@ -11,7 +11,8 @@
     </style>
 </head>
 <body class="bg-zinc-950 text-zinc-200">
-    <!-- Login Screen -->
+
+    <!-- Login -->
     <div id="login-screen" class="min-h-screen flex items-center justify-center">
         <div class="w-full max-w-md bg-zinc-900 border border-zinc-700 rounded-3xl p-8">
             <div class="text-center mb-8">
@@ -20,17 +21,13 @@
                 </div>
                 <h1 class="text-3xl font-bold">Family Finance Manager</h1>
             </div>
-            <div>
-                <input type="password" id="login-password" value="family2026" 
-                       class="w-full bg-zinc-800 border border-zinc-700 rounded-2xl px-4 py-3 mb-4">
-                <button onclick="login()" class="w-full bg-amber-600 hover:bg-amber-700 py-3 rounded-2xl font-semibold">Login</button>
-            </div>
+            <input type="password" id="login-password" value="family2026" class="w-full bg-zinc-800 border border-zinc-700 rounded-2xl px-4 py-3 mb-4">
+            <button onclick="login()" class="w-full bg-amber-600 hover:bg-amber-700 py-3 rounded-2xl font-semibold">Login</button>
         </div>
     </div>
 
     <!-- Main App -->
     <div id="main-app" class="hidden">
-        <!-- Header -->
         <div class="bg-zinc-900 border-b border-zinc-800 px-6 py-4">
             <div class="max-w-screen-2xl mx-auto flex justify-between items-center">
                 <div class="flex items-center gap-x-3">
@@ -56,11 +53,11 @@
             <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
                 <div class="bg-zinc-900 border border-zinc-700 rounded-3xl p-6">
                     <div class="text-sm text-zinc-400">Total Bank Balance</div>
-                    <div class="text-4xl font-bold mt-2" id="dash-total-balance">₹0</div>
+                    <div class="text-4xl font-bold mt-2">₹0</div>
                 </div>
                 <div class="bg-zinc-900 border border-zinc-700 rounded-3xl p-6">
                     <div class="text-sm text-zinc-400">This FY Transactions</div>
-                    <div class="text-4xl font-bold mt-2" id="dash-fy-txns">0</div>
+                    <div class="text-4xl font-bold mt-2">0</div>
                 </div>
                 <div class="bg-zinc-900 border border-zinc-700 rounded-3xl p-6">
                     <div class="text-sm text-zinc-400">Family Members</div>
@@ -96,15 +93,12 @@
         <div id="tab-2" class="tab-content hidden max-w-screen-2xl mx-auto px-6 pt-8">
             <div class="flex justify-between items-center mb-6">
                 <h2 class="text-2xl font-semibold">Bank Accounts</h2>
-                <div>
-                    <button onclick="showAddBankAccountModal()" class="px-5 py-2.5 bg-zinc-700 rounded-2xl text-sm font-semibold mr-2">+ Add Account</button>
-                    <button onclick="loadHDFCDataFromFile()" class="px-5 py-2.5 bg-emerald-600 hover:bg-emerald-700 rounded-2xl text-sm font-semibold">
-                        <i class="fas fa-download mr-2"></i> Load HDFC Data (from file)
-                    </button>
-                </div>
+                <button onclick="loadHDFCDataFromFile()" 
+                        class="px-5 py-2.5 bg-emerald-600 hover:bg-emerald-700 rounded-2xl text-sm font-semibold">
+                    <i class="fas fa-download mr-2"></i> Load HDFC Data from File
+                </button>
             </div>
 
-            <!-- Summary -->
             <div class="grid grid-cols-3 gap-6 mb-6">
                 <div class="bg-zinc-900 border border-zinc-700 rounded-3xl p-6">
                     <div class="text-sm text-zinc-400">Total Transactions</div>
@@ -120,14 +114,11 @@
                 </div>
             </div>
 
-            <!-- Filters -->
             <div class="bg-zinc-900 border border-zinc-700 rounded-3xl p-4 mb-6 flex gap-4">
-                <select id="filter-person" onchange="filterTransactions()" class="bg-zinc-800 border border-zinc-700 rounded-2xl px-4 py-2 text-sm"></select>
-                <select id="filter-fy" onchange="filterTransactions()" class="bg-zinc-800 border border-zinc-700 rounded-2xl px-4 py-2 text-sm"></select>
+                <select id="filter-person" onchange="filterTransactions()" class="bg-zinc-800 border border-zinc-700 rounded-2xl px-4 py-2 text-sm w-56"></select>
                 <input type="text" id="filter-search" onkeyup="filterTransactions()" placeholder="Search narration..." class="flex-1 bg-zinc-800 border border-zinc-700 rounded-2xl px-4 py-2 text-sm">
             </div>
 
-            <!-- Transactions Table -->
             <div class="bg-zinc-900 border border-zinc-700 rounded-3xl p-6">
                 <div class="overflow-auto max-h-[550px]">
                     <table class="w-full text-sm">
@@ -150,8 +141,7 @@
 
     <script>
         let familyMembers = [];
-        let bankAccounts = [];
-        let allTransactions = [];
+        let currentTransactions = []; // Loaded in memory only (not saved to localStorage)
 
         function login() {
             if (document.getElementById('login-password').value === "family2026") {
@@ -159,7 +149,7 @@
                 document.getElementById('main-app').classList.remove('hidden');
                 initData();
             } else {
-                alert("Wrong password");
+                alert("Incorrect password");
             }
         }
 
@@ -173,11 +163,12 @@
             document.getElementById(`tab-${tab}`).classList.remove('hidden');
             document.querySelectorAll('.tab-btn')[tab].classList.add('tab-active');
 
-            if (tab === 2) renderBankUI();
+            if (tab === 2) {
+                renderBankUI();
+            }
         }
 
         function initData() {
-            // Load family members
             const saved = localStorage.getItem('familyMembers');
             if (saved) {
                 familyMembers = JSON.parse(saved);
@@ -190,136 +181,7 @@
                 ];
                 localStorage.setItem('familyMembers', JSON.stringify(familyMembers));
             }
-
-            // Load saved data
-            const savedBanks = localStorage.getItem('bankAccounts');
-            if (savedBanks) bankAccounts = JSON.parse(savedBanks);
-
-            const savedTxns = localStorage.getItem('allTransactions');
-            if (savedTxns) allTransactions = JSON.parse(savedTxns);
-
             renderFamilyTable();
-            updateDashboard();
-        }
-
-        function saveData() {
-            localStorage.setItem('familyMembers', JSON.stringify(familyMembers));
-            localStorage.setItem('bankAccounts', JSON.stringify(bankAccounts));
-            localStorage.setItem('allTransactions', JSON.stringify(allTransactions));
-        }
-
-        // ==================== BANK ACCOUNTS ====================
-        function renderBankUI() {
-            // Populate filters
-            const personSel = document.getElementById('filter-person');
-            personSel.innerHTML = '<option value="">All Persons</option>';
-            familyMembers.forEach(m => {
-                const opt = document.createElement('option');
-                opt.value = m.id; opt.textContent = m.name;
-                personSel.appendChild(opt);
-            });
-
-            filterTransactions();
-            updateBankSummary();
-        }
-
-        function updateBankSummary() {
-            document.getElementById('bank-total-txns').textContent = allTransactions.length;
-            let w = 0, d = 0;
-            allTransactions.forEach(t => {
-                w += parseFloat(t.withdrawal) || 0;
-                d += parseFloat(t.deposit) || 0;
-            });
-            document.getElementById('bank-total-withdrawal').textContent = '₹' + w.toLocaleString('en-IN');
-            document.getElementById('bank-total-deposit').textContent = '₹' + d.toLocaleString('en-IN');
-            document.getElementById('dash-bank-count').textContent = bankAccounts.length;
-        }
-
-        function filterTransactions() {
-            const person = document.getElementById('filter-person').value;
-            const search = document.getElementById('filter-search').value.toLowerCase();
-            const tbody = document.getElementById('transactions-table');
-            tbody.innerHTML = '';
-
-            let filtered = allTransactions;
-
-            if (person) filtered = filtered.filter(t => t.personId === person);
-            if (search) filtered = filtered.filter(t => t.narration?.toLowerCase().includes(search));
-
-            filtered.forEach(t => {
-                const personObj = familyMembers.find(p => p.id === t.personId);
-                const row = document.createElement('tr');
-                row.innerHTML = `
-                    <td class="py-3 px-4">${t.date}</td>
-                    <td class="py-3 px-4">${personObj ? personObj.name : ''}</td>
-                    <td class="py-3 px-4">${t.bankName}</td>
-                    <td class="py-3 px-4 text-xs max-w-xs truncate">${t.narration}</td>
-                    <td class="py-3 px-4 text-right text-red-400">${t.withdrawal ? '₹' + parseFloat(t.withdrawal).toLocaleString('en-IN') : ''}</td>
-                    <td class="py-3 px-4 text-right text-green-400">${t.deposit ? '₹' + parseFloat(t.deposit).toLocaleString('en-IN') : ''}</td>
-                `;
-                tbody.appendChild(row);
-            });
-        }
-
-        // Load your HDFC JSON directly from file
-        async function loadHDFCDataFromFile() {
-            if (!confirm("This will load your HDFC_4684.json from the 'bank/muralidhar/' folder. Continue?")) return;
-
-            try {
-                const response = await fetch('./bank/muralidhar/HDFC_4684.json');
-                if (!response.ok) {
-                    alert("File not found. Make sure HDFC_4684.json is inside bank/muralidhar/ folder.");
-                    return;
-                }
-                const data = await response.json();
-
-                // Find or create HDFC account for Muralidhar
-                let hdfcAccount = bankAccounts.find(a => a.personId === "muralidhar" && a.bankName === "HDFC");
-                
-                if (!hdfcAccount) {
-                    hdfcAccount = {
-                        id: Date.now().toString(),
-                        personId: "muralidhar",
-                        bankName: "HDFC",
-                        accountNumber: "4684"
-                    };
-                    bankAccounts.push(hdfcAccount);
-                }
-
-                // Clear old transactions for this account
-                allTransactions = allTransactions.filter(t => t.bankAccountId !== hdfcAccount.id);
-
-                let count = 0;
-                data.forEach(item => {
-                    const date = item.Date || item.date;
-                    if (!date) return;
-
-                    allTransactions.push({
-                        id: Date.now().toString(36) + Math.random(),
-                        personId: "muralidhar",
-                        bankAccountId: hdfcAccount.id,
-                        bankName: "HDFC",
-                        date: date,
-                        narration: item.Narration || "",
-                        withdrawal: parseFloat(String(item["Withdrawal Amount"] || 0).replace(/,/g, '')) || 0,
-                        deposit: parseFloat(String(item["Deposit Amount"] || 0).replace(/,/g, '')) || 0,
-                        balance: parseFloat(String(item["Closing Balance*"] || 0).replace(/,/g, '')) || 0
-                    });
-                    count++;
-                });
-
-                saveData();
-                alert(`${count} transactions loaded successfully from HDFC_4684.json`);
-                renderBankUI();
-                updateDashboard();
-
-            } catch (error) {
-                alert("Error loading file: " + error.message);
-            }
-        }
-
-        function showAddBankAccountModal() {
-            alert("Add Bank Account feature will be improved in next update. For now, use the 'Load HDFC Data' button.");
         }
 
         function renderFamilyTable() {
@@ -338,9 +200,9 @@
         }
 
         function deleteFamilyMember(i) {
-            if (confirm("Delete member?")) {
+            if (confirm("Delete this member?")) {
                 familyMembers.splice(i, 1);
-                saveData();
+                localStorage.setItem('familyMembers', JSON.stringify(familyMembers));
                 renderFamilyTable();
             }
         }
@@ -349,20 +211,103 @@
             const name = prompt("Full Name:");
             if (!name) return;
             const relation = prompt("Relation:", "Son");
-            const dob = prompt("Date of Birth (YYYY-MM-DD):", "2015-01-01");
+            const dob = prompt("Date of Birth (YYYY-MM-DD):");
             familyMembers.push({ id: Date.now().toString(), name, dob, relation });
-            saveData();
+            localStorage.setItem('familyMembers', JSON.stringify(familyMembers));
             renderFamilyTable();
         }
 
-        function updateDashboard() {
-            // Can be expanded later
+        // ==================== BANK ACCOUNTS ====================
+        async function loadHDFCDataFromFile() {
+            try {
+                const res = await fetch('./bank/muralidhar/HDFC_4684.json');
+                if (!res.ok) {
+                    alert("Could not find HDFC_4684.json in bank/muralidhar/ folder");
+                    return;
+                }
+                const data = await res.json();
+
+                currentTransactions = [];
+
+                data.forEach(item => {
+                    const date = item.Date || item.date;
+                    if (!date) return;
+
+                    currentTransactions.push({
+                        date: date,
+                        personId: "muralidhar",
+                        bankName: "HDFC",
+                        narration: item.Narration || "",
+                        withdrawal: parseFloat(String(item["Withdrawal Amount"] || 0).replace(/,/g, '')) || 0,
+                        deposit: parseFloat(String(item["Deposit Amount"] || 0).replace(/,/g, '')) || 0,
+                        balance: parseFloat(String(item["Closing Balance*"] || 0).replace(/,/g, '')) || 0
+                    });
+                });
+
+                alert(`${currentTransactions.length} transactions loaded successfully!`);
+                renderBankUI();
+
+            } catch (err) {
+                alert("Error loading file: " + err.message);
+            }
         }
 
-        function initApp() {
-            // Auto init
+        function renderBankUI() {
+            // Populate person filter
+            const personSel = document.getElementById('filter-person');
+            personSel.innerHTML = '<option value="">All Persons</option>';
+            familyMembers.forEach(m => {
+                const opt = document.createElement('option');
+                opt.value = m.id;
+                opt.textContent = m.name;
+                personSel.appendChild(opt);
+            });
+
+            filterTransactions();
+            updateBankSummary();
         }
 
+        function filterTransactions() {
+            const person = document.getElementById('filter-person').value;
+            const search = document.getElementById('filter-search').value.toLowerCase();
+            const tbody = document.getElementById('transactions-table');
+            tbody.innerHTML = '';
+
+            let filtered = currentTransactions;
+
+            if (person) filtered = filtered.filter(t => t.personId === person);
+            if (search) filtered = filtered.filter(t => t.narration?.toLowerCase().includes(search));
+
+            filtered.forEach(t => {
+                const personObj = familyMembers.find(p => p.id === t.personId);
+                const row = document.createElement('tr');
+                row.innerHTML = `
+                    <td class="py-3 px-4">${t.date}</td>
+                    <td class="py-3 px-4">${personObj ? personObj.name : ''}</td>
+                    <td class="py-3 px-4">${t.bankName}</td>
+                    <td class="py-3 px-4 text-xs max-w-xs truncate">${t.narration}</td>
+                    <td class="py-3 px-4 text-right text-red-400">${t.withdrawal ? '₹' + t.withdrawal.toLocaleString('en-IN') : ''}</td>
+                    <td class="py-3 px-4 text-right text-green-400">${t.deposit ? '₹' + t.deposit.toLocaleString('en-IN') : ''}</td>
+                `;
+                tbody.appendChild(row);
+            });
+        }
+
+        function updateBankSummary() {
+            document.getElementById('bank-total-txns').textContent = currentTransactions.length;
+
+            let w = 0, d = 0;
+            currentTransactions.forEach(t => {
+                w += t.withdrawal || 0;
+                d += t.deposit || 0;
+            });
+
+            document.getElementById('bank-total-withdrawal').textContent = '₹' + w.toLocaleString('en-IN');
+            document.getElementById('bank-total-deposit').textContent = '₹' + d.toLocaleString('en-IN');
+            document.getElementById('dash-bank-count').textContent = currentTransactions.length > 0 ? 1 : 0;
+        }
+
+        function initApp() {}
         window.onload = initApp;
     </script>
 </body>
