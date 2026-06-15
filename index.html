@@ -1094,18 +1094,48 @@ let allEquityTransactions = []; // Store original data
 
 // Helper: Get Financial Year from date (April–March)
 function getEquityFinancialYear(transaction) {
-    const dateStr = getValidTradeDate(transaction);
+    if (!transaction) return null;
+
+    // Try multiple possible date fields
+    let dateStr = transaction.tradeDate || 
+                  transaction.orderExecutionTime || 
+                  transaction.settlementDate || "";
+
     if (!dateStr) return null;
 
-    const date = new Date(dateStr);
-    if (isNaN(date.getTime())) return null;
+    dateStr = String(dateStr).trim();
 
-    const year = date.getFullYear();
-    const month = date.getMonth() + 1;
+    // Extract year using multiple strategies
+    let year = null;
+    let month = null;
 
-    return month >= 4 
-        ? `${year}-${(year + 1).toString().slice(-2)}` 
-        : `${year - 1}-${year.toString().slice(-2)}`;
+    // Strategy 1: YYYY-MM-DD format
+    if (/^\d{4}-\d{2}-\d{2}/.test(dateStr)) {
+        year = parseInt(dateStr.substring(0, 4));
+        month = parseInt(dateStr.substring(5, 7));
+    } 
+    // Strategy 2: DD-MM-YYYY format
+    else if (/^\d{2}-\d{2}-\d{4}/.test(dateStr)) {
+        year = parseInt(dateStr.substring(6, 10));
+        month = parseInt(dateStr.substring(3, 5));
+    } 
+    // Strategy 3: Try native Date as last resort
+    else {
+        const d = new Date(dateStr);
+        if (!isNaN(d.getTime())) {
+            year = d.getFullYear();
+            month = d.getMonth() + 1;
+        }
+    }
+
+    if (!year || year < 2000 || year > 2030) return null;
+
+    // Indian Financial Year logic
+    if (month >= 4) {
+        return `${year}-${(year + 1).toString().slice(-2)}`;
+    } else {
+        return `${year - 1}-${year.toString().slice(-2)}`;
+    }
 }
 
 // Populate FY dropdown
@@ -1113,25 +1143,28 @@ function populateEquityFYFilter() {
     const select = document.getElementById('equityFYFilter');
     if (!select) return;
 
+    select.innerHTML = '<option value="">All Years</option>';
+
     if (!allEquityTransactions || allEquityTransactions.length === 0) {
-        select.innerHTML = '<option value="">All Years</option>';
+        console.warn("No equity data loaded yet");
         return;
     }
 
     const fySet = new Set();
 
-    allEquityTransactions.forEach(t => {
+    allEquityTransactions.forEach((t, index) => {
         const fy = getEquityFinancialYear(t);
-        if (fy) fySet.add(fy);
+        if (fy) {
+            fySet.add(fy);
+        } else if (index < 5) {
+            // Debug first 5 records
+            console.log("No FY for record:", t.tradeDate || t.orderExecutionTime, t.symbol);
+        }
     });
 
     const sortedFYs = Array.from(fySet).sort((a, b) => b.localeCompare(a));
 
-    select.innerHTML = '<option value="">All Years</option>';
-    
-    if (sortedFYs.length === 0) {
-        console.warn("No valid FY found in data. Check date formats.");
-    }
+    console.log("Financial Years found:", sortedFYs.length > 0 ? sortedFYs : "NONE");
 
     sortedFYs.forEach(fy => {
         const opt = document.createElement('option');
@@ -1139,6 +1172,10 @@ function populateEquityFYFilter() {
         opt.textContent = `FY ${fy}`;
         select.appendChild(opt);
     });
+
+    if (sortedFYs.length === 0) {
+        alert("Still no years detected. Please check browser console (F12) for debug logs.");
+    }
 }
 
 
