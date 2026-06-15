@@ -28,5 +28,11 @@
     "bankName": "ICICI",
     "filePath": "bank/leena/ICICI_437801504863.json",
     "accountNumber": "43780"
+  },
+  {
+    "personId": "leena",
+    "broker": "Zerodha",
+    "filePath": "equity/muralidhar/zerodha_ND4971.json",
+    "accountNumber": "ND4971"
   }
 ]
