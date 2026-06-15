@@ -4,5 +4,11 @@
     "broker": "Zerodha",
     "filePath": "equity/muralidhar/zerodha_ND4971.json",
     "accountNumber": "ND4971"
+  },
+  {
+    "personId": "leena",
+    "broker": "Zerodha",
+    "filePath": "equity/leena/zerodha_FL3689.json",
+    "accountNumber": "FL3689"
   }
 ]
