@@ -317,11 +317,26 @@
                 </div>
             </div>
 
-            <!-- Symbol Filter -->
-            <div class="mb-4">
-                <input type="text" id="equitySymbolFilter" placeholder="Search Symbol (e.g. RELIANCE, GOLDBEES)"
-                    onkeyup="filterEquityTransactions()"
-                    class="w-full md:w-96 bg-zinc-800 border border-zinc-700 text-white px-4 py-2 rounded-lg">
+            <!-- Filters Row -->
+            <div class="flex flex-col md:flex-row gap-4 mb-4">
+                
+                <!-- Financial Year Filter -->
+                <div class="w-full md:w-64">
+                    <label class="block text-sm font-medium text-zinc-400 mb-1">Financial Year</label>
+                    <select id="equityFYFilter" onchange="filterEquityTransactions()"
+                            class="w-full bg-zinc-800 border border-zinc-700 text-white px-4 py-2 rounded-lg">
+                        <option value="">All Years</option>
+                    </select>
+                </div>
+
+                <!-- Symbol Search -->
+                <div class="flex-1">
+                    <label class="block text-sm font-medium text-zinc-400 mb-1">Search Symbol</label>
+                    <input type="text" id="equitySymbolFilter" placeholder="e.g. RELIANCE, GOLDBEES"
+                        onkeyup="filterEquityTransactions()"
+                        class="w-full bg-zinc-800 border border-zinc-700 text-white px-4 py-2 rounded-lg">
+                </div>
+
             </div>
 
             <!-- Transactions Table -->
@@ -1048,6 +1063,46 @@ function populateFinancialYearFilter() {
 
 // ==================== EQUITY TAB ====================
 let equityTransactions = [];
+let allEquityTransactions = []; // Store original data
+
+// Helper: Get Financial Year from date (April–March)
+function getEquityFinancialYear(dateStr) {
+    if (!dateStr) return null;
+    const date = new Date(dateStr);
+    const year = date.getFullYear();
+    const month = date.getMonth() + 1; // 0-indexed
+
+    if (month >= 4) {
+        return `${year}-${(year + 1).toString().slice(-2)}`;
+    } else {
+        return `${year - 1}-${year.toString().slice(-2)}`;
+    }
+}
+
+// Populate FY dropdown
+function populateEquityFYFilter() {
+    const select = document.getElementById('equityFYFilter');
+    if (!select || allEquityTransactions.length === 0) return;
+
+    const fySet = new Set();
+    allEquityTransactions.forEach(t => {
+        const fy = getEquityFinancialYear(t.tradeDate);
+        if (fy) fySet.add(fy);
+    });
+
+    // Sort FYs descending (latest first)
+    const sortedFYs = Array.from(fySet).sort((a, b) => b.localeCompare(a));
+
+    select.innerHTML = '<option value="">All Years</option>';
+    sortedFYs.forEach(fy => {
+        const option = document.createElement('option');
+        option.value = fy;
+        option.textContent = `FY ${fy}`;
+        select.appendChild(option);
+    });
+}
+
+
 
 function generateEquityLoadButtons() {
     const container = document.getElementById('equityLoadButtons');
@@ -1082,21 +1137,28 @@ function generateEquityLoadButtons() {
     });
 }
 
+// Load Equity Account
 async function loadEquityAccount(filePath, personId, broker, accountNumber) {
     try {
         const res = await fetch(filePath);
         const data = await res.json();
-        equityTransactions = data;
 
-        updateEquitySummary();
-        renderEquityTable(equityTransactions);
+        allEquityTransactions = data;
+        equityTransactions = [...data];
+
+        populateEquityFYFilter();
+        filterEquityTransactions(); // Apply current filters
+
         showToast(`Loaded ${broker} - ${data.length} trades`, 'success');
     } catch (err) {
-        showToast('Failed to load equity file', 'error');
         console.error(err);
+        showToast('Failed to load equity file', 'error');
     }
 }
 
+
+
+// Update Summary Cards
 function updateEquitySummary() {
     const txns = equityTransactions;
     let buy = 0, sell = 0;
@@ -1113,51 +1175,74 @@ function updateEquitySummary() {
     document.getElementById('equityNetInvestment').textContent = '₹' + (buy - sell).toLocaleString('en-IN');
 }
 
+// Render Table
 function renderEquityTable(txns) {
     const tbody = document.getElementById('equityTableBody');
     tbody.innerHTML = '';
 
     if (!txns.length) {
-        tbody.innerHTML = `<tr><td colspan="7" class="px-6 py-8 text-center text-zinc-500">No data loaded</td></tr>`;
+        tbody.innerHTML = `<tr><td colspan="7" class="px-6 py-8 text-center text-zinc-500">No transactions found</td></tr>`;
         return;
     }
 
     txns.forEach(t => {
         const value = t.quantity * t.price;
         const row = document.createElement('tr');
+        row.className = 'hover:bg-zinc-800';
+
         row.innerHTML = `
-            <td class="px-6 py-3">${t.tradeDate}</td>
+            <td class="px-6 py-3 text-sm">${t.tradeDate}</td>
             <td class="px-6 py-3 font-medium">${t.symbol}</td>
             <td class="px-6 py-3">
-                <span class="px-2 py-0.5 text-xs rounded ${t.tradeType === 'buy' ? 'bg-emerald-500/20 text-emerald-400' : 'bg-red-500/20 text-red-400'}">
+                <span class="px-2.5 py-0.5 text-xs rounded-full font-medium 
+                    ${t.tradeType === 'buy' ? 'bg-emerald-500/20 text-emerald-400' : 'bg-red-500/20 text-red-400'}">
                     ${t.tradeType.toUpperCase()}
                 </span>
             </td>
             <td class="px-6 py-3 text-right">${t.quantity}</td>
             <td class="px-6 py-3 text-right">₹${t.price}</td>
             <td class="px-6 py-3 text-right font-medium">₹${value.toFixed(2)}</td>
-            <td class="px-6 py-3">${t.exchange}</td>
+            <td class="px-6 py-3 text-sm">${t.exchange}</td>
         `;
         tbody.appendChild(row);
     });
 }
 
+// Main filter function (FY + Symbol)
 function filterEquityTransactions() {
-    const filter = document.getElementById('equitySymbolFilter').value.toUpperCase().trim();
-    const filtered = filter 
-        ? equityTransactions.filter(t => t.symbol.includes(filter)) 
-        : equityTransactions;
+    const fyFilter = document.getElementById('equityFYFilter')?.value || '';
+    const symbolFilter = document.getElementById('equitySymbolFilter')?.value.toUpperCase().trim() || '';
+
+    let filtered = allEquityTransactions;
+
+    // Apply FY filter
+    if (fyFilter) {
+        filtered = filtered.filter(t => getEquityFinancialYear(t.tradeDate) === fyFilter);
+    }
+
+    // Apply Symbol filter
+    if (symbolFilter) {
+        filtered = filtered.filter(t => t.symbol.includes(symbolFilter));
+    }
+
+    equityTransactions = filtered;
     renderEquityTable(filtered);
+    updateEquitySummary();
 }
 
+
+
+// Clear Data
 function clearEquityData() {
     equityTransactions = [];
+    allEquityTransactions = [];
     document.getElementById('equityTableBody').innerHTML = '';
     document.getElementById('equityTotalTrades').textContent = '0';
     document.getElementById('equityTotalBuy').textContent = '₹0';
     document.getElementById('equityTotalSell').textContent = '₹0';
     document.getElementById('equityNetInvestment').textContent = '₹0';
     document.getElementById('equitySymbolFilter').value = '';
+    document.getElementById('equityFYFilter').innerHTML = '<option value="">All Years</option>';
 }
 
 // Call this when Equity tab is opened
