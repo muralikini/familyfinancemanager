@@ -569,27 +569,35 @@ async function loadBankFile(account) {
                 personId: account.personId,
                 bankName: account.bankName,
                 narration: item.Narration || item.Description || item["Transaction Remarks"] || "",
-                withdrawal: parseFloat(String(
-                    item["Withdrawal Amount"] || item.Debit || item["Withdrawal Amount (INR )"] || 0
-                ).replace(/,/g, '')) || 0,
-                deposit: parseFloat(String(
-                    item["Deposit Amount"] || item.Credit || item["Deposit Amount (INR )"] || 0
-                ).replace(/,/g, '')) || 0,
-                balance: parseFloat(String(
-                    item["Closing Balance*"] || item.Balance || item["Balance (INR )"] || 0
-                ).replace(/,/g, '')) || 0
+                
+                // === IMPROVED PARSING ===
+                withdrawal: parseAmount(
+                    item["Withdrawal Amount"] || 
+                    item.Debit || 
+                    item["Withdrawal Amount (INR )"]
+                ),
+                deposit: parseAmount(
+                    item["Deposit Amount"] || 
+                    item.Credit || 
+                    item["Deposit Amount (INR )"]
+                ),
+                balance: parseAmount(
+                    item["Closing Balance*"] || 
+                    item.Balance || 
+                    item["Balance (INR )"]
+                )
             });
             added++;
         });
 
         alert(`${added} transactions loaded from ${account.bankName}`);
 
-        // === Auto Refresh Everything ===
-        populateFinancialYearFilter();     // Refresh FY dropdown
-        generateLoadButtons();             // Refresh Available Bank buttons
-        refreshPersonFilter();           // ← Add this line
-        filterTransactions();              // Refresh the transactions table
-        refreshDashboard();                // Refresh Dashboard
+        // Refresh everything
+        populateFinancialYearFilter();
+        generateLoadButtons();
+        refreshPersonFilter();
+        filterTransactions();
+        refreshDashboard();
 
     } catch (err) {
         alert("Error loading file: " + err.message);
@@ -748,6 +756,20 @@ function populateFinancialYearFilter() {
 }
 
 // ==================== HELPER FUNCTIONS ====================
+function parseAmount(value) {
+    if (!value) return 0;
+    
+    // Convert to string and clean it
+    let str = String(value).trim();
+    
+    // Remove all commas, spaces, and any non-numeric characters except dot and minus
+    str = str.replace(/[^0-9.-]/g, '');
+    
+    const num = parseFloat(str);
+    
+    return isNaN(num) ? 0 : num;
+}
+
 function parseCustomDate(dateStr) {
     if (!dateStr) return null;
     const str = String(dateStr).trim();
