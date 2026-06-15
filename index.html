@@ -12,7 +12,6 @@
 </head>
 <body class="bg-zinc-950 text-zinc-200">
 
-    <!-- Login Screen -->
     <div id="login-screen" class="min-h-screen flex items-center justify-center">
         <div class="w-full max-w-md bg-zinc-900 border border-zinc-700 rounded-3xl p-8">
             <div class="text-center mb-8">
@@ -26,7 +25,6 @@
         </div>
     </div>
 
-    <!-- Main App -->
     <div id="main-app" class="hidden">
         <div class="bg-zinc-900 border-b border-zinc-800 px-6 py-4">
             <div class="max-w-screen-2xl mx-auto flex justify-between items-center">
@@ -134,7 +132,6 @@
                 <button onclick="clearFilters()" class="px-4 py-2 bg-zinc-700 hover:bg-zinc-600 rounded-2xl text-sm">Clear</button>
             </div>
 
-            <!-- Transactions Table -->
             <div class="bg-zinc-900 border border-zinc-700 rounded-3xl p-6">
                 <div class="overflow-auto max-h-[550px]">
                     <table class="w-full text-sm">
@@ -231,34 +228,46 @@
             renderFamilyTable();
         }
 
-        // ==================== DATE HELPER ====================
+        // ==================== IMPROVED DATE PARSING ====================
         function parseCustomDate(dateStr) {
             if (!dateStr) return null;
+            const str = dateStr.trim();
+
             // Handle DD/MM/YYYY and DD-MM-YYYY
-            const parts = dateStr.split(/[-\/]/);
+            const parts = str.split(/[-\/]/);
             if (parts.length === 3) {
-                const day = parseInt(parts[0], 10);
-                const month = parseInt(parts[1], 10) - 1; // JS months are 0-based
-                const year = parseInt(parts[2], 10);
-                return new Date(year, month, day);
+                let day = parseInt(parts[0], 10);
+                let month = parseInt(parts[1], 10);
+                let year = parseInt(parts[2], 10);
+
+                // Validate
+                if (day > 31 || month > 12 || year < 1900) return null;
+
+                return new Date(year, month - 1, day);
             }
-            return new Date(dateStr);
+            return new Date(str);
         }
 
         function getFinancialYear(dateStr) {
             const d = parseCustomDate(dateStr);
             if (!d || isNaN(d.getTime())) return "";
+            
             const year = d.getFullYear();
-            const month = d.getMonth() + 1;
-            return month >= 4 ? `${year}-${(year + 1).toString().slice(-2)}` : `${year - 1}-${year.toString().slice(-2)}`;
+            const month = d.getMonth() + 1; // 1-12
+
+            if (month >= 4) {
+                return `${year}-${(year + 1).toString().slice(-2)}`;
+            } else {
+                return `${year - 1}-${year.toString().slice(-2)}`;
+            }
         }
 
-        // ==================== LOAD HDFC DATA ====================
+        // ==================== LOAD DATA ====================
         async function loadHDFCDataFromFile() {
             try {
                 const res = await fetch('./bank/muralidhar/HDFC_4684.json');
                 if (!res.ok) {
-                    alert("File not found: bank/muralidhar/HDFC_4684.json");
+                    alert("File not found at bank/muralidhar/HDFC_4684.json");
                     return;
                 }
                 const data = await res.json();
@@ -280,7 +289,7 @@
                     });
                 });
 
-                alert(`${currentTransactions.length} transactions loaded!`);
+                alert(`${currentTransactions.length} transactions loaded successfully!`);
                 renderBankUI();
 
             } catch (err) {
@@ -299,15 +308,24 @@
                 personSel.appendChild(opt);
             });
 
-            // Financial Year Filter
+            // Financial Year Filter - Improved
             const fySel = document.getElementById('filter-fy');
             fySel.innerHTML = '<option value="">All Years</option>';
             const fySet = new Set();
+
             currentTransactions.forEach(t => {
                 const fy = getFinancialYear(t.date);
                 if (fy) fySet.add(fy);
             });
-            [...fySet].sort().forEach(fy => {
+
+            // Sort FYs properly
+            const sortedFYs = [...fySet].sort((a, b) => {
+                const yearA = parseInt(a.split('-')[0]);
+                const yearB = parseInt(b.split('-')[0]);
+                return yearA - yearB;
+            });
+
+            sortedFYs.forEach(fy => {
                 const opt = document.createElement('option');
                 opt.value = fy;
                 opt.textContent = `FY ${fy}`;
