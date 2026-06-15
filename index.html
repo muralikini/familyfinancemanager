@@ -1111,7 +1111,12 @@ function getEquityFinancialYear(transaction) {
 // Populate FY dropdown
 function populateEquityFYFilter() {
     const select = document.getElementById('equityFYFilter');
-    if (!select || allEquityTransactions.length === 0) return;
+    if (!select) return;
+
+    if (!allEquityTransactions || allEquityTransactions.length === 0) {
+        select.innerHTML = '<option value="">All Years</option>';
+        return;
+    }
 
     const fySet = new Set();
 
@@ -1123,6 +1128,11 @@ function populateEquityFYFilter() {
     const sortedFYs = Array.from(fySet).sort((a, b) => b.localeCompare(a));
 
     select.innerHTML = '<option value="">All Years</option>';
+    
+    if (sortedFYs.length === 0) {
+        console.warn("No valid FY found in data. Check date formats.");
+    }
+
     sortedFYs.forEach(fy => {
         const opt = document.createElement('option');
         opt.value = fy;
@@ -1284,26 +1294,31 @@ function filterEquityTransactions() {
 function parseTradeDate(dateStr) {
     if (!dateStr) return null;
 
-    const str = String(dateStr).trim();
+    let str = String(dateStr).trim();
 
-    // Try YYYY-MM-DD first (Zerodha format)
-    let date = new Date(str);
-    if (!isNaN(date.getTime())) {
-        return date;
-    }
+    // Remove time part if present
+    if (str.includes(" ")) str = str.split(" ")[0];
+    if (str.includes("T")) str = str.split("T")[0];
 
-    // Try DD-MM-YYYY (ICICI format)
+    // Try native Date first (works for YYYY-MM-DD)
+    let d = new Date(str);
+    if (!isNaN(d.getTime())) return d;
+
+    // Try DD-MM-YYYY or DD/MM/YYYY format
     const parts = str.split(/[-/]/);
     if (parts.length === 3) {
-        const day = parseInt(parts[0], 10);
-        const month = parseInt(parts[1], 10) - 1;
-        const year = parseInt(parts[2], 10);
+        let day = parseInt(parts[0], 10);
+        let month = parseInt(parts[1], 10);
+        let year = parseInt(parts[2], 10);
 
-        if (!isNaN(day) && !isNaN(month) && !isNaN(year)) {
-            date = new Date(year, month, day);
-            if (!isNaN(date.getTime())) {
-                return date;
-            }
+        // Swap if it looks like MM-DD-YYYY
+        if (month > 12 && day <= 12) {
+            [day, month] = [month, day];
+        }
+
+        if (year > 1900 && month >= 1 && month <= 12 && day >= 1 && day <= 31) {
+            d = new Date(year, month - 1, day);
+            if (!isNaN(d.getTime())) return d;
         }
     }
 
@@ -1465,17 +1480,17 @@ function renderIndividualHoldings(personHoldings) {
 }
 
 function getValidTradeDate(transaction) {
-    // Try tradeDate first
+    // 1. Try tradeDate
     let parsed = parseTradeDate(transaction.tradeDate);
     if (parsed) {
-        return parsed.toISOString().split('T')[0];
+        return parsed.toISOString().split("T")[0];
     }
 
-    // Fallback to orderExecutionTime
+    // 2. Fallback to orderExecutionTime
     if (transaction.orderExecutionTime) {
         parsed = parseTradeDate(transaction.orderExecutionTime);
         if (parsed) {
-            return parsed.toISOString().split('T')[0];
+            return parsed.toISOString().split("T")[0];
         }
     }
 
