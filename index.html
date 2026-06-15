@@ -584,13 +584,40 @@ async function loadBankFile(account) {
 
         alert(`${added} transactions loaded from ${account.bankName}`);
 
-        // === Refresh filters and table ===
-        populateFinancialYearFilter();   // ← This will now show the years
-        filterTransactions();
-        refreshDashboard();
+        // === Auto Refresh Everything ===
+        populateFinancialYearFilter();     // Refresh FY dropdown
+        generateLoadButtons();             // Refresh Available Bank buttons
+        refreshPersonFilter();           // ← Add this line
+        filterTransactions();              // Refresh the transactions table
+        refreshDashboard();                // Refresh Dashboard
 
     } catch (err) {
         alert("Error loading file: " + err.message);
+    }
+}
+
+function refreshPersonFilter() {
+    const personSel = document.getElementById('filter-person');
+    if (!personSel) return;
+
+    const currentValue = personSel.value;
+
+    personSel.innerHTML = '<option value="">All Persons</option>';
+
+    // Get unique personIds from loaded transactions + familyMembers
+    const personIdsInData = new Set(currentTransactions.map(t => t.personId));
+    
+    familyMembers.forEach(member => {
+        // Show only if they have data or always show all family members
+        const opt = document.createElement('option');
+        opt.value = member.id;
+        opt.textContent = member.name;
+        personSel.appendChild(opt);
+    });
+
+    // Restore previous selection if still valid
+    if (currentValue) {
+        personSel.value = currentValue;
     }
 }
 
