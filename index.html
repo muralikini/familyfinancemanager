@@ -568,31 +568,16 @@ async function loadBankFile(account) {
                 date: dateStr,
                 personId: account.personId,
                 bankName: account.bankName,
-                narration: item.Narration || item.Description || item["Transaction Remarks"] || "",
-                
-                // === IMPROVED PARSING ===
-                withdrawal: parseAmount(
-                    item["Withdrawal Amount"] || 
-                    item.Debit || 
-                    item["Withdrawal Amount (INR )"]
-                ),
-                deposit: parseAmount(
-                    item["Deposit Amount"] || 
-                    item.Credit || 
-                    item["Deposit Amount (INR )"]
-                ),
-                balance: parseAmount(
-                    item["Closing Balance*"] || 
-                    item.Balance || 
-                    item["Balance (INR )"]
-                )
+                narration: item.Narration || item.Description || item["Transaction Remarks"] || item["Chq. / Ref No."] || "",
+                withdrawal: parseAmount(item["Withdrawal Amount"] || item.Debit || item["Withdrawal Amount (INR )"]),
+                deposit: parseAmount(item["Deposit Amount"] || item.Credit || item["Deposit Amount (INR )"]),
+                balance: parseAmount(item["Closing Balance*"] || item.Balance || item["Balance (INR )"])
             });
             added++;
         });
 
         alert(`${added} transactions loaded from ${account.bankName}`);
 
-        // Refresh everything
         populateFinancialYearFilter();
         generateLoadButtons();
         refreshPersonFilter();
@@ -779,25 +764,36 @@ function parseCustomDate(dateStr) {
         'Jul': 6, 'Aug': 7, 'Sep': 8, 'Oct': 9, 'Nov': 10, 'Dec': 11
     };
 
-    // DD-MMM-YY / DD-MMM-YYYY format (SBI style)
-    const match1 = str.match(/^(\d{1,2})-([A-Za-z]{3})-(\d{2,4})$/);
-    if (match1) {
-        const day = parseInt(match1[1], 10);
-        const month = monthMap[match1[2]];
-        let year = parseInt(match1[3], 10);
+    // === Handle DD/MM/YY or DD-MM-YY (2-digit year) ===
+    const matchShort = str.match(/^(\d{1,2})[-\/](\d{1,2})[-\/](\d{2})$/);
+    if (matchShort) {
+        const day = parseInt(matchShort[1], 10);
+        const month = parseInt(matchShort[2], 10) - 1;
+        let year = parseInt(matchShort[3], 10);
+        year += (year < 50) ? 2000 : 1900; // 25 → 2025, 99 → 1999
+        return new Date(year, month, day);
+    }
+
+    // === Handle DD/MM/YYYY or DD-MM-YYYY (4-digit year) ===
+    const matchFull = str.match(/^(\d{1,2})[-\/](\d{1,2})[-\/](\d{4})$/);
+    if (matchFull) {
+        const day = parseInt(matchFull[1], 10);
+        const month = parseInt(matchFull[2], 10) - 1;
+        const year = parseInt(matchFull[3], 10);
+        return new Date(year, month, day);
+    }
+
+    // === Handle DD-MMM-YY format (SBI style) ===
+    const matchMMM = str.match(/^(\d{1,2})-([A-Za-z]{3})-(\d{2,4})$/);
+    if (matchMMM) {
+        const day = parseInt(matchMMM[1], 10);
+        const month = monthMap[matchMMM[2]];
+        let year = parseInt(matchMMM[3], 10);
         if (year < 100) year += 2000;
         if (month !== undefined) return new Date(year, month, day);
     }
 
-    // DD/MM/YYYY or DD-MM-YYYY format
-    const match2 = str.match(/^(\d{1,2})[-\/](\d{1,2})[-\/](\d{4})$/);
-    if (match2) {
-        const day = parseInt(match2[1], 10);
-        const month = parseInt(match2[2], 10) - 1;
-        const year = parseInt(match2[3], 10);
-        return new Date(year, month, day);
-    }
-
+    // Fallback
     const d = new Date(str);
     return isNaN(d.getTime()) ? null : d;
 }
