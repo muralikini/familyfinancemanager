@@ -692,6 +692,54 @@ function onPersonFilterChange() {
     filterTransactions();      // Also filter the table
 }
 
+// ==================== HELPER FUNCTIONS ====================
+function parseCustomDate(dateStr) {
+    if (!dateStr) return null;
+    const str = String(dateStr).trim();
+
+    const monthMap = {
+        'Jan': 0, 'Feb': 1, 'Mar': 2, 'Apr': 3, 'May': 4, 'Jun': 5,
+        'Jul': 6, 'Aug': 7, 'Sep': 8, 'Oct': 9, 'Nov': 10, 'Dec': 11
+    };
+
+    // DD-MMM-YY / DD-MMM-YYYY format (SBI style)
+    const match1 = str.match(/^(\d{1,2})-([A-Za-z]{3})-(\d{2,4})$/);
+    if (match1) {
+        const day = parseInt(match1[1], 10);
+        const month = monthMap[match1[2]];
+        let year = parseInt(match1[3], 10);
+        if (year < 100) year += 2000;
+        if (month !== undefined) return new Date(year, month, day);
+    }
+
+    // DD/MM/YYYY or DD-MM-YYYY format
+    const match2 = str.match(/^(\d{1,2})[-\/](\d{1,2})[-\/](\d{4})$/);
+    if (match2) {
+        const day = parseInt(match2[1], 10);
+        const month = parseInt(match2[2], 10) - 1;
+        const year = parseInt(match2[3], 10);
+        return new Date(year, month, day);
+    }
+
+    const d = new Date(str);
+    return isNaN(d.getTime()) ? null : d;
+}
+
+function getFinancialYear(dateStr) {
+    const d = parseCustomDate(dateStr);
+    if (!d) return "";
+    const year = d.getFullYear();
+    const month = d.getMonth() + 1;
+    return month >= 4 ? `${year}-${(year + 1).toString().slice(-2)}` : `${year - 1}-${year.toString().slice(-2)}`;
+}
+
+function getCurrentFinancialYear() {
+    const now = new Date();
+    const year = now.getFullYear();
+    const month = now.getMonth() + 1;
+    return month >= 4 ? `${year}-${(year + 1).toString().slice(-2)}` : `${year - 1}-${year.toString().slice(-2)}`;
+}
+
 
 
         function initApp() {}
