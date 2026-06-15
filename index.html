@@ -12,7 +12,7 @@
 </head>
 <body class="bg-zinc-950 text-zinc-200">
 
-    <!-- Login -->
+    <!-- Login Screen -->
     <div id="login-screen" class="min-h-screen flex items-center justify-center">
         <div class="w-full max-w-md bg-zinc-900 border border-zinc-700 rounded-3xl p-8">
             <div class="text-center mb-8">
@@ -26,8 +26,9 @@
         </div>
     </div>
 
-    <!-- Main App -->
+    <!-- Main Application -->
     <div id="main-app" class="hidden">
+        <!-- Header -->
         <div class="bg-zinc-900 border-b border-zinc-800 px-6 py-4">
             <div class="max-w-screen-2xl mx-auto flex justify-between items-center">
                 <div class="flex items-center gap-x-3">
@@ -89,17 +90,17 @@
             </div>
         </div>
 
-        <!-- BANK ACCOUNTS -->
+        <!-- BANK ACCOUNTS TAB -->
         <div id="tab-2" class="tab-content hidden max-w-screen-2xl mx-auto px-6 pt-8">
             <div class="flex justify-between items-center mb-6">
                 <h2 class="text-2xl font-semibold">Bank Accounts</h2>
-                <button onclick="loadHDFCDataFromFile()" 
-                        class="px-5 py-2.5 bg-emerald-600 hover:bg-emerald-700 rounded-2xl text-sm font-semibold">
+                <button onclick="loadHDFCDataFromFile()" class="px-5 py-2.5 bg-emerald-600 hover:bg-emerald-700 rounded-2xl text-sm font-semibold">
                     <i class="fas fa-download mr-2"></i> Load HDFC Data from File
                 </button>
             </div>
 
-            <div class="grid grid-cols-3 gap-6 mb-6">
+            <!-- Summary Cards -->
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mb-6">
                 <div class="bg-zinc-900 border border-zinc-700 rounded-3xl p-6">
                     <div class="text-sm text-zinc-400">Total Transactions</div>
                     <div class="text-4xl font-bold" id="bank-total-txns">0</div>
@@ -112,13 +113,30 @@
                     <div class="text-sm text-zinc-400">Total Deposits</div>
                     <div class="text-4xl font-bold text-green-400" id="bank-total-deposit">₹0</div>
                 </div>
+                <div class="bg-zinc-900 border border-zinc-700 rounded-3xl p-6">
+                    <div class="text-sm text-zinc-400">Current Balance</div>
+                    <div class="text-4xl font-bold text-amber-400" id="bank-current-balance">₹0</div>
+                </div>
             </div>
 
-            <div class="bg-zinc-900 border border-zinc-700 rounded-3xl p-4 mb-6 flex gap-4">
-                <select id="filter-person" onchange="filterTransactions()" class="bg-zinc-800 border border-zinc-700 rounded-2xl px-4 py-2 text-sm w-56"></select>
-                <input type="text" id="filter-search" onkeyup="filterTransactions()" placeholder="Search narration..." class="flex-1 bg-zinc-800 border border-zinc-700 rounded-2xl px-4 py-2 text-sm">
+            <!-- Filters -->
+            <div class="bg-zinc-900 border border-zinc-700 rounded-3xl p-4 mb-6 flex flex-wrap gap-4 items-end">
+                <div>
+                    <label class="block text-xs text-zinc-400 mb-1">Person</label>
+                    <select id="filter-person" onchange="filterTransactions()" class="bg-zinc-800 border border-zinc-700 rounded-2xl px-4 py-2 text-sm w-56"></select>
+                </div>
+                <div>
+                    <label class="block text-xs text-zinc-400 mb-1">Financial Year</label>
+                    <select id="filter-fy" onchange="filterTransactions()" class="bg-zinc-800 border border-zinc-700 rounded-2xl px-4 py-2 text-sm w-40"></select>
+                </div>
+                <div class="flex-1 min-w-[200px]">
+                    <label class="block text-xs text-zinc-400 mb-1">Search</label>
+                    <input type="text" id="filter-search" onkeyup="filterTransactions()" placeholder="Search in narration..." class="w-full bg-zinc-800 border border-zinc-700 rounded-2xl px-4 py-2 text-sm">
+                </div>
+                <button onclick="clearFilters()" class="px-4 py-2 bg-zinc-700 hover:bg-zinc-600 rounded-2xl text-sm">Clear Filters</button>
             </div>
 
+            <!-- Transactions Table -->
             <div class="bg-zinc-900 border border-zinc-700 rounded-3xl p-6">
                 <div class="overflow-auto max-h-[550px]">
                     <table class="w-full text-sm">
@@ -130,6 +148,7 @@
                                 <th class="text-left py-3 px-4">Narration</th>
                                 <th class="text-right py-3 px-4">Withdrawal</th>
                                 <th class="text-right py-3 px-4">Deposit</th>
+                                <th class="text-right py-3 px-4">Balance</th>
                             </tr>
                         </thead>
                         <tbody id="transactions-table" class="divide-y divide-zinc-800"></tbody>
@@ -141,7 +160,7 @@
 
     <script>
         let familyMembers = [];
-        let currentTransactions = []; // Loaded in memory only (not saved to localStorage)
+        let currentTransactions = [];
 
         function login() {
             if (document.getElementById('login-password').value === "family2026") {
@@ -163,9 +182,7 @@
             document.getElementById(`tab-${tab}`).classList.remove('hidden');
             document.querySelectorAll('.tab-btn')[tab].classList.add('tab-active');
 
-            if (tab === 2) {
-                renderBankUI();
-            }
+            if (tab === 2) renderBankUI();
         }
 
         function initData() {
@@ -200,7 +217,7 @@
         }
 
         function deleteFamilyMember(i) {
-            if (confirm("Delete this member?")) {
+            if (confirm("Delete this family member?")) {
                 familyMembers.splice(i, 1);
                 localStorage.setItem('familyMembers', JSON.stringify(familyMembers));
                 renderFamilyTable();
@@ -222,7 +239,7 @@
             try {
                 const res = await fetch('./bank/muralidhar/HDFC_4684.json');
                 if (!res.ok) {
-                    alert("Could not find HDFC_4684.json in bank/muralidhar/ folder");
+                    alert("File not found at bank/muralidhar/HDFC_4684.json");
                     return;
                 }
                 const data = await res.json();
@@ -230,11 +247,11 @@
                 currentTransactions = [];
 
                 data.forEach(item => {
-                    const date = item.Date || item.date;
-                    if (!date) return;
+                    const dateStr = item.Date || item.date;
+                    if (!dateStr) return;
 
                     currentTransactions.push({
-                        date: date,
+                        date: dateStr,
                         personId: "muralidhar",
                         bankName: "HDFC",
                         narration: item.Narration || "",
@@ -252,8 +269,16 @@
             }
         }
 
+        function getFinancialYear(dateStr) {
+            if (!dateStr) return "";
+            const d = new Date(dateStr);
+            const year = d.getFullYear();
+            const month = d.getMonth() + 1; // 0-indexed
+            return month >= 4 ? `${year}-${(year + 1).toString().slice(-2)}` : `${year - 1}-${year.toString().slice(-2)}`;
+        }
+
         function renderBankUI() {
-            // Populate person filter
+            // Populate Person filter
             const personSel = document.getElementById('filter-person');
             personSel.innerHTML = '<option value="">All Persons</option>';
             familyMembers.forEach(m => {
@@ -263,19 +288,37 @@
                 personSel.appendChild(opt);
             });
 
+            // Populate Financial Year filter
+            const fySel = document.getElementById('filter-fy');
+            fySel.innerHTML = '<option value="">All Years</option>';
+            const fySet = new Set();
+            currentTransactions.forEach(t => {
+                const fy = getFinancialYear(t.date);
+                if (fy) fySet.add(fy);
+            });
+            [...fySet].sort().forEach(fy => {
+                const opt = document.createElement('option');
+                opt.value = fy;
+                opt.textContent = `FY ${fy}`;
+                fySel.appendChild(opt);
+            });
+
             filterTransactions();
             updateBankSummary();
         }
 
         function filterTransactions() {
             const person = document.getElementById('filter-person').value;
+            const fy = document.getElementById('filter-fy').value;
             const search = document.getElementById('filter-search').value.toLowerCase();
+
             const tbody = document.getElementById('transactions-table');
             tbody.innerHTML = '';
 
             let filtered = currentTransactions;
 
             if (person) filtered = filtered.filter(t => t.personId === person);
+            if (fy) filtered = filtered.filter(t => getFinancialYear(t.date) === fy);
             if (search) filtered = filtered.filter(t => t.narration?.toLowerCase().includes(search));
 
             filtered.forEach(t => {
@@ -288,22 +331,38 @@
                     <td class="py-3 px-4 text-xs max-w-xs truncate">${t.narration}</td>
                     <td class="py-3 px-4 text-right text-red-400">${t.withdrawal ? '₹' + t.withdrawal.toLocaleString('en-IN') : ''}</td>
                     <td class="py-3 px-4 text-right text-green-400">${t.deposit ? '₹' + t.deposit.toLocaleString('en-IN') : ''}</td>
+                    <td class="py-3 px-4 text-right">${t.balance ? '₹' + t.balance.toLocaleString('en-IN') : ''}</td>
                 `;
                 tbody.appendChild(row);
             });
         }
 
+        function clearFilters() {
+            document.getElementById('filter-person').value = '';
+            document.getElementById('filter-fy').value = '';
+            document.getElementById('filter-search').value = '';
+            filterTransactions();
+        }
+
         function updateBankSummary() {
             document.getElementById('bank-total-txns').textContent = currentTransactions.length;
 
-            let w = 0, d = 0;
+            let totalW = 0, totalD = 0;
             currentTransactions.forEach(t => {
-                w += t.withdrawal || 0;
-                d += t.deposit || 0;
+                totalW += t.withdrawal || 0;
+                totalD += t.deposit || 0;
             });
 
-            document.getElementById('bank-total-withdrawal').textContent = '₹' + w.toLocaleString('en-IN');
-            document.getElementById('bank-total-deposit').textContent = '₹' + d.toLocaleString('en-IN');
+            document.getElementById('bank-total-withdrawal').textContent = '₹' + totalW.toLocaleString('en-IN');
+            document.getElementById('bank-total-deposit').textContent = '₹' + totalD.toLocaleString('en-IN');
+
+            // Current Balance (last transaction balance)
+            let currentBalance = 0;
+            if (currentTransactions.length > 0) {
+                const last = currentTransactions[currentTransactions.length - 1];
+                currentBalance = last.balance || 0;
+            }
+            document.getElementById('bank-current-balance').textContent = '₹' + currentBalance.toLocaleString('en-IN');
             document.getElementById('dash-bank-count').textContent = currentTransactions.length > 0 ? 1 : 0;
         }
 
