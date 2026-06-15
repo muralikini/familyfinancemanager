@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Family Finance Manager</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        .tab-active {
+            border-bottom: 3px solid #d97706;
+            color: white;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body class="bg-zinc-950 text-zinc-200">
+    <!-- Login Screen -->
+    <div id="login-screen" class="min-h-screen flex items-center justify-center">
+        <div class="w-full max-w-md bg-zinc-900 border border-zinc-700 rounded-3xl p-8">
+            <div class="text-center mb-8">
+                <div class="w-16 h-16 bg-amber-600 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                    <i class="fas fa-wallet text-white text-3xl"></i>
+                </div>
+                <h1 class="text-3xl font-bold">Family Finance Manager</h1>
+                <p class="text-zinc-400 mt-2">Your Personal Finance Dashboard</p>
+            </div>
+
+            <div class="space-y-4">
+                <div>
+                    <label class="text-sm text-zinc-400">Password</label>
+                    <input type="password" id="login-password" value="family2026" 
+                           class="w-full bg-zinc-800 border border-zinc-700 rounded-2xl px-4 py-3 mt-1 focus:outline-none focus:border-amber-500">
+                </div>
+                <button onclick="login()" 
+                        class="w-full bg-amber-600 hover:bg-amber-700 py-3 rounded-2xl font-semibold">
+                    Login
+                </button>
+            </div>
+            <p class="text-center text-xs text-zinc-500 mt-6">Default password: family2026</p>
+        </div>
+    </div>
+
+    <!-- Main Application -->
+    <div id="main-app" class="hidden">
+        <!-- Header -->
+        <div class="bg-zinc-900 border-b border-zinc-800 px-6 py-4">
+            <div class="max-w-screen-2xl mx-auto flex items-center justify-between">
+                <div class="flex items-center gap-x-3">
+                    <div class="w-10 h-10 bg-amber-600 rounded-2xl flex items-center justify-center">
+                        <i class="fas fa-wallet text-white"></i>
+                    </div>
+                    <div>
+                        <h1 class="text-2xl font-bold">Family Finance Manager</h1>
+                        <p class="text-xs text-zinc-400">Personal Finance &amp; Tax Tracker</p>
+                    </div>
+                </div>
+                <div class="flex items-center gap-x-4">
+                    <div class="text-right">
+                        <div class="font-medium">Bailur Muralidhar Kini</div>
+                        <div class="text-xs text-zinc-400">Logged in</div>
+                    </div>
+                    <button onclick="logout()" 
+                            class="px-4 py-2 bg-zinc-800 hover:bg-zinc-700 rounded-2xl text-sm flex items-center gap-x-2">
+                        <i class="fas fa-sign-out-alt"></i>
+                        <span>Logout</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Navigation Tabs -->
+        <div class="max-w-screen-2xl mx-auto px-6 pt-6">
+            <div class="flex border-b border-zinc-700">
+                <button onclick="switchTab(0)" class="tab-btn tab-active px-6 py-3 font-medium">Dashboard</button>
+                <button onclick="switchTab(1)" class="tab-btn px-6 py-3 font-medium">Admin Panel</button>
+                <button onclick="switchTab(2)" class="tab-btn px-6 py-3 font-medium">Bank Accounts</button>
+                <button onclick="switchTab(3)" class="tab-btn px-6 py-3 font-medium text-zinc-400">Mutual Funds</button>
+            </div>
+        </div>
+
+        <!-- DASHBOARD -->
+        <div id="tab-0" class="tab-content max-w-screen-2xl mx-auto px-6 pt-8">
+            <h2 class="text-2xl font-semibold mb-6">Dashboard</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+                <div class="bg-zinc-900 border border-zinc-700 rounded-3xl p-6">
+                    <div class="text-sm text-zinc-400">Total Bank Balance</div>
+                    <div class="text-4xl font-bold mt-2">₹0</div>
+                </div>
+                <div class="bg-zinc-900 border border-zinc-700 rounded-3xl p-6">
+                    <div class="text-sm text-zinc-400">This FY Transactions</div>
+                    <div class="text-4xl font-bold mt-2">0</div>
+                </div>
+                <div class="bg-zinc-900 border border-zinc-700 rounded-3xl p-6">
+                    <div class="text-sm text-zinc-400">Family Members</div>
+                    <div class="text-4xl font-bold mt-2" id="dash-members">4</div>
+                </div>
+                <div class="bg-zinc-900 border border-zinc-700 rounded-3xl p-6">
+                    <div class="text-sm text-zinc-400">Bank Accounts</div>
+                    <div class="text-4xl font-bold mt-2">0</div>
+                </div>
+            </div>
+
+            <div class="mt-8 text-center text-zinc-400">
+                <p>More summaries will appear here once we add Bank Accounts data.</p>
+            </div>
+        </div>
+
+        <!-- ADMIN PANEL -->
+        <div id="tab-1" class="tab-content hidden max-w-screen-2xl mx-auto px-6 pt-8">
+            <div class="flex justify-between items-center mb-6">
+                <h2 class="text-2xl font-semibold">Family Members</h2>
+                <button onclick="showAddMemberModal()" 
+                        class="px-5 py-2.5 bg-amber-600 hover:bg-amber-700 rounded-2xl text-sm font-semibold flex items-center gap-x-2">
+                    <i class="fas fa-plus"></i> Add New Member
+                </button>
+            </div>
+
+            <div class="bg-zinc-900 border border-zinc-700 rounded-3xl p-6">
+                <div class="overflow-x-auto">
+                    <table class="w-full text-sm">
+                        <thead>
+                            <tr class="border-b border-zinc-700 text-zinc-400">
+                                <th class="text-left py-3 px-4">Name</th>
+                                <th class="text-left py-3 px-4">Relation</th>
+                                <th class="text-left py-3 px-4">Date of Birth</th>
+                                <th class="text-center py-3 px-4">Action</th>
+                            </tr>
+                        </thead>
+                        <tbody id="family-table"></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- BANK ACCOUNTS (Placeholder) -->
+        <div id="tab-2" class="tab-content hidden max-w-screen-2xl mx-auto px-6 pt-8">
+            <h2 class="text-2xl font-semibold mb-6">Bank Accounts</h2>
+            <div class="bg-zinc-900 border border-zinc-700 rounded-3xl p-8 text-center">
+                <i class="fas fa-university text-4xl text-zinc-600 mb-4"></i>
+                <h3 class="text-xl font-semibold mb-2">Bank Accounts Coming Soon</h3>
+                <p class="text-zinc-400">We will build the full Bank Accounts tab with import functionality in the next stage.</p>
+            </div>
+        </div>
+
+        <div id="tab-3" class="tab-content hidden max-w-screen-2xl mx-auto px-6 pt-8">
+            <div class="text-center py-12 text-zinc-400">Mutual Funds tab will be added in later phase.</div>
+        </div>
+    </div>
+
+    <!-- Add Member Modal -->
+    <div id="add-member-modal" class="hidden fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-50">
+        <div class="bg-zinc-900 border border-zinc-700 rounded-3xl w-full max-w-md mx-4 p-6">
+            <h3 class="text-2xl font-semibold mb-6">Add Family Member</h3>
+            
+            <div class="space-y-4">
+                <div>
+                    <label class="text-sm text-zinc-400">Full Name</label>
+                    <input type="text" id="member-name" class="w-full bg-zinc-800 border border-zinc-700 rounded-2xl px-4 py-3 mt-1">
+                </div>
+                <div>
+                    <label class="text-sm text-zinc-400">Relation</label>
+                    <select id="member-relation" class="w-full bg-zinc-800 border border-zinc-700 rounded-2xl px-4 py-3 mt-1">
+                        <option value="Self">Self</option>
+                        <option value="Wife">Wife</option>
+                        <option value="Husband">Husband</option>
+                        <option value="Son">Son</option>
+                        <option value="Daughter">Daughter</option>
+                        <option value="Father">Father</option>
+                        <option value="Mother">Mother</option>
+                    </select>
+                </div>
+                <div>
+                    <label class="text-sm text-zinc-400">Date of Birth</label>
+                    <input type="date" id="member-dob" class="w-full bg-zinc-800 border border-zinc-700 rounded-2xl px-4 py-3 mt-1">
+                </div>
+            </div>
+
+            <div class="flex gap-x-3 mt-8">
+                <button onclick="addFamilyMember()" class="flex-1 bg-amber-600 hover:bg-amber-700 py-3 rounded-2xl font-semibold">Add Member</button>
+                <button onclick="closeAddMemberModal()" class="px-6 py-3 bg-zinc-700 hover:bg-zinc-600 rounded-2xl font-semibold">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Tailwind Script
+        function initializeTailwind() {
+            document.documentElement.style.setProperty('--accent', '#d97706');
+        }
+
+        // Login Function
+        function login() {
+            const password = document.getElementById('login-password').value;
+            if (password === "family2026") {
+                document.getElementById('login-screen').classList.add('hidden');
+                document.getElementById('main-app').classList.remove('hidden');
+                loadFamilyMembers();
+                switchTab(0);
+            } else {
+                alert("Incorrect password. Please try again.");
+            }
+        }
+
+        function logout() {
+            document.getElementById('main-app').classList.add('hidden');
+            document.getElementById('login-screen').classList.remove('hidden');
+            document.getElementById('login-password').value = "family2026";
+        }
+
+        // Tab Switching
+        function switchTab(tabIndex) {
+            document.querySelectorAll('.tab-content').forEach(el => el.classList.add('hidden'));
+            document.querySelectorAll('.tab-btn').forEach(el => el.classList.remove('tab-active'));
+            
+            document.getElementById(`tab-${tabIndex}`).classList.remove('hidden');
+            document.querySelectorAll('.tab-btn')[tabIndex].classList.add('tab-active');
+        }
+
+        // Family Members Management
+        let familyMembers = [];
+
+        function loadFamilyMembers() {
+            const saved = localStorage.getItem('familyMembers');
+            if (saved) {
+                familyMembers = JSON.parse(saved);
+            } else {
+                // Default 4 members
+                familyMembers = [
+                    { id: "muralidhar", name: "Bailur Muralidhar Kini", dob: "1978-04-14", relation: "Self" },
+                    { id: "leena", name: "Leena Kini", dob: "1978-05-07", relation: "Wife" },
+                    { id: "niyati", name: "Niyati Kini", dob: "2009-09-24", relation: "Daughter" },
+                    { id: "jayanth", name: "Jayanth Kini", dob: "2013-09-20", relation: "Son" }
+                ];
+                localStorage.setItem('familyMembers', JSON.stringify(familyMembers));
+            }
+            renderFamilyTable();
+        }
+
+        function renderFamilyTable() {
+            const tbody = document.getElementById('family-table');
+            tbody.innerHTML = '';
+
+            familyMembers.forEach((member, index) => {
+                const row = document.createElement('tr');
+                row.innerHTML = `
+                    <td class="py-4 px-4 font-medium">${member.name}</td>
+                    <td class="py-4 px-4">${member.relation}</td>
+                    <td class="py-4 px-4">${member.dob}</td>
+                    <td class="py-4 px-4 text-center">
+                        <button onclick="deleteFamilyMember(${index})" class="text-red-400 hover:text-red-500">
+                            <i class="fas fa-trash"></i>
+                        </button>
+                    </td>
+                `;
+                tbody.appendChild(row);
+            });
+
+            // Update dashboard count
+            const dashMembers = document.getElementById('dash-members');
+            if (dashMembers) dashMembers.textContent = familyMembers.length;
+        }
+
+        function showAddMemberModal() {
+            document.getElementById('add-member-modal').classList.remove('hidden');
+            document.getElementById('member-name').value = '';
+            document.getElementById('member-dob').value = '';
+        }
+
+        function closeAddMemberModal() {
+            document.getElementById('add-member-modal').classList.add('hidden');
+        }
+
+        function addFamilyMember() {
+            const name = document.getElementById('member-name').value.trim();
+            const relation = document.getElementById('member-relation').value;
+            const dob = document.getElementById('member-dob').value;
+
+            if (!name || !dob) {
+                alert("Please enter Name and Date of Birth");
+                return;
+            }
+
+            const newMember = {
+                id: Date.now().toString(),
+                name: name,
+                dob: dob,
+                relation: relation
+            };
+
+            familyMembers.push(newMember);
+            localStorage.setItem('familyMembers', JSON.stringify(familyMembers));
+            renderFamilyTable();
+            closeAddMemberModal();
+        }
+
+        function deleteFamilyMember(index) {
+            if (confirm("Are you sure you want to remove this family member?")) {
+                familyMembers.splice(index, 1);
+                localStorage.setItem('familyMembers', JSON.stringify(familyMembers));
+                renderFamilyTable();
+            }
+        }
+
+        // Initialize App
+        function initApp() {
+            initializeTailwind();
+            
+            // Auto login for development (remove later)
+            // document.getElementById('login-screen').classList.add('hidden');
+            // document.getElementById('main-app').classList.remove('hidden');
+            // loadFamilyMembers();
+        }
+
+        window.onload = initApp;
+    </script>
+</body>
+</html>
