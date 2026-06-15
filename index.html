@@ -88,24 +88,28 @@
                 </table>
             </div>
         </div>
-
-        <!-- BANK ACCOUNTS -->
+        <!-- ==================== BANK ACCOUNTS TAB ==================== -->
         <div id="tab-2" class="tab-content hidden max-w-screen-2xl mx-auto px-6 pt-8">
-            <div class="flex justify-between items-center mb-6">
-        <h2 class="text-2xl font-semibold">Bank Accounts</h2>
-        <button onclick="clearAllData()" class="px-4 py-2 bg-red-600 hover:bg-red-700 rounded-2xl text-sm font-semibold flex items-center gap-x-2">
-            <i class="fas fa-trash"></i> Clear All Data
-        </button>
+            <div class="flex justify-between items-center mb-6 flex-wrap gap-3">
+                <h2 class="text-2xl font-semibold">Bank Accounts</h2>
+                <button onclick="clearAllData()" 
+                        class="px-4 py-2 bg-red-600 hover:bg-red-700 rounded-2xl text-sm font-semibold flex items-center gap-x-2">
+                    <i class="fas fa-trash"></i> Clear All Data
+                </button>
             </div>
-            <!-- Auto-generated Load Buttons -->
+
+            <!-- Person-wise Bank Accounts -->
             <div class="mb-6">
-                <div class="text-sm text-zinc-400 mb-2">Available Bank Accounts</div>
+                <div class="flex items-center justify-between mb-2">
+                    <div class="text-sm text-zinc-400">Available Bank Accounts</div>
+                    <div class="text-xs text-zinc-500">Changes based on selected Person</div>
+                </div>
                 <div id="auto-load-buttons" class="flex flex-wrap gap-3">
-                    <!-- Buttons will be generated automatically from bank/accounts.json -->
+                    <!-- Buttons generated dynamically based on selected person -->
                 </div>
             </div>
 
-            <!-- Dynamic Summary -->
+            <!-- Summary Cards -->
             <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mb-6">
                 <div class="bg-zinc-900 border border-zinc-700 rounded-3xl p-6">
                     <div class="text-sm text-zinc-400" id="summary-label-txns">Total Transactions</div>
@@ -129,7 +133,7 @@
             <div class="bg-zinc-900 border border-zinc-700 rounded-3xl p-4 mb-6 flex flex-wrap gap-4">
                 <div>
                     <label class="block text-xs text-zinc-400 mb-1">Person</label>
-                    <select id="filter-person" onchange="filterTransactions()" class="bg-zinc-800 border border-zinc-700 rounded-2xl px-4 py-2 text-sm w-56"></select>
+                    <select id="filter-person" onchange="onPersonFilterChange()" class="bg-zinc-800 border border-zinc-700 rounded-2xl px-4 py-2 text-sm w-56"></select>
                 </div>
                 <div>
                     <label class="block text-xs text-zinc-400 mb-1">Financial Year</label>
@@ -137,11 +141,13 @@
                 </div>
                 <div class="flex-1 min-w-[220px]">
                     <label class="block text-xs text-zinc-400 mb-1">Search</label>
-                    <input type="text" id="filter-search" onkeyup="filterTransactions()" placeholder="Search narration..." class="w-full bg-zinc-800 border border-zinc-700 rounded-2xl px-4 py-2 text-sm">
+                    <input type="text" id="filter-search" onkeyup="filterTransactions()" placeholder="Search narration..." 
+                        class="w-full bg-zinc-800 border border-zinc-700 rounded-2xl px-4 py-2 text-sm">
                 </div>
                 <button onclick="clearFilters()" class="px-4 py-2 bg-zinc-700 hover:bg-zinc-600 rounded-2xl text-sm">Clear Filters</button>
             </div>
 
+            <!-- Transactions Table -->
             <div class="bg-zinc-900 border border-zinc-700 rounded-3xl p-6">
                 <div class="overflow-auto max-h-[550px]">
                     <table class="w-full text-sm">
@@ -161,6 +167,7 @@
                 </div>
             </div>
         </div>
+        
     </div>
 
     <script>
@@ -182,15 +189,18 @@
         }
 
         function switchTab(tab) {
-            document.querySelectorAll('.tab-content').forEach(el => el.classList.add('hidden'));
-            document.querySelectorAll('.tab-btn').forEach(el => el.classList.remove('tab-active'));
-            document.getElementById(`tab-${tab}`).classList.remove('hidden');
-            document.querySelectorAll('.tab-btn')[tab].classList.add('tab-active');
-            if (tab === 2) {
-                renderBankUI();
-                generateLoadButtons();   // ← Add this line
-            }
-        }
+    document.querySelectorAll('.tab-content').forEach(el => el.classList.add('hidden'));
+    document.querySelectorAll('.tab-btn').forEach(el => el.classList.remove('tab-active'));
+    
+    document.getElementById(`tab-${tab}`).classList.remove('hidden');
+    document.querySelectorAll('.tab-btn')[tab].classList.add('tab-active');
+
+    if (tab === 0) refreshDashboard();
+    if (tab === 2) {
+        renderBankUI();
+        generateLoadButtons();           // ← Important
+    }
+}
 
         function initData() {
             const saved = localStorage.getItem('familyMembers');
@@ -489,38 +499,49 @@
 async function loadAccountManifest() {
     try {
         const res = await fetch('./bank/accounts.json');
-        if (!res.ok) {
-            console.warn("accounts.json not found. Using manual buttons.");
-            return [];
-        }
+        if (!res.ok) return [];
         return await res.json();
     } catch (err) {
-        console.warn("Could not load accounts.json");
         return [];
     }
 }
 
+// ==================== AUTO GENERATE LOAD BUTTONS (Person-wise) ====================
 async function generateLoadButtons() {
     const container = document.getElementById('auto-load-buttons');
     container.innerHTML = '';
 
+    const selectedPerson = document.getElementById('filter-person').value;
+
     const accounts = await loadAccountManifest();
 
-    if (accounts.length === 0) {
-        container.innerHTML = `<div class="text-zinc-400 text-sm">No accounts configured in bank/accounts.json</div>`;
+    let filteredAccounts = accounts;
+
+    // Filter by selected person (if not "All Persons")
+    if (selectedPerson) {
+        filteredAccounts = accounts.filter(acc => acc.personId === selectedPerson);
+    }
+
+    if (filteredAccounts.length === 0) {
+        container.innerHTML = `
+            <div class="text-zinc-400 text-sm px-4 py-2 bg-zinc-800 rounded-2xl">
+                No bank accounts found for this person. Add entries in bank/accounts.json
+            </div>`;
         return;
     }
 
-    accounts.forEach(account => {
+    filteredAccounts.forEach(account => {
         const btn = document.createElement('button');
-        btn.className = `px-4 py-2 rounded-2xl text-sm font-semibold flex items-center gap-x-2 
-            ${account.bankName === 'HDFC' ? 'bg-emerald-600 hover:bg-emerald-700' : 
-              account.bankName === 'ICICI' ? 'bg-blue-600 hover:bg-blue-700' : 
-              'bg-orange-600 hover:bg-orange-700'}`;
+        
+        let colorClass = 'bg-zinc-700 hover:bg-zinc-600';
+        if (account.bankName === 'HDFC') colorClass = 'bg-emerald-600 hover:bg-emerald-700';
+        if (account.bankName === 'ICICI') colorClass = 'bg-blue-600 hover:bg-blue-700';
+        if (account.bankName === 'SBI') colorClass = 'bg-orange-600 hover:bg-orange-700';
 
+        btn.className = `px-4 py-2 rounded-2xl text-sm font-semibold flex items-center gap-x-2 ${colorClass}`;
         btn.innerHTML = `
             <i class="fas fa-university"></i> 
-            Load ${account.bankName} (${account.accountNumber})
+            Load ${account.bankName} (${account.accountNumber || ''})
         `;
 
         btn.onclick = () => loadBankFile(account);
@@ -538,9 +559,7 @@ async function loadBankFile(account) {
         const data = await res.json();
 
         let added = 0;
-
         data.forEach(item => {
-            // You can enhance this later with better column detection
             const dateStr = item.Date || item["Txn Date"] || item["Value Date"] || item["Transaction Date"];
             if (!dateStr) return;
 
@@ -549,28 +568,28 @@ async function loadBankFile(account) {
                 personId: account.personId,
                 bankName: account.bankName,
                 narration: item.Narration || item.Description || item["Transaction Remarks"] || "",
-                withdrawal: parseFloat(String(
-                    item["Withdrawal Amount"] || item.Debit || item["Withdrawal Amount (INR )"] || 0
-                ).replace(/,/g, '')) || 0,
-                deposit: parseFloat(String(
-                    item["Deposit Amount"] || item.Credit || item["Deposit Amount (INR )"] || 0
-                ).replace(/,/g, '')) || 0,
-                balance: parseFloat(String(
-                    item["Closing Balance*"] || item.Balance || item["Balance (INR )"] || 0
-                ).replace(/,/g, '')) || 0
+                withdrawal: parseFloat(String(item["Withdrawal Amount"] || item.Debit || item["Withdrawal Amount (INR )"] || 0).replace(/,/g, '')) || 0,
+                deposit: parseFloat(String(item["Deposit Amount"] || item.Credit || item["Deposit Amount (INR )"] || 0).replace(/,/g, '')) || 0,
+                balance: parseFloat(String(item["Closing Balance*"] || item.Balance || item["Balance (INR )"] || 0).replace(/,/g, '')) || 0
             });
             added++;
         });
 
         alert(`${added} transactions loaded from ${account.bankName}`);
+        filterTransactions();
         refreshDashboard();
-        if (!document.getElementById('tab-2').classList.contains('hidden')) {
-            renderBankUI();
-        }
     } catch (err) {
         alert("Error loading file: " + err.message);
     }
 }
+
+// ==================== PERSON FILTER CHANGE ====================
+function onPersonFilterChange() {
+    generateLoadButtons();     // Refresh buttons based on selected person
+    filterTransactions();      // Also filter the table
+}
+
+
 
         function initApp() {}
         window.onload = initApp;
