@@ -253,34 +253,59 @@
 
         // ==================== DATE PARSING ====================
         function parseCustomDate(dateStr) {
-            if (!dateStr) return null;
-            const str = String(dateStr).trim();
+    if (!dateStr || String(dateStr).trim() === "") return null;
+    const str = String(dateStr).trim();
 
-            const monthMap = {
-                'Jan': 0, 'Feb': 1, 'Mar': 2, 'Apr': 3, 'May': 4, 'Jun': 5,
-                'Jul': 6, 'Aug': 7, 'Sep': 8, 'Oct': 9, 'Nov': 10, 'Dec': 11
-            };
-
-            const match1 = str.match(/^(\d{1,2})-([A-Za-z]{3})-(\d{2,4})$/);
-            if (match1) {
-                const day = parseInt(match1[1], 10);
-                const month = monthMap[match1[2]];
-                let year = parseInt(match1[3], 10);
-                if (year < 100) year += 2000;
-                if (month !== undefined) return new Date(year, month, day);
-            }
-
-            const match2 = str.match(/^(\d{1,2})[-\/](\d{1,2})[-\/](\d{4})$/);
-            if (match2) {
-                const day = parseInt(match2[1], 10);
-                const month = parseInt(match2[2], 10) - 1;
-                const year = parseInt(match2[3], 10);
-                return new Date(year, month, day);
-            }
-
-            const d = new Date(str);
-            return isNaN(d.getTime()) ? null : d;
+    // Try DD/MM/YYYY or DD-MM/YYYY first (most common in your data)
+    let match = str.match(/^(\d{1,2})[-\/](\d{1,2})[-\/](\d{4})$/);
+    if (match) {
+        let d = parseInt(match[1], 10);
+        let m = parseInt(match[2], 10);
+        let y = parseInt(match[3], 10);
+        // If first number > 12, it must be day (Indian format)
+        if (d > 12) {
+            return new Date(y, m - 1, d);
+        } else {
+            // Otherwise try both interpretations
+            let date1 = new Date(y, m - 1, d);
+            let date2 = new Date(y, d - 1, m);
+            // Prefer the one that makes more sense
+            return (m > 12) ? date2 : date1;
         }
+    }
+
+    // Try DD/MM/YY or DD-MM/YY (2-digit year)
+    match = str.match(/^(\d{1,2})[-\/](\d{1,2})[-\/](\d{2})$/);
+    if (match) {
+        let d = parseInt(match[1], 10);
+        let m = parseInt(match[2], 10);
+        let y = parseInt(match[3], 10);
+        y += (y < 50) ? 2000 : 1900;
+
+        if (d > 12) {
+            return new Date(y, m - 1, d);
+        } else {
+            let date1 = new Date(y, m - 1, d);
+            let date2 = new Date(y, d - 1, m);
+            return (m > 12) ? date2 : date1;
+        }
+    }
+
+    // DD-MMM-YY format (SBI)
+    const monthMap = { 'Jan':0,'Feb':1,'Mar':2,'Apr':3,'May':4,'Jun':5,'Jul':6,'Aug':7,'Sep':8,'Oct':9,'Nov':10,'Dec':11 };
+    match = str.match(/^(\d{1,2})-([A-Za-z]{3})-(\d{2,4})$/);
+    if (match) {
+        let day = parseInt(match[1], 10);
+        let mon = monthMap[match[2]];
+        let year = parseInt(match[3], 10);
+        if (year < 100) year += 2000;
+        if (mon !== undefined) return new Date(year, mon, day);
+    }
+
+    // Final fallback
+    const d = new Date(str);
+    return isNaN(d.getTime()) ? null : d;
+}
 
         function getFinancialYear(dateStr) {
             const d = parseCustomDate(dateStr);
