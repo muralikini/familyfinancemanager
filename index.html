@@ -12,7 +12,7 @@
 </head>
 <body class="bg-zinc-950 text-zinc-200">
 
-    <!-- Login + Header + Tabs (same as before) -->
+    <!-- Login Screen -->
     <div id="login-screen" class="min-h-screen flex items-center justify-center">
         <div class="w-full max-w-md bg-zinc-900 border border-zinc-700 rounded-3xl p-8">
             <div class="text-center mb-8">
@@ -26,6 +26,7 @@
         </div>
     </div>
 
+    <!-- Main App -->
     <div id="main-app" class="hidden">
         <div class="bg-zinc-900 border-b border-zinc-800 px-6 py-4">
             <div class="max-w-screen-2xl mx-auto flex justify-between items-center">
@@ -37,6 +38,7 @@
             </div>
         </div>
 
+        <!-- Tabs -->
         <div class="max-w-screen-2xl mx-auto px-6 pt-6">
             <div class="flex border-b border-zinc-700">
                 <button onclick="switchTab(0)" class="tab-btn tab-active px-6 py-3">Dashboard</button>
@@ -91,9 +93,14 @@
         <div id="tab-2" class="tab-content hidden max-w-screen-2xl mx-auto px-6 pt-8">
             <div class="flex justify-between items-center mb-6">
                 <h2 class="text-2xl font-semibold">Bank Accounts</h2>
-                <button onclick="loadHDFCDataFromFile()" class="px-5 py-2.5 bg-emerald-600 hover:bg-emerald-700 rounded-2xl text-sm font-semibold">
-                    <i class="fas fa-download mr-2"></i> Load HDFC Data from File
-                </button>
+                <div class="flex gap-x-3">
+                    <button onclick="loadHDFCDataFromFile()" class="px-5 py-2.5 bg-emerald-600 hover:bg-emerald-700 rounded-2xl text-sm font-semibold">
+                        Load HDFC Data
+                    </button>
+                    <button onclick="loadICICIDataFromFile()" class="px-5 py-2.5 bg-blue-600 hover:bg-blue-700 rounded-2xl text-sm font-semibold">
+                        Load ICICI Data
+                    </button>
+                </div>
             </div>
 
             <!-- Summary Cards -->
@@ -229,22 +236,19 @@
             renderFamilyTable();
         }
 
-        // ==================== ROBUST DATE PARSING ====================
+        // ==================== DATE PARSING ====================
         function parseCustomDate(dateStr) {
             if (!dateStr) return null;
             const str = String(dateStr).trim();
-
-            // Try DD-MM-YYYY or DD/MM/YYYY
             const match = str.match(/^(\d{1,2})[-\/](\d{1,2})[-\/](\d{4})$/);
             if (match) {
                 const day = parseInt(match[1], 10);
                 const month = parseInt(match[2], 10);
                 const year = parseInt(match[3], 10);
-                if (day >= 1 && day <= 31 && month >= 1 && month <= 12 && year >= 1900) {
+                if (day >= 1 && day <= 31 && month >= 1 && month <= 12) {
                     return new Date(year, month - 1, day);
                 }
             }
-            // Fallback
             const d = new Date(str);
             return isNaN(d.getTime()) ? null : d;
         }
@@ -257,27 +261,16 @@
             return month >= 4 ? `${year}-${(year + 1).toString().slice(-2)}` : `${year - 1}-${year.toString().slice(-2)}`;
         }
 
-        // ==================== LOAD DATA ====================
+        // ==================== LOAD HDFC ====================
         async function loadHDFCDataFromFile() {
             try {
                 const res = await fetch('./bank/muralidhar/HDFC_4684.json');
-                if (!res.ok) {
-                    alert("File not found");
-                    return;
-                }
+                if (!res.ok) { alert("HDFC file not found"); return; }
                 const data = await res.json();
-
-                currentTransactions = [];
-
-                let skipped = 0;
 
                 data.forEach(item => {
                     const dateStr = item.Date || item.date;
-                    if (!dateStr) {
-                        skipped++;
-                        return;
-                    }
-
+                    if (!dateStr) return;
                     currentTransactions.push({
                         date: dateStr,
                         personId: "muralidhar",
@@ -289,11 +282,41 @@
                     });
                 });
 
-                alert(`${currentTransactions.length} transactions loaded. Skipped: ${skipped}`);
+                alert("HDFC data loaded successfully!");
                 renderBankUI();
-
             } catch (err) {
-                alert("Error: " + err.message);
+                alert("Error loading HDFC: " + err.message);
+            }
+        }
+
+        // ==================== LOAD ICICI ====================
+        async function loadICICIDataFromFile() {
+            try {
+                const res = await fetch('./bank/muralidhar/ICICI_0212.json');
+                if (!res.ok) { alert("ICICI file not found"); return; }
+                const data = await res.json();
+
+                let added = 0;
+                data.forEach(item => {
+                    const dateStr = item["Value Date"] || item["Transaction Date"];
+                    if (!dateStr) return;
+
+                    currentTransactions.push({
+                        date: dateStr,
+                        personId: "muralidhar",
+                        bankName: "ICICI",
+                        narration: item["Transaction Remarks"] || "",
+                        withdrawal: parseFloat(String(item["Withdrawal Amount (INR )"] || 0).replace(/,/g, '')) || 0,
+                        deposit: parseFloat(String(item["Deposit Amount (INR )"] || 0).replace(/,/g, '')) || 0,
+                        balance: parseFloat(String(item["Balance (INR )"] || 0).replace(/,/g, '')) || 0
+                    });
+                    added++;
+                });
+
+                alert(`${added} ICICI transactions loaded successfully!`);
+                renderBankUI();
+            } catch (err) {
+                alert("Error loading ICICI: " + err.message);
             }
         }
 
@@ -310,12 +333,10 @@
             const fySel = document.getElementById('filter-fy');
             fySel.innerHTML = '<option value="">All Years</option>';
             const fySet = new Set();
-
             currentTransactions.forEach(t => {
                 const fy = getFinancialYear(t.date);
                 if (fy) fySet.add(fy);
             });
-
             [...fySet].sort().forEach(fy => {
                 const opt = document.createElement('option');
                 opt.value = fy;
@@ -379,7 +400,7 @@
                 bal = currentTransactions[currentTransactions.length - 1].balance || 0;
             }
             document.getElementById('bank-current-balance').textContent = '₹' + bal.toLocaleString('en-IN');
-            document.getElementById('dash-bank-count').textContent = currentTransactions.length > 0 ? 1 : 0;
+            document.getElementById('dash-bank-count').textContent = currentTransactions.length > 0 ? 2 : 0;
         }
 
         function initApp() {}
