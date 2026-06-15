@@ -1070,13 +1070,8 @@ function getEquityFinancialYear(dateStr) {
     if (!dateStr) return null;
     const date = new Date(dateStr);
     const year = date.getFullYear();
-    const month = date.getMonth() + 1; // 0-indexed
-
-    if (month >= 4) {
-        return `${year}-${(year + 1).toString().slice(-2)}`;
-    } else {
-        return `${year - 1}-${year.toString().slice(-2)}`;
-    }
+    const month = date.getMonth() + 1;
+    return month >= 4 ? `${year}-${(year + 1).toString().slice(-2)}` : `${year - 1}-${year.toString().slice(-2)}`;
 }
 
 // Populate FY dropdown
@@ -1104,56 +1099,82 @@ function populateEquityFYFilter() {
 
 
 
-function generateEquityLoadButtons() {
+async function generateEquityLoadButtons() {
     const container = document.getElementById('equityLoadButtons');
     container.innerHTML = '';
 
     const selectedPerson = document.getElementById('equityPersonFilter').value;
 
-    const accounts = [
-        {
-            personId: "muralidhar",
-            broker: "Zerodha",
-            accountNumber: "ND4971",
-            filePath: "equity/muralidhar/zerodha_ND4971.json"
+    try {
+        const res = await fetch('equity/accounts.json');
+        const accounts = await res.json();
+
+        let filteredAccounts = accounts;
+        if (selectedPerson) {
+            filteredAccounts = accounts.filter(acc => acc.personId === selectedPerson);
         }
-    ];
 
-    const filtered = selectedPerson 
-        ? accounts.filter(a => a.personId === selectedPerson) 
-        : accounts;
+        if (filteredAccounts.length === 0) {
+            container.innerHTML = `<span class="text-zinc-500 text-sm">No accounts found for this person</span>`;
+            return;
+        }
 
-    filtered.forEach(acc => {
-        const btn = document.createElement('button');
-        btn.className = `px-4 py-2 rounded-lg text-sm font-medium transition-colors bg-blue-600 hover:bg-blue-700 text-white`;
-        btn.innerHTML = `
-            <div class="text-left">
-                <div>${acc.broker} (${acc.accountNumber})</div>
-                <div class="text-xs opacity-75">${acc.personId}</div>
-            </div>
-        `;
-        btn.onclick = () => loadEquityAccount(acc.filePath, acc.personId, acc.broker, acc.accountNumber);
-        container.appendChild(btn);
-    });
+        filteredAccounts.forEach(acc => {
+            const btn = document.createElement('button');
+            btn.className = `px-4 py-3 rounded-xl text-left transition-all bg-zinc-800 hover:bg-zinc-700 border border-zinc-700 min-w-[220px]`;
+            
+            btn.innerHTML = `
+                <div class="font-medium text-white">${acc.broker}</div>
+                <div class="text-sm text-zinc-400">${acc.accountNumber} • ${acc.personId}</div>
+            `;
+            
+            btn.onclick = () => loadEquityAccount(acc.filePath, acc.personId, acc.broker, acc.accountNumber);
+            container.appendChild(btn);
+        });
+    } catch (err) {
+        console.error("Failed to load equity/accounts.json", err);
+        container.innerHTML = `<span class="text-red-400">Error loading accounts. Check console.</span>`;
+    }
 }
 
 // Load Equity Account
 async function loadEquityAccount(filePath, personId, broker, accountNumber) {
     try {
         const res = await fetch(filePath);
-        const data = await res.json();
+        if (!res.ok) throw new Error(`File not found: ${filePath}`);
 
+        const data = await res.json();
         allEquityTransactions = data;
         equityTransactions = [...data];
 
         populateEquityFYFilter();
-        filterEquityTransactions(); // Apply current filters
+        filterEquityTransactions();
 
-        showToast(`Loaded ${broker} - ${data.length} trades`, 'success');
+        showToast(`Loaded ${broker} (${accountNumber}) - ${data.length} trades`, 'success');
     } catch (err) {
         console.error(err);
-        showToast('Failed to load equity file', 'error');
+        showToast(`Failed to load file: ${filePath}`, 'error');
     }
+}
+
+function populateEquityFYFilter() {
+    const select = document.getElementById('equityFYFilter');
+    if (!select || allEquityTransactions.length === 0) return;
+
+    const fySet = new Set();
+    allEquityTransactions.forEach(t => {
+        const fy = getEquityFinancialYear(t.tradeDate);
+        if (fy) fySet.add(fy);
+    });
+
+    const sortedFYs = Array.from(fySet).sort((a, b) => b.localeCompare(a));
+    select.innerHTML = '<option value="">All Years</option>';
+    sortedFYs.forEach(fy => {
+        const opt = document.createElement('option');
+        opt.value = fy;
+        opt.textContent = `FY ${fy}`;
+        select.appendChild(opt);
+    });
 }
 
 
@@ -1188,8 +1209,6 @@ function renderEquityTable(txns) {
     txns.forEach(t => {
         const value = t.quantity * t.price;
         const row = document.createElement('tr');
-        row.className = 'hover:bg-zinc-800';
-
         row.innerHTML = `
             <td class="px-6 py-3 text-sm">${t.tradeDate}</td>
             <td class="px-6 py-3 font-medium">${t.symbol}</td>
@@ -1215,12 +1234,9 @@ function filterEquityTransactions() {
 
     let filtered = allEquityTransactions;
 
-    // Apply FY filter
     if (fyFilter) {
         filtered = filtered.filter(t => getEquityFinancialYear(t.tradeDate) === fyFilter);
     }
-
-    // Apply Symbol filter
     if (symbolFilter) {
         filtered = filtered.filter(t => t.symbol.includes(symbolFilter));
     }
