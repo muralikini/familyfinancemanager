@@ -584,13 +584,10 @@ async function loadBankFile(account) {
 
         alert(`${added} transactions loaded from ${account.bankName}`);
 
-        // Refresh both tabs safely
+        // === Refresh filters and table ===
+        populateFinancialYearFilter();   // ← This will now show the years
         filterTransactions();
-
-        // Only refresh dashboard if the function exists
-        if (typeof refreshDashboard === "function") {
-            refreshDashboard();
-        }
+        refreshDashboard();
 
     } catch (err) {
         alert("Error loading file: " + err.message);
@@ -694,6 +691,33 @@ function refreshDashboard() {
 function onPersonFilterChange() {
     generateLoadButtons();     // Refresh buttons based on selected person
     filterTransactions();      // Also filter the table
+}
+
+function populateFinancialYearFilter() {
+    const fySel = document.getElementById('filter-fy');
+    if (!fySel) return;
+
+    const currentValue = fySel.value; // Remember current selection
+
+    fySel.innerHTML = '<option value="">All Years</option>';
+
+    const fySet = new Set();
+    currentTransactions.forEach(t => {
+        const fy = getFinancialYear(t.date);
+        if (fy) fySet.add(fy);
+    });
+
+    [...fySet].sort().forEach(fy => {
+        const opt = document.createElement('option');
+        opt.value = fy;
+        opt.textContent = `FY ${fy}`;
+        fySel.appendChild(opt);
+    });
+
+    // Restore previous selection if still valid
+    if (currentValue && [...fySet].includes(currentValue)) {
+        fySel.value = currentValue;
+    }
 }
 
 // ==================== HELPER FUNCTIONS ====================
