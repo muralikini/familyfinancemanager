@@ -598,20 +598,16 @@ async function loadBankFile(account) {
 }
 
 function refreshDashboard() {
+    // Safety check - if no data, just exit gracefully
     if (currentTransactions.length === 0) {
-        document.getElementById('dash-total-balance').textContent = '₹0';
-        document.getElementById('dash-fy-net').textContent = '₹0';
-        document.getElementById('dash-total-txns').textContent = '0';
-        document.getElementById('dash-fy-txns').textContent = '0';
-        document.getElementById('bank-balance-cards').innerHTML = 
-            '<div class="col-span-3 text-center text-zinc-400 py-8">No bank data loaded yet.</div>';
-        document.getElementById('dash-recent-table').innerHTML = '';
+        const totalBal = document.getElementById('dash-total-balance');
+        if (totalBal) totalBal.textContent = '₹0';
         return;
     }
 
     const currentFY = getCurrentFinancialYear();
 
-    // Calculate bank-wise latest balance
+    // === Calculate Bank-wise Latest Balance ===
     const bankBalances = {};
     currentTransactions.forEach(t => {
         if (!bankBalances[t.bankName] || 
@@ -623,9 +619,11 @@ function refreshDashboard() {
     let totalBalance = 0;
     Object.values(bankBalances).forEach(b => totalBalance += b.balance);
 
-    document.getElementById('dash-total-balance').textContent = '₹' + totalBalance.toLocaleString('en-IN');
+    // Update only if elements exist
+    const elTotalBalance = document.getElementById('dash-total-balance');
+    if (elTotalBalance) elTotalBalance.textContent = '₹' + totalBalance.toLocaleString('en-IN');
 
-    // This FY calculations
+    // === This FY Calculations ===
     const fyTransactions = currentTransactions.filter(t => getFinancialYear(t.date) === currentFY);
     let fyW = 0, fyD = 0;
 
@@ -633,57 +631,63 @@ function refreshDashboard() {
         fyW += t.withdrawal || 0;
         fyD += t.deposit || 0;
     });
-
     const net = fyD - fyW;
 
-    document.getElementById('dash-fy-net').textContent = '₹' + net.toLocaleString('en-IN');
-    document.getElementById('dash-fy-withdrawal').textContent = '₹' + fyW.toLocaleString('en-IN');
-    document.getElementById('dash-fy-deposit').textContent = '₹' + fyD.toLocaleString('en-IN');
-    document.getElementById('dash-fy-net-savings').textContent = '₹' + net.toLocaleString('en-IN');
+    // Update FY elements safely
+    const setText = (id, value) => {
+        const el = document.getElementById(id);
+        if (el) el.textContent = value;
+    };
 
-    document.getElementById('dash-total-txns').textContent = currentTransactions.length;
-    document.getElementById('dash-fy-txns').textContent = fyTransactions.length;
+    setText('dash-fy-net', '₹' + net.toLocaleString('en-IN'));
+    setText('dash-fy-withdrawal', '₹' + fyW.toLocaleString('en-IN'));
+    setText('dash-fy-deposit', '₹' + fyD.toLocaleString('en-IN'));
+    setText('dash-fy-net-savings', '₹' + net.toLocaleString('en-IN'));
+    setText('dash-total-txns', currentTransactions.length);
+    setText('dash-fy-txns', fyTransactions.length);
 
-    // Bank cards
-    const container = document.getElementById('bank-balance-cards');
-    container.innerHTML = '';
-
-    Object.keys(bankBalances).forEach(bank => {
-        const div = document.createElement('div');
-        div.className = 'bg-zinc-900 border border-zinc-700 rounded-3xl p-6';
-        div.innerHTML = `
-            <div class="flex justify-between items-center">
-                <div>
-                    <div class="text-sm text-zinc-400">${bank}</div>
-                    <div class="text-3xl font-bold">₹${bankBalances[bank].balance.toLocaleString('en-IN')}</div>
+    // === Bank Balance Cards (only if container exists) ===
+    const bankCardsContainer = document.getElementById('bank-balance-cards');
+    if (bankCardsContainer) {
+        bankCardsContainer.innerHTML = '';
+        Object.keys(bankBalances).forEach(bank => {
+            const div = document.createElement('div');
+            div.className = 'bg-zinc-900 border border-zinc-700 rounded-3xl p-6';
+            div.innerHTML = `
+                <div class="flex justify-between items-center">
+                    <div>
+                        <div class="text-sm text-zinc-400">${bank}</div>
+                        <div class="text-3xl font-bold">₹${bankBalances[bank].balance.toLocaleString('en-IN')}</div>
+                    </div>
+                    <i class="fas fa-university text-3xl text-zinc-500"></i>
                 </div>
-                <i class="fas fa-university text-3xl text-zinc-500"></i>
-            </div>
-        `;
-        container.appendChild(div);
-    });
+            `;
+            bankCardsContainer.appendChild(div);
+        });
+    }
 
-    // Recent transactions
+    // === Recent Transactions (only if table exists) ===
     const recentBody = document.getElementById('dash-recent-table');
-    recentBody.innerHTML = '';
+    if (recentBody) {
+        recentBody.innerHTML = '';
+        const sorted = [...currentTransactions]
+            .sort((a, b) => parseCustomDate(b.date) - parseCustomDate(a.date))
+            .slice(0, 8);
 
-    const sorted = [...currentTransactions]
-        .sort((a, b) => parseCustomDate(b.date) - parseCustomDate(a.date))
-        .slice(0, 8);
-
-    sorted.forEach(t => {
-        const amt = t.withdrawal > 0 ? t.withdrawal : t.deposit;
-        const color = t.withdrawal > 0 ? 'text-red-400' : 'text-green-400';
-        const row = document.createElement('tr');
-        row.innerHTML = `
-            <td class="py-3 px-4">${t.date}</td>
-            <td class="py-3 px-4">${t.bankName}</td>
-            <td class="py-3 px-4 text-xs max-w-xs truncate">${t.narration}</td>
-            <td class="py-3 px-4 text-right ${color}">₹${amt.toLocaleString('en-IN')}</td>
-            <td class="py-3 px-4 text-right">₹${(t.balance || 0).toLocaleString('en-IN')}</td>
-        `;
-        recentBody.appendChild(row);
-    });
+        sorted.forEach(t => {
+            const amt = t.withdrawal > 0 ? t.withdrawal : t.deposit;
+            const color = t.withdrawal > 0 ? 'text-red-400' : 'text-green-400';
+            const row = document.createElement('tr');
+            row.innerHTML = `
+                <td class="py-3 px-4">${t.date}</td>
+                <td class="py-3 px-4">${t.bankName}</td>
+                <td class="py-3 px-4 text-xs max-w-xs truncate">${t.narration}</td>
+                <td class="py-3 px-4 text-right ${color}">₹${amt.toLocaleString('en-IN')}</td>
+                <td class="py-3 px-4 text-right">₹${(t.balance || 0).toLocaleString('en-IN')}</td>
+            `;
+            recentBody.appendChild(row);
+        });
+    }
 }
 
 // ==================== PERSON FILTER CHANGE ====================
