@@ -22,5 +22,11 @@
     "bankName": "HDFC",
     "filePath": "bank/leena/HDFC_05480.json",
     "accountNumber": "05480"
+  },
+  {
+    "personId": "leena",
+    "bankName": "ICICI",
+    "filePath": "bank/leena/ICICI_437801504863.json",
+    "accountNumber": "437801504863"
   }
 ]
