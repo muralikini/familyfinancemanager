@@ -26,9 +26,8 @@
         </div>
     </div>
 
-    <!-- Main Application -->
+    <!-- Main App -->
     <div id="main-app" class="hidden">
-        <!-- Header -->
         <div class="bg-zinc-900 border-b border-zinc-800 px-6 py-4">
             <div class="max-w-screen-2xl mx-auto flex justify-between items-center">
                 <div class="flex items-center gap-x-3">
@@ -39,7 +38,6 @@
             </div>
         </div>
 
-        <!-- Tabs -->
         <div class="max-w-screen-2xl mx-auto px-6 pt-6">
             <div class="flex border-b border-zinc-700">
                 <button onclick="switchTab(0)" class="tab-btn tab-active px-6 py-3">Dashboard</button>
@@ -90,7 +88,7 @@
             </div>
         </div>
 
-        <!-- BANK ACCOUNTS TAB -->
+        <!-- BANK ACCOUNTS -->
         <div id="tab-2" class="tab-content hidden max-w-screen-2xl mx-auto px-6 pt-8">
             <div class="flex justify-between items-center mb-6">
                 <h2 class="text-2xl font-semibold">Bank Accounts</h2>
@@ -120,7 +118,7 @@
             </div>
 
             <!-- Filters -->
-            <div class="bg-zinc-900 border border-zinc-700 rounded-3xl p-4 mb-6 flex flex-wrap gap-4 items-end">
+            <div class="bg-zinc-900 border border-zinc-700 rounded-3xl p-4 mb-6 flex flex-wrap gap-4">
                 <div>
                     <label class="block text-xs text-zinc-400 mb-1">Person</label>
                     <select id="filter-person" onchange="filterTransactions()" class="bg-zinc-800 border border-zinc-700 rounded-2xl px-4 py-2 text-sm w-56"></select>
@@ -129,11 +127,11 @@
                     <label class="block text-xs text-zinc-400 mb-1">Financial Year</label>
                     <select id="filter-fy" onchange="filterTransactions()" class="bg-zinc-800 border border-zinc-700 rounded-2xl px-4 py-2 text-sm w-40"></select>
                 </div>
-                <div class="flex-1 min-w-[200px]">
+                <div class="flex-1 min-w-[220px]">
                     <label class="block text-xs text-zinc-400 mb-1">Search</label>
-                    <input type="text" id="filter-search" onkeyup="filterTransactions()" placeholder="Search in narration..." class="w-full bg-zinc-800 border border-zinc-700 rounded-2xl px-4 py-2 text-sm">
+                    <input type="text" id="filter-search" onkeyup="filterTransactions()" placeholder="Search narration..." class="w-full bg-zinc-800 border border-zinc-700 rounded-2xl px-4 py-2 text-sm">
                 </div>
-                <button onclick="clearFilters()" class="px-4 py-2 bg-zinc-700 hover:bg-zinc-600 rounded-2xl text-sm">Clear Filters</button>
+                <button onclick="clearFilters()" class="px-4 py-2 bg-zinc-700 hover:bg-zinc-600 rounded-2xl text-sm">Clear</button>
             </div>
 
             <!-- Transactions Table -->
@@ -181,7 +179,6 @@
             document.querySelectorAll('.tab-btn').forEach(el => el.classList.remove('tab-active'));
             document.getElementById(`tab-${tab}`).classList.remove('hidden');
             document.querySelectorAll('.tab-btn')[tab].classList.add('tab-active');
-
             if (tab === 2) renderBankUI();
         }
 
@@ -217,7 +214,7 @@
         }
 
         function deleteFamilyMember(i) {
-            if (confirm("Delete this family member?")) {
+            if (confirm("Delete this member?")) {
                 familyMembers.splice(i, 1);
                 localStorage.setItem('familyMembers', JSON.stringify(familyMembers));
                 renderFamilyTable();
@@ -234,12 +231,34 @@
             renderFamilyTable();
         }
 
-        // ==================== BANK ACCOUNTS ====================
+        // ==================== DATE HELPER ====================
+        function parseCustomDate(dateStr) {
+            if (!dateStr) return null;
+            // Handle DD/MM/YYYY and DD-MM-YYYY
+            const parts = dateStr.split(/[-\/]/);
+            if (parts.length === 3) {
+                const day = parseInt(parts[0], 10);
+                const month = parseInt(parts[1], 10) - 1; // JS months are 0-based
+                const year = parseInt(parts[2], 10);
+                return new Date(year, month, day);
+            }
+            return new Date(dateStr);
+        }
+
+        function getFinancialYear(dateStr) {
+            const d = parseCustomDate(dateStr);
+            if (!d || isNaN(d.getTime())) return "";
+            const year = d.getFullYear();
+            const month = d.getMonth() + 1;
+            return month >= 4 ? `${year}-${(year + 1).toString().slice(-2)}` : `${year - 1}-${year.toString().slice(-2)}`;
+        }
+
+        // ==================== LOAD HDFC DATA ====================
         async function loadHDFCDataFromFile() {
             try {
                 const res = await fetch('./bank/muralidhar/HDFC_4684.json');
                 if (!res.ok) {
-                    alert("File not found at bank/muralidhar/HDFC_4684.json");
+                    alert("File not found: bank/muralidhar/HDFC_4684.json");
                     return;
                 }
                 const data = await res.json();
@@ -261,7 +280,7 @@
                     });
                 });
 
-                alert(`${currentTransactions.length} transactions loaded successfully!`);
+                alert(`${currentTransactions.length} transactions loaded!`);
                 renderBankUI();
 
             } catch (err) {
@@ -269,16 +288,8 @@
             }
         }
 
-        function getFinancialYear(dateStr) {
-            if (!dateStr) return "";
-            const d = new Date(dateStr);
-            const year = d.getFullYear();
-            const month = d.getMonth() + 1; // 0-indexed
-            return month >= 4 ? `${year}-${(year + 1).toString().slice(-2)}` : `${year - 1}-${year.toString().slice(-2)}`;
-        }
-
         function renderBankUI() {
-            // Populate Person filter
+            // Person Filter
             const personSel = document.getElementById('filter-person');
             personSel.innerHTML = '<option value="">All Persons</option>';
             familyMembers.forEach(m => {
@@ -288,7 +299,7 @@
                 personSel.appendChild(opt);
             });
 
-            // Populate Financial Year filter
+            // Financial Year Filter
             const fySel = document.getElementById('filter-fy');
             fySel.innerHTML = '<option value="">All Years</option>';
             const fySet = new Set();
@@ -347,22 +358,20 @@
         function updateBankSummary() {
             document.getElementById('bank-total-txns').textContent = currentTransactions.length;
 
-            let totalW = 0, totalD = 0;
+            let w = 0, d = 0;
             currentTransactions.forEach(t => {
-                totalW += t.withdrawal || 0;
-                totalD += t.deposit || 0;
+                w += t.withdrawal || 0;
+                d += t.deposit || 0;
             });
 
-            document.getElementById('bank-total-withdrawal').textContent = '₹' + totalW.toLocaleString('en-IN');
-            document.getElementById('bank-total-deposit').textContent = '₹' + totalD.toLocaleString('en-IN');
+            document.getElementById('bank-total-withdrawal').textContent = '₹' + w.toLocaleString('en-IN');
+            document.getElementById('bank-total-deposit').textContent = '₹' + d.toLocaleString('en-IN');
 
-            // Current Balance (last transaction balance)
-            let currentBalance = 0;
+            let currentBal = 0;
             if (currentTransactions.length > 0) {
-                const last = currentTransactions[currentTransactions.length - 1];
-                currentBalance = last.balance || 0;
+                currentBal = currentTransactions[currentTransactions.length - 1].balance || 0;
             }
-            document.getElementById('bank-current-balance').textContent = '₹' + currentBalance.toLocaleString('en-IN');
+            document.getElementById('bank-current-balance').textContent = '₹' + currentBal.toLocaleString('en-IN');
             document.getElementById('dash-bank-count').textContent = currentTransactions.length > 0 ? 1 : 0;
         }
 
