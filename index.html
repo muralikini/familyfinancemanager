@@ -91,15 +91,19 @@
 
         <!-- BANK ACCOUNTS -->
         <div id="tab-2" class="tab-content hidden max-w-screen-2xl mx-auto px-6 pt-8">
-            <div class="flex justify-between items-center mb-6">
+            <div class="flex justify-between items-center mb-6 flex-wrap gap-3">
                 <h2 class="text-2xl font-semibold">Bank Accounts</h2>
-                <div class="flex gap-x-3">
-                    <button onclick="loadHDFCDataFromFile()" class="px-5 py-2.5 bg-emerald-600 hover:bg-emerald-700 rounded-2xl text-sm font-semibold">Load HDFC</button>
-                    <button onclick="loadICICIDataFromFile()" class="px-5 py-2.5 bg-blue-600 hover:bg-blue-700 rounded-2xl text-sm font-semibold">Load ICICI</button>
+                <div class="flex gap-x-2 flex-wrap">
+                    <button onclick="loadHDFCDataFromFile()" class="px-4 py-2 bg-emerald-600 hover:bg-emerald-700 rounded-2xl text-sm font-semibold">Load HDFC</button>
+                    <button onclick="loadICICIDataFromFile()" class="px-4 py-2 bg-blue-600 hover:bg-blue-700 rounded-2xl text-sm font-semibold">Load ICICI</button>
+                    <button onclick="loadSBIDataFromFile()" class="px-4 py-2 bg-orange-600 hover:bg-orange-700 rounded-2xl text-sm font-semibold">Load SBI</button>
+                    <button onclick="clearAllData()" class="px-4 py-2 bg-red-600 hover:bg-red-700 rounded-2xl text-sm font-semibold flex items-center gap-x-2">
+                        <i class="fas fa-trash"></i> Clear All Data
+                    </button>
                 </div>
             </div>
 
-            <!-- Dynamic Summary Cards -->
+            <!-- Dynamic Summary -->
             <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mb-6">
                 <div class="bg-zinc-900 border border-zinc-700 rounded-3xl p-6">
                     <div class="text-sm text-zinc-400" id="summary-label-txns">Total Transactions</div>
@@ -133,7 +137,7 @@
                     <label class="block text-xs text-zinc-400 mb-1">Search</label>
                     <input type="text" id="filter-search" onkeyup="filterTransactions()" placeholder="Search narration..." class="w-full bg-zinc-800 border border-zinc-700 rounded-2xl px-4 py-2 text-sm">
                 </div>
-                <button onclick="clearFilters()" class="px-4 py-2 bg-zinc-700 hover:bg-zinc-600 rounded-2xl text-sm">Clear</button>
+                <button onclick="clearFilters()" class="px-4 py-2 bg-zinc-700 hover:bg-zinc-600 rounded-2xl text-sm">Clear Filters</button>
             </div>
 
             <div class="bg-zinc-900 border border-zinc-700 rounded-3xl p-6">
@@ -232,19 +236,33 @@
             renderFamilyTable();
         }
 
-        // ==================== DATE HELPERS ====================
+        // ==================== DATE PARSING ====================
         function parseCustomDate(dateStr) {
             if (!dateStr) return null;
             const str = String(dateStr).trim();
-            const match = str.match(/^(\d{1,2})[-\/](\d{1,2})[-\/](\d{4})$/);
-            if (match) {
-                const day = parseInt(match[1], 10);
-                const month = parseInt(match[2], 10);
-                const year = parseInt(match[3], 10);
-                if (day >= 1 && day <= 31 && month >= 1 && month <= 12) {
-                    return new Date(year, month - 1, day);
-                }
+
+            const monthMap = {
+                'Jan': 0, 'Feb': 1, 'Mar': 2, 'Apr': 3, 'May': 4, 'Jun': 5,
+                'Jul': 6, 'Aug': 7, 'Sep': 8, 'Oct': 9, 'Nov': 10, 'Dec': 11
+            };
+
+            const match1 = str.match(/^(\d{1,2})-([A-Za-z]{3})-(\d{2,4})$/);
+            if (match1) {
+                const day = parseInt(match1[1], 10);
+                const month = monthMap[match1[2]];
+                let year = parseInt(match1[3], 10);
+                if (year < 100) year += 2000;
+                if (month !== undefined) return new Date(year, month, day);
             }
+
+            const match2 = str.match(/^(\d{1,2})[-\/](\d{1,2})[-\/](\d{4})$/);
+            if (match2) {
+                const day = parseInt(match2[1], 10);
+                const month = parseInt(match2[2], 10) - 1;
+                const year = parseInt(match2[3], 10);
+                return new Date(year, month, day);
+            }
+
             const d = new Date(str);
             return isNaN(d.getTime()) ? null : d;
         }
@@ -257,7 +275,7 @@
             return month >= 4 ? `${year}-${(year + 1).toString().slice(-2)}` : `${year - 1}-${year.toString().slice(-2)}`;
         }
 
-        // ==================== LOAD DATA ====================
+        // ==================== LOAD FUNCTIONS ====================
         async function loadHDFCDataFromFile() {
             try {
                 const res = await fetch('./bank/muralidhar/HDFC_4684.json');
@@ -268,9 +286,7 @@
                     const dateStr = item.Date || item.date;
                     if (!dateStr) return;
                     currentTransactions.push({
-                        date: dateStr,
-                        personId: "muralidhar",
-                        bankName: "HDFC",
+                        date: dateStr, personId: "muralidhar", bankName: "HDFC",
                         narration: item.Narration || "",
                         withdrawal: parseFloat(String(item["Withdrawal Amount"] || 0).replace(/,/g, '')) || 0,
                         deposit: parseFloat(String(item["Deposit Amount"] || 0).replace(/,/g, '')) || 0,
@@ -279,9 +295,7 @@
                 });
                 alert("HDFC data loaded!");
                 renderBankUI();
-            } catch (err) {
-                alert("Error loading HDFC: " + err.message);
-            }
+            } catch (err) { alert("Error loading HDFC: " + err.message); }
         }
 
         async function loadICICIDataFromFile() {
@@ -289,15 +303,12 @@
                 const res = await fetch('./bank/muralidhar/ICICI_0212.json');
                 if (!res.ok) { alert("ICICI file not found"); return; }
                 const data = await res.json();
-
                 let added = 0;
                 data.forEach(item => {
                     const dateStr = item["Value Date"] || item["Transaction Date"];
                     if (!dateStr) return;
                     currentTransactions.push({
-                        date: dateStr,
-                        personId: "muralidhar",
-                        bankName: "ICICI",
+                        date: dateStr, personId: "muralidhar", bankName: "ICICI",
                         narration: item["Transaction Remarks"] || "",
                         withdrawal: parseFloat(String(item["Withdrawal Amount (INR )"] || 0).replace(/,/g, '')) || 0,
                         deposit: parseFloat(String(item["Deposit Amount (INR )"] || 0).replace(/,/g, '')) || 0,
@@ -307,12 +318,55 @@
                 });
                 alert(`${added} ICICI transactions loaded!`);
                 renderBankUI();
-            } catch (err) {
-                alert("Error loading ICICI: " + err.message);
-            }
+            } catch (err) { alert("Error loading ICICI: " + err.message); }
         }
 
-        // ==================== RENDER & FILTER ====================
+        async function loadSBIDataFromFile() {
+            try {
+                const res = await fetch('./bank/muralidhar/SBI_16269.json');
+                if (!res.ok) { alert("SBI file not found"); return; }
+                const data = await res.json();
+                let added = 0;
+                data.forEach(item => {
+                    const dateStr = item["Txn Date"] || item["Value Date"];
+                    if (!dateStr) return;
+                    currentTransactions.push({
+                        date: dateStr, personId: "muralidhar", bankName: "SBI",
+                        narration: item.Description || "",
+                        withdrawal: parseFloat(String(item.Debit || 0).replace(/,/g, '')) || 0,
+                        deposit: parseFloat(String(item.Credit || 0).replace(/,/g, '')) || 0,
+                        balance: parseFloat(String(item.Balance || 0).replace(/,/g, '')) || 0
+                    });
+                    added++;
+                });
+                alert(`${added} SBI transactions loaded!`);
+                renderBankUI();
+            } catch (err) { alert("Error loading SBI: " + err.message); }
+        }
+
+        // ==================== CLEAR ALL DATA ====================
+        function clearAllData() {
+            if (!confirm("Are you sure you want to clear all loaded bank data?")) return;
+            
+            currentTransactions = [];
+            document.getElementById('transactions-table').innerHTML = '';
+            
+            // Reset summary cards
+            document.getElementById('bank-total-txns').textContent = '0';
+            document.getElementById('bank-total-withdrawal').textContent = '₹0';
+            document.getElementById('bank-total-deposit').textContent = '₹0';
+            document.getElementById('bank-current-balance').textContent = '₹0';
+            
+            // Reset labels
+            document.getElementById('summary-label-txns').textContent = 'Total Transactions';
+            document.getElementById('summary-label-withdrawal').textContent = 'Total Withdrawals';
+            document.getElementById('summary-label-deposit').textContent = 'Total Deposits';
+            document.getElementById('summary-label-balance').textContent = 'Current Balance';
+            
+            alert("All loaded data has been cleared.");
+        }
+
+        // ==================== FILTER & SUMMARY ====================
         function renderBankUI() {
             const personSel = document.getElementById('filter-person');
             personSel.innerHTML = '<option value="">All Persons</option>';
@@ -369,7 +423,6 @@
                 tbody.appendChild(row);
             });
 
-            // Update summary based on current filters
             updateBankSummary(filtered, fy);
         }
 
@@ -380,7 +433,6 @@
             filterTransactions();
         }
 
-        // ==================== DYNAMIC SUMMARY ====================
         function updateBankSummary(filteredTransactions, selectedFY) {
             const txnsEl = document.getElementById('bank-total-txns');
             const withdrawalEl = document.getElementById('bank-total-withdrawal');
@@ -392,11 +444,8 @@
             const labelDeposit = document.getElementById('summary-label-deposit');
             const labelBalance = document.getElementById('summary-label-balance');
 
-            if (!filteredTransactions) {
-                filteredTransactions = currentTransactions;
-            }
+            if (!filteredTransactions) filteredTransactions = currentTransactions;
 
-            // Update labels based on whether FY is selected
             if (selectedFY) {
                 labelTxns.textContent = `Transactions in FY ${selectedFY}`;
                 labelWithdrawal.textContent = `Withdrawals in FY ${selectedFY}`;
@@ -409,7 +458,6 @@
                 labelBalance.textContent = "Current Balance";
             }
 
-            // Calculate values
             let totalW = 0, totalD = 0;
             filteredTransactions.forEach(t => {
                 totalW += t.withdrawal || 0;
@@ -420,10 +468,8 @@
             withdrawalEl.textContent = '₹' + totalW.toLocaleString('en-IN');
             depositEl.textContent = '₹' + totalD.toLocaleString('en-IN');
 
-            // Closing Balance
             let closingBalance = 0;
             if (filteredTransactions.length > 0) {
-                // Sort by date to get the latest balance
                 const sorted = [...filteredTransactions].sort((a, b) => {
                     const da = parseCustomDate(a.date);
                     const db = parseCustomDate(b.date);
