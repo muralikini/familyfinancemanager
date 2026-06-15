@@ -409,31 +409,21 @@
             location.reload();
         }
 
-        function switchTab(tabIndex) {
-    // Hide all tab contents
+        function switchTab(tab) {
     document.querySelectorAll('.tab-content').forEach(el => el.classList.add('hidden'));
-    
-    // Remove active class from all buttons
     document.querySelectorAll('.tab-btn').forEach(el => el.classList.remove('tab-active'));
     
-    // Show selected tab
-    const tabContents = document.querySelectorAll('.tab-content');
-    if (tabContents[tabIndex]) {
-        tabContents[tabIndex].classList.remove('hidden');
-    }
-    
-    // Activate button
-    const buttons = document.querySelectorAll('.tab-btn');
-    if (buttons[tabIndex]) {
-        buttons[tabIndex].classList.add('tab-active');
-    }
-}
+    document.getElementById(`tab-${tab}`).classList.remove('hidden');
+    document.querySelectorAll('.tab-btn')[tab].classList.add('tab-active');
 
-function showToast(message, type = 'info') {
-    console.log(`[Toast ${type}] ${message}`);
-    
-    // Optional: Show a simple alert if you want visible feedback
-    // alert(message);
+    if (tab === 0) refreshDashboard();
+    if (tab === 2) {
+        renderBankUI();
+        generateLoadButtons();           // ← Important
+    }
+    if (index === 3) {
+        initEquityTab();
+    }
 }
 
         function initData() {
