@@ -49,25 +49,96 @@
 
         <!-- DASHBOARD -->
         <div id="tab-0" class="tab-content max-w-screen-2xl mx-auto px-6 pt-8">
-            <h2 class="text-2xl font-semibold mb-6">Dashboard</h2>
-            <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
-                <div class="bg-zinc-900 border border-zinc-700 rounded-3xl p-6">
-                    <div class="text-sm text-zinc-400">Total Bank Balance</div>
-                    <div class="text-4xl font-bold mt-2">₹0</div>
+    <div class="flex justify-between items-center mb-8">
+        <h2 class="text-3xl font-semibold">Dashboard</h2>
+        <button onclick="refreshDashboard()" 
+                class="px-5 py-2.5 bg-zinc-800 hover:bg-zinc-700 rounded-2xl text-sm flex items-center gap-x-2">
+            <i class="fas fa-sync-alt"></i>
+            <span>Refresh</span>
+        </button>
+    </div>
+
+    <!-- Family Overview -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+        
+        <!-- Family Net Worth -->
+        <div class="bg-zinc-900 border border-zinc-700 rounded-3xl p-6">
+            <div class="flex justify-between items-start">
+                <div>
+                    <div class="text-sm text-zinc-400">Family Net Worth</div>
+                    <div class="text-4xl font-bold mt-2" id="dash-family-networth">₹0</div>
                 </div>
-                <div class="bg-zinc-900 border border-zinc-700 rounded-3xl p-6">
-                    <div class="text-sm text-zinc-400">This FY Transactions</div>
-                    <div class="text-4xl font-bold mt-2">0</div>
-                </div>
-                <div class="bg-zinc-900 border border-zinc-700 rounded-3xl p-6">
-                    <div class="text-sm text-zinc-400">Family Members</div>
-                    <div class="text-4xl font-bold mt-2">4</div>
-                </div>
-                <div class="bg-zinc-900 border border-zinc-700 rounded-3xl p-6">
-                    <div class="text-sm text-zinc-400">Bank Accounts</div>
-                    <div class="text-4xl font-bold mt-2" id="dash-bank-count">0</div>
-                </div>
+                <i class="fas fa-wallet text-3xl text-emerald-500"></i>
             </div>
+        </div>
+
+        <!-- Total Transactions -->
+        <div class="bg-zinc-900 border border-zinc-700 rounded-3xl p-6">
+            <div class="flex justify-between items-start">
+                <div>
+                    <div class="text-sm text-zinc-400">Total Transactions</div>
+                    <div class="text-4xl font-bold mt-2" id="dash-total-transactions">0</div>
+                </div>
+                <i class="fas fa-exchange-alt text-3xl text-blue-500"></i>
+            </div>
+        </div>
+
+        <!-- Accounts Loaded -->
+        <div class="bg-zinc-900 border border-zinc-700 rounded-3xl p-6">
+            <div class="flex justify-between items-start">
+                <div>
+                    <div class="text-sm text-zinc-400">Accounts Loaded</div>
+                    <div class="text-4xl font-bold mt-2" id="dash-accounts-loaded">0</div>
+                </div>
+                <i class="fas fa-university text-3xl text-orange-500"></i>
+            </div>
+        </div>
+
+        <!-- Current FY Net -->
+        <div class="bg-zinc-900 border border-zinc-700 rounded-3xl p-6">
+            <div class="flex justify-between items-start">
+                <div>
+                    <div class="text-sm text-zinc-400">Current FY Net</div>
+                    <div class="text-4xl font-bold mt-2" id="dash-current-fy-net">₹0</div>
+                </div>
+                <i class="fas fa-chart-line text-3xl text-purple-500"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- Per Person Breakdown -->
+    <div class="mb-8">
+        <h3 class="text-xl font-semibold mb-4">Balance by Family Member</h3>
+        <div id="dash-person-breakdown" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+            <!-- Populated by JavaScript -->
+        </div>
+    </div>
+
+    <!-- Recent Transactions -->
+    <div>
+        <div class="flex justify-between items-center mb-4">
+            <h3 class="text-xl font-semibold">Recent Transactions</h3>
+            <span class="text-sm text-zinc-400">Last 8 transactions</span>
+        </div>
+        
+        <div class="bg-zinc-900 border border-zinc-700 rounded-3xl overflow-hidden">
+            <table class="w-full text-sm">
+                <thead class="bg-zinc-950">
+                    <tr class="text-zinc-400">
+                        <th class="text-left py-4 px-6">Date</th>
+                        <th class="text-left py-4 px-6">Person</th>
+                        <th class="text-left py-4 px-6">Bank</th>
+                        <th class="text-left py-4 px-6">Narration</th>
+                        <th class="text-right py-4 px-6">Amount</th>
+                        <th class="text-right py-4 px-6">Balance</th>
+                    </tr>
+                </thead>
+                <tbody id="dash-recent-transactions" class="divide-y divide-zinc-800">
+                    <!-- Populated dynamically -->
+                </tbody>
+            </table>
+        </div>
+    </div>
         </div>
 
         <!-- ADMIN PANEL -->
@@ -692,96 +763,96 @@ function refreshPersonFilter() {
 }
 
 function refreshDashboard() {
-    // Safety check - if no data, just exit gracefully
     if (currentTransactions.length === 0) {
-        const totalBal = document.getElementById('dash-total-balance');
-        if (totalBal) totalBal.textContent = '₹0';
+        document.getElementById('dash-family-networth').textContent = '₹0';
+        document.getElementById('dash-total-transactions').textContent = '0';
         return;
     }
 
     const currentFY = getCurrentFinancialYear();
 
-    // === Calculate Bank-wise Latest Balance ===
-    const bankBalances = {};
+    // === Calculate Latest Balance per Account ===
+    const accountBalances = {};
     currentTransactions.forEach(t => {
-        if (!bankBalances[t.bankName] || 
-            parseCustomDate(t.date) > parseCustomDate(bankBalances[t.bankName].date)) {
-            bankBalances[t.bankName] = { balance: t.balance || 0, date: t.date };
+        const key = `${t.personId}-${t.bankName}`;
+        if (!accountBalances[key] || parseCustomDate(t.date) > parseCustomDate(accountBalances[key].date)) {
+            accountBalances[key] = { 
+                balance: t.balance || 0, 
+                date: t.date,
+                personId: t.personId,
+                bankName: t.bankName
+            };
         }
     });
 
-    let totalBalance = 0;
-    Object.values(bankBalances).forEach(b => totalBalance += b.balance);
+    // Total Family Net Worth
+    let totalNetWorth = 0;
+    Object.values(accountBalances).forEach(acc => totalNetWorth += acc.balance);
 
-    // Update only if elements exist
-    const elTotalBalance = document.getElementById('dash-total-balance');
-    if (elTotalBalance) elTotalBalance.textContent = '₹' + totalBalance.toLocaleString('en-IN');
+    document.getElementById('dash-family-networth').textContent = '₹' + totalNetWorth.toLocaleString('en-IN');
+    document.getElementById('dash-total-transactions').textContent = currentTransactions.length;
+    document.getElementById('dash-accounts-loaded').textContent = Object.keys(accountBalances).length;
 
-    // === This FY Calculations ===
-    const fyTransactions = currentTransactions.filter(t => getFinancialYear(t.date) === currentFY);
-    let fyW = 0, fyD = 0;
+    // === Current FY Summary ===
+    const fyTxns = currentTransactions.filter(t => getFinancialYear(t.date) === currentFY);
+    let fyIncome = 0, fyExpense = 0;
 
-    fyTransactions.forEach(t => {
-        fyW += t.withdrawal || 0;
-        fyD += t.deposit || 0;
+    fyTxns.forEach(t => {
+        fyIncome += t.deposit || 0;
+        fyExpense += t.withdrawal || 0;
     });
-    const net = fyD - fyW;
 
-    // Update FY elements safely
-    const setText = (id, value) => {
-        const el = document.getElementById(id);
-        if (el) el.textContent = value;
-    };
+    const fyNet = fyIncome - fyExpense;
+    document.getElementById('dash-current-fy-net').textContent = '₹' + fyNet.toLocaleString('en-IN');
 
-    setText('dash-fy-net', '₹' + net.toLocaleString('en-IN'));
-    setText('dash-fy-withdrawal', '₹' + fyW.toLocaleString('en-IN'));
-    setText('dash-fy-deposit', '₹' + fyD.toLocaleString('en-IN'));
-    setText('dash-fy-net-savings', '₹' + net.toLocaleString('en-IN'));
-    setText('dash-total-txns', currentTransactions.length);
-    setText('dash-fy-txns', fyTransactions.length);
+    // === Per Person Breakdown ===
+    const personBalances = {};
+    Object.values(accountBalances).forEach(acc => {
+        if (!personBalances[acc.personId]) personBalances[acc.personId] = 0;
+        personBalances[acc.personId] += acc.balance;
+    });
 
-    // === Bank Balance Cards (only if container exists) ===
-    const bankCardsContainer = document.getElementById('bank-balance-cards');
-    if (bankCardsContainer) {
-        bankCardsContainer.innerHTML = '';
-        Object.keys(bankBalances).forEach(bank => {
-            const div = document.createElement('div');
-            div.className = 'bg-zinc-900 border border-zinc-700 rounded-3xl p-6';
-            div.innerHTML = `
-                <div class="flex justify-between items-center">
-                    <div>
-                        <div class="text-sm text-zinc-400">${bank}</div>
-                        <div class="text-3xl font-bold">₹${bankBalances[bank].balance.toLocaleString('en-IN')}</div>
-                    </div>
-                    <i class="fas fa-university text-3xl text-zinc-500"></i>
-                </div>
-            `;
-            bankCardsContainer.appendChild(div);
-        });
-    }
+    const breakdownContainer = document.getElementById('dash-person-breakdown');
+    breakdownContainer.innerHTML = '';
 
-    // === Recent Transactions (only if table exists) ===
-    const recentBody = document.getElementById('dash-recent-table');
-    if (recentBody) {
-        recentBody.innerHTML = '';
-        const sorted = [...currentTransactions]
-            .sort((a, b) => parseCustomDate(b.date) - parseCustomDate(a.date))
-            .slice(0, 8);
+    Object.keys(personBalances).forEach(personId => {
+        const member = familyMembers.find(m => m.id === personId);
+        const name = member ? member.name : personId;
 
-        sorted.forEach(t => {
-            const amt = t.withdrawal > 0 ? t.withdrawal : t.deposit;
-            const color = t.withdrawal > 0 ? 'text-red-400' : 'text-green-400';
-            const row = document.createElement('tr');
-            row.innerHTML = `
-                <td class="py-3 px-4">${t.date}</td>
-                <td class="py-3 px-4">${t.bankName}</td>
-                <td class="py-3 px-4 text-xs max-w-xs truncate">${t.narration}</td>
-                <td class="py-3 px-4 text-right ${color}">₹${amt.toLocaleString('en-IN')}</td>
-                <td class="py-3 px-4 text-right">₹${(t.balance || 0).toLocaleString('en-IN')}</td>
-            `;
-            recentBody.appendChild(row);
-        });
-    }
+        const div = document.createElement('div');
+        div.className = 'bg-zinc-900 border border-zinc-700 rounded-3xl p-5';
+        div.innerHTML = `
+            <div class="text-sm text-zinc-400">${name}</div>
+            <div class="text-3xl font-bold mt-1">₹${personBalances[personId].toLocaleString('en-IN')}</div>
+        `;
+        breakdownContainer.appendChild(div);
+    });
+
+    // === Recent Transactions ===
+    const recentBody = document.getElementById('dash-recent-transactions');
+    recentBody.innerHTML = '';
+
+    const sortedTxns = [...currentTransactions]
+        .sort((a, b) => parseCustomDate(b.date) - parseCustomDate(a.date))
+        .slice(0, 8);
+
+    sortedTxns.forEach(t => {
+        const amount = t.withdrawal > 0 ? t.withdrawal : t.deposit;
+        const isWithdrawal = t.withdrawal > 0;
+        
+        const row = document.createElement('tr');
+        row.innerHTML = `
+            <td class="py-4 px-6">${t.date}</td>
+            <td class="py-4 px-6">${t.personId}</td>
+            <td class="py-4 px-6">${t.bankName}</td>
+            <td class="py-4 px-6 text-xs max-w-xs truncate">${t.narration}</td>
+            <td class="py-4 px-6 text-right ${isWithdrawal ? 'text-red-400' : 'text-green-400'}">
+                ₹${amount.toLocaleString('en-IN')}
+            </td>
+            <td class="py-4 px-6 text-right">₹${(t.balance || 0).toLocaleString('en-IN')}</td>
+        `;
+        recentBody.appendChild(row);
+    });
 }
 
 // ==================== PERSON FILTER CHANGE ====================
