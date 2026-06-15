@@ -139,7 +139,32 @@
             </table>
         </div>
     </div>
+
+    <!-- Monthly Expense Breakdown -->
+    <div class="mt-8">
+        <div class="flex justify-between items-center mb-4">
+            <h3 class="text-xl font-semibold">Monthly Breakdown (Current FY)</h3>
+            <span class="text-sm text-zinc-400" id="monthly-breakdown-period"></span>
         </div>
+
+        <div class="bg-zinc-900 border border-zinc-700 rounded-3xl overflow-hidden">
+            <table class="w-full text-sm">
+                <thead class="bg-zinc-950">
+                    <tr class="text-zinc-400">
+                        <th class="text-left py-4 px-6">Month</th>
+                        <th class="text-right py-4 px-6">Expenses</th>
+                        <th class="text-right py-4 px-6">Income</th>
+                        <th class="text-right py-4 px-6">Net Savings</th>
+                    </tr>
+                </thead>
+                <tbody id="monthly-breakdown-body" class="divide-y divide-zinc-800">
+                    <!-- Populated by JavaScript -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+</div>
 
         <!-- ADMIN PANEL -->
         <div id="tab-1" class="tab-content hidden max-w-screen-2xl mx-auto px-6 pt-8">
@@ -853,6 +878,53 @@ function refreshDashboard() {
         `;
         recentBody.appendChild(row);
     });
+
+    // === Monthly Breakdown (Current FY) ===
+const monthlyData = {};
+const currentFYForMonthly = getCurrentFinancialYear();
+
+fyTxns.forEach(t => {
+    const d = parseCustomDate(t.date);
+    if (!d) return;
+
+    const monthKey = `${d.getFullYear()}-${(d.getMonth() + 1).toString().padStart(2, '0')}`;
+    const monthName = d.toLocaleString('default', { month: 'short', year: 'numeric' });
+
+    if (!monthlyData[monthKey]) {
+        monthlyData[monthKey] = {
+            name: monthName,
+            expenses: 0,
+            income: 0
+        };
+    }
+
+    monthlyData[monthKey].expenses += t.withdrawal || 0;
+    monthlyData[monthKey].income += t.deposit || 0;
+});
+
+// Sort months chronologically
+const sortedMonths = Object.keys(monthlyData).sort();
+
+const monthlyBody = document.getElementById('monthly-breakdown-body');
+monthlyBody.innerHTML = '';
+
+sortedMonths.forEach(key => {
+    const data = monthlyData[key];
+    const net = data.income - data.expenses;
+
+    const row = document.createElement('tr');
+    row.innerHTML = `
+        <td class="py-4 px-6 font-medium">${data.name}</td>
+        <td class="py-4 px-6 text-right text-red-400">₹${data.expenses.toLocaleString('en-IN')}</td>
+        <td class="py-4 px-6 text-right text-green-400">₹${data.income.toLocaleString('en-IN')}</td>
+        <td class="py-4 px-6 text-right font-semibold ${net >= 0 ? 'text-emerald-400' : 'text-red-400'}">
+            ₹${net.toLocaleString('en-IN')}
+        </td>
+    `;
+    monthlyBody.appendChild(row);
+});
+// Update period label
+document.getElementById('monthly-breakdown-period').textContent = `FY ${currentFYForMonthly}`;
 }
 
 // ==================== PERSON FILTER CHANGE ====================
