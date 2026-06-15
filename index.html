@@ -808,44 +808,49 @@ function parseAmount(value) {
 }
 
 function parseCustomDate(dateStr) {
-    if (!dateStr) return null;
+    if (!dateStr || String(dateStr).trim() === "") return null;
+    
     const str = String(dateStr).trim();
 
+    // Priority 1: DD/MM/YYYY or DD-MM-YYYY (4-digit year) - Most common in ICICI
+    const match4Digit = str.match(/^(\d{1,2})[-\/](\d{1,2})[-\/](\d{4})$/);
+    if (match4Digit) {
+        const day = parseInt(match4Digit[1], 10);
+        const month = parseInt(match4Digit[2], 10) - 1;
+        const year = parseInt(match4Digit[3], 10);
+        const d = new Date(year, month, day);
+        return isNaN(d.getTime()) ? null : d;
+    }
+
+    // Priority 2: DD/MM/YY or DD-MM/YY (2-digit year)
+    const match2Digit = str.match(/^(\d{1,2})[-\/](\d{1,2})[-\/](\d{2})$/);
+    if (match2Digit) {
+        const day = parseInt(match2Digit[1], 10);
+        const month = parseInt(match2Digit[2], 10) - 1;
+        let year = parseInt(match2Digit[3], 10);
+        year += (year < 50) ? 2000 : 1900;
+        const d = new Date(year, month, day);
+        return isNaN(d.getTime()) ? null : d;
+    }
+
+    // Priority 3: DD-MMM-YY format (SBI style)
     const monthMap = {
         'Jan': 0, 'Feb': 1, 'Mar': 2, 'Apr': 3, 'May': 4, 'Jun': 5,
         'Jul': 6, 'Aug': 7, 'Sep': 8, 'Oct': 9, 'Nov': 10, 'Dec': 11
     };
-
-    // === Handle DD/MM/YY or DD-MM-YY (2-digit year) ===
-    const matchShort = str.match(/^(\d{1,2})[-\/](\d{1,2})[-\/](\d{2})$/);
-    if (matchShort) {
-        const day = parseInt(matchShort[1], 10);
-        const month = parseInt(matchShort[2], 10) - 1;
-        let year = parseInt(matchShort[3], 10);
-        year += (year < 50) ? 2000 : 1900; // 25 → 2025, 99 → 1999
-        return new Date(year, month, day);
-    }
-
-    // === Handle DD/MM/YYYY or DD-MM-YYYY (4-digit year) ===
-    const matchFull = str.match(/^(\d{1,2})[-\/](\d{1,2})[-\/](\d{4})$/);
-    if (matchFull) {
-        const day = parseInt(matchFull[1], 10);
-        const month = parseInt(matchFull[2], 10) - 1;
-        const year = parseInt(matchFull[3], 10);
-        return new Date(year, month, day);
-    }
-
-    // === Handle DD-MMM-YY format (SBI style) ===
     const matchMMM = str.match(/^(\d{1,2})-([A-Za-z]{3})-(\d{2,4})$/);
     if (matchMMM) {
         const day = parseInt(matchMMM[1], 10);
         const month = monthMap[matchMMM[2]];
         let year = parseInt(matchMMM[3], 10);
         if (year < 100) year += 2000;
-        if (month !== undefined) return new Date(year, month, day);
+        if (month !== undefined) {
+            const d = new Date(year, month, day);
+            return isNaN(d.getTime()) ? null : d;
+        }
     }
 
-    // Fallback
+    // Final fallback
     const d = new Date(str);
     return isNaN(d.getTime()) ? null : d;
 }
