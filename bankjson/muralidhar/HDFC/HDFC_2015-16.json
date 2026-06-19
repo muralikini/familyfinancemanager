@@ -1,0 +1,2720 @@
+[
+  {
+    "Date": "01-04-2015",
+    "Narration": "23861570000261 -TPT-MONEY TRANSFERE",
+    "Chq. / Ref No.": "43677619A1",
+    "Value Date": "01-04-2015",
+    "Withdrawal Amount": "17,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,43,808.14"
+  },
+  {
+    "Date": "01-04-2015",
+    "Narration": "IMPS-P2A-509108176691-MONEY TRANSFERE-B MURALIDHAR KINI",
+    "Chq. / Ref No.": "",
+    "Value Date": "01-04-2015",
+    "Withdrawal Amount": "7,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,36,808.14"
+  },
+  {
+    "Date": "01-04-2015",
+    "Narration": "BHDF3726283603/HDFC MUTUAL FUND",
+    "Chq. / Ref No.": "401084254",
+    "Value Date": "01-04-2015",
+    "Withdrawal Amount": "5,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,31,808.14"
+  },
+  {
+    "Date": "01-04-2015",
+    "Narration": "BHDF3726285841/HDFC MUTUAL FUND",
+    "Chq. / Ref No.": "401084437",
+    "Value Date": "01-04-2015",
+    "Withdrawal Amount": "5,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,26,808.14"
+  },
+  {
+    "Date": "01-04-2015",
+    "Narration": "BHDF3726288093/HDFC MUTUAL FUND",
+    "Chq. / Ref No.": "401084615",
+    "Value Date": "01-04-2015",
+    "Withdrawal Amount": "5,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,21,808.14"
+  },
+  {
+    "Date": "01-04-2015",
+    "Narration": "2339247~6~2~8017/PRUDENTIAL ICICI AMC",
+    "Chq. / Ref No.": "401084913",
+    "Value Date": "01-04-2015",
+    "Withdrawal Amount": "5,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,16,808.14"
+  },
+  {
+    "Date": "01-04-2015",
+    "Narration": "2339252~6~2~8042/PRUDENTIAL ICICI AMC",
+    "Chq. / Ref No.": "401085111",
+    "Value Date": "01-04-2015",
+    "Withdrawal Amount": "5,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,11,808.14"
+  },
+  {
+    "Date": "01-04-2015",
+    "Narration": "REV-IMPS-P2A-509108176691-MONEY TRANSFER E-919481079030",
+    "Chq. / Ref No.": "5.09108E+11",
+    "Value Date": "01-04-2015",
+    "Withdrawal Amount": "0",
+    "Deposit Amount": "7,000.00",
+    "Closing Balance*": "1,18,808.14"
+  },
+  {
+    "Date": "01-04-2015",
+    "Narration": "BHDF3726307677/BILLDKQUANTUM MUTUAL",
+    "Chq. / Ref No.": "401090239",
+    "Value Date": "01-04-2015",
+    "Withdrawal Amount": "20,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "98,808.14"
+  },
+  {
+    "Date": "01-04-2015",
+    "Narration": "10481460000801 NET BANKING SI -FUNDS TRA NSFERE",
+    "Chq. / Ref No.": "",
+    "Value Date": "01-04-2015",
+    "Withdrawal Amount": "2,500.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "96,308.14"
+  },
+  {
+    "Date": "01-04-2015",
+    "Narration": "IB BILLPAY DR-HDFCSI-4854980800264667",
+    "Chq. / Ref No.": "",
+    "Value Date": "01-04-2015",
+    "Withdrawal Amount": "16,100.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "80,208.14"
+  },
+  {
+    "Date": "05-04-2015",
+    "Narration": "CHDF3733090765/BILLDKAMAZONSELLERSE",
+    "Chq. / Ref No.": "405234522",
+    "Value Date": "06-04-2015",
+    "Withdrawal Amount": "2,225.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "77,983.14"
+  },
+  {
+    "Date": "07-04-2015",
+    "Narration": "IB BILLPAY DR-HDFCSI-4854980800264667",
+    "Chq. / Ref No.": "",
+    "Value Date": "07-04-2015",
+    "Withdrawal Amount": "2,500.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "75,483.14"
+  },
+  {
+    "Date": "07-04-2015",
+    "Narration": "SI HDFC120021589 ICICI PRUDENTI-07/04/15",
+    "Chq. / Ref No.": "",
+    "Value Date": "07-04-2015",
+    "Withdrawal Amount": "3,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "72,483.14"
+  },
+  {
+    "Date": "09-04-2015",
+    "Narration": "APBS C- IOC REF NO3000005519-50904853650",
+    "Chq. / Ref No.": "897114664",
+    "Value Date": "09-04-2015",
+    "Withdrawal Amount": "0",
+    "Deposit Amount": "220.47",
+    "Closing Balance*": "72,703.61"
+  },
+  {
+    "Date": "11-04-2015",
+    "Narration": "IMPS-P2A-510112957674-919481079030-",
+    "Chq. / Ref No.": "5.10113E+11",
+    "Value Date": "11-04-2015",
+    "Withdrawal Amount": "0",
+    "Deposit Amount": "50,000.00",
+    "Closing Balance*": "1,22,703.61"
+  },
+  {
+    "Date": "12-04-2015",
+    "Narration": "CHDF3742811757/BSNL BILLDESK",
+    "Chq. / Ref No.": "412080755",
+    "Value Date": "12-04-2015",
+    "Withdrawal Amount": "43",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,22,660.61"
+  },
+  {
+    "Date": "13-04-2015",
+    "Narration": "CHDF3743938638/HDFC MUTUAL FUND",
+    "Chq. / Ref No.": "413000208",
+    "Value Date": "13-04-2015",
+    "Withdrawal Amount": "40,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "82,660.61"
+  },
+  {
+    "Date": "13-04-2015",
+    "Narration": "CHDF3743942419/HDFC MUTUAL FUND",
+    "Chq. / Ref No.": "413000848",
+    "Value Date": "13-04-2015",
+    "Withdrawal Amount": "20,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "62,660.61"
+  },
+  {
+    "Date": "13-04-2015",
+    "Narration": "2351752~6~2~8017/PRUDENTIAL ICICI AMC",
+    "Chq. / Ref No.": "413001252",
+    "Value Date": "13-04-2015",
+    "Withdrawal Amount": "10,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "52,660.61"
+  },
+  {
+    "Date": "13-04-2015",
+    "Narration": "CHDF3744583898/FRANKLIN TEMPLETON",
+    "Chq. / Ref No.": "413132800",
+    "Value Date": "13-04-2015",
+    "Withdrawal Amount": "5,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "47,660.61"
+  },
+  {
+    "Date": "17-04-2015",
+    "Narration": "IB BILLPAY DR-HDFCSI-4854980800264667",
+    "Chq. / Ref No.": "",
+    "Value Date": "17-04-2015",
+    "Withdrawal Amount": "1,206.94",
+    "Deposit Amount": "0",
+    "Closing Balance*": "46,453.67"
+  },
+  {
+    "Date": "17-04-2015",
+    "Narration": "03672320000810REIM OF AIR TICKET CHARGES",
+    "Chq. / Ref No.": "5.0417E+11",
+    "Value Date": "17-04-2015",
+    "Withdrawal Amount": "0",
+    "Deposit Amount": "87,862.00",
+    "Closing Balance*": "1,34,315.67"
+  },
+  {
+    "Date": "17-04-2015",
+    "Narration": "IB BILLPAY DR-HDFCSI-4854980800264667",
+    "Chq. / Ref No.": "",
+    "Value Date": "17-04-2015",
+    "Withdrawal Amount": "88,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "46,315.67"
+  },
+  {
+    "Date": "21-04-2015",
+    "Narration": "10481000005480 -TPT-MONEY TRANSFERE",
+    "Chq. / Ref No.": "182196802A1",
+    "Value Date": "21-04-2015",
+    "Withdrawal Amount": "0",
+    "Deposit Amount": "55,000.00",
+    "Closing Balance*": "1,01,315.67"
+  },
+  {
+    "Date": "21-04-2015",
+    "Narration": "IB BILLPAY DR-HDFCSI-4854980800264667",
+    "Chq. / Ref No.": "",
+    "Value Date": "21-04-2015",
+    "Withdrawal Amount": "55,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "46,315.67"
+  },
+  {
+    "Date": "30-04-2015",
+    "Narration": "APRIL 2015 SALARY",
+    "Chq. / Ref No.": "5.04305E+11",
+    "Value Date": "30-04-2015",
+    "Withdrawal Amount": "0",
+    "Deposit Amount": "1,44,997.00",
+    "Closing Balance*": "1,91,312.67"
+  },
+  {
+    "Date": "30-04-2015",
+    "Narration": "03672320000810OTHER REIMBURSEMENTS APRIL",
+    "Chq. / Ref No.": "5.04305E+11",
+    "Value Date": "30-04-2015",
+    "Withdrawal Amount": "0",
+    "Deposit Amount": "2,033.00",
+    "Closing Balance*": "1,93,345.67"
+  },
+  {
+    "Date": "01-05-2015",
+    "Narration": "10481460000801 NET BANKING SI -FUNDS TRA NSFERE",
+    "Chq. / Ref No.": "",
+    "Value Date": "01-05-2015",
+    "Withdrawal Amount": "2,500.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,90,845.67"
+  },
+  {
+    "Date": "01-05-2015",
+    "Narration": "23861570000261 -TPT-MONEY TRANSFERE",
+    "Chq. / Ref No.": "248531831A1",
+    "Value Date": "01-05-2015",
+    "Withdrawal Amount": "17,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,73,845.67"
+  },
+  {
+    "Date": "01-05-2015",
+    "Narration": "IMPS-P2A-512108128789-MONEY TRANSFERE-B MURALIDHAR KINI",
+    "Chq. / Ref No.": "",
+    "Value Date": "01-05-2015",
+    "Withdrawal Amount": "15,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,58,845.67"
+  },
+  {
+    "Date": "01-05-2015",
+    "Narration": "IMPS-P2A-512108130112-MONEY TRANSFERE-MU RALIDHAR KINI B AND LEENA KINI",
+    "Chq. / Ref No.": "",
+    "Value Date": "01-05-2015",
+    "Withdrawal Amount": "10,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,48,845.67"
+  },
+  {
+    "Date": "01-05-2015",
+    "Narration": "IB BILLPAY DR-HDFCSI-4854980800264667",
+    "Chq. / Ref No.": "",
+    "Value Date": "01-05-2015",
+    "Withdrawal Amount": "10,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,38,845.67"
+  },
+  {
+    "Date": "03-05-2015",
+    "Narration": "BHDF3779537127/HDFC MUTUAL FUND",
+    "Chq. / Ref No.": "503001606",
+    "Value Date": "03-05-2015",
+    "Withdrawal Amount": "23,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,15,845.67"
+  },
+  {
+    "Date": "03-05-2015",
+    "Narration": "BHDF3779538231/HDFC MUTUAL FUND",
+    "Chq. / Ref No.": "503001728",
+    "Value Date": "03-05-2015",
+    "Withdrawal Amount": "10,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,05,845.67"
+  },
+  {
+    "Date": "03-05-2015",
+    "Narration": "15050315045846329/FLIPKARTINTERNETPVTL",
+    "Chq. / Ref No.": "503150529",
+    "Value Date": "03-05-2015",
+    "Withdrawal Amount": "500",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,05,345.67"
+  },
+  {
+    "Date": "05-05-2015",
+    "Narration": "SI HDFC121083226 ICICI PRUDENTI-04/05/15",
+    "Chq. / Ref No.": "",
+    "Value Date": "05-05-2015",
+    "Withdrawal Amount": "5,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,00,345.67"
+  },
+  {
+    "Date": "05-05-2015",
+    "Narration": "REF-FLIPKARTI-15050315045846329-03/05/15",
+    "Chq. / Ref No.": "",
+    "Value Date": "05-05-2015",
+    "Withdrawal Amount": "0",
+    "Deposit Amount": "500",
+    "Closing Balance*": "1,00,845.67"
+  },
+  {
+    "Date": "09-05-2015",
+    "Narration": "SI HDFC121394603 ICICI PRUDENTI-09/05/15",
+    "Chq. / Ref No.": "",
+    "Value Date": "09-05-2015",
+    "Withdrawal Amount": "3,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "97,845.67"
+  },
+  {
+    "Date": "09-05-2015",
+    "Narration": "CASH DEP BOMMANAHALLY",
+    "Chq. / Ref No.": "",
+    "Value Date": "09-05-2015",
+    "Withdrawal Amount": "0",
+    "Deposit Amount": "50,000.00",
+    "Closing Balance*": "1,47,845.67"
+  },
+  {
+    "Date": "11-05-2015",
+    "Narration": "IMPS P2P 393 512108130112#01/05/ 020515",
+    "Chq. / Ref No.": "",
+    "Value Date": "11-05-2015",
+    "Withdrawal Amount": "3.93",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,47,841.74"
+  },
+  {
+    "Date": "11-05-2015",
+    "Narration": "IMPS P2P 562 512108128789#01/05/ 020515",
+    "Chq. / Ref No.": "",
+    "Value Date": "11-05-2015",
+    "Withdrawal Amount": "5.62",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,47,836.12"
+  },
+  {
+    "Date": "13-05-2015",
+    "Narration": "10481000005480 -TPT-MONEY TRANSFERE",
+    "Chq. / Ref No.": "337824739A1",
+    "Value Date": "13-05-2015",
+    "Withdrawal Amount": "25,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,22,836.12"
+  },
+  {
+    "Date": "16-05-2015",
+    "Narration": "IB BILLPAY DR-HDFCSI-4854980800264667",
+    "Chq. / Ref No.": "",
+    "Value Date": "16-05-2015",
+    "Withdrawal Amount": "75,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "47,836.12"
+  },
+  {
+    "Date": "17-05-2015",
+    "Narration": "IB BILLPAY DR-HDFCSI-4854980800264667",
+    "Chq. / Ref No.": "",
+    "Value Date": "18-05-2015",
+    "Withdrawal Amount": "4,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "43,836.12"
+  },
+  {
+    "Date": "19-05-2015",
+    "Narration": "APBS C- IOC REF NO3000040421-51805991953",
+    "Chq. / Ref No.": "1134874523",
+    "Value Date": "19-05-2015",
+    "Withdrawal Amount": "0",
+    "Deposit Amount": "200.17",
+    "Closing Balance*": "44,036.29"
+  },
+  {
+    "Date": "21-05-2015",
+    "Narration": "SI HDFC121652893 FRANKLIN TEMPL-21/05/15",
+    "Chq. / Ref No.": "",
+    "Value Date": "21-05-2015",
+    "Withdrawal Amount": "5,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "39,036.29"
+  },
+  {
+    "Date": "21-05-2015",
+    "Narration": "03671140037499 -TPT-MARRIAGE GIIFT",
+    "Chq. / Ref No.": "389737388A1",
+    "Value Date": "21-05-2015",
+    "Withdrawal Amount": "5,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "34,036.29"
+  },
+  {
+    "Date": "26-05-2015",
+    "Narration": "DHDF3821393048/BSNL BILLDESK",
+    "Chq. / Ref No.": "526235619",
+    "Value Date": "27-05-2015",
+    "Withdrawal Amount": "550",
+    "Deposit Amount": "0",
+    "Closing Balance*": "33,486.29"
+  },
+  {
+    "Date": "27-05-2015",
+    "Narration": "SI HDFC121960908 ICICI PRUDENTI-27/05/15",
+    "Chq. / Ref No.": "",
+    "Value Date": "27-05-2015",
+    "Withdrawal Amount": "3,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "30,486.29"
+  },
+  {
+    "Date": "29-05-2015",
+    "Narration": "MAY 2015 SALARY",
+    "Chq. / Ref No.": "5.05295E+11",
+    "Value Date": "29-05-2015",
+    "Withdrawal Amount": "0",
+    "Deposit Amount": "1,44,997.00",
+    "Closing Balance*": "1,75,483.29"
+  },
+  {
+    "Date": "30-05-2015",
+    "Narration": "IB BILLPAY DR-HDFCSI-4854980800264667",
+    "Chq. / Ref No.": "",
+    "Value Date": "30-05-2015",
+    "Withdrawal Amount": "3,752.06",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,71,731.23"
+  },
+  {
+    "Date": "30-05-2015",
+    "Narration": "IMPS-P2A-515012123898-MONEY TRANSFERE-B MURALIDHAR KINI",
+    "Chq. / Ref No.": "",
+    "Value Date": "30-05-2015",
+    "Withdrawal Amount": "10,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,61,731.23"
+  },
+  {
+    "Date": "30-05-2015",
+    "Narration": "IMPS-P2A-515012124763-MONEY TRANSFERE-MU RALIDHAR KINI B AND LEENA KINI",
+    "Chq. / Ref No.": "",
+    "Value Date": "30-05-2015",
+    "Withdrawal Amount": "10,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,51,731.23"
+  },
+  {
+    "Date": "01-06-2015",
+    "Narration": "23861570000261 -TPT-MONEY TRANSFERE",
+    "Chq. / Ref No.": "452512196A1",
+    "Value Date": "01-06-2015",
+    "Withdrawal Amount": "17,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,34,731.23"
+  },
+  {
+    "Date": "01-06-2015",
+    "Narration": "10481460000801 NET BANKING SI -FUNDS TRA NSFERE",
+    "Chq. / Ref No.": "",
+    "Value Date": "01-06-2015",
+    "Withdrawal Amount": "2,500.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,32,231.23"
+  },
+  {
+    "Date": "01-06-2015",
+    "Narration": "DHDF3828728221/HDFC MUTUAL FUND",
+    "Chq. / Ref No.": "601080503",
+    "Value Date": "01-06-2015",
+    "Withdrawal Amount": "10,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,22,231.23"
+  },
+  {
+    "Date": "01-06-2015",
+    "Narration": "DHDF3828729082/HDFC MUTUAL FUND",
+    "Chq. / Ref No.": "601080639",
+    "Value Date": "01-06-2015",
+    "Withdrawal Amount": "11,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,11,231.23"
+  },
+  {
+    "Date": "01-06-2015",
+    "Narration": "10481000005480 -TPT-MONEY TRANSFERE",
+    "Chq. / Ref No.": "452902777A1",
+    "Value Date": "01-06-2015",
+    "Withdrawal Amount": "25,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "86,231.23"
+  },
+  {
+    "Date": "01-06-2015",
+    "Narration": "2409180~6~2~8017/PRUDENTIAL ICICI AMC",
+    "Chq. / Ref No.": "601081554",
+    "Value Date": "01-06-2015",
+    "Withdrawal Amount": "5,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "81,231.23"
+  },
+  {
+    "Date": "01-06-2015",
+    "Narration": "2409182~6~2~8042/PRUDENTIAL ICICI AMC",
+    "Chq. / Ref No.": "601081737",
+    "Value Date": "01-06-2015",
+    "Withdrawal Amount": "2,500.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "78,731.23"
+  },
+  {
+    "Date": "09-06-2015",
+    "Narration": "SI HDFC122368066 ICICI PRUDENTI-09/06/15",
+    "Chq. / Ref No.": "",
+    "Value Date": "09-06-2015",
+    "Withdrawal Amount": "5,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "73,731.23"
+  },
+  {
+    "Date": "10-06-2015",
+    "Narration": "2424329~6~2~8017/PRUDENTIAL ICICI AMC",
+    "Chq. / Ref No.": "610080025",
+    "Value Date": "10-06-2015",
+    "Withdrawal Amount": "45,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "28,731.23"
+  },
+  {
+    "Date": "10-06-2015",
+    "Narration": "10481000005480 -TPT-MONEY TRANSFERE",
+    "Chq. / Ref No.": "525059459A1",
+    "Value Date": "10-06-2015",
+    "Withdrawal Amount": "0",
+    "Deposit Amount": "40,000.00",
+    "Closing Balance*": "68,731.23"
+  },
+  {
+    "Date": "10-06-2015",
+    "Narration": "IB FUNDS TRANSFER CR-10481930000900",
+    "Chq. / Ref No.": "",
+    "Value Date": "10-06-2015",
+    "Withdrawal Amount": "0",
+    "Deposit Amount": "28,000.00",
+    "Closing Balance*": "96,731.23"
+  },
+  {
+    "Date": "10-06-2015",
+    "Narration": "DHDF3843177567/HDFC MUTUAL FUND",
+    "Chq. / Ref No.": "610082639",
+    "Value Date": "10-06-2015",
+    "Withdrawal Amount": "23,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "73,731.23"
+  },
+  {
+    "Date": "10-06-2015",
+    "Narration": "DHDF3843179075/HDFC MUTUAL FUND",
+    "Chq. / Ref No.": "610082817",
+    "Value Date": "10-06-2015",
+    "Withdrawal Amount": "26,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "47,731.23"
+  },
+  {
+    "Date": "10-06-2015",
+    "Narration": "IIFL4677332/INDIAINFOLINE.COM",
+    "Chq. / Ref No.": "610121809",
+    "Value Date": "10-06-2015",
+    "Withdrawal Amount": "5,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "42,731.23"
+  },
+  {
+    "Date": "11-06-2015",
+    "Narration": "SI HDFC122572773 ICICI PRUDENTI-11/06/15",
+    "Chq. / Ref No.": "",
+    "Value Date": "11-06-2015",
+    "Withdrawal Amount": "3,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "39,731.23"
+  },
+  {
+    "Date": "14-06-2015",
+    "Narration": "10481000005480 -TPT-MONEY TRANSFERE",
+    "Chq. / Ref No.": "553325358A1",
+    "Value Date": "14-06-2015",
+    "Withdrawal Amount": "0",
+    "Deposit Amount": "20,000.00",
+    "Closing Balance*": "59,731.23"
+  },
+  {
+    "Date": "14-06-2015",
+    "Narration": "IMPS-P2A-516516571763-919481079030-",
+    "Chq. / Ref No.": "5.16517E+11",
+    "Value Date": "14-06-2015",
+    "Withdrawal Amount": "0",
+    "Deposit Amount": "25,000.00",
+    "Closing Balance*": "84,731.23"
+  },
+  {
+    "Date": "15-06-2015",
+    "Narration": "DHDF3851658236/HDFC MUTUAL FUND",
+    "Chq. / Ref No.": "615102143",
+    "Value Date": "15-06-2015",
+    "Withdrawal Amount": "25,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "59,731.23"
+  },
+  {
+    "Date": "15-06-2015",
+    "Narration": "DHDF3851687140/HDFC MUTUAL FUND",
+    "Chq. / Ref No.": "615103455",
+    "Value Date": "15-06-2015",
+    "Withdrawal Amount": "25,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "34,731.23"
+  },
+  {
+    "Date": "15-06-2015",
+    "Narration": "DHDF3853121630/BSNL BILLDESK",
+    "Chq. / Ref No.": "615215750",
+    "Value Date": "15-06-2015",
+    "Withdrawal Amount": "43",
+    "Deposit Amount": "0",
+    "Closing Balance*": "34,688.23"
+  },
+  {
+    "Date": "18-06-2015",
+    "Narration": "162383403/TECHPERFIOS SOFTWARE",
+    "Chq. / Ref No.": "618081312",
+    "Value Date": "18-06-2015",
+    "Withdrawal Amount": "568.86",
+    "Deposit Amount": "0",
+    "Closing Balance*": "34,119.37"
+  },
+  {
+    "Date": "22-06-2015",
+    "Narration": "SI HDFC122958249 FRANKLIN TEMPL-22/06/15",
+    "Chq. / Ref No.": "",
+    "Value Date": "22-06-2015",
+    "Withdrawal Amount": "5,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "29,119.37"
+  },
+  {
+    "Date": "25-06-2015",
+    "Narration": "SI HDFC122271857 LIFE INSURANCE-25/06/15",
+    "Chq. / Ref No.": "",
+    "Value Date": "25-06-2015",
+    "Withdrawal Amount": "482",
+    "Deposit Amount": "0",
+    "Closing Balance*": "28,637.37"
+  },
+  {
+    "Date": "26-06-2015",
+    "Narration": "SI HDFC123280810 ICICI PRUDENTI-26/06/15",
+    "Chq. / Ref No.": "",
+    "Value Date": "26-06-2015",
+    "Withdrawal Amount": "3,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "25,637.37"
+  },
+  {
+    "Date": "26-06-2015",
+    "Narration": "APBS C- IOC REF NO3000077109-52506924713",
+    "Chq. / Ref No.": "1378884997",
+    "Value Date": "26-06-2015",
+    "Withdrawal Amount": "0",
+    "Deposit Amount": "211.06",
+    "Closing Balance*": "25,848.43"
+  },
+  {
+    "Date": "27-06-2015",
+    "Narration": "IMPS P2P 562 515012123898#30/05/ 010615",
+    "Chq. / Ref No.": "",
+    "Value Date": "27-06-2015",
+    "Withdrawal Amount": "5.62",
+    "Deposit Amount": "0",
+    "Closing Balance*": "25,842.81"
+  },
+  {
+    "Date": "27-06-2015",
+    "Narration": "IMPS P2P 562 515012124763#30/05/ 010615",
+    "Chq. / Ref No.": "",
+    "Value Date": "27-06-2015",
+    "Withdrawal Amount": "5.62",
+    "Deposit Amount": "0",
+    "Closing Balance*": "25,837.19"
+  },
+  {
+    "Date": "27-06-2015",
+    "Narration": "SBY1167328",
+    "Chq. / Ref No.": "",
+    "Value Date": "27-06-2015",
+    "Withdrawal Amount": "12",
+    "Deposit Amount": "0",
+    "Closing Balance*": "25,825.19"
+  },
+  {
+    "Date": "30-06-2015",
+    "Narration": "10545798678396/CITRUSAIRTEL",
+    "Chq. / Ref No.": "630122540",
+    "Value Date": "30-06-2015",
+    "Withdrawal Amount": "727.32",
+    "Deposit Amount": "0",
+    "Closing Balance*": "25,097.87"
+  },
+  {
+    "Date": "30-06-2015",
+    "Narration": "JUNE 2015 SALARY",
+    "Chq. / Ref No.": "5.06308E+11",
+    "Value Date": "30-06-2015",
+    "Withdrawal Amount": "0",
+    "Deposit Amount": "1,35,306.00",
+    "Closing Balance*": "1,60,403.87"
+  },
+  {
+    "Date": "30-06-2015",
+    "Narration": "23861570000261 -TPT-MONEY TRANSFERE",
+    "Chq. / Ref No.": "658107132A1",
+    "Value Date": "01-07-2015",
+    "Withdrawal Amount": "17,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,43,403.87"
+  },
+  {
+    "Date": "30-06-2015",
+    "Narration": "10481000005480 -TPT-MONTHLY EXPENSES",
+    "Chq. / Ref No.": "658107133A1",
+    "Value Date": "01-07-2015",
+    "Withdrawal Amount": "25,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,18,403.87"
+  },
+  {
+    "Date": "30-06-2015",
+    "Narration": "IB BILLPAY DR-HDFCSI-4854980800264667",
+    "Chq. / Ref No.": "",
+    "Value Date": "01-07-2015",
+    "Withdrawal Amount": "15,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,03,403.87"
+  },
+  {
+    "Date": "01-07-2015",
+    "Narration": "10481460000801 NET BANKING SI -FUNDS TRA NSFERE",
+    "Chq. / Ref No.": "",
+    "Value Date": "01-07-2015",
+    "Withdrawal Amount": "2,500.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,00,903.87"
+  },
+  {
+    "Date": "01-07-2015",
+    "Narration": "DHDF3879818859/HDFC MUTUAL FUND",
+    "Chq. / Ref No.": "701080531",
+    "Value Date": "01-07-2015",
+    "Withdrawal Amount": "15,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "85,903.87"
+  },
+  {
+    "Date": "01-07-2015",
+    "Narration": "DHDF3879821571/HDFC MUTUAL FUND",
+    "Chq. / Ref No.": "701080917",
+    "Value Date": "01-07-2015",
+    "Withdrawal Amount": "5,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "80,903.87"
+  },
+  {
+    "Date": "01-07-2015",
+    "Narration": "DHDF3879828790/HDFC MUTUAL FUND",
+    "Chq. / Ref No.": "701081607",
+    "Value Date": "01-07-2015",
+    "Withdrawal Amount": "15,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "65,903.87"
+  },
+  {
+    "Date": "09-07-2015",
+    "Narration": "SI HDFC123770783 ICICI PRUDENTI-09/07/15",
+    "Chq. / Ref No.": "",
+    "Value Date": "09-07-2015",
+    "Withdrawal Amount": "5,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "60,903.87"
+  },
+  {
+    "Date": "11-07-2015",
+    "Narration": "SI HDFC123921557 ICICI PRUDENTI-11/07/15",
+    "Chq. / Ref No.": "",
+    "Value Date": "11-07-2015",
+    "Withdrawal Amount": "3,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "57,903.87"
+  },
+  {
+    "Date": "16-07-2015",
+    "Narration": "166844762/TECHBSNL",
+    "Chq. / Ref No.": "716101015",
+    "Value Date": "16-07-2015",
+    "Withdrawal Amount": "43",
+    "Deposit Amount": "0",
+    "Closing Balance*": "57,860.87"
+  },
+  {
+    "Date": "16-07-2015",
+    "Narration": "103636103689162/CITRUSNEWSHUNT",
+    "Chq. / Ref No.": "716200825",
+    "Value Date": "16-07-2015",
+    "Withdrawal Amount": "5",
+    "Deposit Amount": "0",
+    "Closing Balance*": "57,855.87"
+  },
+  {
+    "Date": "19-07-2015",
+    "Narration": "IB FUNDS TRANSFER CR-10481930000900",
+    "Chq. / Ref No.": "",
+    "Value Date": "19-07-2015",
+    "Withdrawal Amount": "0",
+    "Deposit Amount": "10,000.00",
+    "Closing Balance*": "67,855.87"
+  },
+  {
+    "Date": "19-07-2015",
+    "Narration": "IB FUNDS TRANSFER CR-10481460000801",
+    "Chq. / Ref No.": "",
+    "Value Date": "19-07-2015",
+    "Withdrawal Amount": "0",
+    "Deposit Amount": "10,000.00",
+    "Closing Balance*": "77,855.87"
+  },
+  {
+    "Date": "19-07-2015",
+    "Narration": "IMPS-P2A-520011113686-MONEY TO BR PAI-B MURALIDHAR KINI",
+    "Chq. / Ref No.": "",
+    "Value Date": "19-07-2015",
+    "Withdrawal Amount": "35,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "42,855.87"
+  },
+  {
+    "Date": "21-07-2015",
+    "Narration": "IMPS-P2A-520215181212-MONEY TRANSFERE-SU BRAMANI A",
+    "Chq. / Ref No.": "",
+    "Value Date": "21-07-2015",
+    "Withdrawal Amount": "5,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "37,855.87"
+  },
+  {
+    "Date": "22-07-2015",
+    "Narration": "SI HDFC124367519 FRANKLIN TEMPL-22/07/15",
+    "Chq. / Ref No.": "",
+    "Value Date": "22-07-2015",
+    "Withdrawal Amount": "5,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "32,855.87"
+  },
+  {
+    "Date": "27-07-2015",
+    "Narration": "SI HDFC124664203 ICICI PRUDENTI-27/07/15",
+    "Chq. / Ref No.": "",
+    "Value Date": "27-07-2015",
+    "Withdrawal Amount": "3,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "29,855.87"
+  },
+  {
+    "Date": "28-07-2015",
+    "Narration": "IMPS P2P 570 520011113686#19/07/ 200715",
+    "Chq. / Ref No.": "",
+    "Value Date": "28-07-2015",
+    "Withdrawal Amount": "5.7",
+    "Deposit Amount": "0",
+    "Closing Balance*": "29,850.17"
+  },
+  {
+    "Date": "28-07-2015",
+    "Narration": "JBY1139335_BRANCH",
+    "Chq. / Ref No.": "",
+    "Value Date": "28-07-2015",
+    "Withdrawal Amount": "330",
+    "Deposit Amount": "0",
+    "Closing Balance*": "29,520.17"
+  },
+  {
+    "Date": "29-07-2015",
+    "Narration": "IMPS P2P 570 520215181212#21/07/ 220715",
+    "Chq. / Ref No.": "",
+    "Value Date": "29-07-2015",
+    "Withdrawal Amount": "5.7",
+    "Deposit Amount": "0",
+    "Closing Balance*": "29,514.47"
+  },
+  {
+    "Date": "30-07-2015",
+    "Narration": "APBS C- IOC REF NO3000107309-53007897882",
+    "Chq. / Ref No.": "1605011701",
+    "Value Date": "30-07-2015",
+    "Withdrawal Amount": "0",
+    "Deposit Amount": "196.21",
+    "Closing Balance*": "29,710.68"
+  },
+  {
+    "Date": "31-07-2015",
+    "Narration": "JULY 2015 SALARY",
+    "Chq. / Ref No.": "5.0731E+11",
+    "Value Date": "31-07-2015",
+    "Withdrawal Amount": "0",
+    "Deposit Amount": "1,45,306.00",
+    "Closing Balance*": "1,75,016.68"
+  },
+  {
+    "Date": "31-07-2015",
+    "Narration": "IB BILLPAY DR-HDFCSI-4854980800264667",
+    "Chq. / Ref No.": "",
+    "Value Date": "01-08-2015",
+    "Withdrawal Amount": "25,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,50,016.68"
+  },
+  {
+    "Date": "31-07-2015",
+    "Narration": "10481000005480 -TPT-MONEY TRANSFERE",
+    "Chq. / Ref No.": "880647902A1",
+    "Value Date": "01-08-2015",
+    "Withdrawal Amount": "20,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,30,016.68"
+  },
+  {
+    "Date": "01-08-2015",
+    "Narration": "IB BILLPAY DR-HDFCSI-4854980800264667",
+    "Chq. / Ref No.": "",
+    "Value Date": "01-08-2015",
+    "Withdrawal Amount": "20,072.21",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,09,944.47"
+  },
+  {
+    "Date": "01-08-2015",
+    "Narration": "23861570000261 -TPT-MONEY TRANSFERE",
+    "Chq. / Ref No.": "880876517A1",
+    "Value Date": "01-08-2015",
+    "Withdrawal Amount": "17,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "92,944.47"
+  },
+  {
+    "Date": "01-08-2015",
+    "Narration": "10481460000801 NET BANKING SI -FUNDS TRA NSFERE",
+    "Chq. / Ref No.": "",
+    "Value Date": "01-08-2015",
+    "Withdrawal Amount": "2,500.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "90,444.47"
+  },
+  {
+    "Date": "03-08-2015",
+    "Narration": "169824368/TECHBSNL",
+    "Chq. / Ref No.": "803220115",
+    "Value Date": "03-08-2015",
+    "Withdrawal Amount": "550",
+    "Deposit Amount": "0",
+    "Closing Balance*": "89,894.47"
+  },
+  {
+    "Date": "05-08-2015",
+    "Narration": "DHDF3944682873/HDFC MUTUAL FUND",
+    "Chq. / Ref No.": "805100241",
+    "Value Date": "05-08-2015",
+    "Withdrawal Amount": "40,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "49,894.47"
+  },
+  {
+    "Date": "05-08-2015",
+    "Narration": "10481000005480 -TPT-MONEY TRANSFERE",
+    "Chq. / Ref No.": "916226360A1",
+    "Value Date": "05-08-2015",
+    "Withdrawal Amount": "0",
+    "Deposit Amount": "40,000.00",
+    "Closing Balance*": "89,894.47"
+  },
+  {
+    "Date": "05-08-2015",
+    "Narration": "389810832/PAYUJUBILANTFOODWORK",
+    "Chq. / Ref No.": "805123516",
+    "Value Date": "05-08-2015",
+    "Withdrawal Amount": "763",
+    "Deposit Amount": "0",
+    "Closing Balance*": "89,131.47"
+  },
+  {
+    "Date": "08-08-2015",
+    "Narration": "SI HDFC125192061 ICICI PRUDENTI-08/08/15",
+    "Chq. / Ref No.": "",
+    "Value Date": "08-08-2015",
+    "Withdrawal Amount": "5,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "84,131.47"
+  },
+  {
+    "Date": "12-08-2015",
+    "Narration": "SI HDFC125292181 ICICI PRUDENTI-12/08/15",
+    "Chq. / Ref No.": "",
+    "Value Date": "12-08-2015",
+    "Withdrawal Amount": "3,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "81,131.47"
+  },
+  {
+    "Date": "21-08-2015",
+    "Narration": "SI HDFC125731589 FRANKLIN TEMPL-21/08/15",
+    "Chq. / Ref No.": "",
+    "Value Date": "21-08-2015",
+    "Withdrawal Amount": "5,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "76,131.47"
+  },
+  {
+    "Date": "23-08-2015",
+    "Narration": "DHDF3978909657/BILLDKAIRTELMONEY",
+    "Chq. / Ref No.": "823193213",
+    "Value Date": "23-08-2015",
+    "Withdrawal Amount": "2,500.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "73,631.47"
+  },
+  {
+    "Date": "24-08-2015",
+    "Narration": "173152567/TECHBSNL",
+    "Chq. / Ref No.": "824175418",
+    "Value Date": "24-08-2015",
+    "Withdrawal Amount": "550",
+    "Deposit Amount": "0",
+    "Closing Balance*": "73,081.47"
+  },
+  {
+    "Date": "25-08-2015",
+    "Narration": "404394129/PAYUINNOVATIVERETAIL",
+    "Chq. / Ref No.": "825224412",
+    "Value Date": "25-08-2015",
+    "Withdrawal Amount": "2,200.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "70,881.47"
+  },
+  {
+    "Date": "27-08-2015",
+    "Narration": "SI HDFC126050882 ICICI PRUDENTI-27/08/15",
+    "Chq. / Ref No.": "",
+    "Value Date": "27-08-2015",
+    "Withdrawal Amount": "3,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "67,881.47"
+  },
+  {
+    "Date": "27-08-2015",
+    "Narration": "IMPS-P2A-523912151135-MONEY TRANSFERE-MU RALIDHAR KINI B AND LEENA KINI",
+    "Chq. / Ref No.": "",
+    "Value Date": "27-08-2015",
+    "Withdrawal Amount": "10,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "57,881.47"
+  },
+  {
+    "Date": "31-08-2015",
+    "Narration": "AUGUST 2015 SALARY",
+    "Chq. / Ref No.": "5.08311E+11",
+    "Value Date": "31-08-2015",
+    "Withdrawal Amount": "0",
+    "Deposit Amount": "1,45,306.00",
+    "Closing Balance*": "2,03,187.47"
+  },
+  {
+    "Date": "31-08-2015",
+    "Narration": "03672320000810AUG15 REIM. OF EXP",
+    "Chq. / Ref No.": "5.08311E+11",
+    "Value Date": "31-08-2015",
+    "Withdrawal Amount": "0",
+    "Deposit Amount": "9,874.00",
+    "Closing Balance*": "2,13,061.47"
+  },
+  {
+    "Date": "01-09-2015",
+    "Narration": "10481460000801 NET BANKING SI -FUNDS TRA NSFERE",
+    "Chq. / Ref No.": "",
+    "Value Date": "01-09-2015",
+    "Withdrawal Amount": "2,500.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "2,10,561.47"
+  },
+  {
+    "Date": "01-09-2015",
+    "Narration": "IB BILLPAY DR-HDFCSI-4854980800264667",
+    "Chq. / Ref No.": "",
+    "Value Date": "01-09-2015",
+    "Withdrawal Amount": "21,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,89,561.47"
+  },
+  {
+    "Date": "01-09-2015",
+    "Narration": "23861570000261 -TPT-MONEY TRANSFERE",
+    "Chq. / Ref No.": "110097115A1",
+    "Value Date": "01-09-2015",
+    "Withdrawal Amount": "17,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,72,561.47"
+  },
+  {
+    "Date": "01-09-2015",
+    "Narration": "10481000005480 -TPT-MONEY TRANSFERE",
+    "Chq. / Ref No.": "110097120A1",
+    "Value Date": "01-09-2015",
+    "Withdrawal Amount": "25,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,47,561.47"
+  },
+  {
+    "Date": "01-09-2015",
+    "Narration": "NEFT DR-SBIN0012662-B MURALIDHAR KINI-NE TBANK, MUM-N244150091253685",
+    "Chq. / Ref No.": "N244150091253685",
+    "Value Date": "01-09-2015",
+    "Withdrawal Amount": "10,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,37,561.47"
+  },
+  {
+    "Date": "01-09-2015",
+    "Narration": "NEFT DR-ICIC0000078-MURALIDHAR KINI B AN D LEENA KINI-NETBANK, MUM-N2441500912494 13",
+    "Chq. / Ref No.": "N244150091249413",
+    "Value Date": "01-09-2015",
+    "Withdrawal Amount": "10,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,27,561.47"
+  },
+  {
+    "Date": "02-09-2015",
+    "Narration": "IMPS P2P 570 523912151135#27/08/ 280815",
+    "Chq. / Ref No.": "",
+    "Value Date": "02-09-2015",
+    "Withdrawal Amount": "5.7",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,27,555.77"
+  },
+  {
+    "Date": "03-09-2015",
+    "Narration": "DHDF3998955393/HDFC MUTUAL FUND",
+    "Chq. / Ref No.": "903081601",
+    "Value Date": "03-09-2015",
+    "Withdrawal Amount": "10,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,17,555.77"
+  },
+  {
+    "Date": "03-09-2015",
+    "Narration": "DHDF3998957545/HDFC MUTUAL FUND",
+    "Chq. / Ref No.": "903081924",
+    "Value Date": "03-09-2015",
+    "Withdrawal Amount": "5,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,12,555.77"
+  },
+  {
+    "Date": "03-09-2015",
+    "Narration": "2544368~6~2~8042/PRUDENTIAL ICICI AMC",
+    "Chq. / Ref No.": "903124122",
+    "Value Date": "03-09-2015",
+    "Withdrawal Amount": "5,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,07,555.77"
+  },
+  {
+    "Date": "03-09-2015",
+    "Narration": "2544374~6~2~8017/PRUDENTIAL ICICI AMC",
+    "Chq. / Ref No.": "903124406",
+    "Value Date": "03-09-2015",
+    "Withdrawal Amount": "5,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,02,555.77"
+  },
+  {
+    "Date": "08-09-2015",
+    "Narration": "NEFT CHGS INCL ST & CESS 010915",
+    "Chq. / Ref No.": "",
+    "Value Date": "08-09-2015",
+    "Withdrawal Amount": "5.7",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,02,550.07"
+  },
+  {
+    "Date": "09-09-2015",
+    "Narration": "SI HDFC126601968 ICICI PRUDENTI-09/09/15",
+    "Chq. / Ref No.": "",
+    "Value Date": "09-09-2015",
+    "Withdrawal Amount": "5,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "97,550.07"
+  },
+  {
+    "Date": "10-09-2015",
+    "Narration": "APBS C- IOC REF NO3000142024-50809989421",
+    "Chq. / Ref No.": "1890440926",
+    "Value Date": "10-09-2015",
+    "Withdrawal Amount": "0",
+    "Deposit Amount": "147.2",
+    "Closing Balance*": "97,697.27"
+  },
+  {
+    "Date": "11-09-2015",
+    "Narration": "SI HDFC126820661 ICICI PRUDENTI-11/09/15",
+    "Chq. / Ref No.": "",
+    "Value Date": "11-09-2015",
+    "Withdrawal Amount": "3,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "94,697.27"
+  },
+  {
+    "Date": "12-09-2015",
+    "Narration": "176022211/TECHBSNL",
+    "Chq. / Ref No.": "912104825",
+    "Value Date": "12-09-2015",
+    "Withdrawal Amount": "198",
+    "Deposit Amount": "0",
+    "Closing Balance*": "94,499.27"
+  },
+  {
+    "Date": "12-09-2015",
+    "Narration": "176022631/TECHBSNL",
+    "Chq. / Ref No.": "912105051",
+    "Value Date": "12-09-2015",
+    "Withdrawal Amount": "550",
+    "Deposit Amount": "0",
+    "Closing Balance*": "93,949.27"
+  },
+  {
+    "Date": "14-09-2015",
+    "Narration": "DHDF4016501503/BSNL BILLDESK",
+    "Chq. / Ref No.": "914021942",
+    "Value Date": "14-09-2015",
+    "Withdrawal Amount": "98",
+    "Deposit Amount": "0",
+    "Closing Balance*": "93,851.27"
+  },
+  {
+    "Date": "21-09-2015",
+    "Narration": "IB BILLPAY DR-HDFCSI-4854980800264667",
+    "Chq. / Ref No.": "",
+    "Value Date": "21-09-2015",
+    "Withdrawal Amount": "31,402.20",
+    "Deposit Amount": "0",
+    "Closing Balance*": "62,449.07"
+  },
+  {
+    "Date": "21-09-2015",
+    "Narration": "IMPS-P2A-526417195827-AUH-TICKET BOOKING MONEY-ANAND NIKETAN",
+    "Chq. / Ref No.": "",
+    "Value Date": "21-09-2015",
+    "Withdrawal Amount": "27,400.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "35,049.07"
+  },
+  {
+    "Date": "22-09-2015",
+    "Narration": "SI HDFC127241660 FRANKLIN TEMPL-22/09/15",
+    "Chq. / Ref No.": "",
+    "Value Date": "22-09-2015",
+    "Withdrawal Amount": "5,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "30,049.07"
+  },
+  {
+    "Date": "24-09-2015",
+    "Narration": "SI HDFC126444056 LIFE INSURANCE-24/09/15",
+    "Chq. / Ref No.": "",
+    "Value Date": "24-09-2015",
+    "Withdrawal Amount": "482",
+    "Deposit Amount": "0",
+    "Closing Balance*": "29,567.07"
+  },
+  {
+    "Date": "28-09-2015",
+    "Narration": "DHDF4037387608/BSNL BILLDESK",
+    "Chq. / Ref No.": "928095841",
+    "Value Date": "28-09-2015",
+    "Withdrawal Amount": "89",
+    "Deposit Amount": "0",
+    "Closing Balance*": "29,478.07"
+  },
+  {
+    "Date": "28-09-2015",
+    "Narration": "SI HDFC127588255 ICICI PRUDENTI-26/09/15",
+    "Chq. / Ref No.": "",
+    "Value Date": "28-09-2015",
+    "Withdrawal Amount": "3,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "26,478.07"
+  },
+  {
+    "Date": "30-09-2015",
+    "Narration": "SEPTEMBER 2015 SALARY",
+    "Chq. / Ref No.": "5.09303E+11",
+    "Value Date": "30-09-2015",
+    "Withdrawal Amount": "0",
+    "Deposit Amount": "1,45,306.00",
+    "Closing Balance*": "1,71,784.07"
+  },
+  {
+    "Date": "30-09-2015",
+    "Narration": "178893698/TECHBSNL",
+    "Chq. / Ref No.": "930225853",
+    "Value Date": "01-10-2015",
+    "Withdrawal Amount": "87",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,71,697.07"
+  },
+  {
+    "Date": "01-10-2015",
+    "Narration": "CREDIT INTEREST CAPITALISED",
+    "Chq. / Ref No.": "",
+    "Value Date": "30-09-2015",
+    "Withdrawal Amount": "0",
+    "Deposit Amount": "1,437.00",
+    "Closing Balance*": "1,73,134.07"
+  },
+  {
+    "Date": "01-10-2015",
+    "Narration": "10481460000801 NET BANKING SI -FUNDS TRA NSFERE",
+    "Chq. / Ref No.": "",
+    "Value Date": "01-10-2015",
+    "Withdrawal Amount": "2,500.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,70,634.07"
+  },
+  {
+    "Date": "03-10-2015",
+    "Narration": "REF-BSNL BILLD-DHDF4037387608-28/09/15",
+    "Chq. / Ref No.": "",
+    "Value Date": "03-10-2015",
+    "Withdrawal Amount": "0",
+    "Deposit Amount": "89",
+    "Closing Balance*": "1,70,723.07"
+  },
+  {
+    "Date": "03-10-2015",
+    "Narration": "23861570000261 -TPT-MONEY TRANSFERE",
+    "Chq. / Ref No.": "356868375A1",
+    "Value Date": "03-10-2015",
+    "Withdrawal Amount": "17,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,53,723.07"
+  },
+  {
+    "Date": "03-10-2015",
+    "Narration": "10481000005480 -TPT-MONEY TRANSFERE",
+    "Chq. / Ref No.": "356886047A1",
+    "Value Date": "03-10-2015",
+    "Withdrawal Amount": "25,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,28,723.07"
+  },
+  {
+    "Date": "07-10-2015",
+    "Narration": "EHDF4052023311/BSNL BILLDESK",
+    "Chq. / Ref No.": "1007153941",
+    "Value Date": "07-10-2015",
+    "Withdrawal Amount": "251",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,28,472.07"
+  },
+  {
+    "Date": "07-10-2015",
+    "Narration": "EHDF4052031402/BILLDKBHARATSANCHARN",
+    "Chq. / Ref No.": "1007154359",
+    "Value Date": "07-10-2015",
+    "Withdrawal Amount": "2,426.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,26,046.07"
+  },
+  {
+    "Date": "08-10-2015",
+    "Narration": "SI HDFC128075524 ICICI PRUDENTI-08/10/15",
+    "Chq. / Ref No.": "",
+    "Value Date": "08-10-2015",
+    "Withdrawal Amount": "5,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,21,046.07"
+  },
+  {
+    "Date": "08-10-2015",
+    "Narration": "APBS C- IOC REF NO3000166609-50710997972",
+    "Chq. / Ref No.": "2090512617",
+    "Value Date": "08-10-2015",
+    "Withdrawal Amount": "0",
+    "Deposit Amount": "104.13",
+    "Closing Balance*": "1,21,150.20"
+  },
+  {
+    "Date": "09-10-2015",
+    "Narration": "EHDF4054960734/BSNL BILLDESK",
+    "Chq. / Ref No.": "1009103905",
+    "Value Date": "09-10-2015",
+    "Withdrawal Amount": "550",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,20,600.20"
+  },
+  {
+    "Date": "09-10-2015",
+    "Narration": "EHDF4054973802/BSNL BILLDESK",
+    "Chq. / Ref No.": "1009104217",
+    "Value Date": "09-10-2015",
+    "Withdrawal Amount": "155",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,20,445.20"
+  },
+  {
+    "Date": "10-10-2015",
+    "Narration": "435749901/PAYUINNOVATIVERETAIL",
+    "Chq. / Ref No.": "1010093825",
+    "Value Date": "10-10-2015",
+    "Withdrawal Amount": "1,631.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,18,814.20"
+  },
+  {
+    "Date": "10-10-2015",
+    "Narration": "EHDF4056624042/BSNL BILLDESK",
+    "Chq. / Ref No.": "1010095236",
+    "Value Date": "10-10-2015",
+    "Withdrawal Amount": "87",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,18,727.20"
+  },
+  {
+    "Date": "12-10-2015",
+    "Narration": "3148996637/PAYTMMOBILESOLUTIONP",
+    "Chq. / Ref No.": "1012090056",
+    "Value Date": "12-10-2015",
+    "Withdrawal Amount": "300",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,18,427.20"
+  },
+  {
+    "Date": "12-10-2015",
+    "Narration": "SI HDFC128253795 ICICI PRUDENTI-12/10/15",
+    "Chq. / Ref No.": "",
+    "Value Date": "12-10-2015",
+    "Withdrawal Amount": "3,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,15,427.20"
+  },
+  {
+    "Date": "17-10-2015",
+    "Narration": "MULTICURRENCY FOREX CARD - 1710155843",
+    "Chq. / Ref No.": "",
+    "Value Date": "17-10-2015",
+    "Withdrawal Amount": "54,990.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "60,437.20"
+  },
+  {
+    "Date": "19-10-2015",
+    "Narration": "CECS C-NATIONAL ALUMINIUM C-022691262160",
+    "Chq. / Ref No.": "2135932284",
+    "Value Date": "19-10-2015",
+    "Withdrawal Amount": "0",
+    "Deposit Amount": "15",
+    "Closing Balance*": "60,452.20"
+  },
+  {
+    "Date": "23-10-2015",
+    "Narration": "SI HDFC128759401 FRANKLIN TEMPL-22/10/15",
+    "Chq. / Ref No.": "",
+    "Value Date": "23-10-2015",
+    "Withdrawal Amount": "5,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "55,452.20"
+  },
+  {
+    "Date": "23-10-2015",
+    "Narration": "APBS C- IOC REF NO3000182598-52110841854",
+    "Chq. / Ref No.": "2197098966",
+    "Value Date": "23-10-2015",
+    "Withdrawal Amount": "0",
+    "Deposit Amount": "104.13",
+    "Closing Balance*": "55,556.33"
+  },
+  {
+    "Date": "23-10-2015",
+    "Narration": "1710155843-STAX 4726430004088021 NETBK L",
+    "Chq. / Ref No.": "",
+    "Value Date": "23-10-2015",
+    "Withdrawal Amount": "76.99",
+    "Deposit Amount": "0",
+    "Closing Balance*": "55,479.34"
+  },
+  {
+    "Date": "23-10-2015",
+    "Narration": "4726430004088021 LOAD FEES DT 23/10/2015",
+    "Chq. / Ref No.": "",
+    "Value Date": "23-10-2015",
+    "Withdrawal Amount": "570",
+    "Deposit Amount": "0",
+    "Closing Balance*": "54,909.34"
+  },
+  {
+    "Date": "27-10-2015",
+    "Narration": "SI HDFC129084657 ICICI PRUDENTI-27/10/15",
+    "Chq. / Ref No.": "",
+    "Value Date": "27-10-2015",
+    "Withdrawal Amount": "3,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "51,909.34"
+  },
+  {
+    "Date": "28-10-2015",
+    "Narration": "IB BILLPAY DR-HDFCSI-485498XXXXXX4667",
+    "Chq. / Ref No.": "",
+    "Value Date": "28-10-2015",
+    "Withdrawal Amount": "9,087.59",
+    "Deposit Amount": "0",
+    "Closing Balance*": "42,821.75"
+  },
+  {
+    "Date": "28-10-2015",
+    "Narration": "CECS C-NMDC LTD-3638517",
+    "Chq. / Ref No.": "2193281798",
+    "Value Date": "28-10-2015",
+    "Withdrawal Amount": "0",
+    "Deposit Amount": "59",
+    "Closing Balance*": "42,880.75"
+  },
+  {
+    "Date": "30-10-2015",
+    "Narration": "OCTOBER 2015 SALARY",
+    "Chq. / Ref No.": "5.10305E+11",
+    "Value Date": "30-10-2015",
+    "Withdrawal Amount": "0",
+    "Deposit Amount": "1,45,306.00",
+    "Closing Balance*": "1,88,186.75"
+  },
+  {
+    "Date": "30-10-2015",
+    "Narration": "03672320000810TRAVEL REIMBURSEMENT",
+    "Chq. / Ref No.": "5.10305E+11",
+    "Value Date": "30-10-2015",
+    "Withdrawal Amount": "0",
+    "Deposit Amount": "20,666.00",
+    "Closing Balance*": "2,08,852.75"
+  },
+  {
+    "Date": "31-10-2015",
+    "Narration": "103804132786664/CITRUSAIRTEL",
+    "Chq. / Ref No.": "1031191005",
+    "Value Date": "31-10-2015",
+    "Withdrawal Amount": "4,117.68",
+    "Deposit Amount": "0",
+    "Closing Balance*": "2,04,735.07"
+  },
+  {
+    "Date": "01-11-2015",
+    "Narration": "10481460000801 NET BANKING SI -FUNDS TRA NSFERE",
+    "Chq. / Ref No.": "",
+    "Value Date": "01-11-2015",
+    "Withdrawal Amount": "2,500.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "2,02,235.07"
+  },
+  {
+    "Date": "01-11-2015",
+    "Narration": "23861570000261 -TPT-MONEY TRANSFERE",
+    "Chq. / Ref No.": "573161238A1",
+    "Value Date": "01-11-2015",
+    "Withdrawal Amount": "15,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,87,235.07"
+  },
+  {
+    "Date": "01-11-2015",
+    "Narration": "10481000005480 -TPT-MONEY TRANSFERE",
+    "Chq. / Ref No.": "573161240A1",
+    "Value Date": "01-11-2015",
+    "Withdrawal Amount": "25,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,62,235.07"
+  },
+  {
+    "Date": "01-11-2015",
+    "Narration": "IMPS-P2A-530515124178-MONEY TRANSFERE-B MURALIDHAR KINI",
+    "Chq. / Ref No.": "",
+    "Value Date": "01-11-2015",
+    "Withdrawal Amount": "20,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,42,235.07"
+  },
+  {
+    "Date": "01-11-2015",
+    "Narration": "IMPS-P2A-530515123900-MONEY TRANSFERE-MU RALIDHAR KINI B AND LEENA KINI",
+    "Chq. / Ref No.": "",
+    "Value Date": "01-11-2015",
+    "Withdrawal Amount": "20,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,22,235.07"
+  },
+  {
+    "Date": "01-11-2015",
+    "Narration": "IB BILLPAY DR-HDFCSI-485498XXXXXX4667",
+    "Chq. / Ref No.": "",
+    "Value Date": "01-11-2015",
+    "Withdrawal Amount": "14,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,08,235.07"
+  },
+  {
+    "Date": "10-11-2015",
+    "Narration": "IMPS P2P 570 530515123900#01/11/ 021115",
+    "Chq. / Ref No.": "",
+    "Value Date": "10-11-2015",
+    "Withdrawal Amount": "5.7",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,08,229.37"
+  },
+  {
+    "Date": "10-11-2015",
+    "Narration": "IMPS P2P 570 530515124178#01/11/ 021115",
+    "Chq. / Ref No.": "",
+    "Value Date": "10-11-2015",
+    "Withdrawal Amount": "5.7",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,08,223.67"
+  },
+  {
+    "Date": "13-11-2015",
+    "Narration": "SI HDFC129818902 ICICI PRUDENTI-11/11/15",
+    "Chq. / Ref No.": "",
+    "Value Date": "13-11-2015",
+    "Withdrawal Amount": "5,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,03,223.67"
+  },
+  {
+    "Date": "13-11-2015",
+    "Narration": "SI HDFC129881057 ICICI PRUDENTI-12/11/15",
+    "Chq. / Ref No.": "",
+    "Value Date": "13-11-2015",
+    "Withdrawal Amount": "3,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,00,223.67"
+  },
+  {
+    "Date": "21-11-2015",
+    "Narration": "SI HDFC130322343 FRANKLIN TEMPL-21/11/15",
+    "Chq. / Ref No.": "",
+    "Value Date": "21-11-2015",
+    "Withdrawal Amount": "5,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "95,223.67"
+  },
+  {
+    "Date": "24-11-2015",
+    "Narration": "CHQ PAID-TRANSFER IN-MUBLE SOLUTIOSN P L",
+    "Chq. / Ref No.": "14",
+    "Value Date": "24-11-2015",
+    "Withdrawal Amount": "15,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "80,223.67"
+  },
+  {
+    "Date": "26-11-2015",
+    "Narration": "SI HDFC130685726 ICICI PRUDENTI-26/11/15",
+    "Chq. / Ref No.": "",
+    "Value Date": "26-11-2015",
+    "Withdrawal Amount": "3,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "77,223.67"
+  },
+  {
+    "Date": "27-11-2015",
+    "Narration": "4726430004088021 S.TAX ON REF CONV DT-27",
+    "Chq. / Ref No.": "",
+    "Value Date": "27-11-2015",
+    "Withdrawal Amount": "67.19",
+    "Deposit Amount": "0",
+    "Closing Balance*": "77,156.48"
+  },
+  {
+    "Date": "27-11-2015",
+    "Narration": "RFD 4726430004088021 AED 2733 @ 17.56 DB OPS MUMBA",
+    "Chq. / Ref No.": "",
+    "Value Date": "27-11-2015",
+    "Withdrawal Amount": "0",
+    "Deposit Amount": "47,991.48",
+    "Closing Balance*": "1,25,147.96"
+  },
+  {
+    "Date": "30-11-2015",
+    "Narration": "NOVEMBER 2015 SALARY",
+    "Chq. / Ref No.": "5.11308E+11",
+    "Value Date": "30-11-2015",
+    "Withdrawal Amount": "0",
+    "Deposit Amount": "1,45,306.00",
+    "Closing Balance*": "2,70,453.96"
+  },
+  {
+    "Date": "01-12-2015",
+    "Narration": "10481460000801 NET BANKING SI -FUNDS TRA NSFERE",
+    "Chq. / Ref No.": "",
+    "Value Date": "01-12-2015",
+    "Withdrawal Amount": "2,500.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "2,67,953.96"
+  },
+  {
+    "Date": "01-12-2015",
+    "Narration": "23861570000261 -TPT-MONEY TRANSFERE",
+    "Chq. / Ref No.": "807997399A1",
+    "Value Date": "01-12-2015",
+    "Withdrawal Amount": "15,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "2,52,953.96"
+  },
+  {
+    "Date": "01-12-2015",
+    "Narration": "IB BILLPAY DR-HDFCSI-485498XXXXXX4667",
+    "Chq. / Ref No.": "",
+    "Value Date": "01-12-2015",
+    "Withdrawal Amount": "30,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "2,22,953.96"
+  },
+  {
+    "Date": "05-12-2015",
+    "Narration": "EHDF4153579081/BSNL BILLDESK",
+    "Chq. / Ref No.": "1205091915",
+    "Value Date": "05-12-2015",
+    "Withdrawal Amount": "198",
+    "Deposit Amount": "0",
+    "Closing Balance*": "2,22,755.96"
+  },
+  {
+    "Date": "07-12-2015",
+    "Narration": "APBS C- IOC REF NO3000221946-50612817694",
+    "Chq. / Ref No.": "2524795040",
+    "Value Date": "07-12-2015",
+    "Withdrawal Amount": "0",
+    "Deposit Amount": "193.73",
+    "Closing Balance*": "2,22,949.69"
+  },
+  {
+    "Date": "09-12-2015",
+    "Narration": "SI HDFC131242873 ICICI PRUDENTI-09/12/15",
+    "Chq. / Ref No.": "",
+    "Value Date": "09-12-2015",
+    "Withdrawal Amount": "5,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "2,17,949.69"
+  },
+  {
+    "Date": "09-12-2015",
+    "Narration": "NEFT DR-KARB0000107-RAGHAVENDRA B S-NETB ANK, MUM-N343150113722493",
+    "Chq. / Ref No.": "N343150113722493",
+    "Value Date": "10-12-2015",
+    "Withdrawal Amount": "1,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "2,16,949.69"
+  },
+  {
+    "Date": "11-12-2015",
+    "Narration": "SI HDFC131556958 ICICI PRUDENTI-11/12/15",
+    "Chq. / Ref No.": "",
+    "Value Date": "11-12-2015",
+    "Withdrawal Amount": "3,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "2,13,949.69"
+  },
+  {
+    "Date": "14-12-2015",
+    "Narration": "NEFT DR-KARB0000107-RAGHAVENDRA B S-NETB ANK, MUM-N348150114425743",
+    "Chq. / Ref No.": "N348150114425743",
+    "Value Date": "14-12-2015",
+    "Withdrawal Amount": "20,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,93,949.69"
+  },
+  {
+    "Date": "14-12-2015",
+    "Narration": "DEPOSITORY CHARGES NOV15 - 20513526",
+    "Chq. / Ref No.": "58114804",
+    "Value Date": "14-12-2015",
+    "Withdrawal Amount": "572.5",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,93,377.19"
+  },
+  {
+    "Date": "15-12-2015",
+    "Narration": "NEFT CHGS INCL ST & CESS 091215",
+    "Chq. / Ref No.": "",
+    "Value Date": "15-12-2015",
+    "Withdrawal Amount": "2.86",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,93,374.33"
+  },
+  {
+    "Date": "21-12-2015",
+    "Narration": "NEFT CHGS INCL ST & CESS 141215",
+    "Chq. / Ref No.": "",
+    "Value Date": "21-12-2015",
+    "Withdrawal Amount": "5.73",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,93,368.60"
+  },
+  {
+    "Date": "22-12-2015",
+    "Narration": "SI HDFC131892065 FRANKLIN TEMPL-22/12/15",
+    "Chq. / Ref No.": "",
+    "Value Date": "22-12-2015",
+    "Withdrawal Amount": "5,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,88,368.60"
+  },
+  {
+    "Date": "23-12-2015",
+    "Narration": "SI HDFC132293547 ICICI PRUDENTI-23/12/15",
+    "Chq. / Ref No.": "",
+    "Value Date": "23-12-2015",
+    "Withdrawal Amount": "3,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,85,368.60"
+  },
+  {
+    "Date": "24-12-2015",
+    "Narration": "EHDF4190730800/LIC OF INDIA",
+    "Chq. / Ref No.": "1.53582E+11",
+    "Value Date": "24-12-2015",
+    "Withdrawal Amount": "482",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,84,886.60"
+  },
+  {
+    "Date": "26-12-2015",
+    "Narration": "IB BILLPAY DR-HDFCSI-485498XXXXXX4667",
+    "Chq. / Ref No.": "",
+    "Value Date": "26-12-2015",
+    "Withdrawal Amount": "18,602.18",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,66,284.42"
+  },
+  {
+    "Date": "28-12-2015",
+    "Narration": "SI HDFC131096208 LIFE INSURANCE-24/12/15",
+    "Chq. / Ref No.": "",
+    "Value Date": "28-12-2015",
+    "Withdrawal Amount": "482",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,65,802.42"
+  },
+  {
+    "Date": "29-12-2015",
+    "Narration": "10481000005480 -TPT-MONEY TRANSFERE",
+    "Chq. / Ref No.": "17250973A1",
+    "Value Date": "29-12-2015",
+    "Withdrawal Amount": "35,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,30,802.42"
+  },
+  {
+    "Date": "30-12-2015",
+    "Narration": "DECEMBER 2015 SALARY",
+    "Chq. / Ref No.": "5.12309E+11",
+    "Value Date": "30-12-2015",
+    "Withdrawal Amount": "0",
+    "Deposit Amount": "1,60,468.00",
+    "Closing Balance*": "2,91,270.42"
+  },
+  {
+    "Date": "30-12-2015",
+    "Narration": "UEI ELECTRONICS PVT LTD",
+    "Chq. / Ref No.": "5.12309E+11",
+    "Value Date": "30-12-2015",
+    "Withdrawal Amount": "0",
+    "Deposit Amount": "15,232.00",
+    "Closing Balance*": "3,06,502.42"
+  },
+  {
+    "Date": "30-12-2015",
+    "Narration": "EHDF4203267262/BILLDKNATIONALSECURI",
+    "Chq. / Ref No.": "1.53646E+11",
+    "Value Date": "30-12-2015",
+    "Withdrawal Amount": "111.58",
+    "Deposit Amount": "0",
+    "Closing Balance*": "3,06,390.84"
+  },
+  {
+    "Date": "31-12-2015",
+    "Narration": "497016505/PAYUINNOVATIVERETAIL",
+    "Chq. / Ref No.": "1.53657E+11",
+    "Value Date": "31-12-2015",
+    "Withdrawal Amount": "375",
+    "Deposit Amount": "0",
+    "Closing Balance*": "3,06,015.84"
+  },
+  {
+    "Date": "31-12-2015",
+    "Narration": "IB BILLPAY DR-HDFCSI-485498XXXXXX4667",
+    "Chq. / Ref No.": "",
+    "Value Date": "31-12-2015",
+    "Withdrawal Amount": "20,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "2,86,015.84"
+  },
+  {
+    "Date": "31-12-2015",
+    "Narration": "23861570000261 -TPT-MONEY TRANSFERE",
+    "Chq. / Ref No.": "46233858A1",
+    "Value Date": "31-12-2015",
+    "Withdrawal Amount": "20,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "2,66,015.84"
+  },
+  {
+    "Date": "31-12-2015",
+    "Narration": "10481000005480 -TPT-MONEY TRANSFERE",
+    "Chq. / Ref No.": "46233860A1",
+    "Value Date": "31-12-2015",
+    "Withdrawal Amount": "30,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "2,36,015.84"
+  },
+  {
+    "Date": "01-01-2016",
+    "Narration": "10481460000801 NET BANKING SI -FUNDS TRA NSFERE",
+    "Chq. / Ref No.": "",
+    "Value Date": "01-01-2016",
+    "Withdrawal Amount": "2,500.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "2,33,515.84"
+  },
+  {
+    "Date": "01-01-2016",
+    "Narration": "IB BILLPAY DR-HDFCSI-485498XXXXXX4667",
+    "Chq. / Ref No.": "",
+    "Value Date": "01-01-2016",
+    "Withdrawal Amount": "16,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "2,17,515.84"
+  },
+  {
+    "Date": "03-01-2016",
+    "Narration": "EHDF4210664992/BSNL BILLDESK",
+    "Chq. / Ref No.": "1.60038E+11",
+    "Value Date": "03-01-2016",
+    "Withdrawal Amount": "220",
+    "Deposit Amount": "0",
+    "Closing Balance*": "2,17,295.84"
+  },
+  {
+    "Date": "03-01-2016",
+    "Narration": "4074892721/PAYTMMOBILESOLUTIONP",
+    "Chq. / Ref No.": "1.60039E+11",
+    "Value Date": "03-01-2016",
+    "Withdrawal Amount": "3,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "2,14,295.84"
+  },
+  {
+    "Date": "06-01-2016",
+    "Narration": "SI HDFC132993810 ICICI PRUDENTI-06/01/16",
+    "Chq. / Ref No.": "",
+    "Value Date": "06-01-2016",
+    "Withdrawal Amount": "5,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "2,09,295.84"
+  },
+  {
+    "Date": "06-01-2016",
+    "Narration": "EHDF4217631200/HDFC MUTUAL FUND",
+    "Chq. / Ref No.": "1.60061E+11",
+    "Value Date": "06-01-2016",
+    "Withdrawal Amount": "25,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,84,295.84"
+  },
+  {
+    "Date": "06-01-2016",
+    "Narration": "EHDF4217633637/HDFC MUTUAL FUND",
+    "Chq. / Ref No.": "1.60061E+11",
+    "Value Date": "06-01-2016",
+    "Withdrawal Amount": "25,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,59,295.84"
+  },
+  {
+    "Date": "06-01-2016",
+    "Narration": "EHDF4217639491/HDFC MUTUAL FUND",
+    "Chq. / Ref No.": "1.60061E+11",
+    "Value Date": "06-01-2016",
+    "Withdrawal Amount": "30,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,29,295.84"
+  },
+  {
+    "Date": "07-01-2016",
+    "Narration": "2711664~6~2~8042/PRUDENTIAL ICICI AMC",
+    "Chq. / Ref No.": "1.60071E+11",
+    "Value Date": "07-01-2016",
+    "Withdrawal Amount": "5,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,24,295.84"
+  },
+  {
+    "Date": "07-01-2016",
+    "Narration": "2711687~6~2~8017/PRUDENTIAL ICICI AMC",
+    "Chq. / Ref No.": "1.60071E+11",
+    "Value Date": "07-01-2016",
+    "Withdrawal Amount": "20,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,04,295.84"
+  },
+  {
+    "Date": "07-01-2016",
+    "Narration": "RFD-LIC DT.30/12/15#HDFC131096208DUE ADJ",
+    "Chq. / Ref No.": "",
+    "Value Date": "07-01-2016",
+    "Withdrawal Amount": "0",
+    "Deposit Amount": "482",
+    "Closing Balance*": "1,04,777.84"
+  },
+  {
+    "Date": "08-01-2016",
+    "Narration": "SI HDFC133010115 ICICI PRUDENTI-08/01/16",
+    "Chq. / Ref No.": "",
+    "Value Date": "08-01-2016",
+    "Withdrawal Amount": "3,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,01,777.84"
+  },
+  {
+    "Date": "08-01-2016",
+    "Narration": "EHDF4221659690/BILLDKQUANTUM MUTUAL",
+    "Chq. / Ref No.": "1.60082E+11",
+    "Value Date": "08-01-2016",
+    "Withdrawal Amount": "5,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "96,777.84"
+  },
+  {
+    "Date": "12-01-2016",
+    "Narration": "NEFT DR-KARB0000107-RAGHAVENDRA B S-NETB ANK, MUM-N012160121389406",
+    "Chq. / Ref No.": "N012160121389406",
+    "Value Date": "12-01-2016",
+    "Withdrawal Amount": "20,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "76,777.84"
+  },
+  {
+    "Date": "14-01-2016",
+    "Narration": "UEI FINAL SETTLEMENT",
+    "Chq. / Ref No.": "6.01147E+11",
+    "Value Date": "14-01-2016",
+    "Withdrawal Amount": "0",
+    "Deposit Amount": "5,81,187.00",
+    "Closing Balance*": "6,57,964.84"
+  },
+  {
+    "Date": "15-01-2016",
+    "Narration": "BESCOM-HDFC133794356-BILLPAY ONLINEPAYME NT-04992990009342",
+    "Chq. / Ref No.": "133794356",
+    "Value Date": "15-01-2016",
+    "Withdrawal Amount": "1,454.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "6,56,510.84"
+  },
+  {
+    "Date": "15-01-2016",
+    "Narration": "BESCOM-HDFC133794361-BILLPAY ONLINEPAYME NT-04992990009342",
+    "Chq. / Ref No.": "133794361",
+    "Value Date": "15-01-2016",
+    "Withdrawal Amount": "130",
+    "Deposit Amount": "0",
+    "Closing Balance*": "6,56,380.84"
+  },
+  {
+    "Date": "17-01-2016",
+    "Narration": "10481000005480 -TPT-SCHOOL FEES",
+    "Chq. / Ref No.": "187474560A1",
+    "Value Date": "17-01-2016",
+    "Withdrawal Amount": "2,00,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "4,56,380.84"
+  },
+  {
+    "Date": "17-01-2016",
+    "Narration": "IB FUNDS TRANSFER DR-10481930000900",
+    "Chq. / Ref No.": "",
+    "Value Date": "17-01-2016",
+    "Withdrawal Amount": "50,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "4,06,380.84"
+  },
+  {
+    "Date": "18-01-2016",
+    "Narration": "00602300000434-007048688",
+    "Chq. / Ref No.": "6.01188E+11",
+    "Value Date": "18-01-2016",
+    "Withdrawal Amount": "0",
+    "Deposit Amount": "74,690.00",
+    "Closing Balance*": "4,81,070.84"
+  },
+  {
+    "Date": "18-01-2016",
+    "Narration": "NEFT CHGS INCL ST & CESS 120116",
+    "Chq. / Ref No.": "",
+    "Value Date": "18-01-2016",
+    "Withdrawal Amount": "5.73",
+    "Deposit Amount": "0",
+    "Closing Balance*": "4,81,065.11"
+  },
+  {
+    "Date": "19-01-2016",
+    "Narration": "CHQ PAID-MICR CTS-CH-SHIVA PRASANNA",
+    "Chq. / Ref No.": "17",
+    "Value Date": "19-01-2016",
+    "Withdrawal Amount": "2,00,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "2,81,065.11"
+  },
+  {
+    "Date": "20-01-2016",
+    "Narration": "SI HDFC133685929 FRANKLIN TEMPL-20/01/16",
+    "Chq. / Ref No.": "",
+    "Value Date": "20-01-2016",
+    "Withdrawal Amount": "5,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "2,76,065.11"
+  },
+  {
+    "Date": "20-01-2016",
+    "Narration": "10481000005480 -TPT-MONEY TRANSFERE",
+    "Chq. / Ref No.": "211139781A1",
+    "Value Date": "20-01-2016",
+    "Withdrawal Amount": "31,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "2,45,065.11"
+  },
+  {
+    "Date": "20-01-2016",
+    "Narration": "EHDF4245421678/HDFC MUTUAL FUND",
+    "Chq. / Ref No.": "1.60209E+11",
+    "Value Date": "20-01-2016",
+    "Withdrawal Amount": "40,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "2,05,065.11"
+  },
+  {
+    "Date": "20-01-2016",
+    "Narration": "EHDF4245433132/HDFC MUTUAL FUND",
+    "Chq. / Ref No.": "1.60209E+11",
+    "Value Date": "20-01-2016",
+    "Withdrawal Amount": "25,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,80,065.11"
+  },
+  {
+    "Date": "20-01-2016",
+    "Narration": "EHDF4245441302/HDFC MUTUAL FUND",
+    "Chq. / Ref No.": "1.60209E+11",
+    "Value Date": "20-01-2016",
+    "Withdrawal Amount": "20,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,60,065.11"
+  },
+  {
+    "Date": "20-01-2016",
+    "Narration": "510639336/PAYUYCASHSOFTWARESOL",
+    "Chq. / Ref No.": "1.60209E+11",
+    "Value Date": "20-01-2016",
+    "Withdrawal Amount": "1,618.99",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,58,446.12"
+  },
+  {
+    "Date": "20-01-2016",
+    "Narration": "IMPS-P2A-602019530810-919481079030-",
+    "Chq. / Ref No.": "6.0202E+11",
+    "Value Date": "20-01-2016",
+    "Withdrawal Amount": "0",
+    "Deposit Amount": "80,000.00",
+    "Closing Balance*": "2,38,446.12"
+  },
+  {
+    "Date": "21-01-2016",
+    "Narration": "SI HDFC133813295 BHARAT SANCHAR-21/01/16",
+    "Chq. / Ref No.": "",
+    "Value Date": "21-01-2016",
+    "Withdrawal Amount": "1,618.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "2,36,828.12"
+  },
+  {
+    "Date": "21-01-2016",
+    "Narration": "IMPS-P2A-602111637418-919481079030-",
+    "Chq. / Ref No.": "6.02112E+11",
+    "Value Date": "21-01-2016",
+    "Withdrawal Amount": "0",
+    "Deposit Amount": "47,470.87",
+    "Closing Balance*": "2,84,298.99"
+  },
+  {
+    "Date": "21-01-2016",
+    "Narration": "IB FUNDS TRANSFER DR-10481930000900",
+    "Chq. / Ref No.": "",
+    "Value Date": "21-01-2016",
+    "Withdrawal Amount": "1,00,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,84,298.99"
+  },
+  {
+    "Date": "21-01-2016",
+    "Narration": "AMC REFUND ENTIRES - 20513526",
+    "Chq. / Ref No.": "",
+    "Value Date": "21-01-2016",
+    "Withdrawal Amount": "0",
+    "Deposit Amount": "427.76",
+    "Closing Balance*": "1,84,726.75"
+  },
+  {
+    "Date": "21-01-2016",
+    "Narration": "2741956~6~2~8017/PRUDENTIAL ICICI AMC",
+    "Chq. / Ref No.": "1.60219E+11",
+    "Value Date": "21-01-2016",
+    "Withdrawal Amount": "20,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,64,726.75"
+  },
+  {
+    "Date": "21-01-2016",
+    "Narration": "2741974~6~2~8034/PRUDENTIAL ICICI AMC",
+    "Chq. / Ref No.": "1.60219E+11",
+    "Value Date": "21-01-2016",
+    "Withdrawal Amount": "20,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,44,726.75"
+  },
+  {
+    "Date": "21-01-2016",
+    "Narration": "IMPS-P2A-602116138372-NPS MONEY-B MURALI DHAR KINI",
+    "Chq. / Ref No.": "",
+    "Value Date": "21-01-2016",
+    "Withdrawal Amount": "40,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,04,726.75"
+  },
+  {
+    "Date": "22-01-2016",
+    "Narration": "IMPS-P2A-602210832752-919481079030-",
+    "Chq. / Ref No.": "6.02211E+11",
+    "Value Date": "22-01-2016",
+    "Withdrawal Amount": "0",
+    "Deposit Amount": "49,900.00",
+    "Closing Balance*": "1,54,626.75"
+  },
+  {
+    "Date": "22-01-2016",
+    "Narration": "APBS C- IOC REF NO3000265996-62101962698",
+    "Chq. / Ref No.": "2903404454",
+    "Value Date": "22-01-2016",
+    "Withdrawal Amount": "0",
+    "Deposit Amount": "242.24",
+    "Closing Balance*": "1,54,868.99"
+  },
+  {
+    "Date": "22-01-2016",
+    "Narration": "EHDF4249367414/HDFC MUTUAL FUND",
+    "Chq. / Ref No.": "1.6023E+11",
+    "Value Date": "22-01-2016",
+    "Withdrawal Amount": "30,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,24,868.99"
+  },
+  {
+    "Date": "22-01-2016",
+    "Narration": "EHDF4250173296/BILLDKAMAZONSELLERSE",
+    "Chq. / Ref No.": "1.6023E+11",
+    "Value Date": "22-01-2016",
+    "Withdrawal Amount": "2,378.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,22,490.99"
+  },
+  {
+    "Date": "25-01-2016",
+    "Narration": "SI HDFC134043699 ICICI PRUDENTI-25/01/16",
+    "Chq. / Ref No.": "",
+    "Value Date": "25-01-2016",
+    "Withdrawal Amount": "3,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,19,490.99"
+  },
+  {
+    "Date": "27-01-2016",
+    "Narration": "IMPS P2P 573 602116138372#21/01/ 220116",
+    "Chq. / Ref No.": "",
+    "Value Date": "27-01-2016",
+    "Withdrawal Amount": "5.73",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,19,485.26"
+  },
+  {
+    "Date": "02-02-2016",
+    "Narration": "23861570000261 -TPT-MONEY TRANSFERE",
+    "Chq. / Ref No.": "318558734A1",
+    "Value Date": "02-02-2016",
+    "Withdrawal Amount": "15,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,04,485.26"
+  },
+  {
+    "Date": "03-02-2016",
+    "Narration": "16020313524297514/FLIPKARTINTERNETPVTL",
+    "Chq. / Ref No.": "1.60347E+11",
+    "Value Date": "03-02-2016",
+    "Withdrawal Amount": "3,525.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,00,960.26"
+  },
+  {
+    "Date": "03-02-2016",
+    "Narration": "10481000005480 -TPT-MONEY TRANSFERE",
+    "Chq. / Ref No.": "332981435A1",
+    "Value Date": "03-02-2016",
+    "Withdrawal Amount": "0",
+    "Deposit Amount": "50,000.00",
+    "Closing Balance*": "1,50,960.26"
+  },
+  {
+    "Date": "03-02-2016",
+    "Narration": "IB BILLPAY DR-HDFCSI-485498XXXXXX6162",
+    "Chq. / Ref No.": "",
+    "Value Date": "03-02-2016",
+    "Withdrawal Amount": "92,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "58,960.26"
+  },
+  {
+    "Date": "08-02-2016",
+    "Narration": "SI HDFC134657788 ICICI PRUDENTI-08/02/16",
+    "Chq. / Ref No.": "",
+    "Value Date": "08-02-2016",
+    "Withdrawal Amount": "5,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "53,960.26"
+  },
+  {
+    "Date": "09-02-2016",
+    "Narration": "IMPS-P2A-604021747644-919481079030-",
+    "Chq. / Ref No.": "6.04022E+11",
+    "Value Date": "09-02-2016",
+    "Withdrawal Amount": "0",
+    "Deposit Amount": "40,000.00",
+    "Closing Balance*": "93,960.26"
+  },
+  {
+    "Date": "09-02-2016",
+    "Narration": "10481000005480 -TPT-MONEY TRANSFERE",
+    "Chq. / Ref No.": "388782177A1",
+    "Value Date": "09-02-2016",
+    "Withdrawal Amount": "35,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "58,960.26"
+  },
+  {
+    "Date": "10-02-2016",
+    "Narration": "SI HDFC134955732 ICICI PRUDENTI-10/02/16",
+    "Chq. / Ref No.": "",
+    "Value Date": "10-02-2016",
+    "Withdrawal Amount": "3,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "55,960.26"
+  },
+  {
+    "Date": "15-02-2016",
+    "Narration": "ICICI PRUDENTIAL MU-REDEMPTION - 565890",
+    "Chq. / Ref No.": "6.0716E+11",
+    "Value Date": "15-02-2016",
+    "Withdrawal Amount": "0",
+    "Deposit Amount": "19,824.36",
+    "Closing Balance*": "75,784.62"
+  },
+  {
+    "Date": "20-02-2016",
+    "Narration": "SI HDFC135610648 BESCOM BANGALO-19/02/16",
+    "Chq. / Ref No.": "",
+    "Value Date": "20-02-2016",
+    "Withdrawal Amount": "144",
+    "Deposit Amount": "0",
+    "Closing Balance*": "75,640.62"
+  },
+  {
+    "Date": "20-02-2016",
+    "Narration": "SI HDFC135610640 BESCOM BANGALO-19/02/16",
+    "Chq. / Ref No.": "",
+    "Value Date": "20-02-2016",
+    "Withdrawal Amount": "1,393.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "74,247.62"
+  },
+  {
+    "Date": "20-02-2016",
+    "Narration": "SI HDFC135789638 BHARAT SANCHAR-20/02/16",
+    "Chq. / Ref No.": "",
+    "Value Date": "20-02-2016",
+    "Withdrawal Amount": "1,337.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "72,910.62"
+  },
+  {
+    "Date": "20-02-2016",
+    "Narration": "SI HDFC135534642 FRANKLIN TEMPL-20/02/16",
+    "Chq. / Ref No.": "",
+    "Value Date": "20-02-2016",
+    "Withdrawal Amount": "5,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "67,910.62"
+  },
+  {
+    "Date": "23-02-2016",
+    "Narration": "NEFT CR-ICIC0SF0002-BAILUR MURALIDHAR KI NI-MURALIDHAR KINI B-921566673",
+    "Chq. / Ref No.": "921566673",
+    "Value Date": "23-02-2016",
+    "Withdrawal Amount": "0",
+    "Deposit Amount": "1,000.00",
+    "Closing Balance*": "68,910.62"
+  },
+  {
+    "Date": "24-02-2016",
+    "Narration": "SI HDFC135973718 ICICI PRUDENTI-24/02/16",
+    "Chq. / Ref No.": "",
+    "Value Date": "24-02-2016",
+    "Withdrawal Amount": "3,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "65,910.62"
+  },
+  {
+    "Date": "24-02-2016",
+    "Narration": "APBS C- IOC REF NO3000302478-62302808151",
+    "Chq. / Ref No.": "3206342836",
+    "Value Date": "24-02-2016",
+    "Withdrawal Amount": "0",
+    "Deposit Amount": "157.21",
+    "Closing Balance*": "66,067.83"
+  },
+  {
+    "Date": "29-02-2016",
+    "Narration": "IB FUNDS TRANSFER DR-10481930000900",
+    "Chq. / Ref No.": "",
+    "Value Date": "29-02-2016",
+    "Withdrawal Amount": "25,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "41,067.83"
+  },
+  {
+    "Date": "29-02-2016",
+    "Narration": "23861570000261 -TPT-MONEY TRANSFERE",
+    "Chq. / Ref No.": "544547133A1",
+    "Value Date": "29-02-2016",
+    "Withdrawal Amount": "15,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "26,067.83"
+  },
+  {
+    "Date": "02-03-2016",
+    "Narration": "22173416987212/CITRUSAIRTEL",
+    "Chq. / Ref No.": "1.60623E+11",
+    "Value Date": "02-03-2016",
+    "Withdrawal Amount": "464.58",
+    "Deposit Amount": "0",
+    "Closing Balance*": "25,603.25"
+  },
+  {
+    "Date": "02-03-2016",
+    "Narration": "FHDF4329253378/BSNL BILLDESK",
+    "Chq. / Ref No.": "1.60623E+11",
+    "Value Date": "02-03-2016",
+    "Withdrawal Amount": "220",
+    "Deposit Amount": "0",
+    "Closing Balance*": "25,383.25"
+  },
+  {
+    "Date": "02-03-2016",
+    "Narration": "FHDF4329258544/BSNL BILLDESK",
+    "Chq. / Ref No.": "1.60623E+11",
+    "Value Date": "02-03-2016",
+    "Withdrawal Amount": "110",
+    "Deposit Amount": "0",
+    "Closing Balance*": "25,273.25"
+  },
+  {
+    "Date": "05-03-2016",
+    "Narration": "FHDF4334091204/BSNL BILLDESK",
+    "Chq. / Ref No.": "1.60655E+11",
+    "Value Date": "05-03-2016",
+    "Withdrawal Amount": "220",
+    "Deposit Amount": "0",
+    "Closing Balance*": "25,053.25"
+  },
+  {
+    "Date": "05-03-2016",
+    "Narration": "FHDF4334099619/BSNL BILLDESK",
+    "Chq. / Ref No.": "1.60655E+11",
+    "Value Date": "05-03-2016",
+    "Withdrawal Amount": "50",
+    "Deposit Amount": "0",
+    "Closing Balance*": "25,003.25"
+  },
+  {
+    "Date": "06-03-2016",
+    "Narration": "FHDF4337686369/BSNL BILLDESK",
+    "Chq. / Ref No.": "1.60666E+11",
+    "Value Date": "07-03-2016",
+    "Withdrawal Amount": "85",
+    "Deposit Amount": "0",
+    "Closing Balance*": "24,918.25"
+  },
+  {
+    "Date": "06-03-2016",
+    "Narration": "FHDF4337750342/BSNL BILLDESK",
+    "Chq. / Ref No.": "1.60666E+11",
+    "Value Date": "07-03-2016",
+    "Withdrawal Amount": "550",
+    "Deposit Amount": "0",
+    "Closing Balance*": "24,368.25"
+  },
+  {
+    "Date": "07-03-2016",
+    "Narration": "CC 000485498XXXXXX6162 AUTOPAY SI-TAD",
+    "Chq. / Ref No.": "34926673",
+    "Value Date": "07-03-2016",
+    "Withdrawal Amount": "15,751.99",
+    "Deposit Amount": "0",
+    "Closing Balance*": "8,616.26"
+  },
+  {
+    "Date": "07-03-2016",
+    "Narration": "IB FUNDS TRANSFER CR-10481930000900",
+    "Chq. / Ref No.": "",
+    "Value Date": "07-03-2016",
+    "Withdrawal Amount": "0",
+    "Deposit Amount": "5,000.00",
+    "Closing Balance*": "13,616.26"
+  },
+  {
+    "Date": "07-03-2016",
+    "Narration": "NEFT CR-ICIC0SF0002-B MURALIDHAR KINI-MU RALIDHAR KINI B-929987534",
+    "Chq. / Ref No.": "929987534",
+    "Value Date": "07-03-2016",
+    "Withdrawal Amount": "0",
+    "Deposit Amount": "25,000.00",
+    "Closing Balance*": "38,616.26"
+  },
+  {
+    "Date": "08-03-2016",
+    "Narration": "SI HDFC136518898 ICICI PRUDENTI-07/03/16",
+    "Chq. / Ref No.": "",
+    "Value Date": "08-03-2016",
+    "Withdrawal Amount": "5,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "33,616.26"
+  },
+  {
+    "Date": "10-03-2016",
+    "Narration": "SI HDFC136672776 ICICI PRUDENTI-10/03/16",
+    "Chq. / Ref No.": "",
+    "Value Date": "10-03-2016",
+    "Withdrawal Amount": "3,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "30,616.26"
+  },
+  {
+    "Date": "11-03-2016",
+    "Narration": "ACH C- NMDC LTD-0000003856041",
+    "Chq. / Ref No.": "3368950210",
+    "Value Date": "11-03-2016",
+    "Withdrawal Amount": "0",
+    "Deposit Amount": "428",
+    "Closing Balance*": "31,044.26"
+  },
+  {
+    "Date": "11-03-2016",
+    "Narration": "NEFT CR-ICIC0SF0002-B MURALIDHAR KINI-MU RALIDHAR KINI B-932609734",
+    "Chq. / Ref No.": "932609734",
+    "Value Date": "11-03-2016",
+    "Withdrawal Amount": "0",
+    "Deposit Amount": "50,000.00",
+    "Closing Balance*": "81,044.26"
+  },
+  {
+    "Date": "19-03-2016",
+    "Narration": "SI HDFC137408476 BESCOM BANGALO-19/03/16",
+    "Chq. / Ref No.": "",
+    "Value Date": "19-03-2016",
+    "Withdrawal Amount": "136",
+    "Deposit Amount": "0",
+    "Closing Balance*": "80,908.26"
+  },
+  {
+    "Date": "19-03-2016",
+    "Narration": "SI HDFC137408471 BESCOM BANGALO-19/03/16",
+    "Chq. / Ref No.": "",
+    "Value Date": "19-03-2016",
+    "Withdrawal Amount": "1,168.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "79,740.26"
+  },
+  {
+    "Date": "21-03-2016",
+    "Narration": "SI HDFC137588423 BHARAT SANCHAR-21/03/16",
+    "Chq. / Ref No.": "",
+    "Value Date": "21-03-2016",
+    "Withdrawal Amount": "1,025.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "78,715.26"
+  },
+  {
+    "Date": "21-03-2016",
+    "Narration": "SI HDFC137192417 FRANKLIN TEMPL-21/03/16",
+    "Chq. / Ref No.": "",
+    "Value Date": "21-03-2016",
+    "Withdrawal Amount": "5,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "73,715.26"
+  },
+  {
+    "Date": "22-03-2016",
+    "Narration": "SI HDFC136333369 LIFE INSURANCE-22/03/16",
+    "Chq. / Ref No.": "",
+    "Value Date": "22-03-2016",
+    "Withdrawal Amount": "482",
+    "Deposit Amount": "0",
+    "Closing Balance*": "73,233.26"
+  },
+  {
+    "Date": "23-03-2016",
+    "Narration": "FHDF4373668415/BSNL BILLDESK",
+    "Chq. / Ref No.": "1.60836E+11",
+    "Value Date": "23-03-2016",
+    "Withdrawal Amount": "85",
+    "Deposit Amount": "0",
+    "Closing Balance*": "73,148.26"
+  },
+  {
+    "Date": "28-03-2016",
+    "Narration": "SI HDFC137691575 ICICI PRUDENTI-25/03/16",
+    "Chq. / Ref No.": "",
+    "Value Date": "28-03-2016",
+    "Withdrawal Amount": "3,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "70,148.26"
+  },
+  {
+    "Date": "28-03-2016",
+    "Narration": "228211419379269/CITRUSAIRTEL",
+    "Chq. / Ref No.": "1.60888E+11",
+    "Value Date": "28-03-2016",
+    "Withdrawal Amount": "1,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "69,148.26"
+  },
+  {
+    "Date": "31-03-2016",
+    "Narration": "ACH C- NALCO-1145982",
+    "Chq. / Ref No.": "3552249606",
+    "Value Date": "31-03-2016",
+    "Withdrawal Amount": "0",
+    "Deposit Amount": "38",
+    "Closing Balance*": "69,186.26"
+  }
+]

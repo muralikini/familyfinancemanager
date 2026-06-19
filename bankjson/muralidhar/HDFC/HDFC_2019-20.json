@@ -1,0 +1,1928 @@
+[
+  {
+    "Date": "01-04-2019",
+    "Narration": "CREDIT INTEREST CAPITALISED",
+    "Chq. / Ref No.": "",
+    "Value Date": "31-03-2019",
+    "Withdrawal Amount": "0",
+    "Deposit Amount": "617",
+    "Closing Balance*": "2,97,366.33"
+  },
+  {
+    "Date": "03-04-2019",
+    "Narration": "IB FUNDS TRANSFER DR-10481930000900",
+    "Chq. / Ref No.": "IB03081236604980",
+    "Value Date": "03-04-2019",
+    "Withdrawal Amount": "25,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "2,72,366.33"
+  },
+  {
+    "Date": "03-04-2019",
+    "Narration": "IB BILLPAY DR-HDFCSI-485498XXXXXX9660",
+    "Chq. / Ref No.": "IB03225955316912",
+    "Value Date": "03-04-2019",
+    "Withdrawal Amount": "40,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "2,32,366.33"
+  },
+  {
+    "Date": "04-04-2019",
+    "Narration": "LURXW54KAZ5KBPGQ/PAYUBRUHATBENGALURUM",
+    "Chq. / Ref No.": "1.90947E+11",
+    "Value Date": "04-04-2019",
+    "Withdrawal Amount": "3,057.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "2,29,309.33"
+  },
+  {
+    "Date": "04-04-2019",
+    "Narration": "QHDF7403976361/HDFC MUTUAL FUND",
+    "Chq. / Ref No.": "1.90947E+11",
+    "Value Date": "04-04-2019",
+    "Withdrawal Amount": "49,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,80,309.33"
+  },
+  {
+    "Date": "04-04-2019",
+    "Narration": "QHDF7403996299/FRANKLIN TEMPLETON",
+    "Chq. / Ref No.": "1.90947E+11",
+    "Value Date": "04-04-2019",
+    "Withdrawal Amount": "25,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,55,309.33"
+  },
+  {
+    "Date": "27-04-2019",
+    "Narration": "50200032062102-TPT-AIRTKETREIMBURSEME",
+    "Chq. / Ref No.": "110063424",
+    "Value Date": "27-04-2019",
+    "Withdrawal Amount": "0",
+    "Deposit Amount": "70,436.00",
+    "Closing Balance*": "2,25,745.33"
+  },
+  {
+    "Date": "27-04-2019",
+    "Narration": "IB BILLPAY DR-HDFCSI-485498XXXXXX9660",
+    "Chq. / Ref No.": "IB27092752105222",
+    "Value Date": "27-04-2019",
+    "Withdrawal Amount": "1,28,289.07",
+    "Deposit Amount": "0",
+    "Closing Balance*": "97,456.26"
+  },
+  {
+    "Date": "25-05-2019",
+    "Narration": "SBY1167328_BRANCH_RNWL",
+    "Chq. / Ref No.": "",
+    "Value Date": "25-05-2019",
+    "Withdrawal Amount": "12",
+    "Deposit Amount": "0",
+    "Closing Balance*": "97,444.26"
+  },
+  {
+    "Date": "27-05-2019",
+    "Narration": "JBY1139335_BRANCH_RNWL",
+    "Chq. / Ref No.": "",
+    "Value Date": "27-05-2019",
+    "Withdrawal Amount": "330",
+    "Deposit Amount": "0",
+    "Closing Balance*": "97,114.26"
+  },
+  {
+    "Date": "27-05-2019",
+    "Narration": "IMPS-914717398487-PPBL-HDFC-XXXXXXXXXX00 10-EXTERNAL CASHBACK",
+    "Chq. / Ref No.": "9.14717E+11",
+    "Value Date": "27-05-2019",
+    "Withdrawal Amount": "0",
+    "Deposit Amount": "30",
+    "Closing Balance*": "97,144.26"
+  },
+  {
+    "Date": "28-05-2019",
+    "Narration": "CHEQUE DEPOSIT - MICR 8 CLEARING - RICHM",
+    "Chq. / Ref No.": "84222",
+    "Value Date": "29-05-2019",
+    "Withdrawal Amount": "0",
+    "Deposit Amount": "3,00,000.00",
+    "Closing Balance*": "3,97,144.26"
+  },
+  {
+    "Date": "28-05-2019",
+    "Narration": "IMPS-914820277160-BAILUR MURALIDHAR KI-H DFC-XXXXXXXX0212-DAILY EXPENSES",
+    "Chq. / Ref No.": "9.1482E+11",
+    "Value Date": "28-05-2019",
+    "Withdrawal Amount": "0",
+    "Deposit Amount": "25,000.00",
+    "Closing Balance*": "4,22,144.26"
+  },
+  {
+    "Date": "29-05-2019",
+    "Narration": "IB BILLPAY DR-HDFCSI-485498XXXXXX9660",
+    "Chq. / Ref No.": "IB29113633704436",
+    "Value Date": "29-05-2019",
+    "Withdrawal Amount": "90,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "3,32,144.26"
+  },
+  {
+    "Date": "29-05-2019",
+    "Narration": "50200032062102-TPT-HOTEL EXP REIMBURSEM",
+    "Chq. / Ref No.": "139622541",
+    "Value Date": "29-05-2019",
+    "Withdrawal Amount": "0",
+    "Deposit Amount": "58,378.50",
+    "Closing Balance*": "3,90,522.76"
+  },
+  {
+    "Date": "29-05-2019",
+    "Narration": "QHDF7590779560/FRANKLIN TEMPLETON",
+    "Chq. / Ref No.": "1.91495E+11",
+    "Value Date": "29-05-2019",
+    "Withdrawal Amount": "1,50,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "2,40,522.76"
+  },
+  {
+    "Date": "30-05-2019",
+    "Narration": "QHDF7592227288/FRANKLIN TEMPLETON",
+    "Chq. / Ref No.": "1.91505E+11",
+    "Value Date": "30-05-2019",
+    "Withdrawal Amount": "1,00,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,40,522.76"
+  },
+  {
+    "Date": "30-05-2019",
+    "Narration": "NEFT CR-ICIC0000104-INDIA INFOLINE LTD-B MURALIDHAR KINI-CMS1135086571",
+    "Chq. / Ref No.": "CMS1135086571",
+    "Value Date": "30-05-2019",
+    "Withdrawal Amount": "0",
+    "Deposit Amount": "20,000.00",
+    "Closing Balance*": "1,60,522.76"
+  },
+  {
+    "Date": "30-05-2019",
+    "Narration": "NEFT CR-ICIC0000104-INDIA INFOLINE LTD-B MURALIDHAR KINI-CMS1135302138",
+    "Chq. / Ref No.": "CMS1135302138",
+    "Value Date": "30-05-2019",
+    "Withdrawal Amount": "0",
+    "Deposit Amount": "20,000.00",
+    "Closing Balance*": "1,80,522.76"
+  },
+  {
+    "Date": "31-05-2019",
+    "Narration": "QHDF7595358420/FRANKLIN TEMPLETON",
+    "Chq. / Ref No.": "1.91516E+11",
+    "Value Date": "31-05-2019",
+    "Withdrawal Amount": "1,00,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "80,522.76"
+  },
+  {
+    "Date": "31-05-2019",
+    "Narration": "IMPS-915109464494-BAILUR MURALIDHAR KI-H DFC-XXXXXXXX0212-MONTHLY EXPENSE",
+    "Chq. / Ref No.": "9.15109E+11",
+    "Value Date": "31-05-2019",
+    "Withdrawal Amount": "0",
+    "Deposit Amount": "8,000.00",
+    "Closing Balance*": "88,522.76"
+  },
+  {
+    "Date": "31-05-2019",
+    "Narration": "NEFT CR-ICIC0000104-INDIA INFOLINE LTD-B MURALIDHAR KINI-CMS1136651064",
+    "Chq. / Ref No.": "CMS1136651064",
+    "Value Date": "31-05-2019",
+    "Withdrawal Amount": "0",
+    "Deposit Amount": "4,402.00",
+    "Closing Balance*": "92,924.76"
+  },
+  {
+    "Date": "09-06-2019",
+    "Narration": "UPI-CABLEBROADBANDPAYTM-CABLEBROADBAND-P AYTM@ICICI-ICIC0000555-916012330589-OIDP GSM09061908359",
+    "Chq. / Ref No.": "9.16013E+11",
+    "Value Date": "09-06-2019",
+    "Withdrawal Amount": "20",
+    "Deposit Amount": "0",
+    "Closing Balance*": "92,904.76"
+  },
+  {
+    "Date": "10-06-2019",
+    "Narration": "50200032062102-TPT-SAL FOR APR19",
+    "Chq. / Ref No.": "280434799",
+    "Value Date": "10-06-2019",
+    "Withdrawal Amount": "0",
+    "Deposit Amount": "50,000.00",
+    "Closing Balance*": "1,42,904.76"
+  },
+  {
+    "Date": "10-06-2019",
+    "Narration": "QHDF7633569113/FRANKLIN TEMPLETON",
+    "Chq. / Ref No.": "1.91616E+11",
+    "Value Date": "10-06-2019",
+    "Withdrawal Amount": "25,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,17,904.76"
+  },
+  {
+    "Date": "11-06-2019",
+    "Narration": "10481000005480-TPT-MONEY TRANSFER",
+    "Chq. / Ref No.": "294657815",
+    "Value Date": "11-06-2019",
+    "Withdrawal Amount": "0",
+    "Deposit Amount": "50,000.00",
+    "Closing Balance*": "1,67,904.76"
+  },
+  {
+    "Date": "11-06-2019",
+    "Narration": "QHDF7637226274/FRANKLIN TEMPLETON",
+    "Chq. / Ref No.": "1.91626E+11",
+    "Value Date": "11-06-2019",
+    "Withdrawal Amount": "49,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,18,904.76"
+  },
+  {
+    "Date": "14-06-2019",
+    "Narration": "QHDF7645591682/FRANKLIN TEMPLETON",
+    "Chq. / Ref No.": "1.91658E+11",
+    "Value Date": "14-06-2019",
+    "Withdrawal Amount": "49,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "69,904.76"
+  },
+  {
+    "Date": "14-06-2019",
+    "Narration": "IMPS-916513186387-BAILUR MURALIDHAR KINI\n-ICIC-XXXXXXXX0212-TEST TRANSFER",
+    "Chq. / Ref No.": "9.16513E+11",
+    "Value Date": "14-06-2019",
+    "Withdrawal Amount": "1,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "68,904.76"
+  },
+  {
+    "Date": "14-06-2019",
+    "Narration": "IMPS-916513187097-BAILUR MURALIDHAR KINI\n-ICIC-XXXXXXXX0212-INVESTMENT AMOUNT",
+    "Chq. / Ref No.": "9.16513E+11",
+    "Value Date": "14-06-2019",
+    "Withdrawal Amount": "24,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "44,904.76"
+  },
+  {
+    "Date": "14-06-2019",
+    "Narration": "10481000005480-TPT-DAILY EXPENSES",
+    "Chq. / Ref No.": "227700514",
+    "Value Date": "14-06-2019",
+    "Withdrawal Amount": "0.00",
+    "Deposit Amount": "45,000.00",
+    "Closing Balance*": "89,904.76"
+  },
+  {
+    "Date": "19-06-2019",
+    "Narration": ".IMPS P2P 916513186387#14/06/2019 140619\n-MIR1917008499393",
+    "Chq. / Ref No.": "MIR1917008499393",
+    "Value Date": "19-06-2019",
+    "Withdrawal Amount": "5.90",
+    "Deposit Amount": "0",
+    "Closing Balance*": "89,898.86"
+  },
+  {
+    "Date": "19-06-2019",
+    "Narration": ".IMPS P2P 916513187097#14/06/2019 140619\n-MIR1917008490222",
+    "Chq. / Ref No.": "MIR1917008490222",
+    "Value Date": "19-06-2019",
+    "Withdrawal Amount": "5.90",
+    "Deposit Amount": "0",
+    "Closing Balance*": "89,892.96"
+  },
+  {
+    "Date": "22-06-2019",
+    "Narration": "UPI-XXXXXX2851-PYTM0123456-917341651695- NA",
+    "Chq. / Ref No.": "9.17318E+11",
+    "Value Date": "22-06-2019",
+    "Withdrawal Amount": "3,748.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "86,144.96"
+  },
+  {
+    "Date": "22-06-2019",
+    "Narration": "UPI-XXXXXX2851-PYTM0123456-917341712937- NA",
+    "Chq. / Ref No.": "9.17318E+11",
+    "Value Date": "22-06-2019",
+    "Withdrawal Amount": "3,748.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "82,396.96"
+  },
+  {
+    "Date": "25-06-2019",
+    "Narration": "UPI-VENKATESH V-9845992851@YBL-FDRL00019 64-917642576157-G",
+    "Chq. / Ref No.": "9.17614E+11",
+    "Value Date": "25-06-2019",
+    "Withdrawal Amount": "0.00",
+    "Deposit Amount": "1",
+    "Closing Balance*": "82,397.96"
+  },
+  {
+    "Date": "25-06-2019",
+    "Narration": "UPI-VENKATESH V-9845992851@YBL-FDRL00019 64-917642993281-PRODUCTS",
+    "Chq. / Ref No.": "9.17614E+11",
+    "Value Date": "25-06-2019",
+    "Withdrawal Amount": "0.00",
+    "Deposit Amount": "3,747.00",
+    "Closing Balance*": "86,144.96"
+  },
+  {
+    "Date": "28-06-2019",
+    "Narration": "IMPS-917922343295-B LAKSHMAN KINI-VIJB-X XXXXXXXXXX2667-MONEY TRANSFER",
+    "Chq. / Ref No.": "9.17922E+11",
+    "Value Date": "28-06-2019",
+    "Withdrawal Amount": "500.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "85,644.96"
+  },
+  {
+    "Date": "30-06-2019",
+    "Narration": "CREDIT INTEREST CAPITALISED",
+    "Chq. / Ref No.": "",
+    "Value Date": "30-06-2019",
+    "Withdrawal Amount": "0.00",
+    "Deposit Amount": "1,040.00",
+    "Closing Balance*": "86,684.96"
+  },
+  {
+    "Date": "01-07-2019",
+    "Narration": ".IMPS P2P 917922343295#28/06/2019 290619\n-MIR1918222699385",
+    "Chq. / Ref No.": "MIR1918222699385",
+    "Value Date": "01-07-2019",
+    "Withdrawal Amount": "5.90",
+    "Deposit Amount": "0",
+    "Closing Balance*": "86,679.06"
+  },
+  {
+    "Date": "02-07-2019",
+    "Narration": "50200032062102-TPT-REM FOR MAY-19",
+    "Chq. / Ref No.": "305979999",
+    "Value Date": "02-07-2019",
+    "Withdrawal Amount": "0.00",
+    "Deposit Amount": "50,000.00",
+    "Closing Balance*": "1,36,679.06"
+  },
+  {
+    "Date": "02-07-2019",
+    "Narration": "IMPS-918313151782-B LAKSHMAN KINI-VIJB-X XXXXXXXXXX2667-FOR 2 MONTHS",
+    "Chq. / Ref No.": "9.18313E+11",
+    "Value Date": "02-07-2019",
+    "Withdrawal Amount": "9,500.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,27,179.06"
+  },
+  {
+    "Date": "02-07-2019",
+    "Narration": "IB BILLPAY DR-HDFCSI-485498XXXXXX9660",
+    "Chq. / Ref No.": "IB02131111262575",
+    "Value Date": "02-07-2019",
+    "Withdrawal Amount": "32,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "95,179.06"
+  },
+  {
+    "Date": "04-07-2019",
+    "Narration": "LUTXI44JAB42NP6U/PAYUXIAOMICOMMUNICAT",
+    "Chq. / Ref No.": "1.91857E+11",
+    "Value Date": "04-07-2019",
+    "Withdrawal Amount": "1,199.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "93,980.06"
+  },
+  {
+    "Date": "09-07-2019",
+    "Narration": ".IMPS P2P 918313151782#02/07/2019 020719\n-MIR1918932887661",
+    "Chq. / Ref No.": "MIR1918932887661",
+    "Value Date": "09-07-2019",
+    "Withdrawal Amount": "5.90",
+    "Deposit Amount": "0",
+    "Closing Balance*": "93,974.16"
+  },
+  {
+    "Date": "10-07-2019",
+    "Narration": "10481000005480-TPT-MONEY TRANSFER",
+    "Chq. / Ref No.": "209222224",
+    "Value Date": "10-07-2019",
+    "Withdrawal Amount": "0.00",
+    "Deposit Amount": "1,75,000.00",
+    "Closing Balance*": "2,68,974.16"
+  },
+  {
+    "Date": "10-07-2019",
+    "Narration": "QHDF7743665219/FRANKLIN TEMPLETON",
+    "Chq. / Ref No.": "1.91912E+11",
+    "Value Date": "10-07-2019",
+    "Withdrawal Amount": "1,50,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,18,974.16"
+  },
+  {
+    "Date": "10-07-2019",
+    "Narration": "IMPS-919121157562-B MURALIDHAR KINI-SBIN\n-XXXXXXX6269-MONEY TRANSFER",
+    "Chq. / Ref No.": "9.19121E+11",
+    "Value Date": "10-07-2019",
+    "Withdrawal Amount": "10,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,08,974.16"
+  },
+  {
+    "Date": "10-07-2019",
+    "Narration": "IMPS-919121157957-BAILUR MURALIDHAR KINI\n-ICIC-XXXXXXXX0212-MONEY TRANSFER",
+    "Chq. / Ref No.": "9.19121E+11",
+    "Value Date": "10-07-2019",
+    "Withdrawal Amount": "10,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "98,974.16"
+  },
+  {
+    "Date": "11-07-2019",
+    "Narration": "QHDF7747237108/FRANKLIN TEMPLETON",
+    "Chq. / Ref No.": "1.91922E+11",
+    "Value Date": "11-07-2019",
+    "Withdrawal Amount": "3,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "95,974.16"
+  },
+  {
+    "Date": "16-07-2019",
+    "Narration": ".IMPS P2P 919121157562#10/07/2019 110719\n-MIR1919545752858",
+    "Chq. / Ref No.": "MIR1919545752858",
+    "Value Date": "16-07-2019",
+    "Withdrawal Amount": "5.90",
+    "Deposit Amount": "0",
+    "Closing Balance*": "95,968.26"
+  },
+  {
+    "Date": "16-07-2019",
+    "Narration": ".IMPS P2P 919121157957#10/07/2019 110719\n-MIR1919545752863",
+    "Chq. / Ref No.": "MIR1919545752863",
+    "Value Date": "16-07-2019",
+    "Withdrawal Amount": "5.90",
+    "Deposit Amount": "0",
+    "Closing Balance*": "95,962.36"
+  },
+  {
+    "Date": "17-07-2019",
+    "Narration": "QHDF7767747498/FRANKLIN TEMPLETON",
+    "Chq. / Ref No.": "1.91986E+11",
+    "Value Date": "17-07-2019",
+    "Withdrawal Amount": "10,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "85,962.36"
+  },
+  {
+    "Date": "17-07-2019",
+    "Narration": "QHDF7767772063/FRANKLIN TEMPLETON",
+    "Chq. / Ref No.": "1.91986E+11",
+    "Value Date": "17-07-2019",
+    "Withdrawal Amount": "10,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "75,962.36"
+  },
+  {
+    "Date": "19-07-2019",
+    "Narration": "IMPS-920022189066-SHRI FOOD AND BEVERAGE PRIVATE LIMITED-UTIB-XXXXXXXXXXX1728-IN VOICE 78",
+    "Chq. / Ref No.": "9.20022E+11",
+    "Value Date": "19-07-2019",
+    "Withdrawal Amount": "1,481.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "74,481.36"
+  },
+  {
+    "Date": "23-07-2019",
+    "Narration": "IMPS-920418525906-MR ANSAR PASHA M-HDFC- XXXXXXXXXXXXX5744-INETIMPS00092097451",
+    "Chq. / Ref No.": "9.20419E+11",
+    "Value Date": "23-07-2019",
+    "Withdrawal Amount": "0.00",
+    "Deposit Amount": "1,300.00",
+    "Closing Balance*": "75,781.36"
+  },
+  {
+    "Date": "26-07-2019",
+    "Narration": ".IMPS P2P 920022189066#19/07/2019 200719\n-MIR1920573630176",
+    "Chq. / Ref No.": "MIR1920573630176",
+    "Value Date": "26-07-2019",
+    "Withdrawal Amount": "5.90",
+    "Deposit Amount": "0",
+    "Closing Balance*": "75,775.46"
+  },
+  {
+    "Date": "30-07-2019",
+    "Narration": "50200032062102-TPT-BILL AND TRANSFER",
+    "Chq. / Ref No.": "104547152",
+    "Value Date": "30-07-2019",
+    "Withdrawal Amount": "0.00",
+    "Deposit Amount": "12,924.00",
+    "Closing Balance*": "88,699.46"
+  },
+  {
+    "Date": "03-08-2019",
+    "Narration": "NEFT DR-VIJB0001008-B LAKSHMAN KINI-NETB ANK, MUM-N215190892275869-MONEY TRANSFER",
+    "Chq. / Ref No.": "N215190892275869",
+    "Value Date": "03-08-2019",
+    "Withdrawal Amount": "5,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "83,699.46"
+  },
+  {
+    "Date": "03-08-2019",
+    "Narration": "D1N1WQWXHYFNKE/RAZPSWIGGY",
+    "Chq. / Ref No.": "1.92151E+11",
+    "Value Date": "03-08-2019",
+    "Withdrawal Amount": "49.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "83,650.46"
+  },
+  {
+    "Date": "04-08-2019",
+    "Narration": "IMPS-921612000627-APIBANKING-HDFC-XXXXXX XXXXXX0168-ACCOUNT VALIDATION",
+    "Chq. / Ref No.": "9.21612E+11",
+    "Value Date": "04-08-2019",
+    "Withdrawal Amount": "0.00",
+    "Deposit Amount": "1",
+    "Closing Balance*": "83,651.46"
+  },
+  {
+    "Date": "04-08-2019",
+    "Narration": "IMPS-921612000886-APIBANKING-HDFC-XXXXXX XXXXXX0168-ACCOUNT VALIDATION",
+    "Chq. / Ref No.": "9.21612E+11",
+    "Value Date": "04-08-2019",
+    "Withdrawal Amount": "0.00",
+    "Deposit Amount": "1",
+    "Closing Balance*": "83,652.46"
+  },
+  {
+    "Date": "04-08-2019",
+    "Narration": "IMPS-921613464958-PAYTM MONEY LIMITED-HD FC-XXXXXXXX2050-BAV-HDFC-1468-1564905466 748",
+    "Chq. / Ref No.": "9.21613E+11",
+    "Value Date": "04-08-2019",
+    "Withdrawal Amount": "0.00",
+    "Deposit Amount": "1",
+    "Closing Balance*": "83,653.46"
+  },
+  {
+    "Date": "05-08-2019",
+    "Narration": "CC 000485498XXXXXX9660 AUTOPAY SI-TAD",
+    "Chq. / Ref No.": "191137926",
+    "Value Date": "05-08-2019",
+    "Withdrawal Amount": "9,913.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "73,740.46"
+  },
+  {
+    "Date": "05-08-2019",
+    "Narration": "50200032062102-TPT-SAL FOR JUL19",
+    "Chq. / Ref No.": "283330015",
+    "Value Date": "05-08-2019",
+    "Withdrawal Amount": "0.00",
+    "Deposit Amount": "50,000.00",
+    "Closing Balance*": "1,23,740.46"
+  },
+  {
+    "Date": "09-08-2019",
+    "Narration": "IMPS-922121120381-BAILUR MURALIDHAR KINI\n-ICIC-XXXXXXXX0212-INVESTMENT FUNDS",
+    "Chq. / Ref No.": "9.22121E+11",
+    "Value Date": "09-08-2019",
+    "Withdrawal Amount": "20,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,03,740.46"
+  },
+  {
+    "Date": "16-08-2019",
+    "Narration": ".IMPS P2P 922121120381#09/08/2019 120819\n-MIR1922808367597",
+    "Chq. / Ref No.": "MIR1922808367597",
+    "Value Date": "16-08-2019",
+    "Withdrawal Amount": "5.90",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,03,734.56"
+  },
+  {
+    "Date": "17-08-2019",
+    "Narration": "IB BILLPAY DR-HDFCSI-485498XXXXXX9660",
+    "Chq. / Ref No.": "IB17215115151358",
+    "Value Date": "17-08-2019",
+    "Withdrawal Amount": "50,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "53,734.56"
+  },
+  {
+    "Date": "29-08-2019",
+    "Narration": "50200032062102-TPT-REVERSE TRANSFER",
+    "Chq. / Ref No.": "328770295",
+    "Value Date": "29-08-2019",
+    "Withdrawal Amount": "2,500.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "51,234.56"
+  },
+  {
+    "Date": "02-09-2019",
+    "Narration": "NEFT DR-VIJB0001008-B LAKSHMAN KINI-NETB ANK, MUM-N245190916147438-MONEY TRANSFER",
+    "Chq. / Ref No.": "N245190916147438",
+    "Value Date": "02-09-2019",
+    "Withdrawal Amount": "5,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "46,234.56"
+  },
+  {
+    "Date": "03-09-2019",
+    "Narration": "50200032062102-TPT-SAL FOR AUG19",
+    "Chq. / Ref No.": "182265258",
+    "Value Date": "03-09-2019",
+    "Withdrawal Amount": "0.00",
+    "Deposit Amount": "50,000.00",
+    "Closing Balance*": "96,234.56"
+  },
+  {
+    "Date": "03-09-2019",
+    "Narration": "50200032062102-TPT-REM AZURE JUL INVOIC",
+    "Chq. / Ref No.": "182597277",
+    "Value Date": "03-09-2019",
+    "Withdrawal Amount": "0.00",
+    "Deposit Amount": "24,548.10",
+    "Closing Balance*": "1,20,782.66"
+  },
+  {
+    "Date": "03-09-2019",
+    "Narration": "IB BILLPAY DR-HDFCSI-485498XXXXXX9660",
+    "Chq. / Ref No.": "IB03124732194897",
+    "Value Date": "03-09-2019",
+    "Withdrawal Amount": "47,405.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "73,377.66"
+  },
+  {
+    "Date": "04-09-2019",
+    "Narration": "10481000005480-TPT-BED COURSE FEE",
+    "Chq. / Ref No.": "104152584",
+    "Value Date": "04-09-2019",
+    "Withdrawal Amount": "35,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "38,377.66"
+  },
+  {
+    "Date": "22-09-2019",
+    "Narration": "IMPS-926519186670-VENKATESH V-FDRL-XXXXX XXXXX4367-PAYTM REVERSAL",
+    "Chq. / Ref No.": "9.26519E+11",
+    "Value Date": "22-09-2019",
+    "Withdrawal Amount": "10,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "28,377.66"
+  },
+  {
+    "Date": "26-09-2019",
+    "Narration": ".IMPS P2P 926519186670#22/09/2019 230919\n-MIR1926892190167",
+    "Chq. / Ref No.": "MIR1926892190167",
+    "Value Date": "26-09-2019",
+    "Withdrawal Amount": "5.90",
+    "Deposit Amount": "0",
+    "Closing Balance*": "28,371.76"
+  },
+  {
+    "Date": "29-09-2019",
+    "Narration": "IMPS-927220034155-NEXTBILLION TECHNOLO-H DFC-XXXXXXXXXXX7539-FUNDS TRANSFER",
+    "Chq. / Ref No.": "9.2722E+11",
+    "Value Date": "29-09-2019",
+    "Withdrawal Amount": "0.00",
+    "Deposit Amount": "1",
+    "Closing Balance*": "28,372.76"
+  },
+  {
+    "Date": "01-10-2019",
+    "Narration": "CREDIT INTEREST CAPITALISED",
+    "Chq. / Ref No.": "",
+    "Value Date": "30-09-2019",
+    "Withdrawal Amount": "0.00",
+    "Deposit Amount": "600",
+    "Closing Balance*": "28,972.76"
+  },
+  {
+    "Date": "03-10-2019",
+    "Narration": "50200032062102-TPT-OCT19 SALARY",
+    "Chq. / Ref No.": "531420310",
+    "Value Date": "03-10-2019",
+    "Withdrawal Amount": "0.00",
+    "Deposit Amount": "50,000.00",
+    "Closing Balance*": "78,972.76"
+  },
+  {
+    "Date": "06-10-2019",
+    "Narration": "CC 000485498XXXXXX9660 AUTOPAY SI-TAD",
+    "Chq. / Ref No.": "204288769",
+    "Value Date": "06-10-2019",
+    "Withdrawal Amount": "19,321.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "59,651.76"
+  },
+  {
+    "Date": "06-10-2019",
+    "Narration": "23861570000261-TPT-MONEY TRANSFER",
+    "Chq. / Ref No.": "170657259",
+    "Value Date": "06-10-2019",
+    "Withdrawal Amount": "6,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "53,651.76"
+  },
+  {
+    "Date": "16-10-2019",
+    "Narration": "50200032062102-TPT-SAL FOR APR19",
+    "Chq. / Ref No.": "283758972",
+    "Value Date": "16-10-2019",
+    "Withdrawal Amount": "0.00",
+    "Deposit Amount": "50,000.00",
+    "Closing Balance*": "1,03,651.76"
+  },
+  {
+    "Date": "20-10-2019",
+    "Narration": "IMPS-929315303425-VENKATESH V-FDRL-XXXXX XXXXX4367-PAYTM MONEY",
+    "Chq. / Ref No.": "9.29315E+11",
+    "Value Date": "20-10-2019",
+    "Withdrawal Amount": "4,500.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "99,151.76"
+  },
+  {
+    "Date": "21-10-2019",
+    "Narration": "IMPS-929422928497-BAILUR MURALIDHAR KI-H DFC-XXXXXXXX9030-",
+    "Chq. / Ref No.": "9.29423E+11",
+    "Value Date": "21-10-2019",
+    "Withdrawal Amount": "0.00",
+    "Deposit Amount": "12,000.00",
+    "Closing Balance*": "1,11,151.76"
+  },
+  {
+    "Date": "23-10-2019",
+    "Narration": ".IMPS P2P 929315303425#20/10/2019 211019\n-MIR1929659920553",
+    "Chq. / Ref No.": "MIR1929659920553",
+    "Value Date": "23-10-2019",
+    "Withdrawal Amount": "5.90",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,11,145.86"
+  },
+  {
+    "Date": "24-10-2019",
+    "Narration": "10262952~6~2~8101/ICICIPRUDENTIALAMCLT",
+    "Chq. / Ref No.": "1.92977E+11",
+    "Value Date": "24-10-2019",
+    "Withdrawal Amount": "2,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,09,145.86"
+  },
+  {
+    "Date": "24-10-2019",
+    "Narration": "IB BILLPAY DR-HDFCSI-485498XXXXXX9660",
+    "Chq. / Ref No.": "BB24184740324268",
+    "Value Date": "24-10-2019",
+    "Withdrawal Amount": "74,853.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "34,292.86"
+  },
+  {
+    "Date": "31-10-2019",
+    "Narration": "UPI-VASISHTA S-8861484953@PAYTM-SBIN0040 168-930439140377-NA",
+    "Chq. / Ref No.": "9.30415E+11",
+    "Value Date": "31-10-2019",
+    "Withdrawal Amount": "100.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "34,192.86"
+  },
+  {
+    "Date": "31-10-2019",
+    "Narration": "UPI-VASISHTA S-8861484953@PAYTM-SBIN0040 168-930440617094-NA",
+    "Chq. / Ref No.": "9.30416E+11",
+    "Value Date": "31-10-2019",
+    "Withdrawal Amount": "14,990.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "19,202.86"
+  },
+  {
+    "Date": "04-11-2019",
+    "Narration": "50200032062102-TPT-SEPT SAL-19",
+    "Chq. / Ref No.": "184467048",
+    "Value Date": "04-11-2019",
+    "Withdrawal Amount": "0.00",
+    "Deposit Amount": "50,000.00",
+    "Closing Balance*": "69,202.86"
+  },
+  {
+    "Date": "04-11-2019",
+    "Narration": "00091140036401-TPT-VAS MOB",
+    "Chq. / Ref No.": "184600329",
+    "Value Date": "04-11-2019",
+    "Withdrawal Amount": "0.00",
+    "Deposit Amount": "15,000.00",
+    "Closing Balance*": "84,202.86"
+  },
+  {
+    "Date": "05-11-2019",
+    "Narration": "IMPS-930921156867-B LAKSHMAN KINI-VIJB-X XXXXXXXXXX2667-MONEY TRANSFER",
+    "Chq. / Ref No.": "9.30921E+11",
+    "Value Date": "05-11-2019",
+    "Withdrawal Amount": "5,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "79,202.86"
+  },
+  {
+    "Date": "07-11-2019",
+    "Narration": "23861570000261 NET BANKING SI -MONEY TRA NSFER",
+    "Chq. / Ref No.": "",
+    "Value Date": "07-11-2019",
+    "Withdrawal Amount": "6,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "73,202.86"
+  },
+  {
+    "Date": "07-11-2019",
+    "Narration": "UPI-RELIANCE JIO INFOCOM-JIO@CITIBANK-CI TI0RTGSMI-931137124213-AMOUNT TO PAY",
+    "Chq. / Ref No.": "9.31113E+11",
+    "Value Date": "07-11-2019",
+    "Withdrawal Amount": "444.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "72,758.86"
+  },
+  {
+    "Date": "08-11-2019",
+    "Narration": "50200032062102-TPT-TEAMVIEWER SUBSCRIPT",
+    "Chq. / Ref No.": "142026836",
+    "Value Date": "08-11-2019",
+    "Withdrawal Amount": "0.00",
+    "Deposit Amount": "17,700.00",
+    "Closing Balance*": "90,458.86"
+  },
+  {
+    "Date": "08-11-2019",
+    "Narration": "50200032062102-TPT-AZURE OCT19",
+    "Chq. / Ref No.": "142026842",
+    "Value Date": "08-11-2019",
+    "Withdrawal Amount": "0.00",
+    "Deposit Amount": "23,403.00",
+    "Closing Balance*": "1,13,861.86"
+  },
+  {
+    "Date": "08-11-2019",
+    "Narration": "IB BILLPAY DR-HDFCSI-485498XXXXXX9660",
+    "Chq. / Ref No.": "IB08104313577505",
+    "Value Date": "08-11-2019",
+    "Withdrawal Amount": "75,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "38,861.86"
+  },
+  {
+    "Date": "08-11-2019",
+    "Narration": "50200032062102-TPT-AZURE JUL19",
+    "Chq. / Ref No.": "144727245",
+    "Value Date": "08-11-2019",
+    "Withdrawal Amount": "0.00",
+    "Deposit Amount": "5,879.14",
+    "Closing Balance*": "44,741.00"
+  },
+  {
+    "Date": "08-11-2019",
+    "Narration": "50200032062102-TPT-AZURE SEP19",
+    "Chq. / Ref No.": "144727250",
+    "Value Date": "08-11-2019",
+    "Withdrawal Amount": "0.00",
+    "Deposit Amount": "51,805.26",
+    "Closing Balance*": "96,546.26"
+  },
+  {
+    "Date": "08-11-2019",
+    "Narration": "50200032062102-TPT-AZURE OC19",
+    "Chq. / Ref No.": "144727258",
+    "Value Date": "08-11-2019",
+    "Withdrawal Amount": "0.00",
+    "Deposit Amount": "21,876.91",
+    "Closing Balance*": "1,18,423.17"
+  },
+  {
+    "Date": "09-11-2019",
+    "Narration": "10481000005480-TPT-MONEY TRANSFER",
+    "Chq. / Ref No.": "253227861",
+    "Value Date": "09-11-2019",
+    "Withdrawal Amount": "0.00",
+    "Deposit Amount": "35,000.00",
+    "Closing Balance*": "1,53,423.17"
+  },
+  {
+    "Date": "09-11-2019",
+    "Narration": "RHDF8184423678/BILLDKNPSTRUST",
+    "Chq. / Ref No.": "1.93139E+11",
+    "Value Date": "09-11-2019",
+    "Withdrawal Amount": "15,018.41",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,38,404.76"
+  },
+  {
+    "Date": "11-11-2019",
+    "Narration": ".IMPS P2P 930921156867#05/11/2019 061119\n-MIR1931592272047",
+    "Chq. / Ref No.": "MIR1931592272047",
+    "Value Date": "11-11-2019",
+    "Withdrawal Amount": "5.90",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,38,398.86"
+  },
+  {
+    "Date": "14-11-2019",
+    "Narration": "RHDF8202334571/FRANKLIN TEMPLETON",
+    "Chq. / Ref No.": "1.93184E+11",
+    "Value Date": "14-11-2019",
+    "Withdrawal Amount": "35,009.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,03,389.86"
+  },
+  {
+    "Date": "14-11-2019",
+    "Narration": "10447751~6~2~8101/ICICIPRUDENTIALAMCLT",
+    "Chq. / Ref No.": "1.93184E+11",
+    "Value Date": "14-11-2019",
+    "Withdrawal Amount": "10,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "93,389.86"
+  },
+  {
+    "Date": "14-11-2019",
+    "Narration": "RHDF8202384332/BILLDKADITYABIRLASUN",
+    "Chq. / Ref No.": "1.93184E+11",
+    "Value Date": "14-11-2019",
+    "Withdrawal Amount": "10,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "83,389.86"
+  },
+  {
+    "Date": "14-11-2019",
+    "Narration": "RHDF8202386140/BILLDKADITYABIRLASUN",
+    "Chq. / Ref No.": "1.93184E+11",
+    "Value Date": "14-11-2019",
+    "Withdrawal Amount": "10,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "73,389.86"
+  },
+  {
+    "Date": "23-11-2019",
+    "Narration": "IMPS-932713170368-SRI SNV ENTERPRISES-CN RB-XXXXXXXXX0020-AQUAGUARD AMC",
+    "Chq. / Ref No.": "9.32713E+11",
+    "Value Date": "23-11-2019",
+    "Withdrawal Amount": "7,555.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "65,834.86"
+  },
+  {
+    "Date": "27-11-2019",
+    "Narration": ".IMPS P2P 932713170368#23/11/2019 251119\n-MIR1933130981792",
+    "Chq. / Ref No.": "MIR1933130981792",
+    "Value Date": "27-11-2019",
+    "Withdrawal Amount": "5.90",
+    "Deposit Amount": "0",
+    "Closing Balance*": "65,828.96"
+  },
+  {
+    "Date": "28-11-2019",
+    "Narration": "IMPS-933216175674-MADHU INFOTECH INDIA P\nVT LTD-VIJB-XXXXXXXXXXX0617-DELL REFURBU RISHED",
+    "Chq. / Ref No.": "9.33216E+11",
+    "Value Date": "28-11-2019",
+    "Withdrawal Amount": "16,500.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "49,328.96"
+  },
+  {
+    "Date": "29-11-2019",
+    "Narration": "108715050968/CCAAIRTELIN",
+    "Chq. / Ref No.": "1.93335E+11",
+    "Value Date": "29-11-2019",
+    "Withdrawal Amount": "6,541.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "42,787.96"
+  },
+  {
+    "Date": "30-11-2019",
+    "Narration": "50200032062102-TPT-SALARY-NOV2019-ADDIT LABS",
+    "Chq. / Ref No.": "176370388",
+    "Value Date": "30-11-2019",
+    "Withdrawal Amount": "0.00",
+    "Deposit Amount": "1,00,000.00",
+    "Closing Balance*": "1,42,787.96"
+  },
+  {
+    "Date": "01-12-2019",
+    "Narration": "UPI-SIDDARTH D K-9886708871@PAYTM-HDFC00 00041-933538495397-NA",
+    "Chq. / Ref No.": "9.33515E+11",
+    "Value Date": "01-12-2019",
+    "Withdrawal Amount": "2,699.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,40,088.96"
+  },
+  {
+    "Date": "01-12-2019",
+    "Narration": "IB BILLPAY DR-HDFCSI-485498XXXXXX9660",
+    "Chq. / Ref No.": "BB01170522108721",
+    "Value Date": "01-12-2019",
+    "Withdrawal Amount": "36,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,04,088.96"
+  },
+  {
+    "Date": "02-12-2019",
+    "Narration": ".IMPS P2P 933216175674#28/11/2019 281119\n-MIR1933639931111",
+    "Chq. / Ref No.": "MIR1933639931111",
+    "Value Date": "02-12-2019",
+    "Withdrawal Amount": "5.90",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,04,083.06"
+  },
+  {
+    "Date": "07-12-2019",
+    "Narration": "23861570000261 NET BANKING SI -MONEY TRA NSFER",
+    "Chq. / Ref No.": "",
+    "Value Date": "07-12-2019",
+    "Withdrawal Amount": "6,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "98,083.06"
+  },
+  {
+    "Date": "09-12-2019",
+    "Narration": "RHDF8286822950/BILLDKSTATEBANKCOLLE",
+    "Chq. / Ref No.": "1.93432E+11",
+    "Value Date": "09-12-2019",
+    "Withdrawal Amount": "1,506.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "96,577.06"
+  },
+  {
+    "Date": "13-12-2019",
+    "Narration": "NEFT DR-ICIC0006254-BAILUR MURALIDHAR KI NI-NETBANK, MUM-N347191008100861-MONEY T RANSFER",
+    "Chq. / Ref No.": "N347191008100861",
+    "Value Date": "13-12-2019",
+    "Withdrawal Amount": "25,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "71,577.06"
+  },
+  {
+    "Date": "16-12-2019",
+    "Narration": "NEFT DR-RATN0CRCARD-SANDEEP RAJ URS C-NE TBANK, MUM-N350191009900566-TEST TRANSFE\nR",
+    "Chq. / Ref No.": "N350191009900566",
+    "Value Date": "16-12-2019",
+    "Withdrawal Amount": "100.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "71,477.06"
+  },
+  {
+    "Date": "17-12-2019",
+    "Narration": "UPI-FRANKLIN TEMPLETON M-FRANKLINTEMPLET ONMF@CITIBANK-CITI0RTGSMI-935114023267-T REASU-GROWTH-FRAN",
+    "Chq. / Ref No.": "9.35114E+11",
+    "Value Date": "17-12-2019",
+    "Withdrawal Amount": "0.00",
+    "Deposit Amount": "50,000.00",
+    "Closing Balance*": "1,21,477.06"
+  },
+  {
+    "Date": "17-12-2019",
+    "Narration": "NEFT DR-RATN0CRCARD-SANDEEP RAJ URS C-NE TBANK, MUM-N351191010753948-MONEY TRANSF ER",
+    "Chq. / Ref No.": "N351191010753948",
+    "Value Date": "17-12-2019",
+    "Withdrawal Amount": "50,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "71,477.06"
+  },
+  {
+    "Date": "18-12-2019",
+    "Narration": "ICICI PRUDENTIAL MU-RED - 8101- 5658902",
+    "Chq. / Ref No.": "2.42336E+11",
+    "Value Date": "18-12-2019",
+    "Withdrawal Amount": "0.00",
+    "Deposit Amount": "50,000.00",
+    "Closing Balance*": "1,21,477.06"
+  },
+  {
+    "Date": "18-12-2019",
+    "Narration": "NEFT DR-RATN0CRCARD-SANDEEP RAJ URS C-NE TBANK, MUM-N352191011808310-LOAN AMOUNT",
+    "Chq. / Ref No.": "N352191011808310",
+    "Value Date": "18-12-2019",
+    "Withdrawal Amount": "50,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "71,477.06"
+  },
+  {
+    "Date": "19-12-2019",
+    "Narration": "NEFT DR-ICIC0000103-SANDEEP RAJ URS-NETB ANK, MUM-N353191013008181-TEST TRANSFER",
+    "Chq. / Ref No.": "N353191013008181",
+    "Value Date": "19-12-2019",
+    "Withdrawal Amount": "100.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "71,377.06"
+  },
+  {
+    "Date": "20-12-2019",
+    "Narration": "NEFT DR-ICIC0000103-SANDEEP RAJ URS-NETB ANK, MUM-N354191013022287-LOAN TRANSFER",
+    "Chq. / Ref No.": "N354191013022287",
+    "Value Date": "20-12-2019",
+    "Withdrawal Amount": "50,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "21,377.06"
+  },
+  {
+    "Date": "20-12-2019",
+    "Narration": "UPI-FRANKLIN TEMPLETON M-FRANKLINTEMPLET ONMF@CITIBANK-CITI0RTGSMI-935414150566-T REASU-GROWTH-FRAN",
+    "Chq. / Ref No.": "9.35415E+11",
+    "Value Date": "20-12-2019",
+    "Withdrawal Amount": "0.00",
+    "Deposit Amount": "50,000.00",
+    "Closing Balance*": "71,377.06"
+  },
+  {
+    "Date": "20-12-2019",
+    "Narration": "NEFT DR-ICIC0000103-SANDEEP RAJ URS-NETB ANK, MUM-N354191013902293-LOAN AMOUNT",
+    "Chq. / Ref No.": "N354191013902293",
+    "Value Date": "20-12-2019",
+    "Withdrawal Amount": "14,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "57,377.06"
+  },
+  {
+    "Date": "21-12-2019",
+    "Narration": "10481000005480-TPT-LOAN AMOUNT-LEENA KIN I",
+    "Chq. / Ref No.": "120824895",
+    "Value Date": "21-12-2019",
+    "Withdrawal Amount": "0.00",
+    "Deposit Amount": "50,000.00",
+    "Closing Balance*": "1,07,377.06"
+  },
+  {
+    "Date": "21-12-2019",
+    "Narration": "00531050085516-TPT-LOAN AMOUNT-SANDEEP R AJ URS C",
+    "Chq. / Ref No.": "120845708",
+    "Value Date": "21-12-2019",
+    "Withdrawal Amount": "50,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "57,377.06"
+  },
+  {
+    "Date": "21-12-2019",
+    "Narration": "UPI-FRANKLIN TEMPLETON M-FRANKLINTEMPLET ONMF@CITIBANK-CITI0RTGSMI-935511212734-T REASU-GROWTH-FRAN",
+    "Chq. / Ref No.": "9.35511E+11",
+    "Value Date": "21-12-2019",
+    "Withdrawal Amount": "0.00",
+    "Deposit Amount": "50,000.00",
+    "Closing Balance*": "1,07,377.06"
+  },
+  {
+    "Date": "21-12-2019",
+    "Narration": "IMPS-935511781127-HDFC MF INSTANT REDE-H DFC-XXXXXXXXXX9415-",
+    "Chq. / Ref No.": "9.35512E+11",
+    "Value Date": "21-12-2019",
+    "Withdrawal Amount": "0.00",
+    "Deposit Amount": "50,000.00",
+    "Closing Balance*": "1,57,377.06"
+  },
+  {
+    "Date": "21-12-2019",
+    "Narration": "10481000005480-TPT-MONEY TRANSFER-LEENA KINI",
+    "Chq. / Ref No.": "123400561",
+    "Value Date": "21-12-2019",
+    "Withdrawal Amount": "1,00,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "57,377.06"
+  },
+  {
+    "Date": "22-12-2019",
+    "Narration": "IMPS-935610750722-HDFC MF INSTANT REDE-H DFC-XXXXXXXXXX9415-",
+    "Chq. / Ref No.": "9.35611E+11",
+    "Value Date": "22-12-2019",
+    "Withdrawal Amount": "0.00",
+    "Deposit Amount": "50,000.00",
+    "Closing Balance*": "1,07,377.06"
+  },
+  {
+    "Date": "22-12-2019",
+    "Narration": "IMPS-935613125453-BAILUR MURALIDHAR KI-H DFC-XXXXXXXX0212-LOAN AMOUNT",
+    "Chq. / Ref No.": "9.35613E+11",
+    "Value Date": "22-12-2019",
+    "Withdrawal Amount": "0.00",
+    "Deposit Amount": "20,000.00",
+    "Closing Balance*": "1,27,377.06"
+  },
+  {
+    "Date": "22-12-2019",
+    "Narration": "00531050085516-TPT-LOAN AMOUNT-SANDEEP R AJ URS C",
+    "Chq. / Ref No.": "232253077",
+    "Value Date": "22-12-2019",
+    "Withdrawal Amount": "86,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "41,377.06"
+  },
+  {
+    "Date": "24-12-2019",
+    "Narration": "QUANTUM MUTUAL-901385277",
+    "Chq. / Ref No.": "2.46604E+11",
+    "Value Date": "24-12-2019",
+    "Withdrawal Amount": "0.00",
+    "Deposit Amount": "1,00,000.00",
+    "Closing Balance*": "1,41,377.06"
+  },
+  {
+    "Date": "24-12-2019",
+    "Narration": "NEFT DR-ICIC0006254-BAILUR MURALIDHAR KI NI-NETBANK, MUM-N358191015731399-MONEY F OR MF",
+    "Chq. / Ref No.": "N358191015731399",
+    "Value Date": "24-12-2019",
+    "Withdrawal Amount": "25,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,16,377.06"
+  },
+  {
+    "Date": "24-12-2019",
+    "Narration": "NEFT DR-SBIN0012662-B MURALIDHAR KINI-NE TBANK, MUM-N358191015725284-MONEY FOR NP S",
+    "Chq. / Ref No.": "N358191015725284",
+    "Value Date": "24-12-2019",
+    "Withdrawal Amount": "20,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "96,377.06"
+  },
+  {
+    "Date": "24-12-2019",
+    "Narration": "IB BILLPAY DR-HDFCSI-485498XXXXXX9660",
+    "Chq. / Ref No.": "IB24092907988894",
+    "Value Date": "24-12-2019",
+    "Withdrawal Amount": "11,419.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "84,958.06"
+  },
+  {
+    "Date": "24-12-2019",
+    "Narration": "RHDF8337475998/BILLDKNPSTRUST",
+    "Chq. / Ref No.": "1.93583E+11",
+    "Value Date": "24-12-2019",
+    "Withdrawal Amount": "10,012.51",
+    "Deposit Amount": "0",
+    "Closing Balance*": "74,945.55"
+  },
+  {
+    "Date": "25-12-2019",
+    "Narration": "DWM69LRFLF7QMU/RAZPSWIGGY",
+    "Chq. / Ref No.": "1.93593E+11",
+    "Value Date": "25-12-2019",
+    "Withdrawal Amount": "474.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "74,471.55"
+  },
+  {
+    "Date": "01-01-2020",
+    "Narration": "CREDIT INTEREST CAPITALISED",
+    "Chq. / Ref No.": "",
+    "Value Date": "31-12-2019",
+    "Withdrawal Amount": "0.00",
+    "Deposit Amount": "657",
+    "Closing Balance*": "75,128.55"
+  },
+  {
+    "Date": "01-01-2020",
+    "Narration": "UPI-NETMEDS MARKETPLACE -PAYTM-8736773@P AYTM-PYTM0123456-000120800474-NA",
+    "Chq. / Ref No.": "120047150",
+    "Value Date": "01-01-2020",
+    "Withdrawal Amount": "677.75",
+    "Deposit Amount": "0",
+    "Closing Balance*": "74,450.80"
+  },
+  {
+    "Date": "02-01-2020",
+    "Narration": "UPI-FRANKLIN TEMPLETON M-FRANKLINTEMPLET ONMF@CITIBANK-CITI0RTGSMI-000218008336-T REASU-GROWTH-FRAN",
+    "Chq. / Ref No.": "218287384",
+    "Value Date": "02-01-2020",
+    "Withdrawal Amount": "0.00",
+    "Deposit Amount": "50,000.00",
+    "Closing Balance*": "1,24,450.80"
+  },
+  {
+    "Date": "02-01-2020",
+    "Narration": "IMPS-000218751697-HDFC MF INSTANT REDE-H DFC-XXXXXXXXXX9415-",
+    "Chq. / Ref No.": "218751697",
+    "Value Date": "02-01-2020",
+    "Withdrawal Amount": "0.00",
+    "Deposit Amount": "50,000.00",
+    "Closing Balance*": "1,74,450.80"
+  },
+  {
+    "Date": "03-01-2020",
+    "Narration": "UPI-FRANKLIN TEMPLETON M-FRANKLINTEMPLET ONMF@CITIBANK-CITI0RTGSMI-000309028349-T REASU-GROWTH-FRAN",
+    "Chq. / Ref No.": "39163531",
+    "Value Date": "03-01-2020",
+    "Withdrawal Amount": "0.00",
+    "Deposit Amount": "50,000.00",
+    "Closing Balance*": "2,24,450.80"
+  },
+  {
+    "Date": "06-01-2020",
+    "Narration": "ICICI PRUDENTIAL MU-RED - 8101- 5658902",
+    "Chq. / Ref No.": "2.55512E+11",
+    "Value Date": "06-01-2020",
+    "Withdrawal Amount": "0.00",
+    "Deposit Amount": "1,00,000.00",
+    "Closing Balance*": "3,24,450.80"
+  },
+  {
+    "Date": "06-01-2020",
+    "Narration": "20200106145604117458/PAYTMEDUCATIONFEE",
+    "Chq. / Ref No.": "2.00062E+11",
+    "Value Date": "06-01-2020",
+    "Withdrawal Amount": "81,167.70",
+    "Deposit Amount": "0",
+    "Closing Balance*": "2,43,283.10"
+  },
+  {
+    "Date": "06-01-2020",
+    "Narration": "UPI-PAYTM EDUCATION-PAYTM-PTM125@PAYTM-P YTM0123456-000609485860-OID10061419497@O\nNE",
+    "Chq. / Ref No.": "69989521",
+    "Value Date": "06-01-2020",
+    "Withdrawal Amount": "81,167.70",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,62,115.40"
+  },
+  {
+    "Date": "06-01-2020",
+    "Narration": "IB BILLPAY DR-HDFCSI-485498XXXXXX9660",
+    "Chq. / Ref No.": "IB06102002098980",
+    "Value Date": "06-01-2020",
+    "Withdrawal Amount": "87,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "75,115.40"
+  },
+  {
+    "Date": "07-01-2020",
+    "Narration": "23861570000261 NET BANKING SI -MONEY TRA NSFER",
+    "Chq. / Ref No.": "",
+    "Value Date": "07-01-2020",
+    "Withdrawal Amount": "6,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "69,115.40"
+  },
+  {
+    "Date": "10-01-2020",
+    "Narration": "50200032062102-TPT-DEC-19 SAL-ADDIT LABS",
+    "Chq. / Ref No.": "175504078",
+    "Value Date": "10-01-2020",
+    "Withdrawal Amount": "0.00",
+    "Deposit Amount": "1,00,000.00",
+    "Closing Balance*": "1,69,115.40"
+  },
+  {
+    "Date": "11-01-2020",
+    "Narration": "IB FUNDS TRANSFER DR-10481930000900-MURA LIDHAR KINI B",
+    "Chq. / Ref No.": "BM00110259935325",
+    "Value Date": "11-01-2020",
+    "Withdrawal Amount": "25,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,44,115.40"
+  },
+  {
+    "Date": "15-01-2020",
+    "Narration": "QUANTUM MUTUAL-901400038",
+    "Chq. / Ref No.": "2.63888E+11",
+    "Value Date": "15-01-2020",
+    "Withdrawal Amount": "0.00",
+    "Deposit Amount": "3,92,870.66",
+    "Closing Balance*": "5,36,986.06"
+  },
+  {
+    "Date": "15-01-2020",
+    "Narration": "10481000005480-TPT-LOAN MONEY RELATIVE-L EENA KINI",
+    "Chq. / Ref No.": "132072490",
+    "Value Date": "15-01-2020",
+    "Withdrawal Amount": "50,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "4,86,986.06"
+  },
+  {
+    "Date": "15-01-2020",
+    "Narration": "RHDF8417816221/BILLDKNPSTRUST",
+    "Chq. / Ref No.": "2.0016E+11",
+    "Value Date": "15-01-2020",
+    "Withdrawal Amount": "50,059.71",
+    "Deposit Amount": "0",
+    "Closing Balance*": "4,36,926.35"
+  },
+  {
+    "Date": "15-01-2020",
+    "Narration": "NEFT DR-SBIN0012662-B MURALIDHAR KINI-NE TBANK, MUM-N015201037049036-NPS CONTRIBU TION",
+    "Chq. / Ref No.": "N015201037049036",
+    "Value Date": "15-01-2020",
+    "Withdrawal Amount": "15,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "4,21,926.35"
+  },
+  {
+    "Date": "15-01-2020",
+    "Narration": "NEFT DR-ICIC0006254-BAILUR MURALIDHAR KI NI-NETBANK, MUM-N015201037045571-SIP CON TRIBUTIONS",
+    "Chq. / Ref No.": "N015201037045571",
+    "Value Date": "15-01-2020",
+    "Withdrawal Amount": "30,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "3,91,926.35"
+  },
+  {
+    "Date": "15-01-2020",
+    "Narration": "RHDF8417859029/FRANKLIN TEMPLETON",
+    "Chq. / Ref No.": "2.0016E+11",
+    "Value Date": "15-01-2020",
+    "Withdrawal Amount": "1,64,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "2,27,926.35"
+  },
+  {
+    "Date": "15-01-2020",
+    "Narration": "RHDF8417893796/HDFC MUTUAL FUND",
+    "Chq. / Ref No.": "2.0016E+11",
+    "Value Date": "15-01-2020",
+    "Withdrawal Amount": "50,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,77,926.35"
+  },
+  {
+    "Date": "15-01-2020",
+    "Narration": "11050917~6~2~8086/ICICIPRUDENTIALAMCLT",
+    "Chq. / Ref No.": "2.0016E+11",
+    "Value Date": "15-01-2020",
+    "Withdrawal Amount": "75,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,02,926.35"
+  },
+  {
+    "Date": "18-01-2020",
+    "Narration": "FD THROUGH NET-50300397341256:MURALIDHAR KINI B",
+    "Chq. / Ref No.": "IB18231419777241",
+    "Value Date": "18-01-2020",
+    "Withdrawal Amount": "10,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "92,926.35"
+  },
+  {
+    "Date": "18-01-2020",
+    "Narration": "FD THROUGH NET-50300397341460:MURALIDHAR KINI B",
+    "Chq. / Ref No.": "IB18231625225657",
+    "Value Date": "18-01-2020",
+    "Withdrawal Amount": "10,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "82,926.35"
+  },
+  {
+    "Date": "18-01-2020",
+    "Narration": "FD THROUGH NET-50300397341832:MURALIDHAR KINI B",
+    "Chq. / Ref No.": "IB18232232277709",
+    "Value Date": "18-01-2020",
+    "Withdrawal Amount": "10,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "72,926.35"
+  },
+  {
+    "Date": "20-01-2020",
+    "Narration": "IB FUNDS TRANSFER CR-10481930000900 -MUR ALIDHAR KINI B",
+    "Chq. / Ref No.": "IB20134100097068",
+    "Value Date": "20-01-2020",
+    "Withdrawal Amount": "0.00",
+    "Deposit Amount": "1,50,000.00",
+    "Closing Balance*": "2,22,926.35"
+  },
+  {
+    "Date": "20-01-2020",
+    "Narration": "RHDF8436833333/FRANKLIN TEMPLETON",
+    "Chq. / Ref No.": "2.00204E+11",
+    "Value Date": "20-01-2020",
+    "Withdrawal Amount": "1,00,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,22,926.35"
+  },
+  {
+    "Date": "20-01-2020",
+    "Narration": "RHDF8436863362/HDFC MUTUAL FUND",
+    "Chq. / Ref No.": "2.00204E+11",
+    "Value Date": "20-01-2020",
+    "Withdrawal Amount": "50,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "72,926.35"
+  },
+  {
+    "Date": "20-01-2020",
+    "Narration": "RHDF8436899907/BILLDKNPSTRUST",
+    "Chq. / Ref No.": "2.00204E+11",
+    "Value Date": "20-01-2020",
+    "Withdrawal Amount": "25,030.21",
+    "Deposit Amount": "0",
+    "Closing Balance*": "47,896.14"
+  },
+  {
+    "Date": "24-01-2020",
+    "Narration": "IB FUNDS TRANSFER CR-10481930000900 -MUR ALIDHAR KINI B",
+    "Chq. / Ref No.": "IB24104030859983",
+    "Value Date": "24-01-2020",
+    "Withdrawal Amount": "0.00",
+    "Deposit Amount": "1,34,000.00",
+    "Closing Balance*": "1,81,896.14"
+  },
+  {
+    "Date": "24-01-2020",
+    "Narration": "IB BILLPAY DR-HDFCSI-485498XXXXXX9660",
+    "Chq. / Ref No.": "IB24104223980302",
+    "Value Date": "24-01-2020",
+    "Withdrawal Amount": "83,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "98,896.14"
+  },
+  {
+    "Date": "24-01-2020",
+    "Narration": "RHDF8452030504/BILLDKNPSTRUST",
+    "Chq. / Ref No.": "2.00247E+11",
+    "Value Date": "24-01-2020",
+    "Withdrawal Amount": "40,047.91",
+    "Deposit Amount": "0",
+    "Closing Balance*": "58,848.23"
+  },
+  {
+    "Date": "02-02-2020",
+    "Narration": "UPI-INDIANOIL CORPORATIO-INDIANOILONE@HD FCBANK-HDFC0009956-003315111658-COLLECT",
+    "Chq. / Ref No.": "3315985272",
+    "Value Date": "02-02-2020",
+    "Withdrawal Amount": "717.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "58,131.23"
+  },
+  {
+    "Date": "06-02-2020",
+    "Narration": "UPI-INDIANOIL CORPORATIO-INDIANOILONE@HD FCBANK-HDFC0009956-003718070614-REFUND",
+    "Chq. / Ref No.": "3718494250",
+    "Value Date": "06-02-2020",
+    "Withdrawal Amount": "0.00",
+    "Deposit Amount": "717",
+    "Closing Balance*": "58,848.23"
+  },
+  {
+    "Date": "07-02-2020",
+    "Narration": "23861570000261 NET BANKING SI -MONEY TRA NSFER",
+    "Chq. / Ref No.": "",
+    "Value Date": "07-02-2020",
+    "Withdrawal Amount": "6,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "52,848.23"
+  },
+  {
+    "Date": "10-02-2020",
+    "Narration": "HDFC MUTUAL FUND RE-HDFC HYBRID EQUITY F",
+    "Chq. / Ref No.": "2.83418E+11",
+    "Value Date": "10-02-2020",
+    "Withdrawal Amount": "0.00",
+    "Deposit Amount": "50,000.00",
+    "Closing Balance*": "1,02,848.23"
+  },
+  {
+    "Date": "10-02-2020",
+    "Narration": "50200032062102-TPT-JAN-20 SAL-ADDIT LABS",
+    "Chq. / Ref No.": "362040575",
+    "Value Date": "10-02-2020",
+    "Withdrawal Amount": "0.00",
+    "Deposit Amount": "1,00,000.00",
+    "Closing Balance*": "2,02,848.23"
+  },
+  {
+    "Date": "10-02-2020",
+    "Narration": "FD THROUGH NET-50300402651462:MURALIDHAR KINI B",
+    "Chq. / Ref No.": "IB10134028888602",
+    "Value Date": "10-02-2020",
+    "Withdrawal Amount": "25,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,77,848.23"
+  },
+  {
+    "Date": "10-02-2020",
+    "Narration": "11376012~6~2~8086/ICICIPRUDENTIALAMCLT",
+    "Chq. / Ref No.": "2.0042E+11",
+    "Value Date": "10-02-2020",
+    "Withdrawal Amount": "40,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,37,848.23"
+  },
+  {
+    "Date": "10-02-2020",
+    "Narration": "RHDF8508503110/HDFC MUTUAL FUND",
+    "Chq. / Ref No.": "2.0042E+11",
+    "Value Date": "10-02-2020",
+    "Withdrawal Amount": "5,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,32,848.23"
+  },
+  {
+    "Date": "10-02-2020",
+    "Narration": "RHDF8508487799/HDFC MUTUAL FUND",
+    "Chq. / Ref No.": "2.0042E+11",
+    "Value Date": "10-02-2020",
+    "Withdrawal Amount": "5,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,27,848.23"
+  },
+  {
+    "Date": "10-02-2020",
+    "Narration": "RHDF8508510236/HDFC MUTUAL FUND",
+    "Chq. / Ref No.": "2.0042E+11",
+    "Value Date": "10-02-2020",
+    "Withdrawal Amount": "5,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,22,848.23"
+  },
+  {
+    "Date": "10-02-2020",
+    "Narration": "RHDF8508513335/HDFC MUTUAL FUND",
+    "Chq. / Ref No.": "2.0042E+11",
+    "Value Date": "10-02-2020",
+    "Withdrawal Amount": "5,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,17,848.23"
+  },
+  {
+    "Date": "10-02-2020",
+    "Narration": "NEFT DR-ICIC0006254-BAILUR MURALIDHAR KI NI-NETBANK, MUM-N041201060512133-SAVINGS",
+    "Chq. / Ref No.": "N041201060512133",
+    "Value Date": "10-02-2020",
+    "Withdrawal Amount": "22,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "95,848.23"
+  },
+  {
+    "Date": "10-02-2020",
+    "Narration": "11376671~6~2~8017/ICICIPRUDENTIALAMCLT",
+    "Chq. / Ref No.": "2.0042E+11",
+    "Value Date": "10-02-2020",
+    "Withdrawal Amount": "5,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "90,848.23"
+  },
+  {
+    "Date": "10-02-2020",
+    "Narration": "11376708~6~2~8042/ICICIPRUDENTIALAMCLT",
+    "Chq. / Ref No.": "2.0042E+11",
+    "Value Date": "10-02-2020",
+    "Withdrawal Amount": "5,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "85,848.23"
+  },
+  {
+    "Date": "10-02-2020",
+    "Narration": "RHDF8508632892/FRANKLIN TEMPLETON",
+    "Chq. / Ref No.": "2.0042E+11",
+    "Value Date": "10-02-2020",
+    "Withdrawal Amount": "20,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "65,848.23"
+  },
+  {
+    "Date": "10-02-2020",
+    "Narration": "UPI-XXXXXX9030-PYTM0123456-004186355282- NA",
+    "Chq. / Ref No.": "4115113054",
+    "Value Date": "10-02-2020",
+    "Withdrawal Amount": "10,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "55,848.23"
+  },
+  {
+    "Date": "12-02-2020",
+    "Narration": "RHDF8516102726/SBI MUTUAL FUND",
+    "Chq. / Ref No.": "2.00431E+11",
+    "Value Date": "12-02-2020",
+    "Withdrawal Amount": "5,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "50,848.23"
+  },
+  {
+    "Date": "13-02-2020",
+    "Narration": "109771295886/CCAINDANEGAS",
+    "Chq. / Ref No.": "2.00442E+11",
+    "Value Date": "13-02-2020",
+    "Withdrawal Amount": "869.17",
+    "Deposit Amount": "0",
+    "Closing Balance*": "49,979.06"
+  },
+  {
+    "Date": "13-02-2020",
+    "Narration": "RHDF8520698168/BILLDKADITYABIRLASUN",
+    "Chq. / Ref No.": "2.00442E+11",
+    "Value Date": "13-02-2020",
+    "Withdrawal Amount": "5,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "44,979.06"
+  },
+  {
+    "Date": "14-02-2020",
+    "Narration": "IMPS-004515195957-ADITYA BIRLA SUNLIFE-H\nDFC-XXXXXXXX2691-ACCOUNT VALIDATION BY A BSLAMC",
+    "Chq. / Ref No.": "4515195957",
+    "Value Date": "14-02-2020",
+    "Withdrawal Amount": "0.00",
+    "Deposit Amount": "1",
+    "Closing Balance*": "44,980.06"
+  },
+  {
+    "Date": "16-02-2020",
+    "Narration": "UPI-FRANKLIN TEMPLETON M-FRANKLINTEMPLET ONMF@CITIBANK-CITI0RTGSMI-004722086462-T REASU-GROWTH-FRAN",
+    "Chq. / Ref No.": "4722497070",
+    "Value Date": "17-02-2020",
+    "Withdrawal Amount": "0.00",
+    "Deposit Amount": "50,000.00",
+    "Closing Balance*": "94,980.06"
+  },
+  {
+    "Date": "16-02-2020",
+    "Narration": "IB FUNDS TRANSFER DR-10481930000900 -MUR ALIDHAR KINI B",
+    "Chq. / Ref No.": "IB16232308870090",
+    "Value Date": "17-02-2020",
+    "Withdrawal Amount": "50,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "44,980.06"
+  },
+  {
+    "Date": "17-02-2020",
+    "Narration": "IB FUNDS TRANSFER CR-10481930000900 -MUR ALIDHAR KINI B",
+    "Chq. / Ref No.": "IB17223140245198",
+    "Value Date": "17-02-2020",
+    "Withdrawal Amount": "0.00",
+    "Deposit Amount": "45,000.00",
+    "Closing Balance*": "89,980.06"
+  },
+  {
+    "Date": "17-02-2020",
+    "Narration": "11470481~6~2~8086/ICICIPRUDENTIALAMCLT",
+    "Chq. / Ref No.": "2.00485E+11",
+    "Value Date": "17-02-2020",
+    "Withdrawal Amount": "30,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "59,980.06"
+  },
+  {
+    "Date": "17-02-2020",
+    "Narration": "RHDF8533891518/SBI MUTUAL FUND",
+    "Chq. / Ref No.": "2.00485E+11",
+    "Value Date": "17-02-2020",
+    "Withdrawal Amount": "20,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "39,980.06"
+  },
+  {
+    "Date": "20-02-2020",
+    "Narration": "REF-CCAINDANEGAS-109771295886-13/2/20",
+    "Chq. / Ref No.": "",
+    "Value Date": "20-02-2020",
+    "Withdrawal Amount": "0.00",
+    "Deposit Amount": "862.5",
+    "Closing Balance*": "40,842.56"
+  },
+  {
+    "Date": "21-02-2020",
+    "Narration": "50200032062102-TPT-FEB AZURE BILL-ADDIT LABS",
+    "Chq. / Ref No.": "127477580",
+    "Value Date": "21-02-2020",
+    "Withdrawal Amount": "0.00",
+    "Deposit Amount": "36,095.70",
+    "Closing Balance*": "76,938.26"
+  },
+  {
+    "Date": "21-02-2020",
+    "Narration": "50200032062102-TPT-AZ SUB CHG TLLJAN20-A DDIT LABS",
+    "Chq. / Ref No.": "127607123",
+    "Value Date": "21-02-2020",
+    "Withdrawal Amount": "0.00",
+    "Deposit Amount": "22,610.00",
+    "Closing Balance*": "99,548.26"
+  },
+  {
+    "Date": "02-03-2020",
+    "Narration": "50200032062102-TPT-FEB-20 SAL-ADDIT LABS",
+    "Chq. / Ref No.": "169447441",
+    "Value Date": "02-03-2020",
+    "Withdrawal Amount": "0.00",
+    "Deposit Amount": "1,00,000.00",
+    "Closing Balance*": "1,99,548.26"
+  },
+  {
+    "Date": "02-03-2020",
+    "Narration": "IB BILLPAY DR-HDFCSI-485498XXXXXX9660",
+    "Chq. / Ref No.": "BB02205833344784",
+    "Value Date": "02-03-2020",
+    "Withdrawal Amount": "26,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,73,548.26"
+  },
+  {
+    "Date": "07-03-2020",
+    "Narration": "23861570000261 NET BANKING SI -MONEY TRA NSFER",
+    "Chq. / Ref No.": "",
+    "Value Date": "07-03-2020",
+    "Withdrawal Amount": "6,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,67,548.26"
+  },
+  {
+    "Date": "07-03-2020",
+    "Narration": "SHDF8595402402/BILLDKADITYABIRLASUN",
+    "Chq. / Ref No.": "2.0068E+11",
+    "Value Date": "07-03-2020",
+    "Withdrawal Amount": "5,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,62,548.26"
+  },
+  {
+    "Date": "14-03-2020",
+    "Narration": "UPI-RAGHAVENDRA B S-9731022622@PAYTM-KAR B0000107-007431160202-TOWARDS CHARITY",
+    "Chq. / Ref No.": "7413238057",
+    "Value Date": "14-03-2020",
+    "Withdrawal Amount": "5,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,57,548.26"
+  },
+  {
+    "Date": "14-03-2020",
+    "Narration": "UPI-LEENA KINI-9481078980@PAYTM-HDFC0001 048-007431171333-NA",
+    "Chq. / Ref No.": "7413244237",
+    "Value Date": "14-03-2020",
+    "Withdrawal Amount": "1,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,56,548.26"
+  },
+  {
+    "Date": "14-03-2020",
+    "Narration": "UPI-LEENA KINI-9481078980@PAYTM-HDFC0001 048-007431178095-NA",
+    "Chq. / Ref No.": "7413248192",
+    "Value Date": "14-03-2020",
+    "Withdrawal Amount": "5,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,51,548.26"
+  },
+  {
+    "Date": "16-03-2020",
+    "Narration": "SI HGA1P0BA520051014669 SBI MUT-16/03/20",
+    "Chq. / Ref No.": "",
+    "Value Date": "16-03-2020",
+    "Withdrawal Amount": "1,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,50,548.26"
+  },
+  {
+    "Date": "19-03-2020",
+    "Narration": "UPI-PAYTM-ADD-MONEY@PAYTM-PYTM0123456-00 7999439318-OID10575915674@PAY",
+    "Chq. / Ref No.": "7919032269",
+    "Value Date": "19-03-2020",
+    "Withdrawal Amount": "5,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,45,548.26"
+  },
+  {
+    "Date": "19-03-2020",
+    "Narration": "UPI-RELIANCE JIO INFOCOM-JIO@CITIBANK-CI TI0RTGSMI-007902143684-JIO20BR0004CFAAXS  1",
+    "Chq. / Ref No.": "7922394987",
+    "Value Date": "19-03-2020",
+    "Withdrawal Amount": "599.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,44,949.26"
+  },
+  {
+    "Date": "22-03-2020",
+    "Narration": "UPI-NEHA MEHTA-HACKTRONICS@HDFCBANK-HDFC 0000549-008230804761-CART19278",
+    "Chq. / Ref No.": "8223336900",
+    "Value Date": "23-03-2020",
+    "Withdrawal Amount": "3,445.98",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,41,503.28"
+  },
+  {
+    "Date": "23-03-2020",
+    "Narration": "SI HGA1P0B02B0052178908 SBI MUT-23/03/20",
+    "Chq. / Ref No.": "",
+    "Value Date": "23-03-2020",
+    "Withdrawal Amount": "1,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,40,503.28"
+  },
+  {
+    "Date": "26-03-2020",
+    "Narration": "109807166023/CCAINDANEGAS",
+    "Chq. / Ref No.": "2.00863E+11",
+    "Value Date": "26-03-2020",
+    "Withdrawal Amount": "839.17",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,39,664.11"
+  },
+  {
+    "Date": "28-03-2020",
+    "Narration": "UPI-PM CARES-PMCARES@SBI-SBIN0000691-008 874790826-WISHING BEST FOR M",
+    "Chq. / Ref No.": "8822693808",
+    "Value Date": "28-03-2020",
+    "Withdrawal Amount": "10,000.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,29,664.11"
+  },
+  {
+    "Date": "29-03-2020",
+    "Narration": "KQQX274EAF427OWQCQ/PAYUBIGBASKETCOM",
+    "Chq. / Ref No.": "2.00894E+11",
+    "Value Date": "29-03-2020",
+    "Withdrawal Amount": "1,481.00",
+    "Deposit Amount": "0",
+    "Closing Balance*": "1,28,183.11"
+  }
+]
