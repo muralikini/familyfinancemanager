@@ -247,7 +247,7 @@
             }
         }
 
-        async function generateLoadButtons() async function generateLoadButtons() {
+ async function generateLoadButtons() {
     const container = document.getElementById('auto-load-buttons');
     if (!container) return;
     container.innerHTML = '';
@@ -377,7 +377,7 @@ async function loadBankYears(personId, bankName, availableYears) {
             filterTransactions();
         }
 
-        function filterTransactions() {
+        async function filterTransactions() {
             const person = document.getElementById('filter-person').value;
             const fy = document.getElementById('filter-fy').value;
             const search = document.getElementById('filter-search').value.toLowerCase();
