@@ -45,6 +45,7 @@
                 <button onclick="switchTab(1)" class="tab-btn px-6 py-3">Admin Panel</button>
                 <button onclick="switchTab(2)" class="tab-btn px-6 py-3">Bank Accounts</button>
                 <button onclick="switchTab(3)" class="tab-btn px-6 py-3">Equity</button>
+                <button onclick="switchTab(4)" class="tab-btn px-6 py-3">Expenses</button>
             </div>
         </div>
 
@@ -140,6 +141,110 @@
         <div id="tab-3" class="tab-content hidden px-6 pt-6">
             <!-- Equity content -->
         </div>
+
+        <!-- ==================== EXPENSES TAB (Tab 4) ==================== -->
+        <div id="tab-4" class="tab-content hidden max-w-screen-2xl mx-auto px-6 pt-8">
+            <div class="flex justify-between items-center mb-6">
+                <h2 class="text-2xl font-semibold">Expense Tracker</h2>
+                <button onclick="exportExpensesToExcel()" 
+                        class="px-4 py-2 bg-emerald-600 hover:bg-emerald-700 rounded-2xl text-sm flex items-center gap-x-2">
+                    <i class="fas fa-download"></i>
+                    <span>Export to Excel</span>
+                </button>
+            </div>
+
+            <!-- Filters -->
+            <div class="bg-zinc-900 border border-zinc-700 rounded-3xl p-4 mb-6 grid grid-cols-2 md:grid-cols-5 gap-4">
+                <div>
+                    <label class="block text-xs text-zinc-400 mb-1">Person</label>
+                    <select id="expense-person" onchange="loadExpenses()" class="w-full bg-zinc-800 border border-zinc-700 rounded-2xl px-3 py-2 text-sm"></select>
+                </div>
+                <div>
+                    <label class="block text-xs text-zinc-400 mb-1">Bank</label>
+                    <select id="expense-bank" onchange="loadExpenses()" class="w-full bg-zinc-800 border border-zinc-700 rounded-2xl px-3 py-2 text-sm">
+                        <option value="">All Banks</option>
+                        <option value="HDFC">HDFC</option>
+                        <option value="ICICI">ICICI</option>
+                        <option value="SBI">SBI</option>
+                    </select>
+                </div>
+                <div>
+                    <label class="block text-xs text-zinc-400 mb-1">Financial Year</label>
+                    <select id="expense-fy" onchange="loadExpenses()" class="w-full bg-zinc-800 border border-zinc-700 rounded-2xl px-3 py-2 text-sm"></select>
+                </div>
+                <div>
+                    <label class="block text-xs text-zinc-400 mb-1">Month</label>
+                    <select id="expense-month" onchange="loadExpenses()" class="w-full bg-zinc-800 border border-zinc-700 rounded-2xl px-3 py-2 text-sm">
+                        <option value="">All Months</option>
+                    </select>
+                </div>
+                <div>
+                    <label class="block text-xs text-zinc-400 mb-1">Category</label>
+                    <select id="expense-category" onchange="loadExpenses()" class="w-full bg-zinc-800 border border-zinc-700 rounded-2xl px-3 py-2 text-sm">
+                        <option value="">All Categories</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Summary Cards -->
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-6 mb-6">
+                <div class="bg-zinc-900 border border-zinc-700 rounded-3xl p-6">
+                    <div class="text-sm text-zinc-400">Total Expenses</div>
+                    <div class="text-4xl font-bold text-red-400 mt-1" id="exp-total">₹0</div>
+                </div>
+                <div class="bg-zinc-900 border border-zinc-700 rounded-3xl p-6">
+                    <div class="text-sm text-zinc-400">Transactions</div>
+                    <div class="text-4xl font-bold mt-1" id="exp-count">0</div>
+                </div>
+                <div class="bg-zinc-900 border border-zinc-700 rounded-3xl p-6">
+                    <div class="text-sm text-zinc-400">Top Category</div>
+                    <div class="text-2xl font-bold mt-1" id="exp-top-category">-</div>
+                </div>
+                <div class="bg-zinc-900 border border-zinc-700 rounded-3xl p-6">
+                    <div class="text-sm text-zinc-400">Avg per Transaction</div>
+                    <div class="text-3xl font-bold mt-1" id="exp-average">₹0</div>
+                </div>
+            </div>
+
+            <!-- Category Breakdown -->
+            <div class="bg-zinc-900 border border-zinc-700 rounded-3xl p-6 mb-6">
+                <h3 class="text-lg font-semibold mb-4">Expenses by Category</h3>
+                <div class="overflow-auto max-h-[300px]">
+                    <table class="w-full text-sm">
+                        <thead>
+                            <tr class="text-zinc-400 border-b border-zinc-700">
+                                <th class="text-left py-3 px-4">Category</th>
+                                <th class="text-right py-3 px-4">Amount</th>
+                                <th class="text-right py-3 px-4">% of Total</th>
+                                <th class="text-right py-3 px-4">Transactions</th>
+                            </tr>
+                        </thead>
+                        <tbody id="expense-category-table" class="divide-y divide-zinc-800"></tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Expense Transactions Table -->
+            <div class="bg-zinc-900 border border-zinc-700 rounded-3xl p-6">
+                <h3 class="text-lg font-semibold mb-4">Expense Transactions</h3>
+                <div class="overflow-auto max-h-[500px]">
+                    <table class="w-full text-sm">
+                        <thead class="sticky top-0 bg-zinc-900">
+                            <tr class="text-zinc-400 border-b border-zinc-700">
+                                <th class="text-left py-3 px-4">Date</th>
+                                <th class="text-left py-3 px-4">Person</th>
+                                <th class="text-left py-3 px-4">Bank</th>
+                                <th class="text-left py-3 px-4">Category</th>
+                                <th class="text-left py-3 px-4">Narration</th>
+                                <th class="text-right py-3 px-4">Amount</th>
+                            </tr>
+                        </thead>
+                        <tbody id="expense-table" class="divide-y divide-zinc-800"></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
     </div>
 
     <script>
@@ -510,6 +615,117 @@ async function loadBankYears(personId, bankName, availableYears) {
         function refreshDashboard() {
             console.log("Dashboard refreshed");
         }
+
+        // ==================== EXPENSE CATEGORIZATION ====================
+function categorizeExpense(narration) {
+    if (!narration) return "Others";
+    const n = narration.toLowerCase();
+
+    if (n.includes("tpt") && n.includes("salary")) return "Salary to Family";
+    if (n.includes("salary payment") || n.includes("employee salary")) return "Salary to Family";
+    
+    if (n.includes("rent") || n.includes("chirra energy")) return "Rent / Maintenance";
+    if (n.includes("credit card") || n.includes("cc ") || n.includes("autopay")) return "Credit Card Payment";
+    if (n.includes("cbdt") || n.includes("cgst") || n.includes("sgst") || n.includes("professional tax")) return "Taxes & Government";
+    if (n.includes("bescom") || n.includes("electricity")) return "Utilities";
+    if (n.startsWith("upi-")) return "UPI Payment";
+    if (n.includes("dhl") || n.includes("fedex")) return "Courier & Logistics";
+    if (n.includes("swiggy") || n.includes("zomato") || n.includes("food")) return "Food & Dining";
+
+    return "Others";
+}
+
+// ==================== LOAD EXPENSES ====================
+function loadExpenses() {
+    const person = document.getElementById('expense-person').value;
+    const bank = document.getElementById('expense-bank').value;
+    const fy = document.getElementById('expense-fy').value;
+    const month = document.getElementById('expense-month').value;
+    const categoryFilter = document.getElementById('expense-category').value;
+
+    let expenses = currentTransactions.filter(t => {
+        if (t.withdrawal <= 0) return false; // Only outflows
+
+        const narration = (t.narration || "").toLowerCase();
+        if (narration.includes("fd") || narration.includes("rd") || 
+            narration.includes("fixed deposit") || narration.includes("recurring deposit")) return false;
+
+        if (person && t.personId !== person) return false;
+        if (bank && t.bankName !== bank) return false;
+        if (fy && getFinancialYear(t.date) !== fy) return false;
+
+        if (month) {
+            const d = parseCustomDate(t.date);
+            if (d && (d.getMonth() + 1) !== parseInt(month)) return false;
+        }
+
+        const category = categorizeExpense(t.narration);
+        if (categoryFilter && category !== categoryFilter) return false;
+
+        return true;
+    });
+
+    // Update Summary
+    const total = expenses.reduce((sum, t) => sum + t.withdrawal, 0);
+    document.getElementById('exp-total').textContent = '₹' + total.toLocaleString('en-IN');
+    document.getElementById('exp-count').textContent = expenses.length;
+    document.getElementById('exp-average').textContent = expenses.length > 0 
+        ? '₹' + Math.round(total / expenses.length).toLocaleString('en-IN') 
+        : '₹0';
+
+    // Category Breakdown
+    renderExpenseCategoryBreakdown(expenses, total);
+
+    // Transactions Table
+    renderExpenseTable(expenses);
+}
+
+// Helper functions for rendering (you can expand these)
+function renderExpenseCategoryBreakdown(expenses, total) {
+    // Group by category
+    const categoryMap = {};
+    expenses.forEach(t => {
+        const cat = categorizeExpense(t.narration);
+        if (!categoryMap[cat]) categoryMap[cat] = { amount: 0, count: 0 };
+        categoryMap[cat].amount += t.withdrawal;
+        categoryMap[cat].count++;
+    });
+
+    const tbody = document.getElementById('expense-category-table');
+    tbody.innerHTML = '';
+
+    Object.entries(categoryMap)
+        .sort((a, b) => b[1].amount - a[1].amount)
+        .forEach(([cat, data]) => {
+            const percent = total > 0 ? ((data.amount / total) * 100).toFixed(1) : 0;
+            const row = document.createElement('tr');
+            row.innerHTML = `
+                <td class="py-3 px-4">${cat}</td>
+                <td class="py-3 px-4 text-right text-red-400">₹${data.amount.toLocaleString('en-IN')}</td>
+                <td class="py-3 px-4 text-right">${percent}%</td>
+                <td class="py-3 px-4 text-right">${data.count}</td>
+            `;
+            tbody.appendChild(row);
+        });
+}
+
+function renderExpenseTable(expenses) {
+    const tbody = document.getElementById('expense-table');
+    tbody.innerHTML = '';
+
+    expenses.forEach(t => {
+        const row = document.createElement('tr');
+        row.innerHTML = `
+            <td class="py-3 px-4">${t.date}</td>
+            <td class="py-3 px-4">${t.personId}</td>
+            <td class="py-3 px-4">${t.bankName}</td>
+            <td class="py-3 px-4">${categorizeExpense(t.narration)}</td>
+            <td class="py-3 px-4 text-xs max-w-xs truncate">${t.narration}</td>
+            <td class="py-3 px-4 text-right text-red-400">₹${t.withdrawal.toLocaleString('en-IN')}</td>
+        `;
+        tbody.appendChild(row);
+    });
+}
 
         function initApp() {}
         window.onload = initApp;
