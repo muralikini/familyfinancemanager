@@ -513,7 +513,7 @@ async function loadBankYears(personId, bankName, availableYears) {
             filterTransactions();
         }
 
-        function filterTransactions() {
+        async function filterTransactions() {
     const person = document.getElementById('filter-person').value;
     const fy = document.getElementById('filter-fy').value;
     const search = document.getElementById('filter-search').value.toLowerCase();
@@ -521,15 +521,37 @@ async function loadBankYears(personId, bankName, availableYears) {
     const tbody = document.getElementById('transactions-table');
     tbody.innerHTML = '';
 
+    // === Auto-load data for selected year if not already loaded ===
+    if (fy) {
+        const alreadyLoaded = currentTransactions.some(t => getFinancialYear(t.date) === fy);
+
+        if (!alreadyLoaded) {
+            const accounts = await loadAccountManifest();
+
+            // Find file for the selected year + person + bank (if selected)
+            const fileToLoad = accounts.find(a => {
+                const yearMatch = a.filePath.includes(fy);
+                const personMatch = !person || a.personId === person;
+                return yearMatch && personMatch;
+            });
+
+            if (fileToLoad) {
+                await loadSingleYearFile(fileToLoad.filePath, fileToLoad.personId, fileToLoad.bankName);
+            }
+        }
+    }
+
+    // Now apply filters on the (possibly newly loaded) data
     let filtered = currentTransactions;
 
     if (person) filtered = filtered.filter(t => t.personId === person);
     if (fy) filtered = filtered.filter(t => getFinancialYear(t.date) === fy);
     if (search) filtered = filtered.filter(t => t.narration?.toLowerCase().includes(search));
 
-    // === Store filtered data for Export ===
+    // Store for Export button
     currentBankTransactions = filtered;
 
+    // Render table
     if (filtered.length === 0) {
         const row = document.createElement('tr');
         row.innerHTML = `
@@ -544,7 +566,7 @@ async function loadBankYears(personId, bankName, availableYears) {
             const row = document.createElement('tr');
             row.innerHTML = `
                 <td class="py-3 px-4">${t.date}</td>
-                <td class="py-3 px-4">${personObj ? personObj.name : ''}</td>
+                <td class="py-3 px-4">${personObj ? personObj.name : t.personId}</td>
                 <td class="py-3 px-4">${t.bankName}</td>
                 <td class="py-3 px-4 text-xs max-w-xs truncate">${t.narration}</td>
                 <td class="py-3 px-4 text-right text-red-400">${t.withdrawal ? '₹' + t.withdrawal.toLocaleString('en-IN') : ''}</td>
