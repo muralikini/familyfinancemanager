@@ -407,7 +407,7 @@ async function loadBankYears(personId, bankName, availableYears) {
     const fySelect = document.getElementById('filter-fy');
     fySelect.innerHTML = '<option value="">All Years</option>';
 
-    // Sort years descending
+    // Sort years descending (latest first)
     availableYears.sort().reverse();
 
     availableYears.forEach(year => {
@@ -417,13 +417,26 @@ async function loadBankYears(personId, bankName, availableYears) {
         fySelect.appendChild(opt);
     });
 
-    // Show message to user
-    alert(`HDFC years loaded. Please select a Financial Year from the dropdown to load data.`);
-    
-    // Optional: Auto-select the latest year
+    // Auto-load the latest year data
     if (availableYears.length > 0) {
-        fySelect.value = availableYears[0];
+        const latestYear = availableYears[0];
+        fySelect.value = latestYear;
+
+        // Find the file for latest year and load it
+        const accounts = await loadAccountManifest();
+        const fileToLoad = accounts.find(a => 
+            a.personId === personId && 
+            a.bankName === bankName &&
+            a.filePath.includes(latestYear)
+        );
+
+        if (fileToLoad) {
+            await loadSingleYearFile(fileToLoad.filePath, personId, bankName);
+        }
     }
+
+    alert(`${bankName} years loaded. Latest year data has been loaded automatically.`);
+    filterTransactions();
 }
 
         async function loadBankByName(personId, bankName, filePaths) {
@@ -543,30 +556,36 @@ async function loadBankYears(personId, bankName, availableYears) {
     return match ? match[1] : null;
 }
 
-        async function loadSingleYearFile(filePath, personId) {
-            try {
-                const res = await fetch(filePath);
-                const data = await res.json();
-
-                data.forEach(item => {
-                    const dateStr = item.Date || item["Txn Date"] || item["Value Date"];
-                    if (!dateStr) return;
-
-                    currentTransactions.push({
-                        date: dateStr,
-                        personId: personId,
-                        bankName: filePath.includes("HDFC") ? "HDFC" : 
-                                filePath.includes("ICICI") ? "ICICI" : "SBI",
-                        narration: item.Narration || item.Description || "",
-                        withdrawal: parseAmount(item["Withdrawal Amount"] || item.Debit),
-                        deposit: parseAmount(item["Deposit Amount"] || item.Credit),
-                        balance: parseAmount(item["Closing Balance*"] || item.Balance)
-                    });
-                });
-            } catch (e) {
-                console.error("Failed to load year file", filePath);
-            }
+        async function loadSingleYearFile(filePath, personId, bankName = null) {
+    try {
+        const res = await fetch(filePath);
+        if (!res.ok) {
+            console.error("Failed to load:", filePath);
+            return;
         }
+
+        const data = await res.json();
+
+        data.forEach(item => {
+            const dateStr = item.Date || item["Txn Date"] || item["Value Date"] || item["Transaction Date"];
+            if (!dateStr) return;
+
+            currentTransactions.push({
+                date: dateStr,
+                personId: personId,
+                bankName: bankName || (filePath.includes("HDFC") ? "HDFC" : 
+                          filePath.includes("ICICI") ? "ICICI" : "SBI"),
+                narration: item.Narration || item.Description || item["Transaction Remarks"] || "",
+                withdrawal: parseAmount(item["Withdrawal Amount"] || item.Debit || item["Withdrawal Amount (INR )"]),
+                deposit: parseAmount(item["Deposit Amount"] || item.Credit || item["Deposit Amount (INR )"]),
+                balance: parseAmount(item["Closing Balance*"] || item.Balance || item["Balance (INR )"])
+            });
+        });
+
+    } catch (e) {
+        console.error("Error loading file:", filePath, e);
+    }
+}
 
         function updateBankSummary(filtered) {
             // Same as before
