@@ -267,19 +267,29 @@
         }
 
         function switchTab(tab) {
-            document.querySelectorAll('.tab-content').forEach(el => el.classList.add('hidden'));
-            document.querySelectorAll('.tab-btn').forEach(el => el.classList.remove('tab-active'));
-            
-            document.getElementById(`tab-${tab}`).classList.remove('hidden');
-            document.querySelectorAll('.tab-btn')[tab].classList.add('tab-active');
+    document.querySelectorAll('.tab-content').forEach(el => el.classList.add('hidden'));
+    document.querySelectorAll('.tab-btn').forEach(el => el.classList.remove('tab-active'));
 
-            if (tab === 0) refreshDashboard();
-            if (tab === 2) {
-                renderBankUI();
-                generateLoadButtons();
-            }
-            if (tab === 3) initEquityTab();
-        }
+    document.getElementById(`tab-${tab}`).classList.remove('hidden');
+    document.querySelectorAll('.tab-btn')[tab].classList.add('tab-active');
+
+    if (tab === 0) refreshDashboard();
+    
+    if (tab === 2) {
+        renderBankUI();
+        generateLoadButtons();
+    }
+    
+    if (tab === 3) {
+        initEquityTab();
+    }
+
+    // === NEW: Expenses Tab ===
+    if (tab === 4) {
+        populateExpenseFilters();
+        loadExpenses();           // Load data after filters are ready
+    }
+}
 
         // ==================== INIT ====================
         function initData() {
@@ -724,6 +734,76 @@ function renderExpenseTable(expenses) {
             <td class="py-3 px-4 text-right text-red-400">₹${t.withdrawal.toLocaleString('en-IN')}</td>
         `;
         tbody.appendChild(row);
+    });
+}
+
+// ==================== POPULATE EXPENSE FILTERS ====================
+function populateExpenseFilters() {
+    // === Person Filter ===
+    const personSelect = document.getElementById('expense-person');
+    personSelect.innerHTML = '<option value="">All Persons</option>';
+
+    familyMembers.forEach(member => {
+        const option = document.createElement('option');
+        option.value = member.id;
+        option.textContent = member.name;
+        personSelect.appendChild(option);
+    });
+
+    // === Financial Year Filter ===
+    const fySelect = document.getElementById('expense-fy');
+    fySelect.innerHTML = '<option value="">All Years</option>';
+
+    const fySet = new Set();
+    currentTransactions.forEach(t => {
+        const fy = getFinancialYear(t.date);
+        if (fy) fySet.add(fy);
+    });
+
+    [...fySet].sort().reverse().forEach(fy => {
+        const option = document.createElement('option');
+        option.value = fy;
+        option.textContent = `FY ${fy}`;
+        fySelect.appendChild(option);
+    });
+
+    // === Month Filter (Optional) ===
+const monthSelect = document.getElementById('expense-month');
+monthSelect.innerHTML = '<option value="">All Months</option>';
+
+const months = [
+    "January", "February", "March", "April", "May", "June",
+    "July", "August", "September", "October", "November", "December"
+];
+
+months.forEach((month, index) => {
+    const option = document.createElement('option');
+    option.value = index + 1;           // 1 = Jan, 2 = Feb, etc.
+    option.textContent = month;
+    monthSelect.appendChild(option);
+});
+
+    // === Category Filter ===
+    const categorySelect = document.getElementById('expense-category');
+    categorySelect.innerHTML = '<option value="">All Categories</option>';
+
+    const categories = [
+        "Salary to Family",
+        "Rent / Maintenance",
+        "Credit Card Payment",
+        "Taxes & Government",
+        "Utilities",
+        "UPI Payment",
+        "Food & Dining",
+        "Courier & Logistics",
+        "Others"
+    ];
+
+    categories.forEach(cat => {
+        const option = document.createElement('option');
+        option.value = cat;
+        option.textContent = cat;
+        categorySelect.appendChild(option);
     });
 }
 
