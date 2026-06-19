@@ -247,45 +247,68 @@
             }
         }
 
-        async function generateLoadButtons() {
-            const container = document.getElementById('auto-load-buttons');
-            if (!container) return;
-            container.innerHTML = '';
+        async function generateLoadButtons() async function generateLoadButtons() {
+    const container = document.getElementById('auto-load-buttons');
+    if (!container) return;
+    container.innerHTML = '';
 
-            const accounts = await loadAccountManifest();
-            const selectedPerson = document.getElementById('filter-person').value;
+    const accounts = await loadAccountManifest();
+    const selectedPerson = document.getElementById('filter-person').value;
 
-            // Group by person + bank
-            const bankGroups = {};
-            accounts.forEach(acc => {
-                if (selectedPerson && acc.personId !== selectedPerson) return;
+    // Group by bank
+    const banks = {};
+    accounts.forEach(acc => {
+        if (selectedPerson && acc.personId !== selectedPerson) return;
 
-                const key = `${acc.personId}-${acc.bankName}`;
-                if (!bankGroups[key]) {
-                    bankGroups[key] = {
-                        personId: acc.personId,
-                        bankName: acc.bankName,
-                        accountNumber: acc.accountNumber,
-                        files: []
-                    };
-                }
-                bankGroups[key].files.push(acc.filePath);
-            });
-
-            Object.values(bankGroups).forEach(group => {
-                const btn = document.createElement('button');
-                let color = 'bg-zinc-700 hover:bg-zinc-600';
-                if (group.bankName === 'HDFC') color = 'bg-emerald-600 hover:bg-emerald-700';
-                if (group.bankName === 'ICICI') color = 'bg-blue-600 hover:bg-blue-700';
-                if (group.bankName === 'SBI') color = 'bg-orange-600 hover:bg-orange-700';
-
-                btn.className = `px-5 py-2.5 rounded-2xl text-sm font-semibold flex items-center gap-x-2 text-white ${color}`;
-                btn.innerHTML = `🏦 Load ${group.bankName} (${group.accountNumber})`;
-
-                btn.onclick = () => loadBankByName(group.personId, group.bankName, group.files);
-                container.appendChild(btn);
-            });
+        if (!banks[acc.bankName]) {
+            banks[acc.bankName] = {
+                personId: acc.personId,
+                bankName: acc.bankName,
+                accountNumber: acc.accountNumber,
+                years: new Set()
+            };
         }
+        const fy = acc.filePath.match(/_(\d{4}-\d{2})\.json/);
+        if (fy) banks[acc.bankName].years.add(fy[1]);
+    });
+
+    Object.values(banks).forEach(bank => {
+        const btn = document.createElement('button');
+        let color = 'bg-zinc-700 hover:bg-zinc-600';
+        if (bank.bankName === 'HDFC') color = 'bg-emerald-600 hover:bg-emerald-700';
+        if (bank.bankName === 'ICICI') color = 'bg-blue-600 hover:bg-blue-700';
+        if (bank.bankName === 'SBI') color = 'bg-orange-600 hover:bg-orange-700';
+
+        btn.className = `px-5 py-2.5 rounded-2xl text-sm font-semibold flex items-center gap-x-2 text-white ${color}`;
+        btn.innerHTML = `🏦 Load ${bank.bankName} (${bank.accountNumber})`;
+
+        btn.onclick = () => loadBankYears(bank.personId, bank.bankName, [...bank.years]);
+        container.appendChild(btn);
+    });
+}
+
+async function loadBankYears(personId, bankName, availableYears) {
+    const fySelect = document.getElementById('filter-fy');
+    fySelect.innerHTML = '<option value="">All Years</option>';
+
+    // Sort years descending
+    availableYears.sort().reverse();
+
+    availableYears.forEach(year => {
+        const opt = document.createElement('option');
+        opt.value = year;
+        opt.textContent = `FY ${year}`;
+        fySelect.appendChild(opt);
+    });
+
+    // Show message to user
+    alert(`HDFC years loaded. Please select a Financial Year from the dropdown to load data.`);
+    
+    // Optional: Auto-select the latest year
+    if (availableYears.length > 0) {
+        fySelect.value = availableYears[0];
+    }
+}
 
         async function loadBankByName(personId, bankName, filePaths) {
             let added = 0;
@@ -364,6 +387,19 @@
 
             let filtered = currentTransactions;
 
+            // If user selected a year but data for that year is not loaded yet
+            if (fy && !currentTransactions.some(t => getFinancialYear(t.date) === fy)) {
+                const accounts = await loadAccountManifest();
+                const fileToLoad = accounts.find(a => 
+                    a.personId === person && 
+                    getFinancialYearFromFilePath(a.filePath) === fy
+                );
+
+                if (fileToLoad) {
+                    await loadSingleYearFile(fileToLoad.filePath, person);
+                }
+            }
+
             if (person) filtered = filtered.filter(t => t.personId === person);
             if (fy) filtered = filtered.filter(t => getFinancialYear(t.date) === fy);
             if (search) filtered = filtered.filter(t => t.narration?.toLowerCase().includes(search));
@@ -384,6 +420,36 @@
             });
 
             updateBankSummary(filtered);
+        }
+
+        function getFinancialYearFromFilePath(filePath) {
+    const match = filePath.match(/_(\d{4}-\d{2})\.json/);
+    return match ? match[1] : null;
+}
+
+        async function loadSingleYearFile(filePath, personId) {
+            try {
+                const res = await fetch(filePath);
+                const data = await res.json();
+
+                data.forEach(item => {
+                    const dateStr = item.Date || item["Txn Date"] || item["Value Date"];
+                    if (!dateStr) return;
+
+                    currentTransactions.push({
+                        date: dateStr,
+                        personId: personId,
+                        bankName: filePath.includes("HDFC") ? "HDFC" : 
+                                filePath.includes("ICICI") ? "ICICI" : "SBI",
+                        narration: item.Narration || item.Description || "",
+                        withdrawal: parseAmount(item["Withdrawal Amount"] || item.Debit),
+                        deposit: parseAmount(item["Deposit Amount"] || item.Credit),
+                        balance: parseAmount(item["Closing Balance*"] || item.Balance)
+                    });
+                });
+            } catch (e) {
+                console.error("Failed to load year file", filePath);
+            }
         }
 
         function updateBankSummary(filtered) {
