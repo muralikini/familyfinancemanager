@@ -510,50 +510,41 @@ async function loadBankYears(personId, bankName, availableYears) {
     let filtered = currentTransactions;
 
     // Apply filters
-    if (person) {
-        filtered = filtered.filter(t => t.personId === person);
-    }
+    if (person) filtered = filtered.filter(t => t.personId === person);
+    if (fy) filtered = filtered.filter(t => getFinancialYear(t.date) === fy);
+    if (search) filtered = filtered.filter(t => t.narration?.toLowerCase().includes(search));
 
-    if (fy) {
-        filtered = filtered.filter(t => getFinancialYear(t.date) === fy);
-    }
-
-    if (search) {
-        filtered = filtered.filter(t => 
-            t.narration && t.narration.toLowerCase().includes(search)
-        );
-    }
-
-    // === Store filtered data for Export to Excel ===
+    // Store for export
     currentBankTransactions = filtered;
 
-    // Render table rows
-    filtered.forEach(t => {
-        const personObj = familyMembers.find(p => p.id === t.personId);
+    // === Show message if no data found ===
+    if (filtered.length === 0) {
         const row = document.createElement('tr');
-
         row.innerHTML = `
-            <td class="py-3 px-4">${t.date}</td>
-            <td class="py-3 px-4">${personObj ? personObj.name : t.personId}</td>
-            <td class="py-3 px-4">${t.bankName}</td>
-            <td class="py-3 px-4 text-xs max-w-xs truncate" title="${t.narration}">
-                ${t.narration}
-            </td>
-            <td class="py-3 px-4 text-right text-red-400">
-                ${t.withdrawal ? '₹' + t.withdrawal.toLocaleString('en-IN') : ''}
-            </td>
-            <td class="py-3 px-4 text-right text-green-400">
-                ${t.deposit ? '₹' + t.deposit.toLocaleString('en-IN') : ''}
-            </td>
-            <td class="py-3 px-4 text-right">
-                ${t.balance ? '₹' + t.balance.toLocaleString('en-IN') : ''}
+            <td colspan="7" class="py-8 text-center text-zinc-400">
+                No transactions found for the selected filters.<br>
+                <span class="text-xs">Try selecting "All Years" or load bank data first.</span>
             </td>
         `;
-
         tbody.appendChild(row);
-    });
+    } else {
+        // Render normal rows
+        filtered.forEach(t => {
+            const personObj = familyMembers.find(p => p.id === t.personId);
+            const row = document.createElement('tr');
+            row.innerHTML = `
+                <td class="py-3 px-4">${t.date}</td>
+                <td class="py-3 px-4">${personObj ? personObj.name : t.personId}</td>
+                <td class="py-3 px-4">${t.bankName}</td>
+                <td class="py-3 px-4 text-xs max-w-xs truncate" title="${t.narration}">${t.narration}</td>
+                <td class="py-3 px-4 text-right text-red-400">${t.withdrawal ? '₹' + t.withdrawal.toLocaleString('en-IN') : ''}</td>
+                <td class="py-3 px-4 text-right text-green-400">${t.deposit ? '₹' + t.deposit.toLocaleString('en-IN') : ''}</td>
+                <td class="py-3 px-4 text-right">${t.balance ? '₹' + t.balance.toLocaleString('en-IN') : ''}</td>
+            `;
+            tbody.appendChild(row);
+        });
+    }
 
-    // Update summary cards
     updateBankSummary(filtered, fy);
 }
 
