@@ -645,27 +645,75 @@ function categorizeExpense(narration) {
 }
 
 // ==================== LOAD EXPENSES ====================
-function loadExpenses() {
+async function loadExpenses() {
     const person = document.getElementById('expense-person').value;
     const bank = document.getElementById('expense-bank').value;
     const fy = document.getElementById('expense-fy').value;
     const month = document.getElementById('expense-month').value;
     const categoryFilter = document.getElementById('expense-category').value;
 
+    // === Step 1: Auto-load data if year is selected but not loaded yet ===
+    if (fy) {
+        const alreadyLoaded = currentTransactions.some(t => getFinancialYear(t.date) === fy);
+        
+        if (!alreadyLoaded) {
+            const accounts = await loadAccountManifest();
+            
+            // Find files matching the selected year
+            const filesToLoad = accounts.filter(acc => {
+                const match = acc.filePath.match(/_(\d{4}-\d{2})\.json/);
+                return match && match[1] === fy && 
+                       (!person || acc.personId === person) &&
+                       (!bank || acc.bankName === bank);
+            });
+
+            // Load each matching year file
+            for (const file of filesToLoad) {
+                try {
+                    const res = await fetch(file.filePath);
+                    const data = await res.json();
+
+                    data.forEach(item => {
+                        const dateStr = item.Date || item["Txn Date"] || item["Value Date"] || item["Transaction Date"];
+                        if (!dateStr) return;
+
+                        currentTransactions.push({
+                            date: dateStr,
+                            personId: file.personId,
+                            bankName: file.bankName,
+                            narration: item.Narration || item.Description || item["Transaction Remarks"] || "",
+                            withdrawal: parseAmount(item["Withdrawal Amount"] || item.Debit || item["Withdrawal Amount (INR )"]),
+                            deposit: parseAmount(item["Deposit Amount"] || item.Credit || item["Deposit Amount (INR )"]),
+                            balance: parseAmount(item["Closing Balance*"] || item.Balance || item["Balance (INR )"])
+                        });
+                    });
+                } catch (e) {
+                    console.error("Failed to load file:", file.filePath);
+                }
+            }
+        }
+    }
+
+    // === Step 2: Filter expenses ===
     let expenses = currentTransactions.filter(t => {
-        if (t.withdrawal <= 0) return false; // Only outflows
+        if ((t.withdrawal || 0) <= 0) return false;
 
         const narration = (t.narration || "").toLowerCase();
+
+        // Exclude investments
         if (narration.includes("fd") || narration.includes("rd") || 
-            narration.includes("fixed deposit") || narration.includes("recurring deposit")) return false;
+            narration.includes("fixed deposit") || narration.includes("recurring deposit")) {
+            return false;
+        }
 
         if (person && t.personId !== person) return false;
         if (bank && t.bankName !== bank) return false;
         if (fy && getFinancialYear(t.date) !== fy) return false;
 
+        // Month filter
         if (month) {
             const d = parseCustomDate(t.date);
-            if (d && (d.getMonth() + 1) !== parseInt(month)) return false;
+            if (!d || (d.getMonth() + 1) !== parseInt(month)) return false;
         }
 
         const category = categorizeExpense(t.narration);
@@ -674,18 +722,33 @@ function loadExpenses() {
         return true;
     });
 
-    // Update Summary
-    const total = expenses.reduce((sum, t) => sum + t.withdrawal, 0);
+    // === Step 3: Update Summary Cards ===
+    const total = expenses.reduce((sum, t) => sum + (t.withdrawal || 0), 0);
     document.getElementById('exp-total').textContent = '₹' + total.toLocaleString('en-IN');
     document.getElementById('exp-count').textContent = expenses.length;
-    document.getElementById('exp-average').textContent = expenses.length > 0 
-        ? '₹' + Math.round(total / expenses.length).toLocaleString('en-IN') 
-        : '₹0';
 
-    // Category Breakdown
+    const avg = expenses.length > 0 ? Math.round(total / expenses.length) : 0;
+    document.getElementById('exp-average').textContent = '₹' + avg.toLocaleString('en-IN');
+
+    // Top Category
+    const categoryMap = {};
+    expenses.forEach(t => {
+        const cat = categorizeExpense(t.narration);
+        categoryMap[cat] = (categoryMap[cat] || 0) + t.withdrawal;
+    });
+
+    let topCat = "-";
+    let maxAmount = 0;
+    Object.entries(categoryMap).forEach(([cat, amount]) => {
+        if (amount > maxAmount) {
+            maxAmount = amount;
+            topCat = cat;
+        }
+    });
+    document.getElementById('exp-top-category').textContent = topCat;
+
+    // === Step 4: Render Tables ===
     renderExpenseCategoryBreakdown(expenses, total);
-
-    // Transactions Table
     renderExpenseTable(expenses);
 }
 
