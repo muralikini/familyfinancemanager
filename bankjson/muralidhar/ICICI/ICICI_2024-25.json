@@ -1,0 +1,6562 @@
+[
+  {
+    "S No.": 1408,
+    "Value Date": "02-04-2024",
+    "Transaction Date": "02-04-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240401173131",
+    "Withdrawal Amount (INR )": 485.61,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 15913.68
+  },
+  {
+    "S No.": 1409,
+    "Value Date": "02-04-2024",
+    "Transaction Date": "02-04-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024061/20240402063113",
+    "Withdrawal Amount (INR )": 0.04,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 15913.64
+  },
+  {
+    "S No.": 1410,
+    "Value Date": "02-04-2024",
+    "Transaction Date": "02-04-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024061/20240402063113",
+    "Withdrawal Amount (INR )": 78.93,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 15834.71
+  },
+  {
+    "S No.": 1411,
+    "Value Date": "02-04-2024",
+    "Transaction Date": "02-04-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024062/20240402070600",
+    "Withdrawal Amount (INR )": 4.32,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 15830.39
+  },
+  {
+    "S No.": 1412,
+    "Value Date": "02-04-2024",
+    "Transaction Date": "02-04-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240402164527",
+    "Withdrawal Amount (INR )": 488.44,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 15341.95
+  },
+  {
+    "S No.": 1413,
+    "Value Date": "03-04-2024",
+    "Transaction Date": "03-04-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024063/20240403064435",
+    "Withdrawal Amount (INR )": 4.44,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 15337.51
+  },
+  {
+    "S No.": 1414,
+    "Value Date": "03-04-2024",
+    "Transaction Date": "03-04-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240403164058",
+    "Withdrawal Amount (INR )": 491.27,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 14846.24
+  },
+  {
+    "S No.": 1415,
+    "Value Date": "04-04-2024",
+    "Transaction Date": "04-04-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024064/20240404065553",
+    "Withdrawal Amount (INR )": 4.36,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 14841.88
+  },
+  {
+    "S No.": 1416,
+    "Value Date": "04-04-2024",
+    "Transaction Date": "04-04-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240404162811",
+    "Withdrawal Amount (INR )": 492.47,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 14349.41
+  },
+  {
+    "S No.": 1417,
+    "Value Date": "05-04-2024",
+    "Transaction Date": "05-04-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024065/20240405070056",
+    "Withdrawal Amount (INR )": 4.38,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 14345.03
+  },
+  {
+    "S No.": 1418,
+    "Value Date": "05-04-2024",
+    "Transaction Date": "05-04-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240405165156",
+    "Withdrawal Amount (INR )": 2699.56,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 11645.47
+  },
+  {
+    "S No.": 1419,
+    "Value Date": "08-04-2024",
+    "Transaction Date": "08-04-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024066/20240408070308",
+    "Withdrawal Amount (INR )": 23.99,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 11621.48
+  },
+  {
+    "S No.": 1420,
+    "Value Date": "08-04-2024",
+    "Transaction Date": "08-04-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240408170403",
+    "Withdrawal Amount (INR )": 497.3,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 11124.18
+  },
+  {
+    "S No.": 1421,
+    "Value Date": "09-04-2024",
+    "Transaction Date": "09-04-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240409161725",
+    "Withdrawal Amount (INR )": 499.05,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 10625.13
+  },
+  {
+    "S No.": 1422,
+    "Value Date": "10-04-2024",
+    "Transaction Date": "10-04-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024067/20240410063904",
+    "Withdrawal Amount (INR )": 4.42,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 10620.71
+  },
+  {
+    "S No.": 1423,
+    "Value Date": "10-04-2024",
+    "Transaction Date": "10-04-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024068/20240410070850",
+    "Withdrawal Amount (INR )": 4.44,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 10616.27
+  },
+  {
+    "S No.": 1424,
+    "Value Date": "10-04-2024",
+    "Transaction Date": "10-04-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240410174203",
+    "Withdrawal Amount (INR )": 498.06,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 10118.21
+  },
+  {
+    "S No.": 1425,
+    "Value Date": "12-04-2024",
+    "Transaction Date": "12-04-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024069/20240412065419",
+    "Withdrawal Amount (INR )": 4.43,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 10113.78
+  },
+  {
+    "S No.": 1426,
+    "Value Date": "12-04-2024",
+    "Transaction Date": "12-04-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "MMT/IMPS/410313105980/Investments/MURALIDHAR/HDFC",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 40000,
+    "Balance (INR )": 50113.78
+  },
+  {
+    "S No.": 1427,
+    "Value Date": "12-04-2024",
+    "Transaction Date": "12-04-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "MMT/IMPS/410313111376/Investments/MURALIDHAR/HDFC",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 25000,
+    "Balance (INR )": 75113.78
+  },
+  {
+    "S No.": 1428,
+    "Value Date": "12-04-2024",
+    "Transaction Date": "12-04-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240412165745",
+    "Withdrawal Amount (INR )": 43623.78,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 31490
+  },
+  {
+    "S No.": 1429,
+    "Value Date": "15-04-2024",
+    "Transaction Date": "15-04-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024070/20240415064151",
+    "Withdrawal Amount (INR )": 157.06,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 31332.94
+  },
+  {
+    "S No.": 1430,
+    "Value Date": "15-04-2024",
+    "Transaction Date": "15-04-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240415165138",
+    "Withdrawal Amount (INR )": 2907.11,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 28425.83
+  },
+  {
+    "S No.": 1431,
+    "Value Date": "16-04-2024",
+    "Transaction Date": "16-04-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/UpStream Payout/20240416061017",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 1472.36,
+    "Balance (INR )": 29898.19
+  },
+  {
+    "S No.": 1432,
+    "Value Date": "16-04-2024",
+    "Transaction Date": "16-04-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240416162941",
+    "Withdrawal Amount (INR )": 2017.75,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 27880.44
+  },
+  {
+    "S No.": 1433,
+    "Value Date": "18-04-2024",
+    "Transaction Date": "18-04-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/UpStream Payout/20240418062130",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 385.62,
+    "Balance (INR )": 28266.06
+  },
+  {
+    "S No.": 1434,
+    "Value Date": "18-04-2024",
+    "Transaction Date": "18-04-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240418170311",
+    "Withdrawal Amount (INR )": 493.1,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 27772.96
+  },
+  {
+    "S No.": 1435,
+    "Value Date": "19-04-2024",
+    "Transaction Date": "19-04-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024073/20240419071136",
+    "Withdrawal Amount (INR )": 4.38,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 27768.58
+  },
+  {
+    "S No.": 1436,
+    "Value Date": "19-04-2024",
+    "Transaction Date": "19-04-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240419163031",
+    "Withdrawal Amount (INR )": 1191.72,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 26576.86
+  },
+  {
+    "S No.": 1437,
+    "Value Date": "22-04-2024",
+    "Transaction Date": "22-04-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024074/20240422071140",
+    "Withdrawal Amount (INR )": 10.59,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 26566.27
+  },
+  {
+    "S No.": 1438,
+    "Value Date": "22-04-2024",
+    "Transaction Date": "22-04-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240422162904",
+    "Withdrawal Amount (INR )": 1194.44,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 25371.83
+  },
+  {
+    "S No.": 1439,
+    "Value Date": "23-04-2024",
+    "Transaction Date": "23-04-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024075/20240423071525",
+    "Withdrawal Amount (INR )": 10.62,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 25361.21
+  },
+  {
+    "S No.": 1440,
+    "Value Date": "23-04-2024",
+    "Transaction Date": "23-04-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240423161345",
+    "Withdrawal Amount (INR )": 1201.87,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 24159.34
+  },
+  {
+    "S No.": 1441,
+    "Value Date": "24-04-2024",
+    "Transaction Date": "24-04-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024076/20240424064623",
+    "Withdrawal Amount (INR )": 10.68,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 24148.66
+  },
+  {
+    "S No.": 1442,
+    "Value Date": "24-04-2024",
+    "Transaction Date": "24-04-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240424160138",
+    "Withdrawal Amount (INR )": 498.24,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 23650.42
+  },
+  {
+    "S No.": 1443,
+    "Value Date": "25-04-2024",
+    "Transaction Date": "25-04-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024077/20240425070154",
+    "Withdrawal Amount (INR )": 4.43,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 23645.99
+  },
+  {
+    "S No.": 1444,
+    "Value Date": "25-04-2024",
+    "Transaction Date": "25-04-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240425160021",
+    "Withdrawal Amount (INR )": 1064.94,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 22581.05
+  },
+  {
+    "S No.": 1445,
+    "Value Date": "26-04-2024",
+    "Transaction Date": "26-04-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/UpStream Payout/20240426061609",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 561.57,
+    "Balance (INR )": 23142.62
+  },
+  {
+    "S No.": 1446,
+    "Value Date": "26-04-2024",
+    "Transaction Date": "26-04-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240426161431",
+    "Withdrawal Amount (INR )": 502.97,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 22639.65
+  },
+  {
+    "S No.": 1447,
+    "Value Date": "29-04-2024",
+    "Transaction Date": "29-04-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024079/20240429070909",
+    "Withdrawal Amount (INR )": 4.47,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 22635.18
+  },
+  {
+    "S No.": 1448,
+    "Value Date": "29-04-2024",
+    "Transaction Date": "29-04-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240429155713",
+    "Withdrawal Amount (INR )": 502.96,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 22132.22
+  },
+  {
+    "S No.": 1449,
+    "Value Date": "30-04-2024",
+    "Transaction Date": "30-04-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024080/20240430070908",
+    "Withdrawal Amount (INR )": 4.47,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 22127.75
+  },
+  {
+    "S No.": 1450,
+    "Value Date": "30-04-2024",
+    "Transaction Date": "30-04-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240430154231",
+    "Withdrawal Amount (INR )": 505.76,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 21621.99
+  },
+  {
+    "S No.": 1451,
+    "Value Date": "02-05-2024",
+    "Transaction Date": "02-05-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/UpStream Payout/20240502061445",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 505.76,
+    "Balance (INR )": 22127.75
+  },
+  {
+    "S No.": 1452,
+    "Value Date": "02-05-2024",
+    "Transaction Date": "02-05-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024081/20240502125835",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 59443.71,
+    "Balance (INR )": 81571.46
+  },
+  {
+    "S No.": 1453,
+    "Value Date": "02-05-2024",
+    "Transaction Date": "02-05-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "MMT/IMPS/412313246350/savings/MURALIDHAR/HDFC00001",
+    "Withdrawal Amount (INR )": 40017.7,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 41553.76
+  },
+  {
+    "S No.": 1454,
+    "Value Date": "02-05-2024",
+    "Transaction Date": "02-05-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSDL CDSL Chg_010524/20240502171402",
+    "Withdrawal Amount (INR )": 47.2,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 41506.56
+  },
+  {
+    "S No.": 1455,
+    "Value Date": "03-05-2024",
+    "Transaction Date": "03-05-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024082/20240503132916",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 315.97,
+    "Balance (INR )": 41822.53
+  },
+  {
+    "S No.": 1456,
+    "Value Date": "03-05-2024",
+    "Transaction Date": "03-05-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240503153350",
+    "Withdrawal Amount (INR )": 8132.88,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 33689.65
+  },
+  {
+    "S No.": 1457,
+    "Value Date": "04-05-2024",
+    "Transaction Date": "04-05-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSDL CDSL Chg_030524/20240504135932",
+    "Withdrawal Amount (INR )": 23.6,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 33666.05
+  },
+  {
+    "S No.": 1458,
+    "Value Date": "06-05-2024",
+    "Transaction Date": "06-05-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024083/20240506070842",
+    "Withdrawal Amount (INR )": 49.04,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 33617.01
+  },
+  {
+    "S No.": 1459,
+    "Value Date": "07-05-2024",
+    "Transaction Date": "07-05-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "NEFT-AXISCN0611279260-NIPPON INDIA SMALL CAP FUND REDEMPT-/CUST/ NIPPON INDIA S",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 8296.64,
+    "Balance (INR )": 41913.65
+  },
+  {
+    "S No.": 1460,
+    "Value Date": "07-05-2024",
+    "Transaction Date": "07-05-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "MMT/IMPS/412820877157/Savings/MURALIDHAR/HDFC00001",
+    "Withdrawal Amount (INR )": 10005.9,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 31907.75
+  },
+  {
+    "S No.": 1461,
+    "Value Date": "10-05-2024",
+    "Transaction Date": "10-05-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240510155036",
+    "Withdrawal Amount (INR )": 801.25,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 31106.5
+  },
+  {
+    "S No.": 1462,
+    "Value Date": "13-05-2024",
+    "Transaction Date": "13-05-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/UpStream Payout/20240513061134",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 396.43,
+    "Balance (INR )": 31502.93
+  },
+  {
+    "S No.": 1463,
+    "Value Date": "14-05-2024",
+    "Transaction Date": "14-05-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240514153813",
+    "Withdrawal Amount (INR )": 2941.7,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 28561.23
+  },
+  {
+    "S No.": 1464,
+    "Value Date": "15-05-2024",
+    "Transaction Date": "15-05-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024090/20240515064740",
+    "Withdrawal Amount (INR )": 26.14,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 28535.09
+  },
+  {
+    "S No.": 1465,
+    "Value Date": "17-05-2024",
+    "Transaction Date": "17-05-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240517154113",
+    "Withdrawal Amount (INR )": 5571.38,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 22963.71
+  },
+  {
+    "S No.": 1466,
+    "Value Date": "21-05-2024",
+    "Transaction Date": "21-05-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024093/20240521070301",
+    "Withdrawal Amount (INR )": 43.95,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 22919.76
+  },
+  {
+    "S No.": 1467,
+    "Value Date": "21-05-2024",
+    "Transaction Date": "21-05-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240521155313",
+    "Withdrawal Amount (INR )": 150.9,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 22768.86
+  },
+  {
+    "S No.": 1468,
+    "Value Date": "22-05-2024",
+    "Transaction Date": "22-05-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024094/20240522073045",
+    "Withdrawal Amount (INR )": 1.34,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 22767.52
+  },
+  {
+    "S No.": 1469,
+    "Value Date": "22-05-2024",
+    "Transaction Date": "22-05-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "MMT/IMPS/414311161270/savings/MURALIDHAR/HDFC Bank",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 45000,
+    "Balance (INR )": 67767.52
+  },
+  {
+    "S No.": 1470,
+    "Value Date": "22-05-2024",
+    "Transaction Date": "22-05-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240522153959",
+    "Withdrawal Amount (INR )": 59307.75,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 8459.77
+  },
+  {
+    "S No.": 1471,
+    "Value Date": "22-05-2024",
+    "Transaction Date": "22-05-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Tday UpStream credit/20240522164737",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 0.5,
+    "Balance (INR )": 8460.27
+  },
+  {
+    "S No.": 1472,
+    "Value Date": "23-05-2024",
+    "Transaction Date": "23-05-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "MMT/IMPS/414409168893/investm",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 50000,
+    "Balance (INR )": 58460.27
+  },
+  {
+    "S No.": 1474,
+    "Value Date": "23-05-2024",
+    "Transaction Date": "23-05-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240523154456",
+    "Withdrawal Amount (INR )": 42576.78,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 15883.49
+  },
+  {
+    "S No.": 1475,
+    "Value Date": "23-05-2024",
+    "Transaction Date": "23-05-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "MMT/IMPS/414419706162/bankAccountVeri/AC VALIDAT/I",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 1,
+    "Balance (INR )": 15884.49
+  },
+  {
+    "S No.": 1476,
+    "Value Date": "24-05-2024",
+    "Transaction Date": "24-05-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024095/20240524073438",
+    "Withdrawal Amount (INR )": 213.33,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 15671.16
+  },
+  {
+    "S No.": 1477,
+    "Value Date": "24-05-2024",
+    "Transaction Date": "24-05-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024096/20240524144425",
+    "Withdrawal Amount (INR )": 165.19,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 15505.97
+  },
+  {
+    "S No.": 1478,
+    "Value Date": "24-05-2024",
+    "Transaction Date": "24-05-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240524153903",
+    "Withdrawal Amount (INR )": 150.66,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 15355.31
+  },
+  {
+    "S No.": 1479,
+    "Value Date": "25-05-2024",
+    "Transaction Date": "25-05-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "IRM/USD136.62@81.36GST45/INREM/20240525112615",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 11070.4,
+    "Balance (INR )": 26425.71
+  },
+  {
+    "S No.": 1480,
+    "Value Date": "27-05-2024",
+    "Transaction Date": "27-05-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Neo Prcs Fees/20240527044937",
+    "Withdrawal Amount (INR )": 352.82,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 26072.89
+  },
+  {
+    "S No.": 1481,
+    "Value Date": "27-05-2024",
+    "Transaction Date": "27-05-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024097/20240527072335",
+    "Withdrawal Amount (INR )": 1.38,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 26071.51
+  },
+  {
+    "S No.": 1482,
+    "Value Date": "27-05-2024",
+    "Transaction Date": "27-05-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240527154825",
+    "Withdrawal Amount (INR )": 151.57,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 25919.94
+  },
+  {
+    "S No.": 1483,
+    "Value Date": "28-05-2024",
+    "Transaction Date": "28-05-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024098/20240528072526",
+    "Withdrawal Amount (INR )": 1.35,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 25918.59
+  },
+  {
+    "S No.": 1484,
+    "Value Date": "28-05-2024",
+    "Transaction Date": "28-05-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240528154646",
+    "Withdrawal Amount (INR )": 150.82,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 25767.77
+  },
+  {
+    "S No.": 1485,
+    "Value Date": "28-05-2024",
+    "Transaction Date": "28-05-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/PUR_PRIME290/20240528155648",
+    "Withdrawal Amount (INR )": 342.2,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 25425.57
+  },
+  {
+    "S No.": 1486,
+    "Value Date": "29-05-2024",
+    "Transaction Date": "29-05-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024099/20240529073913",
+    "Withdrawal Amount (INR )": 0.49,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 25425.08
+  },
+  {
+    "S No.": 1487,
+    "Value Date": "29-05-2024",
+    "Transaction Date": "29-05-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240529153643",
+    "Withdrawal Amount (INR )": 3301.63,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 22123.45
+  },
+  {
+    "S No.": 1488,
+    "Value Date": "29-05-2024",
+    "Transaction Date": "29-05-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Tday UpStream credit/20240529165023",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 3150,
+    "Balance (INR )": 25273.45
+  },
+  {
+    "S No.": 1489,
+    "Value Date": "30-05-2024",
+    "Transaction Date": "30-05-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024100/20240530085356",
+    "Withdrawal Amount (INR )": 0.49,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 25272.96
+  },
+  {
+    "S No.": 1490,
+    "Value Date": "30-05-2024",
+    "Transaction Date": "30-05-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240530153820",
+    "Withdrawal Amount (INR )": 2833.87,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 22439.09
+  },
+  {
+    "S No.": 1491,
+    "Value Date": "31-05-2024",
+    "Transaction Date": "31-05-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024101/20240531073416",
+    "Withdrawal Amount (INR )": 9.14,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 22429.95
+  },
+  {
+    "S No.": 1492,
+    "Value Date": "31-05-2024",
+    "Transaction Date": "31-05-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240531161704",
+    "Withdrawal Amount (INR )": 898.78,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 21531.17
+  },
+  {
+    "S No.": 1493,
+    "Value Date": "31-05-2024",
+    "Transaction Date": "31-05-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Tday UpStream credit/20240531170529",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 149.5,
+    "Balance (INR )": 21680.67
+  },
+  {
+    "S No.": 1494,
+    "Value Date": "03-06-2024",
+    "Transaction Date": "03-06-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024102/20240603073311",
+    "Withdrawal Amount (INR )": 2.42,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 21678.25
+  },
+  {
+    "S No.": 1495,
+    "Value Date": "03-06-2024",
+    "Transaction Date": "03-06-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240603154724",
+    "Withdrawal Amount (INR )": 150.69,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 21527.56
+  },
+  {
+    "S No.": 1496,
+    "Value Date": "04-06-2024",
+    "Transaction Date": "04-06-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024103/20240604072618",
+    "Withdrawal Amount (INR )": 0.49,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 21527.07
+  },
+  {
+    "S No.": 1497,
+    "Value Date": "04-06-2024",
+    "Transaction Date": "04-06-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "MMT/IMPS/415611168430/Savings/MURALIDHAR/HDFC Bank",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 25000,
+    "Balance (INR )": 46527.07
+  },
+  {
+    "S No.": 1498,
+    "Value Date": "04-06-2024",
+    "Transaction Date": "04-06-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240604160744",
+    "Withdrawal Amount (INR )": 35396.6,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 11130.47
+  },
+  {
+    "S No.": 1499,
+    "Value Date": "04-06-2024",
+    "Transaction Date": "04-06-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Tday UpStream credit/20240604180221",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 5325,
+    "Balance (INR )": 16455.47
+  },
+  {
+    "S No.": 1500,
+    "Value Date": "05-06-2024",
+    "Transaction Date": "05-06-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024104/20240605085802",
+    "Withdrawal Amount (INR )": 102.02,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 16353.45
+  },
+  {
+    "S No.": 1501,
+    "Value Date": "05-06-2024",
+    "Transaction Date": "05-06-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240605154852",
+    "Withdrawal Amount (INR )": 9679.61,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 6673.84
+  },
+  {
+    "S No.": 1502,
+    "Value Date": "05-06-2024",
+    "Transaction Date": "05-06-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Tday UpStream credit/20240605165222",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 2125,
+    "Balance (INR )": 8798.84
+  },
+  {
+    "S No.": 1503,
+    "Value Date": "05-06-2024",
+    "Transaction Date": "05-06-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "MMT/IMPS/415721178573/Savings/MURALIDHAR/HDFC Bank",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 25000,
+    "Balance (INR )": 33798.84
+  },
+  {
+    "S No.": 1504,
+    "Value Date": "06-06-2024",
+    "Transaction Date": "06-06-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024105/20240606073342",
+    "Withdrawal Amount (INR )": 25.37,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 33773.47
+  },
+  {
+    "S No.": 1505,
+    "Value Date": "06-06-2024",
+    "Transaction Date": "06-06-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240606155120",
+    "Withdrawal Amount (INR )": 153.98,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 33619.49
+  },
+  {
+    "S No.": 1506,
+    "Value Date": "07-06-2024",
+    "Transaction Date": "07-06-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024106/20240607071032",
+    "Withdrawal Amount (INR )": 0.5,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 33618.99
+  },
+  {
+    "S No.": 1507,
+    "Value Date": "07-06-2024",
+    "Transaction Date": "07-06-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240607153940",
+    "Withdrawal Amount (INR )": 154.99,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 33464
+  },
+  {
+    "S No.": 1508,
+    "Value Date": "08-06-2024",
+    "Transaction Date": "08-06-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024107/20240608114740",
+    "Withdrawal Amount (INR )": 0.5,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 33463.5
+  },
+  {
+    "S No.": 1509,
+    "Value Date": "10-06-2024",
+    "Transaction Date": "10-06-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240610153329",
+    "Withdrawal Amount (INR )": 1270.48,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 32193.02
+  },
+  {
+    "S No.": 1510,
+    "Value Date": "10-06-2024",
+    "Transaction Date": "10-06-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Tday UpStream credit/20240610165057",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 807,
+    "Balance (INR )": 33000.02
+  },
+  {
+    "S No.": 1511,
+    "Value Date": "11-06-2024",
+    "Transaction Date": "11-06-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024108/20240611072238",
+    "Withdrawal Amount (INR )": 1.5,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 32998.52
+  },
+  {
+    "S No.": 1512,
+    "Value Date": "11-06-2024",
+    "Transaction Date": "11-06-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed",
+    "Withdrawal Amount (INR )": 3246.74,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 29751.78
+  },
+  {
+    "S No.": 1514,
+    "Value Date": "11-06-2024",
+    "Transaction Date": "11-06-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Tday UpStream credit/20240611165618",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 1542.5,
+    "Balance (INR )": 31294.28
+  },
+  {
+    "S No.": 1515,
+    "Value Date": "12-06-2024",
+    "Transaction Date": "12-06-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024109/20240612070415",
+    "Withdrawal Amount (INR )": 5.5,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 31288.78
+  },
+  {
+    "S No.": 1516,
+    "Value Date": "12-06-2024",
+    "Transaction Date": "12-06-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240612154312",
+    "Withdrawal Amount (INR )": 5681.25,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 25607.53
+  },
+  {
+    "S No.": 1517,
+    "Value Date": "12-06-2024",
+    "Transaction Date": "12-06-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Tday UpStream credit/20240612165352",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 5524.88,
+    "Balance (INR )": 31132.41
+  },
+  {
+    "S No.": 1518,
+    "Value Date": "13-06-2024",
+    "Transaction Date": "13-06-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024110/20240613064139",
+    "Withdrawal Amount (INR )": 0.5,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 31131.91
+  },
+  {
+    "S No.": 1519,
+    "Value Date": "13-06-2024",
+    "Transaction Date": "13-06-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240613154048",
+    "Withdrawal Amount (INR )": 1419.15,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 29712.76
+  },
+  {
+    "S No.": 1520,
+    "Value Date": "13-06-2024",
+    "Transaction Date": "13-06-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Tday UpStream credit/20240613165013",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 835,
+    "Balance (INR )": 30547.76
+  },
+  {
+    "S No.": 1521,
+    "Value Date": "14-06-2024",
+    "Transaction Date": "14-06-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024111/20240614071808",
+    "Withdrawal Amount (INR )": 1.88,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 30545.88
+  },
+  {
+    "S No.": 1522,
+    "Value Date": "14-06-2024",
+    "Transaction Date": "14-06-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240614154735",
+    "Withdrawal Amount (INR )": 579.56,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 29966.32
+  },
+  {
+    "S No.": 1523,
+    "Value Date": "14-06-2024",
+    "Transaction Date": "14-06-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Tday UpStream credit/20240614165911",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 420,
+    "Balance (INR )": 30386.32
+  },
+  {
+    "S No.": 1524,
+    "Value Date": "15-06-2024",
+    "Transaction Date": "15-06-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024112/20240615104142",
+    "Withdrawal Amount (INR )": 0.51,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 30385.81
+  },
+  {
+    "S No.": 1525,
+    "Value Date": "18-06-2024",
+    "Transaction Date": "18-06-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240618160331",
+    "Withdrawal Amount (INR )": 11528.3,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 18857.51
+  },
+  {
+    "S No.": 1526,
+    "Value Date": "19-06-2024",
+    "Transaction Date": "19-06-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024113/20240619070606",
+    "Withdrawal Amount (INR )": 39.92,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 18817.59
+  },
+  {
+    "S No.": 1527,
+    "Value Date": "19-06-2024",
+    "Transaction Date": "19-06-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240619155500",
+    "Withdrawal Amount (INR )": 581.35,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 18236.24
+  },
+  {
+    "S No.": 1528,
+    "Value Date": "20-06-2024",
+    "Transaction Date": "20-06-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024114/20240620071714",
+    "Withdrawal Amount (INR )": 1.88,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 18234.36
+  },
+  {
+    "S No.": 1529,
+    "Value Date": "20-06-2024",
+    "Transaction Date": "20-06-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "NEFT-AXISCN0655851114-NIPPON INDIA SMALL CAP FUND REDEMPT-/CUST/ NIPPON INDIA S",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 674.34,
+    "Balance (INR )": 18908.7
+  },
+  {
+    "S No.": 1530,
+    "Value Date": "20-06-2024",
+    "Transaction Date": "20-06-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240620154343",
+    "Withdrawal Amount (INR )": 10655.14,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 8253.56
+  },
+  {
+    "S No.": 1531,
+    "Value Date": "20-06-2024",
+    "Transaction Date": "20-06-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Tday UpStream credit/20240620170805",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 10072.44,
+    "Balance (INR )": 18326
+  },
+  {
+    "S No.": 1532,
+    "Value Date": "21-06-2024",
+    "Transaction Date": "21-06-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024115/20240621161401",
+    "Withdrawal Amount (INR )": 1.88,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 18324.12
+  },
+  {
+    "S No.": 1533,
+    "Value Date": "21-06-2024",
+    "Transaction Date": "21-06-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240621164953",
+    "Withdrawal Amount (INR )": 13174.26,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 5149.86
+  },
+  {
+    "S No.": 1534,
+    "Value Date": "21-06-2024",
+    "Transaction Date": "21-06-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Tday UpStream credit/20240621171844",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 7890,
+    "Balance (INR )": 13039.86
+  },
+  {
+    "S No.": 1535,
+    "Value Date": "22-06-2024",
+    "Transaction Date": "22-06-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024116/20240622071016",
+    "Withdrawal Amount (INR )": 18.05,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 13021.81
+  },
+  {
+    "S No.": 1536,
+    "Value Date": "24-06-2024",
+    "Transaction Date": "24-06-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240624155039",
+    "Withdrawal Amount (INR )": 5257.42,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 7764.39
+  },
+  {
+    "S No.": 1537,
+    "Value Date": "24-06-2024",
+    "Transaction Date": "24-06-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Tday UpStream credit/20240624165457",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 426.25,
+    "Balance (INR )": 8190.64
+  },
+  {
+    "S No.": 1538,
+    "Value Date": "25-06-2024",
+    "Transaction Date": "25-06-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024117/20240625070920",
+    "Withdrawal Amount (INR )": 16.59,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 8174.05
+  },
+  {
+    "S No.": 1539,
+    "Value Date": "25-06-2024",
+    "Transaction Date": "25-06-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240625154230",
+    "Withdrawal Amount (INR )": 1914.61,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 6259.44
+  },
+  {
+    "S No.": 1540,
+    "Value Date": "25-06-2024",
+    "Transaction Date": "25-06-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Tday UpStream credit/20240625174009",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 855,
+    "Balance (INR )": 7114.44
+  },
+  {
+    "S No.": 1541,
+    "Value Date": "26-06-2024",
+    "Transaction Date": "26-06-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024118/20240626071551",
+    "Withdrawal Amount (INR )": 3.42,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 7111.02
+  },
+  {
+    "S No.": 1542,
+    "Value Date": "26-06-2024",
+    "Transaction Date": "26-06-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240626163023",
+    "Withdrawal Amount (INR )": 1440.13,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 5670.89
+  },
+  {
+    "S No.": 1543,
+    "Value Date": "26-06-2024",
+    "Transaction Date": "26-06-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Tday UpStream credit/20240626165226",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 855,
+    "Balance (INR )": 6525.89
+  },
+  {
+    "S No.": 1544,
+    "Value Date": "27-06-2024",
+    "Transaction Date": "27-06-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024119/20240627070729",
+    "Withdrawal Amount (INR )": 1.89,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 6524
+  },
+  {
+    "S No.": 1545,
+    "Value Date": "27-06-2024",
+    "Transaction Date": "27-06-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "MMT/IMPS/417909132693/Savings/MURALIDHAR/HDFC Bank",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 25000,
+    "Balance (INR )": 31524
+  },
+  {
+    "S No.": 1546,
+    "Value Date": "27-06-2024",
+    "Transaction Date": "27-06-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240627161711",
+    "Withdrawal Amount (INR )": 8518.08,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 23005.92
+  },
+  {
+    "S No.": 1547,
+    "Value Date": "27-06-2024",
+    "Transaction Date": "27-06-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Tday UpStream credit/20240627165638",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 7929.5,
+    "Balance (INR )": 30935.42
+  },
+  {
+    "S No.": 1548,
+    "Value Date": "27-06-2024",
+    "Transaction Date": "27-06-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "MMT/IMPS/417917111706/savings/MURALIDHAR/HDFC Bank",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 20000,
+    "Balance (INR )": 50935.42
+  },
+  {
+    "S No.": 1549,
+    "Value Date": "28-06-2024",
+    "Transaction Date": "28-06-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024120/20240628071821",
+    "Withdrawal Amount (INR )": 1.9,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 50933.52
+  },
+  {
+    "S No.": 1550,
+    "Value Date": "28-06-2024",
+    "Transaction Date": "28-06-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "UPI/418071872435/NA/indmoney.stocks/ICICI Bank/PTM00b27bbc457342588fe48c459fa11",
+    "Withdrawal Amount (INR )": 1000,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 49933.52
+  },
+  {
+    "S No.": 1551,
+    "Value Date": "28-06-2024",
+    "Transaction Date": "28-06-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "UPI/RVSL418071872435/NA/indmoney.stocks/ICICI Bank/PTM00b27bbc457342588fe48c459",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 1000,
+    "Balance (INR )": 50933.52
+  },
+  {
+    "S No.": 1552,
+    "Value Date": "28-06-2024",
+    "Transaction Date": "28-06-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240628162227",
+    "Withdrawal Amount (INR )": 3536.08,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 47397.44
+  },
+  {
+    "S No.": 1553,
+    "Value Date": "28-06-2024",
+    "Transaction Date": "28-06-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Tday UpStream credit/20240628170506",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 2942.5,
+    "Balance (INR )": 50339.94
+  },
+  {
+    "S No.": 1554,
+    "Value Date": "28-06-2024",
+    "Transaction Date": "28-06-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "SMSChgsJan24-Mar24+GST",
+    "Withdrawal Amount (INR )": 1.76,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 50338.18
+  },
+  {
+    "S No.": 1555,
+    "Value Date": "29-06-2024",
+    "Transaction Date": "29-06-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024121/20240629124313",
+    "Withdrawal Amount (INR )": 1.92,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 50336.26
+  },
+  {
+    "S No.": 1556,
+    "Value Date": "30-06-2024",
+    "Transaction Date": "30-06-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "625401070212:Int.Pd:30-03-2024 to 29-06-2024",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 186,
+    "Balance (INR )": 50522.26
+  },
+  {
+    "S No.": 1557,
+    "Value Date": "01-07-2024",
+    "Transaction Date": "01-07-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240701162929",
+    "Withdrawal Amount (INR )": 20294.53,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 30227.73
+  },
+  {
+    "S No.": 1558,
+    "Value Date": "01-07-2024",
+    "Transaction Date": "01-07-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Tday UpStream credit/20240701174337",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 6450,
+    "Balance (INR )": 36677.73
+  },
+  {
+    "S No.": 1559,
+    "Value Date": "02-07-2024",
+    "Transaction Date": "02-07-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024122/20240702065200",
+    "Withdrawal Amount (INR )": 46.67,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 36631.06
+  },
+  {
+    "S No.": 1560,
+    "Value Date": "02-07-2024",
+    "Transaction Date": "02-07-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240702163551",
+    "Withdrawal Amount (INR )": 14587.05,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 22044.01
+  },
+  {
+    "S No.": 1561,
+    "Value Date": "02-07-2024",
+    "Transaction Date": "02-07-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Tday UpStream credit/20240702174120",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 6173,
+    "Balance (INR )": 28217.01
+  },
+  {
+    "S No.": 1562,
+    "Value Date": "03-07-2024",
+    "Transaction Date": "03-07-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024123/20240703065259",
+    "Withdrawal Amount (INR )": 28.15,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 28188.86
+  },
+  {
+    "S No.": 1563,
+    "Value Date": "03-07-2024",
+    "Transaction Date": "03-07-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240703163122",
+    "Withdrawal Amount (INR )": 3688.81,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 24500.05
+  },
+  {
+    "S No.": 1564,
+    "Value Date": "03-07-2024",
+    "Transaction Date": "03-07-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Tday UpStream credit/20240703173357",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 1475,
+    "Balance (INR )": 25975.05
+  },
+  {
+    "S No.": 1565,
+    "Value Date": "04-07-2024",
+    "Transaction Date": "04-07-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024124/20240704071056",
+    "Withdrawal Amount (INR )": 7.14,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 25967.91
+  },
+  {
+    "S No.": 1566,
+    "Value Date": "04-07-2024",
+    "Transaction Date": "04-07-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240704162200",
+    "Withdrawal Amount (INR )": 3349.44,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 22618.47
+  },
+  {
+    "S No.": 1567,
+    "Value Date": "04-07-2024",
+    "Transaction Date": "04-07-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Tday UpStream credit/20240704172518",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 1479,
+    "Balance (INR )": 24097.47
+  },
+  {
+    "S No.": 1568,
+    "Value Date": "05-07-2024",
+    "Transaction Date": "05-07-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024125/20240705070756",
+    "Withdrawal Amount (INR )": 6.04,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 24091.43
+  },
+  {
+    "S No.": 1569,
+    "Value Date": "05-07-2024",
+    "Transaction Date": "05-07-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240705161617",
+    "Withdrawal Amount (INR )": 1600.09,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 22491.34
+  },
+  {
+    "S No.": 1570,
+    "Value Date": "05-07-2024",
+    "Transaction Date": "05-07-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Tday UpStream credit/20240705174240",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 880,
+    "Balance (INR )": 23371.34
+  },
+  {
+    "S No.": 1571,
+    "Value Date": "06-07-2024",
+    "Transaction Date": "06-07-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "UPI/418823369053/Payment from Ph/sury00000507@su/S",
+    "Withdrawal Amount (INR )": 3000,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 20371.34
+  },
+  {
+    "S No.": 1572,
+    "Value Date": "06-07-2024",
+    "Transaction Date": "06-07-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024126/20240706095707",
+    "Withdrawal Amount (INR )": 2.32,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 20369.02
+  },
+  {
+    "S No.": 1573,
+    "Value Date": "06-07-2024",
+    "Transaction Date": "06-07-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "MMT/IMPS/418811206911/418823369053/Instantpay/IDFC",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 3000,
+    "Balance (INR )": 23369.02
+  },
+  {
+    "S No.": 1574,
+    "Value Date": "07-07-2024",
+    "Transaction Date": "07-07-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "UPI/418998134314/NA/gullakmoney@yes/Yes Bank Ltd/YJPcad80c3b8dd24e39a084b37d766",
+    "Withdrawal Amount (INR )": 976.9,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 22392.12
+  },
+  {
+    "S No.": 1575,
+    "Value Date": "08-07-2024",
+    "Transaction Date": "08-07-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240708162543",
+    "Withdrawal Amount (INR )": 721.86,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 21670.26
+  },
+  {
+    "S No.": 1576,
+    "Value Date": "09-07-2024",
+    "Transaction Date": "09-07-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024127/20240709072302",
+    "Withdrawal Amount (INR )": 2.33,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 21667.93
+  },
+  {
+    "S No.": 1577,
+    "Value Date": "09-07-2024",
+    "Transaction Date": "09-07-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240709160951",
+    "Withdrawal Amount (INR )": 724.85,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 20943.08
+  },
+  {
+    "S No.": 1578,
+    "Value Date": "10-07-2024",
+    "Transaction Date": "10-07-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024128/20240710071133",
+    "Withdrawal Amount (INR )": 2.34,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 20940.74
+  },
+  {
+    "S No.": 1579,
+    "Value Date": "10-07-2024",
+    "Transaction Date": "10-07-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240710161520",
+    "Withdrawal Amount (INR )": 2201.21,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 18739.53
+  },
+  {
+    "S No.": 1580,
+    "Value Date": "10-07-2024",
+    "Transaction Date": "10-07-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Tday UpStream credit/20240710174905",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 880,
+    "Balance (INR )": 19619.53
+  },
+  {
+    "S No.": 1581,
+    "Value Date": "11-07-2024",
+    "Transaction Date": "11-07-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024129/20240711072112",
+    "Withdrawal Amount (INR )": 4.26,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 19615.27
+  },
+  {
+    "S No.": 1582,
+    "Value Date": "11-07-2024",
+    "Transaction Date": "11-07-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240711160447",
+    "Withdrawal Amount (INR )": 2214.32,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 17400.95
+  },
+  {
+    "S No.": 1583,
+    "Value Date": "12-07-2024",
+    "Transaction Date": "12-07-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024130/20240712070219",
+    "Withdrawal Amount (INR )": 7.18,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 17393.77
+  },
+  {
+    "S No.": 1584,
+    "Value Date": "12-07-2024",
+    "Transaction Date": "12-07-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240712161720",
+    "Withdrawal Amount (INR )": 3565.02,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 13828.75
+  },
+  {
+    "S No.": 1585,
+    "Value Date": "13-07-2024",
+    "Transaction Date": "13-07-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024131/20240713182154",
+    "Withdrawal Amount (INR )": 12.5,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 13816.25
+  },
+  {
+    "S No.": 1586,
+    "Value Date": "15-07-2024",
+    "Transaction Date": "15-07-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240715160855",
+    "Withdrawal Amount (INR )": 728.88,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 13087.37
+  },
+  {
+    "S No.": 1587,
+    "Value Date": "16-07-2024",
+    "Transaction Date": "16-07-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024132/20240716072546",
+    "Withdrawal Amount (INR )": 2.35,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 13085.02
+  },
+  {
+    "S No.": 1588,
+    "Value Date": "16-07-2024",
+    "Transaction Date": "16-07-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240716161047",
+    "Withdrawal Amount (INR )": 8859.9,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 4225.12
+  },
+  {
+    "S No.": 1589,
+    "Value Date": "16-07-2024",
+    "Transaction Date": "16-07-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Tday UpStream credit/20240716171448",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 885,
+    "Balance (INR )": 5110.12
+  },
+  {
+    "S No.": 1590,
+    "Value Date": "17-07-2024",
+    "Transaction Date": "17-07-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024133/20240717161612",
+    "Withdrawal Amount (INR )": 26.73,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 5083.39
+  },
+  {
+    "S No.": 1591,
+    "Value Date": "18-07-2024",
+    "Transaction Date": "18-07-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240718161825",
+    "Withdrawal Amount (INR )": 4008.16,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 1075.23
+  },
+  {
+    "S No.": 1592,
+    "Value Date": "19-07-2024",
+    "Transaction Date": "19-07-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024134/20240719071641",
+    "Withdrawal Amount (INR )": 13.93,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 1061.3
+  },
+  {
+    "S No.": 1593,
+    "Value Date": "19-07-2024",
+    "Transaction Date": "19-07-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "MMT/IMPS/420108184446/savings/MURALIDHAR/HDFC Bank",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 6000,
+    "Balance (INR )": 7061.3
+  },
+  {
+    "S No.": 1594,
+    "Value Date": "19-07-2024",
+    "Transaction Date": "19-07-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "Premium for PMJJBY FY25",
+    "Withdrawal Amount (INR )": 395,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 6666.3
+  },
+  {
+    "S No.": 1595,
+    "Value Date": "19-07-2024",
+    "Transaction Date": "19-07-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "Admin Charges for PMJJBY FY25",
+    "Withdrawal Amount (INR )": 9.32,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 6656.98
+  },
+  {
+    "S No.": 1596,
+    "Value Date": "19-07-2024",
+    "Transaction Date": "19-07-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "SGST202407195355994382",
+    "Withdrawal Amount (INR )": 0.83,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 6656.15
+  },
+  {
+    "S No.": 1597,
+    "Value Date": "19-07-2024",
+    "Transaction Date": "19-07-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "CGST202407195355994385",
+    "Withdrawal Amount (INR )": 0.83,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 6655.32
+  },
+  {
+    "S No.": 1598,
+    "Value Date": "19-07-2024",
+    "Transaction Date": "19-07-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240719161148",
+    "Withdrawal Amount (INR )": 4594.15,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 2061.17
+  },
+  {
+    "S No.": 1599,
+    "Value Date": "20-07-2024",
+    "Transaction Date": "20-07-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024135/20240720071509",
+    "Withdrawal Amount (INR )": 15.82,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 2045.35
+  },
+  {
+    "S No.": 1600,
+    "Value Date": "22-07-2024",
+    "Transaction Date": "22-07-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240722161159",
+    "Withdrawal Amount (INR )": 720.24,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 1325.11
+  },
+  {
+    "S No.": 1601,
+    "Value Date": "23-07-2024",
+    "Transaction Date": "23-07-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024136/20240723072122",
+    "Withdrawal Amount (INR )": 2.32,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 1322.79
+  },
+  {
+    "S No.": 1602,
+    "Value Date": "23-07-2024",
+    "Transaction Date": "23-07-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240723170205",
+    "Withdrawal Amount (INR )": 720.6,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 602.19
+  },
+  {
+    "S No.": 1603,
+    "Value Date": "23-07-2024",
+    "Transaction Date": "23-07-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Tday UpStream credit/20240723180546",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 0.06,
+    "Balance (INR )": 602.25
+  },
+  {
+    "S No.": 1604,
+    "Value Date": "23-07-2024",
+    "Transaction Date": "23-07-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "MMT/IMPS/420519131305/savings/MURALIDHAR/HDFC Bank",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 4500,
+    "Balance (INR )": 5102.25
+  },
+  {
+    "S No.": 1605,
+    "Value Date": "24-07-2024",
+    "Transaction Date": "24-07-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024137/20240724072155",
+    "Withdrawal Amount (INR )": 0.06,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 5102.19
+  },
+  {
+    "S No.": 1606,
+    "Value Date": "24-07-2024",
+    "Transaction Date": "24-07-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024137/20240724072155",
+    "Withdrawal Amount (INR )": 2.26,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 5099.93
+  },
+  {
+    "S No.": 1607,
+    "Value Date": "24-07-2024",
+    "Transaction Date": "24-07-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240724160220",
+    "Withdrawal Amount (INR )": 1201.4,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 3898.53
+  },
+  {
+    "S No.": 1608,
+    "Value Date": "25-07-2024",
+    "Transaction Date": "25-07-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024138/20240725073241",
+    "Withdrawal Amount (INR )": 3.88,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 3894.65
+  },
+  {
+    "S No.": 1609,
+    "Value Date": "25-07-2024",
+    "Transaction Date": "25-07-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240725160455",
+    "Withdrawal Amount (INR )": 2268.85,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 1625.8
+  },
+  {
+    "S No.": 1610,
+    "Value Date": "25-07-2024",
+    "Transaction Date": "25-07-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Tday UpStream credit/20240725170847",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 775,
+    "Balance (INR )": 2400.8
+  },
+  {
+    "S No.": 1611,
+    "Value Date": "26-07-2024",
+    "Transaction Date": "26-07-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024139/20240726070710",
+    "Withdrawal Amount (INR )": 4.82,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 2395.98
+  },
+  {
+    "S No.": 1612,
+    "Value Date": "26-07-2024",
+    "Transaction Date": "26-07-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "DCardfee6854JUL24-JUN25+GST",
+    "Withdrawal Amount (INR )": 824.82,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 1571.16
+  },
+  {
+    "S No.": 1613,
+    "Value Date": "26-07-2024",
+    "Transaction Date": "26-07-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240726161210",
+    "Withdrawal Amount (INR )": 718.14,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 853.02
+  },
+  {
+    "S No.": 1614,
+    "Value Date": "27-07-2024",
+    "Transaction Date": "27-07-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024140/20240727112549",
+    "Withdrawal Amount (INR )": 2.32,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 850.7
+  },
+  {
+    "S No.": 1615,
+    "Value Date": "29-07-2024",
+    "Transaction Date": "29-07-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240729161823",
+    "Withdrawal Amount (INR )": 727.27,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 123.43
+  },
+  {
+    "S No.": 1616,
+    "Value Date": "29-07-2024",
+    "Transaction Date": "29-07-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Tday UpStream credit/20240729172029",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 0.08,
+    "Balance (INR )": 123.51
+  },
+  {
+    "S No.": 1617,
+    "Value Date": "29-07-2024",
+    "Transaction Date": "29-07-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "MMT/IMPS/421121140766/savings/MURALIDHAR/HDFC Bank",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 2000,
+    "Balance (INR )": 2123.51
+  },
+  {
+    "S No.": 1618,
+    "Value Date": "30-07-2024",
+    "Transaction Date": "30-07-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024141/20240730073155",
+    "Withdrawal Amount (INR )": 0.08,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 2123.43
+  },
+  {
+    "S No.": 1619,
+    "Value Date": "30-07-2024",
+    "Transaction Date": "30-07-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024141/20240730073155",
+    "Withdrawal Amount (INR )": 2.27,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 2121.16
+  },
+  {
+    "S No.": 1620,
+    "Value Date": "30-07-2024",
+    "Transaction Date": "30-07-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/STT Charges/20240730075949",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 3,
+    "Balance (INR )": 2124.16
+  },
+  {
+    "S No.": 1621,
+    "Value Date": "30-07-2024",
+    "Transaction Date": "30-07-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240730160501",
+    "Withdrawal Amount (INR )": 726.75,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 1397.41
+  },
+  {
+    "S No.": 1622,
+    "Value Date": "31-07-2024",
+    "Transaction Date": "31-07-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024142/20240731070925",
+    "Withdrawal Amount (INR )": 2.41,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 1395
+  },
+  {
+    "S No.": 1623,
+    "Value Date": "31-07-2024",
+    "Transaction Date": "31-07-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240731160409",
+    "Withdrawal Amount (INR )": 726.52,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 668.48
+  },
+  {
+    "S No.": 1624,
+    "Value Date": "01-08-2024",
+    "Transaction Date": "01-08-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024143/20240801071939",
+    "Withdrawal Amount (INR )": 2.4,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 666.08
+  },
+  {
+    "S No.": 1625,
+    "Value Date": "01-08-2024",
+    "Transaction Date": "01-08-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240801161123",
+    "Withdrawal Amount (INR )": 549.07,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 117.01
+  },
+  {
+    "S No.": 1626,
+    "Value Date": "01-08-2024",
+    "Transaction Date": "01-08-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "MMT/IMPS/421420198399/Savings/MURALIDHAR/HDFC Bank",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 10000,
+    "Balance (INR )": 10117.01
+  },
+  {
+    "S No.": 1627,
+    "Value Date": "02-08-2024",
+    "Transaction Date": "02-08-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024144/20240802075203",
+    "Withdrawal Amount (INR )": 1.8,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 10115.21
+  },
+  {
+    "S No.": 1628,
+    "Value Date": "02-08-2024",
+    "Transaction Date": "02-08-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240802161601",
+    "Withdrawal Amount (INR )": 5316.74,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 4798.47
+  },
+  {
+    "S No.": 1629,
+    "Value Date": "02-08-2024",
+    "Transaction Date": "02-08-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Tday UpStream",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 765,
+    "Balance (INR )": 5563.47
+  },
+  {
+    "S No.": 1631,
+    "Value Date": "03-08-2024",
+    "Transaction Date": "03-08-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024145/20240803162832",
+    "Withdrawal Amount (INR )": 15.69,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 5547.78
+  },
+  {
+    "S No.": 1632,
+    "Value Date": "04-08-2024",
+    "Transaction Date": "04-08-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "MMT/IMPS/421720163151/Savings/MURALIDHAR/HDFC Bank",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 10000,
+    "Balance (INR )": 15547.78
+  },
+  {
+    "S No.": 1633,
+    "Value Date": "05-08-2024",
+    "Transaction Date": "05-08-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240805161336",
+    "Withdrawal Amount (INR )": 8293.42,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 7254.36
+  },
+  {
+    "S No.": 1634,
+    "Value Date": "05-08-2024",
+    "Transaction Date": "05-08-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Tday UpStream credit/20240805173229",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 710,
+    "Balance (INR )": 7964.36
+  },
+  {
+    "S No.": 1635,
+    "Value Date": "06-08-2024",
+    "Transaction Date": "06-08-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024146/20240806082054",
+    "Withdrawal Amount (INR )": 25.47,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 7938.89
+  },
+  {
+    "S No.": 1636,
+    "Value Date": "06-08-2024",
+    "Transaction Date": "06-08-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240806162807",
+    "Withdrawal Amount (INR )": 2022.01,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 5916.88
+  },
+  {
+    "S No.": 1637,
+    "Value Date": "06-08-2024",
+    "Transaction Date": "06-08-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "MMT/IMPS/421920131584/saving/MURALIDHAR/HDFC Bank",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 7500,
+    "Balance (INR )": 13416.88
+  },
+  {
+    "S No.": 1638,
+    "Value Date": "07-08-2024",
+    "Transaction Date": "07-08-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024147/20240807073307",
+    "Withdrawal Amount (INR )": 6.52,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 13410.36
+  },
+  {
+    "S No.": 1639,
+    "Value Date": "07-08-2024",
+    "Transaction Date": "07-08-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240807160857",
+    "Withdrawal Amount (INR )": 701.77,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 12708.59
+  },
+  {
+    "S No.": 1640,
+    "Value Date": "08-08-2024",
+    "Transaction Date": "08-08-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024148/20240808071747",
+    "Withdrawal Amount (INR )": 2.26,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 12706.33
+  },
+  {
+    "S No.": 1641,
+    "Value Date": "08-08-2024",
+    "Transaction Date": "08-08-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240808163729",
+    "Withdrawal Amount (INR )": 701.14,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 12005.19
+  },
+  {
+    "S No.": 1642,
+    "Value Date": "09-08-2024",
+    "Transaction Date": "09-08-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024149/20240809065642",
+    "Withdrawal Amount (INR )": 2.26,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 12002.93
+  },
+  {
+    "S No.": 1643,
+    "Value Date": "09-08-2024",
+    "Transaction Date": "09-08-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240809161006",
+    "Withdrawal Amount (INR )": 708.04,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 11294.89
+  },
+  {
+    "S No.": 1644,
+    "Value Date": "12-08-2024",
+    "Transaction Date": "12-08-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024150/20240812071530",
+    "Withdrawal Amount (INR )": 2.28,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 11292.61
+  },
+  {
+    "S No.": 1645,
+    "Value Date": "12-08-2024",
+    "Transaction Date": "12-08-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240812162530",
+    "Withdrawal Amount (INR )": 274.12,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 11018.49
+  },
+  {
+    "S No.": 1646,
+    "Value Date": "12-08-2024",
+    "Transaction Date": "12-08-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Tday UpStream credit/20240812170433",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 0.01,
+    "Balance (INR )": 11018.5
+  },
+  {
+    "S No.": 1647,
+    "Value Date": "13-08-2024",
+    "Transaction Date": "13-08-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024151/20240813072419",
+    "Withdrawal Amount (INR )": 0.17,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 11018.33
+  },
+  {
+    "S No.": 1648,
+    "Value Date": "13-08-2024",
+    "Transaction Date": "13-08-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024151/20240813072419",
+    "Withdrawal Amount (INR )": 0.71,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 11017.62
+  },
+  {
+    "S No.": 1649,
+    "Value Date": "13-08-2024",
+    "Transaction Date": "13-08-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240813161525",
+    "Withdrawal Amount (INR )": 275.42,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 10742.2
+  },
+  {
+    "S No.": 1650,
+    "Value Date": "14-08-2024",
+    "Transaction Date": "14-08-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024152/20240814072156",
+    "Withdrawal Amount (INR )": 0.89,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 10741.31
+  },
+  {
+    "S No.": 1651,
+    "Value Date": "14-08-2024",
+    "Transaction Date": "14-08-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240814160241",
+    "Withdrawal Amount (INR )": 452.16,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 10289.15
+  },
+  {
+    "S No.": 1652,
+    "Value Date": "16-08-2024",
+    "Transaction Date": "16-08-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024153/20240816073028",
+    "Withdrawal Amount (INR )": 1.46,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 10287.69
+  },
+  {
+    "S No.": 1653,
+    "Value Date": "16-08-2024",
+    "Transaction Date": "16-08-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240816162943",
+    "Withdrawal Amount (INR )": 459.45,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 9828.24
+  },
+  {
+    "S No.": 1654,
+    "Value Date": "19-08-2024",
+    "Transaction Date": "19-08-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024154/20240819071302",
+    "Withdrawal Amount (INR )": 1.48,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 9826.76
+  },
+  {
+    "S No.": 1655,
+    "Value Date": "19-08-2024",
+    "Transaction Date": "19-08-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240819161903",
+    "Withdrawal Amount (INR )": 461.74,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 9365.02
+  },
+  {
+    "S No.": 1656,
+    "Value Date": "20-08-2024",
+    "Transaction Date": "20-08-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024155/20240820073735",
+    "Withdrawal Amount (INR )": 1.99,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 9363.03
+  },
+  {
+    "S No.": 1657,
+    "Value Date": "20-08-2024",
+    "Transaction Date": "20-08-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240820162500",
+    "Withdrawal Amount (INR )": 465.31,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 8897.72
+  },
+  {
+    "S No.": 1658,
+    "Value Date": "21-08-2024",
+    "Transaction Date": "21-08-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024156/20240821071211",
+    "Withdrawal Amount (INR )": 1.5,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 8896.22
+  },
+  {
+    "S No.": 1659,
+    "Value Date": "21-08-2024",
+    "Transaction Date": "21-08-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "ACH/BHARTI AIRTEL LTD/9227103",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 8,
+    "Balance (INR )": 8904.22
+  },
+  {
+    "S No.": 1660,
+    "Value Date": "21-08-2024",
+    "Transaction Date": "21-08-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240821161232",
+    "Withdrawal Amount (INR )": 466.01,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 8438.21
+  },
+  {
+    "S No.": 1661,
+    "Value Date": "22-08-2024",
+    "Transaction Date": "22-08-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024157/20240822071939",
+    "Withdrawal Amount (INR )": 0.01,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 8438.2
+  },
+  {
+    "S No.": 1662,
+    "Value Date": "22-08-2024",
+    "Transaction Date": "22-08-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024157/20240822071939",
+    "Withdrawal Amount (INR )": 1.49,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 8436.71
+  },
+  {
+    "S No.": 1663,
+    "Value Date": "22-08-2024",
+    "Transaction Date": "22-08-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240822170059",
+    "Withdrawal Amount (INR )": 467.15,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 7969.56
+  },
+  {
+    "S No.": 1664,
+    "Value Date": "23-08-2024",
+    "Transaction Date": "23-08-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024158/20240823072755",
+    "Withdrawal Amount (INR )": 1.51,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 7968.05
+  },
+  {
+    "S No.": 1665,
+    "Value Date": "23-08-2024",
+    "Transaction Date": "23-08-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240823162837",
+    "Withdrawal Amount (INR )": 466.61,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 7501.44
+  },
+  {
+    "S No.": 1666,
+    "Value Date": "26-08-2024",
+    "Transaction Date": "26-08-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024159/20240826072622",
+    "Withdrawal Amount (INR )": 1.51,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 7499.93
+  },
+  {
+    "S No.": 1667,
+    "Value Date": "26-08-2024",
+    "Transaction Date": "26-08-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240826164413",
+    "Withdrawal Amount (INR )": 468.92,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 7031.01
+  },
+  {
+    "S No.": 1668,
+    "Value Date": "27-08-2024",
+    "Transaction Date": "27-08-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024160/20240827071700",
+    "Withdrawal Amount (INR )": 1.51,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 7029.5
+  },
+  {
+    "S No.": 1669,
+    "Value Date": "27-08-2024",
+    "Transaction Date": "27-08-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240827161714",
+    "Withdrawal Amount (INR )": 468.86,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 6560.64
+  },
+  {
+    "S No.": 1670,
+    "Value Date": "28-08-2024",
+    "Transaction Date": "28-08-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024161/20240828074134",
+    "Withdrawal Amount (INR )": 0.01,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 6560.63
+  },
+  {
+    "S No.": 1671,
+    "Value Date": "28-08-2024",
+    "Transaction Date": "28-08-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024161/20240828074134",
+    "Withdrawal Amount (INR )": 1.5,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 6559.13
+  },
+  {
+    "S No.": 1672,
+    "Value Date": "28-08-2024",
+    "Transaction Date": "28-08-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240828161545",
+    "Withdrawal Amount (INR )": 469.29,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 6089.84
+  },
+  {
+    "S No.": 1673,
+    "Value Date": "28-08-2024",
+    "Transaction Date": "28-08-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "UPI/sikkajicollecti/PaymenttoSIKKAJ/ICICI Bank LTD /460786533180/PTMa0679d7bbf5",
+    "Withdrawal Amount (INR )": 2860,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 3229.84
+  },
+  {
+    "S No.": 1674,
+    "Value Date": "29-08-2024",
+    "Transaction Date": "29-08-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024162/20240829074442",
+    "Withdrawal Amount (INR )": 1.51,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 3228.33
+  },
+  {
+    "S No.": 1675,
+    "Value Date": "29-08-2024",
+    "Transaction Date": "29-08-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240829162030",
+    "Withdrawal Amount (INR )": 466.85,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 2761.48
+  },
+  {
+    "S No.": 1676,
+    "Value Date": "29-08-2024",
+    "Transaction Date": "29-08-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Tday UpStream credit/20240829173350",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 0.02,
+    "Balance (INR )": 2761.5
+  },
+  {
+    "S No.": 1677,
+    "Value Date": "30-08-2024",
+    "Transaction Date": "30-08-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024163/20240830074216",
+    "Withdrawal Amount (INR )": 0.02,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 2761.48
+  },
+  {
+    "S No.": 1678,
+    "Value Date": "30-08-2024",
+    "Transaction Date": "30-08-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024163/20240830074217",
+    "Withdrawal Amount (INR )": 1.49,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 2759.99
+  },
+  {
+    "S No.": 1679,
+    "Value Date": "30-08-2024",
+    "Transaction Date": "30-08-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240830160613",
+    "Withdrawal Amount (INR )": 469.24,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 2290.75
+  },
+  {
+    "S No.": 1680,
+    "Value Date": "31-08-2024",
+    "Transaction Date": "31-08-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "UPI/sikkajicollecti/PaymenttoSIKKAJ/ICICI Bank LTD /460786533180/PTMa0679d7bbf5",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 2860,
+    "Balance (INR )": 5150.75
+  },
+  {
+    "S No.": 1681,
+    "Value Date": "31-08-2024",
+    "Transaction Date": "31-08-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "MMT/IMPS/424422126343/savings/MURALIDHAR/HDFC Bank",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 10000,
+    "Balance (INR )": 15150.75
+  },
+  {
+    "S No.": 1682,
+    "Value Date": "02-09-2024",
+    "Transaction Date": "02-09-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024164/20240902074503",
+    "Withdrawal Amount (INR )": 1.52,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 15149.23
+  },
+  {
+    "S No.": 1683,
+    "Value Date": "02-09-2024",
+    "Transaction Date": "02-09-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240902162244",
+    "Withdrawal Amount (INR )": 160.09,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 14989.14
+  },
+  {
+    "S No.": 1684,
+    "Value Date": "03-09-2024",
+    "Transaction Date": "03-09-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024165/20240903080758",
+    "Withdrawal Amount (INR )": 0.52,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 14988.62
+  },
+  {
+    "S No.": 1685,
+    "Value Date": "03-09-2024",
+    "Transaction Date": "03-09-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240903161149",
+    "Withdrawal Amount (INR )": 159.83,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 14828.79
+  },
+  {
+    "S No.": 1686,
+    "Value Date": "03-09-2024",
+    "Transaction Date": "03-09-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "ACH/UNO MINDA LIMITED/00000000000000153206",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 116.1,
+    "Balance (INR )": 14944.89
+  },
+  {
+    "S No.": 1687,
+    "Value Date": "04-09-2024",
+    "Transaction Date": "04-09-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024166/20240904074606",
+    "Withdrawal Amount (INR )": 0.52,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 14944.37
+  },
+  {
+    "S No.": 1688,
+    "Value Date": "04-09-2024",
+    "Transaction Date": "04-09-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240904162016",
+    "Withdrawal Amount (INR )": 155.59,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 14788.78
+  },
+  {
+    "S No.": 1689,
+    "Value Date": "05-09-2024",
+    "Transaction Date": "05-09-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024167/20240905073959",
+    "Withdrawal Amount (INR )": 0.52,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 14788.26
+  },
+  {
+    "S No.": 1690,
+    "Value Date": "05-09-2024",
+    "Transaction Date": "05-09-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "SMSChgsApr24-Jun24+GST",
+    "Withdrawal Amount (INR )": 5.66,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 14782.6
+  },
+  {
+    "S No.": 1691,
+    "Value Date": "05-09-2024",
+    "Transaction Date": "05-09-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240905162650",
+    "Withdrawal Amount (INR )": 156.29,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 14626.31
+  },
+  {
+    "S No.": 1692,
+    "Value Date": "06-09-2024",
+    "Transaction Date": "06-09-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024168/20240906073501",
+    "Withdrawal Amount (INR )": 0.5,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 14625.81
+  },
+  {
+    "S No.": 1693,
+    "Value Date": "06-09-2024",
+    "Transaction Date": "06-09-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240906160415",
+    "Withdrawal Amount (INR )": 155.74,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 14470.07
+  },
+  {
+    "S No.": 1694,
+    "Value Date": "09-09-2024",
+    "Transaction Date": "09-09-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024169/20240909073821",
+    "Withdrawal Amount (INR )": 0.5,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 14469.57
+  },
+  {
+    "S No.": 1695,
+    "Value Date": "09-09-2024",
+    "Transaction Date": "09-09-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240909162857",
+    "Withdrawal Amount (INR )": 153.01,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 14316.56
+  },
+  {
+    "S No.": 1696,
+    "Value Date": "10-09-2024",
+    "Transaction Date": "10-09-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024170/20240910072847",
+    "Withdrawal Amount (INR )": 0.66,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 14315.9
+  },
+  {
+    "S No.": 1697,
+    "Value Date": "10-09-2024",
+    "Transaction Date": "10-09-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240910160327",
+    "Withdrawal Amount (INR )": 153.83,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 14162.07
+  },
+  {
+    "S No.": 1698,
+    "Value Date": "11-09-2024",
+    "Transaction Date": "11-09-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024171/20240911072210",
+    "Withdrawal Amount (INR )": 0.5,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 14161.57
+  },
+  {
+    "S No.": 1699,
+    "Value Date": "11-09-2024",
+    "Transaction Date": "11-09-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240911160742",
+    "Withdrawal Amount (INR )": 154.19,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 14007.38
+  },
+  {
+    "S No.": 1700,
+    "Value Date": "12-09-2024",
+    "Transaction Date": "12-09-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024172/20240912072203",
+    "Withdrawal Amount (INR )": 0.5,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 14006.88
+  },
+  {
+    "S No.": 1701,
+    "Value Date": "12-09-2024",
+    "Transaction Date": "12-09-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240912161158",
+    "Withdrawal Amount (INR )": 157.92,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 13848.96
+  },
+  {
+    "S No.": 1702,
+    "Value Date": "13-09-2024",
+    "Transaction Date": "13-09-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024173/20240913071917",
+    "Withdrawal Amount (INR )": 0.51,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 13848.45
+  },
+  {
+    "S No.": 1703,
+    "Value Date": "13-09-2024",
+    "Transaction Date": "13-09-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240913161633",
+    "Withdrawal Amount (INR )": 158.68,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 13689.77
+  },
+  {
+    "S No.": 1704,
+    "Value Date": "16-09-2024",
+    "Transaction Date": "16-09-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024174/20240916065724",
+    "Withdrawal Amount (INR )": 0.54,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 13689.23
+  },
+  {
+    "S No.": 1705,
+    "Value Date": "16-09-2024",
+    "Transaction Date": "16-09-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240916161300",
+    "Withdrawal Amount (INR )": 158.79,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 13530.44
+  },
+  {
+    "S No.": 1706,
+    "Value Date": "17-09-2024",
+    "Transaction Date": "17-09-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024175/20240917073052",
+    "Withdrawal Amount (INR )": 0.51,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 13529.93
+  },
+  {
+    "S No.": 1707,
+    "Value Date": "17-09-2024",
+    "Transaction Date": "17-09-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240917164743",
+    "Withdrawal Amount (INR )": 158.26,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 13371.67
+  },
+  {
+    "S No.": 1708,
+    "Value Date": "18-09-2024",
+    "Transaction Date": "18-09-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M",
+    "Withdrawal Amount (INR )": 0.51,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 13371.16
+  },
+  {
+    "S No.": 1710,
+    "Value Date": "18-09-2024",
+    "Transaction Date": "18-09-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240918161725",
+    "Withdrawal Amount (INR )": 158.2,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 13212.96
+  },
+  {
+    "S No.": 1711,
+    "Value Date": "18-09-2024",
+    "Transaction Date": "18-09-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Tday UpStream credit/20240918174339",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 0.05,
+    "Balance (INR )": 13213.01
+  },
+  {
+    "S No.": 1712,
+    "Value Date": "19-09-2024",
+    "Transaction Date": "19-09-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024177/20240919072824",
+    "Withdrawal Amount (INR )": 0.05,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 13212.96
+  },
+  {
+    "S No.": 1713,
+    "Value Date": "19-09-2024",
+    "Transaction Date": "19-09-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024177/20240919072824",
+    "Withdrawal Amount (INR )": 0.46,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 13212.5
+  },
+  {
+    "S No.": 1714,
+    "Value Date": "19-09-2024",
+    "Transaction Date": "19-09-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240919161601",
+    "Withdrawal Amount (INR )": 159.39,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 13053.11
+  },
+  {
+    "S No.": 1715,
+    "Value Date": "20-09-2024",
+    "Transaction Date": "20-09-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024178/20240920075710",
+    "Withdrawal Amount (INR )": 0.51,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 13052.6
+  },
+  {
+    "S No.": 1716,
+    "Value Date": "20-09-2024",
+    "Transaction Date": "20-09-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240920163011",
+    "Withdrawal Amount (INR )": 161.06,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 12891.54
+  },
+  {
+    "S No.": 1717,
+    "Value Date": "23-09-2024",
+    "Transaction Date": "23-09-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024179/20240923085230",
+    "Withdrawal Amount (INR )": 0.52,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 12891.02
+  },
+  {
+    "S No.": 1718,
+    "Value Date": "23-09-2024",
+    "Transaction Date": "23-09-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240923164204",
+    "Withdrawal Amount (INR )": 161.3,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 12729.72
+  },
+  {
+    "S No.": 1719,
+    "Value Date": "24-09-2024",
+    "Transaction Date": "24-09-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024180/20240924090512",
+    "Withdrawal Amount (INR )": 0.52,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 12729.2
+  },
+  {
+    "S No.": 1720,
+    "Value Date": "24-09-2024",
+    "Transaction Date": "24-09-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240924162158",
+    "Withdrawal Amount (INR )": 161.41,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 12567.79
+  },
+  {
+    "S No.": 1721,
+    "Value Date": "24-09-2024",
+    "Transaction Date": "24-09-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Tday UpStream credit/20240924174519",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 161.41,
+    "Balance (INR )": 12729.2
+  },
+  {
+    "S No.": 1722,
+    "Value Date": "25-09-2024",
+    "Transaction Date": "25-09-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024181/20240925125825",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 49277.83,
+    "Balance (INR )": 62007.03
+  },
+  {
+    "S No.": 1723,
+    "Value Date": "25-09-2024",
+    "Transaction Date": "25-09-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "MMT/IMPS/426914808864/Savings/MURALIDHAR/HDFC00001",
+    "Withdrawal Amount (INR )": 41839.7,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 20167.33
+  },
+  {
+    "S No.": 1724,
+    "Value Date": "25-09-2024",
+    "Transaction Date": "25-09-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240925161207",
+    "Withdrawal Amount (INR )": 184.87,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 19982.46
+  },
+  {
+    "S No.": 1725,
+    "Value Date": "25-09-2024",
+    "Transaction Date": "25-09-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Depository Chgs_2509/20240925163343",
+    "Withdrawal Amount (INR )": 23.6,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 19958.86
+  },
+  {
+    "S No.": 1726,
+    "Value Date": "25-09-2024",
+    "Transaction Date": "25-09-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Tday UpStream credit/20240925174000",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 23.6,
+    "Balance (INR )": 19982.46
+  },
+  {
+    "S No.": 1727,
+    "Value Date": "26-09-2024",
+    "Transaction Date": "26-09-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024182/20240926090150",
+    "Withdrawal Amount (INR )": 0.52,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 19981.94
+  },
+  {
+    "S No.": 1728,
+    "Value Date": "26-09-2024",
+    "Transaction Date": "26-09-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240926164722",
+    "Withdrawal Amount (INR )": 164.45,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 19817.49
+  },
+  {
+    "S No.": 1729,
+    "Value Date": "26-09-2024",
+    "Transaction Date": "26-09-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Tday UpStream credit/20240926174335",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 0.01,
+    "Balance (INR )": 19817.5
+  },
+  {
+    "S No.": 1730,
+    "Value Date": "27-09-2024",
+    "Transaction Date": "27-09-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024183/20240927091326",
+    "Withdrawal Amount (INR )": 0.01,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 19817.49
+  },
+  {
+    "S No.": 1731,
+    "Value Date": "27-09-2024",
+    "Transaction Date": "27-09-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024183/20240927091326",
+    "Withdrawal Amount (INR )": 0.52,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 19816.97
+  },
+  {
+    "S No.": 1732,
+    "Value Date": "27-09-2024",
+    "Transaction Date": "27-09-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240927162659",
+    "Withdrawal Amount (INR )": 440.63,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 19376.34
+  },
+  {
+    "S No.": 1733,
+    "Value Date": "30-09-2024",
+    "Transaction Date": "30-09-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "625401070212:Int.Pd:30-06-2024 to 29-09-2024",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 92,
+    "Balance (INR )": 19468.34
+  },
+  {
+    "S No.": 1734,
+    "Value Date": "30-09-2024",
+    "Transaction Date": "30-09-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024184/20240930075259",
+    "Withdrawal Amount (INR )": 1.42,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 19466.92
+  },
+  {
+    "S No.": 1735,
+    "Value Date": "30-09-2024",
+    "Transaction Date": "30-09-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20240930162157",
+    "Withdrawal Amount (INR )": 436.75,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 19030.17
+  },
+  {
+    "S No.": 1736,
+    "Value Date": "01-10-2024",
+    "Transaction Date": "01-10-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024185/20241001072323",
+    "Withdrawal Amount (INR )": 1.41,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 19028.76
+  },
+  {
+    "S No.": 1737,
+    "Value Date": "01-10-2024",
+    "Transaction Date": "01-10-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20241001170414",
+    "Withdrawal Amount (INR )": 435.92,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 18592.84
+  },
+  {
+    "S No.": 1738,
+    "Value Date": "03-10-2024",
+    "Transaction Date": "03-10-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024186/20241003070744",
+    "Withdrawal Amount (INR )": 1.41,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 18591.43
+  },
+  {
+    "S No.": 1739,
+    "Value Date": "03-10-2024",
+    "Transaction Date": "03-10-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20241003161203",
+    "Withdrawal Amount (INR )": 431.1,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 18160.33
+  },
+  {
+    "S No.": 1740,
+    "Value Date": "04-10-2024",
+    "Transaction Date": "04-10-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024187/20241004135117",
+    "Withdrawal Amount (INR )": 1.39,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 18158.94
+  },
+  {
+    "S No.": 1741,
+    "Value Date": "04-10-2024",
+    "Transaction Date": "04-10-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20241004162249",
+    "Withdrawal Amount (INR )": 429.98,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 17728.96
+  },
+  {
+    "S No.": 1742,
+    "Value Date": "07-10-2024",
+    "Transaction Date": "07-10-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024188/20241007072123",
+    "Withdrawal Amount (INR )": 1.39,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 17727.57
+  },
+  {
+    "S No.": 1743,
+    "Value Date": "07-10-2024",
+    "Transaction Date": "07-10-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20241007161728",
+    "Withdrawal Amount (INR )": 426.96,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 17300.61
+  },
+  {
+    "S No.": 1744,
+    "Value Date": "07-10-2024",
+    "Transaction Date": "07-10-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "MMT/IMPS/428116114696/Savings/MURALIDHAR/HDFC Bank",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 40000,
+    "Balance (INR )": 57300.61
+  },
+  {
+    "S No.": 1745,
+    "Value Date": "08-10-2024",
+    "Transaction Date": "08-10-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024189/20241008075846",
+    "Withdrawal Amount (INR )": 1.38,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 57299.23
+  },
+  {
+    "S No.": 1746,
+    "Value Date": "08-10-2024",
+    "Transaction Date": "08-10-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20241008165641",
+    "Withdrawal Amount (INR )": 425.6,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 56873.63
+  },
+  {
+    "S No.": 1747,
+    "Value Date": "09-10-2024",
+    "Transaction Date": "09-10-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024190/20241009133150",
+    "Withdrawal Amount (INR )": 1.37,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 56872.26
+  },
+  {
+    "S No.": 1748,
+    "Value Date": "09-10-2024",
+    "Transaction Date": "09-10-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed",
+    "Withdrawal Amount (INR )": 430.32,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 56441.94
+  },
+  {
+    "S No.": 1750,
+    "Value Date": "10-10-2024",
+    "Transaction Date": "10-10-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024191/20241010124825",
+    "Withdrawal Amount (INR )": 1.39,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 56440.55
+  },
+  {
+    "S No.": 1751,
+    "Value Date": "10-10-2024",
+    "Transaction Date": "10-10-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20241010160253",
+    "Withdrawal Amount (INR )": 429.88,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 56010.67
+  },
+  {
+    "S No.": 1752,
+    "Value Date": "10-10-2024",
+    "Transaction Date": "10-10-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Tday UpStream credit/20241010173839",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 0.15,
+    "Balance (INR )": 56010.82
+  },
+  {
+    "S No.": 1753,
+    "Value Date": "11-10-2024",
+    "Transaction Date": "11-10-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024192/20241011132725",
+    "Withdrawal Amount (INR )": 1.39,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 56009.43
+  },
+  {
+    "S No.": 1754,
+    "Value Date": "11-10-2024",
+    "Transaction Date": "11-10-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20241011160419",
+    "Withdrawal Amount (INR )": 428.37,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 55581.06
+  },
+  {
+    "S No.": 1755,
+    "Value Date": "12-10-2024",
+    "Transaction Date": "12-10-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "UPI/gullakmoneyonli/Pay for merchan/Yes Bank Ltd/465200832683/PTMac130c9a79c041",
+    "Withdrawal Amount (INR )": 4635,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 50946.06
+  },
+  {
+    "S No.": 1756,
+    "Value Date": "12-10-2024",
+    "Transaction Date": "12-10-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "UPI/gullak.hyperpg@/Pay for merchan/Axis Bank Ltd/428638168695/AXBe07be53874384",
+    "Withdrawal Amount (INR )": 4243.04,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 46703.02
+  },
+  {
+    "S No.": 1757,
+    "Value Date": "14-10-2024",
+    "Transaction Date": "14-10-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024193/20241014080951",
+    "Withdrawal Amount (INR )": 1.38,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 46701.64
+  },
+  {
+    "S No.": 1758,
+    "Value Date": "14-10-2024",
+    "Transaction Date": "14-10-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20241014160110",
+    "Withdrawal Amount (INR )": 430.77,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 46270.87
+  },
+  {
+    "S No.": 1759,
+    "Value Date": "15-10-2024",
+    "Transaction Date": "15-10-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "UPI/cred.club@axisb/payment on CRED/Axis Bank Ltd/428974919267/ACD2614162994LBx",
+    "Withdrawal Amount (INR )": 6724.74,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 39546.13
+  },
+  {
+    "S No.": 1760,
+    "Value Date": "15-10-2024",
+    "Transaction Date": "15-10-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024194/20241015131716",
+    "Withdrawal Amount (INR )": 1.49,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 39544.64
+  },
+  {
+    "S No.": 1761,
+    "Value Date": "15-10-2024",
+    "Transaction Date": "15-10-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20241015161057",
+    "Withdrawal Amount (INR )": 431.49,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 39113.15
+  },
+  {
+    "S No.": 1762,
+    "Value Date": "16-10-2024",
+    "Transaction Date": "16-10-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024195/20241016131649",
+    "Withdrawal Amount (INR )": 1.39,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 39111.76
+  },
+  {
+    "S No.": 1763,
+    "Value Date": "16-10-2024",
+    "Transaction Date": "16-10-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20241016155732",
+    "Withdrawal Amount (INR )": 428.78,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 38682.98
+  },
+  {
+    "S No.": 1764,
+    "Value Date": "17-10-2024",
+    "Transaction Date": "17-10-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024196/20241017131509",
+    "Withdrawal Amount (INR )": 1.38,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 38681.6
+  },
+  {
+    "S No.": 1765,
+    "Value Date": "17-10-2024",
+    "Transaction Date": "17-10-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20241017160610",
+    "Withdrawal Amount (INR )": 426.63,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 38254.97
+  },
+  {
+    "S No.": 1766,
+    "Value Date": "18-10-2024",
+    "Transaction Date": "18-10-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024197/20241018132313",
+    "Withdrawal Amount (INR )": 1.38,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 38253.59
+  },
+  {
+    "S No.": 1767,
+    "Value Date": "18-10-2024",
+    "Transaction Date": "18-10-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20241018160038",
+    "Withdrawal Amount (INR )": 426.31,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 37827.28
+  },
+  {
+    "S No.": 1768,
+    "Value Date": "21-10-2024",
+    "Transaction Date": "21-10-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024198/20241021132208",
+    "Withdrawal Amount (INR )": 1.42,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 37825.86
+  },
+  {
+    "S No.": 1769,
+    "Value Date": "21-10-2024",
+    "Transaction Date": "21-10-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20241021160323",
+    "Withdrawal Amount (INR )": 426.97,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 37398.89
+  },
+  {
+    "S No.": 1770,
+    "Value Date": "22-10-2024",
+    "Transaction Date": "22-10-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024199/20241022133849",
+    "Withdrawal Amount (INR )": 1.38,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 37397.51
+  },
+  {
+    "S No.": 1771,
+    "Value Date": "22-10-2024",
+    "Transaction Date": "22-10-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20241022160709",
+    "Withdrawal Amount (INR )": 3667.39,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 33730.12
+  },
+  {
+    "S No.": 1772,
+    "Value Date": "23-10-2024",
+    "Transaction Date": "23-10-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024200/20241023132040",
+    "Withdrawal Amount (INR )": 12.82,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 33717.3
+  },
+  {
+    "S No.": 1773,
+    "Value Date": "23-10-2024",
+    "Transaction Date": "23-10-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20241023161224",
+    "Withdrawal Amount (INR )": 754.96,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 32962.34
+  },
+  {
+    "S No.": 1774,
+    "Value Date": "23-10-2024",
+    "Transaction Date": "23-10-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Tday UpStream credit/20241023173807",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 0.01,
+    "Balance (INR )": 32962.35
+  },
+  {
+    "S No.": 1775,
+    "Value Date": "24-10-2024",
+    "Transaction Date": "24-10-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024201/20241024132339",
+    "Withdrawal Amount (INR )": 2.43,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 32959.92
+  },
+  {
+    "S No.": 1776,
+    "Value Date": "24-10-2024",
+    "Transaction Date": "24-10-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20241024160221",
+    "Withdrawal Amount (INR )": 1691.47,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 31268.45
+  },
+  {
+    "S No.": 1777,
+    "Value Date": "24-10-2024",
+    "Transaction Date": "24-10-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Tday UpStream credit/20241024173805",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 792,
+    "Balance (INR )": 32060.45
+  },
+  {
+    "S No.": 1778,
+    "Value Date": "24-10-2024",
+    "Transaction Date": "24-10-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "UPI/9535123234@okbi/Falcon coins/Axis Bank Ltd/466457813885/PTM8a70b975ccda4644",
+    "Withdrawal Amount (INR )": 11500,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 20560.45
+  },
+  {
+    "S No.": 1779,
+    "Value Date": "25-10-2024",
+    "Transaction Date": "25-10-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024202/20241025131518",
+    "Withdrawal Amount (INR )": 2.9,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 20557.55
+  },
+  {
+    "S No.": 1780,
+    "Value Date": "25-10-2024",
+    "Transaction Date": "25-10-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20241025160155",
+    "Withdrawal Amount (INR )": 2991.06,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 17566.49
+  },
+  {
+    "S No.": 1781,
+    "Value Date": "26-10-2024",
+    "Transaction Date": "26-10-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "DMC/IN30302871522823 DP CHGS TILL SEP-24",
+    "Withdrawal Amount (INR )": 354,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 17212.49
+  },
+  {
+    "S No.": 1782,
+    "Value Date": "28-10-2024",
+    "Transaction Date": "28-10-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024203/20241028133739",
+    "Withdrawal Amount (INR )": 9.64,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 17202.85
+  },
+  {
+    "S No.": 1783,
+    "Value Date": "28-10-2024",
+    "Transaction Date": "28-10-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20241028160253",
+    "Withdrawal Amount (INR )": 603.9,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 16598.95
+  },
+  {
+    "S No.": 1784,
+    "Value Date": "29-10-2024",
+    "Transaction Date": "29-10-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024204/20241029133941",
+    "Withdrawal Amount (INR )": 1.95,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 16597
+  },
+  {
+    "S No.": 1785,
+    "Value Date": "29-10-2024",
+    "Transaction Date": "29-10-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20241029160417",
+    "Withdrawal Amount (INR )": 1728.84,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 14868.16
+  },
+  {
+    "S No.": 1786,
+    "Value Date": "29-10-2024",
+    "Transaction Date": "29-10-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Tday UpStream credit/20241029173939",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 206.5,
+    "Balance (INR )": 15074.66
+  },
+  {
+    "S No.": 1787,
+    "Value Date": "29-10-2024",
+    "Transaction Date": "29-10-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "UPI/gullakmoneyonli/Pay for merchan/Yes Bank Ltd/466925980372/PTM423a565294de48",
+    "Withdrawal Amount (INR )": 4120,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 10954.66
+  },
+  {
+    "S No.": 1788,
+    "Value Date": "30-10-2024",
+    "Transaction Date": "30-10-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024205/20241030133045",
+    "Withdrawal Amount (INR )": 4.91,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 10949.75
+  },
+  {
+    "S No.": 1789,
+    "Value Date": "30-10-2024",
+    "Transaction Date": "30-10-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20241030161903",
+    "Withdrawal Amount (INR )": 605.62,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 10344.13
+  },
+  {
+    "S No.": 1790,
+    "Value Date": "31-10-2024",
+    "Transaction Date": "31-10-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024206/20241031133259",
+    "Withdrawal Amount (INR )": 2.21,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 10341.92
+  },
+  {
+    "S No.": 1791,
+    "Value Date": "31-10-2024",
+    "Transaction Date": "31-10-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20241031160746",
+    "Withdrawal Amount (INR )": 1131.4,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 9210.52
+  },
+  {
+    "S No.": 1792,
+    "Value Date": "01-11-2024",
+    "Transaction Date": "01-11-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024207/20241101071432",
+    "Withdrawal Amount (INR )": 3.65,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 9206.87
+  },
+  {
+    "S No.": 1793,
+    "Value Date": "01-11-2024",
+    "Transaction Date": "01-11-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20241101192816",
+    "Withdrawal Amount (INR )": 165.35,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 9041.52
+  },
+  {
+    "S No.": 1794,
+    "Value Date": "04-11-2024",
+    "Transaction Date": "04-11-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024208/20241104141747",
+    "Withdrawal Amount (INR )": 0.53,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 9040.99
+  },
+  {
+    "S No.": 1795,
+    "Value Date": "04-11-2024",
+    "Transaction Date": "04-11-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20241104161508",
+    "Withdrawal Amount (INR )": 2262.68,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 6778.31
+  },
+  {
+    "S No.": 1796,
+    "Value Date": "04-11-2024",
+    "Transaction Date": "04-11-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Tday UpStream credit/20241104174124",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 783,
+    "Balance (INR )": 7561.31
+  },
+  {
+    "S No.": 1797,
+    "Value Date": "05-11-2024",
+    "Transaction Date": "05-11-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "MMT/IMPS/431009112341/Savings/MURALIDHAR/HDFC Bank",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 15000,
+    "Balance (INR )": 22561.31
+  },
+  {
+    "S No.": 1798,
+    "Value Date": "05-11-2024",
+    "Transaction Date": "05-11-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024209/20241105135420",
+    "Withdrawal Amount (INR )": 4.77,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 22556.54
+  },
+  {
+    "S No.": 1799,
+    "Value Date": "05-11-2024",
+    "Transaction Date": "05-11-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20241105160653",
+    "Withdrawal Amount (INR )": 756.18,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 21800.36
+  },
+  {
+    "S No.": 1800,
+    "Value Date": "06-11-2024",
+    "Transaction Date": "06-11-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024210/20241106081127",
+    "Withdrawal Amount (INR )": 2.44,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 21797.92
+  },
+  {
+    "S No.": 1801,
+    "Value Date": "06-11-2024",
+    "Transaction Date": "06-11-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20241106161015",
+    "Withdrawal Amount (INR )": 604.2,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 21193.72
+  },
+  {
+    "S No.": 1802,
+    "Value Date": "07-11-2024",
+    "Transaction Date": "07-11-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024211/20241107135820",
+    "Withdrawal Amount (INR )": 1.95,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 21191.77
+  },
+  {
+    "S No.": 1803,
+    "Value Date": "07-11-2024",
+    "Transaction Date": "07-11-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20241107161128",
+    "Withdrawal Amount (INR )": 1224.09,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 19967.68
+  },
+  {
+    "S No.": 1804,
+    "Value Date": "07-11-2024",
+    "Transaction Date": "07-11-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Tday UpStream credit/20241107181114",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 439.96,
+    "Balance (INR )": 20407.64
+  },
+  {
+    "S No.": 1805,
+    "Value Date": "08-11-2024",
+    "Transaction Date": "08-11-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "SMSChgsJul24-Sep24+GST",
+    "Withdrawal Amount (INR )": 3.71,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 20403.93
+  },
+  {
+    "S No.": 1806,
+    "Value Date": "08-11-2024",
+    "Transaction Date": "08-11-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024212/20241108133849",
+    "Withdrawal Amount (INR )": 2.53,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 20401.4
+  },
+  {
+    "S No.": 1807,
+    "Value Date": "08-11-2024",
+    "Transaction Date": "08-11-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20241108161428",
+    "Withdrawal Amount (INR )": 871.59,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 19529.81
+  },
+  {
+    "S No.": 1808,
+    "Value Date": "08-11-2024",
+    "Transaction Date": "08-11-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Tday UpStream credit/20241108174922",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 264.2,
+    "Balance (INR )": 19794.01
+  },
+  {
+    "S No.": 1809,
+    "Value Date": "11-11-2024",
+    "Transaction Date": "11-11-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024213/20241111081430",
+    "Withdrawal Amount (INR )": 1.96,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 19792.05
+  },
+  {
+    "S No.": 1810,
+    "Value Date": "11-11-2024",
+    "Transaction Date": "11-11-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20241111160125",
+    "Withdrawal Amount (INR )": 1051.51,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 18740.54
+  },
+  {
+    "S No.": 1811,
+    "Value Date": "11-11-2024",
+    "Transaction Date": "11-11-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Tday UpStream credit/20241111175240",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 439.88,
+    "Balance (INR )": 19180.42
+  },
+  {
+    "S No.": 1812,
+    "Value Date": "12-11-2024",
+    "Transaction Date": "12-11-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024214/20241112081408",
+    "Withdrawal Amount (INR )": 1.97,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 19178.45
+  },
+  {
+    "S No.": 1813,
+    "Value Date": "12-11-2024",
+    "Transaction Date": "12-11-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20241112164634",
+    "Withdrawal Amount (INR )": 1486.8,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 17691.65
+  },
+  {
+    "S No.": 1814,
+    "Value Date": "12-11-2024",
+    "Transaction Date": "12-11-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "UPI/gullakmoneyonli/Pay for merchan/Yes Bank Ltd/468307954740/PTM7e25591c0d144a",
+    "Withdrawal Amount (INR )": 350,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 17341.65
+  },
+  {
+    "S No.": 1815,
+    "Value Date": "13-11-2024",
+    "Transaction Date": "13-11-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024215/20241113081024",
+    "Withdrawal Amount (INR )": 4.79,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 17336.86
+  },
+  {
+    "S No.": 1816,
+    "Value Date": "13-11-2024",
+    "Transaction Date": "13-11-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20241113161053",
+    "Withdrawal Amount (INR )": 1731.61,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 15605.25
+  },
+  {
+    "S No.": 1817,
+    "Value Date": "13-11-2024",
+    "Transaction Date": "13-11-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Tday UpStream credit/20241113174251",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 86.4,
+    "Balance (INR )": 15691.65
+  },
+  {
+    "S No.": 1818,
+    "Value Date": "14-11-2024",
+    "Transaction Date": "14-11-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024216/20241114112659",
+    "Withdrawal Amount (INR )": 5.3,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 15686.35
+  },
+  {
+    "S No.": 1819,
+    "Value Date": "14-11-2024",
+    "Transaction Date": "14-11-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20241114162119",
+    "Withdrawal Amount (INR )": 1114.58,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 14571.77
+  },
+  {
+    "S No.": 1820,
+    "Value Date": "18-11-2024",
+    "Transaction Date": "18-11-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024217/20241118152049",
+    "Withdrawal Amount (INR )": 3.59,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 14568.18
+  },
+  {
+    "S No.": 1821,
+    "Value Date": "18-11-2024",
+    "Transaction Date": "18-11-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20241118163736",
+    "Withdrawal Amount (INR )": 2135.48,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 12432.7
+  },
+  {
+    "S No.": 1822,
+    "Value Date": "18-11-2024",
+    "Transaction Date": "18-11-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Tday UpStream credit/20241118174232",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 684.8,
+    "Balance (INR )": 13117.5
+  },
+  {
+    "S No.": 1823,
+    "Value Date": "19-11-2024",
+    "Transaction Date": "19-11-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024218/20241119083336",
+    "Withdrawal Amount (INR )": 4.68,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 13112.82
+  },
+  {
+    "S No.": 1824,
+    "Value Date": "19-11-2024",
+    "Transaction Date": "19-11-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20241119160142",
+    "Withdrawal Amount (INR )": 597.02,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 12515.8
+  },
+  {
+    "S No.": 1825,
+    "Value Date": "19-11-2024",
+    "Transaction Date": "19-11-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Tday UpStream credit/20241119173941",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 0.01,
+    "Balance (INR )": 12515.81
+  },
+  {
+    "S No.": 1826,
+    "Value Date": "21-11-2024",
+    "Transaction Date": "21-11-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024219/20241121081907",
+    "Withdrawal Amount (INR )": 1.92,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 12513.89
+  },
+  {
+    "S No.": 1827,
+    "Value Date": "21-11-2024",
+    "Transaction Date": "21-11-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20241121164820",
+    "Withdrawal Amount (INR )": 847.08,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 11666.81
+  },
+  {
+    "S No.": 1828,
+    "Value Date": "21-11-2024",
+    "Transaction Date": "21-11-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Tday UpStream credit/20241121174022",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 257.4,
+    "Balance (INR )": 11924.21
+  },
+  {
+    "S No.": 1829,
+    "Value Date": "22-11-2024",
+    "Transaction Date": "22-11-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024220/20241122083533",
+    "Withdrawal Amount (INR )": 1.9,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 11922.31
+  },
+  {
+    "S No.": 1830,
+    "Value Date": "22-11-2024",
+    "Transaction Date": "22-11-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20241122162025",
+    "Withdrawal Amount (INR )": 765.34,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 11156.97
+  },
+  {
+    "S No.": 1831,
+    "Value Date": "22-11-2024",
+    "Transaction Date": "22-11-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Tday UpStream credit/20241122174958",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 171.12,
+    "Balance (INR )": 11328.09
+  },
+  {
+    "S No.": 1832,
+    "Value Date": "25-11-2024",
+    "Transaction Date": "25-11-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024221/20241125082643",
+    "Withdrawal Amount (INR )": 1.92,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 11326.17
+  },
+  {
+    "S No.": 1833,
+    "Value Date": "25-11-2024",
+    "Transaction Date": "25-11-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20241125162934",
+    "Withdrawal Amount (INR )": 609.48,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 10716.69
+  },
+  {
+    "S No.": 1834,
+    "Value Date": "26-11-2024",
+    "Transaction Date": "26-11-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024222/20241126082236",
+    "Withdrawal Amount (INR )": 1.96,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 10714.73
+  },
+  {
+    "S No.": 1835,
+    "Value Date": "26-11-2024",
+    "Transaction Date": "26-11-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20241126162203",
+    "Withdrawal Amount (INR )": 608.46,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 10106.27
+  },
+  {
+    "S No.": 1836,
+    "Value Date": "27-11-2024",
+    "Transaction Date": "27-11-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024223/20241127081127",
+    "Withdrawal Amount (INR )": 1.96,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 10104.31
+  },
+  {
+    "S No.": 1837,
+    "Value Date": "27-11-2024",
+    "Transaction Date": "27-11-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20241127162525",
+    "Withdrawal Amount (INR )": 607.9,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 9496.41
+  },
+  {
+    "S No.": 1838,
+    "Value Date": "28-11-2024",
+    "Transaction Date": "28-11-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024224/20241128081855",
+    "Withdrawal Amount (INR )": 1.96,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 9494.45
+  },
+  {
+    "S No.": 1839,
+    "Value Date": "28-11-2024",
+    "Transaction Date": "28-11-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20241128163129",
+    "Withdrawal Amount (INR )": 1135.75,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 8358.7
+  },
+  {
+    "S No.": 1840,
+    "Value Date": "28-11-2024",
+    "Transaction Date": "28-11-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Tday UpStream credit/20241128175350",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 175.9,
+    "Balance (INR )": 8534.6
+  },
+  {
+    "S No.": 1841,
+    "Value Date": "29-11-2024",
+    "Transaction Date": "29-11-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024225/20241129081147",
+    "Withdrawal Amount (INR )": 3.09,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 8531.51
+  },
+  {
+    "S No.": 1842,
+    "Value Date": "29-11-2024",
+    "Transaction Date": "29-11-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20241129164108",
+    "Withdrawal Amount (INR )": 608.68,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 7922.83
+  },
+  {
+    "S No.": 1843,
+    "Value Date": "02-12-2024",
+    "Transaction Date": "02-12-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024226/20241202084633",
+    "Withdrawal Amount (INR )": 0.08,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 7922.75
+  },
+  {
+    "S No.": 1844,
+    "Value Date": "02-12-2024",
+    "Transaction Date": "02-12-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024226/20241202084633",
+    "Withdrawal Amount (INR )": 1.88,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 7920.87
+  },
+  {
+    "S No.": 1845,
+    "Value Date": "02-12-2024",
+    "Transaction Date": "02-12-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20241202163542",
+    "Withdrawal Amount (INR )": 611.09,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 7309.78
+  },
+  {
+    "S No.": 1846,
+    "Value Date": "03-12-2024",
+    "Transaction Date": "03-12-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024227/20241203084711",
+    "Withdrawal Amount (INR )": 2.01,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 7307.77
+  },
+  {
+    "S No.": 1847,
+    "Value Date": "03-12-2024",
+    "Transaction Date": "03-12-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20241203162438",
+    "Withdrawal Amount (INR )": 619.65,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 6688.12
+  },
+  {
+    "S No.": 1848,
+    "Value Date": "04-12-2024",
+    "Transaction Date": "04-12-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024228/20241204064823",
+    "Withdrawal Amount (INR )": 2.74,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 6685.38
+  },
+  {
+    "S No.": 1849,
+    "Value Date": "04-12-2024",
+    "Transaction Date": "04-12-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20241204164209",
+    "Withdrawal Amount (INR )": 620.86,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 6064.52
+  },
+  {
+    "S No.": 1850,
+    "Value Date": "05-12-2024",
+    "Transaction Date": "05-12-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024229/20241205084120",
+    "Withdrawal Amount (INR )": 2.13,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 6062.39
+  },
+  {
+    "S No.": 1851,
+    "Value Date": "05-12-2024",
+    "Transaction Date": "05-12-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20241205163153",
+    "Withdrawal Amount (INR )": 617.37,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 5445.02
+  },
+  {
+    "S No.": 1852,
+    "Value Date": "06-12-2024",
+    "Transaction Date": "06-12-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024230/20241206083023",
+    "Withdrawal Amount (INR )": 2.03,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 5442.99
+  },
+  {
+    "S No.": 1853,
+    "Value Date": "06-12-2024",
+    "Transaction Date": "06-12-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20241206162547",
+    "Withdrawal Amount (INR )": 623.1,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 4819.89
+  },
+  {
+    "S No.": 1854,
+    "Value Date": "06-12-2024",
+    "Transaction Date": "06-12-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Tday UpStream credit/20241206172221",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 0.06,
+    "Balance (INR )": 4819.95
+  },
+  {
+    "S No.": 1855,
+    "Value Date": "09-12-2024",
+    "Transaction Date": "09-12-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024231/20241209081559",
+    "Withdrawal Amount (INR )": 0.06,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 4819.89
+  },
+  {
+    "S No.": 1856,
+    "Value Date": "09-12-2024",
+    "Transaction Date": "09-12-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024231/20241209081559",
+    "Withdrawal Amount (INR )": 1.95,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 4817.94
+  },
+  {
+    "S No.": 1857,
+    "Value Date": "09-12-2024",
+    "Transaction Date": "09-12-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20241209163713",
+    "Withdrawal Amount (INR )": 625.75,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 4192.19
+  },
+  {
+    "S No.": 1858,
+    "Value Date": "10-12-2024",
+    "Transaction Date": "10-12-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024232/20241210080712",
+    "Withdrawal Amount (INR )": 2.12,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 4190.07
+  },
+  {
+    "S No.": 1859,
+    "Value Date": "10-12-2024",
+    "Transaction Date": "10-12-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20241210162033",
+    "Withdrawal Amount (INR )": 627.16,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 3562.91
+  },
+  {
+    "S No.": 1860,
+    "Value Date": "11-12-2024",
+    "Transaction Date": "11-12-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024233/20241211082920",
+    "Withdrawal Amount (INR )": 1.64,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 3561.27
+  },
+  {
+    "S No.": 1861,
+    "Value Date": "11-12-2024",
+    "Transaction Date": "11-12-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024233/20241211082919",
+    "Withdrawal Amount (INR )": 0.38,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 3560.89
+  },
+  {
+    "S No.": 1862,
+    "Value Date": "11-12-2024",
+    "Transaction Date": "11-12-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20241211164033",
+    "Withdrawal Amount (INR )": 634.49,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 2926.4
+  },
+  {
+    "S No.": 1863,
+    "Value Date": "12-12-2024",
+    "Transaction Date": "12-12-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024234/20241212080837",
+    "Withdrawal Amount (INR )": 2.1,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 2924.3
+  },
+  {
+    "S No.": 1864,
+    "Value Date": "12-12-2024",
+    "Transaction Date": "12-12-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20241212162109",
+    "Withdrawal Amount (INR )": 641.13,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 2283.17
+  },
+  {
+    "S No.": 1865,
+    "Value Date": "13-12-2024",
+    "Transaction Date": "13-12-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024235/20241213082944",
+    "Withdrawal Amount (INR )": 2.07,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 2281.1
+  },
+  {
+    "S No.": 1866,
+    "Value Date": "13-12-2024",
+    "Transaction Date": "13-12-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20241213162526",
+    "Withdrawal Amount (INR )": 635.18,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 1645.92
+  },
+  {
+    "S No.": 1867,
+    "Value Date": "15-12-2024",
+    "Transaction Date": "15-12-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "MMT/IMPS/435018153592/Savings/MURALIDHAR/HDFC Bank",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 5000,
+    "Balance (INR )": 6645.92
+  },
+  {
+    "S No.": 1868,
+    "Value Date": "16-12-2024",
+    "Transaction Date": "16-12-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024236/20241216084338",
+    "Withdrawal Amount (INR )": 2.05,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 6643.87
+  },
+  {
+    "S No.": 1869,
+    "Value Date": "16-12-2024",
+    "Transaction Date": "16-12-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20241216162329",
+    "Withdrawal Amount (INR )": 648.93,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 5994.94
+  },
+  {
+    "S No.": 1870,
+    "Value Date": "17-12-2024",
+    "Transaction Date": "17-12-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024237/20241217083415",
+    "Withdrawal Amount (INR )": 1.68,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 5993.26
+  },
+  {
+    "S No.": 1871,
+    "Value Date": "17-12-2024",
+    "Transaction Date": "17-12-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024237/20241217083414",
+    "Withdrawal Amount (INR )": 0.41,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 5992.85
+  },
+  {
+    "S No.": 1872,
+    "Value Date": "17-12-2024",
+    "Transaction Date": "17-12-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20241217161925",
+    "Withdrawal Amount (INR )": 653.84,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 5339.01
+  },
+  {
+    "S No.": 1873,
+    "Value Date": "18-12-2024",
+    "Transaction Date": "18-12-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024238/20241218084401",
+    "Withdrawal Amount (INR )": 2.23,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 5336.78
+  },
+  {
+    "S No.": 1874,
+    "Value Date": "18-12-2024",
+    "Transaction Date": "18-12-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20241218161517",
+    "Withdrawal Amount (INR )": 647.77,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 4689.01
+  },
+  {
+    "S No.": 1875,
+    "Value Date": "19-12-2024",
+    "Transaction Date": "19-12-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024239/20241219083441",
+    "Withdrawal Amount (INR )": 2.24,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 4686.77
+  },
+  {
+    "S No.": 1876,
+    "Value Date": "19-12-2024",
+    "Transaction Date": "19-12-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20241219164732",
+    "Withdrawal Amount (INR )": 635.26,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 4051.51
+  },
+  {
+    "S No.": 1877,
+    "Value Date": "20-12-2024",
+    "Transaction Date": "20-12-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024240/20241220134113",
+    "Withdrawal Amount (INR )": 2.05,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 4049.46
+  },
+  {
+    "S No.": 1878,
+    "Value Date": "20-12-2024",
+    "Transaction Date": "20-12-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20241220163213",
+    "Withdrawal Amount (INR )": 639.05,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 3410.41
+  },
+  {
+    "S No.": 1879,
+    "Value Date": "23-12-2024",
+    "Transaction Date": "23-12-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024241/20241223145015",
+    "Withdrawal Amount (INR )": 2.2,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 3408.21
+  },
+  {
+    "S No.": 1880,
+    "Value Date": "23-12-2024",
+    "Transaction Date": "23-12-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20241223164219",
+    "Withdrawal Amount (INR )": 635.81,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 2772.4
+  },
+  {
+    "S No.": 1881,
+    "Value Date": "23-12-2024",
+    "Transaction Date": "23-12-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Tday UpStream credit/20241223181907",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 0.06,
+    "Balance (INR )": 2772.46
+  },
+  {
+    "S No.": 1882,
+    "Value Date": "24-12-2024",
+    "Transaction Date": "24-12-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024242/20241224082433",
+    "Withdrawal Amount (INR )": 1.99,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 2770.47
+  },
+  {
+    "S No.": 1883,
+    "Value Date": "24-12-2024",
+    "Transaction Date": "24-12-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024242/20241224082432",
+    "Withdrawal Amount (INR )": 0.06,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 2770.41
+  },
+  {
+    "S No.": 1884,
+    "Value Date": "24-12-2024",
+    "Transaction Date": "24-12-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20241224162501",
+    "Withdrawal Amount (INR )": 639.86,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 2130.55
+  },
+  {
+    "S No.": 1885,
+    "Value Date": "26-12-2024",
+    "Transaction Date": "26-12-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024243/20241226082043",
+    "Withdrawal Amount (INR )": 2.24,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 2128.31
+  },
+  {
+    "S No.": 1886,
+    "Value Date": "26-12-2024",
+    "Transaction Date": "26-12-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20241226161644",
+    "Withdrawal Amount (INR )": 640.98,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 1487.33
+  },
+  {
+    "S No.": 1887,
+    "Value Date": "26-12-2024",
+    "Transaction Date": "26-12-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Tday UpStream credit/20241226172419",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 214.52,
+    "Balance (INR )": 1701.85
+  },
+  {
+    "S No.": 1888,
+    "Value Date": "27-12-2024",
+    "Transaction Date": "27-12-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024244/20241227083210",
+    "Withdrawal Amount (INR )": 1.37,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 1700.48
+  },
+  {
+    "S No.": 1889,
+    "Value Date": "28-12-2024",
+    "Transaction Date": "28-12-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "MMT/IMPS/436310105795/Savings/MURALIDHAR/HDFC Bank",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 9000,
+    "Balance (INR )": 10700.48
+  },
+  {
+    "S No.": 1890,
+    "Value Date": "31-12-2024",
+    "Transaction Date": "31-12-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "625401070212:Int.Pd:30-09-2024 to 30-12-2024",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 128,
+    "Balance (INR )": 10828.48
+  },
+  {
+    "S No.": 1891,
+    "Value Date": "31-12-2024",
+    "Transaction Date": "31-12-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20241231162142",
+    "Withdrawal Amount (INR )": 121.84,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 10706.64
+  },
+  {
+    "S No.": 1892,
+    "Value Date": "31-12-2024",
+    "Transaction Date": "31-12-2024",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Tday UpStream credit/20241231171721",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 0.02,
+    "Balance (INR )": 10706.66
+  },
+  {
+    "S No.": 1893,
+    "Value Date": "01-01-2025",
+    "Transaction Date": "01-01-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2024247/20250101081419",
+    "Withdrawal Amount (INR )": 0.39,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 10706.27
+  },
+  {
+    "S No.": 1894,
+    "Value Date": "01-01-2025",
+    "Transaction Date": "01-01-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20250101162146",
+    "Withdrawal Amount (INR )": 122.6,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 10583.67
+  },
+  {
+    "S No.": 1895,
+    "Value Date": "01-01-2025",
+    "Transaction Date": "01-01-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Tday UpStream credit/20250101171458",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 0.02,
+    "Balance (INR )": 10583.69
+  },
+  {
+    "S No.": 1896,
+    "Value Date": "02-01-2025",
+    "Transaction Date": "02-01-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2025001/20250102082427",
+    "Withdrawal Amount (INR )": 0.02,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 10583.67
+  },
+  {
+    "S No.": 1897,
+    "Value Date": "02-01-2025",
+    "Transaction Date": "02-01-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2025001/20250102082427",
+    "Withdrawal Amount (INR )": 0.38,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 10583.29
+  },
+  {
+    "S No.": 1898,
+    "Value Date": "02-01-2025",
+    "Transaction Date": "02-01-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20250102161322",
+    "Withdrawal Amount (INR )": 123.28,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 10460.01
+  },
+  {
+    "S No.": 1899,
+    "Value Date": "03-01-2025",
+    "Transaction Date": "03-01-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2025002/20250103083911",
+    "Withdrawal Amount (INR )": 0.48,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 10459.53
+  },
+  {
+    "S No.": 1900,
+    "Value Date": "03-01-2025",
+    "Transaction Date": "03-01-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20250103162054",
+    "Withdrawal Amount (INR )": 124.58,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 10334.95
+  },
+  {
+    "S No.": 1901,
+    "Value Date": "06-01-2025",
+    "Transaction Date": "06-01-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2025003/20250106120710",
+    "Withdrawal Amount (INR )": 0.43,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 10334.52
+  },
+  {
+    "S No.": 1902,
+    "Value Date": "06-01-2025",
+    "Transaction Date": "06-01-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20250106164058",
+    "Withdrawal Amount (INR )": 121.66,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 10212.86
+  },
+  {
+    "S No.": 1903,
+    "Value Date": "07-01-2025",
+    "Transaction Date": "07-01-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2025004/20250107134824",
+    "Withdrawal Amount (INR )": 0.39,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 10212.47
+  },
+  {
+    "S No.": 1904,
+    "Value Date": "07-01-2025",
+    "Transaction Date": "07-01-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20250107162012",
+    "Withdrawal Amount (INR )": 122.2,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 10090.27
+  },
+  {
+    "S No.": 1905,
+    "Value Date": "08-01-2025",
+    "Transaction Date": "08-01-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2025005/20250108120318",
+    "Withdrawal Amount (INR )": 0.41,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 10089.86
+  },
+  {
+    "S No.": 1906,
+    "Value Date": "08-01-2025",
+    "Transaction Date": "08-01-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20250108162249",
+    "Withdrawal Amount (INR )": 120.34,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 9969.52
+  },
+  {
+    "S No.": 1907,
+    "Value Date": "09-01-2025",
+    "Transaction Date": "09-01-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2025006/20250109070155",
+    "Withdrawal Amount (INR )": 0.39,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 9969.13
+  },
+  {
+    "S No.": 1908,
+    "Value Date": "09-01-2025",
+    "Transaction Date": "09-01-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20250109161755",
+    "Withdrawal Amount (INR )": 120.48,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 9848.65
+  },
+  {
+    "S No.": 1909,
+    "Value Date": "10-01-2025",
+    "Transaction Date": "10-01-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2025007/20250110105839",
+    "Withdrawal Amount (INR )": 0.45,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 9848.2
+  },
+  {
+    "S No.": 1910,
+    "Value Date": "10-01-2025",
+    "Transaction Date": "10-01-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20250110162629",
+    "Withdrawal Amount (INR )": 118.38,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 9729.82
+  },
+  {
+    "S No.": 1911,
+    "Value Date": "13-01-2025",
+    "Transaction Date": "13-01-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2025008/20250113080717",
+    "Withdrawal Amount (INR )": 0.44,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 9729.38
+  },
+  {
+    "S No.": 1912,
+    "Value Date": "13-01-2025",
+    "Transaction Date": "13-01-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20250113161252",
+    "Withdrawal Amount (INR )": 284.36,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 9445.02
+  },
+  {
+    "S No.": 1913,
+    "Value Date": "13-01-2025",
+    "Transaction Date": "13-01-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Tday UpStream credit/20250113173418",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 85,
+    "Balance (INR )": 9530.02
+  },
+  {
+    "S No.": 1914,
+    "Value Date": "13-01-2025",
+    "Transaction Date": "13-01-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "NEFT-HDFCN52025011304102045-MURALIDHAR KINI B-0001",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 2000,
+    "Balance (INR )": 11530.02
+  },
+  {
+    "S No.": 1915,
+    "Value Date": "14-01-2025",
+    "Transaction Date": "14-01-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2025009/20250114110140",
+    "Withdrawal Amount (INR )": 0.64,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 11529.38
+  },
+  {
+    "S No.": 1916,
+    "Value Date": "14-01-2025",
+    "Transaction Date": "14-01-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20250114162524",
+    "Withdrawal Amount (INR )": 114.78,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 11414.6
+  },
+  {
+    "S No.": 1917,
+    "Value Date": "15-01-2025",
+    "Transaction Date": "15-01-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2025010/20250115081910",
+    "Withdrawal Amount (INR )": 0.43,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 11414.17
+  },
+  {
+    "S No.": 1918,
+    "Value Date": "15-01-2025",
+    "Transaction Date": "15-01-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20250115160715",
+    "Withdrawal Amount (INR )": 116.08,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 11298.09
+  },
+  {
+    "S No.": 1919,
+    "Value Date": "16-01-2025",
+    "Transaction Date": "16-01-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2025011/20250116081338",
+    "Withdrawal Amount (INR )": 0.39,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 11297.7
+  },
+  {
+    "S No.": 1920,
+    "Value Date": "16-01-2025",
+    "Transaction Date": "16-01-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20250116161749",
+    "Withdrawal Amount (INR )": 117.08,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 11180.62
+  },
+  {
+    "S No.": 1921,
+    "Value Date": "17-01-2025",
+    "Transaction Date": "17-01-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2025012/20250117081529",
+    "Withdrawal Amount (INR )": 0.38,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 11180.24
+  },
+  {
+    "S No.": 1922,
+    "Value Date": "17-01-2025",
+    "Transaction Date": "17-01-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20250117162031",
+    "Withdrawal Amount (INR )": 116.68,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 11063.56
+  },
+  {
+    "S No.": 1923,
+    "Value Date": "20-01-2025",
+    "Transaction Date": "20-01-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2025013/20250120081717",
+    "Withdrawal Amount (INR )": 0.38,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 11063.18
+  },
+  {
+    "S No.": 1924,
+    "Value Date": "20-01-2025",
+    "Transaction Date": "20-01-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20250120162902",
+    "Withdrawal Amount (INR )": 117.6,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 10945.58
+  },
+  {
+    "S No.": 1925,
+    "Value Date": "21-01-2025",
+    "Transaction Date": "21-01-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2025014/20250121075236",
+    "Withdrawal Amount (INR )": 0.38,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 10945.2
+  },
+  {
+    "S No.": 1926,
+    "Value Date": "21-01-2025",
+    "Transaction Date": "21-01-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20250121162255",
+    "Withdrawal Amount (INR )": 116.1,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 10829.1
+  },
+  {
+    "S No.": 1927,
+    "Value Date": "22-01-2025",
+    "Transaction Date": "22-01-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2025015/20250122082609",
+    "Withdrawal Amount (INR )": 0.37,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 10828.73
+  },
+  {
+    "S No.": 1928,
+    "Value Date": "22-01-2025",
+    "Transaction Date": "22-01-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20250122161944",
+    "Withdrawal Amount (INR )": 113.34,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 10715.39
+  },
+  {
+    "S No.": 1929,
+    "Value Date": "22-01-2025",
+    "Transaction Date": "22-01-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "NEFT-HDFCN52025012218159836-MURALIDHAR KINI B-0001",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 25000,
+    "Balance (INR )": 35715.39
+  },
+  {
+    "S No.": 1930,
+    "Value Date": "23-01-2025",
+    "Transaction Date": "23-01-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2025016/20250123080723",
+    "Withdrawal Amount (INR )": 0.37,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 35715.02
+  },
+  {
+    "S No.": 1931,
+    "Value Date": "23-01-2025",
+    "Transaction Date": "23-01-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20250123161404",
+    "Withdrawal Amount (INR )": 116.08,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 35598.94
+  },
+  {
+    "S No.": 1932,
+    "Value Date": "24-01-2025",
+    "Transaction Date": "24-01-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2025017/20250124080752",
+    "Withdrawal Amount (INR )": 0.37,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 35598.57
+  },
+  {
+    "S No.": 1933,
+    "Value Date": "24-01-2025",
+    "Transaction Date": "24-01-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20250124162744",
+    "Withdrawal Amount (INR )": 115.44,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 35483.13
+  },
+  {
+    "S No.": 1934,
+    "Value Date": "27-01-2025",
+    "Transaction Date": "27-01-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2025018/20250127081207",
+    "Withdrawal Amount (INR )": 0.37,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 35482.76
+  },
+  {
+    "S No.": 1935,
+    "Value Date": "27-01-2025",
+    "Transaction Date": "27-01-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20250127163834",
+    "Withdrawal Amount (INR )": 111.14,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 35371.62
+  },
+  {
+    "S No.": 1936,
+    "Value Date": "28-01-2025",
+    "Transaction Date": "28-01-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2025019/20250128104222",
+    "Withdrawal Amount (INR )": 0.4,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 35371.22
+  },
+  {
+    "S No.": 1937,
+    "Value Date": "28-01-2025",
+    "Transaction Date": "28-01-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20250128164916",
+    "Withdrawal Amount (INR )": 305.14,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 35066.08
+  },
+  {
+    "S No.": 1938,
+    "Value Date": "28-01-2025",
+    "Transaction Date": "28-01-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "UPI/oswalantiques@i/Paid via CRED/ICICI Bank LTD /502842632757/ACD01JJPC0D01T6R",
+    "Withdrawal Amount (INR )": 16765,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 18301.08
+  },
+  {
+    "S No.": 1939,
+    "Value Date": "29-01-2025",
+    "Transaction Date": "29-01-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M",
+    "Withdrawal Amount (INR )": 0.98,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 18300.1
+  },
+  {
+    "S No.": 1941,
+    "Value Date": "29-01-2025",
+    "Transaction Date": "29-01-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20250129162726",
+    "Withdrawal Amount (INR )": 113.24,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 18186.86
+  },
+  {
+    "S No.": 1942,
+    "Value Date": "29-01-2025",
+    "Transaction Date": "29-01-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Tday UpStream credit/20250129174700",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 0.04,
+    "Balance (INR )": 18186.9
+  },
+  {
+    "S No.": 1943,
+    "Value Date": "30-01-2025",
+    "Transaction Date": "30-01-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2025021/20250130082638",
+    "Withdrawal Amount (INR )": 0.32,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 18186.58
+  },
+  {
+    "S No.": 1944,
+    "Value Date": "30-01-2025",
+    "Transaction Date": "30-01-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2025021/20250130082637",
+    "Withdrawal Amount (INR )": 0.04,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 18186.54
+  },
+  {
+    "S No.": 1945,
+    "Value Date": "30-01-2025",
+    "Transaction Date": "30-01-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20250130162610",
+    "Withdrawal Amount (INR )": 113.5,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 18073.04
+  },
+  {
+    "S No.": 1946,
+    "Value Date": "30-01-2025",
+    "Transaction Date": "30-01-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Tday UpStream credit/20250130175919",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 0.02,
+    "Balance (INR )": 18073.06
+  },
+  {
+    "S No.": 1947,
+    "Value Date": "30-01-2025",
+    "Transaction Date": "30-01-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "UPI/9535123234@okbi/coin purchase/AXIS BANK/503036417163/PTM6516bb482afe44eeaf1",
+    "Withdrawal Amount (INR )": 7500,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 10573.06
+  },
+  {
+    "S No.": 1948,
+    "Value Date": "31-01-2025",
+    "Transaction Date": "31-01-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2025022/20250131084349",
+    "Withdrawal Amount (INR )": 0.02,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 10573.04
+  },
+  {
+    "S No.": 1949,
+    "Value Date": "31-01-2025",
+    "Transaction Date": "31-01-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2025022/20250131084349",
+    "Withdrawal Amount (INR )": 0.35,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 10572.69
+  },
+  {
+    "S No.": 1950,
+    "Value Date": "31-01-2025",
+    "Transaction Date": "31-01-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "MMT/IMPS/503109457622/IMPS transactio/ZERODHA BR/H",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 1,
+    "Balance (INR )": 10573.69
+  },
+  {
+    "S No.": 1951,
+    "Value Date": "31-01-2025",
+    "Transaction Date": "31-01-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "NEFT-HDFCN52025013131970052-MURALIDHAR KINI B-0001",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 25000,
+    "Balance (INR )": 35573.69
+  },
+  {
+    "S No.": 1952,
+    "Value Date": "31-01-2025",
+    "Transaction Date": "31-01-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20250131163529",
+    "Withdrawal Amount (INR )": 114.5,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 35459.19
+  },
+  {
+    "S No.": 1953,
+    "Value Date": "01-02-2025",
+    "Transaction Date": "01-02-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2025023/20250201074544",
+    "Withdrawal Amount (INR )": 0.47,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 35458.72
+  },
+  {
+    "S No.": 1954,
+    "Value Date": "01-02-2025",
+    "Transaction Date": "01-02-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20250201161303",
+    "Withdrawal Amount (INR )": 115.78,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 35342.94
+  },
+  {
+    "S No.": 1955,
+    "Value Date": "03-02-2025",
+    "Transaction Date": "03-02-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2025024/20250203093459",
+    "Withdrawal Amount (INR )": 0.33,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 35342.61
+  },
+  {
+    "S No.": 1956,
+    "Value Date": "03-02-2025",
+    "Transaction Date": "03-02-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20250203163846",
+    "Withdrawal Amount (INR )": 113.5,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 35229.11
+  },
+  {
+    "S No.": 1957,
+    "Value Date": "04-02-2025",
+    "Transaction Date": "04-02-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2025025/20250204083524",
+    "Withdrawal Amount (INR )": 0.37,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 35228.74
+  },
+  {
+    "S No.": 1958,
+    "Value Date": "04-02-2025",
+    "Transaction Date": "04-02-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "UPI/zerodhabroking@/680642906953716/HDFC BANK LTD/503536642726/HDFF65DE4DAAA9E4",
+    "Withdrawal Amount (INR )": 3000,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 32228.74
+  },
+  {
+    "S No.": 1959,
+    "Value Date": "04-02-2025",
+    "Transaction Date": "04-02-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20250204163705",
+    "Withdrawal Amount (INR )": 114.86,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 32113.88
+  },
+  {
+    "S No.": 1960,
+    "Value Date": "04-02-2025",
+    "Transaction Date": "04-02-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "MMT/IMPS/503521332750/142123242884261/eBullion L/D",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 1,
+    "Balance (INR )": 32114.88
+  },
+  {
+    "S No.": 1961,
+    "Value Date": "04-02-2025",
+    "Transaction Date": "04-02-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "UPI/ebullion28.rzp@/PaymenttoeBulli/ICICI Bank LTD /503564357212/ACD01JK8WG3X97",
+    "Withdrawal Amount (INR )": 3200,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 28914.88
+  },
+  {
+    "S No.": 1962,
+    "Value Date": "05-02-2025",
+    "Transaction Date": "05-02-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2025026/20250205084932",
+    "Withdrawal Amount (INR )": 0.37,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 28914.51
+  },
+  {
+    "S No.": 1963,
+    "Value Date": "05-02-2025",
+    "Transaction Date": "05-02-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20250205161638",
+    "Withdrawal Amount (INR )": 116.7,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 28797.81
+  },
+  {
+    "S No.": 1964,
+    "Value Date": "06-02-2025",
+    "Transaction Date": "06-02-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2025027/20250206081626",
+    "Withdrawal Amount (INR )": 0.48,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 28797.33
+  },
+  {
+    "S No.": 1965,
+    "Value Date": "06-02-2025",
+    "Transaction Date": "06-02-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20250206162653",
+    "Withdrawal Amount (INR )": 115.52,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 28681.81
+  },
+  {
+    "S No.": 1966,
+    "Value Date": "06-02-2025",
+    "Transaction Date": "06-02-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Tday UpStream credit/20250206174142",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 0.02,
+    "Balance (INR )": 28681.83
+  },
+  {
+    "S No.": 1967,
+    "Value Date": "07-02-2025",
+    "Transaction Date": "07-02-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2025028/20250207082835",
+    "Withdrawal Amount (INR )": 0.02,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 28681.81
+  },
+  {
+    "S No.": 1968,
+    "Value Date": "07-02-2025",
+    "Transaction Date": "07-02-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2025028/20250207082836",
+    "Withdrawal Amount (INR )": 0.35,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 28681.46
+  },
+  {
+    "S No.": 1969,
+    "Value Date": "07-02-2025",
+    "Transaction Date": "07-02-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "SMSChgsOct24-Dec24+GST",
+    "Withdrawal Amount (INR )": 1.59,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 28679.87
+  },
+  {
+    "S No.": 1970,
+    "Value Date": "07-02-2025",
+    "Transaction Date": "07-02-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20250207161910",
+    "Withdrawal Amount (INR )": 115.6,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 28564.27
+  },
+  {
+    "S No.": 1971,
+    "Value Date": "10-02-2025",
+    "Transaction Date": "10-02-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2025029/20250210090228",
+    "Withdrawal Amount (INR )": 0.45,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 28563.82
+  },
+  {
+    "S No.": 1972,
+    "Value Date": "10-02-2025",
+    "Transaction Date": "10-02-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "MMT/IMPS/504115603334/MURALIDHAR/HDFC0000133",
+    "Withdrawal Amount (INR )": 17005.9,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 11557.92
+  },
+  {
+    "S No.": 1973,
+    "Value Date": "10-02-2025",
+    "Transaction Date": "10-02-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20250210164838",
+    "Withdrawal Amount (INR )": 113.08,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 11444.84
+  },
+  {
+    "S No.": 1974,
+    "Value Date": "11-02-2025",
+    "Transaction Date": "11-02-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2025030/20250211083713",
+    "Withdrawal Amount (INR )": 0.36,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 11444.48
+  },
+  {
+    "S No.": 1975,
+    "Value Date": "11-02-2025",
+    "Transaction Date": "11-02-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "UPI/zerodha.broking/699844880512519/ICICI Bank LTD /504267520994/ICIb35203ec17d",
+    "Withdrawal Amount (INR )": 2500,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 8944.48
+  },
+  {
+    "S No.": 1976,
+    "Value Date": "11-02-2025",
+    "Transaction Date": "11-02-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20250211162625",
+    "Withdrawal Amount (INR )": 739.02,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 8205.46
+  },
+  {
+    "S No.": 1977,
+    "Value Date": "11-02-2025",
+    "Transaction Date": "11-02-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Tday UpStream credit/20250211173913",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 0.01,
+    "Balance (INR )": 8205.47
+  },
+  {
+    "S No.": 1978,
+    "Value Date": "12-02-2025",
+    "Transaction Date": "12-02-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2025031/20250212083232",
+    "Withdrawal Amount (INR )": 2.38,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 8203.09
+  },
+  {
+    "S No.": 1979,
+    "Value Date": "12-02-2025",
+    "Transaction Date": "12-02-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20250212162115",
+    "Withdrawal Amount (INR )": 850.28,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 7352.81
+  },
+  {
+    "S No.": 1980,
+    "Value Date": "12-02-2025",
+    "Transaction Date": "12-02-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Tday UpStream credit/20250212174235",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 189.8,
+    "Balance (INR )": 7542.61
+  },
+  {
+    "S No.": 1981,
+    "Value Date": "13-02-2025",
+    "Transaction Date": "13-02-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2025032/20250213081829",
+    "Withdrawal Amount (INR )": 2.13,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 7540.48
+  },
+  {
+    "S No.": 1982,
+    "Value Date": "13-02-2025",
+    "Transaction Date": "13-02-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20250213162442",
+    "Withdrawal Amount (INR )": 412.38,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 7128.1
+  },
+  {
+    "S No.": 1983,
+    "Value Date": "13-02-2025",
+    "Transaction Date": "13-02-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Tday UpStream credit/20250213173632",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 108.02,
+    "Balance (INR )": 7236.12
+  },
+  {
+    "S No.": 1984,
+    "Value Date": "14-02-2025",
+    "Transaction Date": "14-02-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2025033/20250214081914",
+    "Withdrawal Amount (INR )": 0.98,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 7235.14
+  },
+  {
+    "S No.": 1985,
+    "Value Date": "14-02-2025",
+    "Transaction Date": "14-02-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20250214162930",
+    "Withdrawal Amount (INR )": 891.54,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 6343.6
+  },
+  {
+    "S No.": 1986,
+    "Value Date": "14-02-2025",
+    "Transaction Date": "14-02-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Tday UpStream credit/20250214174740",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 265,
+    "Balance (INR )": 6608.6
+  },
+  {
+    "S No.": 1987,
+    "Value Date": "17-02-2025",
+    "Transaction Date": "17-02-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2025034/20250217085156",
+    "Withdrawal Amount (INR )": 2.02,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 6606.58
+  },
+  {
+    "S No.": 1988,
+    "Value Date": "17-02-2025",
+    "Transaction Date": "17-02-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20250217164611",
+    "Withdrawal Amount (INR )": 1312.96,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 5293.62
+  },
+  {
+    "S No.": 1989,
+    "Value Date": "17-02-2025",
+    "Transaction Date": "17-02-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Tday UpStream credit/20250217175747",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 365.98,
+    "Balance (INR )": 5659.6
+  },
+  {
+    "S No.": 1990,
+    "Value Date": "18-02-2025",
+    "Transaction Date": "18-02-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2025035/20250218081400",
+    "Withdrawal Amount (INR )": 3.05,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 5656.55
+  },
+  {
+    "S No.": 1991,
+    "Value Date": "18-02-2025",
+    "Transaction Date": "18-02-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "MMT/IMPS/504909178148/savings/MURALIDHAR/HDFC Bank",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 5000,
+    "Balance (INR )": 10656.55
+  },
+  {
+    "S No.": 1992,
+    "Value Date": "18-02-2025",
+    "Transaction Date": "18-02-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20250218163249",
+    "Withdrawal Amount (INR )": 295.65,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 10360.9
+  },
+  {
+    "S No.": 1993,
+    "Value Date": "19-02-2025",
+    "Transaction Date": "19-02-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2025036/20250219070550",
+    "Withdrawal Amount (INR )": 0.95,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 10359.95
+  },
+  {
+    "S No.": 1994,
+    "Value Date": "19-02-2025",
+    "Transaction Date": "19-02-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20250219162854",
+    "Withdrawal Amount (INR )": 160.68,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 10199.27
+  },
+  {
+    "S No.": 1995,
+    "Value Date": "20-02-2025",
+    "Transaction Date": "20-02-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/UpStream Payout/20250220075804",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 52.17,
+    "Balance (INR )": 10251.44
+  },
+  {
+    "S No.": 1996,
+    "Value Date": "20-02-2025",
+    "Transaction Date": "20-02-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "MMT/IMPS/505108116895/Savings/MURALIDHAR/HDFC Bank",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 5000,
+    "Balance (INR )": 15251.44
+  },
+  {
+    "S No.": 1997,
+    "Value Date": "20-02-2025",
+    "Transaction Date": "20-02-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20250220162451",
+    "Withdrawal Amount (INR )": 109.24,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 15142.2
+  },
+  {
+    "S No.": 1998,
+    "Value Date": "21-02-2025",
+    "Transaction Date": "21-02-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2025038/20250221082747",
+    "Withdrawal Amount (INR )": 0.41,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 15141.79
+  },
+  {
+    "S No.": 1999,
+    "Value Date": "21-02-2025",
+    "Transaction Date": "21-02-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20250221162735",
+    "Withdrawal Amount (INR )": 108.62,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 15033.17
+  },
+  {
+    "S No.": 2000,
+    "Value Date": "21-02-2025",
+    "Transaction Date": "21-02-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Tday UpStream credit/20250221175040",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 0.06,
+    "Balance (INR )": 15033.23
+  },
+  {
+    "S No.": 2001,
+    "Value Date": "23-02-2025",
+    "Transaction Date": "23-02-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "UPI/ebullion28.rzp@/PaymenttoeBulli/ICICI Bank LTD /542001503799/ACD01JMS5NZFM0",
+    "Withdrawal Amount (INR )": 2800,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 12233.23
+  },
+  {
+    "S No.": 2002,
+    "Value Date": "24-02-2025",
+    "Transaction Date": "24-02-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2025039/20250224081451",
+    "Withdrawal Amount (INR )": 0.06,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 12233.17
+  },
+  {
+    "S No.": 2003,
+    "Value Date": "24-02-2025",
+    "Transaction Date": "24-02-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2025039/20250224081451",
+    "Withdrawal Amount (INR )": 0.29,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 12232.88
+  },
+  {
+    "S No.": 2004,
+    "Value Date": "24-02-2025",
+    "Transaction Date": "24-02-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20250224164257",
+    "Withdrawal Amount (INR )": 107.42,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 12125.46
+  },
+  {
+    "S No.": 2005,
+    "Value Date": "24-02-2025",
+    "Transaction Date": "24-02-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "ACH/UNO MINDA LIMITED EQ/180995",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 32.25,
+    "Balance (INR )": 12157.71
+  },
+  {
+    "S No.": 2006,
+    "Value Date": "25-02-2025",
+    "Transaction Date": "25-02-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2025040/20250225082324",
+    "Withdrawal Amount (INR )": 0.35,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 12157.36
+  },
+  {
+    "S No.": 2007,
+    "Value Date": "25-02-2025",
+    "Transaction Date": "25-02-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20250225163245",
+    "Withdrawal Amount (INR )": 107,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 12050.36
+  },
+  {
+    "S No.": 2008,
+    "Value Date": "27-02-2025",
+    "Transaction Date": "27-02-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2025041/20250227082143",
+    "Withdrawal Amount (INR )": 0.41,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 12049.95
+  },
+  {
+    "S No.": 2009,
+    "Value Date": "27-02-2025",
+    "Transaction Date": "27-02-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20250227164201",
+    "Withdrawal Amount (INR )": 241.49,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 11808.46
+  },
+  {
+    "S No.": 2010,
+    "Value Date": "28-02-2025",
+    "Transaction Date": "28-02-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2025042/20250228083136",
+    "Withdrawal Amount (INR )": 0.78,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 11807.68
+  },
+  {
+    "S No.": 2011,
+    "Value Date": "28-02-2025",
+    "Transaction Date": "28-02-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20250228170952",
+    "Withdrawal Amount (INR )": 4584.5,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 7223.18
+  },
+  {
+    "S No.": 2012,
+    "Value Date": "28-02-2025",
+    "Transaction Date": "28-02-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Tday UpStream credit/20250228181514",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 2553.25,
+    "Balance (INR )": 9776.43
+  },
+  {
+    "S No.": 2013,
+    "Value Date": "03-03-2025",
+    "Transaction Date": "03-03-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2025043/20250303085741",
+    "Withdrawal Amount (INR )": 6.55,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 9769.88
+  },
+  {
+    "S No.": 2014,
+    "Value Date": "03-03-2025",
+    "Transaction Date": "03-03-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "MMT/IMPS/506214174156/Savings/MURALIDHAR/HDFC Bank",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 20000,
+    "Balance (INR )": 29769.88
+  },
+  {
+    "S No.": 2015,
+    "Value Date": "03-03-2025",
+    "Transaction Date": "03-03-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20250303172553",
+    "Withdrawal Amount (INR )": 1105.98,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 28663.9
+  },
+  {
+    "S No.": 2016,
+    "Value Date": "03-03-2025",
+    "Transaction Date": "03-03-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Tday UpStream credit/20250303185622",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 500,
+    "Balance (INR )": 29163.9
+  },
+  {
+    "S No.": 2017,
+    "Value Date": "04-03-2025",
+    "Transaction Date": "04-03-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2025044/20250304085406",
+    "Withdrawal Amount (INR )": 1.95,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 29161.95
+  },
+  {
+    "S No.": 2018,
+    "Value Date": "04-03-2025",
+    "Transaction Date": "04-03-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20250304170333",
+    "Withdrawal Amount (INR )": 2489.51,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 26672.44
+  },
+  {
+    "S No.": 2019,
+    "Value Date": "04-03-2025",
+    "Transaction Date": "04-03-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/IBKR Subscription/20250304174504",
+    "Withdrawal Amount (INR )": 1178.82,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 25493.62
+  },
+  {
+    "S No.": 2020,
+    "Value Date": "04-03-2025",
+    "Transaction Date": "04-03-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Tday UpStream credit/20250304180215",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 1466.15,
+    "Balance (INR )": 26959.77
+  },
+  {
+    "S No.": 2021,
+    "Value Date": "05-03-2025",
+    "Transaction Date": "05-03-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2025045/20250305081136",
+    "Withdrawal Amount (INR )": 3.3,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 26956.47
+  },
+  {
+    "S No.": 2022,
+    "Value Date": "05-03-2025",
+    "Transaction Date": "05-03-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20250305162636",
+    "Withdrawal Amount (INR )": 105.3,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 26851.17
+  },
+  {
+    "S No.": 2023,
+    "Value Date": "06-03-2025",
+    "Transaction Date": "06-03-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2025046/20250306080730",
+    "Withdrawal Amount (INR )": 0.34,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 26850.83
+  },
+  {
+    "S No.": 2024,
+    "Value Date": "06-03-2025",
+    "Transaction Date": "06-03-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20250306161728",
+    "Withdrawal Amount (INR )": 1604.17,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 25246.66
+  },
+  {
+    "S No.": 2025,
+    "Value Date": "06-03-2025",
+    "Transaction Date": "06-03-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "MMT/IMPS/506517373395/261783322897985/eBullion L/D",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 3514.9,
+    "Balance (INR )": 28761.56
+  },
+  {
+    "S No.": 2026,
+    "Value Date": "06-03-2025",
+    "Transaction Date": "06-03-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "MMT/IMPS/506517373421/261791875337103/eBullion L/D",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 2806.88,
+    "Balance (INR )": 31568.44
+  },
+  {
+    "S No.": 2027,
+    "Value Date": "06-03-2025",
+    "Transaction Date": "06-03-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Tday UpStream credit/20250306173458",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 1088.31,
+    "Balance (INR )": 32656.75
+  },
+  {
+    "S No.": 2028,
+    "Value Date": "07-03-2025",
+    "Transaction Date": "07-03-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2025047/20250307082217",
+    "Withdrawal Amount (INR )": 1.66,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 32655.09
+  },
+  {
+    "S No.": 2029,
+    "Value Date": "07-03-2025",
+    "Transaction Date": "07-03-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "MMT/IMPS/506615416120/Savings/MURALIDHAR/HDFC00001",
+    "Withdrawal Amount (INR )": 6005.9,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 26649.19
+  },
+  {
+    "S No.": 2030,
+    "Value Date": "07-03-2025",
+    "Transaction Date": "07-03-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20250307161831",
+    "Withdrawal Amount (INR )": 1405.29,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 25243.9
+  },
+  {
+    "S No.": 2031,
+    "Value Date": "07-03-2025",
+    "Transaction Date": "07-03-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Tday UpStream credit/20250307172212",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 1193.29,
+    "Balance (INR )": 26437.19
+  },
+  {
+    "S No.": 2032,
+    "Value Date": "10-03-2025",
+    "Transaction Date": "10-03-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2025048/20250310085000",
+    "Withdrawal Amount (INR )": 0.68,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 26436.51
+  },
+  {
+    "S No.": 2033,
+    "Value Date": "10-03-2025",
+    "Transaction Date": "10-03-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20250310162909",
+    "Withdrawal Amount (INR )": 1951.99,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 24484.52
+  },
+  {
+    "S No.": 2034,
+    "Value Date": "10-03-2025",
+    "Transaction Date": "10-03-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "MMT/IMPS/506917473202/210175389269078/eBullion L/D",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 469,
+    "Balance (INR )": 24953.52
+  },
+  {
+    "S No.": 2035,
+    "Value Date": "10-03-2025",
+    "Transaction Date": "10-03-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Tday UpStream credit/20250310180122",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 1272.25,
+    "Balance (INR )": 26225.77
+  },
+  {
+    "S No.": 2036,
+    "Value Date": "11-03-2025",
+    "Transaction Date": "11-03-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2025049/20250311084255",
+    "Withdrawal Amount (INR )": 2.19,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 26223.58
+  },
+  {
+    "S No.": 2037,
+    "Value Date": "11-03-2025",
+    "Transaction Date": "11-03-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20250311162634",
+    "Withdrawal Amount (INR )": 2981.07,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 23242.51
+  },
+  {
+    "S No.": 2038,
+    "Value Date": "11-03-2025",
+    "Transaction Date": "11-03-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Tday UpStream credit/20250311172759",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 1466.85,
+    "Balance (INR )": 24709.36
+  },
+  {
+    "S No.": 2039,
+    "Value Date": "12-03-2025",
+    "Transaction Date": "12-03-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2025050/20250312082304",
+    "Withdrawal Amount (INR )": 4.88,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 24704.48
+  },
+  {
+    "S No.": 2040,
+    "Value Date": "12-03-2025",
+    "Transaction Date": "12-03-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20250312165730",
+    "Withdrawal Amount (INR )": 6003.68,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 18700.8
+  },
+  {
+    "S No.": 2041,
+    "Value Date": "12-03-2025",
+    "Transaction Date": "12-03-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Tday UpStream credit/20250312175305",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 2493.3,
+    "Balance (INR )": 21194.1
+  },
+  {
+    "S No.": 2042,
+    "Value Date": "12-03-2025",
+    "Transaction Date": "12-03-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "DTK/507118807330/Upload token/XX12/Pu",
+    "Withdrawal Amount (INR )": 10,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 21184.1
+  },
+  {
+    "S No.": 2043,
+    "Value Date": "13-03-2025",
+    "Transaction Date": "13-03-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2025051/20250313080108",
+    "Withdrawal Amount (INR )": 12.32,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 21171.78
+  },
+  {
+    "S No.": 2044,
+    "Value Date": "13-03-2025",
+    "Transaction Date": "13-03-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20250313162236",
+    "Withdrawal Amount (INR )": 2591.62,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 18580.16
+  },
+  {
+    "S No.": 2045,
+    "Value Date": "13-03-2025",
+    "Transaction Date": "13-03-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Tday UpStream credit/20250313174540",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 1376.25,
+    "Balance (INR )": 19956.41
+  },
+  {
+    "S No.": 2046,
+    "Value Date": "15-03-2025",
+    "Transaction Date": "15-03-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2025052/20250315072942",
+    "Withdrawal Amount (INR )": 3.92,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 19952.49
+  },
+  {
+    "S No.": 2047,
+    "Value Date": "17-03-2025",
+    "Transaction Date": "17-03-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20250317163934",
+    "Withdrawal Amount (INR )": 353.39,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 19599.1
+  },
+  {
+    "S No.": 2048,
+    "Value Date": "18-03-2025",
+    "Transaction Date": "18-03-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2025053/20250318071900",
+    "Withdrawal Amount (INR )": 1.14,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 19597.96
+  },
+  {
+    "S No.": 2049,
+    "Value Date": "18-03-2025",
+    "Transaction Date": "18-03-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20250318162148",
+    "Withdrawal Amount (INR )": 2137.34,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 17460.62
+  },
+  {
+    "S No.": 2050,
+    "Value Date": "19-03-2025",
+    "Transaction Date": "19-03-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2025054/20250319065956",
+    "Withdrawal Amount (INR )": 6.89,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 17453.73
+  },
+  {
+    "S No.": 2051,
+    "Value Date": "19-03-2025",
+    "Transaction Date": "19-03-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20250319162418",
+    "Withdrawal Amount (INR )": 192.02,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 17261.71
+  },
+  {
+    "S No.": 2052,
+    "Value Date": "20-03-2025",
+    "Transaction Date": "20-03-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2025055/20250320064833",
+    "Withdrawal Amount (INR )": 0.62,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 17261.09
+  },
+  {
+    "S No.": 2053,
+    "Value Date": "20-03-2025",
+    "Transaction Date": "20-03-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20250320161537",
+    "Withdrawal Amount (INR )": 109.48,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 17151.61
+  },
+  {
+    "S No.": 2054,
+    "Value Date": "21-03-2025",
+    "Transaction Date": "21-03-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2025056/20250321065356",
+    "Withdrawal Amount (INR )": 0.35,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 17151.26
+  },
+  {
+    "S No.": 2055,
+    "Value Date": "21-03-2025",
+    "Transaction Date": "21-03-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20250321161629",
+    "Withdrawal Amount (INR )": 111,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 17040.26
+  },
+  {
+    "S No.": 2056,
+    "Value Date": "24-03-2025",
+    "Transaction Date": "24-03-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2025057/20250324065500",
+    "Withdrawal Amount (INR )": 0.36,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 17039.9
+  },
+  {
+    "S No.": 2057,
+    "Value Date": "24-03-2025",
+    "Transaction Date": "24-03-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20250324163035",
+    "Withdrawal Amount (INR )": 112.86,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 16927.04
+  },
+  {
+    "S No.": 2058,
+    "Value Date": "25-03-2025",
+    "Transaction Date": "25-03-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2025058/20250325065835",
+    "Withdrawal Amount (INR )": 0.36,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 16926.68
+  },
+  {
+    "S No.": 2059,
+    "Value Date": "25-03-2025",
+    "Transaction Date": "25-03-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20250325162218",
+    "Withdrawal Amount (INR )": 111.54,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 16815.14
+  },
+  {
+    "S No.": 2060,
+    "Value Date": "26-03-2025",
+    "Transaction Date": "26-03-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2025059/20250326065836",
+    "Withdrawal Amount (INR )": 0.36,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 16814.78
+  },
+  {
+    "S No.": 2061,
+    "Value Date": "26-03-2025",
+    "Transaction Date": "26-03-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20250326161556",
+    "Withdrawal Amount (INR )": 112.06,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 16702.72
+  },
+  {
+    "S No.": 2062,
+    "Value Date": "27-03-2025",
+    "Transaction Date": "27-03-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2025060/20250327070411",
+    "Withdrawal Amount (INR )": 0.36,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 16702.36
+  },
+  {
+    "S No.": 2063,
+    "Value Date": "27-03-2025",
+    "Transaction Date": "27-03-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20250327162926",
+    "Withdrawal Amount (INR )": 111.04,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 16591.32
+  },
+  {
+    "S No.": 2064,
+    "Value Date": "28-03-2025",
+    "Transaction Date": "28-03-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2025061/20250328070755",
+    "Withdrawal Amount (INR )": 0.36,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 16590.96
+  },
+  {
+    "S No.": 2065,
+    "Value Date": "28-03-2025",
+    "Transaction Date": "28-03-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20250328162127",
+    "Withdrawal Amount (INR )": 474.24,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 16116.72
+  },
+  {
+    "S No.": 2066,
+    "Value Date": "29-03-2025",
+    "Transaction Date": "29-03-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "625401070212:Int.Pd:31-12-2024 to 28-03-2025",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 129,
+    "Balance (INR )": 16245.72
+  },
+  {
+    "S No.": 2067,
+    "Value Date": "29-03-2025",
+    "Transaction Date": "29-03-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE M 2025062/20250329074842",
+    "Withdrawal Amount (INR )": 1.53,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 16244.19
+  },
+  {
+    "S No.": 2068,
+    "Value Date": "30-03-2025",
+    "Transaction Date": "30-03-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "UPI/augmontgoldtech/AugmontPayment//508911492427/ICI3c0013731ced4cd28bcea93a061",
+    "Withdrawal Amount (INR )": 980,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 15264.19
+  },
+  {
+    "S No.": 2069,
+    "Value Date": "30-03-2025",
+    "Transaction Date": "30-03-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "UPI/RVSLaugmontgoldtech/AugmontPayment//508911492427/ICI3c0013731ced4cd28bcea93",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 980,
+    "Balance (INR )": 16244.19
+  }
+]

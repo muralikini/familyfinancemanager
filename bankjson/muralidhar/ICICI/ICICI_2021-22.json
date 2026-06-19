@@ -1,0 +1,2442 @@
+[
+  {
+    "S No.": 324,
+    "Value Date": "03-04-2021",
+    "Transaction Date": "03-04-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "BIL/000083279491/CCpay/431581155139100",
+    "Withdrawal Amount (INR )": 15451.75,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 14126.05
+  },
+  {
+    "S No.": 325,
+    "Value Date": "03-04-2021",
+    "Transaction Date": "03-04-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "BIL/000083280273/Ccpay/431581155139100",
+    "Withdrawal Amount (INR )": 2000,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 12126.05
+  },
+  {
+    "S No.": 326,
+    "Value Date": "05-04-2021",
+    "Transaction Date": "05-04-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "VSI/AMAZON STAN/202104051901/109513721013/",
+    "Withdrawal Amount (INR )": 833.63,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 11292.42
+  },
+  {
+    "S No.": 327,
+    "Value Date": "12-04-2021",
+    "Transaction Date": "12-04-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE N 2021068/20210412224613",
+    "Withdrawal Amount (INR )": 4479,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 6813.42
+  },
+  {
+    "S No.": 328,
+    "Value Date": "12-04-2021",
+    "Transaction Date": "12-04-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE N 2021068/20210412224614",
+    "Withdrawal Amount (INR )": 40.28,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 6773.14
+  },
+  {
+    "S No.": 329,
+    "Value Date": "14-04-2021",
+    "Transaction Date": "14-04-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "NEFT-N104211474527033-MURALIDHAR KINI B-SAVINGS-01",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 25000,
+    "Balance (INR )": 31773.14
+  },
+  {
+    "S No.": 330,
+    "Value Date": "19-04-2021",
+    "Transaction Date": "19-04-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "BIL/000095516779/Ccpayment/431581155139100",
+    "Withdrawal Amount (INR )": 1000,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 30773.14
+  },
+  {
+    "S No.": 331,
+    "Value Date": "05-05-2021",
+    "Transaction Date": "05-05-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "VSI/AMAZON STAN/202105051610/112510767814/",
+    "Withdrawal Amount (INR )": 816.66,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 29956.48
+  },
+  {
+    "S No.": 332,
+    "Value Date": "10-05-2021",
+    "Transaction Date": "10-05-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "BIL/000110871638/Ccbill/431581155139100",
+    "Withdrawal Amount (INR )": 4773.86,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 25182.62
+  },
+  {
+    "S No.": 333,
+    "Value Date": "15-05-2021",
+    "Transaction Date": "15-05-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "BIL/000115722161/Ccpayment/431581155139100",
+    "Withdrawal Amount (INR )": 5000,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 20182.62
+  },
+  {
+    "S No.": 334,
+    "Value Date": "25-05-2021",
+    "Transaction Date": "25-05-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "BIL/000121475875/Ccdue/431581155139100",
+    "Withdrawal Amount (INR )": 2500,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 17682.62
+  },
+  {
+    "S No.": 335,
+    "Value Date": "25-05-2021",
+    "Transaction Date": "25-05-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Prm-Prt Subscription/20210525180027",
+    "Withdrawal Amount (INR )": 2948.82,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 14733.8
+  },
+  {
+    "S No.": 336,
+    "Value Date": "26-05-2021",
+    "Transaction Date": "26-05-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "NEFT-N146211513114570-MURALIDHAR KINI B-INVEST IN EQUITY-01331140014684-HDFC000",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 490000,
+    "Balance (INR )": 504733.8
+  },
+  {
+    "S No.": 337,
+    "Value Date": "26-05-2021",
+    "Transaction Date": "26-05-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "MMT/IMPS/114614172416/Savings/MURALIDHAR/HDFC Bank",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 45000,
+    "Balance (INR )": 549733.8
+  },
+  {
+    "S No.": 338,
+    "Value Date": "27-05-2021",
+    "Transaction Date": "27-05-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "MMT/IMPS/114708358222/Savings/MURALIDHAR/HDFC Bank",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 20000,
+    "Balance (INR )": 569733.8
+  },
+  {
+    "S No.": 339,
+    "Value Date": "27-05-2021",
+    "Transaction Date": "27-05-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/PUR_PRIME299/20210527155012",
+    "Withdrawal Amount (INR )": 352.82,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 569380.98
+  },
+  {
+    "S No.": 340,
+    "Value Date": "27-05-2021",
+    "Transaction Date": "27-05-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE N 2021098/20210527233747",
+    "Withdrawal Amount (INR )": 549049.05,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 20331.93
+  },
+  {
+    "S No.": 341,
+    "Value Date": "28-05-2021",
+    "Transaction Date": "28-05-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "MMT/IMPS/114813367823/Equity savings/MURALIDHAR/HD",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 100000,
+    "Balance (INR )": 120331.93
+  },
+  {
+    "S No.": 342,
+    "Value Date": "29-05-2021",
+    "Transaction Date": "29-05-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE N 2021099/20210529130450",
+    "Withdrawal Amount (INR )": 96263.95,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 24067.98
+  },
+  {
+    "S No.": 343,
+    "Value Date": "29-05-2021",
+    "Transaction Date": "29-05-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE N 2021099/20210529130450",
+    "Withdrawal Amount (INR )": 417.31,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 23650.67
+  },
+  {
+    "S No.": 344,
+    "Value Date": "02-06-2021",
+    "Transaction Date": "02-06-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "BIL/000127169787/Ccpay/431581155139100",
+    "Withdrawal Amount (INR )": 2586.62,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 21064.05
+  },
+  {
+    "S No.": 345,
+    "Value Date": "02-06-2021",
+    "Transaction Date": "02-06-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "MMT/IMPS/115307352811/Savings/MURALIDHAR/HDFC Bank",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 80000,
+    "Balance (INR )": 101064.05
+  },
+  {
+    "S No.": 346,
+    "Value Date": "04-06-2021",
+    "Transaction Date": "04-06-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE N 2021104/20210604220847",
+    "Withdrawal Amount (INR )": 61784.9,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 39279.15
+  },
+  {
+    "S No.": 347,
+    "Value Date": "04-06-2021",
+    "Transaction Date": "04-06-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE N 2021104/20210604220847",
+    "Withdrawal Amount (INR )": 285.26,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 38993.89
+  },
+  {
+    "S No.": 348,
+    "Value Date": "05-06-2021",
+    "Transaction Date": "05-06-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "VSI/AMAZON STAN/202106050958/115604276178/",
+    "Withdrawal Amount (INR )": 822.88,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 38171.01
+  },
+  {
+    "S No.": 349,
+    "Value Date": "09-06-2021",
+    "Transaction Date": "09-06-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "SMSChgsApr21-Jun21+GST",
+    "Withdrawal Amount (INR )": 17.7,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 38153.31
+  },
+  {
+    "S No.": 350,
+    "Value Date": "16-06-2021",
+    "Transaction Date": "16-06-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "NEFT-N167211535334684-MURALIDHAR KINI B-SAVINGS-01",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 50000,
+    "Balance (INR )": 88153.31
+  },
+  {
+    "S No.": 351,
+    "Value Date": "16-06-2021",
+    "Transaction Date": "16-06-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE N 2021112/20210616222933",
+    "Withdrawal Amount (INR )": 1262.26,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 86891.05
+  },
+  {
+    "S No.": 352,
+    "Value Date": "17-06-2021",
+    "Transaction Date": "17-06-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE T 2021111/20210617082417",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 73075.51,
+    "Balance (INR )": 159966.56
+  },
+  {
+    "S No.": 353,
+    "Value Date": "17-06-2021",
+    "Transaction Date": "17-06-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE N 2021112/20210617084004",
+    "Withdrawal Amount (INR )": 8737.74,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 151228.82
+  },
+  {
+    "S No.": 354,
+    "Value Date": "17-06-2021",
+    "Transaction Date": "17-06-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE N 2021112/20210617084004",
+    "Withdrawal Amount (INR )": 64337.77,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 86891.05
+  },
+  {
+    "S No.": 355,
+    "Value Date": "29-06-2021",
+    "Transaction Date": "29-06-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "ACH/TCPLDivid29062021/509539",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 162,
+    "Balance (INR )": 87053.05
+  },
+  {
+    "S No.": 356,
+    "Value Date": "30-06-2021",
+    "Transaction Date": "30-06-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "625401070212:Int.Pd:30-03-2021 to 29-06-2021",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 331,
+    "Balance (INR )": 87384.05
+  },
+  {
+    "S No.": 357,
+    "Value Date": "01-07-2021",
+    "Transaction Date": "01-07-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "ACH/TATACOMM DIV 2020-21/00000000000000075445",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 798,
+    "Balance (INR )": 88182.05
+  },
+  {
+    "S No.": 358,
+    "Value Date": "05-07-2021",
+    "Transaction Date": "05-07-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "BIL/000151608044/ICICI BANK CREDIT CA/431581155139",
+    "Withdrawal Amount (INR )": 3749,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 84433.05
+  },
+  {
+    "S No.": 359,
+    "Value Date": "05-07-2021",
+    "Transaction Date": "05-07-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "ACH/Info Edge (India) Li/00000000000000153683",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 40,
+    "Balance (INR )": 84473.05
+  },
+  {
+    "S No.": 360,
+    "Value Date": "05-07-2021",
+    "Transaction Date": "05-07-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "VSI/AMAZON STAN/202107051944/118614663663/",
+    "Withdrawal Amount (INR )": 818.76,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 83654.29
+  },
+  {
+    "S No.": 361,
+    "Value Date": "08-07-2021",
+    "Transaction Date": "08-07-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "ACH/THE SUPREME INDUSTRI/SU20FIN02021WN51572",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 170,
+    "Balance (INR )": 83824.29
+  },
+  {
+    "S No.": 362,
+    "Value Date": "14-07-2021",
+    "Transaction Date": "14-07-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE N 2021132/20210714214530",
+    "Withdrawal Amount (INR )": 47530.4,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 36293.89
+  },
+  {
+    "S No.": 363,
+    "Value Date": "14-07-2021",
+    "Transaction Date": "14-07-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE N 2021132/20210714214530",
+    "Withdrawal Amount (INR )": 208.17,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 36085.72
+  },
+  {
+    "S No.": 364,
+    "Value Date": "19-07-2021",
+    "Transaction Date": "19-07-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "NEFT-N199211570247597-NANDAN B-LOAN-01571140017421",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 100,
+    "Balance (INR )": 36185.72
+  },
+  {
+    "S No.": 365,
+    "Value Date": "19-07-2021",
+    "Transaction Date": "19-07-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "MMT/IMPS/119914391573/Loan/NANDAN B /HDFC Bank",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 49900,
+    "Balance (INR )": 86085.72
+  },
+  {
+    "S No.": 366,
+    "Value Date": "19-07-2021",
+    "Transaction Date": "19-07-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE N 2021135/20210719232356",
+    "Withdrawal Amount (INR )": 4390.5,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 81695.22
+  },
+  {
+    "S No.": 367,
+    "Value Date": "19-07-2021",
+    "Transaction Date": "19-07-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE N 2021135/20210719232357",
+    "Withdrawal Amount (INR )": 30.66,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 81664.56
+  },
+  {
+    "S No.": 368,
+    "Value Date": "20-07-2021",
+    "Transaction Date": "20-07-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE N 2021136/20210720230233",
+    "Withdrawal Amount (INR )": 15590.79,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 66073.77
+  },
+  {
+    "S No.": 369,
+    "Value Date": "22-07-2021",
+    "Transaction Date": "22-07-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "ACH/HDFC DIV 2020-21/00000000000000283669",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 230,
+    "Balance (INR )": 66303.77
+  },
+  {
+    "S No.": 370,
+    "Value Date": "23-07-2021",
+    "Transaction Date": "23-07-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "ATD/Auto Debit CC0xx4084",
+    "Withdrawal Amount (INR )": 0.17,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 66303.6
+  },
+  {
+    "S No.": 371,
+    "Value Date": "26-07-2021",
+    "Transaction Date": "26-07-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "ACH/BAJAJ FINANCE LIMITE/3217435",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 50,
+    "Balance (INR )": 66353.6
+  },
+  {
+    "S No.": 372,
+    "Value Date": "27-07-2021",
+    "Transaction Date": "27-07-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "DCardfee5768JUL21-JUN22+GST",
+    "Withdrawal Amount (INR )": 706.82,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 65646.78
+  },
+  {
+    "S No.": 373,
+    "Value Date": "27-07-2021",
+    "Transaction Date": "27-07-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE N 2021140/20210727221249",
+    "Withdrawal Amount (INR )": 11846,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 53800.78
+  },
+  {
+    "S No.": 374,
+    "Value Date": "27-07-2021",
+    "Transaction Date": "27-07-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE N 2021140/20210727221250",
+    "Withdrawal Amount (INR )": 61.43,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 53739.35
+  },
+  {
+    "S No.": 375,
+    "Value Date": "28-07-2021",
+    "Transaction Date": "28-07-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "ACH/TRENT DIV2020-21/00000000000000073520",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 18,
+    "Balance (INR )": 53757.35
+  },
+  {
+    "S No.": 376,
+    "Value Date": "29-07-2021",
+    "Transaction Date": "29-07-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE N 2021142/20210729221942",
+    "Withdrawal Amount (INR )": 4824,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 48933.35
+  },
+  {
+    "S No.": 377,
+    "Value Date": "29-07-2021",
+    "Transaction Date": "29-07-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE N 2021142/20210729221942",
+    "Withdrawal Amount (INR )": 35.68,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 48897.67
+  },
+  {
+    "S No.": 378,
+    "Value Date": "03-08-2021",
+    "Transaction Date": "03-08-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "MMT/IMPS/121517846286/Indwealth Bank /Cashfree P/K",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 1,
+    "Balance (INR )": 48898.67
+  },
+  {
+    "S No.": 379,
+    "Value Date": "04-08-2021",
+    "Transaction Date": "04-08-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "CMS/ZYDUS WELLNESS/FINAL DIV 2020-21",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 50,
+    "Balance (INR )": 48948.67
+  },
+  {
+    "S No.": 380,
+    "Value Date": "05-08-2021",
+    "Transaction Date": "05-08-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "ACH/TCSINTDiv05082021/1023255",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 56,
+    "Balance (INR )": 49004.67
+  },
+  {
+    "S No.": 381,
+    "Value Date": "05-08-2021",
+    "Transaction Date": "05-08-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "VSI/AMAZON STAN/202108051442/121709900015/",
+    "Withdrawal Amount (INR )": 845.35,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 48159.32
+  },
+  {
+    "S No.": 382,
+    "Value Date": "06-08-2021",
+    "Transaction Date": "06-08-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "ACH/TCI EXPRESS LIMITED/00000000000001428897",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 40,
+    "Balance (INR )": 48199.32
+  },
+  {
+    "S No.": 383,
+    "Value Date": "09-08-2021",
+    "Transaction Date": "09-08-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "BIL/NEFT/000179793047/MURALIDHAR/HDFC0000133",
+    "Withdrawal Amount (INR )": 15000,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 33199.32
+  },
+  {
+    "S No.": 384,
+    "Value Date": "09-08-2021",
+    "Transaction Date": "09-08-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "BIL/ONL/000180593105/manochatec/593371080921061",
+    "Withdrawal Amount (INR )": 1000,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 32199.32
+  },
+  {
+    "S No.": 385,
+    "Value Date": "09-08-2021",
+    "Transaction Date": "09-08-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE N 2021149/20210809212617",
+    "Withdrawal Amount (INR )": 1663.95,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 30535.37
+  },
+  {
+    "S No.": 386,
+    "Value Date": "09-08-2021",
+    "Transaction Date": "09-08-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE N 2021149/20210809212617",
+    "Withdrawal Amount (INR )": 14.79,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 30520.58
+  },
+  {
+    "S No.": 387,
+    "Value Date": "11-08-2021",
+    "Transaction Date": "11-08-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE N 2021151/20210811214638",
+    "Withdrawal Amount (INR )": 4572.1,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 25948.48
+  },
+  {
+    "S No.": 388,
+    "Value Date": "11-08-2021",
+    "Transaction Date": "11-08-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE N 2021151/20210811214638",
+    "Withdrawal Amount (INR )": 41.63,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 25906.85
+  },
+  {
+    "S No.": 389,
+    "Value Date": "12-08-2021",
+    "Transaction Date": "12-08-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "ACH/LARSEN & TOUBRO LIMI/00000000000015125287",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 360,
+    "Balance (INR )": 26266.85
+  },
+  {
+    "S No.": 390,
+    "Value Date": "17-08-2021",
+    "Transaction Date": "17-08-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE N 2021154/20210817090237",
+    "Withdrawal Amount (INR )": 901.1,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 25365.75
+  },
+  {
+    "S No.": 391,
+    "Value Date": "23-08-2021",
+    "Transaction Date": "23-08-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "ATD/Auto Debit CC0xx4084",
+    "Withdrawal Amount (INR )": 9304.46,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 16061.29
+  },
+  {
+    "S No.": 392,
+    "Value Date": "23-08-2021",
+    "Transaction Date": "23-08-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Prm-Prt Subscription/20210823180005",
+    "Withdrawal Amount (INR )": 2948.82,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 13112.47
+  },
+  {
+    "S No.": 393,
+    "Value Date": "24-08-2021",
+    "Transaction Date": "24-08-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "ACH/Minda Industries Ltd/00000000000000068937",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 21.5,
+    "Balance (INR )": 13133.97
+  },
+  {
+    "S No.": 394,
+    "Value Date": "24-08-2021",
+    "Transaction Date": "24-08-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "NEFT-AXISP00219767318-ERIS LIFESCIENCE LTD INTERIM DIVID-38482-921020030719989-",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 120.2,
+    "Balance (INR )": 13254.17
+  },
+  {
+    "S No.": 395,
+    "Value Date": "26-08-2021",
+    "Transaction Date": "26-08-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "ACH/KOTAK MAHINDRA BANK/4123779",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 10.8,
+    "Balance (INR )": 13264.97
+  },
+  {
+    "S No.": 396,
+    "Value Date": "31-08-2021",
+    "Transaction Date": "31-08-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "ACH/TIMKEN INDIA LIMITED/00000000000000042162",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 22.5,
+    "Balance (INR )": 13287.47
+  },
+  {
+    "S No.": 397,
+    "Value Date": "02-09-2021",
+    "Transaction Date": "02-09-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "NEFT-N245211621408425-MURALIDHAR KINI B-CC PAYMENT",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 30000,
+    "Balance (INR )": 43287.47
+  },
+  {
+    "S No.": 398,
+    "Value Date": "02-09-2021",
+    "Transaction Date": "02-09-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE N 2021164/20210902084438",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 42653.36,
+    "Balance (INR )": 85940.83
+  },
+  {
+    "S No.": 399,
+    "Value Date": "02-09-2021",
+    "Transaction Date": "02-09-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSDL CDSL Chg_010921/20210902090101",
+    "Withdrawal Amount (INR )": 62.64,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 85878.19
+  },
+  {
+    "S No.": 400,
+    "Value Date": "02-09-2021",
+    "Transaction Date": "02-09-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSDL CDSL Chg_010921/20210902090102",
+    "Withdrawal Amount (INR )": 8.16,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 85870.03
+  },
+  {
+    "S No.": 401,
+    "Value Date": "02-09-2021",
+    "Transaction Date": "02-09-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "BIL/000198444691/Ccpayment/431581155139100",
+    "Withdrawal Amount (INR )": 9863,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 76007.03
+  },
+  {
+    "S No.": 402,
+    "Value Date": "06-09-2021",
+    "Transaction Date": "06-09-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "VSI/AMAZON STAN/202109051131/124806790369/",
+    "Withdrawal Amount (INR )": 832.39,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 75174.64
+  },
+  {
+    "S No.": 403,
+    "Value Date": "06-09-2021",
+    "Transaction Date": "06-09-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "ACH/Page Industries Limi/00000000000000069495",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 100,
+    "Balance (INR )": 75274.64
+  },
+  {
+    "S No.": 404,
+    "Value Date": "14-09-2021",
+    "Transaction Date": "14-09-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE N 2021173/20210914223812",
+    "Withdrawal Amount (INR )": 950.24,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 74324.4
+  },
+  {
+    "S No.": 405,
+    "Value Date": "20-09-2021",
+    "Transaction Date": "20-09-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "SMSChgsJul21-Sep21+GST",
+    "Withdrawal Amount (INR )": 17.7,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 74306.7
+  },
+  {
+    "S No.": 406,
+    "Value Date": "22-09-2021",
+    "Transaction Date": "22-09-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE N 2021179/20210922212108",
+    "Withdrawal Amount (INR )": 544.5,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 73762.2
+  },
+  {
+    "S No.": 407,
+    "Value Date": "22-09-2021",
+    "Transaction Date": "22-09-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE N 2021179/20210922212108",
+    "Withdrawal Amount (INR )": 4.83,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 73757.37
+  },
+  {
+    "S No.": 408,
+    "Value Date": "24-09-2021",
+    "Transaction Date": "24-09-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "ACH/CEATDiv24092021/102976",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 216,
+    "Balance (INR )": 73973.37
+  },
+  {
+    "S No.": 409,
+    "Value Date": "28-09-2021",
+    "Transaction Date": "28-09-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/BSE N 202122122/20210928082130",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 68642.6,
+    "Balance (INR )": 142615.97
+  },
+  {
+    "S No.": 410,
+    "Value Date": "28-09-2021",
+    "Transaction Date": "28-09-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSDL CDSL Chg_250921/20210928094823",
+    "Withdrawal Amount (INR )": 23.6,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 142592.37
+  },
+  {
+    "S No.": 411,
+    "Value Date": "30-09-2021",
+    "Transaction Date": "30-09-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "625401070212:Int.Pd:30-06-2021 to 29-09-2021",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 438,
+    "Balance (INR )": 143030.37
+  },
+  {
+    "S No.": 412,
+    "Value Date": "04-10-2021",
+    "Transaction Date": "04-10-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "ATD/Auto Debit CC0xx4084",
+    "Withdrawal Amount (INR )": 471.14,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 142559.23
+  },
+  {
+    "S No.": 413,
+    "Value Date": "04-10-2021",
+    "Transaction Date": "04-10-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "ACH/PI INDUSTRIES LTD/2398338",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 20,
+    "Balance (INR )": 142579.23
+  },
+  {
+    "S No.": 414,
+    "Value Date": "06-10-2021",
+    "Transaction Date": "06-10-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "BIL/000225536788/Ccpayment/431581155139100",
+    "Withdrawal Amount (INR )": 9000,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 133579.23
+  },
+  {
+    "S No.": 415,
+    "Value Date": "16-10-2021",
+    "Transaction Date": "16-10-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "ACH/DIXON TECHNOLOGIES/655634",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 5,
+    "Balance (INR )": 133584.23
+  },
+  {
+    "S No.": 416,
+    "Value Date": "16-10-2021",
+    "Transaction Date": "16-10-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "ACH/Ambika Cotton Mills/00000000000000016151",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 735,
+    "Balance (INR )": 134319.23
+  },
+  {
+    "S No.": 417,
+    "Value Date": "18-10-2021",
+    "Transaction Date": "18-10-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "ACH/CONTAINER CORPORATIO/C220921087626",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 138,
+    "Balance (INR )": 134457.23
+  },
+  {
+    "S No.": 418,
+    "Value Date": "18-10-2021",
+    "Transaction Date": "18-10-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSDL CDSL Chg_151021/20211018231825",
+    "Withdrawal Amount (INR )": 23.6,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 134433.63
+  },
+  {
+    "S No.": 419,
+    "Value Date": "18-10-2021",
+    "Transaction Date": "18-10-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE N 2021196/20211018232405",
+    "Withdrawal Amount (INR )": 5505.92,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 128927.71
+  },
+  {
+    "S No.": 420,
+    "Value Date": "20-10-2021",
+    "Transaction Date": "20-10-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE N 2021195/20211020082341",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 21266.77,
+    "Balance (INR )": 150194.48
+  },
+  {
+    "S No.": 421,
+    "Value Date": "20-10-2021",
+    "Transaction Date": "20-10-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE N 2021196/20211020084123",
+    "Withdrawal Amount (INR )": 21266.77,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 128927.71
+  },
+  {
+    "S No.": 422,
+    "Value Date": "21-10-2021",
+    "Transaction Date": "21-10-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "VIN/AMAZON /202110210751/129402391271/",
+    "Withdrawal Amount (INR )": 817.87,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 128109.84
+  },
+  {
+    "S No.": 423,
+    "Value Date": "21-10-2021",
+    "Transaction Date": "21-10-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE N 2021199/20211021230906",
+    "Withdrawal Amount (INR )": 2200.35,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 125909.49
+  },
+  {
+    "S No.": 424,
+    "Value Date": "27-10-2021",
+    "Transaction Date": "27-10-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "DMC/IN30302871522823 DP CHGS TILL SEP-21",
+    "Withdrawal Amount (INR )": 826,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 125083.49
+  },
+  {
+    "S No.": 425,
+    "Value Date": "27-10-2021",
+    "Transaction Date": "27-10-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/PUR-BHARTI AIRTEL LT/20211027182801",
+    "Withdrawal Amount (INR )": 535,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 124548.49
+  },
+  {
+    "S No.": 426,
+    "Value Date": "01-11-2021",
+    "Transaction Date": "01-11-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "BIL/000245883514/ICICI BANK CREDIT CA/431581155139",
+    "Withdrawal Amount (INR )": 7075.42,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 117473.07
+  },
+  {
+    "S No.": 427,
+    "Value Date": "03-11-2021",
+    "Transaction Date": "03-11-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "CMS/TATA CONSULTANCE/2nd INTERIM DIVIDEND 2021-202",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 56,
+    "Balance (INR )": 117529.07
+  },
+  {
+    "S No.": 428,
+    "Value Date": "10-11-2021",
+    "Transaction Date": "10-11-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "BIL/000253965544/Ccbill/431581155139100",
+    "Withdrawal Amount (INR )": 10000,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 107529.07
+  },
+  {
+    "S No.": 429,
+    "Value Date": "12-11-2021",
+    "Transaction Date": "12-11-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "ACH/TCIEXPRESSLIMITED/00000000000001531047",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 60,
+    "Balance (INR )": 107589.07
+  },
+  {
+    "S No.": 430,
+    "Value Date": "15-11-2021",
+    "Transaction Date": "15-11-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "ACH/Havells India Limite/174136",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 54,
+    "Balance (INR )": 107643.07
+  },
+  {
+    "S No.": 431,
+    "Value Date": "15-11-2021",
+    "Transaction Date": "15-11-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "TRF TO FD no. 625413019153",
+    "Withdrawal Amount (INR )": 5000,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 102643.07
+  },
+  {
+    "S No.": 432,
+    "Value Date": "15-11-2021",
+    "Transaction Date": "15-11-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "TRF TO FD no. 625413019155",
+    "Withdrawal Amount (INR )": 5000,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 97643.07
+  },
+  {
+    "S No.": 433,
+    "Value Date": "15-11-2021",
+    "Transaction Date": "15-11-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "TRF TO FD no. 625413019156",
+    "Withdrawal Amount (INR )": 5000,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 92643.07
+  },
+  {
+    "S No.": 434,
+    "Value Date": "15-11-2021",
+    "Transaction Date": "15-11-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "TRF TO FD no. 625413019157",
+    "Withdrawal Amount (INR )": 5000,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 87643.07
+  },
+  {
+    "S No.": 435,
+    "Value Date": "15-11-2021",
+    "Transaction Date": "15-11-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "TRF TO FD no. 625413019158",
+    "Withdrawal Amount (INR )": 5000,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 82643.07
+  },
+  {
+    "S No.": 436,
+    "Value Date": "15-11-2021",
+    "Transaction Date": "15-11-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "TRF TO FD no. 625413019159",
+    "Withdrawal Amount (INR )": 5000,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 77643.07
+  },
+  {
+    "S No.": 437,
+    "Value Date": "15-11-2021",
+    "Transaction Date": "15-11-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "TRF TO FD no. 625413019160",
+    "Withdrawal Amount (INR )": 5000,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 72643.07
+  },
+  {
+    "S No.": 438,
+    "Value Date": "15-11-2021",
+    "Transaction Date": "15-11-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "TRF TO FD no. 625413019161",
+    "Withdrawal Amount (INR )": 5000,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 67643.07
+  },
+  {
+    "S No.": 439,
+    "Value Date": "15-11-2021",
+    "Transaction Date": "15-11-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "TRF TO FD no. 625413019162",
+    "Withdrawal Amount (INR )": 5000,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 62643.07
+  },
+  {
+    "S No.": 440,
+    "Value Date": "15-11-2021",
+    "Transaction Date": "15-11-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "TRF TO FD no. 625413019163",
+    "Withdrawal Amount (INR )": 5000,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 57643.07
+  },
+  {
+    "S No.": 441,
+    "Value Date": "15-11-2021",
+    "Transaction Date": "15-11-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "TRF TO FD no. 625413019175",
+    "Withdrawal Amount (INR )": 5000,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 52643.07
+  },
+  {
+    "S No.": 442,
+    "Value Date": "15-11-2021",
+    "Transaction Date": "15-11-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "TRF TO FD no. 625413019176",
+    "Withdrawal Amount (INR )": 5000,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 47643.07
+  },
+  {
+    "S No.": 443,
+    "Value Date": "16-11-2021",
+    "Transaction Date": "16-11-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "NEFT-N320211715368452-MURALIDHAR KINI B-MONTHLY SAVINGS-01331140014684-HDFC0000",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 100000,
+    "Balance (INR )": 147643.07
+  },
+  {
+    "S No.": 444,
+    "Value Date": "16-11-2021",
+    "Transaction Date": "16-11-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE N 2021215/20211116084112",
+    "Withdrawal Amount (INR )": 996.14,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 146646.93
+  },
+  {
+    "S No.": 445,
+    "Value Date": "16-11-2021",
+    "Transaction Date": "16-11-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "TRF TO FD no. 625413019182",
+    "Withdrawal Amount (INR )": 25000,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 121646.93
+  },
+  {
+    "S No.": 446,
+    "Value Date": "16-11-2021",
+    "Transaction Date": "16-11-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "TRF TO FD no. 625413019183",
+    "Withdrawal Amount (INR )": 25000,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 96646.93
+  },
+  {
+    "S No.": 447,
+    "Value Date": "16-11-2021",
+    "Transaction Date": "16-11-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "TRF TO FD no. 625413019184",
+    "Withdrawal Amount (INR )": 25000,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 71646.93
+  },
+  {
+    "S No.": 448,
+    "Value Date": "16-11-2021",
+    "Transaction Date": "16-11-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "TRF TO FD no. 625413019185",
+    "Withdrawal Amount (INR )": 25000,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 46646.93
+  },
+  {
+    "S No.": 449,
+    "Value Date": "16-11-2021",
+    "Transaction Date": "16-11-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "ACH/CONTAINER CORPORATIO/C031121098633",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 276,
+    "Balance (INR )": 46922.93
+  },
+  {
+    "S No.": 450,
+    "Value Date": "17-11-2021",
+    "Transaction Date": "17-11-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "ACH/THE SUPREME INDUSTRI/SU20INT02022WN47865",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 60,
+    "Balance (INR )": 46982.93
+  },
+  {
+    "S No.": 451,
+    "Value Date": "17-11-2021",
+    "Transaction Date": "17-11-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "ACH/KAJARIACERAMICSLIM/00000000000000028039",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 240,
+    "Balance (INR )": 47222.93
+  },
+  {
+    "S No.": 452,
+    "Value Date": "20-11-2021",
+    "Transaction Date": "20-11-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Prm-Prt Subscription/20211120180005",
+    "Withdrawal Amount (INR )": 2948.82,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 44274.11
+  },
+  {
+    "S No.": 453,
+    "Value Date": "23-11-2021",
+    "Transaction Date": "23-11-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE N 2021219/20211123091305",
+    "Withdrawal Amount (INR )": 6249.21,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 38024.9
+  },
+  {
+    "S No.": 454,
+    "Value Date": "26-11-2021",
+    "Transaction Date": "26-11-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "ACH/LAURUS LABS LIMITED/1858014",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 40,
+    "Balance (INR )": 38064.9
+  },
+  {
+    "S No.": 455,
+    "Value Date": "29-11-2021",
+    "Transaction Date": "29-11-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "UPI/133307701445/payment on CRED/cred@axisb/Axis Bank Ltd./ACD5rWQVx2kMWa2M1lyP",
+    "Withdrawal Amount (INR )": 1230,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 36834.9
+  },
+  {
+    "S No.": 456,
+    "Value Date": "14-12-2021",
+    "Transaction Date": "14-12-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "UPI/134822885260/payment on CRED/cred@axisb/Axis Bank Ltd./ACDmZdn0r2LBN58yMEm0",
+    "Withdrawal Amount (INR )": 31000,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 5834.9
+  },
+  {
+    "S No.": 457,
+    "Value Date": "14-12-2021",
+    "Transaction Date": "14-12-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "625413019185: Rev Sweep From",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 4165.1,
+    "Balance (INR )": 10000
+  },
+  {
+    "S No.": 458,
+    "Value Date": "14-12-2021",
+    "Transaction Date": "14-12-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "625413019185: Closure Proceeds",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 5,
+    "Balance (INR )": 10005
+  },
+  {
+    "S No.": 459,
+    "Value Date": "15-12-2021",
+    "Transaction Date": "15-12-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE N 2021235/20211215085214",
+    "Withdrawal Amount (INR )": 964.52,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 9040.48
+  },
+  {
+    "S No.": 460,
+    "Value Date": "15-12-2021",
+    "Transaction Date": "15-12-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "625413019185: Rev Sweep From",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 959.52,
+    "Balance (INR )": 10000
+  },
+  {
+    "S No.": 461,
+    "Value Date": "15-12-2021",
+    "Transaction Date": "15-12-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "625413019185: Closure Proceeds",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 1,
+    "Balance (INR )": 10001
+  },
+  {
+    "S No.": 462,
+    "Value Date": "16-12-2021",
+    "Transaction Date": "16-12-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "SMSChgsOct21-Dec21+GST",
+    "Withdrawal Amount (INR )": 17.7,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 9983.3
+  },
+  {
+    "S No.": 463,
+    "Value Date": "16-12-2021",
+    "Transaction Date": "16-12-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "625413019185: Rev Sweep From",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 16.7,
+    "Balance (INR )": 10000
+  },
+  {
+    "S No.": 464,
+    "Value Date": "17-12-2021",
+    "Transaction Date": "17-12-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "BIL/NEFT/000282536646/savings/MURALIDHAR/HDFC00001",
+    "Withdrawal Amount (INR )": 50000,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": -40000
+  },
+  {
+    "S No.": 465,
+    "Value Date": "17-12-2021",
+    "Transaction Date": "17-12-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "625413019185: Rev Sweep From",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 19858.68,
+    "Balance (INR )": -20141.32
+  },
+  {
+    "S No.": 466,
+    "Value Date": "17-12-2021",
+    "Transaction Date": "17-12-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "625413019184: Rev Sweep From",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 25000,
+    "Balance (INR )": 4858.68
+  },
+  {
+    "S No.": 467,
+    "Value Date": "17-12-2021",
+    "Transaction Date": "17-12-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "625413019183: Rev Sweep From",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 5046.07,
+    "Balance (INR )": 9904.75
+  },
+  {
+    "S No.": 468,
+    "Value Date": "17-12-2021",
+    "Transaction Date": "17-12-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "625413019183: Closure Proceeds",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 8,
+    "Balance (INR )": 9912.75
+  },
+  {
+    "S No.": 469,
+    "Value Date": "17-12-2021",
+    "Transaction Date": "17-12-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "625413019184: Closure Proceeds",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 42,
+    "Balance (INR )": 9954.75
+  },
+  {
+    "S No.": 470,
+    "Value Date": "17-12-2021",
+    "Transaction Date": "17-12-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "625413019185: Closure Proceeds",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 34,
+    "Balance (INR )": 9988.75
+  },
+  {
+    "S No.": 471,
+    "Value Date": "18-12-2021",
+    "Transaction Date": "18-12-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "625413019183: Rev Sweep From",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 11.25,
+    "Balance (INR )": 10000
+  },
+  {
+    "S No.": 472,
+    "Value Date": "20-12-2021",
+    "Transaction Date": "20-12-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "BIL/NEFT/000283685414/Savings Funds/MURALIDHAR/HDF",
+    "Withdrawal Amount (INR )": 30000,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": -20000
+  },
+  {
+    "S No.": 473,
+    "Value Date": "20-12-2021",
+    "Transaction Date": "20-12-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "625413019183: Rev Sweep From",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 19942.68,
+    "Balance (INR )": -57.32
+  },
+  {
+    "S No.": 474,
+    "Value Date": "20-12-2021",
+    "Transaction Date": "20-12-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "625413019182: Rev Sweep From",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 10010.88,
+    "Balance (INR )": 9953.56
+  },
+  {
+    "S No.": 475,
+    "Value Date": "20-12-2021",
+    "Transaction Date": "20-12-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "625413019182: Closure Proceeds",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 18,
+    "Balance (INR )": 9971.56
+  },
+  {
+    "S No.": 476,
+    "Value Date": "20-12-2021",
+    "Transaction Date": "20-12-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "625413019183: Closure Proceeds",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 36,
+    "Balance (INR )": 10007.56
+  },
+  {
+    "S No.": 477,
+    "Value Date": "24-12-2021",
+    "Transaction Date": "24-12-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "UPI/135807733769/payment on CRED/cred@axisb/Axis Bank Ltd./ACD52gDJ7x3Qmb9gkmaP",
+    "Withdrawal Amount (INR )": 9269,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 738.56
+  },
+  {
+    "S No.": 478,
+    "Value Date": "24-12-2021",
+    "Transaction Date": "24-12-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "625413019182: Rev Sweep From",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 9261.44,
+    "Balance (INR )": 10000
+  },
+  {
+    "S No.": 479,
+    "Value Date": "24-12-2021",
+    "Transaction Date": "24-12-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "625413019182: Closure Proceeds",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 19,
+    "Balance (INR )": 10019
+  },
+  {
+    "S No.": 480,
+    "Value Date": "27-12-2021",
+    "Transaction Date": "27-12-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "UPI/136107148900/payment on CRED/cred@axisb/Axis Bank Ltd./ACDBqLyPD9X5parLDlE0",
+    "Withdrawal Amount (INR )": 2000,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 8019
+  },
+  {
+    "S No.": 481,
+    "Value Date": "27-12-2021",
+    "Transaction Date": "27-12-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "625413019182: Rev Sweep From",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 1981,
+    "Balance (INR )": 10000
+  },
+  {
+    "S No.": 482,
+    "Value Date": "27-12-2021",
+    "Transaction Date": "27-12-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "625413019182: Closure Proceeds",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 4,
+    "Balance (INR )": 10004
+  },
+  {
+    "S No.": 483,
+    "Value Date": "31-12-2021",
+    "Transaction Date": "31-12-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "625401070212:Int.Pd:30-09-2021 to 30-12-2021",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 587,
+    "Balance (INR )": 10591
+  },
+  {
+    "S No.": 484,
+    "Value Date": "31-12-2021",
+    "Transaction Date": "31-12-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "IRM/USD100.0@75.78GST45/OWREM/20211231223717",
+    "Withdrawal Amount (INR )": 8803,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 1788
+  },
+  {
+    "S No.": 485,
+    "Value Date": "31-12-2021",
+    "Transaction Date": "31-12-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "625413019182: Rev Sweep From",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 3746.68,
+    "Balance (INR )": 5534.68
+  },
+  {
+    "S No.": 486,
+    "Value Date": "31-12-2021",
+    "Transaction Date": "31-12-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "625413019176: Rev Sweep From",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 4453.77,
+    "Balance (INR )": 9988.45
+  },
+  {
+    "S No.": 487,
+    "Value Date": "31-12-2021",
+    "Transaction Date": "31-12-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "625413019176: Closure Proceeds",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 559.23,
+    "Balance (INR )": 10547.68
+  },
+  {
+    "S No.": 488,
+    "Value Date": "31-12-2021",
+    "Transaction Date": "31-12-2021",
+    "Cheque Number": "-",
+    "Transaction Remarks": "625413019182: Closure Proceeds",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 9,
+    "Balance (INR )": 10556.68
+  },
+  {
+    "S No.": 489,
+    "Value Date": "10-01-2022",
+    "Transaction Date": "10-01-2022",
+    "Cheque Number": "-",
+    "Transaction Remarks": "UPI/200902772623/payment on CRED/credcc@yesbank/Yes Bank Ltd/ACDeuldvvTwVm1bpHr",
+    "Withdrawal Amount (INR )": 12000,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": -1443.32
+  },
+  {
+    "S No.": 490,
+    "Value Date": "10-01-2022",
+    "Transaction Date": "10-01-2022",
+    "Cheque Number": "-",
+    "Transaction Remarks": "UPI/200908464568/payment on CRED/credcc@yesbank/Yes Bank Ltd/ACDeuliQm1afVF67XS",
+    "Withdrawal Amount (INR )": 10,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": -1453.32
+  },
+  {
+    "S No.": 491,
+    "Value Date": "10-01-2022",
+    "Transaction Date": "10-01-2022",
+    "Cheque Number": "-",
+    "Transaction Remarks": "625413019175: Rev Sweep From",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 5000,
+    "Balance (INR )": 3546.68
+  },
+  {
+    "S No.": 492,
+    "Value Date": "10-01-2022",
+    "Transaction Date": "10-01-2022",
+    "Cheque Number": "-",
+    "Transaction Remarks": "625413019163: Rev Sweep From",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 5000,
+    "Balance (INR )": 8546.68
+  },
+  {
+    "S No.": 493,
+    "Value Date": "10-01-2022",
+    "Transaction Date": "10-01-2022",
+    "Cheque Number": "-",
+    "Transaction Remarks": "625413019162: Rev Sweep From",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 1414.96,
+    "Balance (INR )": 9961.64
+  },
+  {
+    "S No.": 494,
+    "Value Date": "10-01-2022",
+    "Transaction Date": "10-01-2022",
+    "Cheque Number": "-",
+    "Transaction Remarks": "625413019162: Closure Proceeds",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 4,
+    "Balance (INR )": 9965.64
+  },
+  {
+    "S No.": 495,
+    "Value Date": "10-01-2022",
+    "Transaction Date": "10-01-2022",
+    "Cheque Number": "-",
+    "Transaction Remarks": "625413019163: Closure Proceeds",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 15,
+    "Balance (INR )": 9980.64
+  },
+  {
+    "S No.": 496,
+    "Value Date": "10-01-2022",
+    "Transaction Date": "10-01-2022",
+    "Cheque Number": "-",
+    "Transaction Remarks": "625413019175: Closure Proceeds",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 15,
+    "Balance (INR )": 9995.64
+  },
+  {
+    "S No.": 497,
+    "Value Date": "10-01-2022",
+    "Transaction Date": "10-01-2022",
+    "Cheque Number": "-",
+    "Transaction Remarks": "625413019162: Rev Sweep From",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 4.36,
+    "Balance (INR )": 10000
+  },
+  {
+    "S No.": 498,
+    "Value Date": "17-01-2022",
+    "Transaction Date": "17-01-2022",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/EBA/EQPEAKMGN//20220117183557",
+    "Withdrawal Amount (INR )": 16030.81,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": -6030.81
+  },
+  {
+    "S No.": 499,
+    "Value Date": "17-01-2022",
+    "Transaction Date": "17-01-2022",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/EBA/EQPEAKMGN//20220117183557",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 16030.81,
+    "Balance (INR )": 10000
+  },
+  {
+    "S No.": 500,
+    "Value Date": "17-01-2022",
+    "Transaction Date": "17-01-2022",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE N 2022011/20220117225327",
+    "Withdrawal Amount (INR )": 1227.33,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 8772.67
+  },
+  {
+    "S No.": 501,
+    "Value Date": "17-01-2022",
+    "Transaction Date": "17-01-2022",
+    "Cheque Number": "-",
+    "Transaction Remarks": "625413019162: Rev Sweep From",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 1227.33,
+    "Balance (INR )": 10000
+  },
+  {
+    "S No.": 502,
+    "Value Date": "17-01-2022",
+    "Transaction Date": "17-01-2022",
+    "Cheque Number": "-",
+    "Transaction Remarks": "625413019162: Closure Proceeds",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 4,
+    "Balance (INR )": 10004
+  },
+  {
+    "S No.": 503,
+    "Value Date": "18-01-2022",
+    "Transaction Date": "18-01-2022",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSDL CDSL Chg_150122/20220118071251",
+    "Withdrawal Amount (INR )": 70.8,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 9933.2
+  },
+  {
+    "S No.": 504,
+    "Value Date": "18-01-2022",
+    "Transaction Date": "18-01-2022",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE N 2022010/20220118080045",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 70726.28,
+    "Balance (INR )": 80659.48
+  },
+  {
+    "S No.": 505,
+    "Value Date": "18-01-2022",
+    "Transaction Date": "18-01-2022",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE N 2022011/20220118081412",
+    "Withdrawal Amount (INR )": 55993.6,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 24665.88
+  },
+  {
+    "S No.": 506,
+    "Value Date": "18-01-2022",
+    "Transaction Date": "18-01-2022",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE N 2022011/20220118081413",
+    "Withdrawal Amount (INR )": 14732.68,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 9933.2
+  },
+  {
+    "S No.": 507,
+    "Value Date": "18-01-2022",
+    "Transaction Date": "18-01-2022",
+    "Cheque Number": "-",
+    "Transaction Remarks": "625413019162: Rev Sweep From",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 66.8,
+    "Balance (INR )": 10000
+  },
+  {
+    "S No.": 508,
+    "Value Date": "21-01-2022",
+    "Transaction Date": "21-01-2022",
+    "Cheque Number": "-",
+    "Transaction Remarks": "IRM/USD100.0@75.89GST45/OWREM/20220121181228",
+    "Withdrawal Amount (INR )": 8519,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 1481
+  },
+  {
+    "S No.": 509,
+    "Value Date": "21-01-2022",
+    "Transaction Date": "21-01-2022",
+    "Cheque Number": "-",
+    "Transaction Remarks": "625413019162: Rev Sweep From",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 2286.55,
+    "Balance (INR )": 3767.55
+  },
+  {
+    "S No.": 510,
+    "Value Date": "21-01-2022",
+    "Transaction Date": "21-01-2022",
+    "Cheque Number": "-",
+    "Transaction Remarks": "625413019161: Rev Sweep From",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 5000,
+    "Balance (INR )": 8767.55
+  },
+  {
+    "S No.": 511,
+    "Value Date": "21-01-2022",
+    "Transaction Date": "21-01-2022",
+    "Cheque Number": "-",
+    "Transaction Remarks": "625413019160: Rev Sweep From",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 1199.01,
+    "Balance (INR )": 9966.56
+  },
+  {
+    "S No.": 512,
+    "Value Date": "21-01-2022",
+    "Transaction Date": "21-01-2022",
+    "Cheque Number": "-",
+    "Transaction Remarks": "625413019161: Closure Proceeds",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 18,
+    "Balance (INR )": 9984.56
+  },
+  {
+    "S No.": 513,
+    "Value Date": "21-01-2022",
+    "Transaction Date": "21-01-2022",
+    "Cheque Number": "-",
+    "Transaction Remarks": "625413019160: Closure Proceeds",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 4,
+    "Balance (INR )": 9988.56
+  },
+  {
+    "S No.": 514,
+    "Value Date": "21-01-2022",
+    "Transaction Date": "21-01-2022",
+    "Cheque Number": "-",
+    "Transaction Remarks": "625413019162: Closure Proceeds",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 8,
+    "Balance (INR )": 9996.56
+  },
+  {
+    "S No.": 515,
+    "Value Date": "24-01-2022",
+    "Transaction Date": "24-01-2022",
+    "Cheque Number": "-",
+    "Transaction Remarks": "625413019160: Rev Sweep From",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 3.44,
+    "Balance (INR )": 10000
+  },
+  {
+    "S No.": 516,
+    "Value Date": "29-01-2022",
+    "Transaction Date": "29-01-2022",
+    "Cheque Number": "-",
+    "Transaction Remarks": "UPI/202912807142/payment on",
+    "Withdrawal Amount (INR )": 310,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 9690
+  },
+  {
+    "S No.": 517,
+    "Value Date": "29-01-2022",
+    "Transaction Date": "29-01-2022",
+    "Cheque Number": "-",
+    "Transaction Remarks": "625413019160: Rev Sweep From",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 310,
+    "Balance (INR )": 10000
+  },
+  {
+    "S No.": 518,
+    "Value Date": "29-01-2022",
+    "Transaction Date": "29-01-2022",
+    "Cheque Number": "-",
+    "Transaction Remarks": "625413019160: Closure Proceeds",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 1,
+    "Balance (INR )": 10001
+  },
+  {
+    "S No.": 519,
+    "Value Date": "02-02-2022",
+    "Transaction Date": "02-02-2022",
+    "Cheque Number": "-",
+    "Transaction Remarks": "ACH/Info Edge (India) Li/00000000000000211352",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 40,
+    "Balance (INR )": 10041
+  },
+  {
+    "S No.": 520,
+    "Value Date": "07-02-2022",
+    "Transaction Date": "07-02-2022",
+    "Cheque Number": "-",
+    "Transaction Remarks": "UPI/203718322120/payment on CRED/credcc@yesbank/Yes Bank Ltd/ACDeulgocb3RFNgdUm",
+    "Withdrawal Amount (INR )": 4274,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 5767
+  },
+  {
+    "S No.": 521,
+    "Value Date": "07-02-2022",
+    "Transaction Date": "07-02-2022",
+    "Cheque Number": "-",
+    "Transaction Remarks": "625413019160: Rev Sweep From",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 3487.55,
+    "Balance (INR )": 9254.55
+  },
+  {
+    "S No.": 522,
+    "Value Date": "07-02-2022",
+    "Transaction Date": "07-02-2022",
+    "Cheque Number": "-",
+    "Transaction Remarks": "625413019159: Rev Sweep From",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 725.38,
+    "Balance (INR )": 9979.93
+  },
+  {
+    "S No.": 523,
+    "Value Date": "07-02-2022",
+    "Transaction Date": "07-02-2022",
+    "Cheque Number": "-",
+    "Transaction Remarks": "625413019159: Closure Proceeds",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 3,
+    "Balance (INR )": 9982.93
+  },
+  {
+    "S No.": 524,
+    "Value Date": "07-02-2022",
+    "Transaction Date": "07-02-2022",
+    "Cheque Number": "-",
+    "Transaction Remarks": "625413019160: Closure Proceeds",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 16,
+    "Balance (INR )": 9998.93
+  },
+  {
+    "S No.": 525,
+    "Value Date": "07-02-2022",
+    "Transaction Date": "07-02-2022",
+    "Cheque Number": "-",
+    "Transaction Remarks": "625413019159: Rev Sweep From",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 1.07,
+    "Balance (INR )": 10000
+  },
+  {
+    "S No.": 526,
+    "Value Date": "07-02-2022",
+    "Transaction Date": "07-02-2022",
+    "Cheque Number": "-",
+    "Transaction Remarks": "ACH/TCSINTDiv07022022/1471231",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 56,
+    "Balance (INR )": 10056
+  },
+  {
+    "S No.": 527,
+    "Value Date": "14-02-2022",
+    "Transaction Date": "14-02-2022",
+    "Cheque Number": "-",
+    "Transaction Remarks": "ACH/TCI EXPRESS LIMITED/00000000000001638492",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 36,
+    "Balance (INR )": 10092
+  },
+  {
+    "S No.": 528,
+    "Value Date": "14-02-2022",
+    "Transaction Date": "14-02-2022",
+    "Cheque Number": "-",
+    "Transaction Remarks": "ACH/CONTAINER CORPORATIO/C030222088030",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 138,
+    "Balance (INR )": 10230
+  },
+  {
+    "S No.": 529,
+    "Value Date": "14-02-2022",
+    "Transaction Date": "14-02-2022",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/EBA/EQPEAKMGN//20220214181831",
+    "Withdrawal Amount (INR )": 930.96,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 9299.04
+  },
+  {
+    "S No.": 530,
+    "Value Date": "14-02-2022",
+    "Transaction Date": "14-02-2022",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/EBA/EQPEAKMGN//20220214181831",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 930.96,
+    "Balance (INR )": 10230
+  },
+  {
+    "S No.": 531,
+    "Value Date": "15-02-2022",
+    "Transaction Date": "15-02-2022",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE N 2022030/20220215092131",
+    "Withdrawal Amount (INR )": 939.23,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 9290.77
+  },
+  {
+    "S No.": 532,
+    "Value Date": "15-02-2022",
+    "Transaction Date": "15-02-2022",
+    "Cheque Number": "-",
+    "Transaction Remarks": "625413019159: Rev Sweep From",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 709.23,
+    "Balance (INR )": 10000
+  },
+  {
+    "S No.": 533,
+    "Value Date": "15-02-2022",
+    "Transaction Date": "15-02-2022",
+    "Cheque Number": "-",
+    "Transaction Remarks": "625413019159: Closure Proceeds",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 4,
+    "Balance (INR )": 10004
+  },
+  {
+    "S No.": 534,
+    "Value Date": "17-02-2022",
+    "Transaction Date": "17-02-2022",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/Prm-Prt Subscription/20220217180022",
+    "Withdrawal Amount (INR )": 2948.82,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 7055.18
+  },
+  {
+    "S No.": 535,
+    "Value Date": "17-02-2022",
+    "Transaction Date": "17-02-2022",
+    "Cheque Number": "-",
+    "Transaction Remarks": "625413019159: Rev Sweep From",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 2944.82,
+    "Balance (INR )": 10000
+  },
+  {
+    "S No.": 536,
+    "Value Date": "17-02-2022",
+    "Transaction Date": "17-02-2022",
+    "Cheque Number": "-",
+    "Transaction Remarks": "625413019159: Closure Proceeds",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 642.5,
+    "Balance (INR )": 10642.5
+  },
+  {
+    "S No.": 537,
+    "Value Date": "19-02-2022",
+    "Transaction Date": "19-02-2022",
+    "Cheque Number": "-",
+    "Transaction Remarks": "MMT/IMPS/205020103202/Savings/MURALIDHAR/HDFC00001",
+    "Withdrawal Amount (INR )": 15005.9,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": -4363.4
+  },
+  {
+    "S No.": 538,
+    "Value Date": "19-02-2022",
+    "Transaction Date": "19-02-2022",
+    "Cheque Number": "-",
+    "Transaction Remarks": "625413019158: Rev Sweep From",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 5000,
+    "Balance (INR )": 636.6
+  },
+  {
+    "S No.": 539,
+    "Value Date": "19-02-2022",
+    "Transaction Date": "19-02-2022",
+    "Cheque Number": "-",
+    "Transaction Remarks": "625413019157: Rev Sweep From",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 5000,
+    "Balance (INR )": 5636.6
+  },
+  {
+    "S No.": 540,
+    "Value Date": "19-02-2022",
+    "Transaction Date": "19-02-2022",
+    "Cheque Number": "-",
+    "Transaction Remarks": "625413019156: Rev Sweep From",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 4284.5,
+    "Balance (INR )": 9921.1
+  },
+  {
+    "S No.": 541,
+    "Value Date": "19-02-2022",
+    "Transaction Date": "19-02-2022",
+    "Cheque Number": "-",
+    "Transaction Remarks": "625413019156: Closure Proceeds",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 748.5,
+    "Balance (INR )": 10669.6
+  },
+  {
+    "S No.": 542,
+    "Value Date": "19-02-2022",
+    "Transaction Date": "19-02-2022",
+    "Cheque Number": "-",
+    "Transaction Remarks": "625413019157: Closure Proceeds",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 33,
+    "Balance (INR )": 10702.6
+  },
+  {
+    "S No.": 543,
+    "Value Date": "19-02-2022",
+    "Transaction Date": "19-02-2022",
+    "Cheque Number": "-",
+    "Transaction Remarks": "625413019158: Closure Proceeds",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 33,
+    "Balance (INR )": 10735.6
+  },
+  {
+    "S No.": 544,
+    "Value Date": "23-02-2022",
+    "Transaction Date": "23-02-2022",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE N 2022035/20220223080258",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 599334.63,
+    "Balance (INR )": 610070.23
+  },
+  {
+    "S No.": 545,
+    "Value Date": "23-02-2022",
+    "Transaction Date": "23-02-2022",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSDL CDSL Chg_220222/20220223080604",
+    "Withdrawal Amount (INR )": 416.37,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 609653.86
+  },
+  {
+    "S No.": 546,
+    "Value Date": "23-02-2022",
+    "Transaction Date": "23-02-2022",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSDL CDSL Chg_220222/20220223080604",
+    "Withdrawal Amount (INR )": 8.43,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 609645.43
+  },
+  {
+    "S No.": 547,
+    "Value Date": "24-02-2022",
+    "Transaction Date": "24-02-2022",
+    "Cheque Number": "-",
+    "Transaction Remarks": "BIL/NEFT/000334317465/Land Purchase/MURALIDHAR/HDF",
+    "Withdrawal Amount (INR )": 600000,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 9645.43
+  },
+  {
+    "S No.": 548,
+    "Value Date": "24-02-2022",
+    "Transaction Date": "24-02-2022",
+    "Cheque Number": "-",
+    "Transaction Remarks": "625413019155: Rev Sweep From",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 354.57,
+    "Balance (INR )": 10000
+  },
+  {
+    "S No.": 549,
+    "Value Date": "24-02-2022",
+    "Transaction Date": "24-02-2022",
+    "Cheque Number": "-",
+    "Transaction Remarks": "625413019155: Closure Proceeds",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 2,
+    "Balance (INR )": 10002
+  },
+  {
+    "S No.": 550,
+    "Value Date": "28-02-2022",
+    "Transaction Date": "28-02-2022",
+    "Cheque Number": "-",
+    "Transaction Remarks": "ACH/MindaIndustriesLtd/00000000000000089705",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 21.5,
+    "Balance (INR )": 10023.5
+  },
+  {
+    "S No.": 551,
+    "Value Date": "02-03-2022",
+    "Transaction Date": "02-03-2022",
+    "Cheque Number": "-",
+    "Transaction Remarks": "ACH/PI INDUSTRIES LTD/2632414",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 30,
+    "Balance (INR )": 10053.5
+  },
+  {
+    "S No.": 552,
+    "Value Date": "05-03-2022",
+    "Transaction Date": "05-03-2022",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/IBKR Subscription/20220305174503",
+    "Withdrawal Amount (INR )": 1178.82,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 8874.68
+  },
+  {
+    "S No.": 553,
+    "Value Date": "05-03-2022",
+    "Transaction Date": "05-03-2022",
+    "Cheque Number": "-",
+    "Transaction Remarks": "625413019155: Rev Sweep From",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 1125.32,
+    "Balance (INR )": 10000
+  },
+  {
+    "S No.": 554,
+    "Value Date": "05-03-2022",
+    "Transaction Date": "05-03-2022",
+    "Cheque Number": "-",
+    "Transaction Remarks": "625413019155: Closure Proceeds",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 8,
+    "Balance (INR )": 10008
+  },
+  {
+    "S No.": 555,
+    "Value Date": "07-03-2022",
+    "Transaction Date": "07-03-2022",
+    "Cheque Number": "-",
+    "Transaction Remarks": "NEFT-N065221861360975-MURALIDHAR KINI B-SAVINGS-01",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 100000,
+    "Balance (INR )": 110008
+  },
+  {
+    "S No.": 556,
+    "Value Date": "09-03-2022",
+    "Transaction Date": "09-03-2022",
+    "Cheque Number": "-",
+    "Transaction Remarks": "BIL/NEFT/000346377982/Niyati Fees/MURALIDHAR/HDFC0",
+    "Withdrawal Amount (INR )": 75000,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 35008
+  },
+  {
+    "S No.": 557,
+    "Value Date": "10-03-2022",
+    "Transaction Date": "10-03-2022",
+    "Cheque Number": "-",
+    "Transaction Remarks": "BIL/NEFT/000347296121/Home Expenses/MURALIDHAR/HDF",
+    "Withdrawal Amount (INR )": 25000,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 10008
+  },
+  {
+    "S No.": 558,
+    "Value Date": "11-03-2022",
+    "Transaction Date": "11-03-2022",
+    "Cheque Number": "-",
+    "Transaction Remarks": "SMSChgsJan22-Mar22+GST",
+    "Withdrawal Amount (INR )": 17.7,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 9990.3
+  },
+  {
+    "S No.": 559,
+    "Value Date": "11-03-2022",
+    "Transaction Date": "11-03-2022",
+    "Cheque Number": "-",
+    "Transaction Remarks": "625413019155: Rev Sweep From",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 9.7,
+    "Balance (INR )": 10000
+  },
+  {
+    "S No.": 560,
+    "Value Date": "14-03-2022",
+    "Transaction Date": "14-03-2022",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/EBA/EQPEAKMGN//20220314181022",
+    "Withdrawal Amount (INR )": 923.18,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 9076.82
+  },
+  {
+    "S No.": 561,
+    "Value Date": "14-03-2022",
+    "Transaction Date": "14-03-2022",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/EBA/EQPEAKMGN//20220314181022",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 923.18,
+    "Balance (INR )": 10000
+  },
+  {
+    "S No.": 562,
+    "Value Date": "15-03-2022",
+    "Transaction Date": "15-03-2022",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/NSE N 2022049/20220315085929",
+    "Withdrawal Amount (INR )": 931.38,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 9068.62
+  },
+  {
+    "S No.": 563,
+    "Value Date": "15-03-2022",
+    "Transaction Date": "15-03-2022",
+    "Cheque Number": "-",
+    "Transaction Remarks": "625413019155: Rev Sweep From",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 931.38,
+    "Balance (INR )": 10000
+  },
+  {
+    "S No.": 564,
+    "Value Date": "15-03-2022",
+    "Transaction Date": "15-03-2022",
+    "Cheque Number": "-",
+    "Transaction Remarks": "625413019155: Closure Proceeds",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 8,
+    "Balance (INR )": 10008
+  },
+  {
+    "S No.": 565,
+    "Value Date": "22-03-2022",
+    "Transaction Date": "22-03-2022",
+    "Cheque Number": "-",
+    "Transaction Remarks": "NEFT-N081221884154583-MURALIDHAR KINI B-SAVINGS-01",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 25000,
+    "Balance (INR )": 35008
+  },
+  {
+    "S No.": 566,
+    "Value Date": "28-03-2022",
+    "Transaction Date": "28-03-2022",
+    "Cheque Number": "-",
+    "Transaction Remarks": "MMT/IMPS/208512129323/House Construct/MURALIDHAR/H",
+    "Withdrawal Amount (INR )": 20005.9,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 15002.1
+  },
+  {
+    "S No.": 567,
+    "Value Date": "30-03-2022",
+    "Transaction Date": "30-03-2022",
+    "Cheque Number": "-",
+    "Transaction Remarks": "625401070212:Int.Pd:31-12-2021 to 29-03-2022",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 160,
+    "Balance (INR )": 15162.1
+  }
+]

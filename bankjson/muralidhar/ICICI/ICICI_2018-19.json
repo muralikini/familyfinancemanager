@@ -1,0 +1,2582 @@
+[
+  {
+    "S No.": 1,
+    "Value Date": "17-07-2018",
+    "Transaction Date": "17-07-2018",
+    "Cheque Number": "",
+    "Transaction Remarks": "CLG/MURALIDHAR KINI B/000021/HDF/02.07.2018",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 25000,
+    "Balance (INR )": 25000
+  },
+  {
+    "S No.": 2,
+    "Value Date": "18-07-2018",
+    "Transaction Date": "18-07-2018",
+    "Cheque Number": "",
+    "Transaction Remarks": "Coral Paywave Drcard Jfee+GST",
+    "Withdrawal Amount (INR )": 706.82,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 24293.18
+  },
+  {
+    "S No.": 3,
+    "Value Date": "19-07-2018",
+    "Transaction Date": "25-07-2018",
+    "Cheque Number": "",
+    "Transaction Remarks": "DCARDFEE5735JUL18-JUN19+GST",
+    "Withdrawal Amount (INR )": 177,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 24116.18
+  },
+  {
+    "S No.": 4,
+    "Value Date": "20-07-2018",
+    "Transaction Date": "22-08-2018",
+    "Cheque Number": "",
+    "Transaction Remarks": "MMT/IMPS/823422194669/Funds Transfer/ADDIT LABS/HDFC BANK LTD",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 2000,
+    "Balance (INR )": 26116.18
+  },
+  {
+    "S No.": 5,
+    "Value Date": "21-07-2018",
+    "Transaction Date": "23-08-2018",
+    "Cheque Number": "",
+    "Transaction Remarks": "BIL/INFT/001519003383/Funds Transfer/ADDIT LABS/ICICI Bank",
+    "Withdrawal Amount (INR )": 3000,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 23116.18
+  },
+  {
+    "S No.": 6,
+    "Value Date": "22-07-2018",
+    "Transaction Date": "16-09-2018",
+    "Cheque Number": "",
+    "Transaction Remarks": "UPI/825915174713/UPI/goog-payment@ok/Axis Bank Ltd.",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 1,
+    "Balance (INR )": 23117.18
+  },
+  {
+    "S No.": 7,
+    "Value Date": "23-07-2018",
+    "Transaction Date": "17-09-2018",
+    "Cheque Number": "",
+    "Transaction Remarks": "Reg Dcard fee refund",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 177,
+    "Balance (INR )": 23294.18
+  },
+  {
+    "S No.": 8,
+    "Value Date": "24-07-2018",
+    "Transaction Date": "18-09-2018",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/FreeCardRfnd/20180918075829",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 59,
+    "Balance (INR )": 23353.18
+  },
+  {
+    "S No.": 9,
+    "Value Date": "25-07-2018",
+    "Transaction Date": "18-09-2018",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N  2018177/20180918090040",
+    "Withdrawal Amount (INR )": 3608.63,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 19744.55
+  },
+  {
+    "S No.": 10,
+    "Value Date": "26-07-2018",
+    "Transaction Date": "28-09-2018",
+    "Cheque Number": "",
+    "Transaction Remarks": "625401070212:Int.Pd:11-07-2018 to 28-09-2018",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 164,
+    "Balance (INR )": 19908.55
+  },
+  {
+    "S No.": 11,
+    "Value Date": "27-07-2018",
+    "Transaction Date": "02-10-2018",
+    "Cheque Number": "",
+    "Transaction Remarks": "UPI/827519117121/UPI/billdesk.bsnl-p/ICICI Bank",
+    "Withdrawal Amount (INR )": 447,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 19461.55
+  },
+  {
+    "S No.": 12,
+    "Value Date": "28-07-2018",
+    "Transaction Date": "02-10-2018",
+    "Cheque Number": "",
+    "Transaction Remarks": "UPI/827519670934/UPI/goog-payment@ok/Axis Bank Ltd.",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 15,
+    "Balance (INR )": 19476.55
+  },
+  {
+    "S No.": 13,
+    "Value Date": "29-07-2018",
+    "Transaction Date": "02-10-2018",
+    "Cheque Number": "",
+    "Transaction Remarks": "UPI/827519671887/UPI/goog-payment@ok/Axis Bank Ltd.",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 10,
+    "Balance (INR )": 19486.55
+  },
+  {
+    "S No.": 14,
+    "Value Date": "30-07-2018",
+    "Transaction Date": "12-10-2018",
+    "Cheque Number": "",
+    "Transaction Remarks": "VIN/BSNLPRE    /20181012194906/0",
+    "Withdrawal Amount (INR )": 475,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 19011.55
+  },
+  {
+    "S No.": 15,
+    "Value Date": "31-07-2018",
+    "Transaction Date": "16-10-2018",
+    "Cheque Number": "",
+    "Transaction Remarks": "UPI/828906777532/BhartiAirtelLim/airtelin@hdfcba/",
+    "Withdrawal Amount (INR )": 1199,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 17812.55
+  },
+  {
+    "S No.": 16,
+    "Value Date": "01-08-2018",
+    "Transaction Date": "01-11-2018",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N  2018207/20181101224546",
+    "Withdrawal Amount (INR )": 973.21,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 16839.34
+  },
+  {
+    "S No.": 17,
+    "Value Date": "02-08-2018",
+    "Transaction Date": "02-11-2018",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/FreeCardRfnd/20181102053933",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 27.88,
+    "Balance (INR )": 16867.22
+  },
+  {
+    "S No.": 18,
+    "Value Date": "03-08-2018",
+    "Transaction Date": "15-11-2018",
+    "Cheque Number": "",
+    "Transaction Remarks": "TRFR FROM: HASSAN RIAZ AHMED SALLAUDDEEN SALMAN",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 125000,
+    "Balance (INR )": 141867.22
+  },
+  {
+    "S No.": 19,
+    "Value Date": "04-08-2018",
+    "Transaction Date": "01-12-2018",
+    "Cheque Number": 121,
+    "Transaction Remarks": "CLG/ATRIA CONVERGENCE TECHNOL/HDF",
+    "Withdrawal Amount (INR )": 49560,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 92307.22
+  },
+  {
+    "S No.": 20,
+    "Value Date": "05-08-2018",
+    "Transaction Date": "11-12-2018",
+    "Cheque Number": "",
+    "Transaction Remarks": "MMT/IMPS/834517153503/Test/ADDIT LABS/HDFC BANK LTD",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 500,
+    "Balance (INR )": 92807.22
+  },
+  {
+    "S No.": 21,
+    "Value Date": "06-08-2018",
+    "Transaction Date": "26-12-2018",
+    "Cheque Number": "",
+    "Transaction Remarks": "SMSChgsOct18-Dec18+GST",
+    "Withdrawal Amount (INR )": 17.7,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 92789.52
+  },
+  {
+    "S No.": 22,
+    "Value Date": "07-08-2018",
+    "Transaction Date": "30-12-2018",
+    "Cheque Number": "",
+    "Transaction Remarks": "625401070212:Int.Pd:29-09-2018 to 30-12-2018",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 566,
+    "Balance (INR )": 93355.52
+  },
+  {
+    "S No.": 23,
+    "Value Date": "08-08-2018",
+    "Transaction Date": "07-01-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "MMT/IMPS/900707286723/Kids School Fee/MURALIDHAR/HDFC0000133/chgRs5.00GSTRs0.90",
+    "Withdrawal Amount (INR )": 49005.9,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 44349.62
+  },
+  {
+    "S No.": 24,
+    "Value Date": "09-08-2018",
+    "Transaction Date": "25-03-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "SMSChgsJan19-Mar19+GST",
+    "Withdrawal Amount (INR )": 17.7,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 44331.92
+  },
+  {
+    "S No.": 25,
+    "Value Date": "10-08-2018",
+    "Transaction Date": "30-03-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "625401070212:Int.Pd:31-12-2018 to 30-03-2019",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 416,
+    "Balance (INR )": 44747.92
+  },
+  {
+    "S No.": 26,
+    "Value Date": "11-08-2018",
+    "Transaction Date": "28-05-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "MMT/IMPS/914820277160/Daily Expenses/MURALIDHAR/HDFC0000133/chgRs5.00GSTRs0.90",
+    "Withdrawal Amount (INR )": 25005.9,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 19742.02
+  },
+  {
+    "S No.": 27,
+    "Value Date": "12-08-2018",
+    "Transaction Date": "31-05-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "MMT/IMPS/915109464494/Monthly Expense/MURALIDHAR/HDFC0000133/chgRs5.00GSTRs0.90",
+    "Withdrawal Amount (INR )": 8005.9,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 11736.12
+  },
+  {
+    "S No.": 28,
+    "Value Date": "13-08-2018",
+    "Transaction Date": "14-06-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "MMT/IMPS/916513186387/Test Transfer/MURALIDHAR/HDFC BANK LTD",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 1000,
+    "Balance (INR )": 12736.12
+  },
+  {
+    "S No.": 29,
+    "Value Date": "14-08-2018",
+    "Transaction Date": "14-06-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "MMT/IMPS/916513187097/Investment Amou/MURALIDHAR/HDFC BANK LTD",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 24000,
+    "Balance (INR )": 36736.12
+  },
+  {
+    "S No.": 30,
+    "Value Date": "15-08-2018",
+    "Transaction Date": "15-06-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "SMSChgsApr19-Jun19+GST",
+    "Withdrawal Amount (INR )": 17.7,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 36718.42
+  },
+  {
+    "S No.": 31,
+    "Value Date": "16-08-2018",
+    "Transaction Date": "18-06-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N  2019113/20190618092055",
+    "Withdrawal Amount (INR )": 980.68,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 35737.74
+  },
+  {
+    "S No.": 32,
+    "Value Date": "17-08-2018",
+    "Transaction Date": "24-06-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N  2019118/20190624222415",
+    "Withdrawal Amount (INR )": 977.96,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 34759.78
+  },
+  {
+    "S No.": 33,
+    "Value Date": "18-08-2018",
+    "Transaction Date": "28-06-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "625401070212:Int.Pd:31-03-2019 to 28-06-2019",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 322,
+    "Balance (INR )": 35081.78
+  },
+  {
+    "S No.": 34,
+    "Value Date": "19-08-2018",
+    "Transaction Date": "02-07-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/BSE N  201920063/20190702080517",
+    "Withdrawal Amount (INR )": 4226.68,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 30855.1
+  },
+  {
+    "S No.": 35,
+    "Value Date": "20-08-2018",
+    "Transaction Date": "02-07-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N  2019123/20190702082710",
+    "Withdrawal Amount (INR )": 45.65,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 29863.46
+  },
+  {
+    "S No.": 36,
+    "Value Date": "21-08-2018",
+    "Transaction Date": "02-07-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N  2019123/20190702082708",
+    "Withdrawal Amount (INR )": 945.99,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 29909.11
+  },
+  {
+    "S No.": 37,
+    "Value Date": "22-08-2018",
+    "Transaction Date": "08-07-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N  2019128/20190708215159",
+    "Withdrawal Amount (INR )": 954.08,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 28909.38
+  },
+  {
+    "S No.": 38,
+    "Value Date": "23-08-2018",
+    "Transaction Date": "08-07-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N  2019128/20190708215200",
+    "Withdrawal Amount (INR )": 18.04,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 28891.34
+  },
+  {
+    "S No.": 39,
+    "Value Date": "24-08-2018",
+    "Transaction Date": "10-07-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "MMT/IMPS/919121157957/Money Transfer/MURALIDHAR/HDFC BANK LTD",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 10000,
+    "Balance (INR )": 38891.34
+  },
+  {
+    "S No.": 40,
+    "Value Date": "25-08-2018",
+    "Transaction Date": "15-07-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N  2019133/20190715210526",
+    "Withdrawal Amount (INR )": 17.8,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 37925.3
+  },
+  {
+    "S No.": 41,
+    "Value Date": "26-08-2018",
+    "Transaction Date": "15-07-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N  2019133/20190715210525",
+    "Withdrawal Amount (INR )": 948.24,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 37943.1
+  },
+  {
+    "S No.": 42,
+    "Value Date": "27-08-2018",
+    "Transaction Date": "20-07-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "MMT/IMPS/920120924657/BAV-ICIC-7021-1/Paytm Mone to BAILUR MUR",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 1,
+    "Balance (INR )": 37926.3
+  },
+  {
+    "S No.": 43,
+    "Value Date": "28-08-2018",
+    "Transaction Date": "22-07-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N  2019138/20190722211228",
+    "Withdrawal Amount (INR )": 18.44,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 36974.26
+  },
+  {
+    "S No.": 44,
+    "Value Date": "29-08-2018",
+    "Transaction Date": "22-07-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N  2019138/20190722211227",
+    "Withdrawal Amount (INR )": 933.6,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 36992.7
+  },
+  {
+    "S No.": 45,
+    "Value Date": "30-08-2018",
+    "Transaction Date": "25-07-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "DCardfee5768JUL19-JUN20+GST",
+    "Withdrawal Amount (INR )": 706.82,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 36267.44
+  },
+  {
+    "S No.": 46,
+    "Value Date": "31-08-2018",
+    "Transaction Date": "29-07-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N  2019143/20190729204608",
+    "Withdrawal Amount (INR )": 18.12,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 35326.12
+  },
+  {
+    "S No.": 47,
+    "Value Date": "01-09-2018",
+    "Transaction Date": "29-07-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N  2019143/20190729204607",
+    "Withdrawal Amount (INR )": 923.2,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 35344.24
+  },
+  {
+    "S No.": 48,
+    "Value Date": "02-09-2018",
+    "Transaction Date": "31-07-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/BSE N  201920085/20190731215629",
+    "Withdrawal Amount (INR )": 3919.58,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 31406.54
+  },
+  {
+    "S No.": 49,
+    "Value Date": "03-09-2018",
+    "Transaction Date": "31-07-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/BSE N  201920085/20190731215629",
+    "Withdrawal Amount (INR )": 27.73,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 31378.81
+  },
+  {
+    "S No.": 50,
+    "Value Date": "04-09-2018",
+    "Transaction Date": "05-08-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N  2019148/20190805214554",
+    "Withdrawal Amount (INR )": 891.68,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 30487.13
+  },
+  {
+    "S No.": 51,
+    "Value Date": "05-09-2018",
+    "Transaction Date": "05-08-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N  2019148/20190805214556",
+    "Withdrawal Amount (INR )": 17.96,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 30469.17
+  },
+  {
+    "S No.": 52,
+    "Value Date": "06-09-2018",
+    "Transaction Date": "09-08-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "IIN/FLIPKART PA/201908092051/922115902601/",
+    "Withdrawal Amount (INR )": 11698,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 18771.17
+  },
+  {
+    "S No.": 53,
+    "Value Date": "07-09-2018",
+    "Transaction Date": "09-08-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "MMT/IMPS/922121120381/Investment Fund/MURALIDHAR/HDFC BANK LTD",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 20000,
+    "Balance (INR )": 38771.17
+  },
+  {
+    "S No.": 54,
+    "Value Date": "08-09-2018",
+    "Transaction Date": "13-08-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N  2019153/20190813203309",
+    "Withdrawal Amount (INR )": 17.78,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 37840.59
+  },
+  {
+    "S No.": 55,
+    "Value Date": "09-09-2018",
+    "Transaction Date": "13-08-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N  2019153/20190813203309",
+    "Withdrawal Amount (INR )": 912.8,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 37858.37
+  },
+  {
+    "S No.": 56,
+    "Value Date": "10-09-2018",
+    "Transaction Date": "19-08-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N  2019156/20190819221201",
+    "Withdrawal Amount (INR )": 916.24,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 36924.35
+  },
+  {
+    "S No.": 57,
+    "Value Date": "11-09-2018",
+    "Transaction Date": "19-08-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N  2019156/20190819221202",
+    "Withdrawal Amount (INR )": 18.02,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 36906.33
+  },
+  {
+    "S No.": 58,
+    "Value Date": "12-09-2018",
+    "Transaction Date": "27-08-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N  2019161/20190827085552",
+    "Withdrawal Amount (INR )": 895.2,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 36011.13
+  },
+  {
+    "S No.": 59,
+    "Value Date": "13-09-2018",
+    "Transaction Date": "27-08-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N  2019161/20190827085552",
+    "Withdrawal Amount (INR )": 17.78,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 35993.35
+  },
+  {
+    "S No.": 60,
+    "Value Date": "14-09-2018",
+    "Transaction Date": "03-09-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/BSE N  201920106/20190903210903",
+    "Withdrawal Amount (INR )": 3932.88,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 32060.47
+  },
+  {
+    "S No.": 61,
+    "Value Date": "15-09-2018",
+    "Transaction Date": "03-09-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N  2019166/20190903212918",
+    "Withdrawal Amount (INR )": 43.97,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 31143.57
+  },
+  {
+    "S No.": 62,
+    "Value Date": "16-09-2018",
+    "Transaction Date": "03-09-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N  2019166/20190903212917",
+    "Withdrawal Amount (INR )": 872.93,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 31187.54
+  },
+  {
+    "S No.": 63,
+    "Value Date": "17-09-2018",
+    "Transaction Date": "09-09-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N  2019170/20190909215913",
+    "Withdrawal Amount (INR )": 18.02,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 30218.91
+  },
+  {
+    "S No.": 64,
+    "Value Date": "18-09-2018",
+    "Transaction Date": "09-09-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N  2019170/20190909215912",
+    "Withdrawal Amount (INR )": 906.64,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 30236.93
+  },
+  {
+    "S No.": 65,
+    "Value Date": "19-09-2018",
+    "Transaction Date": "16-09-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N  2019174/20190916222820",
+    "Withdrawal Amount (INR )": 17.86,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 29290.33
+  },
+  {
+    "S No.": 66,
+    "Value Date": "20-09-2018",
+    "Transaction Date": "16-09-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N  2019174/20190916222820",
+    "Withdrawal Amount (INR )": 910.72,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 29308.19
+  },
+  {
+    "S No.": 67,
+    "Value Date": "21-09-2018",
+    "Transaction Date": "23-09-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N  2019179/20190923222630",
+    "Withdrawal Amount (INR )": 18.03,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 28308.7
+  },
+  {
+    "S No.": 68,
+    "Value Date": "22-09-2018",
+    "Transaction Date": "23-09-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N  2019179/20190923222630",
+    "Withdrawal Amount (INR )": 963.6,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 28326.73
+  },
+  {
+    "S No.": 69,
+    "Value Date": "23-09-2018",
+    "Transaction Date": "30-09-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "SMSChgsJul19-Sep19+GST",
+    "Withdrawal Amount (INR )": 17.7,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 28291
+  },
+  {
+    "S No.": 70,
+    "Value Date": "24-09-2018",
+    "Transaction Date": "29-09-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "625401070212:Int.Pd:29-06-2019 to 29-09-2019",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 301,
+    "Balance (INR )": 28592
+  },
+  {
+    "S No.": 71,
+    "Value Date": "25-09-2018",
+    "Transaction Date": "30-09-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N  2019184/20190930215634",
+    "Withdrawal Amount (INR )": 960.02,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 27631.98
+  },
+  {
+    "S No.": 72,
+    "Value Date": "26-09-2018",
+    "Transaction Date": "30-09-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/BSE N  201920124/20190930223109",
+    "Withdrawal Amount (INR )": 44.84,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 23539.65
+  },
+  {
+    "S No.": 73,
+    "Value Date": "27-09-2018",
+    "Transaction Date": "30-09-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/BSE N  201920124/20190930223109",
+    "Withdrawal Amount (INR )": 4047.49,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 23584.49
+  },
+  {
+    "S No.": 74,
+    "Value Date": "28-09-2018",
+    "Transaction Date": "09-10-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N  2019188/20191009091412",
+    "Withdrawal Amount (INR )": 18.02,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 22599.71
+  },
+  {
+    "S No.": 75,
+    "Value Date": "29-09-2018",
+    "Transaction Date": "09-10-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N  2019188/20191009091412",
+    "Withdrawal Amount (INR )": 921.92,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 22617.73
+  },
+  {
+    "S No.": 76,
+    "Value Date": "30-09-2018",
+    "Transaction Date": "14-10-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N  2019192/20191014215100",
+    "Withdrawal Amount (INR )": 18.1,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 21645.29
+  },
+  {
+    "S No.": 77,
+    "Value Date": "01-10-2018",
+    "Transaction Date": "14-10-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N  2019192/20191014215100",
+    "Withdrawal Amount (INR )": 936.32,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 21663.39
+  },
+  {
+    "S No.": 78,
+    "Value Date": "02-10-2018",
+    "Transaction Date": "22-10-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N  2019197/20191022213858",
+    "Withdrawal Amount (INR )": 18.03,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 21627.26
+  },
+  {
+    "S No.": 79,
+    "Value Date": "03-10-2018",
+    "Transaction Date": "22-10-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N  2019197/20191022213858",
+    "Withdrawal Amount (INR )": 960.64,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 20666.62
+  },
+  {
+    "S No.": 80,
+    "Value Date": "04-10-2018",
+    "Transaction Date": "25-10-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "DMC/IN30302871522823 DP CHGS TILL SEP-19",
+    "Withdrawal Amount (INR )": 826,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 19840.62
+  },
+  {
+    "S No.": 81,
+    "Value Date": "05-10-2018",
+    "Transaction Date": "29-10-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N  2019202/20191029213433",
+    "Withdrawal Amount (INR )": 967.2,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 18873.42
+  },
+  {
+    "S No.": 82,
+    "Value Date": "06-10-2018",
+    "Transaction Date": "29-10-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N  2019202/20191029213433",
+    "Withdrawal Amount (INR )": 18.03,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 18855.39
+  },
+  {
+    "S No.": 83,
+    "Value Date": "07-10-2018",
+    "Transaction Date": "31-10-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/BSE N  201920144/20191031211053",
+    "Withdrawal Amount (INR )": 4261.81,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 14593.58
+  },
+  {
+    "S No.": 84,
+    "Value Date": "08-10-2018",
+    "Transaction Date": "31-10-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/BSE N  201920144/20191031211053",
+    "Withdrawal Amount (INR )": 28.1,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 14565.48
+  },
+  {
+    "S No.": 85,
+    "Value Date": "09-10-2018",
+    "Transaction Date": "04-11-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N  2019206/20191104214909",
+    "Withdrawal Amount (INR )": 986.4,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 13579.08
+  },
+  {
+    "S No.": 86,
+    "Value Date": "10-10-2018",
+    "Transaction Date": "04-11-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N  2019206/20191104214909",
+    "Withdrawal Amount (INR )": 18.03,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 13561.05
+  },
+  {
+    "S No.": 87,
+    "Value Date": "11-10-2018",
+    "Transaction Date": "11-11-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N  2019211/20191111214923",
+    "Withdrawal Amount (INR )": 17.79,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 12562.86
+  },
+  {
+    "S No.": 88,
+    "Value Date": "12-10-2018",
+    "Transaction Date": "11-11-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N  2019211/20191111214923",
+    "Withdrawal Amount (INR )": 980.4,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 12580.65
+  },
+  {
+    "S No.": 89,
+    "Value Date": "13-10-2018",
+    "Transaction Date": "18-11-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N  2019215/20191118221957",
+    "Withdrawal Amount (INR )": 17.87,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 11564.75
+  },
+  {
+    "S No.": 90,
+    "Value Date": "14-10-2018",
+    "Transaction Date": "18-11-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N  2019215/20191118221957",
+    "Withdrawal Amount (INR )": 980.24,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 11582.62
+  },
+  {
+    "S No.": 91,
+    "Value Date": "15-10-2018",
+    "Transaction Date": "26-11-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N  2019220/20191126085934",
+    "Withdrawal Amount (INR )": 18.03,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 11546.72
+  },
+  {
+    "S No.": 92,
+    "Value Date": "16-10-2018",
+    "Transaction Date": "26-11-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N  2019220/20191126085934",
+    "Withdrawal Amount (INR )": 986.4,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 10560.32
+  },
+  {
+    "S No.": 93,
+    "Value Date": "17-10-2018",
+    "Transaction Date": "02-12-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/BSE N  201920165/20191202211419",
+    "Withdrawal Amount (INR )": 4365.37,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 6194.95
+  },
+  {
+    "S No.": 94,
+    "Value Date": "18-10-2018",
+    "Transaction Date": "02-12-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N  2019225/20191202212814",
+    "Withdrawal Amount (INR )": 967.57,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 5180.76
+  },
+  {
+    "S No.": 95,
+    "Value Date": "19-10-2018",
+    "Transaction Date": "02-12-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N  2019225/20191202212814",
+    "Withdrawal Amount (INR )": 46.62,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 6148.33
+  },
+  {
+    "S No.": 96,
+    "Value Date": "20-10-2018",
+    "Transaction Date": "09-12-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N  2019230/20191209223659",
+    "Withdrawal Amount (INR )": 18.03,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 4175.53
+  },
+  {
+    "S No.": 97,
+    "Value Date": "21-10-2018",
+    "Transaction Date": "09-12-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N  2019230/20191209223659",
+    "Withdrawal Amount (INR )": 987.2,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 4193.56
+  },
+  {
+    "S No.": 98,
+    "Value Date": "22-10-2018",
+    "Transaction Date": "13-12-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "NEFT-N347191008100861-MURALIDHAR KINI B-MONEY TRANSFER-01331140014684-HDFC0000001",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 25000,
+    "Balance (INR )": 29175.53
+  },
+  {
+    "S No.": 99,
+    "Value Date": "23-10-2018",
+    "Transaction Date": "16-12-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N  2019235/20191216204525",
+    "Withdrawal Amount (INR )": 996.8,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 28178.73
+  },
+  {
+    "S No.": 100,
+    "Value Date": "24-10-2018",
+    "Transaction Date": "16-12-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N  2019235/20191216204526",
+    "Withdrawal Amount (INR )": 18.33,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 28160.4
+  },
+  {
+    "S No.": 101,
+    "Value Date": "25-10-2018",
+    "Transaction Date": "22-12-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "MMT/IMPS/935613125453/Loan Amount/MURALIDHAR/HDFC0000133/chgRs5.00GSTRs0.90",
+    "Withdrawal Amount (INR )": 20005.9,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 8154.5
+  },
+  {
+    "S No.": 102,
+    "Value Date": "26-10-2018",
+    "Transaction Date": "23-12-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N  2019240/20191223214733",
+    "Withdrawal Amount (INR )": 883.82,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 7270.68
+  },
+  {
+    "S No.": 103,
+    "Value Date": "27-10-2018",
+    "Transaction Date": "23-12-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N  2019240/20191223214733",
+    "Withdrawal Amount (INR )": 18.02,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 7252.66
+  },
+  {
+    "S No.": 104,
+    "Value Date": "28-10-2018",
+    "Transaction Date": "24-12-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "NEFT-N358191015731399-MURALIDHAR KINI B-MONEY FOR MF-01331140014684-HDFC0000001",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 25000,
+    "Balance (INR )": 32252.66
+  },
+  {
+    "S No.": 105,
+    "Value Date": "29-10-2018",
+    "Transaction Date": "26-12-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "SMSChgsOct19-Dec19+GST",
+    "Withdrawal Amount (INR )": 17.7,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 32234.96
+  },
+  {
+    "S No.": 106,
+    "Value Date": "30-10-2018",
+    "Transaction Date": "30-12-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "625401070212:Int.Pd:30-09-2019 to 30-12-2019",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 153,
+    "Balance (INR )": 32387.96
+  },
+  {
+    "S No.": 107,
+    "Value Date": "31-10-2018",
+    "Transaction Date": "31-12-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N  2019244/20191231085053",
+    "Withdrawal Amount (INR )": 18.4,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 31486.51
+  },
+  {
+    "S No.": 108,
+    "Value Date": "01-11-2018",
+    "Transaction Date": "31-12-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N  2019244/20191231085053",
+    "Withdrawal Amount (INR )": 883.05,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 31504.91
+  },
+  {
+    "S No.": 109,
+    "Value Date": "02-11-2018",
+    "Transaction Date": "31-12-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/BSE N  201920185/20191231205357",
+    "Withdrawal Amount (INR )": 32.81,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 31453.7
+  },
+  {
+    "S No.": 110,
+    "Value Date": "03-11-2018",
+    "Transaction Date": "31-12-2019",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/BSE N  201920185/20191231205357",
+    "Withdrawal Amount (INR )": 4367,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 27086.7
+  },
+  {
+    "S No.": 111,
+    "Value Date": "04-11-2018",
+    "Transaction Date": "05-01-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "VIN/AMAZON INTE/202001052005/000514105771/",
+    "Withdrawal Amount (INR )": 2,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 27084.7
+  },
+  {
+    "S No.": 112,
+    "Value Date": "05-11-2018",
+    "Transaction Date": "06-01-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N  2020004/20200106211409",
+    "Withdrawal Amount (INR )": 18.03,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 26072.99
+  },
+  {
+    "S No.": 113,
+    "Value Date": "06-11-2018",
+    "Transaction Date": "06-01-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N  2020004/20200106211408",
+    "Withdrawal Amount (INR )": 993.68,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 26091.02
+  },
+  {
+    "S No.": 114,
+    "Value Date": "07-11-2018",
+    "Transaction Date": "08-01-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "VISA REF AMAZON INTERNET SERVIC",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 2,
+    "Balance (INR )": 26074.99
+  },
+  {
+    "S No.": 115,
+    "Value Date": "08-11-2018",
+    "Transaction Date": "13-01-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N  2020009/20200113212708",
+    "Withdrawal Amount (INR )": 889,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 25185.99
+  },
+  {
+    "S No.": 116,
+    "Value Date": "09-11-2018",
+    "Transaction Date": "13-01-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N  2020009/20200113212709",
+    "Withdrawal Amount (INR )": 18.44,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 25167.55
+  },
+  {
+    "S No.": 117,
+    "Value Date": "10-11-2018",
+    "Transaction Date": "15-01-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "NEFT-N015201037045571-MURALIDHAR KINI B-SIP CONTRIBUTIONS-01331140014684-HDFC0000001",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 30000,
+    "Balance (INR )": 55167.55
+  },
+  {
+    "S No.": 118,
+    "Value Date": "11-11-2018",
+    "Transaction Date": "18-01-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "NFS/NBAN7251/CASH WDL/18-01-20",
+    "Withdrawal Amount (INR )": 10000,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 45167.55
+  },
+  {
+    "S No.": 119,
+    "Value Date": "12-11-2018",
+    "Transaction Date": "18-01-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "NFS/NBAN7251/CASH WDL/18-01-20",
+    "Withdrawal Amount (INR )": 10000,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 35167.55
+  },
+  {
+    "S No.": 120,
+    "Value Date": "13-11-2018",
+    "Transaction Date": "18-01-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "TRF TO FD no. 625413012505",
+    "Withdrawal Amount (INR )": 10000,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 25167.55
+  },
+  {
+    "S No.": 121,
+    "Value Date": "14-11-2018",
+    "Transaction Date": "20-01-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N  2020014/20200120212255",
+    "Withdrawal Amount (INR )": 18.02,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 24263.61
+  },
+  {
+    "S No.": 122,
+    "Value Date": "15-11-2018",
+    "Transaction Date": "20-01-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N  2020014/20200120212255",
+    "Withdrawal Amount (INR )": 885.92,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 24281.63
+  },
+  {
+    "S No.": 123,
+    "Value Date": "16-11-2018",
+    "Transaction Date": "27-01-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N 2020019/20200127231153",
+    "Withdrawal Amount (INR )": 880.25,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 23383.36
+  },
+  {
+    "S No.": 124,
+    "Value Date": "17-11-2018",
+    "Transaction Date": "27-01-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N 2020019/20200127231154",
+    "Withdrawal Amount (INR )": 18.02,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 23365.34
+  },
+  {
+    "S No.": 125,
+    "Value Date": "18-11-2018",
+    "Transaction Date": "31-01-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/BSE N 201920208/20200131214943",
+    "Withdrawal Amount (INR )": 4331,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 19007.56
+  },
+  {
+    "S No.": 126,
+    "Value Date": "19-11-2018",
+    "Transaction Date": "31-01-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/BSE N 201920208/20200131214943",
+    "Withdrawal Amount (INR )": 26.78,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 23338.56
+  },
+  {
+    "S No.": 127,
+    "Value Date": "20-11-2018",
+    "Transaction Date": "03-02-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N 2020025/20200203213701",
+    "Withdrawal Amount (INR )": 18.43,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 18020.01
+  },
+  {
+    "S No.": 128,
+    "Value Date": "21-11-2018",
+    "Transaction Date": "03-02-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N 2020025/20200203213701",
+    "Withdrawal Amount (INR )": 969.12,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 18038.44
+  },
+  {
+    "S No.": 129,
+    "Value Date": "22-11-2018",
+    "Transaction Date": "10-02-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "NEFT-N041201060512133-MURALIDHAR KINI B-SAVINGS-01331140014684-HDFC0000001",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 22000,
+    "Balance (INR )": 40020.01
+  },
+  {
+    "S No.": 130,
+    "Value Date": "23-11-2018",
+    "Transaction Date": "10-02-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N 2020030/20200210223001",
+    "Withdrawal Amount (INR )": 991.92,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 39028.09
+  },
+  {
+    "S No.": 131,
+    "Value Date": "24-11-2018",
+    "Transaction Date": "10-02-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N 2020030/20200210223002",
+    "Withdrawal Amount (INR )": 18.35,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 39009.74
+  },
+  {
+    "S No.": 132,
+    "Value Date": "25-11-2018",
+    "Transaction Date": "17-02-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N 2020035/20200217225954",
+    "Withdrawal Amount (INR )": 1879.97,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 37094.02
+  },
+  {
+    "S No.": 133,
+    "Value Date": "26-11-2018",
+    "Transaction Date": "17-02-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N 2020035/20200217225954",
+    "Withdrawal Amount (INR )": 35.75,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 38973.99
+  },
+  {
+    "S No.": 134,
+    "Value Date": "27-11-2018",
+    "Transaction Date": "24-02-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N 2020039/20200224222908",
+    "Withdrawal Amount (INR )": 1876.39,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 35217.63
+  },
+  {
+    "S No.": 135,
+    "Value Date": "28-11-2018",
+    "Transaction Date": "24-02-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N 2020039/20200224222908",
+    "Withdrawal Amount (INR )": 35.73,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 35181.9
+  },
+  {
+    "S No.": 136,
+    "Value Date": "29-11-2018",
+    "Transaction Date": "02-03-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/BSE N 201920229/20200302220118",
+    "Withdrawal Amount (INR )": 4152.21,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 31029.69
+  },
+  {
+    "S No.": 137,
+    "Value Date": "30-11-2018",
+    "Transaction Date": "02-03-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N 2020044/20200302221823",
+    "Withdrawal Amount (INR )": 55.56,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 29207.1
+  },
+  {
+    "S No.": 138,
+    "Value Date": "01-12-2018",
+    "Transaction Date": "02-03-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N 2020044/20200302221823",
+    "Withdrawal Amount (INR )": 1767.03,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 29262.66
+  },
+  {
+    "S No.": 139,
+    "Value Date": "02-12-2018",
+    "Transaction Date": "11-03-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N 2020049/20200311083907",
+    "Withdrawal Amount (INR )": 35.75,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 27413.44
+  },
+  {
+    "S No.": 140,
+    "Value Date": "03-12-2018",
+    "Transaction Date": "11-03-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N 2020049/20200311083907",
+    "Withdrawal Amount (INR )": 1757.91,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 27449.19
+  },
+  {
+    "S No.": 141,
+    "Value Date": "04-12-2018",
+    "Transaction Date": "12-03-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "SMSChgsJan20-Mar20+GST",
+    "Withdrawal Amount (INR )": 17.7,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 27395.74
+  },
+  {
+    "S No.": 142,
+    "Value Date": "05-12-2018",
+    "Transaction Date": "16-03-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N 2020053/20200316230628",
+    "Withdrawal Amount (INR )": 46.99,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 25111.65
+  },
+  {
+    "S No.": 143,
+    "Value Date": "06-12-2018",
+    "Transaction Date": "16-03-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N 2020053/20200316230627",
+    "Withdrawal Amount (INR )": 2237.1,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 25158.64
+  },
+  {
+    "S No.": 144,
+    "Value Date": "07-12-2018",
+    "Transaction Date": "23-03-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N 2020058/20200323225123",
+    "Withdrawal Amount (INR )": 1753.88,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 23357.77
+  },
+  {
+    "S No.": 145,
+    "Value Date": "08-12-2018",
+    "Transaction Date": "23-03-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N 2020058/20200323225124",
+    "Withdrawal Amount (INR )": 35.75,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 23322.02
+  },
+  {
+    "S No.": 146,
+    "Value Date": "09-12-2018",
+    "Transaction Date": "25-03-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N 2020059/20200325084553",
+    "Withdrawal Amount (INR )": 1008.99,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 22313.03
+  },
+  {
+    "S No.": 147,
+    "Value Date": "10-12-2018",
+    "Transaction Date": "25-03-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N 2020059/20200325084554",
+    "Withdrawal Amount (INR )": 30.09,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 22282.94
+  },
+  {
+    "S No.": 148,
+    "Value Date": "11-12-2018",
+    "Transaction Date": "29-03-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "625401070212:Int.Pd:31-12-2019 to 29-03-2020",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 246,
+    "Balance (INR )": 22528.94
+  },
+  {
+    "S No.": 149,
+    "Value Date": "12-12-2018",
+    "Transaction Date": "30-03-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N 2020063/20200330213140",
+    "Withdrawal Amount (INR )": 1813.03,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 20678.81
+  },
+  {
+    "S No.": 150,
+    "Value Date": "13-12-2018",
+    "Transaction Date": "30-03-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N 2020063/20200330213140",
+    "Withdrawal Amount (INR )": 37.1,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 22491.84
+  },
+  {
+    "S No.": 151,
+    "Value Date": "14-12-2018",
+    "Transaction Date": "31-03-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/BSE N 202021002/20200331215335",
+    "Withdrawal Amount (INR )": 21.5,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 17407.31
+  },
+  {
+    "S No.": 152,
+    "Value Date": "15-12-2018",
+    "Transaction Date": "31-03-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/BSE N 202021002/20200331215335",
+    "Withdrawal Amount (INR )": 3250,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 17428.81
+  },
+  {
+    "S No.": 153,
+    "Value Date": "16-12-2018",
+    "Transaction Date": "01-04-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "NEFT-N092201107546698-MURALIDHAR KINI B-MONEY TRANSFER-01331140014684-HDFC0000001",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 25000,
+    "Balance (INR )": 42407.31
+  },
+  {
+    "S No.": 154,
+    "Value Date": "17-12-2018",
+    "Transaction Date": "03-04-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N 2020066/20200403223211",
+    "Withdrawal Amount (INR )": 6380.56,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 36026.75
+  },
+  {
+    "S No.": 155,
+    "Value Date": "18-12-2018",
+    "Transaction Date": "06-04-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "BIL/ONL/001962431755/ICICI Lomb/icic01200402996/InsurancePremiu",
+    "Withdrawal Amount (INR )": 6166,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 29860.75
+  },
+  {
+    "S No.": 156,
+    "Value Date": "19-12-2018",
+    "Transaction Date": "06-04-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "BIL/ONL/001962434138/ICICI Lomb/icic01200402996/insrancepremium",
+    "Withdrawal Amount (INR )": 6166,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 23694.75
+  },
+  {
+    "S No.": 157,
+    "Value Date": "20-12-2018",
+    "Transaction Date": "07-04-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N 2020067/20200407224117",
+    "Withdrawal Amount (INR )": 40.12,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 21772.88
+  },
+  {
+    "S No.": 158,
+    "Value Date": "21-12-2018",
+    "Transaction Date": "07-04-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N 2020067/20200407224117",
+    "Withdrawal Amount (INR )": 1881.75,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 21813
+  },
+  {
+    "S No.": 159,
+    "Value Date": "22-12-2018",
+    "Transaction Date": "13-04-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N 2020070/20200413220911",
+    "Withdrawal Amount (INR )": 1878.6,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 19894.28
+  },
+  {
+    "S No.": 160,
+    "Value Date": "23-12-2018",
+    "Transaction Date": "13-04-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N 2020070/20200413220911",
+    "Withdrawal Amount (INR )": 35.75,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 19858.53
+  },
+  {
+    "S No.": 161,
+    "Value Date": "24-12-2018",
+    "Transaction Date": "20-04-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N 2020074/20200420211840",
+    "Withdrawal Amount (INR )": 35.75,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 19822.78
+  },
+  {
+    "S No.": 162,
+    "Value Date": "25-12-2018",
+    "Transaction Date": "20-04-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N 2020074/20200420211840",
+    "Withdrawal Amount (INR )": 1937.7,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 17885.08
+  },
+  {
+    "S No.": 163,
+    "Value Date": "26-12-2018",
+    "Transaction Date": "27-04-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N 2020079/20200427213638",
+    "Withdrawal Amount (INR )": 35.75,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 15910.33
+  },
+  {
+    "S No.": 164,
+    "Value Date": "27-12-2018",
+    "Transaction Date": "27-04-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N 2020079/20200427213638",
+    "Withdrawal Amount (INR )": 1939,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 15946.08
+  },
+  {
+    "S No.": 165,
+    "Value Date": "28-12-2018",
+    "Transaction Date": "30-04-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "NEFT-N121201125157754-MURALIDHAR KINI B-NPS SAVINGS-01331140014684-HDFC0000001",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 25000,
+    "Balance (INR )": 40910.33
+  },
+  {
+    "S No.": 166,
+    "Value Date": "29-12-2018",
+    "Transaction Date": "30-04-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/BSE N 202021020/20200430230336",
+    "Withdrawal Amount (INR )": 3542.26,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 37368.07
+  },
+  {
+    "S No.": 167,
+    "Value Date": "30-12-2018",
+    "Transaction Date": "30-04-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/BSE N 202021020/20200430230337",
+    "Withdrawal Amount (INR )": 25.16,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 37342.91
+  },
+  {
+    "S No.": 168,
+    "Value Date": "31-12-2018",
+    "Transaction Date": "04-05-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N 2020083/20200504224615",
+    "Withdrawal Amount (INR )": 35.45,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 35368.76
+  },
+  {
+    "S No.": 169,
+    "Value Date": "01-01-2019",
+    "Transaction Date": "04-05-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N 2020083/20200504224615",
+    "Withdrawal Amount (INR )": 1938.7,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 35404.21
+  },
+  {
+    "S No.": 170,
+    "Value Date": "02-01-2019",
+    "Transaction Date": "06-05-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "NEFT-N127201130449084-MURALIDHAR KINI B-SAVINGS-01331140014684-HDFC0000001",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 50000,
+    "Balance (INR )": 85368.76
+  },
+  {
+    "S No.": 171,
+    "Value Date": "03-01-2019",
+    "Transaction Date": "06-05-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "TRF TO FD no. 625413013483",
+    "Withdrawal Amount (INR )": 10000,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 75368.76
+  },
+  {
+    "S No.": 172,
+    "Value Date": "04-01-2019",
+    "Transaction Date": "07-05-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "Dr Tran For Funding iWish A/c 625424003096",
+    "Withdrawal Amount (INR )": 5000,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 70368.76
+  },
+  {
+    "S No.": 173,
+    "Value Date": "05-01-2019",
+    "Transaction Date": "11-05-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N 2020088/20200511221514",
+    "Withdrawal Amount (INR )": 37.03,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 68396.31
+  },
+  {
+    "S No.": 174,
+    "Value Date": "06-01-2019",
+    "Transaction Date": "11-05-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N 2020088/20200511221514",
+    "Withdrawal Amount (INR )": 1935.42,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 68433.34
+  },
+  {
+    "S No.": 175,
+    "Value Date": "07-01-2019",
+    "Transaction Date": "18-05-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N 2020093/20200518214635",
+    "Withdrawal Amount (INR )": 1871.98,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 66524.33
+  },
+  {
+    "S No.": 176,
+    "Value Date": "08-01-2019",
+    "Transaction Date": "18-05-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N 2020093/20200518214635",
+    "Withdrawal Amount (INR )": 37.41,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 66486.92
+  },
+  {
+    "S No.": 177,
+    "Value Date": "09-01-2019",
+    "Transaction Date": "26-05-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N 2020098/20200526221725",
+    "Withdrawal Amount (INR )": 1900.06,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 64549.65
+  },
+  {
+    "S No.": 178,
+    "Value Date": "10-01-2019",
+    "Transaction Date": "26-05-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N 2020098/20200526221725",
+    "Withdrawal Amount (INR )": 37.21,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 66449.71
+  },
+  {
+    "S No.": 179,
+    "Value Date": "11-01-2019",
+    "Transaction Date": "02-06-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/BSE N 202021040/20200602073402",
+    "Withdrawal Amount (INR )": 3557.27,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 60992.38
+  },
+  {
+    "S No.": 180,
+    "Value Date": "12-01-2019",
+    "Transaction Date": "02-06-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N 2020102/20200602074811",
+    "Withdrawal Amount (INR )": 1659.52,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 59332.86
+  },
+  {
+    "S No.": 181,
+    "Value Date": "13-01-2019",
+    "Transaction Date": "02-06-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N 2020102/20200602074811",
+    "Withdrawal Amount (INR )": 59.1,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 59273.76
+  },
+  {
+    "S No.": 182,
+    "Value Date": "14-01-2019",
+    "Transaction Date": "05-06-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "INF/IWISH CONTRIBUTION",
+    "Withdrawal Amount (INR )": 3553,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 55720.76
+  },
+  {
+    "S No.": 183,
+    "Value Date": "15-01-2019",
+    "Transaction Date": "08-06-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N 2020107/20200608211329",
+    "Withdrawal Amount (INR )": 37.39,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 53940.61
+  },
+  {
+    "S No.": 184,
+    "Value Date": "16-01-2019",
+    "Transaction Date": "08-06-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N 2020107/20200608211329",
+    "Withdrawal Amount (INR )": 1742.76,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 53978
+  },
+  {
+    "S No.": 185,
+    "Value Date": "17-01-2019",
+    "Transaction Date": "15-06-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "SMSChgsApr20-Jun20+GST",
+    "Withdrawal Amount (INR )": 17.7,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 53922.91
+  },
+  {
+    "S No.": 186,
+    "Value Date": "18-01-2019",
+    "Transaction Date": "15-06-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N 2020112/20200615230504",
+    "Withdrawal Amount (INR )": 35.95,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 52195.59
+  },
+  {
+    "S No.": 187,
+    "Value Date": "19-01-2019",
+    "Transaction Date": "15-06-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N 2020112/20200615230503",
+    "Withdrawal Amount (INR )": 1691.37,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 52231.54
+  },
+  {
+    "S No.": 188,
+    "Value Date": "20-01-2019",
+    "Transaction Date": "19-06-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "INF/IWISH CONTRIBUTION",
+    "Withdrawal Amount (INR )": 3553,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 48642.59
+  },
+  {
+    "S No.": 189,
+    "Value Date": "21-01-2019",
+    "Transaction Date": "22-06-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N 2020117/20200622231301",
+    "Withdrawal Amount (INR )": 35.77,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 46841.17
+  },
+  {
+    "S No.": 190,
+    "Value Date": "22-01-2019",
+    "Transaction Date": "22-06-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N 2020117/20200622231301",
+    "Withdrawal Amount (INR )": 1765.65,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 46876.94
+  },
+  {
+    "S No.": 191,
+    "Value Date": "23-01-2019",
+    "Transaction Date": "23-06-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "MMT/IMPS/017523476241/13228525/Bailur Mur to BAILUR MUR",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 9060,
+    "Balance (INR )": 55901.17
+  },
+  {
+    "S No.": 192,
+    "Value Date": "24-01-2019",
+    "Transaction Date": "23-06-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "MMT/IMPS/017523111500/Account Validat/CAMS      /HSBC Bank",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 1,
+    "Balance (INR )": 55902.17
+  },
+  {
+    "S No.": 193,
+    "Value Date": "25-01-2019",
+    "Transaction Date": "25-06-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "NEFT-AXISCN0052831822-NIPPON INDIA SHORT TERM FUND REDEM-CUST NIPPON INDIA SHORT TERM FUND-00401020",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 310.92,
+    "Balance (INR )": 56213.09
+  },
+  {
+    "S No.": 194,
+    "Value Date": "26-01-2019",
+    "Transaction Date": "25-06-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "CMS/ MF   RED    8096  15188075/ICICI PRUDENTIAL",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 1008.45,
+    "Balance (INR )": 57221.54
+  },
+  {
+    "S No.": 195,
+    "Value Date": "27-01-2019",
+    "Transaction Date": "28-06-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "625401070212:Int.Pd:30-03-2020 to 28-06-2020",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 367,
+    "Balance (INR )": 57588.54
+  },
+  {
+    "S No.": 196,
+    "Value Date": "28-01-2019",
+    "Transaction Date": "29-06-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "NEFT-AXISCN0052965169-NIPPON INDIA MULTI CAP FUND REDEMP-CUST NIPPON INDIA MULTI CAP FUND -00401020",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 382.43,
+    "Balance (INR )": 57970.97
+  },
+  {
+    "S No.": 197,
+    "Value Date": "29-01-2019",
+    "Transaction Date": "29-06-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "NEFT-AXISCN0052965170-NIPPON INDIA LARGE CAP FUND REDEMP-CUST NIPPON INDIA LARGE CAP FUND -00401020",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 275.32,
+    "Balance (INR )": 58246.29
+  },
+  {
+    "S No.": 198,
+    "Value Date": "30-01-2019",
+    "Transaction Date": "29-06-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "NEFT-AXISCN0052965168-NIPPON INDIA GROWTH FUND REDEMPTIO-CUST NIPPON INDIA GROWTH FUND RED-00401020",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 194.46,
+    "Balance (INR )": 58440.75
+  },
+  {
+    "S No.": 199,
+    "Value Date": "31-01-2019",
+    "Transaction Date": "29-06-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N 2020122/20200629214425",
+    "Withdrawal Amount (INR )": 1760.7,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 56680.05
+  },
+  {
+    "S No.": 200,
+    "Value Date": "01-02-2019",
+    "Transaction Date": "29-06-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N 2020122/20200629214425",
+    "Withdrawal Amount (INR )": 35.41,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 56644.64
+  },
+  {
+    "S No.": 201,
+    "Value Date": "02-02-2019",
+    "Transaction Date": "30-06-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/BSE N 202021061/20200630205445",
+    "Withdrawal Amount (INR )": 44.56,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 52900.08
+  },
+  {
+    "S No.": 202,
+    "Value Date": "03-02-2019",
+    "Transaction Date": "30-06-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/BSE N 202021061/20200630205445",
+    "Withdrawal Amount (INR )": 3700,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 52944.64
+  },
+  {
+    "S No.": 203,
+    "Value Date": "04-02-2019",
+    "Transaction Date": "05-07-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "INF/IWISH CONTRIBUTION",
+    "Withdrawal Amount (INR )": 3553,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 49347.08
+  },
+  {
+    "S No.": 204,
+    "Value Date": "05-02-2019",
+    "Transaction Date": "06-07-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N 2020127/20200706210335",
+    "Withdrawal Amount (INR )": 1714.65,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 47632.43
+  },
+  {
+    "S No.": 205,
+    "Value Date": "06-02-2019",
+    "Transaction Date": "06-07-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N 2020127/20200706210336",
+    "Withdrawal Amount (INR )": 35.47,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 47596.96
+  },
+  {
+    "S No.": 206,
+    "Value Date": "07-02-2019",
+    "Transaction Date": "13-07-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N 2020132/20200713215645",
+    "Withdrawal Amount (INR )": 35.15,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 45846.51
+  },
+  {
+    "S No.": 207,
+    "Value Date": "08-02-2019",
+    "Transaction Date": "13-07-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N 2020132/20200713215645",
+    "Withdrawal Amount (INR )": 1715.3,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 45881.66
+  },
+  {
+    "S No.": 208,
+    "Value Date": "09-02-2019",
+    "Transaction Date": "19-07-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "INF/IWISH CONTRIBUTION",
+    "Withdrawal Amount (INR )": 3553,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 42293.51
+  },
+  {
+    "S No.": 209,
+    "Value Date": "10-02-2019",
+    "Transaction Date": "20-07-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N 2020137/20200720221122",
+    "Withdrawal Amount (INR )": 35.47,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 40519.73
+  },
+  {
+    "S No.": 210,
+    "Value Date": "11-02-2019",
+    "Transaction Date": "20-07-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N 2020137/20200720221122",
+    "Withdrawal Amount (INR )": 1738.31,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 40555.2
+  },
+  {
+    "S No.": 211,
+    "Value Date": "12-02-2019",
+    "Transaction Date": "27-07-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N 2020142/20200727230947",
+    "Withdrawal Amount (INR )": 1743.53,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 38776.2
+  },
+  {
+    "S No.": 212,
+    "Value Date": "13-02-2019",
+    "Transaction Date": "27-07-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N 2020142/20200727230948",
+    "Withdrawal Amount (INR )": 35.44,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 38740.76
+  },
+  {
+    "S No.": 213,
+    "Value Date": "14-02-2019",
+    "Transaction Date": "29-07-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "DCardfee5768JUL20-JUN21+GST",
+    "Withdrawal Amount (INR )": 706.82,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 38033.94
+  },
+  {
+    "S No.": 214,
+    "Value Date": "15-02-2019",
+    "Transaction Date": "31-07-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/BSE N 202021084/20200731203441",
+    "Withdrawal Amount (INR )": 26.98,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 34017.86
+  },
+  {
+    "S No.": 215,
+    "Value Date": "16-02-2019",
+    "Transaction Date": "31-07-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/BSE N 202021084/20200731203440",
+    "Withdrawal Amount (INR )": 3989.1,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 34044.84
+  },
+  {
+    "S No.": 216,
+    "Value Date": "17-02-2019",
+    "Transaction Date": "03-08-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N 2020147/20200803214420",
+    "Withdrawal Amount (INR )": 1749.07,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 32268.79
+  },
+  {
+    "S No.": 217,
+    "Value Date": "18-02-2019",
+    "Transaction Date": "03-08-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N 2020147/20200803214420",
+    "Withdrawal Amount (INR )": 35.47,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 32233.32
+  },
+  {
+    "S No.": 218,
+    "Value Date": "19-02-2019",
+    "Transaction Date": "05-08-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "INF/IWISH CONTRIBUTION",
+    "Withdrawal Amount (INR )": 3553,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 28680.32
+  },
+  {
+    "S No.": 219,
+    "Value Date": "20-02-2019",
+    "Transaction Date": "10-08-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N 2020152/20200810221943",
+    "Withdrawal Amount (INR )": 35.34,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 26844.79
+  },
+  {
+    "S No.": 220,
+    "Value Date": "21-02-2019",
+    "Transaction Date": "10-08-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N 2020152/20200810221942",
+    "Withdrawal Amount (INR )": 1800.19,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 26880.13
+  },
+  {
+    "S No.": 221,
+    "Value Date": "22-02-2019",
+    "Transaction Date": "16-08-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "NEFT-N228201216028488-MURALIDHAR KINI B-SAVINGS FUNDS-01331140014684-HDFC0000001",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 50000,
+    "Balance (INR )": 76844.79
+  },
+  {
+    "S No.": 222,
+    "Value Date": "23-02-2019",
+    "Transaction Date": "17-08-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N 2020157/20200817220954",
+    "Withdrawal Amount (INR )": 1784.66,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 75060.13
+  },
+  {
+    "S No.": 223,
+    "Value Date": "24-02-2019",
+    "Transaction Date": "17-08-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N 2020157/20200817220954",
+    "Withdrawal Amount (INR )": 35.47,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 75024.66
+  },
+  {
+    "S No.": 224,
+    "Value Date": "25-02-2019",
+    "Transaction Date": "19-08-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "INF/IWISH CONTRIBUTION",
+    "Withdrawal Amount (INR )": 3553,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 71471.66
+  },
+  {
+    "S No.": 225,
+    "Value Date": "26-02-2019",
+    "Transaction Date": "21-08-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N 2020161/20200821222900",
+    "Withdrawal Amount (INR )": 941.76,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 70529.9
+  },
+  {
+    "S No.": 226,
+    "Value Date": "27-02-2019",
+    "Transaction Date": "21-08-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N 2020161/20200821222900",
+    "Withdrawal Amount (INR )": 17.58,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 70512.32
+  },
+  {
+    "S No.": 227,
+    "Value Date": "28-02-2019",
+    "Transaction Date": "24-08-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N 2020162/20200824224125",
+    "Withdrawal Amount (INR )": 49.93,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 68154.5
+  },
+  {
+    "S No.": 228,
+    "Value Date": "01-03-2019",
+    "Transaction Date": "24-08-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N 2020162/20200824224125",
+    "Withdrawal Amount (INR )": 2307.89,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 68204.43
+  },
+  {
+    "S No.": 229,
+    "Value Date": "02-03-2019",
+    "Transaction Date": "31-08-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/BSE N 202021105/20200831231840",
+    "Withdrawal Amount (INR )": 4094.75,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 64059.75
+  },
+  {
+    "S No.": 230,
+    "Value Date": "03-03-2019",
+    "Transaction Date": "01-09-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N 2020167/20200901083958",
+    "Withdrawal Amount (INR )": 2262.91,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 61796.84
+  },
+  {
+    "S No.": 231,
+    "Value Date": "04-03-2019",
+    "Transaction Date": "01-09-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N 2020167/20200901083958",
+    "Withdrawal Amount (INR )": 77.56,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 61719.28
+  },
+  {
+    "S No.": 232,
+    "Value Date": "05-03-2019",
+    "Transaction Date": "03-09-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "VIN/Amazon web /202009031203/024734098274/",
+    "Withdrawal Amount (INR )": 732.36,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 60986.92
+  },
+  {
+    "S No.": 233,
+    "Value Date": "06-03-2019",
+    "Transaction Date": "05-09-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "INF/IWISH CONTRIBUTION",
+    "Withdrawal Amount (INR )": 3553,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 57433.92
+  },
+  {
+    "S No.": 234,
+    "Value Date": "07-03-2019",
+    "Transaction Date": "07-09-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "Dt:03/09/20 Amazon web service",
+    "Withdrawal Amount (INR )": 2.37,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 57431.55
+  },
+  {
+    "S No.": 235,
+    "Value Date": "08-03-2019",
+    "Transaction Date": "07-09-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N 2020172/20200907232655",
+    "Withdrawal Amount (INR )": 50.11,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 55099.57
+  },
+  {
+    "S No.": 236,
+    "Value Date": "09-03-2019",
+    "Transaction Date": "07-09-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N 2020172/20200907232655",
+    "Withdrawal Amount (INR )": 2281.87,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 55149.68
+  },
+  {
+    "S No.": 237,
+    "Value Date": "10-03-2019",
+    "Transaction Date": "14-09-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "SMSChgsJul20-Sep20+GST",
+    "Withdrawal Amount (INR )": 17.7,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 55081.87
+  },
+  {
+    "S No.": 238,
+    "Value Date": "11-03-2019",
+    "Transaction Date": "15-09-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N 2020177/20200915092413",
+    "Withdrawal Amount (INR )": 50.09,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 52724.65
+  },
+  {
+    "S No.": 239,
+    "Value Date": "12-03-2019",
+    "Transaction Date": "15-09-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N 2020177/20200915092412",
+    "Withdrawal Amount (INR )": 2307.13,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 52774.74
+  },
+  {
+    "S No.": 240,
+    "Value Date": "13-03-2019",
+    "Transaction Date": "19-09-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "INF/IWISH CONTRIBUTION",
+    "Withdrawal Amount (INR )": 3553,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 49171.65
+  },
+  {
+    "S No.": 241,
+    "Value Date": "14-03-2019",
+    "Transaction Date": "21-09-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N 2020182/20200921215949",
+    "Withdrawal Amount (INR )": 50.03,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 46832.87
+  },
+  {
+    "S No.": 242,
+    "Value Date": "15-03-2019",
+    "Transaction Date": "21-09-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N 2020182/20200921215949",
+    "Withdrawal Amount (INR )": 2288.75,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 46882.9
+  },
+  {
+    "S No.": 243,
+    "Value Date": "16-03-2019",
+    "Transaction Date": "24-09-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N 2020185/20200924225945",
+    "Withdrawal Amount (INR )": 155.13,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 30883.74
+  },
+  {
+    "S No.": 244,
+    "Value Date": "17-03-2019",
+    "Transaction Date": "24-09-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N 2020185/20200924225945",
+    "Withdrawal Amount (INR )": 15794,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 31038.87
+  },
+  {
+    "S No.": 245,
+    "Value Date": "18-03-2019",
+    "Transaction Date": "28-09-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N 2020187/20200928232143",
+    "Withdrawal Amount (INR )": 50.42,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 28556.81
+  },
+  {
+    "S No.": 246,
+    "Value Date": "19-03-2019",
+    "Transaction Date": "28-09-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N 2020187/20200928232143",
+    "Withdrawal Amount (INR )": 2276.51,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 28607.23
+  },
+  {
+    "S No.": 247,
+    "Value Date": "20-03-2019",
+    "Transaction Date": "28-09-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "625401070212:Int.Pd:29-06-2020 to 28-09-2020",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 366,
+    "Balance (INR )": 28922.81
+  },
+  {
+    "S No.": 248,
+    "Value Date": "21-03-2019",
+    "Transaction Date": "30-09-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/BSE N 202021127/20200930224657",
+    "Withdrawal Amount (INR )": 41.4,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 24846.41
+  },
+  {
+    "S No.": 249,
+    "Value Date": "22-03-2019",
+    "Transaction Date": "30-09-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/BSE N 202021127/20200930224657",
+    "Withdrawal Amount (INR )": 4035,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 24887.81
+  },
+  {
+    "S No.": 250,
+    "Value Date": "23-03-2019",
+    "Transaction Date": "03-10-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "VIN/Amazon web /202010031328/027738252455/",
+    "Withdrawal Amount (INR )": 1953.93,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 22892.48
+  },
+  {
+    "S No.": 251,
+    "Value Date": "24-03-2019",
+    "Transaction Date": "05-10-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "INF/IWISH CONTRIBUTION",
+    "Withdrawal Amount (INR )": 3553,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 19339.48
+  },
+  {
+    "S No.": 252,
+    "Value Date": "25-03-2019",
+    "Transaction Date": "06-10-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N 2020191/20201006083415",
+    "Withdrawal Amount (INR )": 49.83,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 16998.95
+  },
+  {
+    "S No.": 253,
+    "Value Date": "26-03-2019",
+    "Transaction Date": "06-10-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N 2020191/20201006083415",
+    "Withdrawal Amount (INR )": 2290.7,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 17048.78
+  },
+  {
+    "S No.": 254,
+    "Value Date": "27-03-2019",
+    "Transaction Date": "12-10-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N 2020196/20201012225745",
+    "Withdrawal Amount (INR )": 49.47,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 14608.58
+  },
+  {
+    "S No.": 255,
+    "Value Date": "28-03-2019",
+    "Transaction Date": "12-10-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE N 2020196/20201012225744",
+    "Withdrawal Amount (INR )": 2340.9,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 14658.05
+  },
+  {
+    "S No.": 256,
+    "Value Date": "29-03-2019",
+    "Transaction Date": "17-10-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "VIN/AMAZON INTE/202010170725/029101242665/",
+    "Withdrawal Amount (INR )": 265.71,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 14342.87
+  },
+  {
+    "S No.": 257,
+    "Value Date": "30-03-2019",
+    "Transaction Date": "17-10-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "VIN/AMAZON INTE/202010170730/029102248012/",
+    "Withdrawal Amount (INR )": 697.19,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 13645.68
+  },
+  {
+    "S No.": 258,
+    "Value Date": "31-03-2019",
+    "Transaction Date": "19-10-2020",
+    "Cheque Number": "",
+    "Transaction Remarks": "INF/IWISH CONTRIBUTION",
+    "Withdrawal Amount (INR )": 3553,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 10092.68
+  }
+]

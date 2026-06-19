@@ -1,0 +1,6022 @@
+[
+  {
+    "S No.": 2070,
+    "Value Date": "01-04-2025",
+    "Transaction Date": "01-04-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20250401163857",
+    "Withdrawal Amount (INR )": 971.29,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 15272.9
+  },
+  {
+    "S No.": 2071,
+    "Value Date": "02-04-2025",
+    "Transaction Date": "02-04-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE M 2025063/20250402065234",
+    "Withdrawal Amount (INR )": 3.13,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 15269.77
+  },
+  {
+    "S No.": 2072,
+    "Value Date": "02-04-2025",
+    "Transaction Date": "02-04-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20250402171218",
+    "Withdrawal Amount (INR )": 709.24,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 14560.53
+  },
+  {
+    "S No.": 2073,
+    "Value Date": "03-04-2025",
+    "Transaction Date": "03-04-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE M 2025064/20250403064656",
+    "Withdrawal Amount (INR )": 2.29,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 14558.24
+  },
+  {
+    "S No.": 2074,
+    "Value Date": "03-04-2025",
+    "Transaction Date": "03-04-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20250403162047",
+    "Withdrawal Amount (INR )": 708.59,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 13849.65
+  },
+  {
+    "S No.": 2075,
+    "Value Date": "04-04-2025",
+    "Transaction Date": "04-04-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE M 2025065/20250404065139",
+    "Withdrawal Amount (INR )": 2.28,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 13847.37
+  },
+  {
+    "S No.": 2076,
+    "Value Date": "04-04-2025",
+    "Transaction Date": "04-04-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20250404161859",
+    "Withdrawal Amount (INR )": 1599.89,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 12247.48
+  },
+  {
+    "S No.": 2077,
+    "Value Date": "04-04-2025",
+    "Transaction Date": "04-04-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/Tday UpStream credit/20250404174359",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 460.5,
+    "Balance (INR )": 12707.98
+  },
+  {
+    "S No.": 2078,
+    "Value Date": "06-04-2025",
+    "Transaction Date": "06-04-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "MMT/IMPS/509620175873/Savings/MURALIDHAR/HDFC Bank",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 15000,
+    "Balance (INR )": 27707.98
+  },
+  {
+    "S No.": 2079,
+    "Value Date": "07-04-2025",
+    "Transaction Date": "07-04-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE M 2025066/20250407070112",
+    "Withdrawal Amount (INR )": 3.67,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 27704.31
+  },
+  {
+    "S No.": 2080,
+    "Value Date": "07-04-2025",
+    "Transaction Date": "07-04-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20250407164244",
+    "Withdrawal Amount (INR )": 11362.3,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 16342.01
+  },
+  {
+    "S No.": 2081,
+    "Value Date": "08-04-2025",
+    "Transaction Date": "08-04-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE M 2025067/20250408084953",
+    "Withdrawal Amount (INR )": 38.63,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 16303.38
+  },
+  {
+    "S No.": 2082,
+    "Value Date": "08-04-2025",
+    "Transaction Date": "08-04-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20250408163601",
+    "Withdrawal Amount (INR )": 675.04,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 15628.34
+  },
+  {
+    "S No.": 2083,
+    "Value Date": "09-04-2025",
+    "Transaction Date": "09-04-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE M 2025068/20250409085113",
+    "Withdrawal Amount (INR )": 2.18,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 15626.16
+  },
+  {
+    "S No.": 2084,
+    "Value Date": "09-04-2025",
+    "Transaction Date": "09-04-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20250409161914",
+    "Withdrawal Amount (INR )": 3895.81,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 11730.35
+  },
+  {
+    "S No.": 2085,
+    "Value Date": "11-04-2025",
+    "Transaction Date": "11-04-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE M 2025069/20250411071817",
+    "Withdrawal Amount (INR )": 13.56,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 11716.79
+  },
+  {
+    "S No.": 2086,
+    "Value Date": "11-04-2025",
+    "Transaction Date": "11-04-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20250411162242",
+    "Withdrawal Amount (INR )": 689.47,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 11027.32
+  },
+  {
+    "S No.": 2087,
+    "Value Date": "12-04-2025",
+    "Transaction Date": "12-04-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE M 2025070/20250412071840",
+    "Withdrawal Amount (INR )": 2.22,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 11025.1
+  },
+  {
+    "S No.": 2088,
+    "Value Date": "15-04-2025",
+    "Transaction Date": "15-04-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20250415165140",
+    "Withdrawal Amount (INR )": 697.62,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 10327.48
+  },
+  {
+    "S No.": 2089,
+    "Value Date": "16-04-2025",
+    "Transaction Date": "16-04-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE M 2025071/20250416070617",
+    "Withdrawal Amount (INR )": 2.25,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 10325.23
+  },
+  {
+    "S No.": 2090,
+    "Value Date": "16-04-2025",
+    "Transaction Date": "16-04-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20250416161755",
+    "Withdrawal Amount (INR )": 1356.83,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 8968.4
+  },
+  {
+    "S No.": 2091,
+    "Value Date": "17-04-2025",
+    "Transaction Date": "17-04-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE M 2025072/20250417064531",
+    "Withdrawal Amount (INR )": 4.37,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 8964.03
+  },
+  {
+    "S No.": 2092,
+    "Value Date": "17-04-2025",
+    "Transaction Date": "17-04-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20250417163254",
+    "Withdrawal Amount (INR )": 1350.86,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 7613.17
+  },
+  {
+    "S No.": 2093,
+    "Value Date": "21-04-2025",
+    "Transaction Date": "21-04-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE M 2025073/20250421064156",
+    "Withdrawal Amount (INR )": 4.35,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 7608.82
+  },
+  {
+    "S No.": 2094,
+    "Value Date": "21-04-2025",
+    "Transaction Date": "21-04-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20250421164748",
+    "Withdrawal Amount (INR )": 714.07,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 6894.75
+  },
+  {
+    "S No.": 2095,
+    "Value Date": "22-04-2025",
+    "Transaction Date": "22-04-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/NSE M 2025074/20250422071839",
+    "Withdrawal Amount (INR )": 2.3,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 6892.45
+  },
+  {
+    "S No.": 2096,
+    "Value Date": "22-04-2025",
+    "Transaction Date": "22-04-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/Upstreamed Payin/20250422163827",
+    "Withdrawal Amount (INR )": 1209.19,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 5683.26
+  },
+  {
+    "S No.": 2097,
+    "Value Date": "23-04-2025",
+    "Transaction Date": "23-04-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 23APR/20250423070237",
+    "Withdrawal Amount (INR )": 3.9,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 5679.36
+  },
+  {
+    "S No.": 2098,
+    "Value Date": "23-04-2025",
+    "Transaction Date": "23-04-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "MMT/IMPS/511312162495/Savings/MURALIDHAR/HDFC Bank",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 5000,
+    "Balance (INR )": 10679.36
+  },
+  {
+    "S No.": 2099,
+    "Value Date": "23-04-2025",
+    "Transaction Date": "23-04-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 23APR/20250423163841",
+    "Withdrawal Amount (INR )": 719.29,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 9960.07
+  },
+  {
+    "S No.": 2100,
+    "Value Date": "24-04-2025",
+    "Transaction Date": "24-04-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 24APR/20250424071243",
+    "Withdrawal Amount (INR )": 2.3,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 9957.75
+  },
+  {
+    "S No.": 2101,
+    "Value Date": "24-04-2025",
+    "Transaction Date": "24-04-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 24APR/20250424071242",
+    "Withdrawal Amount (INR )": 0.02,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 9960.05
+  },
+  {
+    "S No.": 2102,
+    "Value Date": "24-04-2025",
+    "Transaction Date": "24-04-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 24APR/20250424163139",
+    "Withdrawal Amount (INR )": 723.38,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 9234.37
+  },
+  {
+    "S No.": 2103,
+    "Value Date": "25-04-2025",
+    "Transaction Date": "25-04-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 25APR/20250425064842",
+    "Withdrawal Amount (INR )": 2.33,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 9232.04
+  },
+  {
+    "S No.": 2104,
+    "Value Date": "25-04-2025",
+    "Transaction Date": "25-04-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 25APR/20250425170004",
+    "Withdrawal Amount (INR )": 712.43,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 8519.61
+  },
+  {
+    "S No.": 2105,
+    "Value Date": "28-04-2025",
+    "Transaction Date": "28-04-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 28APR/20250428070737",
+    "Withdrawal Amount (INR )": 0.06,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 8519.55
+  },
+  {
+    "S No.": 2106,
+    "Value Date": "28-04-2025",
+    "Transaction Date": "28-04-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 28APR/20250428070738",
+    "Withdrawal Amount (INR )": 2.24,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 8517.31
+  },
+  {
+    "S No.": 2107,
+    "Value Date": "28-04-2025",
+    "Transaction Date": "28-04-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 28APR/20250428191550",
+    "Withdrawal Amount (INR )": 722.69,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 7794.62
+  },
+  {
+    "S No.": 2108,
+    "Value Date": "29-04-2025",
+    "Transaction Date": "29-04-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 29APR/20250429070901",
+    "Withdrawal Amount (INR )": 2.43,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 7792.19
+  },
+  {
+    "S No.": 2109,
+    "Value Date": "29-04-2025",
+    "Transaction Date": "29-04-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 29APR/20250429164451",
+    "Withdrawal Amount (INR )": 724.17,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 7068.02
+  },
+  {
+    "S No.": 2110,
+    "Value Date": "30-04-2025",
+    "Transaction Date": "30-04-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 30APR/20250430064700",
+    "Withdrawal Amount (INR )": 2.33,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 7065.69
+  },
+  {
+    "S No.": 2111,
+    "Value Date": "30-04-2025",
+    "Transaction Date": "30-04-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 30APR/20250430162957",
+    "Withdrawal Amount (INR )": 723.01,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 6342.68
+  },
+  {
+    "S No.": 2112,
+    "Value Date": "02-05-2025",
+    "Transaction Date": "02-05-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 02MAY/20250502070738",
+    "Withdrawal Amount (INR )": 2.33,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 6340.35
+  },
+  {
+    "S No.": 2113,
+    "Value Date": "02-05-2025",
+    "Transaction Date": "02-05-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "MMT/IMPS/512210155306/Savings/MURALIDHAR/HDFC Bank",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 20000,
+    "Balance (INR )": 26340.35
+  },
+  {
+    "S No.": 2114,
+    "Value Date": "02-05-2025",
+    "Transaction Date": "02-05-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 02MAY/20250502162317",
+    "Withdrawal Amount (INR )": 721.95,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 25618.4
+  },
+  {
+    "S No.": 2115,
+    "Value Date": "05-05-2025",
+    "Transaction Date": "05-05-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 05MAY/20250505070246",
+    "Withdrawal Amount (INR )": 2.33,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 25616.07
+  },
+  {
+    "S No.": 2116,
+    "Value Date": "05-05-2025",
+    "Transaction Date": "05-05-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 05MAY/20250505162808",
+    "Withdrawal Amount (INR )": 726.17,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 24889.9
+  },
+  {
+    "S No.": 2117,
+    "Value Date": "06-05-2025",
+    "Transaction Date": "06-05-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 06MAY/20250506064142",
+    "Withdrawal Amount (INR )": 2.34,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 24887.56
+  },
+  {
+    "S No.": 2118,
+    "Value Date": "06-05-2025",
+    "Transaction Date": "06-05-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 06MAY/20250506162951",
+    "Withdrawal Amount (INR )": 723.25,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 24164.31
+  },
+  {
+    "S No.": 2119,
+    "Value Date": "07-05-2025",
+    "Transaction Date": "07-05-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 07MAY/20250507063809",
+    "Withdrawal Amount (INR )": 2.33,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 24161.98
+  },
+  {
+    "S No.": 2120,
+    "Value Date": "07-05-2025",
+    "Transaction Date": "07-05-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 07MAY/20250507162705",
+    "Withdrawal Amount (INR )": 722.56,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 23439.42
+  },
+  {
+    "S No.": 2121,
+    "Value Date": "08-05-2025",
+    "Transaction Date": "08-05-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 08MAY/20250508074236",
+    "Withdrawal Amount (INR )": 2.33,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 23437.09
+  },
+  {
+    "S No.": 2122,
+    "Value Date": "08-05-2025",
+    "Transaction Date": "08-05-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 08MAY/20250508162312",
+    "Withdrawal Amount (INR )": 1007.68,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 22429.41
+  },
+  {
+    "S No.": 2123,
+    "Value Date": "09-05-2025",
+    "Transaction Date": "09-05-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 09MAY/20250509070047",
+    "Withdrawal Amount (INR )": 3.25,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 22426.16
+  },
+  {
+    "S No.": 2124,
+    "Value Date": "09-05-2025",
+    "Transaction Date": "09-05-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 09MAY/20250509161616",
+    "Withdrawal Amount (INR )": 1559.28,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 20866.88
+  },
+  {
+    "S No.": 2125,
+    "Value Date": "12-05-2025",
+    "Transaction Date": "12-05-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 12MAY/20250512070717",
+    "Withdrawal Amount (INR )": 5.03,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 20861.85
+  },
+  {
+    "S No.": 2126,
+    "Value Date": "12-05-2025",
+    "Transaction Date": "12-05-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 12MAY/20250512162334",
+    "Withdrawal Amount (INR )": 732.47,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 20129.38
+  },
+  {
+    "S No.": 2127,
+    "Value Date": "13-05-2025",
+    "Transaction Date": "13-05-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 13MAY/20250513065413",
+    "Withdrawal Amount (INR )": 2.43,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 20126.95
+  },
+  {
+    "S No.": 2128,
+    "Value Date": "13-05-2025",
+    "Transaction Date": "13-05-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 13MAY/20250513164445",
+    "Withdrawal Amount (INR )": 739.94,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 19387.01
+  },
+  {
+    "S No.": 2129,
+    "Value Date": "14-05-2025",
+    "Transaction Date": "14-05-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 14MAY/20250514071953",
+    "Withdrawal Amount (INR )": 2.4,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 19384.61
+  },
+  {
+    "S No.": 2130,
+    "Value Date": "14-05-2025",
+    "Transaction Date": "14-05-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 14MAY/20250514163310",
+    "Withdrawal Amount (INR )": 741.85,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 18642.76
+  },
+  {
+    "S No.": 2131,
+    "Value Date": "15-05-2025",
+    "Transaction Date": "15-05-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 15MAY/20250515073554",
+    "Withdrawal Amount (INR )": 2.47,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 18640.29
+  },
+  {
+    "S No.": 2132,
+    "Value Date": "15-05-2025",
+    "Transaction Date": "15-05-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 15MAY/20250515163033",
+    "Withdrawal Amount (INR )": 742.29,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 17898
+  },
+  {
+    "S No.": 2133,
+    "Value Date": "16-05-2025",
+    "Transaction Date": "16-05-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 16MAY/20250516074641",
+    "Withdrawal Amount (INR )": 2.39,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 17895.61
+  },
+  {
+    "S No.": 2134,
+    "Value Date": "16-05-2025",
+    "Transaction Date": "16-05-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 16MAY/20250516162342",
+    "Withdrawal Amount (INR )": 364.22,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 17531.39
+  },
+  {
+    "S No.": 2135,
+    "Value Date": "17-05-2025",
+    "Transaction Date": "17-05-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "SMSChgsJan25-Mar25+GST",
+    "Withdrawal Amount (INR )": 2.46,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 17528.93
+  },
+  {
+    "S No.": 2136,
+    "Value Date": "17-05-2025",
+    "Transaction Date": "17-05-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "PMJJBY RENEWAL FY 25-26",
+    "Withdrawal Amount (INR )": 425,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 17103.93
+  },
+  {
+    "S No.": 2137,
+    "Value Date": "19-05-2025",
+    "Transaction Date": "19-05-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 19MAY/20250519064946",
+    "Withdrawal Amount (INR )": 1.17,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 17102.76
+  },
+  {
+    "S No.": 2138,
+    "Value Date": "19-05-2025",
+    "Transaction Date": "19-05-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "BIL/INFT/EEN7457591/AUC-E23-055/ OSWAL ANTIQUES",
+    "Withdrawal Amount (INR )": 15578,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 1524.76
+  },
+  {
+    "S No.": 2139,
+    "Value Date": "19-05-2025",
+    "Transaction Date": "19-05-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "MMT/IMPS/513913128641/Oswal Auction F/MURALIDHAR/HDFC Bank",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 15000,
+    "Balance (INR )": 16524.76
+  },
+  {
+    "S No.": 2140,
+    "Value Date": "19-05-2025",
+    "Transaction Date": "19-05-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 19MAY/20250519164117",
+    "Withdrawal Amount (INR )": 362.89,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 16161.87
+  },
+  {
+    "S No.": 2141,
+    "Value Date": "20-05-2025",
+    "Transaction Date": "20-05-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 20MAY/20250520065225",
+    "Withdrawal Amount (INR )": 1.49,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 16160.38
+  },
+  {
+    "S No.": 2142,
+    "Value Date": "20-05-2025",
+    "Transaction Date": "20-05-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 20MAY/20250520163634",
+    "Withdrawal Amount (INR )": 362.69,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 15797.69
+  },
+  {
+    "S No.": 2143,
+    "Value Date": "21-05-2025",
+    "Transaction Date": "21-05-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 21MAY/20250521070118",
+    "Withdrawal Amount (INR )": 1.17,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 15796.52
+  },
+  {
+    "S No.": 2144,
+    "Value Date": "21-05-2025",
+    "Transaction Date": "21-05-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "CGST202505216144434521",
+    "Withdrawal Amount (INR )": 0.83,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 15785.54
+  },
+  {
+    "S No.": 2145,
+    "Value Date": "21-05-2025",
+    "Transaction Date": "21-05-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "SGST202505216144434519",
+    "Withdrawal Amount (INR )": 0.83,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 15786.37
+  },
+  {
+    "S No.": 2146,
+    "Value Date": "21-05-2025",
+    "Transaction Date": "21-05-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "AdminChargeRenewal PMJJBY FY26",
+    "Withdrawal Amount (INR )": 9.32,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 15787.2
+  },
+  {
+    "S No.": 2147,
+    "Value Date": "21-05-2025",
+    "Transaction Date": "21-05-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 21MAY/20250521162036",
+    "Withdrawal Amount (INR )": 360.65,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 15424.89
+  },
+  {
+    "S No.": 2148,
+    "Value Date": "22-05-2025",
+    "Transaction Date": "22-05-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 22MAY/20250522064443",
+    "Withdrawal Amount (INR )": 1.16,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 15423.73
+  },
+  {
+    "S No.": 2149,
+    "Value Date": "22-05-2025",
+    "Transaction Date": "22-05-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 22MAY/20250522163119",
+    "Withdrawal Amount (INR )": 357.94,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 15065.79
+  },
+  {
+    "S No.": 2150,
+    "Value Date": "23-05-2025",
+    "Transaction Date": "23-05-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 23MAY/20250523065205",
+    "Withdrawal Amount (INR )": 1.19,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 15064.6
+  },
+  {
+    "S No.": 2151,
+    "Value Date": "23-05-2025",
+    "Transaction Date": "23-05-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 23MAY/20250523162301",
+    "Withdrawal Amount (INR )": 359.71,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 14704.89
+  },
+  {
+    "S No.": 2152,
+    "Value Date": "26-05-2025",
+    "Transaction Date": "26-05-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 26MAY/20250526070619",
+    "Withdrawal Amount (INR )": 2,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 14702.89
+  },
+  {
+    "S No.": 2153,
+    "Value Date": "26-05-2025",
+    "Transaction Date": "26-05-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "UPI/zerodhabroking@/512242488167002/HDFC BANK LTD/100622323645/HDFAF9B76F5A9F74536BBAA0D6E3413C3A2/",
+    "Withdrawal Amount (INR )": 2500,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 12202.89
+  },
+  {
+    "S No.": 2154,
+    "Value Date": "26-05-2025",
+    "Transaction Date": "26-05-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 26MAY/20250526163953",
+    "Withdrawal Amount (INR )": 361.37,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 11841.52
+  },
+  {
+    "S No.": 2155,
+    "Value Date": "27-05-2025",
+    "Transaction Date": "27-05-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 27MAY/20250527063819",
+    "Withdrawal Amount (INR )": 1.14,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 11840.36
+  },
+  {
+    "S No.": 2156,
+    "Value Date": "27-05-2025",
+    "Transaction Date": "27-05-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 27MAY/20250527063819",
+    "Withdrawal Amount (INR )": 0.02,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 11841.5
+  },
+  {
+    "S No.": 2157,
+    "Value Date": "27-05-2025",
+    "Transaction Date": "27-05-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 27MAY/20250527161213",
+    "Withdrawal Amount (INR )": 360.5,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 11479.86
+  },
+  {
+    "S No.": 2158,
+    "Value Date": "28-05-2025",
+    "Transaction Date": "28-05-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 28MAY/20250528064306",
+    "Withdrawal Amount (INR )": 1.45,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 11478.41
+  },
+  {
+    "S No.": 2159,
+    "Value Date": "28-05-2025",
+    "Transaction Date": "28-05-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/PUR_PRIME290/20250528161600",
+    "Withdrawal Amount (INR )": 342.2,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 11136.21
+  },
+  {
+    "S No.": 2160,
+    "Value Date": "28-05-2025",
+    "Transaction Date": "28-05-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 28MAY/20250528162600",
+    "Withdrawal Amount (INR )": 360.83,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 10775.38
+  },
+  {
+    "S No.": 2161,
+    "Value Date": "29-05-2025",
+    "Transaction Date": "29-05-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 29MAY/20250529064836",
+    "Withdrawal Amount (INR )": 0.13,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 10774.22
+  },
+  {
+    "S No.": 2162,
+    "Value Date": "29-05-2025",
+    "Transaction Date": "29-05-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 29MAY/20250529064836",
+    "Withdrawal Amount (INR )": 1.03,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 10774.35
+  },
+  {
+    "S No.": 2163,
+    "Value Date": "29-05-2025",
+    "Transaction Date": "29-05-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 29MAY/20250529163703",
+    "Withdrawal Amount (INR )": 363.04,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 10411.18
+  },
+  {
+    "S No.": 2164,
+    "Value Date": "30-05-2025",
+    "Transaction Date": "30-05-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 30MAY/20250530064403",
+    "Withdrawal Amount (INR )": 1.17,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 10410.01
+  },
+  {
+    "S No.": 2165,
+    "Value Date": "30-05-2025",
+    "Transaction Date": "30-05-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "NEFT-HDFCN52025053061617844-MURALIDHAR KINI B-0001-01331140014684-HDFC0000001",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 10000,
+    "Balance (INR )": 20410.01
+  },
+  {
+    "S No.": 2166,
+    "Value Date": "30-05-2025",
+    "Transaction Date": "30-05-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 30MAY/20250530163206",
+    "Withdrawal Amount (INR )": 361.15,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 20048.86
+  },
+  {
+    "S No.": 2167,
+    "Value Date": "02-06-2025",
+    "Transaction Date": "02-06-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 02JUN/20250602070006",
+    "Withdrawal Amount (INR )": 1.22,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 20047.64
+  },
+  {
+    "S No.": 2168,
+    "Value Date": "02-06-2025",
+    "Transaction Date": "02-06-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "UPI/qr.idamcharit@s/idam trust/South Indian Ba/515341097397/PTMeb34acd1b7624d1da22f9eff87e600a2/",
+    "Withdrawal Amount (INR )": 3000,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 17047.64
+  },
+  {
+    "S No.": 2169,
+    "Value Date": "02-06-2025",
+    "Transaction Date": "02-06-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 02JUN/20250602173848",
+    "Withdrawal Amount (INR )": 359.54,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 16688.1
+  },
+  {
+    "S No.": 2170,
+    "Value Date": "03-06-2025",
+    "Transaction Date": "03-06-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 03JUN/20250603073336",
+    "Withdrawal Amount (INR )": 1.62,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 16686.48
+  },
+  {
+    "S No.": 2171,
+    "Value Date": "03-06-2025",
+    "Transaction Date": "03-06-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 03JUN/20250603165527",
+    "Withdrawal Amount (INR )": 360.65,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 16325.83
+  },
+  {
+    "S No.": 2172,
+    "Value Date": "04-06-2025",
+    "Transaction Date": "04-06-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 04JUN/20250604071109",
+    "Withdrawal Amount (INR )": 1.76,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 16324.07
+  },
+  {
+    "S No.": 2173,
+    "Value Date": "04-06-2025",
+    "Transaction Date": "04-06-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 04JUN/20250604165617",
+    "Withdrawal Amount (INR )": 362.03,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 15962.04
+  },
+  {
+    "S No.": 2174,
+    "Value Date": "05-06-2025",
+    "Transaction Date": "05-06-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 05JUN/20250605065910",
+    "Withdrawal Amount (INR )": 2.03,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 15960.01
+  },
+  {
+    "S No.": 2175,
+    "Value Date": "05-06-2025",
+    "Transaction Date": "05-06-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 05JUN/20250605165054",
+    "Withdrawal Amount (INR )": 364.68,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 15595.33
+  },
+  {
+    "S No.": 2176,
+    "Value Date": "06-06-2025",
+    "Transaction Date": "06-06-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 06JUN/20250606073804",
+    "Withdrawal Amount (INR )": 1.18,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 15594.15
+  },
+  {
+    "S No.": 2177,
+    "Value Date": "06-06-2025",
+    "Transaction Date": "06-06-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 06JUN/20250606165458",
+    "Withdrawal Amount (INR )": 364.23,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 15229.92
+  },
+  {
+    "S No.": 2178,
+    "Value Date": "09-06-2025",
+    "Transaction Date": "09-06-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 09JUN/20250609071519",
+    "Withdrawal Amount (INR )": 1.17,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 15228.75
+  },
+  {
+    "S No.": 2179,
+    "Value Date": "09-06-2025",
+    "Transaction Date": "09-06-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 09JUN/20250609170507",
+    "Withdrawal Amount (INR )": 365.22,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 14863.53
+  },
+  {
+    "S No.": 2180,
+    "Value Date": "10-06-2025",
+    "Transaction Date": "10-06-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 10JUN/20250610073052",
+    "Withdrawal Amount (INR )": 1.03,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 14862.35
+  },
+  {
+    "S No.": 2181,
+    "Value Date": "10-06-2025",
+    "Transaction Date": "10-06-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 10JUN/20250610073052",
+    "Withdrawal Amount (INR )": 0.15,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 14863.38
+  },
+  {
+    "S No.": 2182,
+    "Value Date": "10-06-2025",
+    "Transaction Date": "10-06-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 10JUN/20250610171139",
+    "Withdrawal Amount (INR )": 366.38,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 14495.97
+  },
+  {
+    "S No.": 2183,
+    "Value Date": "11-06-2025",
+    "Transaction Date": "11-06-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 11JUN/20250611071410",
+    "Withdrawal Amount (INR )": 1.18,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 14494.79
+  },
+  {
+    "S No.": 2184,
+    "Value Date": "11-06-2025",
+    "Transaction Date": "11-06-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 11JUN/20250611170326",
+    "Withdrawal Amount (INR )": 366.76,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 14128.03
+  },
+  {
+    "S No.": 2185,
+    "Value Date": "12-06-2025",
+    "Transaction Date": "12-06-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 12JUN/20250612070732",
+    "Withdrawal Amount (INR )": 1.5,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 14126.53
+  },
+  {
+    "S No.": 2186,
+    "Value Date": "12-06-2025",
+    "Transaction Date": "12-06-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 12JUN/20250612162415",
+    "Withdrawal Amount (INR )": 365.51,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 13761.02
+  },
+  {
+    "S No.": 2187,
+    "Value Date": "13-06-2025",
+    "Transaction Date": "13-06-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 13JUN/20250613070719",
+    "Withdrawal Amount (INR )": 1.36,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 13759.66
+  },
+  {
+    "S No.": 2188,
+    "Value Date": "13-06-2025",
+    "Transaction Date": "13-06-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 13JUN/20250613163651",
+    "Withdrawal Amount (INR )": 361.86,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 13397.8
+  },
+  {
+    "S No.": 2189,
+    "Value Date": "16-06-2025",
+    "Transaction Date": "16-06-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 16JUN/20250616072930",
+    "Withdrawal Amount (INR )": 1.29,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 13396.51
+  },
+  {
+    "S No.": 2190,
+    "Value Date": "16-06-2025",
+    "Transaction Date": "16-06-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 16JUN/20250616163014",
+    "Withdrawal Amount (INR )": 364.32,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 13032.19
+  },
+  {
+    "S No.": 2191,
+    "Value Date": "17-06-2025",
+    "Transaction Date": "17-06-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 17JUN/20250617083238",
+    "Withdrawal Amount (INR )": 1.17,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 13031.02
+  },
+  {
+    "S No.": 2192,
+    "Value Date": "17-06-2025",
+    "Transaction Date": "17-06-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 17JUN/20250617162943",
+    "Withdrawal Amount (INR )": 364.99,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 12666.03
+  },
+  {
+    "S No.": 2193,
+    "Value Date": "18-06-2025",
+    "Transaction Date": "18-06-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 18JUN/20250618065953",
+    "Withdrawal Amount (INR )": 1.18,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 12664.85
+  },
+  {
+    "S No.": 2194,
+    "Value Date": "18-06-2025",
+    "Transaction Date": "18-06-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 18JUN/20250618162022",
+    "Withdrawal Amount (INR )": 365.22,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 12299.63
+  },
+  {
+    "S No.": 2195,
+    "Value Date": "19-06-2025",
+    "Transaction Date": "19-06-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 19JUN/20250619070435",
+    "Withdrawal Amount (INR )": 0.02,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 12298.45
+  },
+  {
+    "S No.": 2196,
+    "Value Date": "19-06-2025",
+    "Transaction Date": "19-06-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 19JUN/20250619070435",
+    "Withdrawal Amount (INR )": 1.16,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 12298.47
+  },
+  {
+    "S No.": 2197,
+    "Value Date": "19-06-2025",
+    "Transaction Date": "19-06-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 19JUN/20250619170042",
+    "Withdrawal Amount (INR )": 363.98,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 11934.47
+  },
+  {
+    "S No.": 2198,
+    "Value Date": "20-06-2025",
+    "Transaction Date": "20-06-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 20JUN/20250620070122",
+    "Withdrawal Amount (INR )": 1.17,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 11933.3
+  },
+  {
+    "S No.": 2199,
+    "Value Date": "20-06-2025",
+    "Transaction Date": "20-06-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 20JUN/20250620163417",
+    "Withdrawal Amount (INR )": 364.17,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 11569.13
+  },
+  {
+    "S No.": 2200,
+    "Value Date": "23-06-2025",
+    "Transaction Date": "23-06-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 23JUN/20250623070435",
+    "Withdrawal Amount (INR )": 0.04,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 11569.09
+  },
+  {
+    "S No.": 2201,
+    "Value Date": "23-06-2025",
+    "Transaction Date": "23-06-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 23JUN/20250623070436",
+    "Withdrawal Amount (INR )": 1.13,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 11567.96
+  },
+  {
+    "S No.": 2202,
+    "Value Date": "23-06-2025",
+    "Transaction Date": "23-06-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 23JUN/20250623162102",
+    "Withdrawal Amount (INR )": 363.61,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 11204.35
+  },
+  {
+    "S No.": 2203,
+    "Value Date": "24-06-2025",
+    "Transaction Date": "24-06-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 24JUN/20250624075549",
+    "Withdrawal Amount (INR )": 1.17,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 11203.18
+  },
+  {
+    "S No.": 2204,
+    "Value Date": "24-06-2025",
+    "Transaction Date": "24-06-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 24JUN/20250624162115",
+    "Withdrawal Amount (INR )": 369.35,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 10833.83
+  },
+  {
+    "S No.": 2205,
+    "Value Date": "25-06-2025",
+    "Transaction Date": "25-06-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 25JUN/20250625070622",
+    "Withdrawal Amount (INR )": 1.19,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 10832.64
+  },
+  {
+    "S No.": 2206,
+    "Value Date": "25-06-2025",
+    "Transaction Date": "25-06-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 25JUN/20250625162316",
+    "Withdrawal Amount (INR )": 370.69,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 10461.95
+  },
+  {
+    "S No.": 2207,
+    "Value Date": "26-06-2025",
+    "Transaction Date": "26-06-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 26JUN/20250626070735",
+    "Withdrawal Amount (INR )": 1.2,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 10460.75
+  },
+  {
+    "S No.": 2208,
+    "Value Date": "26-06-2025",
+    "Transaction Date": "26-06-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 26JUN/20250626161703",
+    "Withdrawal Amount (INR )": 372.89,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 10087.86
+  },
+  {
+    "S No.": 2209,
+    "Value Date": "26-06-2025",
+    "Transaction Date": "26-06-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "MMT/IMPS/517716188680/Equity SIP/MURALIDHAR/HDFC Bank",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 25000,
+    "Balance (INR )": 35087.86
+  },
+  {
+    "S No.": 2210,
+    "Value Date": "27-06-2025",
+    "Transaction Date": "27-06-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 27JUN/20250627070927",
+    "Withdrawal Amount (INR )": 0.04,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 35086.66
+  },
+  {
+    "S No.": 2211,
+    "Value Date": "27-06-2025",
+    "Transaction Date": "27-06-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 27JUN/20250627070928",
+    "Withdrawal Amount (INR )": 1.16,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 35086.7
+  },
+  {
+    "S No.": 2212,
+    "Value Date": "27-06-2025",
+    "Transaction Date": "27-06-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 27JUN/20250627161659",
+    "Withdrawal Amount (INR )": 377.09,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 34709.57
+  },
+  {
+    "S No.": 2213,
+    "Value Date": "29-06-2025",
+    "Transaction Date": "29-06-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "UPI/jioblackrockmf./ReversePennyDro//518069605364/ICIf0e958f4d477445bbf78afaf20ea3ac1/",
+    "Withdrawal Amount (INR )": 1,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 34708.57
+  },
+  {
+    "S No.": 2214,
+    "Value Date": "29-06-2025",
+    "Transaction Date": "29-06-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "UPI/jioblackrockmf./CAMSPay Refund/INDUSIND BANK L/100146760606/INDB38B465F248568114E063F87C180A42A",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 1,
+    "Balance (INR )": 34709.57
+  },
+  {
+    "S No.": 2215,
+    "Value Date": "30-06-2025",
+    "Transaction Date": "30-06-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 30JUN/20250630071158",
+    "Withdrawal Amount (INR )": 1.22,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 34708.35
+  },
+  {
+    "S No.": 2216,
+    "Value Date": "30-06-2025",
+    "Transaction Date": "30-06-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "625401070212:Int.Pd:29-03-2025 to 29-06-2025",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 108,
+    "Balance (INR )": 34816.35
+  },
+  {
+    "S No.": 2217,
+    "Value Date": "30-06-2025",
+    "Transaction Date": "30-06-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 30JUN/20250630161934",
+    "Withdrawal Amount (INR )": 380.57,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 34435.78
+  },
+  {
+    "S No.": 2218,
+    "Value Date": "01-07-2025",
+    "Transaction Date": "01-07-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 01JUL/20250701071257",
+    "Withdrawal Amount (INR )": 1.19,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 34434.55
+  },
+  {
+    "S No.": 2219,
+    "Value Date": "01-07-2025",
+    "Transaction Date": "01-07-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 01JUL/20250701071256",
+    "Withdrawal Amount (INR )": 0.04,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 34435.74
+  },
+  {
+    "S No.": 2220,
+    "Value Date": "01-07-2025",
+    "Transaction Date": "01-07-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 01JUL/20250701161911",
+    "Withdrawal Amount (INR )": 384.79,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 34049.76
+  },
+  {
+    "S No.": 2221,
+    "Value Date": "02-07-2025",
+    "Transaction Date": "02-07-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 02JUL/20250702065205",
+    "Withdrawal Amount (INR )": 0.04,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 34049.72
+  },
+  {
+    "S No.": 2222,
+    "Value Date": "02-07-2025",
+    "Transaction Date": "02-07-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 02JUL/20250702065206",
+    "Withdrawal Amount (INR )": 1.2,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 34048.52
+  },
+  {
+    "S No.": 2223,
+    "Value Date": "02-07-2025",
+    "Transaction Date": "02-07-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 02JUL/20250702163531",
+    "Withdrawal Amount (INR )": 380.55,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 33667.97
+  },
+  {
+    "S No.": 2224,
+    "Value Date": "03-07-2025",
+    "Transaction Date": "03-07-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 03JUL/20250703064925",
+    "Withdrawal Amount (INR )": 1.23,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 33666.74
+  },
+  {
+    "S No.": 2225,
+    "Value Date": "03-07-2025",
+    "Transaction Date": "03-07-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 03JUL/20250703162757",
+    "Withdrawal Amount (INR )": 380.67,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 33286.07
+  },
+  {
+    "S No.": 2226,
+    "Value Date": "04-07-2025",
+    "Transaction Date": "04-07-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 04JUL/20250704065930",
+    "Withdrawal Amount (INR )": 1.97,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 33284.1
+  },
+  {
+    "S No.": 2227,
+    "Value Date": "04-07-2025",
+    "Transaction Date": "04-07-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 04JUL/20250704165137",
+    "Withdrawal Amount (INR )": 379.62,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 32904.48
+  },
+  {
+    "S No.": 2228,
+    "Value Date": "07-07-2025",
+    "Transaction Date": "07-07-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 07JUL/20250707072243",
+    "Withdrawal Amount (INR )": 1.2,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 32903.26
+  },
+  {
+    "S No.": 2229,
+    "Value Date": "07-07-2025",
+    "Transaction Date": "07-07-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 07JUL/20250707072242",
+    "Withdrawal Amount (INR )": 0.02,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 32904.46
+  },
+  {
+    "S No.": 2230,
+    "Value Date": "07-07-2025",
+    "Transaction Date": "07-07-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 07JUL/20250707165106",
+    "Withdrawal Amount (INR )": 379.21,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 32524.05
+  },
+  {
+    "S No.": 2231,
+    "Value Date": "08-07-2025",
+    "Transaction Date": "08-07-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 08JUL/20250708070340",
+    "Withdrawal Amount (INR )": 1.22,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 32522.83
+  },
+  {
+    "S No.": 2232,
+    "Value Date": "08-07-2025",
+    "Transaction Date": "08-07-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 08JUL/20250708162003",
+    "Withdrawal Amount (INR )": 379.45,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 32143.38
+  },
+  {
+    "S No.": 2233,
+    "Value Date": "09-07-2025",
+    "Transaction Date": "09-07-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 09JUL/20250709065520",
+    "Withdrawal Amount (INR )": 0.04,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 32143.34
+  },
+  {
+    "S No.": 2234,
+    "Value Date": "09-07-2025",
+    "Transaction Date": "09-07-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 09JUL/20250709065521",
+    "Withdrawal Amount (INR )": 1.18,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 32142.16
+  },
+  {
+    "S No.": 2235,
+    "Value Date": "09-07-2025",
+    "Transaction Date": "09-07-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 09JUL/20250709162231",
+    "Withdrawal Amount (INR )": 380.08,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 31762.08
+  },
+  {
+    "S No.": 2236,
+    "Value Date": "10-07-2025",
+    "Transaction Date": "10-07-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 10JUL/20250710062358",
+    "Withdrawal Amount (INR )": 0.01,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 31762.07
+  },
+  {
+    "S No.": 2237,
+    "Value Date": "10-07-2025",
+    "Transaction Date": "10-07-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 10JUL/20250710062358",
+    "Withdrawal Amount (INR )": 1.22,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 31760.85
+  },
+  {
+    "S No.": 2238,
+    "Value Date": "10-07-2025",
+    "Transaction Date": "10-07-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 10JUL/20250710163341",
+    "Withdrawal Amount (INR )": 379.14,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 31381.71
+  },
+  {
+    "S No.": 2239,
+    "Value Date": "11-07-2025",
+    "Transaction Date": "11-07-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 11JUL/20250711064339",
+    "Withdrawal Amount (INR )": 1.22,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 31380.49
+  },
+  {
+    "S No.": 2240,
+    "Value Date": "11-07-2025",
+    "Transaction Date": "11-07-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 11JUL/20250711164433",
+    "Withdrawal Amount (INR )": 377.6,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 31002.89
+  },
+  {
+    "S No.": 2241,
+    "Value Date": "14-07-2025",
+    "Transaction Date": "14-07-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 14JUL/20250714070313",
+    "Withdrawal Amount (INR )": 1.28,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 31001.61
+  },
+  {
+    "S No.": 2242,
+    "Value Date": "14-07-2025",
+    "Transaction Date": "14-07-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 14JUL/20250714163909",
+    "Withdrawal Amount (INR )": 375.7,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 30625.91
+  },
+  {
+    "S No.": 2243,
+    "Value Date": "15-07-2025",
+    "Transaction Date": "15-07-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 15JUL/20250715070836",
+    "Withdrawal Amount (INR )": 0.01,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 30625.9
+  },
+  {
+    "S No.": 2244,
+    "Value Date": "15-07-2025",
+    "Transaction Date": "15-07-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 15JUL/20250715070837",
+    "Withdrawal Amount (INR )": 1.2,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 30624.7
+  },
+  {
+    "S No.": 2245,
+    "Value Date": "15-07-2025",
+    "Transaction Date": "15-07-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade",
+    "Withdrawal Amount (INR )": 378.55,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 30246.15
+  },
+  {
+    "S No.": 2246,
+    "Value Date": "16-07-2025",
+    "Transaction Date": "16-07-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 16JUL/20250716071329",
+    "Withdrawal Amount (INR )": 0.04,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 30244.93
+  },
+  {
+    "S No.": 2247,
+    "Value Date": "16-07-2025",
+    "Transaction Date": "16-07-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 16JUL/20250716071329",
+    "Withdrawal Amount (INR )": 1.18,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 30244.97
+  },
+  {
+    "S No.": 2248,
+    "Value Date": "16-07-2025",
+    "Transaction Date": "16-07-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 16JUL/20250716162139",
+    "Withdrawal Amount (INR )": 377.56,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 29867.37
+  },
+  {
+    "S No.": 2249,
+    "Value Date": "17-07-2025",
+    "Transaction Date": "17-07-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 17JUL/20250717064809",
+    "Withdrawal Amount (INR )": 1.22,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 29866.15
+  },
+  {
+    "S No.": 2250,
+    "Value Date": "17-07-2025",
+    "Transaction Date": "17-07-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 17JUL/20250717162935",
+    "Withdrawal Amount (INR )": 378.69,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 29487.46
+  },
+  {
+    "S No.": 2251,
+    "Value Date": "18-07-2025",
+    "Transaction Date": "18-07-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 18JUL/20250718065732",
+    "Withdrawal Amount (INR )": 1.22,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 29486.24
+  },
+  {
+    "S No.": 2252,
+    "Value Date": "18-07-2025",
+    "Transaction Date": "18-07-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 18JUL/20250718163452",
+    "Withdrawal Amount (INR )": 378.76,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 29107.48
+  },
+  {
+    "S No.": 2253,
+    "Value Date": "21-07-2025",
+    "Transaction Date": "21-07-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 21JUL/20250721070600",
+    "Withdrawal Amount (INR )": 1.15,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 29106.26
+  },
+  {
+    "S No.": 2254,
+    "Value Date": "21-07-2025",
+    "Transaction Date": "21-07-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 21JUL/20250721070600",
+    "Withdrawal Amount (INR )": 0.07,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 29107.41
+  },
+  {
+    "S No.": 2255,
+    "Value Date": "21-07-2025",
+    "Transaction Date": "21-07-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 21JUL/20250721163320",
+    "Withdrawal Amount (INR )": 380.83,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 28725.43
+  },
+  {
+    "S No.": 2256,
+    "Value Date": "22-07-2025",
+    "Transaction Date": "22-07-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 22JUL/20250722064801",
+    "Withdrawal Amount (INR )": 0.08,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 28725.35
+  },
+  {
+    "S No.": 2257,
+    "Value Date": "22-07-2025",
+    "Transaction Date": "22-07-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 22JUL/20250722064801",
+    "Withdrawal Amount (INR )": 1.15,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 28724.2
+  },
+  {
+    "S No.": 2258,
+    "Value Date": "22-07-2025",
+    "Transaction Date": "22-07-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 22JUL/20250722165012",
+    "Withdrawal Amount (INR )": 382.78,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 28341.42
+  },
+  {
+    "S No.": 2259,
+    "Value Date": "23-07-2025",
+    "Transaction Date": "23-07-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 23JUL/20250723073930",
+    "Withdrawal Amount (INR )": 1.23,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 28340.19
+  },
+  {
+    "S No.": 2260,
+    "Value Date": "23-07-2025",
+    "Transaction Date": "23-07-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 23JUL/20250723164914",
+    "Withdrawal Amount (INR )": 383.46,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 27956.73
+  },
+  {
+    "S No.": 2261,
+    "Value Date": "24-07-2025",
+    "Transaction Date": "24-07-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 24JUL/20250724063024",
+    "Withdrawal Amount (INR )": 1.85,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 27954.88
+  },
+  {
+    "S No.": 2262,
+    "Value Date": "24-07-2025",
+    "Transaction Date": "24-07-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "DCardfee6854JUL25-JUN26+GST",
+    "Withdrawal Amount (INR )": 824.82,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 27130.06
+  },
+  {
+    "S No.": 2263,
+    "Value Date": "24-07-2025",
+    "Transaction Date": "24-07-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 24JUL/20250724163256",
+    "Withdrawal Amount (INR )": 384.81,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 26745.25
+  },
+  {
+    "S No.": 2264,
+    "Value Date": "25-07-2025",
+    "Transaction Date": "25-07-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 25JUL/20250725070138",
+    "Withdrawal Amount (INR )": 0.53,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 26744.01
+  },
+  {
+    "S No.": 2265,
+    "Value Date": "25-07-2025",
+    "Transaction Date": "25-07-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 25JUL/20250725070138",
+    "Withdrawal Amount (INR )": 0.71,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 26744.54
+  },
+  {
+    "S No.": 2266,
+    "Value Date": "25-07-2025",
+    "Transaction Date": "25-07-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 25JUL/20250725165058",
+    "Withdrawal Amount (INR )": 3258.73,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 23485.28
+  },
+  {
+    "S No.": 2267,
+    "Value Date": "28-07-2025",
+    "Transaction Date": "28-07-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 28JUL/20250728063019",
+    "Withdrawal Amount (INR )": 11.5,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 23473.78
+  },
+  {
+    "S No.": 2268,
+    "Value Date": "28-07-2025",
+    "Transaction Date": "28-07-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 28JUL/20250728162719",
+    "Withdrawal Amount (INR )": 874.65,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 22599.13
+  },
+  {
+    "S No.": 2269,
+    "Value Date": "28-07-2025",
+    "Transaction Date": "28-07-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Margin 28JUL/20250728181512",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 123,
+    "Balance (INR )": 22722.13
+  },
+  {
+    "S No.": 2270,
+    "Value Date": "29-07-2025",
+    "Transaction Date": "29-07-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 29JUL/20250729072242",
+    "Withdrawal Amount (INR )": 2.42,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 22719.71
+  },
+  {
+    "S No.": 2271,
+    "Value Date": "29-07-2025",
+    "Transaction Date": "29-07-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 29JUL/20250729164109",
+    "Withdrawal Amount (INR )": 424.32,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 22295.39
+  },
+  {
+    "S No.": 2272,
+    "Value Date": "30-07-2025",
+    "Transaction Date": "30-07-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 30JUL/20250730074239",
+    "Withdrawal Amount (INR )": 1.37,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 22294.02
+  },
+  {
+    "S No.": 2273,
+    "Value Date": "30-07-2025",
+    "Transaction Date": "30-07-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 30JUL/20250730170112",
+    "Withdrawal Amount (INR )": 245.37,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 22048.65
+  },
+  {
+    "S No.": 2274,
+    "Value Date": "31-07-2025",
+    "Transaction Date": "31-07-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 31JUL/20250731070138",
+    "Withdrawal Amount (INR )": 0.79,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 22047.86
+  },
+  {
+    "S No.": 2275,
+    "Value Date": "31-07-2025",
+    "Transaction Date": "31-07-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 31JUL/20250731164919",
+    "Withdrawal Amount (INR )": 944.64,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 21103.22
+  },
+  {
+    "S No.": 2276,
+    "Value Date": "01-08-2025",
+    "Transaction Date": "01-08-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 01AUG/20250801074937",
+    "Withdrawal Amount (INR )": 3.05,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 21100.17
+  },
+  {
+    "S No.": 2277,
+    "Value Date": "01-08-2025",
+    "Transaction Date": "01-08-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 01AUG/20250801163732",
+    "Withdrawal Amount (INR )": 941.58,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 20158.59
+  },
+  {
+    "S No.": 2278,
+    "Value Date": "04-08-2025",
+    "Transaction Date": "04-08-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 04AUG/20250804070411",
+    "Withdrawal Amount (INR )": 3.04,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 20155.55
+  },
+  {
+    "S No.": 2279,
+    "Value Date": "04-08-2025",
+    "Transaction Date": "04-08-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "CMS/ CC RBI 10 H/ICICI BANK LTD CREDIT CARD WITHD",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 1104,
+    "Balance (INR )": 21259.55
+  },
+  {
+    "S No.": 2280,
+    "Value Date": "04-08-2025",
+    "Transaction Date": "04-08-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 04AUG/20250804165044",
+    "Withdrawal Amount (INR )": 304.42,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 20955.13
+  },
+  {
+    "S No.": 2281,
+    "Value Date": "05-08-2025",
+    "Transaction Date": "05-08-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 05AUG/20250805062226",
+    "Withdrawal Amount (INR )": 0.98,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 20954.15
+  },
+  {
+    "S No.": 2282,
+    "Value Date": "05-08-2025",
+    "Transaction Date": "05-08-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "UPI/Jio BlackR/jioblackrockmf/Paid via C/ICICI Bank/558316289100/crd6f9064411fc74a0d801c0b35b9d9cf33",
+    "Withdrawal Amount (INR )": 5000,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 15954.15
+  },
+  {
+    "S No.": 2283,
+    "Value Date": "05-08-2025",
+    "Transaction Date": "05-08-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "MMT/IMPS/521715122314/Savings/MURALIDHAR/HDFC Bank",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 5000,
+    "Balance (INR )": 20954.15
+  },
+  {
+    "S No.": 2284,
+    "Value Date": "05-08-2025",
+    "Transaction Date": "05-08-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 05AUG/20250805171652",
+    "Withdrawal Amount (INR )": 333.65,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 20620.5
+  },
+  {
+    "S No.": 2285,
+    "Value Date": "06-08-2025",
+    "Transaction Date": "06-08-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 06AUG/20250806065909",
+    "Withdrawal Amount (INR )": 1.08,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 20619.42
+  },
+  {
+    "S No.": 2286,
+    "Value Date": "06-08-2025",
+    "Transaction Date": "06-08-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 06AUG/20250806165421",
+    "Withdrawal Amount (INR )": 393.47,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 20225.95
+  },
+  {
+    "S No.": 2287,
+    "Value Date": "07-08-2025",
+    "Transaction Date": "07-08-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 07AUG/20250807071203",
+    "Withdrawal Amount (INR )": 1.27,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 20224.68
+  },
+  {
+    "S No.": 2288,
+    "Value Date": "07-08-2025",
+    "Transaction Date": "07-08-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 07AUG/20250807162913",
+    "Withdrawal Amount (INR )": 1021.33,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 19203.35
+  },
+  {
+    "S No.": 2289,
+    "Value Date": "08-08-2025",
+    "Transaction Date": "08-08-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 08AUG/20250808064225",
+    "Withdrawal Amount (INR )": 3.29,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 19200.06
+  },
+  {
+    "S No.": 2290,
+    "Value Date": "08-08-2025",
+    "Transaction Date": "08-08-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 08AUG/20250808162412",
+    "Withdrawal Amount (INR )": 1116.6,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 18083.46
+  },
+  {
+    "S No.": 2291,
+    "Value Date": "11-08-2025",
+    "Transaction Date": "11-08-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 11AUG/20250811065944",
+    "Withdrawal Amount (INR )": 3.6,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 18079.86
+  },
+  {
+    "S No.": 2292,
+    "Value Date": "11-08-2025",
+    "Transaction Date": "11-08-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "ACH/BHARTI AIRTEL LTD/10162347",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 16,
+    "Balance (INR )": 18095.86
+  },
+  {
+    "S No.": 2293,
+    "Value Date": "11-08-2025",
+    "Transaction Date": "11-08-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 11AUG/20250811164320",
+    "Withdrawal Amount (INR )": 778.19,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 17317.67
+  },
+  {
+    "S No.": 2294,
+    "Value Date": "12-08-2025",
+    "Transaction Date": "12-08-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 12AUG/20250812070449",
+    "Withdrawal Amount (INR )": 2.51,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 17315.16
+  },
+  {
+    "S No.": 2295,
+    "Value Date": "12-08-2025",
+    "Transaction Date": "12-08-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 12AUG/20250812162846",
+    "Withdrawal Amount (INR )": 603.77,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 16711.39
+  },
+  {
+    "S No.": 2296,
+    "Value Date": "13-08-2025",
+    "Transaction Date": "13-08-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 13AUG/20250813063848",
+    "Withdrawal Amount (INR )": 1.95,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 16709.44
+  },
+  {
+    "S No.": 2297,
+    "Value Date": "13-08-2025",
+    "Transaction Date": "13-08-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "ACH/UNOMINDALIMITED/00000000000000193220",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 64.5,
+    "Balance (INR )": 16773.94
+  },
+  {
+    "S No.": 2298,
+    "Value Date": "13-08-2025",
+    "Transaction Date": "13-08-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 13AUG/20250813164240",
+    "Withdrawal Amount (INR )": 242.14,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 16531.8
+  },
+  {
+    "S No.": 2299,
+    "Value Date": "14-08-2025",
+    "Transaction Date": "14-08-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 14AUG/20250814063852",
+    "Withdrawal Amount (INR )": 0.78,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 16531.02
+  },
+  {
+    "S No.": 2300,
+    "Value Date": "14-08-2025",
+    "Transaction Date": "14-08-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 14AUG/20250814164149",
+    "Withdrawal Amount (INR )": 242.46,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 16288.56
+  },
+  {
+    "S No.": 2301,
+    "Value Date": "18-08-2025",
+    "Transaction Date": "18-08-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 18AUG/20250818064341",
+    "Withdrawal Amount (INR )": 0.78,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 16287.78
+  },
+  {
+    "S No.": 2302,
+    "Value Date": "18-08-2025",
+    "Transaction Date": "18-08-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 18AUG/20250818162601",
+    "Withdrawal Amount (INR )": 450.81,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 15836.97
+  },
+  {
+    "S No.": 2303,
+    "Value Date": "19-08-2025",
+    "Transaction Date": "19-08-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 19AUG/20250819065838",
+    "Withdrawal Amount (INR )": 0.08,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 15836.89
+  },
+  {
+    "S No.": 2304,
+    "Value Date": "19-08-2025",
+    "Transaction Date": "19-08-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 19AUG/20250819065839",
+    "Withdrawal Amount (INR )": 1.37,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 15835.52
+  },
+  {
+    "S No.": 2305,
+    "Value Date": "19-08-2025",
+    "Transaction Date": "19-08-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 19AUG/20250819163538",
+    "Withdrawal Amount (INR )": 451.74,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 15383.78
+  },
+  {
+    "S No.": 2306,
+    "Value Date": "20-08-2025",
+    "Transaction Date": "20-08-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 20AUG/20250820062007",
+    "Withdrawal Amount (INR )": 1.46,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 15382.32
+  },
+  {
+    "S No.": 2307,
+    "Value Date": "20-08-2025",
+    "Transaction Date": "20-08-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 20AUG/20250820162502",
+    "Withdrawal Amount (INR )": 450.19,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 14932.13
+  },
+  {
+    "S No.": 2308,
+    "Value Date": "21-08-2025",
+    "Transaction Date": "21-08-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 21AUG/20250821061944",
+    "Withdrawal Amount (INR )": 1.47,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 14930.66
+  },
+  {
+    "S No.": 2309,
+    "Value Date": "21-08-2025",
+    "Transaction Date": "21-08-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 21AUG/20250821164456",
+    "Withdrawal Amount (INR )": 450.24,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 14480.42
+  },
+  {
+    "S No.": 2310,
+    "Value Date": "22-08-2025",
+    "Transaction Date": "22-08-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 22AUG/20250822062452",
+    "Withdrawal Amount (INR )": 1.45,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 14478.97
+  },
+  {
+    "S No.": 2311,
+    "Value Date": "22-08-2025",
+    "Transaction Date": "22-08-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 22AUG/20250822163117",
+    "Withdrawal Amount (INR )": 447,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 14031.97
+  },
+  {
+    "S No.": 2312,
+    "Value Date": "23-08-2025",
+    "Transaction Date": "23-08-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "UPI/JIO BLACKR/jioblackrockmf/Authorize/ICICI Bank/523571834520/ICI51e7998f2b5d4c56b10cb28864d346d4/",
+    "Withdrawal Amount (INR )": 1,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 14030.97
+  },
+  {
+    "S No.": 2313,
+    "Value Date": "23-08-2025",
+    "Transaction Date": "23-08-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "UPI/JIO BLACKR/jioblackrockmf/Authorizat/ICICI Bank/523571834680/ICIc9e0eb245eaa4aed831a74e6c26817c1",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 1,
+    "Balance (INR )": 14031.97
+  },
+  {
+    "S No.": 2314,
+    "Value Date": "25-08-2025",
+    "Transaction Date": "25-08-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 25AUG/20250825062259",
+    "Withdrawal Amount (INR )": 1.3,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 14030.53
+  },
+  {
+    "S No.": 2315,
+    "Value Date": "25-08-2025",
+    "Transaction Date": "25-08-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 25AUG/20250825062259",
+    "Withdrawal Amount (INR )": 0.14,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 14031.83
+  },
+  {
+    "S No.": 2316,
+    "Value Date": "25-08-2025",
+    "Transaction Date": "25-08-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 25AUG/20250825164257",
+    "Withdrawal Amount (INR )": 450.05,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 13580.48
+  },
+  {
+    "S No.": 2317,
+    "Value Date": "26-08-2025",
+    "Transaction Date": "26-08-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 26AUG/20250826073535",
+    "Withdrawal Amount (INR )": 1.47,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 13579.01
+  },
+  {
+    "S No.": 2318,
+    "Value Date": "26-08-2025",
+    "Transaction Date": "26-08-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 26AUG/20250826163048",
+    "Withdrawal Amount (INR )": 508.07,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 13070.94
+  },
+  {
+    "S No.": 2319,
+    "Value Date": "28-08-2025",
+    "Transaction Date": "28-08-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 28AUG/20250828065428",
+    "Withdrawal Amount (INR )": 1.64,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 13069.3
+  },
+  {
+    "S No.": 2320,
+    "Value Date": "28-08-2025",
+    "Transaction Date": "28-08-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "UPI/Jio BlackR/jioblackrockmf/Paid via C/ICICI Bank/560608940530/crdb23c33fe2cef4c1aabe0bc29abbe3e49",
+    "Withdrawal Amount (INR )": 1000,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 12069.3
+  },
+  {
+    "S No.": 2321,
+    "Value Date": "28-08-2025",
+    "Transaction Date": "28-08-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "UPI/RVSLICCL G/groww-bse.grow/Payment re/HDFC BANK/560617937440/GPG20250828566334458102667877545944",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 500,
+    "Balance (INR )": 12069.3
+  },
+  {
+    "S No.": 2322,
+    "Value Date": "28-08-2025",
+    "Transaction Date": "28-08-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "UPI/ICCL Groww/groww-bse.grow/Payment re/HDFC BANK/560617937440/GPG20250828566334458102667877545944/",
+    "Withdrawal Amount (INR )": 500,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 11569.3
+  },
+  {
+    "S No.": 2323,
+    "Value Date": "28-08-2025",
+    "Transaction Date": "28-08-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "MMT/IMPS/524089010596/FUNDS TRANSFER/BILLIONBRA/Yes Bank",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 1,
+    "Balance (INR )": 12070.3
+  },
+  {
+    "S No.": 2324,
+    "Value Date": "28-08-2025",
+    "Transaction Date": "28-08-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 28AUG/20250828164832",
+    "Withdrawal Amount (INR )": 1048.47,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 11021.83
+  },
+  {
+    "S No.": 2325,
+    "Value Date": "29-08-2025",
+    "Transaction Date": "29-08-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 29AUG/20250829062826",
+    "Withdrawal Amount (INR )": 3.38,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 11018.45
+  },
+  {
+    "S No.": 2326,
+    "Value Date": "29-08-2025",
+    "Transaction Date": "29-08-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "BIL/ONL/001067896581/BSE LIMITE/RB1MQ8ASSFCL6F/growwINDIAN CLEARING",
+    "Withdrawal Amount (INR )": 500,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 10518.45
+  },
+  {
+    "S No.": 2327,
+    "Value Date": "29-08-2025",
+    "Transaction Date": "29-08-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 29AUG/20250829164230",
+    "Withdrawal Amount (INR )": 835.13,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 9683.32
+  },
+  {
+    "S No.": 2328,
+    "Value Date": "01-09-2025",
+    "Transaction Date": "01-09-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 01SEP/20250901063326",
+    "Withdrawal Amount (INR )": 2.69,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 9680.63
+  },
+  {
+    "S No.": 2329,
+    "Value Date": "01-09-2025",
+    "Transaction Date": "01-09-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 01SEP/20250901164137",
+    "Withdrawal Amount (INR )": 444.83,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 9235.8
+  },
+  {
+    "S No.": 2330,
+    "Value Date": "02-09-2025",
+    "Transaction Date": "02-09-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 02SEP/20250902071352",
+    "Withdrawal Amount (INR )": 1.43,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 9234.37
+  },
+  {
+    "S No.": 2331,
+    "Value Date": "02-09-2025",
+    "Transaction Date": "02-09-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "UPI/JIO BLACKR/jioblackrockmf/Mandate Ex/ICICI Bank/524527648296/ICI64e58ff98ec04a2da6243a5179eab4f2",
+    "Withdrawal Amount (INR )": 500,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 8734.37
+  },
+  {
+    "S No.": 2332,
+    "Value Date": "02-09-2025",
+    "Transaction Date": "02-09-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "NEFT-HDFCN52025090245404280-MURALIDHAR KINI B-0001-01331140014684-HDFC0000001",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 12000,
+    "Balance (INR )": 20734.37
+  },
+  {
+    "S No.": 2333,
+    "Value Date": "02-09-2025",
+    "Transaction Date": "02-09-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 02SEP/20250902162912",
+    "Withdrawal Amount (INR )": 446.95,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 20287.42
+  },
+  {
+    "S No.": 2334,
+    "Value Date": "03-09-2025",
+    "Transaction Date": "03-09-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 03SEP/20250903072304",
+    "Withdrawal Amount (INR )": 1.44,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 20285.98
+  },
+  {
+    "S No.": 2335,
+    "Value Date": "03-09-2025",
+    "Transaction Date": "03-09-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 03SEP/20250903164332",
+    "Withdrawal Amount (INR )": 534.66,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 19751.32
+  },
+  {
+    "S No.": 2336,
+    "Value Date": "04-09-2025",
+    "Transaction Date": "04-09-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 04SEP/20250904072625",
+    "Withdrawal Amount (INR )": 1.72,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 19749.6
+  },
+  {
+    "S No.": 2337,
+    "Value Date": "04-09-2025",
+    "Transaction Date": "04-09-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 04SEP/20250904170001",
+    "Withdrawal Amount (INR )": 631.85,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 19117.75
+  },
+  {
+    "S No.": 2338,
+    "Value Date": "05-09-2025",
+    "Transaction Date": "05-09-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 05SEP/20250905074936",
+    "Withdrawal Amount (INR )": 2.04,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 19115.71
+  },
+  {
+    "S No.": 2339,
+    "Value Date": "05-09-2025",
+    "Transaction Date": "05-09-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "BIL/ONL/001074317515/BSE LIMITE/RDPGFQNFXQJPOM/GrowwINDIAN CLEARING",
+    "Withdrawal Amount (INR )": 2500,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 16615.71
+  },
+  {
+    "S No.": 2340,
+    "Value Date": "05-09-2025",
+    "Transaction Date": "05-09-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 05SEP/20250905163511",
+    "Withdrawal Amount (INR )": 814.64,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 15801.07
+  },
+  {
+    "S No.": 2341,
+    "Value Date": "06-09-2025",
+    "Transaction Date": "06-09-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "SMSChgsApr25-Jun25+GST",
+    "Withdrawal Amount (INR )": 1.93,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 15799.14
+  },
+  {
+    "S No.": 2342,
+    "Value Date": "08-09-2025",
+    "Transaction Date": "08-09-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 08SEP/20250908070316",
+    "Withdrawal Amount (INR )": 2.63,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 15796.51
+  },
+  {
+    "S No.": 2343,
+    "Value Date": "08-09-2025",
+    "Transaction Date": "08-09-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 08SEP/20250908163635",
+    "Withdrawal Amount (INR )": 450.44,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 15346.07
+  },
+  {
+    "S No.": 2344,
+    "Value Date": "09-09-2025",
+    "Transaction Date": "09-09-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "UPI/JIO BLACKR/jioblackrockmf/Mandate Ex/ICICI Bank/525268043607/ICIb97efee0cd894a3baaaa327828548677",
+    "Withdrawal Amount (INR )": 500,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 14846.07
+  },
+  {
+    "S No.": 2345,
+    "Value Date": "09-09-2025",
+    "Transaction Date": "09-09-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 09SEP/20250909072116",
+    "Withdrawal Amount (INR )": 1.45,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 14844.62
+  },
+  {
+    "S No.": 2346,
+    "Value Date": "09-09-2025",
+    "Transaction Date": "09-09-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 09SEP/20250909163828",
+    "Withdrawal Amount (INR )": 449.7,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 14394.92
+  },
+  {
+    "S No.": 2347,
+    "Value Date": "10-09-2025",
+    "Transaction Date": "10-09-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 10SEP/20250910072642",
+    "Withdrawal Amount (INR )": 1.45,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 14393.47
+  },
+  {
+    "S No.": 2348,
+    "Value Date": "10-09-2025",
+    "Transaction Date": "10-09-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 10SEP/20250910163151",
+    "Withdrawal Amount (INR )": 450.24,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 13943.23
+  },
+  {
+    "S No.": 2349,
+    "Value Date": "11-09-2025",
+    "Transaction Date": "11-09-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 11SEP/20250911065128",
+    "Withdrawal Amount (INR )": 1.78,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 13941.45
+  },
+  {
+    "S No.": 2350,
+    "Value Date": "11-09-2025",
+    "Transaction Date": "11-09-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 11SEP/20250911165133",
+    "Withdrawal Amount (INR )": 451.12,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 13490.33
+  },
+  {
+    "S No.": 2351,
+    "Value Date": "12-09-2025",
+    "Transaction Date": "12-09-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 12SEP/20250912070010",
+    "Withdrawal Amount (INR )": 1.5,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 13488.83
+  },
+  {
+    "S No.": 2352,
+    "Value Date": "12-09-2025",
+    "Transaction Date": "12-09-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 12SEP/20250912164848",
+    "Withdrawal Amount (INR )": 453.04,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 13035.79
+  },
+  {
+    "S No.": 2353,
+    "Value Date": "15-09-2025",
+    "Transaction Date": "15-09-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 15SEP/20250915064337",
+    "Withdrawal Amount (INR )": 1.46,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 13034.33
+  },
+  {
+    "S No.": 2354,
+    "Value Date": "15-09-2025",
+    "Transaction Date": "15-09-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 15SEP/20250915163556",
+    "Withdrawal Amount (INR )": 456.29,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 12578.04
+  },
+  {
+    "S No.": 2355,
+    "Value Date": "16-09-2025",
+    "Transaction Date": "16-09-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "UPI/JIO BLACKR/jioblackrockmf/Mandate Ex/ICICI Bank/525910737367/ICI9042cf2c05af4b028b1bb962f1ca80ae",
+    "Withdrawal Amount (INR )": 500,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 12078.04
+  },
+  {
+    "S No.": 2356,
+    "Value Date": "16-09-2025",
+    "Transaction Date": "16-09-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 16SEP/20250916071302",
+    "Withdrawal Amount (INR )": 1.46,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 12076.57
+  },
+  {
+    "S No.": 2357,
+    "Value Date": "16-09-2025",
+    "Transaction Date": "16-09-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 16SEP/20250916071302",
+    "Withdrawal Amount (INR )": 0.01,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 12078.03
+  },
+  {
+    "S No.": 2358,
+    "Value Date": "16-09-2025",
+    "Transaction Date": "16-09-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 16SEP/20250916165901",
+    "Withdrawal Amount (INR )": 459.76,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 11616.81
+  },
+  {
+    "S No.": 2359,
+    "Value Date": "17-09-2025",
+    "Transaction Date": "17-09-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 17SEP/20250917070224",
+    "Withdrawal Amount (INR )": 1.5,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 11615.31
+  },
+  {
+    "S No.": 2360,
+    "Value Date": "17-09-2025",
+    "Transaction Date": "17-09-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 17SEP/20250917171642",
+    "Withdrawal Amount (INR )": 461.17,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 11154.14
+  },
+  {
+    "S No.": 2361,
+    "Value Date": "18-09-2025",
+    "Transaction Date": "18-09-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 18SEP/20250918074848",
+    "Withdrawal Amount (INR )": 1.61,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 11152.53
+  },
+  {
+    "S No.": 2362,
+    "Value Date": "18-09-2025",
+    "Transaction Date": "18-09-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 18SEP/20250918171344",
+    "Withdrawal Amount (INR )": 462.58,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 10689.95
+  },
+  {
+    "S No.": 2363,
+    "Value Date": "19-09-2025",
+    "Transaction Date": "19-09-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 19SEP/20250919072416",
+    "Withdrawal Amount (INR )": 0.02,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 10689.93
+  },
+  {
+    "S No.": 2364,
+    "Value Date": "19-09-2025",
+    "Transaction Date": "19-09-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 19SEP/20250919072416",
+    "Withdrawal Amount (INR )": 1.47,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 10688.46
+  },
+  {
+    "S No.": 2365,
+    "Value Date": "19-09-2025",
+    "Transaction Date": "19-09-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 19SEP/20250919164413",
+    "Withdrawal Amount (INR )": 463.97,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 10224.49
+  },
+  {
+    "S No.": 2366,
+    "Value Date": "22-09-2025",
+    "Transaction Date": "22-09-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 22SEP/20250922065258",
+    "Withdrawal Amount (INR )": 1.5,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 10222.99
+  },
+  {
+    "S No.": 2367,
+    "Value Date": "22-09-2025",
+    "Transaction Date": "22-09-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 22SEP/20250922170339",
+    "Withdrawal Amount (INR )": 464.47,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 9758.52
+  },
+  {
+    "S No.": 2368,
+    "Value Date": "23-09-2025",
+    "Transaction Date": "23-09-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "UPI/JIO BLACKR/jioblackrockmf/Mandate Ex/ICICI Bank/526652229967/ICI7539d96963544c00aa675aab6c358016",
+    "Withdrawal Amount (INR )": 500,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 9258.52
+  },
+  {
+    "S No.": 2369,
+    "Value Date": "23-09-2025",
+    "Transaction Date": "23-09-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 23SEP/20250923065613",
+    "Withdrawal Amount (INR )": 1.48,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 9257.02
+  },
+  {
+    "S No.": 2370,
+    "Value Date": "23-09-2025",
+    "Transaction Date": "23-09-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 23SEP/20250923065613",
+    "Withdrawal Amount (INR )": 0.02,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 9258.5
+  },
+  {
+    "S No.": 2371,
+    "Value Date": "23-09-2025",
+    "Transaction Date": "23-09-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 23SEP/20250923170625",
+    "Withdrawal Amount (INR )": 464.71,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 8792.31
+  },
+  {
+    "S No.": 2372,
+    "Value Date": "24-09-2025",
+    "Transaction Date": "24-09-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 24SEP/20250924064916",
+    "Withdrawal Amount (INR )": 1.8,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 8790.51
+  },
+  {
+    "S No.": 2373,
+    "Value Date": "24-09-2025",
+    "Transaction Date": "24-09-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "BIL/ONL/001082795600/BSE LIMITE/RLNE4OKELYVRZE/GrowwINDIAN CLEARING",
+    "Withdrawal Amount (INR )": 500,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 8290.51
+  },
+  {
+    "S No.": 2374,
+    "Value Date": "24-09-2025",
+    "Transaction Date": "24-09-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 24SEP/20250924170415",
+    "Withdrawal Amount (INR )": 462.67,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 7827.84
+  },
+  {
+    "S No.": 2375,
+    "Value Date": "25-09-2025",
+    "Transaction Date": "25-09-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 25SEP/20250925064313",
+    "Withdrawal Amount (INR )": 1.49,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 7826.35
+  },
+  {
+    "S No.": 2376,
+    "Value Date": "25-09-2025",
+    "Transaction Date": "25-09-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 25SEP/20250925170747",
+    "Withdrawal Amount (INR )": 461.19,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 7365.16
+  },
+  {
+    "S No.": 2377,
+    "Value Date": "26-09-2025",
+    "Transaction Date": "26-09-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 26SEP/20250926071929",
+    "Withdrawal Amount (INR )": 1.47,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 7363.67
+  },
+  {
+    "S No.": 2378,
+    "Value Date": "26-09-2025",
+    "Transaction Date": "26-09-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 26SEP/20250926071929",
+    "Withdrawal Amount (INR )": 0.02,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 7365.14
+  },
+  {
+    "S No.": 2379,
+    "Value Date": "26-09-2025",
+    "Transaction Date": "26-09-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 26SEP/20250926172150",
+    "Withdrawal Amount (INR )": 457.3,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 6906.37
+  },
+  {
+    "S No.": 2380,
+    "Value Date": "29-09-2025",
+    "Transaction Date": "29-09-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 29SEP/20250929063947",
+    "Withdrawal Amount (INR )": 1.47,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 6904.9
+  },
+  {
+    "S No.": 2381,
+    "Value Date": "29-09-2025",
+    "Transaction Date": "29-09-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "UPI/ICCL Groww/groww-bse.grow/Payment re/HDFC BANK/563827199994/GPG20250929546474207943939879033626/",
+    "Withdrawal Amount (INR )": 1000,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 5904.9
+  },
+  {
+    "S No.": 2382,
+    "Value Date": "29-09-2025",
+    "Transaction Date": "29-09-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "NEFT-HDFCN52025092996721307-MURALIDHAR KINI B-0001-01331140014684-HDFC0000001",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 20000,
+    "Balance (INR )": 25904.9
+  },
+  {
+    "S No.": 2383,
+    "Value Date": "29-09-2025",
+    "Transaction Date": "29-09-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 29SEP/20250929165741",
+    "Withdrawal Amount (INR )": 549.67,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 25355.23
+  },
+  {
+    "S No.": 2384,
+    "Value Date": "30-09-2025",
+    "Transaction Date": "30-09-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "UPI/JIO BLACKR/jioblackrockmf/Mandate Ex/ICICI Bank/527396630793/ICI66adf7f12112400e8a16ce54ed8a182d",
+    "Withdrawal Amount (INR )": 500,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 24855.23
+  },
+  {
+    "S No.": 2385,
+    "Value Date": "30-09-2025",
+    "Transaction Date": "30-09-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 30SEP/20250930071500",
+    "Withdrawal Amount (INR )": 1.77,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 24853.46
+  },
+  {
+    "S No.": 2386,
+    "Value Date": "30-09-2025",
+    "Transaction Date": "30-09-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "625401070212:Int.Pd:30-06-2025 to 29-09-2025",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 123,
+    "Balance (INR )": 24976.46
+  },
+  {
+    "S No.": 2387,
+    "Value Date": "30-09-2025",
+    "Transaction Date": "30-09-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 30SEP/20250930163821",
+    "Withdrawal Amount (INR )": 463.41,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 24513.05
+  },
+  {
+    "S No.": 2388,
+    "Value Date": "01-10-2025",
+    "Transaction Date": "01-10-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 01OCT/20251001071056",
+    "Withdrawal Amount (INR )": 0.02,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 24513.03
+  },
+  {
+    "S No.": 2389,
+    "Value Date": "01-10-2025",
+    "Transaction Date": "01-10-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 01OCT/20251001071056",
+    "Withdrawal Amount (INR )": 1.47,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 24511.56
+  },
+  {
+    "S No.": 2390,
+    "Value Date": "01-10-2025",
+    "Transaction Date": "01-10-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 01OCT/20251001164601",
+    "Withdrawal Amount (INR )": 466.67,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 24044.89
+  },
+  {
+    "S No.": 2391,
+    "Value Date": "03-10-2025",
+    "Transaction Date": "03-10-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 03OCT/20251003063401",
+    "Withdrawal Amount (INR )": 1.45,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 24043.44
+  },
+  {
+    "S No.": 2392,
+    "Value Date": "03-10-2025",
+    "Transaction Date": "03-10-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 03OCT/20251003164325",
+    "Withdrawal Amount (INR )": 473.35,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 23570.09
+  },
+  {
+    "S No.": 2393,
+    "Value Date": "06-10-2025",
+    "Transaction Date": "06-10-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 06OCT/20251006065649",
+    "Withdrawal Amount (INR )": 1.41,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 23568.68
+  },
+  {
+    "S No.": 2394,
+    "Value Date": "06-10-2025",
+    "Transaction Date": "06-10-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 06OCT/20251006165743",
+    "Withdrawal Amount (INR )": 484.66,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 23084.02
+  },
+  {
+    "S No.": 2395,
+    "Value Date": "07-10-2025",
+    "Transaction Date": "07-10-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "UPI/JIO BLACKR/jioblackrockmf/Mandate Ex/ICICI Bank/528039506830/ICI5e66a9890a884b6e8da88ac3a43664ba",
+    "Withdrawal Amount (INR )": 500,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 22584.02
+  },
+  {
+    "S No.": 2396,
+    "Value Date": "07-10-2025",
+    "Transaction Date": "07-10-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 07OCT/20251007073421",
+    "Withdrawal Amount (INR )": 1.45,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 22582.57
+  },
+  {
+    "S No.": 2397,
+    "Value Date": "07-10-2025",
+    "Transaction Date": "07-10-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 07OCT/20251007165042",
+    "Withdrawal Amount (INR )": 498.86,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 22083.71
+  },
+  {
+    "S No.": 2398,
+    "Value Date": "08-10-2025",
+    "Transaction Date": "08-10-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 08OCT/20251008064329",
+    "Withdrawal Amount (INR )": 1.49,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 22082.22
+  },
+  {
+    "S No.": 2399,
+    "Value Date": "08-10-2025",
+    "Transaction Date": "08-10-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 08OCT/20251008164341",
+    "Withdrawal Amount (INR )": 491.22,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 21591
+  },
+  {
+    "S No.": 2400,
+    "Value Date": "09-10-2025",
+    "Transaction Date": "09-10-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 09OCT/20251009065536",
+    "Withdrawal Amount (INR )": 1.48,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 21589.52
+  },
+  {
+    "S No.": 2401,
+    "Value Date": "09-10-2025",
+    "Transaction Date": "09-10-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "UPI/ICCL Groww/groww-bse.grow/Payment re/HDFC BANK/564809962328/GPG20251009634506195407603132154924/",
+    "Withdrawal Amount (INR )": 1005,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 20584.52
+  },
+  {
+    "S No.": 2402,
+    "Value Date": "09-10-2025",
+    "Transaction Date": "09-10-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 09OCT/20251009165100",
+    "Withdrawal Amount (INR )": 491.99,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 20092.53
+  },
+  {
+    "S No.": 2403,
+    "Value Date": "10-10-2025",
+    "Transaction Date": "10-10-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 10OCT/20251010072456",
+    "Withdrawal Amount (INR )": 1.83,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 20090.7
+  },
+  {
+    "S No.": 2404,
+    "Value Date": "10-10-2025",
+    "Transaction Date": "10-10-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 10OCT/20251010164533",
+    "Withdrawal Amount (INR )": 249.08,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 19841.62
+  },
+  {
+    "S No.": 2405,
+    "Value Date": "13-10-2025",
+    "Transaction Date": "13-10-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 13OCT/20251013070228",
+    "Withdrawal Amount (INR )": 0.74,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 19840.88
+  },
+  {
+    "S No.": 2406,
+    "Value Date": "13-10-2025",
+    "Transaction Date": "13-10-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 13OCT/20251013165221",
+    "Withdrawal Amount (INR )": 942.6,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 18898.28
+  },
+  {
+    "S No.": 2407,
+    "Value Date": "14-10-2025",
+    "Transaction Date": "14-10-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "UPI/JIO BLACKR/jioblackrockmf/Mandate Ex/ICICI Bank/528787282014/ICIe31a4e905eb241449d9c1c2ce1566ce4",
+    "Withdrawal Amount (INR )": 500,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 18398.28
+  },
+  {
+    "S No.": 2408,
+    "Value Date": "14-10-2025",
+    "Transaction Date": "14-10-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 14OCT/20251014065721",
+    "Withdrawal Amount (INR )": 2.82,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 18395.46
+  },
+  {
+    "S No.": 2409,
+    "Value Date": "14-10-2025",
+    "Transaction Date": "14-10-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 14OCT/20251014170027",
+    "Withdrawal Amount (INR )": 401.69,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 17993.77
+  },
+  {
+    "S No.": 2410,
+    "Value Date": "15-10-2025",
+    "Transaction Date": "15-10-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 15OCT/20251015072335",
+    "Withdrawal Amount (INR )": 1.2,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 17992.57
+  },
+  {
+    "S No.": 2411,
+    "Value Date": "15-10-2025",
+    "Transaction Date": "15-10-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 15OCT/20251015164143",
+    "Withdrawal Amount (INR )": 249.27,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 17743.3
+  },
+  {
+    "S No.": 2412,
+    "Value Date": "16-10-2025",
+    "Transaction Date": "16-10-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 16OCT/20251016070502",
+    "Withdrawal Amount (INR )": 0.74,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 17742.56
+  },
+  {
+    "S No.": 2413,
+    "Value Date": "16-10-2025",
+    "Transaction Date": "16-10-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 16OCT/20251016165027",
+    "Withdrawal Amount (INR )": 63.58,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 17678.98
+  },
+  {
+    "S No.": 2414,
+    "Value Date": "17-10-2025",
+    "Transaction Date": "17-10-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 17OCT/20251017064619",
+    "Withdrawal Amount (INR )": 0.19,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 17678.79
+  },
+  {
+    "S No.": 2415,
+    "Value Date": "17-10-2025",
+    "Transaction Date": "17-10-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 17OCT/20251017164611",
+    "Withdrawal Amount (INR )": 63.5,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 17615.29
+  },
+  {
+    "S No.": 2416,
+    "Value Date": "17-10-2025",
+    "Transaction Date": "17-10-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "SGB/2364283/SGBOFT2025101700032271/NAVI FINSERV LIMITED/Fund transfer",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 239,
+    "Balance (INR )": 17854.29
+  },
+  {
+    "S No.": 2417,
+    "Value Date": "20-10-2025",
+    "Transaction Date": "20-10-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 20OCT/20251020071410",
+    "Withdrawal Amount (INR )": 0.19,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 17854.1
+  },
+  {
+    "S No.": 2418,
+    "Value Date": "20-10-2025",
+    "Transaction Date": "20-10-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 20OCT/20251020165212",
+    "Withdrawal Amount (INR )": 253.95,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 17600.15
+  },
+  {
+    "S No.": 2419,
+    "Value Date": "21-10-2025",
+    "Transaction Date": "21-10-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "UPI/JIO BLACKR/jioblackrockmf/Mandate",
+    "Withdrawal Amount (INR )": 500,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 17100.15
+  },
+  {
+    "S No.": 2421,
+    "Value Date": "21-10-2025",
+    "Transaction Date": "21-10-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 21OCT/20251021154459",
+    "Withdrawal Amount (INR )": 317.65,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 16782.5
+  },
+  {
+    "S No.": 2422,
+    "Value Date": "23-10-2025",
+    "Transaction Date": "23-10-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 23OCT/20251023074100",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 62.23,
+    "Balance (INR )": 16844.73
+  },
+  {
+    "S No.": 2423,
+    "Value Date": "23-10-2025",
+    "Transaction Date": "23-10-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 23OCT/20251023165544",
+    "Withdrawal Amount (INR )": 255.98,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 16588.75
+  },
+  {
+    "S No.": 2424,
+    "Value Date": "24-10-2025",
+    "Transaction Date": "24-10-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 24OCT/20251024071138",
+    "Withdrawal Amount (INR )": 0.79,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 16587.96
+  },
+  {
+    "S No.": 2425,
+    "Value Date": "24-10-2025",
+    "Transaction Date": "24-10-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 24OCT/20251024170912",
+    "Withdrawal Amount (INR )": 253.78,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 16334.18
+  },
+  {
+    "S No.": 2426,
+    "Value Date": "24-10-2025",
+    "Transaction Date": "24-10-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "DPCHG Oct25 IN303028/6197942",
+    "Withdrawal Amount (INR )": 354,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 15980.18
+  },
+  {
+    "S No.": 2427,
+    "Value Date": "27-10-2025",
+    "Transaction Date": "27-10-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 27OCT/20251027064700",
+    "Withdrawal Amount (INR )": 0.69,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 15979.42
+  },
+  {
+    "S No.": 2428,
+    "Value Date": "27-10-2025",
+    "Transaction Date": "27-10-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 27OCT/20251027064659",
+    "Withdrawal Amount (INR )": 0.07,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 15980.11
+  },
+  {
+    "S No.": 2429,
+    "Value Date": "27-10-2025",
+    "Transaction Date": "27-10-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 27OCT/20251027165149",
+    "Withdrawal Amount (INR )": 255.47,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 15723.95
+  },
+  {
+    "S No.": 2430,
+    "Value Date": "28-10-2025",
+    "Transaction Date": "28-10-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "UPI/JIO BLACKR/jioblackrockmf/Mandate Ex/ICICI Bank/530169141523/ICIb5c865c95445457394594907160384d2",
+    "Withdrawal Amount (INR )": 500,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 15223.95
+  },
+  {
+    "S No.": 2431,
+    "Value Date": "28-10-2025",
+    "Transaction Date": "28-10-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 28OCT/20251028072817",
+    "Withdrawal Amount (INR )": 0.02,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 15223.19
+  },
+  {
+    "S No.": 2432,
+    "Value Date": "28-10-2025",
+    "Transaction Date": "28-10-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 28OCT/20251028072817",
+    "Withdrawal Amount (INR )": 0.74,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 15223.21
+  },
+  {
+    "S No.": 2433,
+    "Value Date": "28-10-2025",
+    "Transaction Date": "28-10-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 28OCT/20251028164258",
+    "Withdrawal Amount (INR )": 64.09,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 15159.1
+  },
+  {
+    "S No.": 2434,
+    "Value Date": "29-10-2025",
+    "Transaction Date": "29-10-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 29OCT/20251029070521",
+    "Withdrawal Amount (INR )": 0.19,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 15158.91
+  },
+  {
+    "S No.": 2435,
+    "Value Date": "29-10-2025",
+    "Transaction Date": "29-10-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "MMT/IMPS/530212432105/929120344725706/eBullion L/Development Ban",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 7929.9,
+    "Balance (INR )": 23088.81
+  },
+  {
+    "S No.": 2436,
+    "Value Date": "29-10-2025",
+    "Transaction Date": "29-10-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "MMT/IMPS/530212432139/929121742735306/eBullion L/Development Ban",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 5929,
+    "Balance (INR )": 29017.81
+  },
+  {
+    "S No.": 2437,
+    "Value Date": "29-10-2025",
+    "Transaction Date": "29-10-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "MMT/IMPS/530212433205/929122344687614/eBullion L/Development Ban",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 34398.82,
+    "Balance (INR )": 63416.63
+  },
+  {
+    "S No.": 2438,
+    "Value Date": "29-10-2025",
+    "Transaction Date": "29-10-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "MMT/IMPS/530212815428/Expenses/MURALIDHAR/HDFC0000133/chgRs5.00GSTRs0.90",
+    "Withdrawal Amount (INR )": 40005.9,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 23410.73
+  },
+  {
+    "S No.": 2439,
+    "Value Date": "29-10-2025",
+    "Transaction Date": "29-10-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 29OCT/20251029165234",
+    "Withdrawal Amount (INR )": 64.38,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 23346.35
+  },
+  {
+    "S No.": 2440,
+    "Value Date": "30-10-2025",
+    "Transaction Date": "30-10-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 30OCT/20251030070059",
+    "Withdrawal Amount (INR )": 0.19,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 23346.16
+  },
+  {
+    "S No.": 2441,
+    "Value Date": "30-10-2025",
+    "Transaction Date": "30-10-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 30OCT/20251030164418",
+    "Withdrawal Amount (INR )": 255.17,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 23090.99
+  },
+  {
+    "S No.": 2442,
+    "Value Date": "31-10-2025",
+    "Transaction Date": "31-10-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 31OCT/20251031064524",
+    "Withdrawal Amount (INR )": 0.82,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 23090.17
+  },
+  {
+    "S No.": 2443,
+    "Value Date": "31-10-2025",
+    "Transaction Date": "31-10-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "UPI/ICCL Groww/groww-bse.grow/Payment re/HDFC BANK/567025281645/GPG20251031047036190103571067320737/",
+    "Withdrawal Amount (INR )": 1000,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 22090.17
+  },
+  {
+    "S No.": 2444,
+    "Value Date": "31-10-2025",
+    "Transaction Date": "31-10-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 31OCT/20251031165550",
+    "Withdrawal Amount (INR )": 498.14,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 21592.03
+  },
+  {
+    "S No.": 2445,
+    "Value Date": "03-11-2025",
+    "Transaction Date": "03-11-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 03NOV/20251103063758",
+    "Withdrawal Amount (INR )": 1.49,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 21590.54
+  },
+  {
+    "S No.": 2446,
+    "Value Date": "03-11-2025",
+    "Transaction Date": "03-11-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 03NOV/20251103165757",
+    "Withdrawal Amount (INR )": 499.21,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 21091.33
+  },
+  {
+    "S No.": 2447,
+    "Value Date": "04-11-2025",
+    "Transaction Date": "04-11-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 04NOV/20251104065841",
+    "Withdrawal Amount (INR )": 1.43,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 21089.84
+  },
+  {
+    "S No.": 2448,
+    "Value Date": "04-11-2025",
+    "Transaction Date": "04-11-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 04NOV/20251104065841",
+    "Withdrawal Amount (INR )": 0.06,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 21091.27
+  },
+  {
+    "S No.": 2449,
+    "Value Date": "04-11-2025",
+    "Transaction Date": "04-11-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "UPI/JIO BLACKR/jioblackrockmf/Mandate Ex/ICICI Bank/530809348087/ICIcfacead21a734c048009610a8c22b7e7",
+    "Withdrawal Amount (INR )": 500,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 20589.84
+  },
+  {
+    "S No.": 2450,
+    "Value Date": "04-11-2025",
+    "Transaction Date": "04-11-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 04NOV/20251104165728",
+    "Withdrawal Amount (INR )": 496.89,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 20092.95
+  },
+  {
+    "S No.": 2451,
+    "Value Date": "06-11-2025",
+    "Transaction Date": "06-11-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 06NOV/20251106070224",
+    "Withdrawal Amount (INR )": 0.42,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 20092.53
+  },
+  {
+    "S No.": 2452,
+    "Value Date": "06-11-2025",
+    "Transaction Date": "06-11-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 06NOV/20251106070225",
+    "Withdrawal Amount (INR )": 1.06,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 20091.47
+  },
+  {
+    "S No.": 2453,
+    "Value Date": "06-11-2025",
+    "Transaction Date": "06-11-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "UPI/Indian Cle/nbt.elements@i/Payment re/ICICI",
+    "Withdrawal Amount (INR )": 500,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 19591.47
+  },
+  {
+    "S No.": 2455,
+    "Value Date": "06-11-2025",
+    "Transaction Date": "06-11-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 06NOV/20251106165759",
+    "Withdrawal Amount (INR )": 252.22,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 19339.25
+  },
+  {
+    "S No.": 2456,
+    "Value Date": "07-11-2025",
+    "Transaction Date": "07-11-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 07NOV/20251107074244",
+    "Withdrawal Amount (INR )": 0.02,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 19338.5
+  },
+  {
+    "S No.": 2457,
+    "Value Date": "07-11-2025",
+    "Transaction Date": "07-11-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 07NOV/20251107074244",
+    "Withdrawal Amount (INR )": 0.73,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 19338.52
+  },
+  {
+    "S No.": 2458,
+    "Value Date": "07-11-2025",
+    "Transaction Date": "07-11-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "UPI/ICCL Groww/groww-bse.grow/Payment re/HDFC BANK/567713490648/GPG20251107735371643098554839987233/",
+    "Withdrawal Amount (INR )": 650,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 18688.5
+  },
+  {
+    "S No.": 2459,
+    "Value Date": "07-11-2025",
+    "Transaction Date": "07-11-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 07NOV/20251107170852",
+    "Withdrawal Amount (INR )": 250.97,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 18437.53
+  },
+  {
+    "S No.": 2460,
+    "Value Date": "10-11-2025",
+    "Transaction Date": "10-11-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 10NOV/20251110065450",
+    "Withdrawal Amount (INR )": 0.87,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 18436.66
+  },
+  {
+    "S No.": 2461,
+    "Value Date": "10-11-2025",
+    "Transaction Date": "10-11-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 10NOV/20251110165230",
+    "Withdrawal Amount (INR )": 253.31,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 18183.35
+  },
+  {
+    "S No.": 2462,
+    "Value Date": "11-11-2025",
+    "Transaction Date": "11-11-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "UPI/JIO BLACKR/jioblackrockmf/Mandate Ex/ICICI Bank/108550897907/ICI9521bbbc8fc8406f979bbd0a5d82d6ae",
+    "Withdrawal Amount (INR )": 500,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 17683.35
+  },
+  {
+    "S No.": 2463,
+    "Value Date": "11-11-2025",
+    "Transaction Date": "11-11-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 11NOV/20251111080523",
+    "Withdrawal Amount (INR )": 1.04,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 17682.31
+  },
+  {
+    "S No.": 2464,
+    "Value Date": "11-11-2025",
+    "Transaction Date": "11-11-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 11NOV/20251111165449",
+    "Withdrawal Amount (INR )": 252.42,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 17429.89
+  },
+  {
+    "S No.": 2465,
+    "Value Date": "12-11-2025",
+    "Transaction Date": "12-11-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 12NOV/20251112065941",
+    "Withdrawal Amount (INR )": 0.75,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 17429.14
+  },
+  {
+    "S No.": 2466,
+    "Value Date": "12-11-2025",
+    "Transaction Date": "12-11-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 12NOV/20251112165112",
+    "Withdrawal Amount (INR )": 255.39,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 17173.75
+  },
+  {
+    "S No.": 2467,
+    "Value Date": "13-11-2025",
+    "Transaction Date": "13-11-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 13NOV/20251113061634",
+    "Withdrawal Amount (INR )": 0.76,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 17172.99
+  },
+  {
+    "S No.": 2468,
+    "Value Date": "13-11-2025",
+    "Transaction Date": "13-11-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 13NOV/20251113164044",
+    "Withdrawal Amount (INR )": 256.56,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 16916.43
+  },
+  {
+    "S No.": 2469,
+    "Value Date": "14-11-2025",
+    "Transaction Date": "14-11-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 14NOV/20251114061225",
+    "Withdrawal Amount (INR )": 0.77,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 16915.66
+  },
+  {
+    "S No.": 2470,
+    "Value Date": "14-11-2025",
+    "Transaction Date": "14-11-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 14NOV/20251114164344",
+    "Withdrawal Amount (INR )": 255.84,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 16659.82
+  },
+  {
+    "S No.": 2471,
+    "Value Date": "17-11-2025",
+    "Transaction Date": "17-11-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 17NOV/20251117061618",
+    "Withdrawal Amount (INR )": 0.77,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 16659.05
+  },
+  {
+    "S No.": 2472,
+    "Value Date": "17-11-2025",
+    "Transaction Date": "17-11-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 17NOV/20251117164319",
+    "Withdrawal Amount (INR )": 257.01,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 16402.04
+  },
+  {
+    "S No.": 2473,
+    "Value Date": "18-11-2025",
+    "Transaction Date": "18-11-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 18NOV/20251118064615",
+    "Withdrawal Amount (INR )": 0.76,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 16401.27
+  },
+  {
+    "S No.": 2474,
+    "Value Date": "18-11-2025",
+    "Transaction Date": "18-11-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 18NOV/20251118064615",
+    "Withdrawal Amount (INR )": 0.01,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 16402.03
+  },
+  {
+    "S No.": 2475,
+    "Value Date": "18-11-2025",
+    "Transaction Date": "18-11-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "UPI/JIO BLACKR/jioblackrockmf/Mandate Ex/ICICI Bank/108590574061/ICI94b81a0baa27443984c5c8c4dbe8705e",
+    "Withdrawal Amount (INR )": 500,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 15901.27
+  },
+  {
+    "S No.": 2476,
+    "Value Date": "18-11-2025",
+    "Transaction Date": "18-11-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 18NOV/20251118171115",
+    "Withdrawal Amount (INR )": 256.71,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 15644.56
+  },
+  {
+    "S No.": 2477,
+    "Value Date": "19-11-2025",
+    "Transaction Date": "19-11-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 19NOV/20251119055738",
+    "Withdrawal Amount (INR )": 0.76,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 15643.79
+  },
+  {
+    "S No.": 2478,
+    "Value Date": "19-11-2025",
+    "Transaction Date": "19-11-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 19NOV/20251119055737",
+    "Withdrawal Amount (INR )": 0.01,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 15644.55
+  },
+  {
+    "S No.": 2479,
+    "Value Date": "19-11-2025",
+    "Transaction Date": "19-11-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "SGB/2456420/SGBOFT2025111900000357/NAVI FINSERV LIMITED/Fund transfer",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 247,
+    "Balance (INR )": 15890.79
+  },
+  {
+    "S No.": 2480,
+    "Value Date": "19-11-2025",
+    "Transaction Date": "19-11-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 19NOV/20251119164646",
+    "Withdrawal Amount (INR )": 256.52,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 15634.27
+  },
+  {
+    "S No.": 2481,
+    "Value Date": "20-11-2025",
+    "Transaction Date": "20-11-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 20NOV/20251120062641",
+    "Withdrawal Amount (INR )": 0.77,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 15633.5
+  },
+  {
+    "S No.": 2482,
+    "Value Date": "20-11-2025",
+    "Transaction Date": "20-11-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 20NOV/20251120165318",
+    "Withdrawal Amount (INR )": 258.64,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 15374.86
+  },
+  {
+    "S No.": 2483,
+    "Value Date": "21-11-2025",
+    "Transaction Date": "21-11-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 21NOV/20251121070950",
+    "Withdrawal Amount (INR )": 0.81,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 15374.05
+  },
+  {
+    "S No.": 2484,
+    "Value Date": "21-11-2025",
+    "Transaction Date": "21-11-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 21NOV/20251121164714",
+    "Withdrawal Amount (INR )": 257.73,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 15116.32
+  },
+  {
+    "S No.": 2485,
+    "Value Date": "24-11-2025",
+    "Transaction Date": "24-11-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 24NOV/20251124062218",
+    "Withdrawal Amount (INR )": 0.77,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 15115.55
+  },
+  {
+    "S No.": 2486,
+    "Value Date": "24-11-2025",
+    "Transaction Date": "24-11-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "UPI/ICCL Groww/groww-bse.grow/Payment re/HDFC BANK/569422154156/GPG20251124002880126216942074913500/",
+    "Withdrawal Amount (INR )": 1000,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 14115.55
+  },
+  {
+    "S No.": 2487,
+    "Value Date": "24-11-2025",
+    "Transaction Date": "24-11-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 24NOV/20251124171235",
+    "Withdrawal Amount (INR )": 257.61,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 13857.94
+  },
+  {
+    "S No.": 2488,
+    "Value Date": "25-11-2025",
+    "Transaction Date": "25-11-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 25NOV/20251125071234",
+    "Withdrawal Amount (INR )": 0.02,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 13857.92
+  },
+  {
+    "S No.": 2489,
+    "Value Date": "25-11-2025",
+    "Transaction Date": "25-11-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 25NOV/20251125071235",
+    "Withdrawal Amount (INR )": 0.75,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 13857.17
+  },
+  {
+    "S No.": 2490,
+    "Value Date": "25-11-2025",
+    "Transaction Date": "25-11-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "UPI/JIO BLACKR/jioblackrockmf/Mandate Ex/ICICI Bank/108631817385/ICI076ad79d68744b08b7fc6982bcae9660",
+    "Withdrawal Amount (INR )": 500,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 13357.17
+  },
+  {
+    "S No.": 2491,
+    "Value Date": "25-11-2025",
+    "Transaction Date": "25-11-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "SMSChgsJul25-Sep25+GST",
+    "Withdrawal Amount (INR )": 2.46,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 13354.71
+  },
+  {
+    "S No.": 2492,
+    "Value Date": "25-11-2025",
+    "Transaction Date": "25-11-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 25NOV/20251125164335",
+    "Withdrawal Amount (INR )": 255.78,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 13098.93
+  },
+  {
+    "S No.": 2493,
+    "Value Date": "26-11-2025",
+    "Transaction Date": "26-11-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 26NOV/20251126063147",
+    "Withdrawal Amount (INR )": 1.13,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 13097.8
+  },
+  {
+    "S No.": 2494,
+    "Value Date": "26-11-2025",
+    "Transaction Date": "26-11-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 26NOV/20251126165142",
+    "Withdrawal Amount (INR )": 257.63,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 12840.17
+  },
+  {
+    "S No.": 2495,
+    "Value Date": "27-11-2025",
+    "Transaction Date": "27-11-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 27NOV/20251127062005",
+    "Withdrawal Amount (INR )": 0.77,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 12839.4
+  },
+  {
+    "S No.": 2496,
+    "Value Date": "27-11-2025",
+    "Transaction Date": "27-11-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 27NOV/20251127165823",
+    "Withdrawal Amount (INR )": 259.29,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 12580.11
+  },
+  {
+    "S No.": 2497,
+    "Value Date": "28-11-2025",
+    "Transaction Date": "28-11-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 28NOV/20251128060519",
+    "Withdrawal Amount (INR )": 0.75,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 12579.34
+  },
+  {
+    "S No.": 2498,
+    "Value Date": "28-11-2025",
+    "Transaction Date": "28-11-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 28NOV/20251128060519",
+    "Withdrawal Amount (INR )": 0.02,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 12580.09
+  },
+  {
+    "S No.": 2499,
+    "Value Date": "28-11-2025",
+    "Transaction Date": "28-11-2025",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 28NOV/20251128164927",
+    "Withdrawal Amount (INR )": 259.36,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 12319.98
+  },
+  {
+    "S No.": 2500,
+    "Value Date": "30-12-2025",
+    "Transaction Date": "30-12-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/EQ Trade 30DEC/20251230062145",
+    "Withdrawal Amount (INR )": 0.96,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 22147.48
+  },
+  {
+    "S No.": 2501,
+    "Value Date": "31-12-2025",
+    "Transaction Date": "31-12-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "625401070212:Int.Pd:30-09-2025 to 30-12-2025",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 123,
+    "Balance (INR )": 22270.48
+  },
+  {
+    "S No.": 2502,
+    "Value Date": "31-12-2025",
+    "Transaction Date": "31-12-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/EQ Trade 31DEC/20251231165746",
+    "Withdrawal Amount (INR )": 231.6,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 22038.88
+  },
+  {
+    "S No.": 2503,
+    "Value Date": "31-12-2025",
+    "Transaction Date": "31-12-2025",
+    "Cheque Number": "-",
+    "Transaction Remarks": "NEFT-HDFCH00706209830-MURALIDHAR KINI B-0001-01331",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 30000,
+    "Balance (INR )": 52038.88
+  },
+  {
+    "S No.": 2504,
+    "Value Date": "01-01-2026",
+    "Transaction Date": "01-01-2026",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/EQ Trade 01JAN/20260101061623",
+    "Withdrawal Amount (INR )": 0.69,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 52038.19
+  },
+  {
+    "S No.": 2505,
+    "Value Date": "01-01-2026",
+    "Transaction Date": "01-01-2026",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/EQ Trade 01JAN/20260101164309",
+    "Withdrawal Amount (INR )": 233.78,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 51804.41
+  },
+  {
+    "S No.": 2506,
+    "Value Date": "02-01-2026",
+    "Transaction Date": "02-01-2026",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/EQ Trade 02JAN/20260102055955",
+    "Withdrawal Amount (INR )": 0.7,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 51803.71
+  },
+  {
+    "S No.": 2507,
+    "Value Date": "02-01-2026",
+    "Transaction Date": "02-01-2026",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/EQ Trade 02JAN/20260102165511",
+    "Withdrawal Amount (INR )": 1639.16,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 50164.55
+  },
+  {
+    "S No.": 2508,
+    "Value Date": "05-01-2026",
+    "Transaction Date": "05-01-2026",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/EQ Trade 05JAN/20260105055408",
+    "Withdrawal Amount (INR )": 4.9,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 50159.65
+  },
+  {
+    "S No.": 2509,
+    "Value Date": "05-01-2026",
+    "Transaction Date": "05-01-2026",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/EQ Trade 05JAN/20260105172258",
+    "Withdrawal Amount (INR )": 1296.32,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 48863.33
+  },
+  {
+    "S No.": 2510,
+    "Value Date": "06-01-2026",
+    "Transaction Date": "06-01-2026",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/EQ Trade 06JAN/20260106062311",
+    "Withdrawal Amount (INR )": 3.87,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 48859.46
+  },
+  {
+    "S No.": 2511,
+    "Value Date": "06-01-2026",
+    "Transaction Date": "06-01-2026",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/EQ Trade 06JAN/20260106165129",
+    "Withdrawal Amount (INR )": 1060.02,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 47799.44
+  },
+  {
+    "S No.": 2512,
+    "Value Date": "07-01-2026",
+    "Transaction Date": "07-01-2026",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/EQ Trade 07JAN/20260107062510",
+    "Withdrawal Amount (INR )": 3.17,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 47796.27
+  },
+  {
+    "S No.": 2513,
+    "Value Date": "07-01-2026",
+    "Transaction Date": "07-01-2026",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/EQ Trade 07JAN/20260107170004",
+    "Withdrawal Amount (INR )": 2583.2,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 45213.07
+  },
+  {
+    "S No.": 2514,
+    "Value Date": "08-01-2026",
+    "Transaction Date": "08-01-2026",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/EQ Trade 08JAN/20260108061428",
+    "Withdrawal Amount (INR )": 7.72,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 45205.35
+  },
+  {
+    "S No.": 2515,
+    "Value Date": "08-01-2026",
+    "Transaction Date": "08-01-2026",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/EQ Trade 08JAN/20260108164003",
+    "Withdrawal Amount (INR )": 3941.29,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 41264.06
+  },
+  {
+    "S No.": 2516,
+    "Value Date": "09-01-2026",
+    "Transaction Date": "09-01-2026",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/EQ Trade 09JAN/20260109061645",
+    "Withdrawal Amount (INR )": 12.77,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 41251.29
+  },
+  {
+    "S No.": 2517,
+    "Value Date": "09-01-2026",
+    "Transaction Date": "09-01-2026",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/EQ Trade 09JAN/20260109165632",
+    "Withdrawal Amount (INR )": 1045.81,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 40205.48
+  },
+  {
+    "S No.": 2518,
+    "Value Date": "12-01-2026",
+    "Transaction Date": "12-01-2026",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/EQ Trade 12JAN/20260112061613",
+    "Withdrawal Amount (INR )": 0.94,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 40204.54
+  },
+  {
+    "S No.": 2519,
+    "Value Date": "12-01-2026",
+    "Transaction Date": "12-01-2026",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/EQ Trade 12JAN/20260112061613",
+    "Withdrawal Amount (INR )": 2.18,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 40202.36
+  },
+  {
+    "S No.": 2520,
+    "Value Date": "12-01-2026",
+    "Transaction Date": "12-01-2026",
+    "Cheque Number": "-",
+    "Transaction Remarks": "Dr Tran For Funding iWish A/c 625424005998",
+    "Withdrawal Amount (INR )": 2187,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 38015.36
+  },
+  {
+    "S No.": 2521,
+    "Value Date": "12-01-2026",
+    "Transaction Date": "12-01-2026",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/EQ Trade 12JAN/20260112165850",
+    "Withdrawal Amount (INR )": 1037.52,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 36977.84
+  },
+  {
+    "S No.": 2522,
+    "Value Date": "13-01-2026",
+    "Transaction Date": "13-01-2026",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/EQ Trade 13JAN/20260113061447",
+    "Withdrawal Amount (INR )": 3.1,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 36974.74
+  },
+  {
+    "S No.": 2523,
+    "Value Date": "13-01-2026",
+    "Transaction Date": "13-01-2026",
+    "Cheque Number": "-",
+    "Transaction Remarks": "Trf to PPF 007218031782",
+    "Withdrawal Amount (INR )": 500,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 36474.74
+  },
+  {
+    "S No.": 2524,
+    "Value Date": "13-01-2026",
+    "Transaction Date": "13-01-2026",
+    "Cheque Number": "-",
+    "Transaction Remarks": "INF/INFT/000080388881/Self",
+    "Withdrawal Amount (INR )": 4500,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 31974.74
+  },
+  {
+    "S No.": 2525,
+    "Value Date": "13-01-2026",
+    "Transaction Date": "13-01-2026",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/EQ Trade 13JAN/20260113164443",
+    "Withdrawal Amount (INR )": 1044.19,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 30930.55
+  },
+  {
+    "S No.": 2526,
+    "Value Date": "14-01-2026",
+    "Transaction Date": "14-01-2026",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/EQ Trade 14JAN/20260114064524",
+    "Withdrawal Amount (INR )": 3.22,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 30927.33
+  },
+  {
+    "S No.": 2527,
+    "Value Date": "01-01-2026",
+    "Transaction Date": "01-01-2026",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/EQ Trade 01JAN/20260101061623",
+    "Withdrawal Amount (INR )": 0.69,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 52038.19
+  },
+  {
+    "S No.": 2528,
+    "Value Date": "01-01-2026",
+    "Transaction Date": "01-01-2026",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/EQ Trade 01JAN/20260101164309",
+    "Withdrawal Amount (INR )": 233.78,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 51804.41
+  },
+  {
+    "S No.": 2529,
+    "Value Date": "02-01-2026",
+    "Transaction Date": "02-01-2026",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/EQ Trade 02JAN/20260102055955",
+    "Withdrawal Amount (INR )": 0.7,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 51803.71
+  },
+  {
+    "S No.": 2530,
+    "Value Date": "02-01-2026",
+    "Transaction Date": "02-01-2026",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/EQ Trade 02JAN/20260102165511",
+    "Withdrawal Amount (INR )": 1639.16,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 50164.55
+  },
+  {
+    "S No.": 2531,
+    "Value Date": "05-01-2026",
+    "Transaction Date": "05-01-2026",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/EQ Trade 05JAN/20260105055408",
+    "Withdrawal Amount (INR )": 4.9,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 50159.65
+  },
+  {
+    "S No.": 2532,
+    "Value Date": "05-01-2026",
+    "Transaction Date": "05-01-2026",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/EQ Trade 05JAN/20260105172258",
+    "Withdrawal Amount (INR )": 1296.32,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 48863.33
+  },
+  {
+    "S No.": 2533,
+    "Value Date": "06-01-2026",
+    "Transaction Date": "06-01-2026",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/EQ Trade 06JAN/20260106062311",
+    "Withdrawal Amount (INR )": 3.87,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 48859.46
+  },
+  {
+    "S No.": 2534,
+    "Value Date": "06-01-2026",
+    "Transaction Date": "06-01-2026",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/EQ Trade 06JAN/20260106165129",
+    "Withdrawal Amount (INR )": 1060.02,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 47799.44
+  },
+  {
+    "S No.": 2535,
+    "Value Date": "07-01-2026",
+    "Transaction Date": "07-01-2026",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/EQ Trade 07JAN/20260107062510",
+    "Withdrawal Amount (INR )": 3.17,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 47796.27
+  },
+  {
+    "S No.": 2536,
+    "Value Date": "07-01-2026",
+    "Transaction Date": "07-01-2026",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/EQ Trade 07JAN/20260107170004",
+    "Withdrawal Amount (INR )": 2583.2,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 45213.07
+  },
+  {
+    "S No.": 2537,
+    "Value Date": "08-01-2026",
+    "Transaction Date": "08-01-2026",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/EQ Trade 08JAN/20260108061428",
+    "Withdrawal Amount (INR )": 7.72,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 45205.35
+  },
+  {
+    "S No.": 2538,
+    "Value Date": "08-01-2026",
+    "Transaction Date": "08-01-2026",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/EQ Trade 08JAN/20260108164003",
+    "Withdrawal Amount (INR )": 3941.29,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 41264.06
+  },
+  {
+    "S No.": 2539,
+    "Value Date": "09-01-2026",
+    "Transaction Date": "09-01-2026",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/EQ Trade 09JAN/20260109061645",
+    "Withdrawal Amount (INR )": 12.77,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 41251.29
+  },
+  {
+    "S No.": 2540,
+    "Value Date": "09-01-2026",
+    "Transaction Date": "09-01-2026",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/EQ Trade 09JAN/20260109165632",
+    "Withdrawal Amount (INR )": 1045.81,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 40205.48
+  },
+  {
+    "S No.": 2541,
+    "Value Date": "12-01-2026",
+    "Transaction Date": "12-01-2026",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/EQ Trade 12JAN/20260112061613",
+    "Withdrawal Amount (INR )": 0.94,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 40204.54
+  },
+  {
+    "S No.": 2542,
+    "Value Date": "12-01-2026",
+    "Transaction Date": "12-01-2026",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/EQ Trade 12JAN/20260112061613",
+    "Withdrawal Amount (INR )": 2.18,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 40202.36
+  },
+  {
+    "S No.": 2543,
+    "Value Date": "12-01-2026",
+    "Transaction Date": "12-01-2026",
+    "Cheque Number": "-",
+    "Transaction Remarks": "Dr Tran For Funding iWish A/c 625424005998",
+    "Withdrawal Amount (INR )": 2187,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 38015.36
+  },
+  {
+    "S No.": 2544,
+    "Value Date": "12-01-2026",
+    "Transaction Date": "12-01-2026",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/EQ Trade 12JAN/20260112165850",
+    "Withdrawal Amount (INR )": 1037.52,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 36977.84
+  },
+  {
+    "S No.": 2545,
+    "Value Date": "13-01-2026",
+    "Transaction Date": "13-01-2026",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/EQ Trade 13JAN/20260113061447",
+    "Withdrawal Amount (INR )": 3.1,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 36974.74
+  },
+  {
+    "S No.": 2546,
+    "Value Date": "13-01-2026",
+    "Transaction Date": "13-01-2026",
+    "Cheque Number": "-",
+    "Transaction Remarks": "Trf to PPF 007218031782",
+    "Withdrawal Amount (INR )": 500,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 36474.74
+  },
+  {
+    "S No.": 2547,
+    "Value Date": "13-01-2026",
+    "Transaction Date": "13-01-2026",
+    "Cheque Number": "-",
+    "Transaction Remarks": "INF/INFT/000080388881/Self",
+    "Withdrawal Amount (INR )": 4500,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 31974.74
+  },
+  {
+    "S No.": 2548,
+    "Value Date": "13-01-2026",
+    "Transaction Date": "13-01-2026",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/EQ Trade 13JAN/20260113164443",
+    "Withdrawal Amount (INR )": 1044.19,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 30930.55
+  },
+  {
+    "S No.": 2549,
+    "Value Date": "14-01-2026",
+    "Transaction Date": "14-01-2026",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/EQ Trade 14JAN/20260114064524",
+    "Withdrawal Amount (INR )": 3.22,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 30927.33
+  },
+  {
+    "S No.": 2550,
+    "Value Date": "14-01-2026",
+    "Transaction Date": "14-01-2026",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/EQ Trade 14JAN/20260114165525",
+    "Withdrawal Amount (INR )": 2525.46,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 28401.87
+  },
+  {
+    "S No.": 2551,
+    "Value Date": "16-01-2026",
+    "Transaction Date": "16-01-2026",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/EQ Trade 16JAN/20260116061101",
+    "Withdrawal Amount (INR )": 7.66,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 28394.21
+  },
+  {
+    "S No.": 2552,
+    "Value Date": "16-01-2026",
+    "Transaction Date": "16-01-2026",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/EQ Trade 16JAN/20260116170017",
+    "Withdrawal Amount (INR )": 1046.63,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 27347.58
+  },
+  {
+    "S No.": 2553,
+    "Value Date": "17-01-2026",
+    "Transaction Date": "17-01-2026",
+    "Cheque Number": "-",
+    "Transaction Remarks": "SGB/2641888/SGBOFT2026011700006126/NAVI FINSERV LI",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 247,
+    "Balance (INR )": 27594.58
+  },
+  {
+    "S No.": 2554,
+    "Value Date": "19-01-2026",
+    "Transaction Date": "19-01-2026",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/EQ Trade 19JAN/20260119061500",
+    "Withdrawal Amount (INR )": 3.03,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 27591.55
+  },
+  {
+    "S No.": 2555,
+    "Value Date": "19-01-2026",
+    "Transaction Date": "19-01-2026",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/EQ Trade 19JAN/20260119061500",
+    "Withdrawal Amount (INR )": 0.1,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 27591.45
+  },
+  {
+    "S No.": 2556,
+    "Value Date": "19-01-2026",
+    "Transaction Date": "19-01-2026",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/EQ Trade 19JAN/20260119164742",
+    "Withdrawal Amount (INR )": 1037.26,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 26554.19
+  },
+  {
+    "S No.": 2557,
+    "Value Date": "20-01-2026",
+    "Transaction Date": "20-01-2026",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/EQ Trade 20JAN/20260120070028",
+    "Withdrawal Amount (INR )": 3.1,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 26551.09
+  },
+  {
+    "S No.": 2558,
+    "Value Date": "20-01-2026",
+    "Transaction Date": "20-01-2026",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/EQ Trade 20JAN/20260120165226",
+    "Withdrawal Amount (INR )": 2179.03,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 24372.06
+  },
+  {
+    "S No.": 2559,
+    "Value Date": "21-01-2026",
+    "Transaction Date": "21-01-2026",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/EQ Trade 21JAN/20260121062903",
+    "Withdrawal Amount (INR )": 6.51,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 24365.55
+  },
+  {
+    "S No.": 2560,
+    "Value Date": "21-01-2026",
+    "Transaction Date": "21-01-2026",
+    "Cheque Number": "-",
+    "Transaction Remarks": "UPI/Google Pla/playstore1.bd@/MandateExe/AXIS BANK/196996040216/AXI82bdb47016d4",
+    "Withdrawal Amount (INR )": 2,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 24363.55
+  },
+  {
+    "S No.": 2561,
+    "Value Date": "21-01-2026",
+    "Transaction Date": "21-01-2026",
+    "Cheque Number": "-",
+    "Transaction Remarks": "UPI/Google Pla/playstore1.bd@/UPI/AXIS BANK/197064780216/AXI0df92a0c5c124ba0a5f",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 2,
+    "Balance (INR )": 24365.55
+  },
+  {
+    "S No.": 2562,
+    "Value Date": "21-01-2026",
+    "Transaction Date": "21-01-2026",
+    "Cheque Number": "-",
+    "Transaction Remarks": "INF/IWISH CONTRIBUTION",
+    "Withdrawal Amount (INR )": 2187,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 22178.55
+  },
+  {
+    "S No.": 2563,
+    "Value Date": "21-01-2026",
+    "Transaction Date": "21-01-2026",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/EQ Trade 21JAN/20260121165508",
+    "Withdrawal Amount (INR )": 6177.5,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 16001.05
+  },
+  {
+    "S No.": 2564,
+    "Value Date": "22-01-2026",
+    "Transaction Date": "22-01-2026",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/EQ Trade 22JAN/20260122062708",
+    "Withdrawal Amount (INR )": 19.45,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 15981.6
+  },
+  {
+    "S No.": 2565,
+    "Value Date": "22-01-2026",
+    "Transaction Date": "22-01-2026",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/EQ Trade 22JAN/20260122165301",
+    "Withdrawal Amount (INR )": 1021.04,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 14960.56
+  },
+  {
+    "S No.": 2566,
+    "Value Date": "23-01-2026",
+    "Transaction Date": "23-01-2026",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/EQ Trade 23JAN/20260123063243",
+    "Withdrawal Amount (INR )": 3.11,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 14957.45
+  },
+  {
+    "S No.": 2567,
+    "Value Date": "23-01-2026",
+    "Transaction Date": "23-01-2026",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/EQ Trade 23JAN/20260123165458",
+    "Withdrawal Amount (INR )": 1151.15,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 13806.3
+  },
+  {
+    "S No.": 2568,
+    "Value Date": "27-01-2026",
+    "Transaction Date": "27-01-2026",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/EQ Trade 27JAN/20260127060000",
+    "Withdrawal Amount (INR )": 3.44,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 13802.86
+  },
+  {
+    "S No.": 2569,
+    "Value Date": "27-01-2026",
+    "Transaction Date": "27-01-2026",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/EQ Trade 27JAN/20260127165445",
+    "Withdrawal Amount (INR )": 1022.24,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 12780.62
+  },
+  {
+    "S No.": 2570,
+    "Value Date": "28-01-2026",
+    "Transaction Date": "28-01-2026",
+    "Cheque Number": "-",
+    "Transaction Remarks": "UPI/Google Pla/playstore1.bd@/MandateExe/AXIS BANK/513273420286/AXI9090c761a3c8",
+    "Withdrawal Amount (INR )": 2000,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 10780.62
+  },
+  {
+    "S No.": 2571,
+    "Value Date": "28-01-2026",
+    "Transaction Date": "28-01-2026",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/EQ Trade 28JAN/20260128073358",
+    "Withdrawal Amount (INR )": 3.05,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 10777.57
+  },
+  {
+    "S No.": 2572,
+    "Value Date": "28-01-2026",
+    "Transaction Date": "28-01-2026",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/EQ Trade 28JAN/20260128170938",
+    "Withdrawal Amount (INR )": 2474.21,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 8303.36
+  },
+  {
+    "S No.": 2573,
+    "Value Date": "29-01-2026",
+    "Transaction Date": "29-01-2026",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/EQ Trade 29JAN/20260129063405",
+    "Withdrawal Amount (INR )": 7.39,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 8295.97
+  },
+  {
+    "S No.": 2574,
+    "Value Date": "29-01-2026",
+    "Transaction Date": "29-01-2026",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/EQ Trade 29JAN/20260129165835",
+    "Withdrawal Amount (INR )": 1024.11,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 7271.86
+  },
+  {
+    "S No.": 2575,
+    "Value Date": "30-01-2026",
+    "Transaction Date": "30-01-2026",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/EQ Trade 30JAN/20260130061738",
+    "Withdrawal Amount (INR )": 3.22,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 7268.64
+  },
+  {
+    "S No.": 2576,
+    "Value Date": "30-01-2026",
+    "Transaction Date": "30-01-2026",
+    "Cheque Number": "-",
+    "Transaction Remarks": "NEFT-HDFCH00766965136-MURALIDHAR KINI B-0001-01331",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 20000,
+    "Balance (INR )": 27268.64
+  },
+  {
+    "S No.": 2577,
+    "Value Date": "30-01-2026",
+    "Transaction Date": "30-01-2026",
+    "Cheque Number": "-",
+    "Transaction Remarks": "EBA/EQ Trade 30JAN/20260130165021",
+    "Withdrawal Amount (INR )": 1219.5,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 26049.14
+  },
+  {
+    "S No.": 2578,
+    "Value Date": "01-02-2026",
+    "Transaction Date": "01-02-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 01FEB/20260201055518",
+    "Withdrawal Amount (INR )": 3.67,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 26045.47
+  },
+  {
+    "S No.": 2579,
+    "Value Date": "01-02-2026",
+    "Transaction Date": "01-02-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 01FEB/20260201163823",
+    "Withdrawal Amount (INR )": 3505.74,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 22539.73
+  },
+  {
+    "S No.": 2580,
+    "Value Date": "02-02-2026",
+    "Transaction Date": "02-02-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "Trf to PPF 007218031782",
+    "Withdrawal Amount (INR )": 5000,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 17539.73
+  },
+  {
+    "S No.": 2581,
+    "Value Date": "02-02-2026",
+    "Transaction Date": "02-02-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 02FEB/20260202053219",
+    "Withdrawal Amount (INR )": 11.47,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 17528.26
+  },
+  {
+    "S No.": 2582,
+    "Value Date": "02-02-2026",
+    "Transaction Date": "02-02-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 02FEB/20260202165548",
+    "Withdrawal Amount (INR )": 351.59,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 17176.67
+  },
+  {
+    "S No.": 2583,
+    "Value Date": "03-02-2026",
+    "Transaction Date": "03-02-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 03FEB/20260203064030",
+    "Withdrawal Amount (INR )": 1.05,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 17175.62
+  },
+  {
+    "S No.": 2584,
+    "Value Date": "03-02-2026",
+    "Transaction Date": "03-02-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 03FEB/20260203170948",
+    "Withdrawal Amount (INR )": 231.72,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 16943.9
+  },
+  {
+    "S No.": 2585,
+    "Value Date": "04-02-2026",
+    "Transaction Date": "04-02-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 04FEB/20260204072533",
+    "Withdrawal Amount (INR )": 0.69,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 16943.21
+  },
+  {
+    "S No.": 2586,
+    "Value Date": "04-02-2026",
+    "Transaction Date": "04-02-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 04FEB/20260204170640",
+    "Withdrawal Amount (INR )": 357.25,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 16585.96
+  },
+  {
+    "S No.": 2587,
+    "Value Date": "05-02-2026",
+    "Transaction Date": "05-02-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 05FEB/20260205065646",
+    "Withdrawal Amount (INR )": 1.07,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 16584.89
+  },
+  {
+    "S No.": 2588,
+    "Value Date": "05-02-2026",
+    "Transaction Date": "05-02-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 05FEB/20260205170447",
+    "Withdrawal Amount (INR )": 291.44,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 16293.45
+  },
+  {
+    "S No.": 2589,
+    "Value Date": "06-02-2026",
+    "Transaction Date": "06-02-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 06FEB/20260206061040",
+    "Withdrawal Amount (INR )": 0.87,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 16292.58
+  },
+  {
+    "S No.": 2590,
+    "Value Date": "06-02-2026",
+    "Transaction Date": "06-02-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "MMT/IMPS/603708186374/IMPS transactio/MURALIDHAR/HDFC Bank",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 20000,
+    "Balance (INR )": 36292.58
+  },
+  {
+    "S No.": 2591,
+    "Value Date": "06-02-2026",
+    "Transaction Date": "06-02-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 06FEB/20260206164521",
+    "Withdrawal Amount (INR )": 511.09,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 35781.49
+  },
+  {
+    "S No.": 2592,
+    "Value Date": "07-02-2026",
+    "Transaction Date": "07-02-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "INF/IWISH CONTRIBUTION",
+    "Withdrawal Amount (INR )": 2187,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 33594.49
+  },
+  {
+    "S No.": 2593,
+    "Value Date": "09-02-2026",
+    "Transaction Date": "09-02-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 09FEB/20260209062436",
+    "Withdrawal Amount (INR )": 1.53,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 33592.96
+  },
+  {
+    "S No.": 2594,
+    "Value Date": "09-02-2026",
+    "Transaction Date": "09-02-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "UPI/PROJESH BA/9845944741@axl/Payment fr/HDFC BANK/391694468302/AXL034524c242f74861b0b1beb631961713",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 1,
+    "Balance (INR )": 33593.96
+  },
+  {
+    "S No.": 2595,
+    "Value Date": "09-02-2026",
+    "Transaction Date": "09-02-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 09FEB/20260209171252",
+    "Withdrawal Amount (INR )": 231.07,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 33362.89
+  },
+  {
+    "S No.": 2596,
+    "Value Date": "10-02-2026",
+    "Transaction Date": "10-02-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 10FEB/20260210065106",
+    "Withdrawal Amount (INR )": 0.69,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 33362.2
+  },
+  {
+    "S No.": 2597,
+    "Value Date": "10-02-2026",
+    "Transaction Date": "10-02-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 10FEB/20260210170459",
+    "Withdrawal Amount (INR )": 235.26,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 33126.94
+  },
+  {
+    "S No.": 2598,
+    "Value Date": "11-02-2026",
+    "Transaction Date": "11-02-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 11FEB/20260211061314",
+    "Withdrawal Amount (INR )": 0.7,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 33126.24
+  },
+  {
+    "S No.": 2599,
+    "Value Date": "11-02-2026",
+    "Transaction Date": "11-02-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 11FEB/20260211165634",
+    "Withdrawal Amount (INR )": 233.9,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 32892.34
+  },
+  {
+    "S No.": 2600,
+    "Value Date": "12-02-2026",
+    "Transaction Date": "12-02-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 12FEB/20260212060855",
+    "Withdrawal Amount (INR )": 0.7,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 32891.64
+  },
+  {
+    "S No.": 2601,
+    "Value Date": "12-02-2026",
+    "Transaction Date": "12-02-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 12FEB/20260212165437",
+    "Withdrawal Amount (INR )": 464.76,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 32426.88
+  },
+  {
+    "S No.": 2602,
+    "Value Date": "13-02-2026",
+    "Transaction Date": "13-02-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 13FEB/20260213061034",
+    "Withdrawal Amount (INR )": 1.39,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 32425.49
+  },
+  {
+    "S No.": 2603,
+    "Value Date": "13-02-2026",
+    "Transaction Date": "13-02-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "SMSChgsOct25-Dec25+GST",
+    "Withdrawal Amount (INR )": 6.36,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 32419.13
+  },
+  {
+    "S No.": 2604,
+    "Value Date": "13-02-2026",
+    "Transaction Date": "13-02-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 13FEB/20260213165606",
+    "Withdrawal Amount (INR )": 1097.42,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 31321.71
+  },
+  {
+    "S No.": 2605,
+    "Value Date": "16-02-2026",
+    "Transaction Date": "16-02-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 16FEB/20260216060533",
+    "Withdrawal Amount (INR )": 3.28,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 31318.43
+  },
+  {
+    "S No.": 2606,
+    "Value Date": "16-02-2026",
+    "Transaction Date": "16-02-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 16FEB/20260216165006",
+    "Withdrawal Amount (INR )": 550.2,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 30768.23
+  },
+  {
+    "S No.": 2607,
+    "Value Date": "17-02-2026",
+    "Transaction Date": "17-02-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 17FEB/20260217055752",
+    "Withdrawal Amount (INR )": 1.64,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 30766.59
+  },
+  {
+    "S No.": 2608,
+    "Value Date": "17-02-2026",
+    "Transaction Date": "17-02-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 17FEB/20260217165600",
+    "Withdrawal Amount (INR )": 689.44,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 30077.15
+  },
+  {
+    "S No.": 2609,
+    "Value Date": "18-02-2026",
+    "Transaction Date": "18-02-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 18FEB/20260218060650",
+    "Withdrawal Amount (INR )": 2.06,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 30075.09
+  },
+  {
+    "S No.": 2610,
+    "Value Date": "18-02-2026",
+    "Transaction Date": "18-02-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 18FEB/20260218164622",
+    "Withdrawal Amount (INR )": 229.47,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 29845.62
+  },
+  {
+    "S No.": 2611,
+    "Value Date": "18-02-2026",
+    "Transaction Date": "18-02-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "SGB/2737917/SGBOFT2026021800008864/NAVI FINSERV LIMITED/Fund transfer",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 247,
+    "Balance (INR )": 30092.62
+  },
+  {
+    "S No.": 2612,
+    "Value Date": "19-02-2026",
+    "Transaction Date": "19-02-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 19FEB/20260219053557",
+    "Withdrawal Amount (INR )": 0.69,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 30091.93
+  },
+  {
+    "S No.": 2613,
+    "Value Date": "19-02-2026",
+    "Transaction Date": "19-02-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 19FEB/20260219164423",
+    "Withdrawal Amount (INR )": 485.39,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 29606.54
+  },
+  {
+    "S No.": 2614,
+    "Value Date": "20-02-2026",
+    "Transaction Date": "20-02-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 20FEB/20260220060513",
+    "Withdrawal Amount (INR )": 1.45,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 29605.09
+  },
+  {
+    "S No.": 2615,
+    "Value Date": "20-02-2026",
+    "Transaction Date": "20-02-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 20FEB/20260220165117",
+    "Withdrawal Amount (INR )": 455.28,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 29149.81
+  },
+  {
+    "S No.": 2616,
+    "Value Date": "21-02-2026",
+    "Transaction Date": "21-02-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "INF/IWISH CONTRIBUTION",
+    "Withdrawal Amount (INR )": 2187,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 26962.81
+  },
+  {
+    "S No.": 2617,
+    "Value Date": "23-02-2026",
+    "Transaction Date": "23-02-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 23FEB/20260223060000",
+    "Withdrawal Amount (INR )": 1.36,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 26961.45
+  },
+  {
+    "S No.": 2618,
+    "Value Date": "23-02-2026",
+    "Transaction Date": "23-02-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 23FEB/20260223170016",
+    "Withdrawal Amount (INR )": 482.03,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 26479.42
+  },
+  {
+    "S No.": 2619,
+    "Value Date": "24-02-2026",
+    "Transaction Date": "24-02-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 24FEB/20260224062224",
+    "Withdrawal Amount (INR )": 1.44,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 26477.98
+  },
+  {
+    "S No.": 2620,
+    "Value Date": "24-02-2026",
+    "Transaction Date": "24-02-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 24FEB/20260224165937",
+    "Withdrawal Amount (INR )": 544.02,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 25933.96
+  },
+  {
+    "S No.": 2621,
+    "Value Date": "25-02-2026",
+    "Transaction Date": "25-02-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 25FEB/20260225081016",
+    "Withdrawal Amount (INR )": 1.63,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 25932.33
+  },
+  {
+    "S No.": 2622,
+    "Value Date": "25-02-2026",
+    "Transaction Date": "25-02-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 25FEB/20260225165653",
+    "Withdrawal Amount (INR )": 229.83,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 25702.5
+  },
+  {
+    "S No.": 2623,
+    "Value Date": "26-02-2026",
+    "Transaction Date": "26-02-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 26FEB/20260226062448",
+    "Withdrawal Amount (INR )": 0.69,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 25701.81
+  },
+  {
+    "S No.": 2624,
+    "Value Date": "26-02-2026",
+    "Transaction Date": "26-02-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 26FEB/20260226164523",
+    "Withdrawal Amount (INR )": 295.65,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 25406.16
+  },
+  {
+    "S No.": 2625,
+    "Value Date": "27-02-2026",
+    "Transaction Date": "27-02-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 27FEB/20260227064359",
+    "Withdrawal Amount (INR )": 0.88,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 25405.28
+  },
+  {
+    "S No.": 2626,
+    "Value Date": "27-02-2026",
+    "Transaction Date": "27-02-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "MMT/IMPS/605827950506/Investments/MURALIDHAR/HDFC Bank",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 25000,
+    "Balance (INR )": 50405.28
+  },
+  {
+    "S No.": 2627,
+    "Value Date": "27-02-2026",
+    "Transaction Date": "27-02-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 27FEB/20260227164600",
+    "Withdrawal Amount (INR )": 804.53,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 49600.75
+  },
+  {
+    "S No.": 2628,
+    "Value Date": "02-03-2026",
+    "Transaction Date": "02-03-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 02MAR/20260302055614",
+    "Withdrawal Amount (INR )": 2.4,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 49598.35
+  },
+  {
+    "S No.": 2629,
+    "Value Date": "02-03-2026",
+    "Transaction Date": "02-03-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 02MAR/20260302164822",
+    "Withdrawal Amount (INR )": 2756.43,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 46841.92
+  },
+  {
+    "S No.": 2630,
+    "Value Date": "04-03-2026",
+    "Transaction Date": "04-03-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 04MAR/20260304060924",
+    "Withdrawal Amount (INR )": 8.23,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 46833.69
+  },
+  {
+    "S No.": 2631,
+    "Value Date": "04-03-2026",
+    "Transaction Date": "04-03-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 04MAR/20260304165429",
+    "Withdrawal Amount (INR )": 3248.43,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 43585.26
+  },
+  {
+    "S No.": 2632,
+    "Value Date": "04-03-2026",
+    "Transaction Date": "04-03-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/IBKR Subscription/20260304174505",
+    "Withdrawal Amount (INR )": 1178.82,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 42406.44
+  },
+  {
+    "S No.": 2633,
+    "Value Date": "05-03-2026",
+    "Transaction Date": "05-03-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 05MAR/20260305061543",
+    "Withdrawal Amount (INR )": 9.71,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 42396.73
+  },
+  {
+    "S No.": 2634,
+    "Value Date": "05-03-2026",
+    "Transaction Date": "05-03-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 05MAR/20260305165223",
+    "Withdrawal Amount (INR )": 221.84,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 42174.89
+  },
+  {
+    "S No.": 2635,
+    "Value Date": "06-03-2026",
+    "Transaction Date": "06-03-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 06MAR/20260306062037",
+    "Withdrawal Amount (INR )": 0.66,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 42174.23
+  },
+  {
+    "S No.": 2636,
+    "Value Date": "06-03-2026",
+    "Transaction Date": "06-03-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 06MAR/20260306164035",
+    "Withdrawal Amount (INR )": 1657.67,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 40516.56
+  },
+  {
+    "S No.": 2637,
+    "Value Date": "07-03-2026",
+    "Transaction Date": "07-03-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "INF/IWISH CONTRIBUTION",
+    "Withdrawal Amount (INR )": 2187,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 38329.56
+  },
+  {
+    "S No.": 2638,
+    "Value Date": "09-03-2026",
+    "Transaction Date": "09-03-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 09MAR/20260309055710",
+    "Withdrawal Amount (INR )": 4.95,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 38324.61
+  },
+  {
+    "S No.": 2639,
+    "Value Date": "09-03-2026",
+    "Transaction Date": "09-03-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 09MAR/20260309171535",
+    "Withdrawal Amount (INR )": 2599.78,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 35724.83
+  },
+  {
+    "S No.": 2640,
+    "Value Date": "10-03-2026",
+    "Transaction Date": "10-03-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 10MAR/20260310054402",
+    "Withdrawal Amount (INR )": 7.77,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 35717.06
+  },
+  {
+    "S No.": 2641,
+    "Value Date": "10-03-2026",
+    "Transaction Date": "10-03-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 10MAR/20260310165931",
+    "Withdrawal Amount (INR )": 223.99,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 35493.07
+  },
+  {
+    "S No.": 2642,
+    "Value Date": "11-03-2026",
+    "Transaction Date": "11-03-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 11MAR/20260311063306",
+    "Withdrawal Amount (INR )": 0.67,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 35492.4
+  },
+  {
+    "S No.": 2643,
+    "Value Date": "11-03-2026",
+    "Transaction Date": "11-03-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 11MAR/20260311163618",
+    "Withdrawal Amount (INR )": 1043.23,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 34449.17
+  },
+  {
+    "S No.": 2644,
+    "Value Date": "12-03-2026",
+    "Transaction Date": "12-03-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 12MAR/20260312061713",
+    "Withdrawal Amount (INR )": 3.12,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 34446.05
+  },
+  {
+    "S No.": 2645,
+    "Value Date": "12-03-2026",
+    "Transaction Date": "12-03-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 12MAR/20260312165159",
+    "Withdrawal Amount (INR )": 221.15,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 34224.9
+  },
+  {
+    "S No.": 2646,
+    "Value Date": "13-03-2026",
+    "Transaction Date": "13-03-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 13MAR/20260313061916",
+    "Withdrawal Amount (INR )": 0.03,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 34224.24
+  },
+  {
+    "S No.": 2647,
+    "Value Date": "13-03-2026",
+    "Transaction Date": "13-03-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 13MAR/20260313061916",
+    "Withdrawal Amount (INR )": 0.63,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 34224.27
+  },
+  {
+    "S No.": 2648,
+    "Value Date": "13-03-2026",
+    "Transaction Date": "13-03-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 13MAR/20260313164221",
+    "Withdrawal Amount (INR )": 8672.63,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 25551.61
+  },
+  {
+    "S No.": 2649,
+    "Value Date": "16-03-2026",
+    "Transaction Date": "16-03-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 16MAR/20260316054705",
+    "Withdrawal Amount (INR )": 26.92,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 25524.69
+  },
+  {
+    "S No.": 2650,
+    "Value Date": "16-03-2026",
+    "Transaction Date": "16-03-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 16MAR/20260316180035",
+    "Withdrawal Amount (INR )": 5626.63,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 19898.06
+  },
+  {
+    "S No.": 2651,
+    "Value Date": "17-03-2026",
+    "Transaction Date": "17-03-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 17MAR/20260317080249",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 199.84,
+    "Balance (INR )": 20097.9
+  },
+  {
+    "S No.": 2652,
+    "Value Date": "17-03-2026",
+    "Transaction Date": "17-03-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 17MAR/20260317164035",
+    "Withdrawal Amount (INR )": 218.78,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 19879.12
+  },
+  {
+    "S No.": 2653,
+    "Value Date": "18-03-2026",
+    "Transaction Date": "18-03-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 18MAR/20260318062440",
+    "Withdrawal Amount (INR )": 0.65,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 19878.47
+  },
+  {
+    "S No.": 2654,
+    "Value Date": "18-03-2026",
+    "Transaction Date": "18-03-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 18MAR/20260318163946",
+    "Withdrawal Amount (INR )": 222.3,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 19656.17
+  },
+  {
+    "S No.": 2655,
+    "Value Date": "18-03-2026",
+    "Transaction Date": "18-03-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "SGB/2827089/SGBOFT2026031800007658/NAVI FINSERV LIMITED/Fund transfer",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 223,
+    "Balance (INR )": 19879.17
+  },
+  {
+    "S No.": 2656,
+    "Value Date": "19-03-2026",
+    "Transaction Date": "19-03-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 19MAR/20260319054134",
+    "Withdrawal Amount (INR )": 0.66,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 19878.51
+  },
+  {
+    "S No.": 2657,
+    "Value Date": "19-03-2026",
+    "Transaction Date": "19-03-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 19MAR/20260319163641",
+    "Withdrawal Amount (INR )": 223.69,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 19654.82
+  },
+  {
+    "S No.": 2658,
+    "Value Date": "20-03-2026",
+    "Transaction Date": "20-03-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 20MAR/20260320062903",
+    "Withdrawal Amount (INR )": 0.67,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 19654.15
+  },
+  {
+    "S No.": 2659,
+    "Value Date": "20-03-2026",
+    "Transaction Date": "20-03-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 20MAR/20260320165018",
+    "Withdrawal Amount (INR )": 225.77,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 19428.38
+  },
+  {
+    "S No.": 2660,
+    "Value Date": "21-03-2026",
+    "Transaction Date": "21-03-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "INF/IWISH CONTRIBUTION",
+    "Withdrawal Amount (INR )": 2187,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 17241.38
+  },
+  {
+    "S No.": 2661,
+    "Value Date": "23-03-2026",
+    "Transaction Date": "23-03-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 23MAR/20260323055016",
+    "Withdrawal Amount (INR )": 0.67,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 17240.71
+  },
+  {
+    "S No.": 2662,
+    "Value Date": "23-03-2026",
+    "Transaction Date": "23-03-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 23MAR/20260323171550",
+    "Withdrawal Amount (INR )": 5869.28,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 11371.43
+  },
+  {
+    "S No.": 2663,
+    "Value Date": "24-03-2026",
+    "Transaction Date": "24-03-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 24MAR/20260324053837",
+    "Withdrawal Amount (INR )": 18.53,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 11352.9
+  },
+  {
+    "S No.": 2664,
+    "Value Date": "24-03-2026",
+    "Transaction Date": "24-03-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 24MAR/20260324164628",
+    "Withdrawal Amount (INR )": 223.08,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 11129.82
+  },
+  {
+    "S No.": 2665,
+    "Value Date": "25-03-2026",
+    "Transaction Date": "25-03-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 25MAR/20260325051258",
+    "Withdrawal Amount (INR )": 0.67,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 11129.15
+  },
+  {
+    "S No.": 2666,
+    "Value Date": "25-03-2026",
+    "Transaction Date": "25-03-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 25MAR/20260325164604",
+    "Withdrawal Amount (INR )": 233,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 10896.15
+  },
+  {
+    "S No.": 2667,
+    "Value Date": "27-03-2026",
+    "Transaction Date": "27-03-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 27MAR/20260327061836",
+    "Withdrawal Amount (INR )": 0.8,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 10895.35
+  },
+  {
+    "S No.": 2668,
+    "Value Date": "27-03-2026",
+    "Transaction Date": "27-03-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 27MAR/20260327170407",
+    "Withdrawal Amount (INR )": 526.41,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 10368.94
+  },
+  {
+    "S No.": 2669,
+    "Value Date": "30-03-2026",
+    "Transaction Date": "30-03-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 30MAR/20260330062759",
+    "Withdrawal Amount (INR )": 1.57,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 10367.37
+  },
+  {
+    "S No.": 2670,
+    "Value Date": "29-03-2026",
+    "Transaction Date": "29-03-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "625401070212:Int.Pd:31-12-2025 to 29-03-2026",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 177,
+    "Balance (INR )": 10544.37
+  },
+  {
+    "S No.": 2671,
+    "Value Date": "30-03-2026",
+    "Transaction Date": "30-03-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "NEFT-HDFCH00894898748-MURALIDHAR KINI B-0001-01331140014684-HDFC0000001",
+    "Withdrawal Amount (INR )": 0,
+    "Deposit Amount (INR )": 30000,
+    "Balance (INR )": 40544.37
+  },
+  {
+    "S No.": 2672,
+    "Value Date": "30-03-2026",
+    "Transaction Date": "30-03-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 30MAR/20260330172522",
+    "Withdrawal Amount (INR )": 2495.06,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 38049.31
+  },
+  {
+    "S No.": 2673,
+    "Value Date": "31-03-2026",
+    "Transaction Date": "31-03-2026",
+    "Cheque Number": "",
+    "Transaction Remarks": "EBA/EQ Trade 31MAR/20260331085122",
+    "Withdrawal Amount (INR )": 7.45,
+    "Deposit Amount (INR )": 0,
+    "Balance (INR )": 38041.86
+  }
+]
