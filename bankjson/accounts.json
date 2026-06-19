@@ -1,0 +1,206 @@
+[
+  {
+    "personId": "muralidhar",
+    "bankName": "HDFC",
+    "accountNumber": "4684",
+    "filePath": "bankjson/muralidhar/HDFC/HDFC_2015-16.json"
+  },
+  {
+    "personId": "muralidhar",
+    "bankName": "HDFC",
+    "accountNumber": "4684",
+    "filePath": "bankjson/muralidhar/HDFC/HDFC_2016-17.json"
+  },
+  {
+    "personId": "muralidhar",
+    "bankName": "HDFC",
+    "accountNumber": "4684",
+    "filePath": "bankjson/muralidhar/HDFC/HDFC_2017-18.json"
+  },
+  {
+    "personId": "muralidhar",
+    "bankName": "HDFC",
+    "accountNumber": "4684",
+    "filePath": "bankjson/muralidhar/HDFC/HDFC_2018-19.json"
+  },
+  {
+    "personId": "muralidhar",
+    "bankName": "HDFC",
+    "accountNumber": "4684",
+    "filePath": "bankjson/muralidhar/HDFC/HDFC_2019-20.json"
+  },
+  {
+    "personId": "muralidhar",
+    "bankName": "HDFC",
+    "accountNumber": "4684",
+    "filePath": "bankjson/muralidhar/HDFC/HDFC_2020-21.json"
+  },
+  {
+    "personId": "muralidhar",
+    "bankName": "HDFC",
+    "accountNumber": "4684",
+    "filePath": "bankjson/muralidhar/HDFC/HDFC_2021-22.json"
+  },
+  {
+    "personId": "muralidhar",
+    "bankName": "HDFC",
+    "accountNumber": "4684",
+    "filePath": "bankjson/muralidhar/HDFC/HDFC_2022-23.json"
+  },
+  {
+    "personId": "muralidhar",
+    "bankName": "HDFC",
+    "accountNumber": "4684",
+    "filePath": "bankjson/muralidhar/HDFC/HDFC_2023-24.json"
+  },
+  {
+    "personId": "muralidhar",
+    "bankName": "HDFC",
+    "accountNumber": "4684",
+    "filePath": "bankjson/muralidhar/HDFC/HDFC_2024-25.json"
+  },
+  {
+    "personId": "muralidhar",
+    "bankName": "HDFC",
+    "accountNumber": "4684",
+    "filePath": "bankjson/muralidhar/HDFC/HDFC_2025-26.json"
+  },
+  {
+    "personId": "muralidhar",
+    "bankName": "HDFC",
+    "accountNumber": "4684",
+    "filePath": "bankjson/muralidhar/HDFC/HDFC_2026-27.json"
+  },
+  {
+    "personId": "muralidhar",
+    "bankName": "ICICI",
+    "accountNumber": "0212",
+    "filePath": "bankjson/muralidhar/ICICI/ICICI_2018-19.json"
+  },
+  {
+    "personId": "muralidhar",
+    "bankName": "ICICI",
+    "accountNumber": "0212",
+    "filePath": "bankjson/muralidhar/ICICI/ICICI_2019-20.json"
+  },
+  {
+    "personId": "muralidhar",
+    "bankName": "ICICI",
+    "accountNumber": "0212",
+    "filePath": "bankjson/muralidhar/ICICI/ICICI_2021-22.json"
+  },
+  {
+    "personId": "muralidhar",
+    "bankName": "ICICI",
+    "accountNumber": "0212",
+    "filePath": "bankjson/muralidhar/ICICI/ICICI_2022-23.json"
+  },
+  {
+    "personId": "muralidhar",
+    "bankName": "ICICI",
+    "accountNumber": "0212",
+    "filePath": "bankjson/muralidhar/ICICI/ICICI_2023-24.json"
+  },
+  {
+    "personId": "muralidhar",
+    "bankName": "ICICI",
+    "accountNumber": "0212",
+    "filePath": "bankjson/muralidhar/ICICI/ICICI_2024-25.json"
+  },
+  {
+    "personId": "muralidhar",
+    "bankName": "ICICI",
+    "accountNumber": "0212",
+    "filePath": "bankjson/muralidhar/ICICI/ICICI_2025-26.json"
+  },
+  {
+    "personId": "muralidhar",
+    "bankName": "ICICI",
+    "accountNumber": "0212",
+    "filePath": "bankjson/muralidhar/ICICI/ICICI_2026-27.json"
+  },
+  {
+    "personId": "muralidhar",
+    "bankName": "SBI",
+    "accountNumber": "16269",
+    "filePath": "bankjson/muralidhar/SBI/SBI_2025-26.json"
+  },
+  {
+    "personId": "muralidhar",
+    "bankName": "SBI",
+    "accountNumber": "16269",
+    "filePath": "bankjson/muralidhar/SBI/SBI_2026-27.json"
+  },
+  {
+    "personId": "leena",
+    "bankName": "HDFC",
+    "accountNumber": "05480",
+    "filePath": "bankjson/leena/HDFC/HDFC_2021-22.json"
+  },
+  {
+    "personId": "leena",
+    "bankName": "HDFC",
+    "accountNumber": "05480",
+    "filePath": "bankjson/leena/HDFC/HDFC_2022-23.json"
+  },
+  {
+    "personId": "leena",
+    "bankName": "HDFC",
+    "accountNumber": "05480",
+    "filePath": "bankjson/leena/HDFC/HDFC_2023-24.json"
+  },
+  {
+    "personId": "leena",
+    "bankName": "HDFC",
+    "accountNumber": "05480",
+    "filePath": "bankjson/leena/HDFC/HDFC_2024-25.json"
+  },
+  {
+    "personId": "leena",
+    "bankName": "HDFC",
+    "accountNumber": "05480",
+    "filePath": "bankjson/leena/HDFC/HDFC_2025-26.json"
+  },
+  {
+    "personId": "leena",
+    "bankName": "HDFC",
+    "accountNumber": "05480",
+    "filePath": "bankjson/leena/HDFC/HDFC_2026-27.json"
+  },
+  {
+    "personId": "leena",
+    "bankName": "ICICI",
+    "accountNumber": "437801504863",
+    "filePath": "bankjson/leena/ICICI/ICICI_2021-22.json"
+  },
+  {
+    "personId": "leena",
+    "bankName": "ICICI",
+    "accountNumber": "437801504863",
+    "filePath": "bankjson/leena/ICICI/ICICI_2022-23.json"
+  },
+  {
+    "personId": "leena",
+    "bankName": "ICICI",
+    "accountNumber": "437801504863",
+    "filePath": "bankjson/leena/ICICI/ICICI_2023-24.json"
+  },
+  {
+    "personId": "leena",
+    "bankName": "ICICI",
+    "accountNumber": "437801504863",
+    "filePath": "bankjson/leena/ICICI/ICICI_2024-25.json"
+  },
+  {
+    "personId": "leena",
+    "bankName": "ICICI",
+    "accountNumber": "437801504863",
+    "filePath": "bankjson/leena/ICICI/ICICI_2025-26.json"
+  },
+  {
+    "personId": "leena",
+    "bankName": "ICICI",
+    "accountNumber": "437801504863",
+    "filePath": "bankjson/leena/ICICI/ICICI_2026-27.json"
+  }
+]
