@@ -115,6 +115,12 @@
                     <input type="text" id="filter-search" onkeyup="filterTransactions()" placeholder="Search narration..." class="w-full bg-zinc-800 border border-zinc-700 rounded-2xl px-4 py-2 text-sm">
                 </div>
                 <button onclick="clearFilters()" class="px-4 py-2 bg-zinc-700 hover:bg-zinc-600 rounded-2xl text-sm">Clear Filters</button>
+                <!-- NEW: Export to Excel Button -->
+                <button onclick="exportBankTransactionsToExcel()" 
+                        class="px-4 py-2 bg-emerald-600 hover:bg-emerald-700 rounded-2xl text-sm flex items-center gap-x-2">
+                    <i class="fas fa-download"></i>
+                    <span>Export to Excel</span>
+                </button>
             </div>
 
             <!-- Transactions Table -->
@@ -252,6 +258,7 @@
         let familyMembers = [];
         let currentTransactions = [];
         let currentExpenseData = [];
+        let currentBankTransactions = [];
 
         // ==================== LOGIN ====================
         function login() {
@@ -506,50 +513,50 @@ async function loadBankYears(personId, bankName, availableYears) {
             filterTransactions();
         }
 
-        async function filterTransactions() {
-            const person = document.getElementById('filter-person').value;
-            const fy = document.getElementById('filter-fy').value;
-            const search = document.getElementById('filter-search').value.toLowerCase();
+        function filterTransactions() {
+    const person = document.getElementById('filter-person').value;
+    const fy = document.getElementById('filter-fy').value;
+    const search = document.getElementById('filter-search').value.toLowerCase();
 
-            const tbody = document.getElementById('transactions-table');
-            tbody.innerHTML = '';
+    const tbody = document.getElementById('transactions-table');
+    tbody.innerHTML = '';
 
-            let filtered = currentTransactions;
+    let filtered = currentTransactions;
 
-            // If user selected a year but data for that year is not loaded yet
-            if (fy && !currentTransactions.some(t => getFinancialYear(t.date) === fy)) {
-                const accounts = await loadAccountManifest();
-                const fileToLoad = accounts.find(a => 
-                    a.personId === person && 
-                    getFinancialYearFromFilePath(a.filePath) === fy
-                );
+    if (person) filtered = filtered.filter(t => t.personId === person);
+    if (fy) filtered = filtered.filter(t => getFinancialYear(t.date) === fy);
+    if (search) filtered = filtered.filter(t => t.narration?.toLowerCase().includes(search));
 
-                if (fileToLoad) {
-                    await loadSingleYearFile(fileToLoad.filePath, person);
-                }
-            }
+    // === Store filtered data for Export ===
+    currentBankTransactions = filtered;
 
-            if (person) filtered = filtered.filter(t => t.personId === person);
-            if (fy) filtered = filtered.filter(t => getFinancialYear(t.date) === fy);
-            if (search) filtered = filtered.filter(t => t.narration?.toLowerCase().includes(search));
+    if (filtered.length === 0) {
+        const row = document.createElement('tr');
+        row.innerHTML = `
+            <td colspan="7" class="py-8 text-center text-zinc-400">
+                No transactions found for the selected filters.
+            </td>
+        `;
+        tbody.appendChild(row);
+    } else {
+        filtered.forEach(t => {
+            const personObj = familyMembers.find(p => p.id === t.personId);
+            const row = document.createElement('tr');
+            row.innerHTML = `
+                <td class="py-3 px-4">${t.date}</td>
+                <td class="py-3 px-4">${personObj ? personObj.name : ''}</td>
+                <td class="py-3 px-4">${t.bankName}</td>
+                <td class="py-3 px-4 text-xs max-w-xs truncate">${t.narration}</td>
+                <td class="py-3 px-4 text-right text-red-400">${t.withdrawal ? '₹' + t.withdrawal.toLocaleString('en-IN') : ''}</td>
+                <td class="py-3 px-4 text-right text-green-400">${t.deposit ? '₹' + t.deposit.toLocaleString('en-IN') : ''}</td>
+                <td class="py-3 px-4 text-right">${t.balance ? '₹' + t.balance.toLocaleString('en-IN') : ''}</td>
+            `;
+            tbody.appendChild(row);
+        });
+    }
 
-            filtered.forEach(t => {
-                const personObj = familyMembers.find(p => p.id === t.personId);
-                const row = document.createElement('tr');
-                row.innerHTML = `
-                    <td class="py-3 px-4">${t.date}</td>
-                    <td class="py-3 px-4">${personObj ? personObj.name : ''}</td>
-                    <td class="py-3 px-4">${t.bankName}</td>
-                    <td class="py-3 px-4 text-xs max-w-xs truncate">${t.narration}</td>
-                    <td class="py-3 px-4 text-right text-red-400">${t.withdrawal ? '₹' + t.withdrawal.toLocaleString('en-IN') : ''}</td>
-                    <td class="py-3 px-4 text-right text-green-400">${t.deposit ? '₹' + t.deposit.toLocaleString('en-IN') : ''}</td>
-                    <td class="py-3 px-4 text-right">${t.balance ? '₹' + t.balance.toLocaleString('en-IN') : ''}</td>
-                `;
-                tbody.appendChild(row);
-            });
-
-            updateBankSummary(filtered);
-        }
+    updateBankSummary(filtered);
+}
 
         function getFinancialYearFromFilePath(filePath) {
     const match = filePath.match(/_(\d{4}-\d{2})\.json/);
@@ -903,6 +910,35 @@ async function populateExpenseFilters() {
         option.textContent = cat;
         categorySelect.appendChild(option);
     });
+}
+
+function exportBankTransactionsToExcel() {
+    if (!currentBankTransactions || currentBankTransactions.length === 0) {
+        alert("No transactions to export. Please apply filters first.");
+        return;
+    }
+
+    let csvContent = "Date,Person,Bank,Narration,Withdrawal,Deposit,Balance\n";
+
+    currentBankTransactions.forEach(t => {
+        const personObj = familyMembers.find(p => p.id === t.personId);
+        const personName = personObj ? personObj.name : t.personId;
+        const narration = (t.narration || "").replace(/"/g, '""');
+
+        csvContent += `"${t.date}","${personName}","${t.bankName}","${narration}",${t.withdrawal || 0},${t.deposit || 0},${t.balance || 0}\n`;
+    });
+
+    const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+    const link = document.createElement("a");
+    const url = URL.createObjectURL(blob);
+
+    link.setAttribute("href", url);
+    link.setAttribute("download", `Bank_Transactions_${new Date().toISOString().slice(0,10)}.csv`);
+    link.style.visibility = 'hidden';
+
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
 }
 
 function exportExpensesToExcel() {
