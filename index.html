@@ -499,7 +499,7 @@ async function loadBankYears(personId, bankName, availableYears) {
             filterTransactions();
         }
 
-        function filterTransactions() {
+    function filterTransactions() {
     const person = document.getElementById('filter-person').value;
     const fy = document.getElementById('filter-fy').value;
     const search = document.getElementById('filter-search').value.toLowerCase();
@@ -510,25 +510,33 @@ async function loadBankYears(personId, bankName, availableYears) {
     let filtered = currentTransactions;
 
     // Apply filters
-    if (person) filtered = filtered.filter(t => t.personId === person);
-    if (fy) filtered = filtered.filter(t => getFinancialYear(t.date) === fy);
-    if (search) filtered = filtered.filter(t => t.narration?.toLowerCase().includes(search));
+    if (person) {
+        filtered = filtered.filter(t => t.personId === person);
+    }
+    if (fy) {
+        filtered = filtered.filter(t => getFinancialYear(t.date) === fy);
+    }
+    if (search) {
+        filtered = filtered.filter(t => 
+            t.narration && t.narration.toLowerCase().includes(search)
+        );
+    }
 
-    // Store for export
+    // Store filtered data (needed for Export to Excel)
     currentBankTransactions = filtered;
 
-    // === Show message if no data found ===
+    // Show "No data" message if nothing matches
     if (filtered.length === 0) {
         const row = document.createElement('tr');
         row.innerHTML = `
             <td colspan="7" class="py-8 text-center text-zinc-400">
-                No transactions found for the selected filters.<br>
-                <span class="text-xs">Try selecting "All Years" or load bank data first.</span>
+                No transactions found.<br>
+                <span class="text-xs">Try selecting "All Years" or load bank data.</span>
             </td>
         `;
         tbody.appendChild(row);
     } else {
-        // Render normal rows
+        // Render the transactions
         filtered.forEach(t => {
             const personObj = familyMembers.find(p => p.id === t.personId);
             const row = document.createElement('tr');
@@ -536,10 +544,18 @@ async function loadBankYears(personId, bankName, availableYears) {
                 <td class="py-3 px-4">${t.date}</td>
                 <td class="py-3 px-4">${personObj ? personObj.name : t.personId}</td>
                 <td class="py-3 px-4">${t.bankName}</td>
-                <td class="py-3 px-4 text-xs max-w-xs truncate" title="${t.narration}">${t.narration}</td>
-                <td class="py-3 px-4 text-right text-red-400">${t.withdrawal ? '₹' + t.withdrawal.toLocaleString('en-IN') : ''}</td>
-                <td class="py-3 px-4 text-right text-green-400">${t.deposit ? '₹' + t.deposit.toLocaleString('en-IN') : ''}</td>
-                <td class="py-3 px-4 text-right">${t.balance ? '₹' + t.balance.toLocaleString('en-IN') : ''}</td>
+                <td class="py-3 px-4 text-xs max-w-xs truncate" title="${t.narration}">
+                    ${t.narration}
+                </td>
+                <td class="py-3 px-4 text-right text-red-400">
+                    ${t.withdrawal ? '₹' + t.withdrawal.toLocaleString('en-IN') : ''}
+                </td>
+                <td class="py-3 px-4 text-right text-green-400">
+                    ${t.deposit ? '₹' + t.deposit.toLocaleString('en-IN') : ''}
+                </td>
+                <td class="py-3 px-4 text-right">
+                    ${t.balance ? '₹' + t.balance.toLocaleString('en-IN') : ''}
+                </td>
             `;
             tbody.appendChild(row);
         });
