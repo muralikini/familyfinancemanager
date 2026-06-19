@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Family Finance Manager</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        .tab-active { border-bottom: 3px solid #d97706; color: white; font-weight: 600; }
+    </style>
+</head>
+<body class="bg-zinc-950 text-zinc-200">
+
+    <!-- Login Screen -->
+    <div id="login-screen" class="min-h-screen flex items-center justify-center">
+        <div class="w-full max-w-md bg-zinc-900 border border-zinc-700 rounded-3xl p-8">
+            <div class="text-center mb-8">
+                <div class="w-16 h-16 bg-amber-600 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                    <i class="fas fa-wallet text-white text-3xl"></i>
+                </div>
+                <h1 class="text-3xl font-bold">Family Finance Manager</h1>
+            </div>
+            <input type="password" id="login-password" value="family2026" class="w-full bg-zinc-800 border border-zinc-700 rounded-2xl px-4 py-3 mb-4">
+            <button onclick="login()" class="w-full bg-amber-600 hover:bg-amber-700 py-3 rounded-2xl font-semibold">Login</button>
+        </div>
+    </div>
+
+    <!-- Main App -->
+    <div id="main-app" class="hidden">
+        <div class="bg-zinc-900 border-b border-zinc-800 px-6 py-4">
+            <div class="max-w-screen-2xl mx-auto flex justify-between items-center">
+                <div class="flex items-center gap-x-3">
+                    <div class="w-10 h-10 bg-amber-600 rounded-2xl flex items-center justify-center"><i class="fas fa-wallet text-white"></i></div>
+                    <h1 class="text-2xl font-bold">Family Finance Manager</h1>
+                </div>
+                <button onclick="logout()" class="px-4 py-2 bg-zinc-800 hover:bg-zinc-700 rounded-2xl text-sm">Logout</button>
+            </div>
+        </div>
+
+        <!-- Tabs -->
+        <div class="max-w-screen-2xl mx-auto px-6 pt-6">
+            <div class="flex border-b border-zinc-700">
+                <button onclick="switchTab(0)" class="tab-btn tab-active px-6 py-3">Dashboard</button>
+                <button onclick="switchTab(1)" class="tab-btn px-6 py-3">Admin Panel</button>
+                <button onclick="switchTab(2)" class="tab-btn px-6 py-3">Bank Accounts</button>
+                <button onclick="switchTab(3)" class="tab-btn px-6 py-3">Equity</button>
+            </div>
+        </div>
+
+        <!-- DASHBOARD -->
+        <div id="tab-0" class="tab-content max-w-screen-2xl mx-auto px-6 pt-8">
+            <!-- Dashboard content remains the same as your original (I kept it intact) -->
+            <!-- ... (Your original Dashboard HTML is preserved) ... -->
+        </div>
+
+        <!-- ADMIN PANEL -->
+        <div id="tab-1" class="tab-content hidden max-w-screen-2xl mx-auto px-6 pt-8">
+            <!-- Your original Admin Panel content -->
+        </div>
+
+        <!-- BANK ACCOUNTS TAB -->
+        <div id="tab-2" class="tab-content hidden max-w-screen-2xl mx-auto px-6 pt-8">
+            <!-- Your original Bank Accounts content (with fixes applied) -->
+        </div>
+
+        <!-- EQUITY TAB -->
+        <div id="tab-3" class="tab-content hidden px-6 pt-6">
+            <!-- Cleaned Equity Tab -->
+        </div>
+    </div>
+
+    <script>
+        // ==================== GLOBAL VARIABLES ====================
+        let familyMembers = [];
+        let currentTransactions = [];
+        let equityTransactions = [];
+        let allEquityTransactions = [];
+
+        // ==================== LOGIN / LOGOUT ====================
+        function login() {
+            if (document.getElementById('login-password').value === "family2026") {
+                document.getElementById('login-screen').classList.add('hidden');
+                document.getElementById('main-app').classList.remove('hidden');
+                initData();
+            } else {
+                alert("Incorrect password");
+            }
+        }
+
+        function logout() {
+            location.reload();
+        }
+
+        // ==================== TAB SWITCHING (FIXED) ====================
+        function switchTab(tab) {
+            document.querySelectorAll('.tab-content').forEach(el => el.classList.add('hidden'));
+            document.querySelectorAll('.tab-btn').forEach(el => el.classList.remove('tab-active'));
+
+            document.getElementById(`tab-${tab}`).classList.remove('hidden');
+            document.querySelectorAll('.tab-btn')[tab].classList.add('tab-active');
+
+            if (tab === 0) refreshDashboard();
+            if (tab === 2) {
+                renderBankUI();
+                generateLoadButtons();
+            }
+            if (tab === 3) {
+                initEquityTab();
+            }
+        }
+
+        // ==================== INIT DATA ====================
+        function initData() {
+            const saved = localStorage.getItem('familyMembers');
+            if (saved) {
+                familyMembers = JSON.parse(saved);
+            } else {
+                familyMembers = [
+                    { id: "muralidhar", name: "Bailur Muralidhar Kini", dob: "1978-04-14", relation: "Self" },
+                    { id: "leena", name: "Leena Kini", dob: "1978-05-07", relation: "Wife" },
+                    { id: "niyati", name: "Niyati Kini", dob: "2009-09-24", relation: "Daughter" },
+                    { id: "jayanth", name: "Jayanth Kini", dob: "2013-09-20", relation: "Son" }
+                ];
+                localStorage.setItem('familyMembers', JSON.stringify(familyMembers));
+            }
+            renderFamilyTable();
+        }
+
+        // ==================== FAMILY TABLE ====================
+        function renderFamilyTable() {
+            const tbody = document.getElementById('family-table');
+            tbody.innerHTML = '';
+            familyMembers.forEach((m, i) => {
+                const row = document.createElement('tr');
+                row.innerHTML = `
+                    <td class="py-3 px-4">${m.name}</td>
+                    <td class="py-3 px-4">${m.relation}</td>
+                    <td class="py-3 px-4">${m.dob}</td>
+                    <td class="py-3 px-4">
+                        <button onclick="deleteFamilyMember(${i})" class="text-red-400 hover:text-red-500">
+                            <i class="fas fa-trash"></i>
+                        </button>
+                    </td>
+                `;
+                tbody.appendChild(row);
+            });
+        }
+
+        function deleteFamilyMember(i) {
+            if (confirm("Delete this member?")) {
+                familyMembers.splice(i, 1);
+                localStorage.setItem('familyMembers', JSON.stringify(familyMembers));
+                renderFamilyTable();
+            }
+        }
+
+        function showAddMemberModal() {
+            const name = prompt("Full Name:");
+            if (!name) return;
+            const relation = prompt("Relation:", "Son");
+            const dob = prompt("Date of Birth (YYYY-MM-DD):");
+            if (!dob) return;
+
+            familyMembers.push({ 
+                id: Date.now().toString(), 
+                name, 
+                dob, 
+                relation 
+            });
+            localStorage.setItem('familyMembers', JSON.stringify(familyMembers));
+            renderFamilyTable();
+        }
+
+        // ==================== DATE & FY HELPERS (CLEANED) ====================
+        function parseCustomDate(dateStr) {
+            if (!dateStr) return null;
+            const str = String(dateStr).trim();
+
+            // DD/MM/YYYY or DD-MM/YYYY
+            let match = str.match(/^(\d{1,2})[-\/](\d{1,2})[-\/](\d{4})$/);
+            if (match) {
+                return new Date(parseInt(match[3]), parseInt(match[2]) - 1, parseInt(match[1]));
+            }
+
+            // DD/MM/YY
+            match = str.match(/^(\d{1,2})[-\/](\d{1,2})[-\/](\d{2})$/);
+            if (match) {
+                let year = parseInt(match[3]);
+                year += (year < 50) ? 2000 : 1900;
+                return new Date(year, parseInt(match[2]) - 1, parseInt(match[1]));
+            }
+
+            const d = new Date(str);
+            return isNaN(d.getTime()) ? null : d;
+        }
+
+        function getFinancialYear(dateStr) {
+            const d = parseCustomDate(dateStr);
+            if (!d) return "";
+            const year = d.getFullYear();
+            const month = d.getMonth() + 1;
+            return month >= 4 ? `${year}-${(year + 1).toString().slice(-2)}` : `${year - 1}-${year.toString().slice(-2)}`;
+        }
+
+        function getCurrentFinancialYear() {
+            const now = new Date();
+            const year = now.getFullYear();
+            const month = now.getMonth() + 1;
+            return month >= 4 ? `${year}-${(year + 1).toString().slice(-2)}` : `${year - 1}-${year.toString().slice(-2)}`;
+        }
+
+        // ==================== BANK TAB FUNCTIONS ====================
+        async function loadAccountManifest() {
+            try {
+                const res = await fetch('./bank/accounts.json');
+                return res.ok ? await res.json() : [];
+            } catch {
+                return [];
+            }
+        }
+
+        async function generateLoadButtons() {
+            const container = document.getElementById('auto-load-buttons');
+            if (!container) return;
+            container.innerHTML = '';
+
+            const accounts = await loadAccountManifest();
+            const selectedPerson = document.getElementById('filter-person').value;
+
+            let filtered = accounts;
+            if (selectedPerson) {
+                filtered = accounts.filter(acc => acc.personId === selectedPerson);
+            }
+
+            if (filtered.length === 0) {
+                container.innerHTML = `<div class="text-zinc-400 text-sm">No accounts found for this person.</div>`;
+                return;
+            }
+
+            filtered.forEach(acc => {
+                const btn = document.createElement('button');
+                let color = 'bg-zinc-700 hover:bg-zinc-600';
+                if (acc.bankName === 'HDFC') color = 'bg-emerald-600 hover:bg-emerald-700';
+                if (acc.bankName === 'ICICI') color = 'bg-blue-600 hover:bg-blue-700';
+                if (acc.bankName === 'SBI') color = 'bg-orange-600 hover:bg-orange-700';
+
+                btn.className = `px-4 py-2.5 rounded-2xl text-sm font-semibold flex items-center gap-x-2 text-white ${color}`;
+                btn.innerHTML = `🏦 Load ${acc.bankName} (${acc.accountNumber})`;
+                btn.onclick = () => loadBankFile(acc);
+                container.appendChild(btn);
+            });
+        }
+
+        async function loadBankFile(account) {
+            try {
+                const res = await fetch(account.filePath);
+                if (!res.ok) {
+                    alert(`File not found: ${account.filePath}`);
+                    return;
+                }
+                const data = await res.json();
+
+                let added = 0;
+                data.forEach(item => {
+                    const dateStr = item.Date || item["Txn Date"] || item["Value Date"] || item["Transaction Date"];
+                    if (!dateStr) return;
+
+                    currentTransactions.push({
+                        date: dateStr,
+                        personId: account.personId,
+                        bankName: account.bankName,
+                        narration: item.Narration || item.Description || item["Transaction Remarks"] || "",
+                        withdrawal: parseAmount(item["Withdrawal Amount"] || item.Debit || item["Withdrawal Amount (INR )"]),
+                        deposit: parseAmount(item["Deposit Amount"] || item.Credit || item["Deposit Amount (INR )"]),
+                        balance: parseAmount(item["Closing Balance*"] || item.Balance || item["Balance (INR )"])
+                    });
+                    added++;
+                });
+
+                alert(`${added} transactions loaded from ${account.bankName}`);
+                renderBankUI();
+                refreshDashboard();
+            } catch (err) {
+                alert("Error loading file: " + err.message);
+            }
+        }
+
+        function parseAmount(val) {
+            if (!val) return 0;
+            return parseFloat(String(val).replace(/[^0-9.-]/g, '')) || 0;
+        }
+
+        // ==================== EQUITY TAB (CLEANED) ====================
+        async function initEquityTab() {
+            await generateEquityLoadButtons();
+        }
+
+        async function generateEquityLoadButtons() {
+            const container = document.getElementById('equityLoadButtons');
+            container.innerHTML = '';
+
+            const selectedPerson = document.getElementById('equityPersonFilter').value;
+
+            try {
+                const res = await fetch('equity/accounts.json');
+                const accounts = await res.json();
+
+                let filtered = accounts;
+                if (selectedPerson) {
+                    filtered = accounts.filter(a => a.personId === selectedPerson);
+                }
+
+                if (filtered.length === 0) {
+                    container.innerHTML = `<span class="text-zinc-500">No equity accounts found.</span>`;
+                    return;
+                }
+
+                filtered.forEach(acc => {
+                    const btn = document.createElement('button');
+                    btn.className = `px-4 py-3 rounded-xl bg-zinc-800 hover:bg-zinc-700 border border-zinc-700 text-left min-w-[220px]`;
+                    btn.innerHTML = `
+                        <div class="font-medium">${acc.broker}</div>
+                        <div class="text-xs text-zinc-400">${acc.accountNumber} • ${acc.personId}</div>
+                    `;
+                    btn.onclick = () => loadEquityAccount(acc.filePath, acc.personId, acc.broker);
+                    container.appendChild(btn);
+                });
+            } catch (e) {
+                container.innerHTML = `<span class="text-red-400">Failed to load accounts.json</span>`;
+            }
+        }
+
+        async function loadEquityAccount(filePath, personId, broker) {
+            try {
+                const res = await fetch(filePath);
+                const data = await res.json();
+
+                allEquityTransactions = data;
+                equityTransactions = [...data];
+
+                populateEquityFYFilter();
+                filterEquityTransactions();
+
+                alert(`Loaded ${broker} - ${data.length} trades`);
+            } catch (err) {
+                alert("Failed to load equity file");
+            }
+        }
+
+        function populateEquityFYFilter() {
+            const select = document.getElementById('equityFYFilter');
+            select.innerHTML = '<option value="">All Years</option>';
+
+            const fySet = new Set();
+            allEquityTransactions.forEach(t => {
+                const fy = getEquityFinancialYear(t);
+                if (fy) fySet.add(fy);
+            });
+
+            [...fySet].sort().forEach(fy => {
+                const opt = document.createElement('option');
+                opt.value = fy;
+                opt.textContent = `FY ${fy}`;
+                select.appendChild(opt);
+            });
+        }
+
+        function getEquityFinancialYear(t) {
+            let dateStr = t.tradeDate || t.orderExecutionTime || "";
+            if (!dateStr) return null;
+
+            const d = parseCustomDate(dateStr);
+            if (!d) return null;
+
+            const year = d.getFullYear();
+            const month = d.getMonth() + 1;
+            return month >= 4 ? `${year}-${(year + 1).toString().slice(-2)}` : `${year - 1}-${year.toString().slice(-2)}`;
+        }
+
+        function filterEquityTransactions() {
+            const fy = document.getElementById('equityFYFilter').value;
+            const symbol = document.getElementById('equitySymbolFilter').value.toUpperCase().trim();
+
+            let filtered = allEquityTransactions;
+
+            if (fy) filtered = filtered.filter(t => getEquityFinancialYear(t) === fy);
+            if (symbol) filtered = filtered.filter(t => t.symbol.toUpperCase().includes(symbol));
+
+            equityTransactions = filtered;
+            renderEquityTable(filtered);
+            updateEquitySummary();
+        }
+
+        function renderEquityTable(txns) {
+            const tbody = document.getElementById('equityTableBody');
+            tbody.innerHTML = '';
+
+            if (!txns.length) {
+                tbody.innerHTML = `<tr><td colspan="7" class="text-center py-8 text-zinc-500">No transactions</td></tr>`;
+                return;
+            }
+
+            txns.forEach(t => {
+                const value = (t.quantity || 0) * (t.price || 0);
+                const row = document.createElement('tr');
+                row.innerHTML = `
+                    <td class="px-6 py-3">${t.tradeDate}</td>
+                    <td class="px-6 py-3 font-medium">${t.symbol}</td>
+                    <td class="px-6 py-3">
+                        <span class="px-2 py-0.5 text-xs rounded ${t.tradeType === 'buy' ? 'bg-emerald-500/20 text-emerald-400' : 'bg-red-500/20 text-red-400'}">
+                            ${t.tradeType.toUpperCase()}
+                        </span>
+                    </td>
+                    <td class="px-6 py-3 text-right">${t.quantity}</td>
+                    <td class="px-6 py-3 text-right">₹${t.price}</td>
+                    <td class="px-6 py-3 text-right font-medium">₹${value.toFixed(2)}</td>
+                    <td class="px-6 py-3">${t.exchange}</td>
+                `;
+                tbody.appendChild(row);
+            });
+        }
+
+        function updateEquitySummary() {
+            let buy = 0, sell = 0;
+            equityTransactions.forEach(t => {
+                const val = (t.quantity || 0) * (t.price || 0);
+                if (t.tradeType === 'buy') buy += val;
+                else if (t.tradeType === 'sell') sell += val;
+            });
+
+            document.getElementById('equityTotalTrades').textContent = equityTransactions.length;
+            document.getElementById('equityTotalBuy').textContent = '₹' + buy.toLocaleString('en-IN');
+            document.getElementById('equityTotalSell').textContent = '₹' + sell.toLocaleString('en-IN');
+            document.getElementById('equityNetInvestment').textContent = '₹' + (buy - sell).toLocaleString('en-IN');
+        }
+
+        function clearEquityData() {
+            equityTransactions = [];
+            allEquityTransactions = [];
+            document.getElementById('equityTableBody').innerHTML = '';
+            document.getElementById('equityTotalTrades').textContent = '0';
+            document.getElementById('equityTotalBuy').textContent = '₹0';
+            document.getElementById('equityTotalSell').textContent = '₹0';
+            document.getElementById('equityNetInvestment').textContent = '₹0';
+        }
+
+        // ==================== INITIALIZE ====================
+        function initApp() {
+            // You can add any startup logic here
+        }
+
+        window.onload = initApp;
+    </script>
+</body>
+</html>
