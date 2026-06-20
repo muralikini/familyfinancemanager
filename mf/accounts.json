@@ -5,5 +5,12 @@
     "folioNumber": "10582613",
     "filePath": "mf/muralidhar/parag_parikh_flexi_cap_transactions.json",
     "displayName": "Parag Parikh Flexi Cap Fund (Groww)"
+  },
+  {
+    "personId": "muralidhar",
+    "provider": "PPFAS (Groww)",
+    "folioNumber": "10582613",
+    "filePath": "mf/muralidhar/parag_parikh_liquid_transactions.json",
+    "displayName": "Parag Parikh Liquid Fund (Groww)"
   }
 ]
