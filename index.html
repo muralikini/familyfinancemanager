@@ -375,7 +375,7 @@
         let currentBankTransactions = [];
         let equityTransactions = [];
         let allEquityTransactions = [];
-        let mfData = null;
+        let mfData = { holdings: [], transactions: [] };
         let filteredTransactions = [];
         let allMFTransactions = [];
 
@@ -1389,49 +1389,109 @@ function exportEquityToExcel() {
 //===========================MUTUAL FUND ===============================================
 async function loadMFData() {
     try {
-        const accountsRes = await fetch('mf/accounts.json');
-        const accounts = await accountsRes.json();
-
-        if (!accounts || accounts.length === 0) {
-            alert("No MF accounts found");
-            return;
-        }
+        const response = await fetch('mf/accounts.json');
+        if (!response.ok) throw new Error('Failed to load accounts.json');
+        
+        const accounts = await response.json();
+        console.log("Loaded accounts:", accounts.length);
 
         let allTransactions = [];
 
-        for (let account of accounts) {
-            const res = await fetch(account.filePath);
-            if (!res.ok) continue;
-
-            const txns = await res.json();
-            txns.forEach(txn => {
-                txn.scheme = account.displayName;
-                txn.personId = account.personId;
-                txn.folio = account.folioNumber;
-            });
-            allTransactions = allTransactions.concat(txns);
+        for (const account of accounts) {
+            try {
+                const fileResponse = await fetch(account.filePath);
+                if (!fileResponse.ok) {
+                    console.warn(`Skipping ${account.filePath} - file not found`);
+                    continue;
+                }
+                
+                const transactions = await fileResponse.json();
+                
+                // Enrich each transaction with account info
+                const enriched = transactions.map(txn => ({
+                    ...txn,
+                    personId: account.personId,
+                    provider: account.provider || "Unknown",
+                    folioNumber: account.folioNumber || "",
+                    displayName: account.displayName || txn.scheme || "Unknown Fund",
+                    scheme: account.displayName || txn.scheme || "Unknown Fund"
+                }));
+                
+                allTransactions = allTransactions.concat(enriched);
+            } catch (err) {
+                console.warn(`Error loading ${account.filePath}:`, err);
+            }
         }
 
-        mfData = {
-            transactions: allTransactions,
-            accounts: accounts
-        };
-
-        filteredTransactions = [...allTransactions];
-
+        mfData.transactions = allTransactions;
+        
+        // Calculate holdings
+        calculateMFHoldings();
+        
+        // Render everything
         renderMFHoldings();
         renderMFTransactions();
-        updateMFSummary();
-        populateYearFilter();
-        populateSchemeFilter();           // NEW
-
-        alert(`✅ Loaded ${accounts.length} Mutual Funds`);
-
+        
+        // Update summary cards
+        updateMFSummaryCards();
+        
+        console.log(`✅ Successfully loaded ${allTransactions.length} MF transactions`);
+        
     } catch (error) {
-        console.error(error);
+        console.error("Error loading MF data:", error);
         alert("Error loading MF data");
     }
 }
+
+function updateMFSummaryCards() {
+    let totalInvested = 0;
+    let totalUnits = 0;
+    
+    mfData.holdings.forEach(h => {
+        totalInvested += h.totalInvested || 0;
+        totalUnits += h.totalUnits || 0;
+    });
+    
+    // Update your summary cards here (adjust IDs as per your HTML)
+    const totalInvestedEl = document.getElementById('mfTotalInvested');
+    const totalUnitsEl = document.getElementById('mfTotalUnits');
+    const totalTransactionsEl = document.getElementById('mfTotalTransactions');
+    
+    if (totalInvestedEl) totalInvestedEl.textContent = '₹' + totalInvested.toLocaleString('en-IN');
+    if (totalUnitsEl) totalUnitsEl.textContent = totalUnits.toFixed(3);
+    if (totalTransactionsEl) totalTransactionsEl.textContent = mfData.transactions.length;
+}
+
+
+
+function calculateMFHoldings() {
+    const holdingsMap = {};
+    
+    mfData.transactions.forEach(txn => {
+        const key = txn.scheme || txn.displayName;
+        if (!key) return;
+        
+        if (!holdingsMap[key]) {
+            holdingsMap[key] = {
+                scheme: key,
+                totalUnits: 0,
+                totalInvested: 0,
+                transactions: 0
+            };
+        }
+        
+        const units = parseFloat(txn.units) || 0;
+        const amount = parseFloat(txn.amount) || 0;
+        
+        holdingsMap[key].totalUnits += units;
+        holdingsMap[key].totalInvested += amount;
+        holdingsMap[key].transactions += 1;
+    });
+    
+    mfData.holdings = Object.values(holdingsMap);
+}
+
+
 
 // ==================== YEAR FILTER ====================
 function populateYearFilter() {
@@ -1478,62 +1538,48 @@ function updateMFSummary() {
 }
 
 function renderMFHoldings() {
-    const tbody = document.getElementById('mfHoldingsTable');
-    tbody.innerHTML = '';
-
-    if (!mfData || !mfData.transactions.length) return;
-
-    // Group by scheme
-    const grouped = {};
-    mfData.transactions.forEach(txn => {
-        if (!grouped[txn.scheme]) {
-            grouped[txn.scheme] = [];
-        }
-        grouped[txn.scheme].push(txn);
-    });
-
-    Object.keys(grouped).forEach(scheme => {
-        const txns = grouped[scheme];
-        const investedTxns = txns.filter(t => t.type === "Invested");
-        
-        const totalUnits = investedTxns.reduce((sum, t) => sum + t.units, 0);
-        const latestNav = txns[0].nav;
-        const currentValue = totalUnits * latestNav;
-
-        const row = document.createElement('tr');
-        row.className = 'border-b border-zinc-800 hover:bg-zinc-800';
-        row.innerHTML = `
-            <td class="py-3 px-4">${scheme}</td>
-            <td class="text-right py-3 px-4">${totalUnits.toFixed(3)}</td>
-            <td class="text-right py-3 px-4">₹${latestNav}</td>
-            <td class="text-right py-3 px-4 font-semibold text-emerald-400">
-                ₹${currentValue.toLocaleString('en-IN')}
-            </td>
+    const container = document.getElementById('mfHoldingsTable'); // Change ID if different
+    if (!container) return;
+    
+    let html = '';
+    mfData.holdings.forEach(h => {
+        html += `
+            <tr>
+                <td>${h.scheme}</td>
+                <td>${h.totalUnits.toFixed(3)}</td>
+                <td>₹${h.totalInvested.toLocaleString('en-IN')}</td>
+            </tr>
         `;
-        tbody.appendChild(row);
     });
+    container.innerHTML = html || '<tr><td colspan="3">No holdings found</td></tr>';
 }
 
-function renderMFTransactions(data = null) {
-    const tbody = document.getElementById('mfTransactionsTable');
-    tbody.innerHTML = '';
-
-    const toShow = data || filteredTransactions;
-
-    toShow.forEach(txn => {
-        const row = document.createElement('tr');
-        row.className = 'border-b border-zinc-800 hover:bg-zinc-800';
-        row.innerHTML = `
-            <td class="py-2 px-4">${txn.date}</td>
-            <td class="py-2 px-4 text-emerald-400">${txn.scheme}</td>
-            <td class="py-2 px-4">${txn.type}</td>
-            <td class="text-right py-2 px-4">₹${txn.value.toLocaleString('en-IN')}</td>
-            <td class="text-right py-2 px-4">${txn.units}</td>
-            <td class="text-right py-2 px-4">₹${txn.nav}</td>
-            <td class="text-right py-2 px-4">-</td>
+function renderMFTransactions(filteredTransactions = null) {
+    const transactions = filteredTransactions || mfData.transactions;
+    const container = document.getElementById('mfTransactionsTable'); // Change ID if different
+    if (!container) return;
+    
+    let html = '';
+    
+    transactions.forEach(txn => {
+        const amount = parseFloat(txn.amount) || 0;
+        const units = parseFloat(txn.units) || 0;
+        const nav = parseFloat(txn.nav) || 0;
+        
+        html += `
+            <tr>
+                <td>${txn.date || '-'}</td>
+                <td>${txn.scheme || txn.displayName || '-'}</td>
+                <td>${txn.type || '-'}</td>
+                <td>₹${amount.toLocaleString('en-IN')}</td>
+                <td>${units.toFixed(3)}</td>
+                <td>₹${nav.toFixed(4)}</td>
+                <td>${parseFloat(txn.balance_units || 0).toFixed(3)}</td>
+            </tr>
         `;
-        tbody.appendChild(row);
     });
+    
+    container.innerHTML = html || '<tr><td colspan="7">No transactions found</td></tr>';
 }
 
 function filterMFTransactions() {
