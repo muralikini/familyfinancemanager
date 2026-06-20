@@ -317,10 +317,13 @@
                         <table class="w-full text-sm">
                             <thead>
                                 <tr class="border-b border-zinc-700 text-zinc-400">
-                                    <th class="text-left py-3 px-4">Scheme</th>
+                                    <th class="text-left py-3 px-4">Date</th>
+                                    <th class="text-left py-3 px-4">Scheme</th>           <!-- NEW -->
+                                    <th class="text-left py-3 px-4">Type</th>
+                                    <th class="text-right py-3 px-4">Amount (₹)</th>
                                     <th class="text-right py-3 px-4">Units</th>
                                     <th class="text-right py-3 px-4">NAV</th>
-                                    <th class="text-right py-3 px-4">Current Value</th>
+                                    <th class="text-right py-3 px-4">Balance Units</th>
                                 </tr>
                             </thead>
                             <tbody id="mfHoldingsTable" class="text-white"></tbody>
@@ -1390,49 +1393,43 @@ async function loadMFData() {
         const accounts = await accountsRes.json();
 
         if (!accounts || accounts.length === 0) {
-            alert("No MF accounts found in mf/accounts.json");
+            alert("No MF accounts found");
             return;
         }
 
-        allMFTransactions = [];
-        let combinedHoldings = [];
+        let allTransactions = [];
 
         for (let account of accounts) {
-            const response = await fetch(account.filePath);
-            if (!response.ok) {
-                console.error(`Failed to load: ${account.filePath}`);
-                continue;
-            }
+            const res = await fetch(account.filePath);
+            if (!res.ok) continue;
 
-            const transactions = await response.json();
-
-            // Add scheme info to each transaction
-            transactions.forEach(txn => {
+            const txns = await res.json();
+            txns.forEach(txn => {
                 txn.scheme = account.displayName;
+                txn.personId = account.personId;
                 txn.folio = account.folioNumber;
             });
-
-            allMFTransactions = allMFTransactions.concat(transactions);
+            allTransactions = allTransactions.concat(txns);
         }
 
-        // Prepare data for UI
         mfData = {
-            transactions: allMFTransactions,
+            transactions: allTransactions,
             accounts: accounts
         };
 
-        filteredTransactions = [...allMFTransactions];
+        filteredTransactions = [...allTransactions];
 
         renderMFHoldings();
         renderMFTransactions();
         updateMFSummary();
         populateYearFilter();
+        populateSchemeFilter();           // NEW
 
-        alert(`✅ Loaded ${accounts.length} Mutual Funds successfully!`);
+        alert(`✅ Loaded ${accounts.length} Mutual Funds`);
 
     } catch (error) {
-        console.error("Error loading MF data:", error);
-        alert("Error loading MF data. Check console for details.");
+        console.error(error);
+        alert("Error loading MF data");
     }
 }
 
@@ -1521,13 +1518,14 @@ function renderMFTransactions(data = null) {
     const tbody = document.getElementById('mfTransactionsTable');
     tbody.innerHTML = '';
 
-    const transactionsToShow = data || filteredTransactions;
+    const toShow = data || filteredTransactions;
 
-    transactionsToShow.forEach(txn => {
+    toShow.forEach(txn => {
         const row = document.createElement('tr');
         row.className = 'border-b border-zinc-800 hover:bg-zinc-800';
         row.innerHTML = `
             <td class="py-2 px-4">${txn.date}</td>
+            <td class="py-2 px-4 text-emerald-400">${txn.scheme}</td>
             <td class="py-2 px-4">${txn.type}</td>
             <td class="text-right py-2 px-4">₹${txn.value.toLocaleString('en-IN')}</td>
             <td class="text-right py-2 px-4">${txn.units}</td>
@@ -1543,18 +1541,72 @@ function filterMFTransactions() {
 
     const searchTerm = document.getElementById('mfSearch')?.value.toLowerCase() || '';
     const selectedYear = document.getElementById('mfYearFilter')?.value || '';
+    const selectedScheme = document.getElementById('mfSchemeFilter')?.value || '';
 
     filteredTransactions = mfData.transactions.filter(txn => {
         const matchesSearch = 
             txn.type.toLowerCase().includes(searchTerm) ||
-            txn.date.includes(searchTerm);
+            txn.date.includes(searchTerm) ||
+            txn.scheme.toLowerCase().includes(searchTerm);
 
         const matchesYear = !selectedYear || txn.date.startsWith(selectedYear);
+        const matchesScheme = !selectedScheme || txn.scheme === selectedScheme;
 
-        return matchesSearch && matchesYear;
+        return matchesSearch && matchesYear && matchesScheme;
     });
 
     renderMFTransactions(filteredTransactions);
+}
+
+function populateSchemeFilter() {
+    if (!mfData) return;
+
+    const schemes = [...new Set(mfData.transactions.map(t => t.scheme))];
+
+    let schemeFilter = document.getElementById('mfSchemeFilter');
+    
+    if (!schemeFilter) {
+        const header = document.querySelector('#tab-4 .flex.justify-between.items-center');
+        if (header) {
+            schemeFilter = document.createElement('select');
+            schemeFilter.id = 'mfSchemeFilter';
+            schemeFilter.className = 'bg-zinc-800 border border-zinc-700 rounded-lg px-3 py-1 text-sm mr-2';
+            schemeFilter.innerHTML = `<option value="">All Schemes</option>`;
+            
+            schemes.forEach(scheme => {
+                schemeFilter.innerHTML += `<option value="${scheme}">${scheme}</option>`;
+            });
+            
+            schemeFilter.onchange = filterMFTransactions;
+            header.insertBefore(schemeFilter, header.children[1]);
+        }
+    }
+}
+
+// ==================== UPDATE YEAR FILTER ====================
+function populateYearFilter() {
+    if (!mfData) return;
+
+    const years = [...new Set(mfData.transactions.map(t => t.date.split('-')[0]))].sort().reverse();
+
+    let yearFilter = document.getElementById('mfYearFilter');
+    
+    if (!yearFilter) {
+        const header = document.querySelector('#tab-4 .flex.justify-between.items-center');
+        if (header) {
+            yearFilter = document.createElement('select');
+            yearFilter.id = 'mfYearFilter';
+            yearFilter.className = 'bg-zinc-800 border border-zinc-700 rounded-lg px-3 py-1 text-sm mr-2';
+            yearFilter.innerHTML = `<option value="">All Years</option>`;
+            
+            years.forEach(y => {
+                yearFilter.innerHTML += `<option value="${y}">${y}</option>`;
+            });
+            
+            yearFilter.onchange = filterMFTransactions;
+            header.insertBefore(yearFilter, header.firstChild);
+        }
+    }
 }
 
 
