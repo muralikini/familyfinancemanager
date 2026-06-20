@@ -1,0 +1,2042 @@
+{
+  "folio_number": "10582613",
+  "investor_name": "Bailur Muralidhar Kini",
+  "provider": "PPFAS Mutual Fund",
+  "yearly_data": [
+    {
+      "year": "2021",
+      "holdings": [
+        {
+          "scheme_name": "Parag Parikh Flexi Cap - Dir Plan",
+          "nav": 31.0,
+          "units": 2021.0,
+          "market_value": 54.4581
+        },
+        {
+          "scheme_name": "Parag Parikh Flexi Cap Fund - Direct Plan",
+          "nav": 1.0,
+          "units": 879.0,
+          "market_value": 1027.0
+        },
+        {
+          "scheme_name": "Parag Parikh Flexi Cap Fund - Direct Plan",
+          "nav": 1.0,
+          "units": 879.0,
+          "market_value": 1027.0
+        }
+      ],
+      "sips": []
+    },
+    {
+      "year": "2022",
+      "holdings": [
+        {
+          "scheme_name": "Parag Parikh Flexi Cap - Dir Plan",
+          "nav": 30.0,
+          "units": 2022.0,
+          "market_value": 51.0328
+        },
+        {
+          "scheme_name": "Parag Parikh Flexi Cap Fund - Direct Plan",
+          "nav": 1.0,
+          "units": 879.0,
+          "market_value": 1027.0
+        },
+        {
+          "scheme_name": "Parag Parikh Flexi Cap Fund - Direct Plan",
+          "nav": 1.0,
+          "units": 879.0,
+          "market_value": 1027.0
+        }
+      ],
+      "sips": []
+    },
+    {
+      "year": "2023",
+      "holdings": [
+        {
+          "scheme_name": "Parag Parikh Flexi Cap - Dir Plan",
+          "nav": 29.0,
+          "units": 2023.0,
+          "market_value": 70.2435
+        },
+        {
+          "scheme_name": "Parag Parikh Flexi Cap Fund - Direct Plan",
+          "nav": 1.0,
+          "units": 879.0,
+          "market_value": 1027.0
+        },
+        {
+          "scheme_name": "Parag Parikh Flexi Cap Fund - Direct Plan",
+          "nav": 1.0,
+          "units": 879.0,
+          "market_value": 1027.0
+        }
+      ],
+      "sips": []
+    },
+    {
+      "year": "2024",
+      "holdings": [
+        {
+          "scheme_name": "Parag Parikh Flexi Cap - Dir Plan",
+          "nav": 31.0,
+          "units": 2024.0,
+          "market_value": 87.673
+        },
+        {
+          "scheme_name": "Parag Parikh Flexi Cap Fund - Direct Plan",
+          "nav": 1.0,
+          "units": 879.0,
+          "market_value": 1027.0
+        },
+        {
+          "scheme_name": "Parag Parikh Flexi Cap Fund - Direct Plan",
+          "nav": 1.0,
+          "units": 879.0,
+          "market_value": 1027.0
+        }
+      ],
+      "sips": []
+    },
+    {
+      "year": "2025",
+      "holdings": [
+        {
+          "scheme_name": "Parag Parikh Flexi Cap - Dir Plan",
+          "nav": 31.0,
+          "units": 2025.0,
+          "market_value": 95.1709
+        },
+        {
+          "scheme_name": "Parag Parikh LF Dir Plan",
+          "nav": 31.0,
+          "units": 2025.0,
+          "market_value": 1501.3757
+        },
+        {
+          "scheme_name": "Parag Parikh Flexi Cap Fund - Direct Plan",
+          "nav": 1.0,
+          "units": 879.0,
+          "market_value": 1027.0
+        },
+        {
+          "scheme_name": "Parag Parikh Flexi Cap Fund - Direct Plan",
+          "nav": 1.0,
+          "units": 879.0,
+          "market_value": 1027.0
+        },
+        {
+          "scheme_name": "Parag Parikh Flexi Cap Fund - Direct Plan",
+          "nav": 1.0,
+          "units": 879.0,
+          "market_value": 1027.0
+        },
+        {
+          "scheme_name": "Parag Parikh LF Dir Plan",
+          "nav": 30.0,
+          "units": 12.0,
+          "market_value": 2025.0
+        },
+        {
+          "scheme_name": "Parag Parikh Flexi Cap Fund - Direct Plan",
+          "nav": 1.0,
+          "units": 879.0,
+          "market_value": 1027.0
+        },
+        {
+          "scheme_name": "Parag Parikh Liquid Fund Direct Plan",
+          "nav": 2.0,
+          "units": 879.0,
+          "market_value": 1068.0
+        },
+        {
+          "scheme_name": "Parag Parikh Flexi Cap - Dir Plan",
+          "nav": 29.0,
+          "units": 12.0,
+          "market_value": 2025.0
+        }
+      ],
+      "sips": []
+    },
+    {
+      "year": "2026",
+      "holdings": [
+        {
+          "scheme_name": "Parag Parikh Flexi Cap - Dir Plan",
+          "nav": 19.0,
+          "units": 2026.0,
+          "market_value": 90.1404
+        },
+        {
+          "scheme_name": "Parag Parikh LF Dir Plan",
+          "nav": 19.0,
+          "units": 2026.0,
+          "market_value": 1547.5453
+        },
+        {
+          "scheme_name": "Parag Parikh Flexi Cap Fund - Direct Plan",
+          "nav": 1.0,
+          "units": 879.0,
+          "market_value": 1027.0
+        },
+        {
+          "scheme_name": "Parag Parikh LF Dir Plan",
+          "nav": 6.0,
+          "units": 1.0,
+          "market_value": 2026.0
+        },
+        {
+          "scheme_name": "Parag Parikh LF Dir Plan",
+          "nav": 13.0,
+          "units": 1.0,
+          "market_value": 2026.0
+        },
+        {
+          "scheme_name": "Parag Parikh LF Dir Plan",
+          "nav": 20.0,
+          "units": 1.0,
+          "market_value": 2026.0
+        },
+        {
+          "scheme_name": "Parag Parikh LF Dir Plan",
+          "nav": 28.0,
+          "units": 1.0,
+          "market_value": 2026.0
+        },
+        {
+          "scheme_name": "Parag Parikh LF Dir Plan",
+          "nav": 3.0,
+          "units": 2.0,
+          "market_value": 2026.0
+        },
+        {
+          "scheme_name": "Parag Parikh LF Dir Plan",
+          "nav": 10.0,
+          "units": 2.0,
+          "market_value": 2026.0
+        },
+        {
+          "scheme_name": "Parag Parikh LF Dir Plan",
+          "nav": 17.0,
+          "units": 2.0,
+          "market_value": 2026.0
+        },
+        {
+          "scheme_name": "Parag Parikh LF Dir Plan",
+          "nav": 24.0,
+          "units": 2.0,
+          "market_value": 2026.0
+        },
+        {
+          "scheme_name": "Parag Parikh Flexi Cap Fund - Direct Plan",
+          "nav": 1.0,
+          "units": 879.0,
+          "market_value": 1027.0
+        },
+        {
+          "scheme_name": "Parag Parikh LF Dir Plan",
+          "nav": 4.0,
+          "units": 3.0,
+          "market_value": 2026.0
+        },
+        {
+          "scheme_name": "Parag Parikh LF Dir Plan",
+          "nav": 10.0,
+          "units": 3.0,
+          "market_value": 2026.0
+        },
+        {
+          "scheme_name": "Parag Parikh LF Dir Plan",
+          "nav": 17.0,
+          "units": 3.0,
+          "market_value": 2026.0
+        },
+        {
+          "scheme_name": "Parag Parikh LF Dir Plan",
+          "nav": 24.0,
+          "units": 3.0,
+          "market_value": 2026.0
+        },
+        {
+          "scheme_name": "Parag Parikh LF Dir Plan",
+          "nav": 2.0,
+          "units": 4.0,
+          "market_value": 2026.0
+        },
+        {
+          "scheme_name": "Parag Parikh LF Dir Plan",
+          "nav": 7.0,
+          "units": 4.0,
+          "market_value": 2026.0
+        },
+        {
+          "scheme_name": "Parag Parikh LF Dir Plan",
+          "nav": 15.0,
+          "units": 4.0,
+          "market_value": 2026.0
+        },
+        {
+          "scheme_name": "Parag Parikh LF Dir Plan",
+          "nav": 21.0,
+          "units": 4.0,
+          "market_value": 2026.0
+        },
+        {
+          "scheme_name": "Parag Parikh LF Dir Plan",
+          "nav": 28.0,
+          "units": 4.0,
+          "market_value": 2026.0
+        },
+        {
+          "scheme_name": "Parag Parikh Flexi Cap Fund - Direct Plan",
+          "nav": 1.0,
+          "units": 879.0,
+          "market_value": 1027.0
+        },
+        {
+          "scheme_name": "Parag Parikh LF Dir Plan",
+          "nav": 5.0,
+          "units": 5.0,
+          "market_value": 2026.0
+        },
+        {
+          "scheme_name": "Parag Parikh LF Dir Plan",
+          "nav": 12.0,
+          "units": 5.0,
+          "market_value": 2026.0
+        },
+        {
+          "scheme_name": "Parag Parikh LF Dir Plan",
+          "nav": 19.0,
+          "units": 5.0,
+          "market_value": 2026.0
+        },
+        {
+          "scheme_name": "Parag Parikh LF Dir Plan",
+          "nav": 26.0,
+          "units": 5.0,
+          "market_value": 2026.0
+        },
+        {
+          "scheme_name": "Parag Parikh LF Dir Plan",
+          "nav": 2.0,
+          "units": 6.0,
+          "market_value": 2026.0
+        },
+        {
+          "scheme_name": "Parag Parikh LF Dir Plan",
+          "nav": 9.0,
+          "units": 6.0,
+          "market_value": 2026.0
+        },
+        {
+          "scheme_name": "Parag Parikh LF Dir Plan",
+          "nav": 16.0,
+          "units": 6.0,
+          "market_value": 2026.0
+        },
+        {
+          "scheme_name": "Parag Parikh Liquid Fund Direct Plan",
+          "nav": 2.0,
+          "units": 879.0,
+          "market_value": 1068.0
+        },
+        {
+          "scheme_name": "Parag Parikh Flexi Cap - Dir Plan",
+          "nav": 5.0,
+          "units": 1.0,
+          "market_value": 2026.0
+        },
+        {
+          "scheme_name": "Parag Parikh Flexi Cap - Dir Plan",
+          "nav": 12.0,
+          "units": 1.0,
+          "market_value": 2026.0
+        },
+        {
+          "scheme_name": "Parag Parikh Flexi Cap - Dir Plan",
+          "nav": 19.0,
+          "units": 1.0,
+          "market_value": 2026.0
+        },
+        {
+          "scheme_name": "Parag Parikh Flexi Cap - Dir Plan",
+          "nav": 27.0,
+          "units": 1.0,
+          "market_value": 2026.0
+        },
+        {
+          "scheme_name": "Parag Parikh Flexi Cap - Dir Plan",
+          "nav": 2.0,
+          "units": 2.0,
+          "market_value": 2026.0
+        },
+        {
+          "scheme_name": "Parag Parikh Flexi Cap - Dir Plan",
+          "nav": 9.0,
+          "units": 2.0,
+          "market_value": 2026.0
+        },
+        {
+          "scheme_name": "Parag Parikh Flexi Cap - Dir Plan",
+          "nav": 16.0,
+          "units": 2.0,
+          "market_value": 2026.0
+        },
+        {
+          "scheme_name": "Parag Parikh Flexi Cap - Dir Plan",
+          "nav": 23.0,
+          "units": 2.0,
+          "market_value": 2026.0
+        },
+        {
+          "scheme_name": "Parag Parikh Flexi Cap - Dir Plan",
+          "nav": 3.0,
+          "units": 3.0,
+          "market_value": 2026.0
+        },
+        {
+          "scheme_name": "Parag Parikh Flexi Cap - Dir Plan",
+          "nav": 9.0,
+          "units": 3.0,
+          "market_value": 2026.0
+        },
+        {
+          "scheme_name": "Parag Parikh Flexi Cap - Dir Plan",
+          "nav": 16.0,
+          "units": 3.0,
+          "market_value": 2026.0
+        },
+        {
+          "scheme_name": "Parag Parikh Flexi Cap - Dir Plan",
+          "nav": 23.0,
+          "units": 3.0,
+          "market_value": 2026.0
+        },
+        {
+          "scheme_name": "Parag Parikh Flexi Cap - Dir Plan",
+          "nav": 1.0,
+          "units": 4.0,
+          "market_value": 2026.0
+        },
+        {
+          "scheme_name": "Parag Parikh Flexi Cap - Dir Plan",
+          "nav": 6.0,
+          "units": 4.0,
+          "market_value": 2026.0
+        },
+        {
+          "scheme_name": "Parag Parikh Flexi Cap - Dir Plan",
+          "nav": 14.0,
+          "units": 4.0,
+          "market_value": 2026.0
+        },
+        {
+          "scheme_name": "Parag Parikh Flexi Cap - Dir Plan",
+          "nav": 20.0,
+          "units": 4.0,
+          "market_value": 2026.0
+        },
+        {
+          "scheme_name": "Parag Parikh Flexi Cap - Dir Plan",
+          "nav": 27.0,
+          "units": 4.0,
+          "market_value": 2026.0
+        },
+        {
+          "scheme_name": "Parag Parikh Flexi Cap - Dir Plan",
+          "nav": 4.0,
+          "units": 5.0,
+          "market_value": 2026.0
+        },
+        {
+          "scheme_name": "Parag Parikh Flexi Cap - Dir Plan",
+          "nav": 11.0,
+          "units": 5.0,
+          "market_value": 2026.0
+        },
+        {
+          "scheme_name": "Parag Parikh Flexi Cap - Dir Plan",
+          "nav": 18.0,
+          "units": 5.0,
+          "market_value": 2026.0
+        },
+        {
+          "scheme_name": "Parag Parikh Flexi Cap - Dir Plan",
+          "nav": 25.0,
+          "units": 5.0,
+          "market_value": 2026.0
+        },
+        {
+          "scheme_name": "Parag Parikh Flexi Cap - Dir Plan",
+          "nav": 1.0,
+          "units": 6.0,
+          "market_value": 2026.0
+        },
+        {
+          "scheme_name": "Parag Parikh Flexi Cap - Dir Plan",
+          "nav": 8.0,
+          "units": 6.0,
+          "market_value": 2026.0
+        },
+        {
+          "scheme_name": "Parag Parikh Flexi Cap - Dir Plan",
+          "nav": 15.0,
+          "units": 6.0,
+          "market_value": 2026.0
+        }
+      ],
+      "sips": []
+    },
+    {
+      "year": "2020",
+      "holdings": [
+        {
+          "scheme_name": "Parag Parikh Flexi Cap - Dir Plan",
+          "nav": 31.0,
+          "units": 2020.0,
+          "market_value": 37.053
+        },
+        {
+          "scheme_name": "Parag Parikh Flexi Cap Fund - Direct Plan",
+          "nav": 1.0,
+          "units": 879.0,
+          "market_value": 1027.0
+        }
+      ],
+      "sips": []
+    }
+  ],
+  "all_transactions": [
+    {
+      "date": "15/01/2021",
+      "nav": 37.5585,
+      "amount": 999.95,
+      "units": 26.624,
+      "balance_units": 416.901,
+      "transaction_type": "Net Purchase"
+    },
+    {
+      "date": "15/02/2021",
+      "nav": 40.2947,
+      "amount": 999.95,
+      "units": 24.816,
+      "balance_units": 441.717,
+      "transaction_type": "Net Purchase"
+    },
+    {
+      "date": "15/03/2021",
+      "nav": 39.7287,
+      "amount": 999.95,
+      "units": 25.169,
+      "balance_units": 466.886,
+      "transaction_type": "Net Purchase"
+    },
+    {
+      "date": "15/04/2021",
+      "nav": 40.8463,
+      "amount": 999.95,
+      "units": 24.481,
+      "balance_units": 491.367,
+      "transaction_type": "Net Purchase"
+    },
+    {
+      "date": "17/05/2021",
+      "nav": 42.7157,
+      "amount": 999.95,
+      "units": 23.409,
+      "balance_units": 514.776,
+      "transaction_type": "Net Purchase"
+    },
+    {
+      "date": "15/06/2021",
+      "nav": 44.7675,
+      "amount": 999.95,
+      "units": 22.337,
+      "balance_units": 537.113,
+      "transaction_type": "Net Purchase"
+    },
+    {
+      "date": "15/07/2021",
+      "nav": 47.8948,
+      "amount": 999.95,
+      "units": 20.878,
+      "balance_units": 557.991,
+      "transaction_type": "Net Purchase"
+    },
+    {
+      "date": "16/08/2021",
+      "nav": 48.652,
+      "amount": 999.95,
+      "units": 20.553,
+      "balance_units": 578.544,
+      "transaction_type": "Net Purchase"
+    },
+    {
+      "date": "15/09/2021",
+      "nav": 52.2115,
+      "amount": 999.95,
+      "units": 19.152,
+      "balance_units": 597.696,
+      "transaction_type": "Net Purchase"
+    },
+    {
+      "date": "18/10/2021",
+      "nav": 55.1387,
+      "amount": 999.95,
+      "units": 18.135,
+      "balance_units": 615.831,
+      "transaction_type": "Net Purchase"
+    },
+    {
+      "date": "15/11/2021",
+      "nav": 55.2368,
+      "amount": 999.95,
+      "units": 18.103,
+      "balance_units": 633.934,
+      "transaction_type": "Net Purchase"
+    },
+    {
+      "date": "15/12/2021",
+      "nav": 54.4507,
+      "amount": 999.95,
+      "units": 18.364,
+      "balance_units": 652.298,
+      "transaction_type": "Net Purchase"
+    },
+    {
+      "date": "17/01/2022",
+      "nav": 54.7944,
+      "amount": 999.95,
+      "units": 18.249,
+      "balance_units": 670.547,
+      "transaction_type": "Net Purchase"
+    },
+    {
+      "date": "15/02/2022",
+      "nav": 51.8092,
+      "amount": 999.95,
+      "units": 19.301,
+      "balance_units": 689.848,
+      "transaction_type": "Net Purchase"
+    },
+    {
+      "date": "15/03/2022",
+      "nav": 49.46,
+      "amount": 999.95,
+      "units": 20.217,
+      "balance_units": 710.065,
+      "transaction_type": "Net Purchase"
+    },
+    {
+      "date": "18/04/2022",
+      "nav": 51.667,
+      "amount": 999.95,
+      "units": 19.354,
+      "balance_units": 729.419,
+      "transaction_type": "Net Purchase"
+    },
+    {
+      "date": "16/05/2022",
+      "nav": 47.6371,
+      "amount": 999.95,
+      "units": 20.991,
+      "balance_units": 750.41,
+      "transaction_type": "Net Purchase"
+    },
+    {
+      "date": "15/06/2022",
+      "nav": 46.5659,
+      "amount": 999.95,
+      "units": 21.474,
+      "balance_units": 771.884,
+      "transaction_type": "Net Purchase"
+    },
+    {
+      "date": "18/07/2022",
+      "nav": 48.2078,
+      "amount": 999.95,
+      "units": 20.742,
+      "balance_units": 792.626,
+      "transaction_type": "Net Purchase"
+    },
+    {
+      "date": "16/08/2022",
+      "nav": 52.368,
+      "amount": 999.95,
+      "units": 19.095,
+      "balance_units": 811.721,
+      "transaction_type": "Net Purchase"
+    },
+    {
+      "date": "15/09/2022",
+      "nav": 52.7059,
+      "amount": 999.95,
+      "units": 18.972,
+      "balance_units": 830.693,
+      "transaction_type": "Net Purchase"
+    },
+    {
+      "date": "17/10/2022",
+      "nav": 50.6426,
+      "amount": 999.95,
+      "units": 19.745,
+      "balance_units": 850.438,
+      "transaction_type": "Net Purchase"
+    },
+    {
+      "date": "15/11/2022",
+      "nav": 52.3847,
+      "amount": 999.95,
+      "units": 19.089,
+      "balance_units": 869.527,
+      "transaction_type": "Net Purchase"
+    },
+    {
+      "date": "15/12/2022",
+      "nav": 52.3737,
+      "amount": 999.95,
+      "units": 19.093,
+      "balance_units": 888.62,
+      "transaction_type": "Net Purchase"
+    },
+    {
+      "date": "18/01/2023",
+      "nav": 51.75,
+      "amount": 999.95,
+      "units": 19.323,
+      "balance_units": 907.943,
+      "transaction_type": "Net Purchase"
+    },
+    {
+      "date": "15/02/2023",
+      "nav": 52.8794,
+      "amount": 999.95,
+      "units": 18.91,
+      "balance_units": 926.853,
+      "transaction_type": "Net Purchase"
+    },
+    {
+      "date": "15/03/2023",
+      "nav": 52.1662,
+      "amount": 999.95,
+      "units": 19.169,
+      "balance_units": 946.022,
+      "transaction_type": "Net Purchase"
+    },
+    {
+      "date": "17/04/2023",
+      "nav": 54.6034,
+      "amount": 999.95,
+      "units": 18.313,
+      "balance_units": 964.335,
+      "transaction_type": "Net Purchase"
+    },
+    {
+      "date": "15/05/2023",
+      "nav": 56.7543,
+      "amount": 999.95,
+      "units": 17.619,
+      "balance_units": 981.954,
+      "transaction_type": "Net Purchase"
+    },
+    {
+      "date": "15/06/2023",
+      "nav": 58.6131,
+      "amount": 999.95,
+      "units": 17.06,
+      "balance_units": 999.014,
+      "transaction_type": "Net Purchase"
+    },
+    {
+      "date": "17/07/2023",
+      "nav": 60.8153,
+      "amount": 999.95,
+      "units": 16.442,
+      "balance_units": 1.0,
+      "transaction_type": ",015.456Net Purchase"
+    },
+    {
+      "date": "16/08/2023",
+      "nav": 60.853,
+      "amount": 999.95,
+      "units": 16.432,
+      "balance_units": 1.0,
+      "transaction_type": ",031.888Net Purchase"
+    },
+    {
+      "date": "15/09/2023",
+      "nav": 63.7866,
+      "amount": 999.95,
+      "units": 15.676,
+      "balance_units": 1.0,
+      "transaction_type": ",047.564Net Purchase"
+    },
+    {
+      "date": "16/10/2023",
+      "nav": 63.8978,
+      "amount": 999.95,
+      "units": 15.649,
+      "balance_units": 1.0,
+      "transaction_type": ",063.213Net Purchase"
+    },
+    {
+      "date": "15/11/2023",
+      "nav": 65.9372,
+      "amount": 999.95,
+      "units": 15.165,
+      "balance_units": 1.0,
+      "transaction_type": ",078.378Net Purchase"
+    },
+    {
+      "date": "15/12/2023",
+      "nav": 69.5862,
+      "amount": 1999.9,
+      "units": 28.74,
+      "balance_units": 1.0,
+      "transaction_type": ",107.118Net Purchase"
+    },
+    {
+      "date": "15/01/2024",
+      "nav": 71.8577,
+      "amount": 1999.9,
+      "units": 27.831,
+      "balance_units": 1.0,
+      "transaction_type": ",134.949Net Purchase"
+    },
+    {
+      "date": "18/01/2024",
+      "nav": 70.3466,
+      "amount": 2999.85,
+      "units": 42.644,
+      "balance_units": 1.0,
+      "transaction_type": ",177.593Net Purchase"
+    },
+    {
+      "date": "15/02/2024",
+      "nav": 74.7137,
+      "amount": 1999.9,
+      "units": 26.768,
+      "balance_units": 1.0,
+      "transaction_type": ",204.361Net Purchase"
+    },
+    {
+      "date": "15/03/2024",
+      "nav": 73.6088,
+      "amount": 1999.9,
+      "units": 27.169,
+      "balance_units": 1.0,
+      "transaction_type": ",231.530Net Purchase"
+    },
+    {
+      "date": "27/03/2024",
+      "nav": 74.4617,
+      "amount": 8999.55,
+      "units": 120.861,
+      "balance_units": 1.0,
+      "transaction_type": ",352.391Net Purchase"
+    },
+    {
+      "date": "05/04/2024",
+      "nav": 76.3282,
+      "amount": 6003.7,
+      "units": 78.656,
+      "balance_units": 1.0,
+      "transaction_type": ",431.047Net Purchase"
+    },
+    {
+      "date": "15/04/2024",
+      "nav": 75.8301,
+      "amount": 24998.75,
+      "units": 329.668,
+      "balance_units": 1.0,
+      "transaction_type": ",760.715Net Purchase"
+    },
+    {
+      "date": "15/04/2024",
+      "nav": 75.8301,
+      "amount": 1999.9,
+      "units": 26.373,
+      "balance_units": 1.0,
+      "transaction_type": ",787.088Net Purchase"
+    },
+    {
+      "date": "15/05/2024",
+      "nav": 77.6977,
+      "amount": 1999.9,
+      "units": 25.74,
+      "balance_units": 1.0,
+      "transaction_type": ",812.828Net Purchase"
+    },
+    {
+      "date": "10/06/2024",
+      "nav": 80.15,
+      "amount": 4999.75,
+      "units": 62.38,
+      "balance_units": 1.0,
+      "transaction_type": ",875.208Net Purchase"
+    },
+    {
+      "date": "18/06/2024",
+      "nav": 80.9622,
+      "amount": 1999.9,
+      "units": 24.702,
+      "balance_units": 1.0,
+      "transaction_type": ",899.910Net Purchase"
+    },
+    {
+      "date": "02/07/2024",
+      "nav": 82.5255,
+      "amount": 999.95,
+      "units": 12.117,
+      "balance_units": 1.0,
+      "transaction_type": ",912.027Net Purchase"
+    },
+    {
+      "date": "02/07/2024",
+      "nav": 82.5255,
+      "amount": 999.95,
+      "units": 12.117,
+      "balance_units": 1.0,
+      "transaction_type": ",924.144Net Purchase"
+    },
+    {
+      "date": "02/07/2024",
+      "nav": 82.5255,
+      "amount": 999.95,
+      "units": 12.117,
+      "balance_units": 1.0,
+      "transaction_type": ",936.261Net Purchase"
+    },
+    {
+      "date": "04/07/2024",
+      "nav": 83.819,
+      "amount": 11999.4,
+      "units": 143.158,
+      "balance_units": 2.0,
+      "transaction_type": ",079.419Net Purchase"
+    },
+    {
+      "date": "05/07/2024",
+      "nav": 83.9205,
+      "amount": 999.95,
+      "units": 11.915,
+      "balance_units": 2.0,
+      "transaction_type": ",091.334Net Purchase"
+    },
+    {
+      "date": "25/07/2024",
+      "nav": 82.9565,
+      "amount": 999.95,
+      "units": 12.054,
+      "balance_units": 2.0,
+      "transaction_type": ",103.388Net Purchase"
+    },
+    {
+      "date": "06/08/2024",
+      "nav": 82.1857,
+      "amount": 999.95,
+      "units": 12.167,
+      "balance_units": 2.0,
+      "transaction_type": ",115.555Net Purchase"
+    },
+    {
+      "date": "12/08/2024",
+      "nav": 83.7172,
+      "amount": 999.95,
+      "units": 11.944,
+      "balance_units": 2.0,
+      "transaction_type": ",127.499Net Purchase"
+    },
+    {
+      "date": "16/08/2024",
+      "nav": 84.3808,
+      "amount": 999.95,
+      "units": 11.85,
+      "balance_units": 2.0,
+      "transaction_type": ",139.349Net Purchase"
+    },
+    {
+      "date": "20/08/2024",
+      "nav": 85.1607,
+      "amount": 999.95,
+      "units": 11.742,
+      "balance_units": 2.0,
+      "transaction_type": ",151.091Net Purchase"
+    },
+    {
+      "date": "26/08/2024",
+      "nav": 85.7622,
+      "amount": 999.95,
+      "units": 11.66,
+      "balance_units": 2.0,
+      "transaction_type": ",162.751Net Purchase"
+    },
+    {
+      "date": "06/09/2024",
+      "nav": 85.1393,
+      "amount": 999.95,
+      "units": 11.745,
+      "balance_units": 2.0,
+      "transaction_type": ",174.496Net Purchase"
+    },
+    {
+      "date": "25/09/2024",
+      "nav": 89.1877,
+      "amount": 999.95,
+      "units": 11.212,
+      "balance_units": 2.0,
+      "transaction_type": ",185.708Net Purchase"
+    },
+    {
+      "date": "08/10/2024",
+      "nav": 86.6821,
+      "amount": 999.95,
+      "units": 11.536,
+      "balance_units": 2.0,
+      "transaction_type": ",197.244Net Purchase"
+    },
+    {
+      "date": "25/10/2024",
+      "nav": 86.1527,
+      "amount": 999.95,
+      "units": 11.607,
+      "balance_units": 2.0,
+      "transaction_type": ",208.851Net Purchase"
+    },
+    {
+      "date": "06/11/2024",
+      "nav": 87.0848,
+      "amount": 999.95,
+      "units": 11.482,
+      "balance_units": 2.0,
+      "transaction_type": ",220.333Net Purchase"
+    },
+    {
+      "date": "08/11/2024",
+      "nav": 86.7847,
+      "amount": 1999.9,
+      "units": 23.044,
+      "balance_units": 2.0,
+      "transaction_type": ",243.377Net Purchase"
+    },
+    {
+      "date": "25/11/2024",
+      "nav": 86.9296,
+      "amount": 999.95,
+      "units": 11.503,
+      "balance_units": 2.0,
+      "transaction_type": ",254.880Net Purchase"
+    },
+    {
+      "date": "06/12/2024",
+      "nav": 88.6888,
+      "amount": 999.95,
+      "units": 11.275,
+      "balance_units": 2.0,
+      "transaction_type": ",266.155Net Purchase"
+    },
+    {
+      "date": "26/12/2024",
+      "nav": 87.5536,
+      "amount": 999.95,
+      "units": 11.421,
+      "balance_units": 2.0,
+      "transaction_type": ",277.576Net Purchase"
+    },
+    {
+      "date": "06/01/2025",
+      "nav": 87.3465,
+      "amount": 999.95,
+      "units": 11.448,
+      "balance_units": 2.0,
+      "transaction_type": ",289.024Net Purchase"
+    },
+    {
+      "date": "27/01/2025",
+      "nav": 85.2707,
+      "amount": 999.95,
+      "units": 11.727,
+      "balance_units": 2.0,
+      "transaction_type": ",300.751Net Purchase"
+    },
+    {
+      "date": "05/02/2025",
+      "nav": 87.7154,
+      "amount": 999.95,
+      "units": 11.4,
+      "balance_units": 2.0,
+      "transaction_type": ",312.151Net Purchase"
+    },
+    {
+      "date": "25/02/2025",
+      "nav": 84.2928,
+      "amount": 999.95,
+      "units": 11.863,
+      "balance_units": 2.0,
+      "transaction_type": ",324.014Net Purchase"
+    },
+    {
+      "date": "05/03/2025",
+      "nav": 83.7353,
+      "amount": 999.95,
+      "units": 11.942,
+      "balance_units": 2.0,
+      "transaction_type": ",335.956Net Purchase"
+    },
+    {
+      "date": "25/03/2025",
+      "nav": 86.9378,
+      "amount": 999.95,
+      "units": 11.502,
+      "balance_units": 2.0,
+      "transaction_type": ",347.458Net Purchase"
+    },
+    {
+      "date": "02/04/2025",
+      "nav": 85.1159,
+      "amount": 999.95,
+      "units": 11.748,
+      "balance_units": 2.0,
+      "transaction_type": ",359.206Net Purchase"
+    },
+    {
+      "date": "02/04/2025",
+      "nav": 85.1159,
+      "amount": 999.95,
+      "units": 11.748,
+      "balance_units": 2.0,
+      "transaction_type": ",370.954Net Purchase"
+    },
+    {
+      "date": "02/04/2025",
+      "nav": 85.1159,
+      "amount": 999.95,
+      "units": 11.748,
+      "balance_units": 2.0,
+      "transaction_type": ",382.702Net Purchase"
+    },
+    {
+      "date": "07/04/2025",
+      "nav": 82.0594,
+      "amount": 999.95,
+      "units": 12.186,
+      "balance_units": 2.0,
+      "transaction_type": ",394.888Net Purchase"
+    },
+    {
+      "date": "25/04/2025",
+      "nav": 87.2934,
+      "amount": 999.95,
+      "units": 11.455,
+      "balance_units": 2.0,
+      "transaction_type": ",406.343Net Purchase"
+    },
+    {
+      "date": "05/05/2025",
+      "nav": 88.0615,
+      "amount": 999.95,
+      "units": 11.355,
+      "balance_units": 2.0,
+      "transaction_type": ",417.698Net Purchase"
+    },
+    {
+      "date": "15/05/2025",
+      "nav": 89.996,
+      "amount": 999.95,
+      "units": 11.111,
+      "balance_units": 2.0,
+      "transaction_type": ",428.809Net Purchase"
+    },
+    {
+      "date": "21/05/2025",
+      "nav": 89.8657,
+      "amount": 999.95,
+      "units": 11.127,
+      "balance_units": 2.0,
+      "transaction_type": ",439.936Net Purchase"
+    },
+    {
+      "date": "26/05/2025",
+      "nav": 90.3489,
+      "amount": 999.95,
+      "units": 11.068,
+      "balance_units": 2.0,
+      "transaction_type": ",451.004Net Purchase"
+    },
+    {
+      "date": "28/05/2025",
+      "nav": 89.8449,
+      "amount": 999.95,
+      "units": 11.13,
+      "balance_units": 2.0,
+      "transaction_type": ",462.134Net Purchase"
+    },
+    {
+      "date": "05/06/2025",
+      "nav": 90.2215,
+      "amount": 999.95,
+      "units": 11.083,
+      "balance_units": 2.0,
+      "transaction_type": ",473.217Net Purchase"
+    },
+    {
+      "date": "16/06/2025",
+      "nav": 91.2972,
+      "amount": 999.95,
+      "units": 10.953,
+      "balance_units": 2.0,
+      "transaction_type": ",484.170Net Purchase"
+    },
+    {
+      "date": "23/06/2025",
+      "nav": 91.2091,
+      "amount": 999.95,
+      "units": 10.963,
+      "balance_units": 2.0,
+      "transaction_type": ",495.133Net Purchase"
+    },
+    {
+      "date": "25/06/2025",
+      "nav": 91.9789,
+      "amount": 999.95,
+      "units": 10.872,
+      "balance_units": 2.0,
+      "transaction_type": ",506.005Net Purchase"
+    },
+    {
+      "date": "30/06/2025",
+      "nav": 92.903,
+      "amount": 999.95,
+      "units": 10.763,
+      "balance_units": 2.0,
+      "transaction_type": ",516.768Net Purchase"
+    },
+    {
+      "date": "07/07/2025",
+      "nav": 92.6536,
+      "amount": 999.95,
+      "units": 10.792,
+      "balance_units": 2.0,
+      "transaction_type": ",527.560Net Purchase"
+    },
+    {
+      "date": "08/07/2025",
+      "nav": 92.484,
+      "amount": 999.95,
+      "units": 10.812,
+      "balance_units": 2.0,
+      "transaction_type": ",538.372Net Purchase"
+    },
+    {
+      "date": "15/07/2025",
+      "nav": 92.4187,
+      "amount": 999.95,
+      "units": 10.82,
+      "balance_units": 2.0,
+      "transaction_type": ",549.192Net Purchase"
+    },
+    {
+      "date": "21/07/2025",
+      "nav": 92.5354,
+      "amount": 999.95,
+      "units": 10.806,
+      "balance_units": 2.0,
+      "transaction_type": ",559.998Net Purchase"
+    },
+    {
+      "date": "25/07/2025",
+      "nav": 92.0559,
+      "amount": 999.95,
+      "units": 10.862,
+      "balance_units": 2.0,
+      "transaction_type": ",570.860Net Purchase"
+    },
+    {
+      "date": "28/07/2025",
+      "nav": 91.5833,
+      "amount": 999.95,
+      "units": 10.918,
+      "balance_units": 2.0,
+      "transaction_type": ",581.778Net Purchase"
+    },
+    {
+      "date": "05/08/2025",
+      "nav": 91.5126,
+      "amount": 999.95,
+      "units": 10.927,
+      "balance_units": 2.0,
+      "transaction_type": ",592.705Net Purchase"
+    },
+    {
+      "date": "06/08/2025",
+      "nav": 91.368,
+      "amount": 1999.9,
+      "units": 21.888,
+      "balance_units": 2.0,
+      "transaction_type": ",614.593Net Purchase"
+    },
+    {
+      "date": "07/08/2025",
+      "nav": 91.5052,
+      "amount": 999.95,
+      "units": 10.928,
+      "balance_units": 2.0,
+      "transaction_type": ",625.521Net Purchase"
+    },
+    {
+      "date": "08/08/2025",
+      "nav": 91.1563,
+      "amount": 999.95,
+      "units": 10.97,
+      "balance_units": 2.0,
+      "transaction_type": ",636.491Net Purchase"
+    },
+    {
+      "date": "18/08/2025",
+      "nav": 92.9416,
+      "amount": 999.95,
+      "units": 10.759,
+      "balance_units": 2.0,
+      "transaction_type": ",647.250Net Purchase"
+    },
+    {
+      "date": "21/08/2025",
+      "nav": 92.3056,
+      "amount": 999.95,
+      "units": 10.833,
+      "balance_units": 2.0,
+      "transaction_type": ",658.083Net Purchase"
+    },
+    {
+      "date": "25/08/2025",
+      "nav": 92.2707,
+      "amount": 999.95,
+      "units": 10.837,
+      "balance_units": 2.0,
+      "transaction_type": ",668.920Net Purchase"
+    },
+    {
+      "date": "28/08/2025",
+      "nav": 91.1734,
+      "amount": 999.95,
+      "units": 10.968,
+      "balance_units": 2.0,
+      "transaction_type": ",679.888Net Purchase"
+    },
+    {
+      "date": "02/09/2025",
+      "nav": 91.3431,
+      "amount": 999.95,
+      "units": 10.947,
+      "balance_units": 2.0,
+      "transaction_type": ",690.835Net Purchase"
+    },
+    {
+      "date": "05/09/2025",
+      "nav": 92.513,
+      "amount": 999.95,
+      "units": 10.809,
+      "balance_units": 2.0,
+      "transaction_type": ",701.644Net Purchase"
+    },
+    {
+      "date": "15/09/2025",
+      "nav": 93.7345,
+      "amount": 999.95,
+      "units": 10.668,
+      "balance_units": 2.0,
+      "transaction_type": ",712.312Net Purchase"
+    },
+    {
+      "date": "22/09/2025",
+      "nav": 94.0936,
+      "amount": 999.95,
+      "units": 10.627,
+      "balance_units": 2.0,
+      "transaction_type": ",722.939Net Purchase"
+    },
+    {
+      "date": "25/09/2025",
+      "nav": 93.1763,
+      "amount": 999.95,
+      "units": 10.732,
+      "balance_units": 2.0,
+      "transaction_type": ",733.671Net Purchase"
+    },
+    {
+      "date": "29/09/2025",
+      "nav": 92.3638,
+      "amount": 999.95,
+      "units": 10.826,
+      "balance_units": 2.0,
+      "transaction_type": ",744.497Net Purchase"
+    },
+    {
+      "date": "01/10/2025",
+      "nav": 92.4742,
+      "amount": 999.95,
+      "units": 10.813,
+      "balance_units": 2.0,
+      "transaction_type": ",755.310Net Purchase"
+    },
+    {
+      "date": "06/10/2025",
+      "nav": 93.0072,
+      "amount": 999.95,
+      "units": 10.751,
+      "balance_units": 2.0,
+      "transaction_type": ",766.061Net Purchase"
+    },
+    {
+      "date": "15/10/2025",
+      "nav": 93.4655,
+      "amount": 999.95,
+      "units": 10.699,
+      "balance_units": 2.0,
+      "transaction_type": ",776.760Net Purchase"
+    },
+    {
+      "date": "23/10/2025",
+      "nav": 95.3362,
+      "amount": 999.95,
+      "units": 10.489,
+      "balance_units": 2.0,
+      "transaction_type": ",787.249Net Purchase"
+    },
+    {
+      "date": "27/10/2025",
+      "nav": 95.7732,
+      "amount": 999.95,
+      "units": 10.441,
+      "balance_units": 2.0,
+      "transaction_type": ",797.690Net Purchase"
+    },
+    {
+      "date": "28/10/2025",
+      "nav": 95.5012,
+      "amount": 999.95,
+      "units": 10.471,
+      "balance_units": 2.0,
+      "transaction_type": ",808.161Net Purchase"
+    },
+    {
+      "date": "03/11/2025",
+      "nav": 94.4577,
+      "amount": 999.95,
+      "units": 10.586,
+      "balance_units": 2.0,
+      "transaction_type": ",818.747Net Purchase"
+    },
+    {
+      "date": "06/11/2025",
+      "nav": 93.779,
+      "amount": 999.95,
+      "units": 10.663,
+      "balance_units": 2.0,
+      "transaction_type": ",829.410Net Purchase"
+    },
+    {
+      "date": "17/11/2025",
+      "nav": 94.5101,
+      "amount": 999.95,
+      "units": 10.58,
+      "balance_units": 2.0,
+      "transaction_type": ",839.990Net Purchase"
+    },
+    {
+      "date": "21/11/2025",
+      "nav": 94.4109,
+      "amount": 999.95,
+      "units": 10.591,
+      "balance_units": 2.0,
+      "transaction_type": ",850.581Net Purchase"
+    },
+    {
+      "date": "25/11/2025",
+      "nav": 94.3884,
+      "amount": 999.95,
+      "units": 10.594,
+      "balance_units": 2.0,
+      "transaction_type": ",861.175Net Purchase"
+    },
+    {
+      "date": "28/11/2025",
+      "nav": 95.0019,
+      "amount": 999.95,
+      "units": 10.526,
+      "balance_units": 2.0,
+      "transaction_type": ",871.701Net Purchase"
+    },
+    {
+      "date": "01/12/2025",
+      "nav": 94.9398,
+      "amount": 999.95,
+      "units": 10.532,
+      "balance_units": 2.0,
+      "transaction_type": ",882.233Net Purchase"
+    },
+    {
+      "date": "05/12/2025",
+      "nav": 95.3718,
+      "amount": 999.95,
+      "units": 10.485,
+      "balance_units": 2.0,
+      "transaction_type": ",892.718Net Purchase"
+    },
+    {
+      "date": "08/12/2025",
+      "nav": 94.8059,
+      "amount": 1999.9,
+      "units": 21.095,
+      "balance_units": 2.0,
+      "transaction_type": ",913.813Net Purchase"
+    },
+    {
+      "date": "15/12/2025",
+      "nav": 94.6742,
+      "amount": 999.95,
+      "units": 10.562,
+      "balance_units": 2.0,
+      "transaction_type": ",924.375Net Purchase"
+    },
+    {
+      "date": "17/12/2025",
+      "nav": 94.1026,
+      "amount": 24998.75,
+      "units": 265.654,
+      "balance_units": 3.0,
+      "transaction_type": ",190.029Net Purchase"
+    },
+    {
+      "date": "22/12/2025",
+      "nav": 94.9471,
+      "amount": 999.95,
+      "units": 10.532,
+      "balance_units": 3.0,
+      "transaction_type": ",200.561Net Purchase"
+    },
+    {
+      "date": "26/12/2025",
+      "nav": 95.0482,
+      "amount": 999.95,
+      "units": 10.52,
+      "balance_units": 3.0,
+      "transaction_type": ",211.081Net Purchase"
+    },
+    {
+      "date": "29/12/2025",
+      "nav": 94.7304,
+      "amount": 999.95,
+      "units": 10.556,
+      "balance_units": 3.0,
+      "transaction_type": ",221.637Net Purchase"
+    },
+    {
+      "date": "30/12/2025",
+      "nav": 94.6116,
+      "amount": 2249.89,
+      "units": 23.78,
+      "balance_units": 3.0,
+      "transaction_type": ",245.417Switch In Systematic - From Parag Parikh LF Dir Plan Growth -"
+    },
+    {
+      "date": "01/01/2026",
+      "nav": 94.9335,
+      "amount": 999.95,
+      "units": 10.533,
+      "balance_units": 3.0,
+      "transaction_type": ",255.950Net Purchase"
+    },
+    {
+      "date": "05/01/2026",
+      "nav": 95.3229,
+      "amount": 999.95,
+      "units": 10.49,
+      "balance_units": 3.0,
+      "transaction_type": ",266.440Net Purchase"
+    },
+    {
+      "date": "06/01/2026",
+      "nav": 95.3244,
+      "amount": 2249.89,
+      "units": 23.602,
+      "balance_units": 3.0,
+      "transaction_type": ",290.042Switch In Systematic - From Parag Parikh LF Dir Plan Growth -"
+    },
+    {
+      "date": "13/01/2026",
+      "nav": 94.1783,
+      "amount": 2249.89,
+      "units": 23.89,
+      "balance_units": 3.0,
+      "transaction_type": ",313.932Switch In Systematic - From Parag Parikh LF Dir Plan Growth -"
+    },
+    {
+      "date": "16/01/2026",
+      "nav": 93.8469,
+      "amount": 999.95,
+      "units": 10.655,
+      "balance_units": 3.0,
+      "transaction_type": ",324.587Net Purchase"
+    },
+    {
+      "date": "20/01/2026",
+      "nav": 92.76,
+      "amount": 2249.89,
+      "units": 24.255,
+      "balance_units": 3.0,
+      "transaction_type": ",348.842Switch In Systematic - From Parag Parikh LF Dir Plan Growth -"
+    },
+    {
+      "date": "21/01/2026",
+      "nav": 92.664,
+      "amount": 999.95,
+      "units": 10.791,
+      "balance_units": 3.0,
+      "transaction_type": ",359.633Net Purchase"
+    },
+    {
+      "date": "28/01/2026",
+      "nav": 93.7598,
+      "amount": 2249.89,
+      "units": 23.996,
+      "balance_units": 3.0,
+      "transaction_type": ",383.629Switch In Systematic - From Parag Parikh LF Dir Plan Growth -"
+    },
+    {
+      "date": "28/01/2026",
+      "nav": 93.7598,
+      "amount": 999.95,
+      "units": 10.665,
+      "balance_units": 3.0,
+      "transaction_type": ",394.294Net Purchase"
+    },
+    {
+      "date": "02/02/2026",
+      "nav": 93.1373,
+      "amount": 999.95,
+      "units": 10.736,
+      "balance_units": 3.0,
+      "transaction_type": ",405.030Net Purchase"
+    },
+    {
+      "date": "03/02/2026",
+      "nav": 94.1941,
+      "amount": 2249.89,
+      "units": 23.886,
+      "balance_units": 3.0,
+      "transaction_type": ",428.916Switch In Systematic - From Parag Parikh LF Dir Plan Growth -"
+    },
+    {
+      "date": "05/02/2026",
+      "nav": 93.5631,
+      "amount": 999.95,
+      "units": 10.687,
+      "balance_units": 3.0,
+      "transaction_type": ",439.603Net Purchase"
+    },
+    {
+      "date": "10/02/2026",
+      "nav": 94.1421,
+      "amount": 2249.89,
+      "units": 23.899,
+      "balance_units": 3.0,
+      "transaction_type": ",463.502Switch In Systematic - From Parag Parikh LF Dir Plan Growth -"
+    },
+    {
+      "date": "12/02/2026",
+      "nav": 93.0507,
+      "amount": 4999.75,
+      "units": 53.731,
+      "balance_units": 3.0,
+      "transaction_type": ",517.233Net Purchase"
+    },
+    {
+      "date": "16/02/2026",
+      "nav": 92.9584,
+      "amount": 999.95,
+      "units": 10.757,
+      "balance_units": 3.0,
+      "transaction_type": ",527.990Net Purchase"
+    },
+    {
+      "date": "17/02/2026",
+      "nav": 93.1314,
+      "amount": 2249.89,
+      "units": 24.158,
+      "balance_units": 3.0,
+      "transaction_type": ",552.148Switch In Systematic - From Parag Parikh LF Dir Plan Growth -"
+    },
+    {
+      "date": "23/02/2026",
+      "nav": 93.2424,
+      "amount": 999.95,
+      "units": 10.724,
+      "balance_units": 3.0,
+      "transaction_type": ",562.872Net Purchase"
+    },
+    {
+      "date": "24/02/2026",
+      "nav": 92.6094,
+      "amount": 2249.89,
+      "units": 24.294,
+      "balance_units": 3.0,
+      "transaction_type": ",587.166Switch In Systematic - From Parag Parikh LF Dir Plan Growth -"
+    },
+    {
+      "date": "02/03/2026",
+      "nav": 91.422,
+      "amount": 999.95,
+      "units": 10.938,
+      "balance_units": 3.0,
+      "transaction_type": ",598.104Net Purchase"
+    },
+    {
+      "date": "02/03/2026",
+      "nav": 91.422,
+      "amount": 999.95,
+      "units": 10.938,
+      "balance_units": 3.0,
+      "transaction_type": ",609.042Net Purchase"
+    },
+    {
+      "date": "04/03/2026",
+      "nav": 91.0398,
+      "amount": 2249.89,
+      "units": 24.713,
+      "balance_units": 3.0,
+      "transaction_type": ",633.755Switch In Systematic - From Parag Parikh LF Dir Plan Growth -"
+    },
+    {
+      "date": "04/03/2026",
+      "nav": 91.0398,
+      "amount": 2499.88,
+      "units": 27.459,
+      "balance_units": 3.0,
+      "transaction_type": ",661.214Net Purchase"
+    },
+    {
+      "date": "05/03/2026",
+      "nav": 91.5897,
+      "amount": 999.95,
+      "units": 10.918,
+      "balance_units": 3.0,
+      "transaction_type": ",672.132Net Purchase"
+    },
+    {
+      "date": "09/03/2026",
+      "nav": 89.7713,
+      "amount": 1999.9,
+      "units": 22.278,
+      "balance_units": 3.0,
+      "transaction_type": ",694.410Net Purchase"
+    },
+    {
+      "date": "10/03/2026",
+      "nav": 90.4288,
+      "amount": 2249.89,
+      "units": 24.88,
+      "balance_units": 3.0,
+      "transaction_type": ",719.290Switch In Systematic - From Parag Parikh LF Dir Plan Growth -"
+    },
+    {
+      "date": "13/03/2026",
+      "nav": 88.1632,
+      "amount": 1999.9,
+      "units": 22.684,
+      "balance_units": 3.0,
+      "transaction_type": ",741.974Net Purchase"
+    },
+    {
+      "date": "16/03/2026",
+      "nav": 88.7044,
+      "amount": 999.95,
+      "units": 11.273,
+      "balance_units": 3.0,
+      "transaction_type": ",753.247Net Purchase"
+    },
+    {
+      "date": "17/03/2026",
+      "nav": 89.0865,
+      "amount": 2249.89,
+      "units": 25.255,
+      "balance_units": 3.0,
+      "transaction_type": ",778.502Switch In Systematic - From Parag Parikh LF Dir Plan Growth -"
+    },
+    {
+      "date": "23/03/2026",
+      "nav": 86.5918,
+      "amount": 999.95,
+      "units": 11.548,
+      "balance_units": 3.0,
+      "transaction_type": ",790.050Net Purchase"
+    },
+    {
+      "date": "24/03/2026",
+      "nav": 87.0006,
+      "amount": 2249.89,
+      "units": 25.861,
+      "balance_units": 3.0,
+      "transaction_type": ",815.911Switch In Systematic - From Parag Parikh LF Dir Plan Growth -"
+    },
+    {
+      "date": "30/03/2026",
+      "nav": 85.2599,
+      "amount": 999.95,
+      "units": 11.728,
+      "balance_units": 3.0,
+      "transaction_type": ",827.639Net Purchase"
+    },
+    {
+      "date": "01/04/2026",
+      "nav": 86.3439,
+      "amount": 999.95,
+      "units": 11.581,
+      "balance_units": 3.0,
+      "transaction_type": ",839.220Net Purchase"
+    },
+    {
+      "date": "02/04/2026",
+      "nav": 86.5155,
+      "amount": 2249.89,
+      "units": 26.006,
+      "balance_units": 3.0,
+      "transaction_type": ",865.226Switch In Systematic - From Parag Parikh LF Dir Plan Growth -"
+    },
+    {
+      "date": "02/04/2026",
+      "nav": 86.5155,
+      "amount": 14999.25,
+      "units": 173.371,
+      "balance_units": 4.0,
+      "transaction_type": ",038.597Net Purchase"
+    },
+    {
+      "date": "06/04/2026",
+      "nav": 87.4905,
+      "amount": 999.95,
+      "units": 11.429,
+      "balance_units": 4.0,
+      "transaction_type": ",050.026Net Purchase"
+    },
+    {
+      "date": "07/04/2026",
+      "nav": 88.0544,
+      "amount": 2249.89,
+      "units": 25.551,
+      "balance_units": 4.0,
+      "transaction_type": ",075.577Switch In Systematic - From Parag Parikh LF Dir Plan Growth -"
+    },
+    {
+      "date": "15/04/2026",
+      "nav": 91.5729,
+      "amount": 2249.89,
+      "units": 24.569,
+      "balance_units": 4.0,
+      "transaction_type": ",100.146Switch In Systematic - From Parag Parikh LF Dir Plan Growth -"
+    },
+    {
+      "date": "15/04/2026",
+      "nav": 91.5729,
+      "amount": 999.95,
+      "units": 10.92,
+      "balance_units": 4.0,
+      "transaction_type": ",111.066Net Purchase"
+    },
+    {
+      "date": "21/04/2026",
+      "nav": 92.1913,
+      "amount": 2249.89,
+      "units": 24.405,
+      "balance_units": 4.0,
+      "transaction_type": ",135.471Switch In Systematic - From Parag Parikh LF Dir Plan Growth -"
+    },
+    {
+      "date": "21/04/2026",
+      "nav": 92.1913,
+      "amount": 999.95,
+      "units": 10.846,
+      "balance_units": 4.0,
+      "transaction_type": ",146.317Net Purchase"
+    },
+    {
+      "date": "28/04/2026",
+      "nav": 90.7264,
+      "amount": 2249.89,
+      "units": 24.799,
+      "balance_units": 4.0,
+      "transaction_type": ",171.116Switch In Systematic - From Parag Parikh LF Dir Plan Growth -"
+    },
+    {
+      "date": "28/04/2026",
+      "nav": 90.7264,
+      "amount": 999.95,
+      "units": 11.022,
+      "balance_units": 4.0,
+      "transaction_type": ",182.138Net Purchase"
+    },
+    {
+      "date": "04/05/2026",
+      "nav": 91.2571,
+      "amount": 999.95,
+      "units": 10.958,
+      "balance_units": 4.0,
+      "transaction_type": ",193.096Net Purchase"
+    },
+    {
+      "date": "05/05/2026",
+      "nav": 91.157,
+      "amount": 2249.89,
+      "units": 24.681,
+      "balance_units": 4.0,
+      "transaction_type": ",217.777Switch In Systematic - From Parag Parikh LF Dir Plan Growth -"
+    },
+    {
+      "date": "05/05/2026",
+      "nav": 91.157,
+      "amount": 999.95,
+      "units": 10.97,
+      "balance_units": 4.0,
+      "transaction_type": ",228.747Net Purchase"
+    },
+    {
+      "date": "12/05/2026",
+      "nav": 89.6375,
+      "amount": 2249.89,
+      "units": 25.1,
+      "balance_units": 4.0,
+      "transaction_type": ",253.847Switch In Systematic - From Parag Parikh LF Dir Plan Growth -"
+    },
+    {
+      "date": "15/05/2026",
+      "nav": 90.6464,
+      "amount": 999.95,
+      "units": 11.031,
+      "balance_units": 4.0,
+      "transaction_type": ",264.878Net Purchase"
+    },
+    {
+      "date": "19/05/2026",
+      "nav": 90.5973,
+      "amount": 2249.89,
+      "units": 24.834,
+      "balance_units": 4.0,
+      "transaction_type": ",289.712Switch In Systematic - From Parag Parikh LF Dir Plan Growth -"
+    },
+    {
+      "date": "21/05/2026",
+      "nav": 90.614,
+      "amount": 999.95,
+      "units": 11.035,
+      "balance_units": 4.0,
+      "transaction_type": ",300.747Net Purchase"
+    },
+    {
+      "date": "26/05/2026",
+      "nav": 90.9189,
+      "amount": 2249.89,
+      "units": 24.746,
+      "balance_units": 4.0,
+      "transaction_type": ",325.493Switch In Systematic - From Parag Parikh LF Dir Plan Growth -"
+    },
+    {
+      "date": "29/05/2026",
+      "nav": 90.0589,
+      "amount": 999.95,
+      "units": 11.103,
+      "balance_units": 4.0,
+      "transaction_type": ",336.596Net Purchase"
+    },
+    {
+      "date": "01/06/2026",
+      "nav": 89.6775,
+      "amount": 999.95,
+      "units": 11.151,
+      "balance_units": 4.0,
+      "transaction_type": ",347.747Net Purchase"
+    },
+    {
+      "date": "02/06/2026",
+      "nav": 89.7887,
+      "amount": 2249.89,
+      "units": 25.058,
+      "balance_units": 4.0,
+      "transaction_type": ",372.805Switch In Systematic - From Parag Parikh LF Dir Plan Growth -"
+    },
+    {
+      "date": "05/06/2026",
+      "nav": 89.1488,
+      "amount": 999.95,
+      "units": 11.217,
+      "balance_units": 4.0,
+      "transaction_type": ",384.022Net Purchase"
+    },
+    {
+      "date": "09/06/2026",
+      "nav": 88.8675,
+      "amount": 2249.89,
+      "units": 25.317,
+      "balance_units": 4.0,
+      "transaction_type": ",409.339Switch In Systematic - From Parag Parikh LF Dir Plan Growth -"
+    },
+    {
+      "date": "15/06/2026",
+      "nav": 90.043,
+      "amount": 999.95,
+      "units": 11.105,
+      "balance_units": 4.0,
+      "transaction_type": ",420.444Net Purchase"
+    },
+    {
+      "date": "16/06/2026",
+      "nav": 90.5605,
+      "amount": 2249.89,
+      "units": 24.844,
+      "balance_units": 4.0,
+      "transaction_type": ",445.288Switch In Systematic - From Parag Parikh LF Dir Plan Growth -"
+    },
+    {
+      "date": "27/10/2020",
+      "nav": 33.0021,
+      "amount": 999.95,
+      "units": 30.3,
+      "balance_units": 30.3,
+      "transaction_type": "Net Purchase"
+    },
+    {
+      "date": "30/10/2020",
+      "nav": 32.5999,
+      "amount": 999.95,
+      "units": 30.673,
+      "balance_units": 60.973,
+      "transaction_type": "Net Purchase"
+    },
+    {
+      "date": "15/12/2020",
+      "nav": 36.166,
+      "amount": 999.95,
+      "units": 27.649,
+      "balance_units": 88.622,
+      "transaction_type": "Net Purchase"
+    },
+    {
+      "date": "17/12/2020",
+      "nav": 36.4074,
+      "amount": 9999.5,
+      "units": 274.656,
+      "balance_units": 363.278,
+      "transaction_type": "Net Purchase"
+    },
+    {
+      "date": "29/12/2020",
+      "nav": 37.0368,
+      "amount": 999.95,
+      "units": 26.999,
+      "balance_units": 390.277,
+      "transaction_type": "Net Purchase"
+    }
+  ],
+  "all_sips": []
+}
