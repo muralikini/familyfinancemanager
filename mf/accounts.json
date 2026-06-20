@@ -15,62 +15,86 @@
   },
   {
     "personId": "muralidhar",
+    "provider": "ICICI Prudential",
+    "folioNumber": "5658902",
     "filePath": "mf/muralidhar/ICICI_Prudential_Arbitrage_Fund_-_Direct_Plan_-_Growth.json",
-    "displayName": "ICICI_Prudential_Arbitrage_Fund"
+    "displayName": "ICICI Prudential Arbitrage Fund (Direct Plan - Growth)"
   },
   {
     "personId": "muralidhar",
+    "provider": "ICICI Prudential",
+    "folioNumber": "5658902",
     "filePath": "mf/muralidhar/ICICI_Prudential_Balanced_Advantage_Fund_-_Direct_Plan_-_Growth.json",
-    "displayName": "ICICI_Prudential_Balanced_Advantage_Fund"
+    "displayName": "ICICI Prudential Balanced Advantage Fund (Direct Plan - Growth)"
   },
   {
     "personId": "muralidhar",
+    "provider": "ICICI Prudential",
+    "folioNumber": "5658902",
     "filePath": "mf/muralidhar/ICICI_Prudential_Equity__Debt_Fund_-_Direct_Plan_-_Growth.json",
-    "displayName": "ICICI_Prudential_Equity__Debt_Fund"
+    "displayName": "ICICI Prudential Equity & Debt Fund (Direct Plan - Growth)"
   },
   {
     "personId": "muralidhar",
+    "provider": "ICICI Prudential",
+    "folioNumber": "5658902",
     "filePath": "mf/muralidhar/ICICI_Prudential_Infrastructure_Fund_-_Direct_Plan_-__Growth.json",
-     "displayName": "ICICI_Prudential_Infrastructure_Fund"
+    "displayName": "ICICI Prudential Infrastructure Fund (Direct Plan - Growth)"
   },
   {
     "personId": "muralidhar",
+    "provider": "ICICI Prudential",
+    "folioNumber": "5658902",
     "filePath": "mf/muralidhar/ICICI_Prudential_Large_Cap_Fund_erstwhile_Bluechip_Fund_-_Direct_Plan_-_Growth.json",
-    "displayName": "ICICI_Prudential_Large_Cap_Fund_erstwhile_Bluechip_Fund"
+    "displayName": "ICICI Prudential Large Cap Fund (erstwhile Bluechip - Direct)"
   },
   {
     "personId": "muralidhar",
+    "provider": "ICICI Prudential",
+    "folioNumber": "5658902",
     "filePath": "mf/muralidhar/ICICI_Prudential_Large_Cap_Fund_erstwhile_Bluechip_Fund_-_Growth.json",
-    "displayName": "ICICI_Prudential_Large_Cap_Fund_erstwhile_Bluechip_Fund"
+    "displayName": "ICICI Prudential Large Cap Fund (erstwhile Bluechip - Growth)"
   },
   {
     "personId": "muralidhar",
-    "filePath": "mf/muralidhar/ICICI_Prudential_Liquid_Fund_-_Direct_Plan_-_Growth.json"
-    "displayName": "ICICI_Prudential_Liquid_Fund"
+    "provider": "ICICI Prudential",
+    "folioNumber": "5658902",
+    "filePath": "mf/muralidhar/ICICI_Prudential_Liquid_Fund_-_Direct_Plan_-_Growth.json",
+    "displayName": "ICICI Prudential Liquid Fund (Direct Plan - Growth)"
   },
   {
     "personId": "muralidhar",
+    "provider": "ICICI Prudential",
+    "folioNumber": "5658902",
     "filePath": "mf/muralidhar/ICICI_Prudential_Money_Market_Fund_-_Direct_Plan_-_Growth.json",
-    "displayName": "ICICI_Prudential_Money_Market_Fund"
+    "displayName": "ICICI Prudential Money Market Fund (Direct Plan - Growth)"
   },
   {
     "personId": "muralidhar",
+    "provider": "ICICI Prudential",
+    "folioNumber": "5658902",
     "filePath": "mf/muralidhar/ICICI_Prudential_Multi-Asset_Fund_-_Direct_Plan_-_Growth.json",
-    "displayName": "ICICI_Prudential_Multi-Asset_Fund"
+    "displayName": "ICICI Prudential Multi-Asset Fund (Direct Plan - Growth)"
   },
   {
     "personId": "muralidhar",
+    "provider": "ICICI Prudential",
+    "folioNumber": "5658902",
     "filePath": "mf/muralidhar/ICICI_Prudential_Savings_Fund_-_Direct_Plan_-_Growth.json",
-    "displayName": "ICICI_Prudential_Savings_Fund"
+    "displayName": "ICICI Prudential Savings Fund (Direct Plan - Growth)"
   },
   {
     "personId": "muralidhar",
+    "provider": "ICICI Prudential",
+    "folioNumber": "5658902",
     "filePath": "mf/muralidhar/ICICI_Prudential_Smallcap_Fund_-_Direct_Plan_-_Growth.json",
-    "displayName": "ICICI_Prudential_Smallcap_Fund"
+    "displayName": "ICICI Prudential Smallcap Fund (Direct Plan - Growth)"
   },
   {
     "personId": "muralidhar",
+    "provider": "ICICI Prudential",
+    "folioNumber": "5658902",
     "filePath": "mf/muralidhar/ICICI_Prudential_Value_Fund_erstwhile_Value_Discovery_Fund_-_Direct_Plan_-_Growth.json",
-    "displayName": "ICICI_Prudential_Value_Fund_erstwhile_Value_Discovery_Fund"
+    "displayName": "ICICI Prudential Value Fund (erstwhile Value Discovery - Direct)"
   }
 ]
