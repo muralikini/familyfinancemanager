@@ -1,0 +1,1538 @@
+[
+  {
+    "date": "2026-06-16",
+    "type": "Invested",
+    "units": 24.844,
+    "nav": 90.5605,
+    "value": 2249.89,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2026-06-15",
+    "type": "Invested",
+    "units": 11.105,
+    "nav": 90.043,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2026-06-09",
+    "type": "Invested",
+    "units": 25.317,
+    "nav": 88.8675,
+    "value": 2249.89,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2026-06-05",
+    "type": "Invested",
+    "units": 11.217,
+    "nav": 89.1488,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2026-06-02",
+    "type": "Invested",
+    "units": 25.058,
+    "nav": 89.7887,
+    "value": 2249.89,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2026-06-01",
+    "type": "Invested",
+    "units": 11.151,
+    "nav": 89.6775,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2026-05-29",
+    "type": "Invested",
+    "units": 11.103,
+    "nav": 90.0589,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2026-05-26",
+    "type": "Invested",
+    "units": 24.746,
+    "nav": 90.9189,
+    "value": 2249.89,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2026-05-21",
+    "type": "Invested",
+    "units": 11.035,
+    "nav": 90.614,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2026-05-19",
+    "type": "Invested",
+    "units": 24.834,
+    "nav": 90.5973,
+    "value": 2249.89,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2026-05-15",
+    "type": "Invested",
+    "units": 11.031,
+    "nav": 90.6464,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2026-05-12",
+    "type": "Invested",
+    "units": 25.1,
+    "nav": 89.6375,
+    "value": 2249.89,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2026-05-05",
+    "type": "Invested",
+    "units": 24.681,
+    "nav": 91.157,
+    "value": 2249.89,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2026-05-05",
+    "type": "Invested",
+    "units": 10.97,
+    "nav": 91.157,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2026-05-04",
+    "type": "Invested",
+    "units": 10.958,
+    "nav": 91.2571,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2026-04-28",
+    "type": "Invested",
+    "units": 11.022,
+    "nav": 90.7264,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2026-04-28",
+    "type": "Invested",
+    "units": 24.799,
+    "nav": 90.7264,
+    "value": 2249.89,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2026-04-21",
+    "type": "Invested",
+    "units": 24.405,
+    "nav": 92.1913,
+    "value": 2249.89,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2026-04-21",
+    "type": "Invested",
+    "units": 10.846,
+    "nav": 92.1913,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2026-04-15",
+    "type": "Invested",
+    "units": 10.92,
+    "nav": 91.5729,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2026-04-15",
+    "type": "Invested",
+    "units": 24.569,
+    "nav": 91.5729,
+    "value": 2249.89,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2026-04-07",
+    "type": "Invested",
+    "units": 25.551,
+    "nav": 88.0544,
+    "value": 2249.89,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2026-04-06",
+    "type": "Invested",
+    "units": 11.429,
+    "nav": 87.4905,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2026-04-02",
+    "type": "Invested",
+    "units": 173.371,
+    "nav": 86.5155,
+    "value": 14999.25,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2026-04-02",
+    "type": "Invested",
+    "units": 26.006,
+    "nav": 86.5155,
+    "value": 2249.89,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2026-04-01",
+    "type": "Invested",
+    "units": 11.581,
+    "nav": 86.3439,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2026-03-30",
+    "type": "Invested",
+    "units": 11.728,
+    "nav": 85.2599,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2026-03-30",
+    "type": "Invested",
+    "units": 11.728,
+    "nav": 85.2599,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2026-03-24",
+    "type": "Invested",
+    "units": 25.861,
+    "nav": 87.0006,
+    "value": 2249.89,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2026-03-23",
+    "type": "Invested",
+    "units": 11.548,
+    "nav": 86.5918,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2026-03-17",
+    "type": "Invested",
+    "units": 25.255,
+    "nav": 89.0865,
+    "value": 2249.89,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2026-03-16",
+    "type": "Invested",
+    "units": 11.273,
+    "nav": 88.7044,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2026-03-13",
+    "type": "Invested",
+    "units": 22.684,
+    "nav": 88.1632,
+    "value": 1999.9,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2026-03-10",
+    "type": "Invested",
+    "units": 24.88,
+    "nav": 90.4288,
+    "value": 2249.89,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2026-03-09",
+    "type": "Invested",
+    "units": 22.278,
+    "nav": 89.7713,
+    "value": 1999.9,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2026-03-05",
+    "type": "Invested",
+    "units": 10.918,
+    "nav": 91.5897,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2026-03-04",
+    "type": "Invested",
+    "units": 24.713,
+    "nav": 91.0398,
+    "value": 2249.89,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2026-03-04",
+    "type": "Invested",
+    "units": 27.459,
+    "nav": 91.0398,
+    "value": 2499.88,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2026-03-02",
+    "type": "Invested",
+    "units": 10.938,
+    "nav": 91.422,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2026-03-02",
+    "type": "Invested",
+    "units": 10.938,
+    "nav": 91.422,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2026-02-24",
+    "type": "Invested",
+    "units": 24.294,
+    "nav": 92.6094,
+    "value": 2249.89,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2026-02-23",
+    "type": "Invested",
+    "units": 10.724,
+    "nav": 93.2424,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2026-02-17",
+    "type": "Invested",
+    "units": 24.158,
+    "nav": 93.1314,
+    "value": 2249.89,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2026-02-16",
+    "type": "Invested",
+    "units": 10.757,
+    "nav": 92.9584,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2026-02-12",
+    "type": "Invested",
+    "units": 53.731,
+    "nav": 93.0507,
+    "value": 4999.75,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2026-02-10",
+    "type": "Invested",
+    "units": 23.899,
+    "nav": 94.1421,
+    "value": 2249.89,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2026-02-05",
+    "type": "Invested",
+    "units": 10.687,
+    "nav": 93.5631,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2026-02-03",
+    "type": "Invested",
+    "units": 23.886,
+    "nav": 94.1941,
+    "value": 2249.89,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2026-02-02",
+    "type": "Invested",
+    "units": 10.736,
+    "nav": 93.1373,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2026-01-28",
+    "type": "Invested",
+    "units": 23.996,
+    "nav": 93.7598,
+    "value": 2249.89,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2026-01-28",
+    "type": "Invested",
+    "units": 10.665,
+    "nav": 93.7598,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2026-01-21",
+    "type": "Invested",
+    "units": 10.791,
+    "nav": 92.664,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2026-01-20",
+    "type": "Invested",
+    "units": 24.255,
+    "nav": 92.76,
+    "value": 2249.89,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2026-01-16",
+    "type": "Invested",
+    "units": 10.655,
+    "nav": 93.8469,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2026-01-13",
+    "type": "Invested",
+    "units": 23.89,
+    "nav": 94.1783,
+    "value": 2249.89,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2026-01-06",
+    "type": "Invested",
+    "units": 23.602,
+    "nav": 95.3244,
+    "value": 2249.89,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2026-01-05",
+    "type": "Invested",
+    "units": 10.49,
+    "nav": 95.3229,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2026-01-01",
+    "type": "Invested",
+    "units": 10.533,
+    "nav": 94.9335,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2025-12-30",
+    "type": "Invested",
+    "units": 23.78,
+    "nav": 94.6116,
+    "value": 2249.89,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2025-12-29",
+    "type": "Invested",
+    "units": 10.556,
+    "nav": 94.7304,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2025-12-26",
+    "type": "Invested",
+    "units": 10.52,
+    "nav": 95.0482,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2025-12-22",
+    "type": "Invested",
+    "units": 10.532,
+    "nav": 94.9471,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2025-12-17",
+    "type": "Invested",
+    "units": 265.654,
+    "nav": 94.1026,
+    "value": 24998.75,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2025-12-15",
+    "type": "Invested",
+    "units": 10.562,
+    "nav": 94.6742,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2025-12-08",
+    "type": "Invested",
+    "units": 21.095,
+    "nav": 94.8059,
+    "value": 1999.9,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2025-12-05",
+    "type": "Invested",
+    "units": 10.485,
+    "nav": 95.3718,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2025-12-01",
+    "type": "Invested",
+    "units": 10.532,
+    "nav": 94.9398,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2025-11-28",
+    "type": "Invested",
+    "units": 10.526,
+    "nav": 95.0019,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2025-11-25",
+    "type": "Invested",
+    "units": 10.594,
+    "nav": 94.3884,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2025-11-21",
+    "type": "Invested",
+    "units": 10.591,
+    "nav": 94.4109,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2025-11-17",
+    "type": "Invested",
+    "units": 10.58,
+    "nav": 94.5101,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2025-11-06",
+    "type": "Invested",
+    "units": 10.663,
+    "nav": 93.779,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2025-11-03",
+    "type": "Invested",
+    "units": 10.586,
+    "nav": 94.4577,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2025-10-28",
+    "type": "Invested",
+    "units": 10.471,
+    "nav": 95.5012,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2025-10-27",
+    "type": "Invested",
+    "units": 10.441,
+    "nav": 95.7732,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2025-10-23",
+    "type": "Invested",
+    "units": 10.489,
+    "nav": 95.3362,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2025-10-15",
+    "type": "Invested",
+    "units": 10.699,
+    "nav": 93.4655,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2025-10-06",
+    "type": "Invested",
+    "units": 10.751,
+    "nav": 93.0072,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2025-10-01",
+    "type": "Invested",
+    "units": 10.813,
+    "nav": 92.4742,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2025-09-29",
+    "type": "Invested",
+    "units": 10.826,
+    "nav": 92.3638,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2025-09-25",
+    "type": "Invested",
+    "units": 10.732,
+    "nav": 93.1763,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2025-09-22",
+    "type": "Invested",
+    "units": 10.627,
+    "nav": 94.0936,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2025-09-15",
+    "type": "Invested",
+    "units": 10.668,
+    "nav": 93.7345,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2025-09-05",
+    "type": "Invested",
+    "units": 10.809,
+    "nav": 92.513,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2025-09-02",
+    "type": "Invested",
+    "units": 10.947,
+    "nav": 91.3431,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2025-08-28",
+    "type": "Invested",
+    "units": 10.968,
+    "nav": 91.1734,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2025-08-25",
+    "type": "Invested",
+    "units": 10.837,
+    "nav": 92.2707,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2025-08-21",
+    "type": "Invested",
+    "units": 10.833,
+    "nav": 92.3056,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2025-08-18",
+    "type": "Invested",
+    "units": 10.759,
+    "nav": 92.9416,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2025-08-08",
+    "type": "Invested",
+    "units": 10.97,
+    "nav": 91.1563,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2025-08-07",
+    "type": "Invested",
+    "units": 10.928,
+    "nav": 91.5052,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2025-08-06",
+    "type": "Invested",
+    "units": 21.888,
+    "nav": 91.368,
+    "value": 1999.9,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2025-08-05",
+    "type": "Invested",
+    "units": 10.927,
+    "nav": 91.5126,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2025-07-28",
+    "type": "Invested",
+    "units": 10.918,
+    "nav": 91.5833,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2025-07-25",
+    "type": "Invested",
+    "units": 10.862,
+    "nav": 92.0559,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2025-07-21",
+    "type": "Invested",
+    "units": 10.806,
+    "nav": 92.5354,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2025-07-15",
+    "type": "Invested",
+    "units": 10.82,
+    "nav": 92.4187,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2025-07-08",
+    "type": "Invested",
+    "units": 10.812,
+    "nav": 92.484,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2025-07-07",
+    "type": "Invested",
+    "units": 10.792,
+    "nav": 92.6536,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2025-06-30",
+    "type": "Invested",
+    "units": 10.763,
+    "nav": 92.903,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2025-06-25",
+    "type": "Invested",
+    "units": 10.872,
+    "nav": 91.9789,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2025-06-23",
+    "type": "Invested",
+    "units": 10.963,
+    "nav": 91.2091,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2025-06-16",
+    "type": "Invested",
+    "units": 10.953,
+    "nav": 91.2972,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2025-06-05",
+    "type": "Invested",
+    "units": 11.083,
+    "nav": 90.2215,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2025-05-28",
+    "type": "Invested",
+    "units": 11.13,
+    "nav": 89.8449,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2025-05-26",
+    "type": "Invested",
+    "units": 11.068,
+    "nav": 90.3489,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2025-05-21",
+    "type": "Invested",
+    "units": 11.127,
+    "nav": 89.8657,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2025-05-15",
+    "type": "Invested",
+    "units": 11.111,
+    "nav": 89.996,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2025-05-05",
+    "type": "Invested",
+    "units": 11.355,
+    "nav": 88.0615,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2025-04-25",
+    "type": "Invested",
+    "units": 11.455,
+    "nav": 87.2934,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2025-04-07",
+    "type": "Invested",
+    "units": 12.186,
+    "nav": 82.0594,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2025-04-02",
+    "type": "Invested",
+    "units": 11.748,
+    "nav": 85.1159,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2025-04-02",
+    "type": "Invested",
+    "units": 11.748,
+    "nav": 85.1159,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2025-04-02",
+    "type": "Invested",
+    "units": 11.748,
+    "nav": 85.1159,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2025-03-25",
+    "type": "Invested",
+    "units": 11.502,
+    "nav": 86.9378,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2025-03-05",
+    "type": "Invested",
+    "units": 11.942,
+    "nav": 83.7353,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2025-02-25",
+    "type": "Invested",
+    "units": 11.863,
+    "nav": 84.2928,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2025-02-05",
+    "type": "Invested",
+    "units": 11.4,
+    "nav": 87.7154,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2025-01-27",
+    "type": "Invested",
+    "units": 11.727,
+    "nav": 85.2707,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2025-01-06",
+    "type": "Invested",
+    "units": 11.448,
+    "nav": 87.3465,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2024-12-26",
+    "type": "Invested",
+    "units": 11.421,
+    "nav": 87.5536,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2024-12-06",
+    "type": "Invested",
+    "units": 11.275,
+    "nav": 88.6888,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2024-11-25",
+    "type": "Invested",
+    "units": 11.503,
+    "nav": 86.9296,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2024-11-08",
+    "type": "Invested",
+    "units": 23.044,
+    "nav": 86.7847,
+    "value": 1999.9,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2024-11-06",
+    "type": "Invested",
+    "units": 11.482,
+    "nav": 87.0848,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2024-10-25",
+    "type": "Invested",
+    "units": 11.607,
+    "nav": 86.1527,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2024-10-08",
+    "type": "Invested",
+    "units": 11.536,
+    "nav": 86.6821,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2024-09-25",
+    "type": "Invested",
+    "units": 11.212,
+    "nav": 89.1877,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2024-09-06",
+    "type": "Invested",
+    "units": 11.745,
+    "nav": 85.1393,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2024-08-26",
+    "type": "Invested",
+    "units": 11.66,
+    "nav": 85.7622,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2024-08-20",
+    "type": "Invested",
+    "units": 11.742,
+    "nav": 85.1607,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2024-08-16",
+    "type": "Invested",
+    "units": 11.85,
+    "nav": 84.3808,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2024-08-12",
+    "type": "Invested",
+    "units": 11.944,
+    "nav": 83.7172,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2024-08-06",
+    "type": "Invested",
+    "units": 12.167,
+    "nav": 82.1857,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2024-07-25",
+    "type": "Invested",
+    "units": 12.054,
+    "nav": 82.9565,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2024-07-05",
+    "type": "Invested",
+    "units": 11.915,
+    "nav": 83.9205,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2024-07-04",
+    "type": "Invested",
+    "units": 143.158,
+    "nav": 83.819,
+    "value": 11999.4,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2024-07-02",
+    "type": "Invested",
+    "units": 12.117,
+    "nav": 82.5255,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2024-07-02",
+    "type": "Invested",
+    "units": 12.117,
+    "nav": 82.5255,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2024-07-02",
+    "type": "Invested",
+    "units": 12.117,
+    "nav": 82.5255,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2024-06-18",
+    "type": "Invested",
+    "units": 24.702,
+    "nav": 80.9622,
+    "value": 1999.9,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2024-06-10",
+    "type": "Invested",
+    "units": 62.38,
+    "nav": 80.15,
+    "value": 4999.75,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2024-05-15",
+    "type": "Invested",
+    "units": 25.74,
+    "nav": 77.6977,
+    "value": 1999.9,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2024-04-15",
+    "type": "Invested",
+    "units": 26.373,
+    "nav": 75.8301,
+    "value": 1999.9,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2024-04-15",
+    "type": "Invested",
+    "units": 329.668,
+    "nav": 75.8301,
+    "value": 24998.75,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2024-04-05",
+    "type": "Invested",
+    "units": 78.656,
+    "nav": 76.3282,
+    "value": 6003.7,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2024-03-27",
+    "type": "Invested",
+    "units": 120.861,
+    "nav": 74.4617,
+    "value": 8999.55,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2024-03-15",
+    "type": "Invested",
+    "units": 27.169,
+    "nav": 73.6088,
+    "value": 1999.9,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2024-02-15",
+    "type": "Invested",
+    "units": 26.768,
+    "nav": 74.7137,
+    "value": 1999.9,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2024-01-18",
+    "type": "Invested",
+    "units": 42.644,
+    "nav": 70.3466,
+    "value": 2999.85,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2024-01-15",
+    "type": "Invested",
+    "units": 27.831,
+    "nav": 71.8577,
+    "value": 1999.9,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2023-12-15",
+    "type": "Invested",
+    "units": 28.74,
+    "nav": 69.5862,
+    "value": 1999.9,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2023-11-15",
+    "type": "Invested",
+    "units": 15.165,
+    "nav": 65.9372,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2023-10-16",
+    "type": "Invested",
+    "units": 15.649,
+    "nav": 63.8978,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2023-09-15",
+    "type": "Invested",
+    "units": 15.676,
+    "nav": 63.7866,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2023-08-16",
+    "type": "Invested",
+    "units": 16.432,
+    "nav": 60.853,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2023-07-17",
+    "type": "Invested",
+    "units": 16.442,
+    "nav": 60.8153,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2023-06-15",
+    "type": "Invested",
+    "units": 17.06,
+    "nav": 58.6131,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2023-05-15",
+    "type": "Invested",
+    "units": 17.619,
+    "nav": 56.7543,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2023-04-17",
+    "type": "Invested",
+    "units": 18.313,
+    "nav": 54.6034,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2023-03-15",
+    "type": "Invested",
+    "units": 19.169,
+    "nav": 52.1662,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2023-02-15",
+    "type": "Invested",
+    "units": 18.91,
+    "nav": 52.8794,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2023-01-18",
+    "type": "Invested",
+    "units": 19.323,
+    "nav": 51.75,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2022-12-15",
+    "type": "Invested",
+    "units": 19.093,
+    "nav": 52.3737,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2022-11-15",
+    "type": "Invested",
+    "units": 19.089,
+    "nav": 52.3847,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2022-10-17",
+    "type": "Invested",
+    "units": 19.745,
+    "nav": 50.6426,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2022-09-15",
+    "type": "Invested",
+    "units": 18.972,
+    "nav": 52.7059,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2022-08-16",
+    "type": "Invested",
+    "units": 19.095,
+    "nav": 52.368,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2022-07-18",
+    "type": "Invested",
+    "units": 20.742,
+    "nav": 48.2078,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2022-06-15",
+    "type": "Invested",
+    "units": 21.474,
+    "nav": 46.5659,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2022-05-16",
+    "type": "Invested",
+    "units": 20.991,
+    "nav": 47.6371,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2022-04-18",
+    "type": "Invested",
+    "units": 19.354,
+    "nav": 51.667,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2022-03-15",
+    "type": "Invested",
+    "units": 20.217,
+    "nav": 49.46,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2022-02-15",
+    "type": "Invested",
+    "units": 19.301,
+    "nav": 51.8092,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2022-01-17",
+    "type": "Invested",
+    "units": 18.249,
+    "nav": 54.7944,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2021-12-15",
+    "type": "Invested",
+    "units": 18.364,
+    "nav": 54.4507,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2021-11-15",
+    "type": "Invested",
+    "units": 18.103,
+    "nav": 55.2368,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2021-10-18",
+    "type": "Invested",
+    "units": 18.135,
+    "nav": 55.1387,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2021-09-15",
+    "type": "Invested",
+    "units": 19.152,
+    "nav": 52.2115,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2021-08-16",
+    "type": "Invested",
+    "units": 20.553,
+    "nav": 48.652,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2021-07-15",
+    "type": "Invested",
+    "units": 20.878,
+    "nav": 47.8948,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2021-06-15",
+    "type": "Invested",
+    "units": 22.337,
+    "nav": 44.7675,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2021-05-17",
+    "type": "Invested",
+    "units": 23.409,
+    "nav": 42.7157,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2021-04-15",
+    "type": "Invested",
+    "units": 24.481,
+    "nav": 40.8463,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2021-03-15",
+    "type": "Invested",
+    "units": 25.169,
+    "nav": 39.7287,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2021-02-15",
+    "type": "Invested",
+    "units": 24.816,
+    "nav": 40.2947,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2021-01-15",
+    "type": "Invested",
+    "units": 26.624,
+    "nav": 37.5585,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2020-12-29",
+    "type": "Invested",
+    "units": 26.999,
+    "nav": 37.0368,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2020-12-17",
+    "type": "Invested",
+    "units": 274.656,
+    "nav": 36.4074,
+    "value": 9999.5,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2020-12-15",
+    "type": "Invested",
+    "units": 27.649,
+    "nav": 36.166,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2020-10-30",
+    "type": "Invested",
+    "units": 30.673,
+    "nav": 32.5999,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  },
+  {
+    "date": "2020-10-27",
+    "type": "Invested",
+    "units": 30.3,
+    "nav": 33.0021,
+    "value": 999.95,
+    "scheme": "Parag Parikh Flexi Cap Fund - Direct Plan Growth"
+  }
+]
