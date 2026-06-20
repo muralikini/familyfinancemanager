@@ -1391,50 +1391,67 @@ async function loadMFData() {
         if (!response.ok) throw new Error('Failed to load accounts.json');
         
         const accounts = await response.json();
-        console.log("Loaded accounts:", accounts.length);
-
         let allTransactions = [];
 
         for (const account of accounts) {
             try {
                 const fileResponse = await fetch(account.filePath);
-                if (!fileResponse.ok) {
-                    console.warn(`Skipping ${account.filePath} - file not found`);
-                    continue;
-                }
-                
-                const transactions = await fileResponse.json();
-                
-                // Enrich each transaction with account info
-                const enriched = transactions.map(txn => ({
-                    ...txn,
-                    personId: account.personId,
-                    provider: account.provider || "Unknown",
-                    folioNumber: account.folioNumber || "",
-                    displayName: account.displayName || txn.scheme || "Unknown Fund",
-                    scheme: account.displayName || txn.scheme || "Unknown Fund"
-                }));
-                
-                allTransactions = allTransactions.concat(enriched);
+                if (!fileResponse.ok) continue;
+
+                let transactions = await fileResponse.json();
+
+                // === NORMALIZE DATA FORMAT ===
+                const normalized = transactions.map(txn => {
+                    // Detect if it's Groww format or ICICI format
+                    const isGrowwFormat = txn.hasOwnProperty('value') && !txn.hasOwnProperty('amount');
+
+                    if (isGrowwFormat) {
+                        // Groww Format
+                        return {
+                            date: txn.date || "",
+                            type: txn.type || "Invested",
+                            amount: parseFloat(txn.value) || 0,
+                            nav: parseFloat(txn.nav) || 0,
+                            units: parseFloat(txn.units) || 0,
+                            balance_units: parseFloat(txn.units) || 0, // Groww doesn't have balance
+                            scheme: txn.scheme || account.displayName,
+                            provider: account.provider,
+                            folioNumber: account.folioNumber,
+                            displayName: account.displayName
+                        };
+                    } else {
+                        // ICICI Format (our generated JSONs)
+                        return {
+                            date: txn.date || "",
+                            type: txn.type || "",
+                            amount: parseFloat(txn.amount) || 0,
+                            nav: parseFloat(txn.nav) || 0,
+                            units: parseFloat(txn.units) || 0,
+                            balance_units: parseFloat(txn.balance_units) || 0,
+                            scheme: txn.scheme || account.displayName,
+                            provider: account.provider,
+                            folioNumber: account.folioNumber,
+                            displayName: account.displayName
+                        };
+                    }
+                });
+
+                allTransactions = allTransactions.concat(normalized);
+
             } catch (err) {
-                console.warn(`Error loading ${account.filePath}:`, err);
+                console.warn(`Error loading: ${account.filePath}`);
             }
         }
 
         mfData.transactions = allTransactions;
         
-        // Calculate holdings
         calculateMFHoldings();
-        
-        // Render everything
         renderMFHoldings();
         renderMFTransactions();
-        
-        // Update summary cards
         updateMFSummaryCards();
-        
-        console.log(`✅ Successfully loaded ${allTransactions.length} MF transactions`);
-        
+
+        console.log(`✅ Loaded ${allTransactions.length} transactions (normalized)`);
+
     } catch (error) {
         console.error("Error loading MF data:", error);
         alert("Error loading MF data");
