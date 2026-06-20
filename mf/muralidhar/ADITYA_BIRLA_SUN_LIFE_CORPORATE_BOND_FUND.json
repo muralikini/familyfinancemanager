@@ -1,0 +1,41 @@
+[
+  {
+    "date": "2020-12-14",
+    "type": "Purchase",
+    "amount": 99994.99,
+    "nav": 86.2109,
+    "units": 1159.888,
+    "balance_units": null,
+    "scheme": "ADITYA BIRLA SUN LIFE CORPORATE BOND FUND - DIRECT PLAN",
+    "normalized_scheme": "ADITYA BIRLA SUN LIFE CORPORATE BOND FUND",
+    "provider": "Zerodha",
+    "exchange": "BSE",
+    "tradeId": "185315644"
+  },
+  {
+    "date": "2020-12-16",
+    "type": "Purchase",
+    "amount": 99994.97,
+    "nav": 86.2349,
+    "units": 1159.565,
+    "balance_units": null,
+    "scheme": "ADITYA BIRLA SUN LIFE CORPORATE BOND FUND - DIRECT PLAN",
+    "normalized_scheme": "ADITYA BIRLA SUN LIFE CORPORATE BOND FUND",
+    "provider": "Zerodha",
+    "exchange": "BSE",
+    "tradeId": "186364766"
+  },
+  {
+    "date": "2021-03-12",
+    "type": "Redemption",
+    "amount": 199592.18,
+    "nav": 86.0514,
+    "units": 2319.453,
+    "balance_units": null,
+    "scheme": "ADITYA BIRLA SUN LIFE CORPORATE BOND FUND - DIRECT PLAN",
+    "normalized_scheme": "ADITYA BIRLA SUN LIFE CORPORATE BOND FUND",
+    "provider": "Zerodha",
+    "exchange": "BSE",
+    "tradeId": "213913749"
+  }
+]

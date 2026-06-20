@@ -1,0 +1,28 @@
+[
+  {
+    "date": "2024-12-02",
+    "type": "Purchase",
+    "amount": 4999.77,
+    "nav": 129.0262,
+    "units": 38.75,
+    "balance_units": null,
+    "scheme": "QUANT LARGE AND MID CAP FUND - DIRECT PLAN",
+    "normalized_scheme": "QUANT LARGE AND MID CAP FUND",
+    "provider": "Zerodha",
+    "exchange": "BSE",
+    "tradeId": "1514087641"
+  },
+  {
+    "date": "2025-08-05",
+    "type": "Redemption",
+    "amount": 4789.84,
+    "nav": 123.6088,
+    "units": 38.75,
+    "balance_units": null,
+    "scheme": "QUANT LARGE & MID CAP FUND - DIRECT PLAN",
+    "normalized_scheme": "QUANT LARGE & MID CAP FUND",
+    "provider": "Zerodha",
+    "exchange": "BSE",
+    "tradeId": "2022974760"
+  }
+]

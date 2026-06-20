@@ -1,0 +1,41 @@
+[
+  {
+    "date": "2021-02-05",
+    "type": "Purchase",
+    "amount": 499975.0,
+    "nav": 48.2682,
+    "units": 10358.269,
+    "balance_units": null,
+    "scheme": "ICICI PRUDENTIAL SHORT TERM FUND - DIRECT PLAN",
+    "normalized_scheme": "ICICI PRUDENTIAL SHORT TERM FUND",
+    "provider": "Zerodha",
+    "exchange": "BSE",
+    "tradeId": "201313703"
+  },
+  {
+    "date": "2021-05-25",
+    "type": "Redemption",
+    "amount": 251160.21,
+    "nav": 49.2471,
+    "units": 5100.0,
+    "balance_units": null,
+    "scheme": "ICICI PRUDENTIAL SHORT TERM FUND - DIRECT PLAN",
+    "normalized_scheme": "ICICI PRUDENTIAL SHORT TERM FUND",
+    "provider": "Zerodha",
+    "exchange": "BSE",
+    "tradeId": "240483586"
+  },
+  {
+    "date": "2021-05-31",
+    "type": "Redemption",
+    "amount": 258790.97,
+    "nav": 49.216,
+    "units": 5258.269,
+    "balance_units": null,
+    "scheme": "ICICI PRUDENTIAL SHORT TERM FUND - DIRECT PLAN",
+    "normalized_scheme": "ICICI PRUDENTIAL SHORT TERM FUND",
+    "provider": "Zerodha",
+    "exchange": "BSE",
+    "tradeId": "241873933"
+  }
+]
