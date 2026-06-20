@@ -311,22 +311,20 @@
                 </div>
 
                 <!-- Current Holdings -->
-                <div class="bg-zinc-900 border border-zinc-700 rounded-xl p-6 mb-6">
-                    <h3 class="text-lg font-semibold text-white mb-4">Current Holdings</h3>
+                <div class="bg-zinc-900 border border-zinc-800 rounded-2xl p-6 mb-8">
+                    <h3 class="text-xl font-semibold text-white mb-4">Current Holdings</h3>
                     <div class="overflow-x-auto">
-                        <table class="w-full text-sm">
+                        <table class="w-full">
                             <thead>
-                                <tr class="border-b border-zinc-700 text-zinc-400">
-                                    <th class="text-left py-3 px-4">Date</th>
-                                    <th class="text-left py-3 px-4">Scheme</th>           <!-- NEW -->
-                                    <th class="text-left py-3 px-4">Type</th>
-                                    <th class="text-right py-3 px-4">Amount (₹)</th>
-                                    <th class="text-right py-3 px-4">Units</th>
-                                    <th class="text-right py-3 px-4">NAV</th>
-                                    <th class="text-right py-3 px-4">Balance Units</th>
+                                <tr class="border-b border-zinc-700">
+                                    <th class="text-left py-3 px-4 text-zinc-400 font-medium">Scheme</th>
+                                    <th class="text-right py-3 px-4 text-zinc-400 font-medium">Current Units</th>
+                                    <th class="text-right py-3 px-4 text-zinc-400 font-medium">Total Invested (₹)</th>
                                 </tr>
                             </thead>
-                            <tbody id="mfHoldingsTable" class="text-white"></tbody>
+                            <tbody id="mfHoldingsTable" class="text-white">
+                                <!-- Populated by JavaScript -->
+                            </tbody>
                         </table>
                     </div>
                 </div>
@@ -1466,28 +1464,38 @@ function updateMFSummaryCards() {
 
 function calculateMFHoldings() {
     const holdingsMap = {};
-    
+
     mfData.transactions.forEach(txn => {
-        const key = txn.scheme || txn.displayName;
-        if (!key) return;
-        
-        if (!holdingsMap[key]) {
-            holdingsMap[key] = {
-                scheme: key,
+        const scheme = txn.scheme || txn.displayName;
+        if (!scheme) return;
+
+        const type = (txn.type || "").toLowerCase();
+        const amount = parseFloat(txn.amount) || 0;
+        const units = parseFloat(txn.units) || 0;
+
+        if (!holdingsMap[scheme]) {
+            holdingsMap[scheme] = {
+                scheme: scheme,
                 totalUnits: 0,
-                totalInvested: 0,
-                transactions: 0
+                totalInvested: 0
             };
         }
-        
-        const units = parseFloat(txn.units) || 0;
-        const amount = parseFloat(txn.amount) || 0;
-        
-        holdingsMap[key].totalUnits += units;
-        holdingsMap[key].totalInvested += amount;
-        holdingsMap[key].transactions += 1;
+
+        // Only count actual investments for "Total Invested"
+        const isInvestment = 
+            type.includes("purchase") || 
+            type.includes("sip") || 
+            type.includes("switch-in") || 
+            type.includes("switch in");
+
+        if (isInvestment && amount > 0) {
+            holdingsMap[scheme].totalInvested += amount;
+        }
+
+        // Net units (buy adds, sell subtracts)
+        holdingsMap[scheme].totalUnits += units;
     });
-    
+
     mfData.holdings = Object.values(holdingsMap);
 }
 
@@ -1538,20 +1546,26 @@ function updateMFSummary() {
 }
 
 function renderMFHoldings() {
-    const container = document.getElementById('mfHoldingsTable'); // Change ID if different
-    if (!container) return;
-    
+    const tbody = document.getElementById('mfHoldingsTable');
+    if (!tbody) return;
+
     let html = '';
+
     mfData.holdings.forEach(h => {
+        const invested = h.totalInvested || 0;
+        const units = h.totalUnits || 0;
+
         html += `
-            <tr>
-                <td>${h.scheme}</td>
-                <td>${h.totalUnits.toFixed(3)}</td>
-                <td>₹${h.totalInvested.toLocaleString('en-IN')}</td>
+            <tr class="border-b border-zinc-800 hover:bg-zinc-800">
+                <td class="py-3 px-4 font-medium">${h.scheme}</td>
+                <td class="py-3 px-4 text-right">${units.toFixed(3)}</td>
+                <td class="py-3 px-4 text-right">₹${invested.toLocaleString('en-IN')}</td>
             </tr>
         `;
     });
-    container.innerHTML = html || '<tr><td colspan="3">No holdings found</td></tr>';
+
+    tbody.innerHTML = html || 
+        '<tr><td colspan="3" class="py-4 text-center text-zinc-500">No holdings found. Please load data.</td></tr>';
 }
 
 function renderMFTransactions(filteredTransactions = null) {
