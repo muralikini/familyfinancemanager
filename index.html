@@ -1470,17 +1470,37 @@ async function loadMFData() {
 }
 
 function populateMFFilters() {
-    // Year Filter
+    // === Year Filter (Fixed) ===
     const yearSelect = document.getElementById('mfYearFilter');
-    const years = [...new Set(mfData.transactions.map(t => t.date ? t.date.substring(0, 4) : null))]
-        .filter(Boolean).sort().reverse();
+    
+    const years = new Set();
+    
+    mfData.transactions.forEach(txn => {
+        if (!txn.date) return;
+        
+        let year = null;
+        
+        // Handle both YYYY-MM-DD and DD/MM/YYYY formats
+        if (txn.date.includes('-')) {
+            year = txn.date.substring(0, 4);           // YYYY-MM-DD
+        } else if (txn.date.includes('/')) {
+            const parts = txn.date.split('/');
+            year = parts[2];                           // DD/MM/YYYY
+        }
+        
+        if (year && year.length === 4) {
+            years.add(year);
+        }
+    });
+
+    const sortedYears = Array.from(years).sort().reverse();
 
     yearSelect.innerHTML = '<option value="">All Years</option>';
-    years.forEach(y => {
+    sortedYears.forEach(y => {
         yearSelect.innerHTML += `<option value="${y}">${y}</option>`;
     });
 
-    // Scheme Filter
+    // === Scheme Filter ===
     const schemeSelect = document.getElementById('mfSchemeFilter');
     const schemes = [...new Set(mfData.transactions.map(t => t.scheme))].sort();
 
@@ -1520,7 +1540,6 @@ function calculateMFHoldings() {
         const scheme = txn.scheme || txn.displayName;
         if (!scheme) return;
 
-        const type = (txn.type || "").toLowerCase();
         const amount = parseFloat(txn.amount) || 0;
         const units = parseFloat(txn.units) || 0;
 
@@ -1532,15 +1551,17 @@ function calculateMFHoldings() {
             };
         }
 
-        // Only count real investments
-        const isRealInvestment = 
+        const type = (txn.type || "").toLowerCase();
+
+        // Only add positive amounts from real investments
+        const isInvestment = 
             type.includes("purchase") || 
             type.includes("sip") || 
             type.includes("switch-in") || 
             type.includes("switch in") ||
-            type === "invested";                    // For Groww
+            type === "invested";
 
-        if (isRealInvestment && amount > 0) {
+        if (isInvestment && amount > 0) {
             holdingsMap[scheme].totalInvested += amount;
         }
 
