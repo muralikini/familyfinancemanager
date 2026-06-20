@@ -1,0 +1,142 @@
+[
+  {
+    "date": "10/02/2016",
+    "type": "SIP Purchase - Instalment 20/21 - ARN-0155/E088746",
+    "amount": 3000.0,
+    "nav": 25.83,
+    "units": 116.144,
+    "balance_units": 4728.737,
+    "scheme": "ICICI Prudential Large Cap Fund (erstwhile Bluechip Fund) - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "10/03/2015",
+    "type": "SIP Purchase - Instalment 9/21 - ARN-0155/<Euin Code : E088746>",
+    "amount": 3000.0,
+    "nav": 30.22,
+    "units": 99.272,
+    "balance_units": 3567.119,
+    "scheme": "ICICI Prudential Large Cap Fund (erstwhile Bluechip Fund) - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "10/03/2016",
+    "type": "SIP Purchase - Instalment 21/21 - ARN-0155/E088746",
+    "amount": 3000.0,
+    "nav": 26.45,
+    "units": 113.422,
+    "balance_units": 4842.159,
+    "scheme": "ICICI Prudential Large Cap Fund (erstwhile Bluechip Fund) - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "10/04/2015",
+    "type": "SIP Purchase - Instalment 10/21 - ARN-0155/<Euin Code : E088746>",
+    "amount": 3000.0,
+    "nav": 30.45,
+    "units": 98.522,
+    "balance_units": 3665.641,
+    "scheme": "ICICI Prudential Large Cap Fund (erstwhile Bluechip Fund) - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "10/06/2015",
+    "type": "SIP Purchase - Instalment 12/21 - ARN-0155/<Euin Code : E088746>",
+    "amount": 3000.0,
+    "nav": 28.52,
+    "units": 105.189,
+    "balance_units": 3874.744,
+    "scheme": "ICICI Prudential Large Cap Fund (erstwhile Bluechip Fund) - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "10/07/2015",
+    "type": "SIP Purchase - Instalment 13/21 - ARN-0155/<Euin Code : E088746>",
+    "amount": 3000.0,
+    "nav": 29.31,
+    "units": 102.354,
+    "balance_units": 3977.098,
+    "scheme": "ICICI Prudential Large Cap Fund (erstwhile Bluechip Fund) - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "10/08/2015",
+    "type": "SIP Purchase - Instalment 14/21 - ARN-0155/E088746",
+    "amount": 3000.0,
+    "nav": 30.32,
+    "units": 98.945,
+    "balance_units": 4076.043,
+    "scheme": "ICICI Prudential Large Cap Fund (erstwhile Bluechip Fund) - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "10/09/2015",
+    "type": "SIP Purchase - Instalment 15/21 - ARN-0155/E088746",
+    "amount": 3000.0,
+    "nav": 27.78,
+    "units": 107.991,
+    "balance_units": 4184.034,
+    "scheme": "ICICI Prudential Large Cap Fund (erstwhile Bluechip Fund) - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "10/11/2015",
+    "type": "SIP Purchase - Instalment 17/21 - ARN-0155/E088746",
+    "amount": 3000.0,
+    "nav": 28.08,
+    "units": 106.838,
+    "balance_units": 4395.256,
+    "scheme": "ICICI Prudential Large Cap Fund (erstwhile Bluechip Fund) - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "10/12/2015",
+    "type": "SIP Purchase - Instalment 18/21 - ARN-0155/E088746",
+    "amount": 3000.0,
+    "nav": 27.9,
+    "units": 107.527,
+    "balance_units": 4502.783,
+    "scheme": "ICICI Prudential Large Cap Fund (erstwhile Bluechip Fund) - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "11/01/2016",
+    "type": "SIP Purchase - Instalment 19/21 - ARN-0155/E088746",
+    "amount": 3000.0,
+    "nav": 27.32,
+    "units": 109.81,
+    "balance_units": 4612.593,
+    "scheme": "ICICI Prudential Large Cap Fund (erstwhile Bluechip Fund) - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "11/05/2015",
+    "type": "SIP Purchase - Instalment 11/21 - ARN-0155/<Euin Code : E088746>",
+    "amount": 3000.0,
+    "nav": 28.87,
+    "units": 103.914,
+    "balance_units": 3769.555,
+    "scheme": "ICICI Prudential Large Cap Fund (erstwhile Bluechip Fund) - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "12/10/2015",
+    "type": "SIP Purchase - Instalment 16/21 - ARN-0155/E088746",
+    "amount": 3000.0,
+    "nav": 28.74,
+    "units": 104.384,
+    "balance_units": 4288.418,
+    "scheme": "ICICI Prudential Large Cap Fund (erstwhile Bluechip Fund) - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "22/12/2017",
+    "type": "Switch Out - To Focused Bluechip Equity -Drt Growth  less STT",
+    "amount": -197800.2,
+    "nav": 40.85,
+    "units": -4842.159,
+    "balance_units": 0.0,
+    "scheme": "ICICI Prudential Large Cap Fund (erstwhile Bluechip Fund) - Growth",
+    "folio": "5658902"
+  }
+]

@@ -1,0 +1,202 @@
+[
+  {
+    "date": "02/01/2026",
+    "type": "STP Switch In - From Large Cap Fund (erstwhile Bluechip Fund) - Direct Plan Growth - Instalment 4/150 - via Internet",
+    "amount": 999.95,
+    "nav": 87.48,
+    "units": 11.431,
+    "balance_units": 684.901,
+    "scheme": "ICICI Prudential Balanced Advantage Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "03/12/2025",
+    "type": "Purchase - via Internet - DIRECT",
+    "amount": 4999.75,
+    "nav": 86.51,
+    "units": 57.794,
+    "balance_units": 57.794,
+    "scheme": "ICICI Prudential Balanced Advantage Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "05/12/2025",
+    "type": "Purchase - via Internet - DIRECT",
+    "amount": 49997.5,
+    "nav": 86.75,
+    "units": 576.34,
+    "balance_units": 634.134,
+    "scheme": "ICICI Prudential Balanced Advantage Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "09/01/2026",
+    "type": "STP Switch In - From Large Cap Fund (erstwhile Bluechip Fund) - Direct Plan Growth - Instalment 5/150 - via Internet",
+    "amount": 999.95,
+    "nav": 86.5,
+    "units": 11.56,
+    "balance_units": 696.461,
+    "scheme": "ICICI Prudential Balanced Advantage Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "09/02/2026",
+    "type": "Switch Out - To Multi-Asset Fund - DP Growth - via Internet  less STT",
+    "amount": -19139.74,
+    "nav": 87.11,
+    "units": -219.721,
+    "balance_units": 512.682,
+    "scheme": "ICICI Prudential Balanced Advantage Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "09/02/2026",
+    "type": "Switch Out - To Multi-Asset Fund - DP Growth - via Internet less STT, Exit Load",
+    "amount": -44213.21,
+    "nav": 87.11,
+    "units": -512.682,
+    "balance_units": 0.0,
+    "scheme": "ICICI Prudential Balanced Advantage Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "11/12/2025",
+    "type": "SIP Purchase - Instalment 1/7827 - via Internet - DIRECT",
+    "amount": 199.99,
+    "nav": 86.26,
+    "units": 2.318,
+    "balance_units": 636.452,
+    "scheme": "ICICI Prudential Balanced Advantage Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "12/12/2025",
+    "type": "STP Switch In - From Large Cap Fund (erstwhile Bluechip Fund) - Direct Plan Growth - Instalment 1/150 - via Internet",
+    "amount": 999.95,
+    "nav": 86.59,
+    "units": 11.548,
+    "balance_units": 648.0,
+    "scheme": "ICICI Prudential Balanced Advantage Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "12/12/2025",
+    "type": "SIP Purchase - Instalment 2/7827 - via Internet - DIRECT",
+    "amount": 199.99,
+    "nav": 86.59,
+    "units": 2.31,
+    "balance_units": 650.31,
+    "scheme": "ICICI Prudential Balanced Advantage Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "15/12/2025",
+    "type": "SIP Purchase - Instalment 3/7827 - via Internet - DIRECT",
+    "amount": 199.99,
+    "nav": 86.59,
+    "units": 2.31,
+    "balance_units": 652.62,
+    "scheme": "ICICI Prudential Balanced Advantage Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "15/12/2025",
+    "type": "SIP Purchase (Reversal) - Instalment No 3 No Approved Mandates are available",
+    "amount": -199.99,
+    "nav": 86.59,
+    "units": -2.31,
+    "balance_units": 650.31,
+    "scheme": "ICICI Prudential Balanced Advantage Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "16/12/2025",
+    "type": "SIP Purchase - Instalment 4/7827 - via Internet - DIRECT",
+    "amount": 199.99,
+    "nav": 86.37,
+    "units": 2.316,
+    "balance_units": 652.626,
+    "scheme": "ICICI Prudential Balanced Advantage Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "16/12/2025",
+    "type": "SIP Purchase (Reversal) - Instalment No 4 No Approved Mandates are available",
+    "amount": -199.99,
+    "nav": 86.37,
+    "units": -2.316,
+    "balance_units": 650.31,
+    "scheme": "ICICI Prudential Balanced Advantage Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "17/12/2025",
+    "type": "SIP Purchase - Instalment 5/7827 - via Internet - DIRECT",
+    "amount": 199.99,
+    "nav": 86.23,
+    "units": 2.319,
+    "balance_units": 652.629,
+    "scheme": "ICICI Prudential Balanced Advantage Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "17/12/2025",
+    "type": "SIP Purchase (Reversal) - Instalment No 5 Mandate Predebit Notification Failed",
+    "amount": -199.99,
+    "nav": 86.23,
+    "units": -2.319,
+    "balance_units": 650.31,
+    "scheme": "ICICI Prudential Balanced Advantage Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "19/01/2026",
+    "type": "STP Switch In - From Large Cap Fund (erstwhile Bluechip Fund) - Direct Plan Growth - Instalment 6/150 - via Internet",
+    "amount": 1017.06,
+    "nav": 86.38,
+    "units": 11.774,
+    "balance_units": 708.235,
+    "scheme": "ICICI Prudential Balanced Advantage Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "19/12/2025",
+    "type": "STP Switch In - From Large Cap Fund (erstwhile Bluechip Fund) - Direct Plan Growth - Instalment 2/150 - via Internet",
+    "amount": 1004.17,
+    "nav": 86.6,
+    "units": 11.595,
+    "balance_units": 661.905,
+    "scheme": "ICICI Prudential Balanced Advantage Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "23/01/2026",
+    "type": "STP Switch In - From Large Cap Fund (erstwhile Bluechip Fund) - Direct Plan Growth - Instalment 7/150 - via Internet",
+    "amount": 1064.87,
+    "nav": 85.13,
+    "units": 12.509,
+    "balance_units": 720.744,
+    "scheme": "ICICI Prudential Balanced Advantage Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "29/12/2025",
+    "type": "STP Switch In - From Large Cap Fund (erstwhile Bluechip Fund) - Direct Plan Growth - Instalment 3/150 - via Internet",
+    "amount": 999.95,
+    "nav": 86.46,
+    "units": 11.565,
+    "balance_units": 673.47,
+    "scheme": "ICICI Prudential Balanced Advantage Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "30/01/2026",
+    "type": "STP Switch In - From Large Cap Fund (erstwhile Bluechip Fund) - Direct Plan Growth - Instalment 8/150 - via Internet",
+    "amount": 999.95,
+    "nav": 85.77,
+    "units": 11.659,
+    "balance_units": 732.403,
+    "scheme": "ICICI Prudential Balanced Advantage Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  }
+]

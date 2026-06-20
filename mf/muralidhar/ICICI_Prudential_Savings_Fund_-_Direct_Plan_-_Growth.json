@@ -1,0 +1,162 @@
+[
+  {
+    "date": "05/02/2020",
+    "type": "Switch In - From Money Market Fund -Drt Growth - DIRECT",
+    "amount": 154577.34,
+    "nav": 387.5018,
+    "units": 398.908,
+    "balance_units": 593.364,
+    "scheme": "ICICI Prudential Savings Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "10/02/2020",
+    "type": "Purchase - DIRECT",
+    "amount": 40000.0,
+    "nav": 388.582,
+    "units": 102.938,
+    "balance_units": 696.302,
+    "scheme": "ICICI Prudential Savings Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "11/02/2021",
+    "type": "Purchase - via Internet - DIRECT",
+    "amount": 299985.0,
+    "nav": 418.7543,
+    "units": 716.375,
+    "balance_units": 1901.354,
+    "scheme": "ICICI Prudential Savings Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "13/09/2021",
+    "type": "Redemption - ELECTRONIC PAYMENT - via Internet - 706701901765",
+    "amount": -75000.0,
+    "nav": 431.1132,
+    "units": -173.968,
+    "balance_units": 545.447,
+    "scheme": "ICICI Prudential Savings Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "15/01/2020",
+    "type": "Purchase - DIRECT",
+    "amount": 75000.0,
+    "nav": 385.6911,
+    "units": 194.456,
+    "balance_units": 194.456,
+    "scheme": "ICICI Prudential Savings Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "17/03/2020",
+    "type": "Switch In - From Bluechip Fund - Direct Plan Growth - DIRECT",
+    "amount": 100000.0,
+    "nav": 387.4995,
+    "units": 258.067,
+    "balance_units": 1031.429,
+    "scheme": "ICICI Prudential Savings Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "17/03/2020",
+    "type": "Switch In - From Equity&Debt Fund - DP - Growth - DIRECT",
+    "amount": 120000.0,
+    "nav": 387.4995,
+    "units": 309.678,
+    "balance_units": 1341.107,
+    "scheme": "ICICI Prudential Savings Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "17/12/2020",
+    "type": "Purchase - via Internet - DIRECT",
+    "amount": 9999.5,
+    "nav": 416.5271,
+    "units": 24.007,
+    "balance_units": 1173.01,
+    "scheme": "ICICI Prudential Savings Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "18/02/2020",
+    "type": "Purchase - DIRECT",
+    "amount": 30000.0,
+    "nav": 389.3094,
+    "units": 77.06,
+    "balance_units": 773.362,
+    "scheme": "ICICI Prudential Savings Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "20/05/2021",
+    "type": "Redemption - ELECTRONIC PAYMENT - via Internet - 706701901765",
+    "amount": -300000.0,
+    "nav": 423.0336,
+    "units": -709.163,
+    "balance_units": 1192.191,
+    "scheme": "ICICI Prudential Savings Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "20/05/2021",
+    "type": "Redemption - ELECTRONIC PAYMENT - via Internet - 706701901765",
+    "amount": -200000.0,
+    "nav": 423.0336,
+    "units": -472.776,
+    "balance_units": 719.415,
+    "scheme": "ICICI Prudential Savings Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "21/02/2022",
+    "type": "Redemption - ELECTRONIC PAYMENT - 866469901306",
+    "amount": -101250.15,
+    "nav": 435.2505,
+    "units": -232.625,
+    "balance_units": 0.0,
+    "scheme": "ICICI Prudential Savings Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "21/08/2020",
+    "type": "Purchase - DIRECT",
+    "amount": 19999.0,
+    "nav": 406.7071,
+    "units": 49.173,
+    "balance_units": 1390.28,
+    "scheme": "ICICI Prudential Savings Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "23/11/2020",
+    "type": "Redemption - ELECTRONIC PAYMENT - via Internet",
+    "amount": -100000.0,
+    "nav": 414.4622,
+    "units": -241.277,
+    "balance_units": 1149.003,
+    "scheme": "ICICI Prudential Savings Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "24/09/2021",
+    "type": "Redemption - ELECTRONIC PAYMENT - via Internet - 803338401208",
+    "amount": -135000.0,
+    "nav": 431.5559,
+    "units": -312.822,
+    "balance_units": 232.625,
+    "scheme": "ICICI Prudential Savings Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "29/12/2020",
+    "type": "Purchase - via Internet - DIRECT",
+    "amount": 4999.75,
+    "nav": 417.7241,
+    "units": 11.969,
+    "balance_units": 1184.979,
+    "scheme": "ICICI Prudential Savings Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  }
+]

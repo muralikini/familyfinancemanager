@@ -1,0 +1,392 @@
+[
+  {
+    "date": "01/12/2025",
+    "type": "SIP Purchase - Instalment 29/7826 - via Internet - DIRECT",
+    "amount": 100.0,
+    "nav": 214.98,
+    "units": 0.465,
+    "balance_units": 13.389,
+    "scheme": "ICICI Prudential Infrastructure Fund - Direct Plan -  Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "01/12/2025",
+    "type": "Redemption - ELECTRONIC PAYMENT-BSE - - 1351331577  less STT",
+    "amount": -1780.07,
+    "nav": 214.98,
+    "units": -8.28,
+    "balance_units": 5.109,
+    "scheme": "ICICI Prudential Infrastructure Fund - Direct Plan -  Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "01/12/2025",
+    "type": "Redemption - ELECTRONIC PAYMENT-BSE - - 1351331577 less STT, Exit Load",
+    "amount": -889.38,
+    "nav": 214.98,
+    "units": -4.179,
+    "balance_units": 0.93,
+    "scheme": "ICICI Prudential Infrastructure Fund - Direct Plan -  Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "01/12/2025",
+    "type": "SIP Purchase (Reversal) - Instalment No 29 No Approved Mandates are available",
+    "amount": -100.0,
+    "nav": 214.98,
+    "units": -0.465,
+    "balance_units": 0.465,
+    "scheme": "ICICI Prudential Infrastructure Fund - Direct Plan -  Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "02/12/2025",
+    "type": "SIP Purchase - Instalment 30/7826 - via Internet - DIRECT",
+    "amount": 100.0,
+    "nav": 214.87,
+    "units": 0.465,
+    "balance_units": 0.93,
+    "scheme": "ICICI Prudential Infrastructure Fund - Direct Plan -  Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "02/12/2025",
+    "type": "SIP Purchase (Reversal) - Instalment No 30 Mandate Predebit Notification Failed",
+    "amount": -100.0,
+    "nav": 214.87,
+    "units": -0.465,
+    "balance_units": 0.465,
+    "scheme": "ICICI Prudential Infrastructure Fund - Direct Plan -  Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "03/11/2025",
+    "type": "SIP Purchase - Instalment 9/7826 - via Internet - DIRECT",
+    "amount": 100.0,
+    "nav": 219.46,
+    "units": 0.456,
+    "balance_units": 4.121,
+    "scheme": "ICICI Prudential Infrastructure Fund - Direct Plan -  Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "03/12/2025",
+    "type": "SIP Purchase - Instalment 31/7826 - via Internet - DIRECT",
+    "amount": 100.0,
+    "nav": 213.57,
+    "units": 0.468,
+    "balance_units": 0.933,
+    "scheme": "ICICI Prudential Infrastructure Fund - Direct Plan -  Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "03/12/2025",
+    "type": "SIP Purchase (Reversal) - Instalment No 31 Mandate Predebit Notification Failed",
+    "amount": -100.0,
+    "nav": 213.57,
+    "units": -0.468,
+    "balance_units": 0.465,
+    "scheme": "ICICI Prudential Infrastructure Fund - Direct Plan -  Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "04/11/2025",
+    "type": "SIP Purchase - Instalment 10/7826 - via Internet - DIRECT",
+    "amount": 100.0,
+    "nav": 218.01,
+    "units": 0.459,
+    "balance_units": 4.58,
+    "scheme": "ICICI Prudential Infrastructure Fund - Direct Plan -  Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "04/12/2025",
+    "type": "SIP Purchase - Instalment 32/7826 - via Internet - DIRECT",
+    "amount": 100.0,
+    "nav": 213.25,
+    "units": 0.469,
+    "balance_units": 0.934,
+    "scheme": "ICICI Prudential Infrastructure Fund - Direct Plan -  Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "04/12/2025",
+    "type": "SIP Purchase (Reversal) - Instalment No 32 Mandate Predebit Notification Failed",
+    "amount": -100.0,
+    "nav": 213.25,
+    "units": -0.469,
+    "balance_units": 0.465,
+    "scheme": "ICICI Prudential Infrastructure Fund - Direct Plan -  Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "05/12/2025",
+    "type": "Redemption - ELECTRONIC PAYMENT-BSE - - 1363367362  less Exit Load",
+    "amount": -98.11,
+    "nav": 213.11,
+    "units": -0.465,
+    "balance_units": 0.0,
+    "scheme": "ICICI Prudential Infrastructure Fund - Direct Plan -  Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "06/11/2025",
+    "type": "SIP Purchase - Instalment 11/7826 - via Internet - DIRECT",
+    "amount": 100.0,
+    "nav": 216.04,
+    "units": 0.463,
+    "balance_units": 5.043,
+    "scheme": "ICICI Prudential Infrastructure Fund - Direct Plan -  Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "06/11/2025",
+    "type": "SIP Purchase - Instalment 12/7826 - via Internet - DIRECT",
+    "amount": 100.0,
+    "nav": 216.04,
+    "units": 0.463,
+    "balance_units": 5.506,
+    "scheme": "ICICI Prudential Infrastructure Fund - Direct Plan -  Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "07/11/2025",
+    "type": "SIP Purchase - Instalment 13/7826 - via Internet - DIRECT",
+    "amount": 100.0,
+    "nav": 215.72,
+    "units": 0.464,
+    "balance_units": 5.97,
+    "scheme": "ICICI Prudential Infrastructure Fund - Direct Plan -  Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "10/11/2025",
+    "type": "SIP Purchase - Instalment 14/7826 - via Internet - DIRECT",
+    "amount": 100.0,
+    "nav": 215.42,
+    "units": 0.464,
+    "balance_units": 6.434,
+    "scheme": "ICICI Prudential Infrastructure Fund - Direct Plan -  Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "11/11/2025",
+    "type": "SIP Purchase - Instalment 15/7826 - via Internet - DIRECT",
+    "amount": 100.0,
+    "nav": 216.05,
+    "units": 0.463,
+    "balance_units": 6.897,
+    "scheme": "ICICI Prudential Infrastructure Fund - Direct Plan -  Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "12/11/2025",
+    "type": "SIP Purchase - Instalment 16/7826 - via Internet - DIRECT",
+    "amount": 100.0,
+    "nav": 217.06,
+    "units": 0.461,
+    "balance_units": 7.358,
+    "scheme": "ICICI Prudential Infrastructure Fund - Direct Plan -  Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "13/11/2025",
+    "type": "SIP Purchase - Instalment 17/7826 - via Internet - DIRECT",
+    "amount": 100.0,
+    "nav": 217.08,
+    "units": 0.461,
+    "balance_units": 7.819,
+    "scheme": "ICICI Prudential Infrastructure Fund - Direct Plan -  Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "14/11/2025",
+    "type": "SIP Purchase - Instalment 18/7826 - via Internet - DIRECT",
+    "amount": 100.0,
+    "nav": 217.01,
+    "units": 0.461,
+    "balance_units": 8.28,
+    "scheme": "ICICI Prudential Infrastructure Fund - Direct Plan -  Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "17/11/2025",
+    "type": "SIP Purchase - Instalment 19/7826 - via Internet - DIRECT",
+    "amount": 100.0,
+    "nav": 217.79,
+    "units": 0.459,
+    "balance_units": 8.739,
+    "scheme": "ICICI Prudential Infrastructure Fund - Direct Plan -  Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "18/11/2025",
+    "type": "SIP Purchase - Instalment 20/7826 - via Internet - DIRECT",
+    "amount": 100.0,
+    "nav": 215.84,
+    "units": 0.463,
+    "balance_units": 9.202,
+    "scheme": "ICICI Prudential Infrastructure Fund - Direct Plan -  Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "19/11/2025",
+    "type": "SIP Purchase - Instalment 21/7826 - via Internet - DIRECT",
+    "amount": 100.0,
+    "nav": 215.57,
+    "units": 0.464,
+    "balance_units": 9.666,
+    "scheme": "ICICI Prudential Infrastructure Fund - Direct Plan -  Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "20/10/2025",
+    "type": "SIP Purchase - Instalment 1/7826 - via Internet - DIRECT",
+    "amount": 100.0,
+    "nav": 216.38,
+    "units": 0.462,
+    "balance_units": 0.462,
+    "scheme": "ICICI Prudential Infrastructure Fund - Direct Plan -  Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "20/11/2025",
+    "type": "SIP Purchase - Instalment 22/7826 - via Internet - DIRECT",
+    "amount": 100.0,
+    "nav": 215.91,
+    "units": 0.463,
+    "balance_units": 10.129,
+    "scheme": "ICICI Prudential Infrastructure Fund - Direct Plan -  Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "21/11/2025",
+    "type": "SIP Purchase - Instalment 23/7826 - via Internet - DIRECT",
+    "amount": 100.0,
+    "nav": 214.16,
+    "units": 0.467,
+    "balance_units": 10.596,
+    "scheme": "ICICI Prudential Infrastructure Fund - Direct Plan -  Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "23/10/2025",
+    "type": "SIP Purchase - Instalment 2/7826 - via Internet - DIRECT",
+    "amount": 100.0,
+    "nav": 217.32,
+    "units": 0.46,
+    "balance_units": 0.922,
+    "scheme": "ICICI Prudential Infrastructure Fund - Direct Plan -  Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "24/10/2025",
+    "type": "SIP Purchase - Instalment 3/7826 - via Internet - DIRECT",
+    "amount": 100.0,
+    "nav": 217.13,
+    "units": 0.461,
+    "balance_units": 1.383,
+    "scheme": "ICICI Prudential Infrastructure Fund - Direct Plan -  Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "24/11/2025",
+    "type": "SIP Purchase - Instalment 24/7826 - via Internet - DIRECT",
+    "amount": 100.0,
+    "nav": 213.33,
+    "units": 0.469,
+    "balance_units": 11.065,
+    "scheme": "ICICI Prudential Infrastructure Fund - Direct Plan -  Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "25/11/2025",
+    "type": "SIP Purchase - Instalment 25/7826 - via Internet - DIRECT",
+    "amount": 100.0,
+    "nav": 213.68,
+    "units": 0.468,
+    "balance_units": 11.533,
+    "scheme": "ICICI Prudential Infrastructure Fund - Direct Plan -  Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "26/11/2025",
+    "type": "SIP Purchase - Instalment 26/7826 - via Internet - DIRECT",
+    "amount": 100.0,
+    "nav": 215.87,
+    "units": 0.463,
+    "balance_units": 11.996,
+    "scheme": "ICICI Prudential Infrastructure Fund - Direct Plan -  Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "27/10/2025",
+    "type": "SIP Purchase - Instalment 4/7826 - via Internet - DIRECT",
+    "amount": 100.0,
+    "nav": 218.82,
+    "units": 0.457,
+    "balance_units": 1.84,
+    "scheme": "ICICI Prudential Infrastructure Fund - Direct Plan -  Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "27/11/2025",
+    "type": "SIP Purchase - Instalment 27/7826 - via Internet - DIRECT",
+    "amount": 100.0,
+    "nav": 215.99,
+    "units": 0.463,
+    "balance_units": 12.459,
+    "scheme": "ICICI Prudential Infrastructure Fund - Direct Plan -  Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "28/10/2025",
+    "type": "SIP Purchase - Instalment 5/7826 - via Internet - DIRECT",
+    "amount": 100.0,
+    "nav": 218.35,
+    "units": 0.458,
+    "balance_units": 2.298,
+    "scheme": "ICICI Prudential Infrastructure Fund - Direct Plan -  Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "28/11/2025",
+    "type": "SIP Purchase - Instalment 28/7826 - via Internet - DIRECT",
+    "amount": 100.0,
+    "nav": 215.13,
+    "units": 0.465,
+    "balance_units": 12.924,
+    "scheme": "ICICI Prudential Infrastructure Fund - Direct Plan -  Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "29/10/2025",
+    "type": "SIP Purchase - Instalment 6/7826 - via Internet - DIRECT",
+    "amount": 100.0,
+    "nav": 220.34,
+    "units": 0.454,
+    "balance_units": 2.752,
+    "scheme": "ICICI Prudential Infrastructure Fund - Direct Plan -  Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "30/10/2025",
+    "type": "SIP Purchase - Instalment 7/7826 - via Internet - DIRECT",
+    "amount": 100.0,
+    "nav": 219.76,
+    "units": 0.455,
+    "balance_units": 3.207,
+    "scheme": "ICICI Prudential Infrastructure Fund - Direct Plan -  Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "31/10/2025",
+    "type": "SIP Purchase - Instalment 8/7826 - via Internet - DIRECT",
+    "amount": 100.0,
+    "nav": 218.56,
+    "units": 0.458,
+    "balance_units": 3.665,
+    "scheme": "ICICI Prudential Infrastructure Fund - Direct Plan -  Growth",
+    "folio": "5658902"
+  }
+]

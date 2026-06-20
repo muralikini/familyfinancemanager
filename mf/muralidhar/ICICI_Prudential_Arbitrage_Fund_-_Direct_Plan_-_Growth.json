@@ -1,0 +1,52 @@
+[
+  {
+    "date": "03/04/2025",
+    "type": "Purchase - via Internet - DIRECT",
+    "amount": 4999.75,
+    "nav": 36.2003,
+    "units": 138.113,
+    "balance_units": 138.113,
+    "scheme": "ICICI Prudential Arbitrage Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "16/12/2025",
+    "type": "Purchase Appln : CAMSWEB - via Internet - DIRECT",
+    "amount": 73996.3,
+    "nav": 37.8341,
+    "units": 1955.81,
+    "balance_units": 2663.935,
+    "scheme": "ICICI Prudential Arbitrage Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "18/08/2025",
+    "type": "*Redemption - ELECTRONIC PAYMENT - via Internet - 1198129580  less STT",
+    "amount": -130000.0,
+    "nav": 37.0692,
+    "units": -3506.99,
+    "balance_units": 708.125,
+    "scheme": "ICICI Prudential Arbitrage Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "30/06/2025",
+    "type": "Purchase - via Internet - DIRECT",
+    "amount": 94995.25,
+    "nav": 36.7899,
+    "units": 2582.101,
+    "balance_units": 2720.214,
+    "scheme": "ICICI Prudential Arbitrage Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "30/06/2025",
+    "type": "Purchase - via Internet - DIRECT",
+    "amount": 54997.25,
+    "nav": 36.7899,
+    "units": 1494.901,
+    "balance_units": 4215.115,
+    "scheme": "ICICI Prudential Arbitrage Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  }
+]

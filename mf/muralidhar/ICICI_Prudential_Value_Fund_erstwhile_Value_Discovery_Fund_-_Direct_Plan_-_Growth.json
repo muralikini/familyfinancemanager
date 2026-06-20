@@ -1,0 +1,922 @@
+[
+  {
+    "date": "01/01/2018",
+    "type": "STP Switch In - From Balanced Fund - DP - Growth - DIRECT",
+    "amount": 5000.0,
+    "nav": 154.59,
+    "units": 32.344,
+    "balance_units": 1238.749,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "01/04/2019",
+    "type": "STP Switch In - From Equity&Debt Fund - DP - Growth - DIRECT",
+    "amount": 5000.0,
+    "nav": 156.23,
+    "units": 32.004,
+    "balance_units": 1731.454,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "01/07/2019",
+    "type": "STP Switch In - From Equity&Debt Fund - DP - Growth - DIRECT",
+    "amount": 5000.0,
+    "nav": 156.41,
+    "units": 31.967,
+    "balance_units": 1827.712,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "01/10/2018",
+    "type": "STP Switch In - From Equity&Debt Fund - DP - Growth - DIRECT",
+    "amount": 5000.0,
+    "nav": 156.83,
+    "units": 31.882,
+    "balance_units": 1530.71,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "01/11/2016",
+    "type": "STP Switch In - From Balanced Fund - DP - Growth - DIRECT",
+    "amount": 5000.0,
+    "nav": 130.76,
+    "units": 38.238,
+    "balance_units": 76.485,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "01/12/2025",
+    "type": "SIP Purchase - Instalment 29/7826 - via Internet - DIRECT",
+    "amount": 100.0,
+    "nav": 548.04,
+    "units": 0.182,
+    "balance_units": 5.369,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "01/12/2025",
+    "type": "Redemption - ELECTRONIC PAYMENT-BSE - - 1351331578 less STT, Exit Load",
+    "amount": -2616.75,
+    "nav": 548.04,
+    "units": -4.823,
+    "balance_units": 0.546,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "01/12/2025",
+    "type": "SIP Purchase (Reversal) - Instalment No 29 No Approved Mandates are available",
+    "amount": -100.0,
+    "nav": 548.04,
+    "units": -0.182,
+    "balance_units": 0.364,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "02/01/2017",
+    "type": "STP Switch In - From Balanced Fund - DP - Growth - DIRECT",
+    "amount": 5000.0,
+    "nav": 124.17,
+    "units": 40.267,
+    "balance_units": 156.435,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "02/04/2018",
+    "type": "STP Switch In - From Balanced Fund - DP - Growth - DIRECT",
+    "amount": 5000.0,
+    "nav": 148.1,
+    "units": 33.761,
+    "balance_units": 1337.301,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "02/05/2017",
+    "type": "STP Switch In - From Balanced Fund - DP - Growth - DIRECT",
+    "amount": 5000.0,
+    "nav": 139.54,
+    "units": 35.832,
+    "balance_units": 654.608,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "02/07/2018",
+    "type": "STP Switch In - From Equity&Debt Fund - DP - Growth - DIRECT",
+    "amount": 5000.0,
+    "nav": 149.68,
+    "units": 33.405,
+    "balance_units": 1436.223,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "02/12/2025",
+    "type": "SIP Purchase - Instalment 30/7826 - via Internet - DIRECT",
+    "amount": 100.0,
+    "nav": 546.59,
+    "units": 0.183,
+    "balance_units": 0.547,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "02/12/2025",
+    "type": "SIP Purchase (Reversal) - Instalment No 30 Mandate Predebit Notification Failed",
+    "amount": -100.0,
+    "nav": 546.59,
+    "units": -0.183,
+    "balance_units": 0.364,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "03/01/2017",
+    "type": "Purchase - DIRECT",
+    "amount": 10000.0,
+    "nav": 124.46,
+    "units": 80.347,
+    "balance_units": 236.782,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "03/09/2019",
+    "type": "STP Switch In - From Equity&Debt Fund - DP - Growth - DIRECT",
+    "amount": 5000.0,
+    "nav": 142.83,
+    "units": 35.007,
+    "balance_units": 1896.337,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "03/10/2017",
+    "type": "STP Switch In - From Balanced Fund - DP - Growth - DIRECT",
+    "amount": 5000.0,
+    "nav": 141.76,
+    "units": 35.271,
+    "balance_units": 1042.241,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "03/11/2025",
+    "type": "SIP Purchase - Instalment 9/7826 - via Internet - DIRECT",
+    "amount": 100.0,
+    "nav": 535.18,
+    "units": 0.187,
+    "balance_units": 1.679,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "03/12/2025",
+    "type": "SIP Purchase - Instalment 31/7826 - via Internet - DIRECT",
+    "amount": 100.0,
+    "nav": 546.9,
+    "units": 0.183,
+    "balance_units": 0.547,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "03/12/2025",
+    "type": "SIP Purchase (Reversal) - Instalment No 31 Mandate Predebit Notification Failed",
+    "amount": -100.0,
+    "nav": 546.9,
+    "units": -0.183,
+    "balance_units": 0.364,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "04/11/2025",
+    "type": "SIP Purchase - Instalment 10/7826 - via Internet - DIRECT",
+    "amount": 100.0,
+    "nav": 532.12,
+    "units": 0.188,
+    "balance_units": 1.867,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "04/12/2025",
+    "type": "SIP Purchase - Instalment 32/7826 - via Internet - DIRECT",
+    "amount": 100.0,
+    "nav": 548.48,
+    "units": 0.182,
+    "balance_units": 0.546,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "04/12/2025",
+    "type": "SIP Purchase (Reversal) - Instalment No 32 Mandate Predebit Notification Failed",
+    "amount": -100.0,
+    "nav": 548.48,
+    "units": -0.182,
+    "balance_units": 0.364,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "05/12/2025",
+    "type": "Redemption - ELECTRONIC PAYMENT-BSE - - 1363367361  less Exit Load",
+    "amount": -198.32,
+    "nav": 550.36,
+    "units": -0.364,
+    "balance_units": 0.0,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "06/11/2025",
+    "type": "SIP Purchase - Instalment 11/7826 - via Internet - DIRECT",
+    "amount": 100.0,
+    "nav": 531.2,
+    "units": 0.188,
+    "balance_units": 2.055,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "06/11/2025",
+    "type": "SIP Purchase - Instalment 12/7826 - via Internet - DIRECT",
+    "amount": 100.0,
+    "nav": 531.2,
+    "units": 0.188,
+    "balance_units": 2.243,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "07/11/2025",
+    "type": "SIP Purchase - Instalment 13/7826 - via Internet - DIRECT",
+    "amount": 100.0,
+    "nav": 532.08,
+    "units": 0.188,
+    "balance_units": 2.431,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "10/11/2025",
+    "type": "SIP Purchase - Instalment 14/7826 - via Internet - DIRECT",
+    "amount": 100.0,
+    "nav": 534.19,
+    "units": 0.187,
+    "balance_units": 2.618,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "11/11/2025",
+    "type": "SIP Purchase - Instalment 15/7826 - via Internet - DIRECT",
+    "amount": 100.0,
+    "nav": 537.7,
+    "units": 0.186,
+    "balance_units": 2.804,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "12/11/2025",
+    "type": "SIP Purchase - Instalment 16/7826 - via Internet - DIRECT",
+    "amount": 100.0,
+    "nav": 542.4,
+    "units": 0.184,
+    "balance_units": 2.988,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "13/01/2017",
+    "type": "Purchase - DIRECT",
+    "amount": 20000.0,
+    "nav": 127.08,
+    "units": 157.381,
+    "balance_units": 394.163,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "13/11/2025",
+    "type": "SIP Purchase - Instalment 17/7826 - via Internet - DIRECT",
+    "amount": 100.0,
+    "nav": 542.75,
+    "units": 0.184,
+    "balance_units": 3.172,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "14/11/2025",
+    "type": "SIP Purchase - Instalment 18/7826 - via Internet - DIRECT",
+    "amount": 100.0,
+    "nav": 542.65,
+    "units": 0.184,
+    "balance_units": 3.356,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "15/02/2017",
+    "type": "SIP Purchase - Instalment 1/61 - DIRECT",
+    "amount": 5000.0,
+    "nav": 130.99,
+    "units": 38.171,
+    "balance_units": 471.488,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "15/03/2017",
+    "type": "SIP Purchase - Instalment 2/61 - DIRECT",
+    "amount": 5000.0,
+    "nav": 135.43,
+    "units": 36.919,
+    "balance_units": 545.894,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "15/05/2017",
+    "type": "SIP Purchase - Instalment 4/61 - DIRECT",
+    "amount": 5000.0,
+    "nav": 141.55,
+    "units": 35.323,
+    "balance_units": 689.931,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "15/06/2017",
+    "type": "SIP Purchase - Instalment 5/61 - DIRECT",
+    "amount": 5000.0,
+    "nav": 139.68,
+    "units": 35.796,
+    "balance_units": 761.574,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "15/09/2017",
+    "type": "SIP Purchase - Instalment 8/61 - DIRECT",
+    "amount": 7500.0,
+    "nav": 145.12,
+    "units": 51.681,
+    "balance_units": 1006.97,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "16/08/2017",
+    "type": "SIP Purchase - Instalment 7/61 - DIRECT",
+    "amount": 7500.0,
+    "nav": 142.22,
+    "units": 52.735,
+    "balance_units": 920.115,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "16/10/2017",
+    "type": "SIP Purchase - Instalment 9/61 - DIRECT",
+    "amount": 7500.0,
+    "nav": 145.95,
+    "units": 51.387,
+    "balance_units": 1093.628,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "17/04/2017",
+    "type": "SIP Purchase - Instalment 3/61 - DIRECT",
+    "amount": 5000.0,
+    "nav": 137.64,
+    "units": 36.327,
+    "balance_units": 618.776,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "17/07/2017",
+    "type": "SIP Purchase - Instalment 6/61 - DIRECT",
+    "amount": 5000.0,
+    "nav": 142.42,
+    "units": 35.107,
+    "balance_units": 832.66,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "17/11/2025",
+    "type": "SIP Purchase - Instalment 19/7826 - via Internet - DIRECT",
+    "amount": 100.0,
+    "nav": 544.07,
+    "units": 0.184,
+    "balance_units": 3.54,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "18/11/2025",
+    "type": "SIP Purchase - Instalment 20/7826 - via Internet - DIRECT",
+    "amount": 100.0,
+    "nav": 542.44,
+    "units": 0.184,
+    "balance_units": 3.724,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "19/10/2016",
+    "type": "Purchase - DIRECT",
+    "amount": 5000.0,
+    "nav": 130.73,
+    "units": 38.247,
+    "balance_units": 38.247,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "19/11/2025",
+    "type": "SIP Purchase - Instalment 21/7826 - via Internet - DIRECT",
+    "amount": 100.0,
+    "nav": 545.28,
+    "units": 0.183,
+    "balance_units": 3.907,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "20/10/2025",
+    "type": "SIP Purchase - Instalment 1/7826 - via Internet - DIRECT",
+    "amount": 100.0,
+    "nav": 532.44,
+    "units": 0.188,
+    "balance_units": 0.188,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "20/11/2025",
+    "type": "SIP Purchase - Instalment 22/7826 - via Internet - DIRECT",
+    "amount": 100.0,
+    "nav": 546.6,
+    "units": 0.183,
+    "balance_units": 4.09,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "21/11/2025",
+    "type": "SIP Purchase - Instalment 23/7826 - via Internet - DIRECT",
+    "amount": 100.0,
+    "nav": 545.12,
+    "units": 0.183,
+    "balance_units": 4.273,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "23/10/2025",
+    "type": "SIP Purchase - Instalment 2/7826 - via Internet - DIRECT",
+    "amount": 100.0,
+    "nav": 535.38,
+    "units": 0.187,
+    "balance_units": 0.375,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "24/10/2025",
+    "type": "SIP Purchase - Instalment 3/7826 - via Internet - DIRECT",
+    "amount": 100.0,
+    "nav": 533.86,
+    "units": 0.187,
+    "balance_units": 0.562,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "24/11/2025",
+    "type": "SIP Purchase - Instalment 24/7826 - via Internet - DIRECT",
+    "amount": 100.0,
+    "nav": 543.44,
+    "units": 0.184,
+    "balance_units": 4.457,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "25/11/2025",
+    "type": "SIP Purchase - Instalment 25/7826 - via Internet - DIRECT",
+    "amount": 100.0,
+    "nav": 542.37,
+    "units": 0.184,
+    "balance_units": 4.641,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "26/11/2025",
+    "type": "SIP Purchase - Instalment 26/7826 - via Internet - DIRECT",
+    "amount": 100.0,
+    "nav": 548.51,
+    "units": 0.182,
+    "balance_units": 4.823,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "27/10/2025",
+    "type": "SIP Purchase - Instalment 4/7826 - via Internet - DIRECT",
+    "amount": 100.0,
+    "nav": 537.59,
+    "units": 0.186,
+    "balance_units": 0.748,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "27/11/2025",
+    "type": "SIP Purchase - Instalment 27/7826 - via Internet - DIRECT",
+    "amount": 100.0,
+    "nav": 548.87,
+    "units": 0.182,
+    "balance_units": 5.005,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "28/02/2017",
+    "type": "STP Switch In - From Balanced Fund - DP - Growth - DIRECT",
+    "amount": 5000.0,
+    "nav": 133.38,
+    "units": 37.487,
+    "balance_units": 508.975,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "28/02/2018",
+    "type": "STP Switch In - From Balanced Fund - DP - Growth - DIRECT",
+    "amount": 5000.0,
+    "nav": 151.18,
+    "units": 33.073,
+    "balance_units": 1303.54,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "28/02/2019",
+    "type": "STP Switch In - From Equity&Debt Fund - DP - Growth - DIRECT",
+    "amount": 5000.0,
+    "nav": 145.27,
+    "units": 34.419,
+    "balance_units": 1699.45,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "28/10/2025",
+    "type": "SIP Purchase - Instalment 5/7826 - via Internet - DIRECT",
+    "amount": 100.0,
+    "nav": 537.19,
+    "units": 0.186,
+    "balance_units": 0.934,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "28/11/2025",
+    "type": "SIP Purchase - Instalment 28/7826 - via Internet - DIRECT",
+    "amount": 100.0,
+    "nav": 548.22,
+    "units": 0.182,
+    "balance_units": 5.187,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "28/12/2017",
+    "type": "Purchase - DIRECT",
+    "amount": 5000.0,
+    "nav": 154.33,
+    "units": 32.398,
+    "balance_units": 1206.405,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "29/10/2019",
+    "type": "*Switch Out - To Money Market Fund -Drt Growth  less STT",
+    "amount": -100000.0,
+    "nav": 148.54,
+    "units": -673.226,
+    "balance_units": 1256.836,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "29/10/2025",
+    "type": "SIP Purchase - Instalment 6/7826 - via Internet - DIRECT",
+    "amount": 100.0,
+    "nav": 540.39,
+    "units": 0.185,
+    "balance_units": 1.119,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "30/04/2018",
+    "type": "STP Switch In - From Equity&Debt Fund - DP - Growth - DIRECT",
+    "amount": 5000.0,
+    "nav": 153.73,
+    "units": 32.525,
+    "balance_units": 1369.826,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "30/04/2019",
+    "type": "STP Switch In - From Equity&Debt Fund - DP - Growth - DIRECT",
+    "amount": 5000.0,
+    "nav": 155.33,
+    "units": 32.19,
+    "balance_units": 1763.644,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "30/06/2017",
+    "type": "STP Switch In - From Balanced Fund - DP - Growth - DIRECT",
+    "amount": 5000.0,
+    "nav": 138.97,
+    "units": 35.979,
+    "balance_units": 797.553,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "30/09/2019",
+    "type": "STP Switch In - From Equity&Debt Fund - DP - Growth - DIRECT",
+    "amount": 5000.0,
+    "nav": 148.26,
+    "units": 33.725,
+    "balance_units": 1930.062,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "30/10/2017",
+    "type": "Purchase - DIRECT",
+    "amount": 2000.0,
+    "nav": 149.39,
+    "units": 13.388,
+    "balance_units": 1107.016,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "30/10/2019",
+    "type": "*Switch Out - To Money Market Fund -Drt Growth  less STT",
+    "amount": -100000.0,
+    "nav": 150.0,
+    "units": -666.673,
+    "balance_units": 590.163,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "30/10/2025",
+    "type": "SIP Purchase - Instalment 7/7826 - via Internet - DIRECT",
+    "amount": 100.0,
+    "nav": 536.76,
+    "units": 0.186,
+    "balance_units": 1.305,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "30/11/2016",
+    "type": "STP Switch In - From Balanced Fund - DP - Growth - DIRECT",
+    "amount": 5000.0,
+    "nav": 126.0,
+    "units": 39.683,
+    "balance_units": 116.168,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "30/11/2017",
+    "type": "STP Switch In - From Balanced Fund - DP - Growth - DIRECT",
+    "amount": 5000.0,
+    "nav": 149.49,
+    "units": 33.447,
+    "balance_units": 1174.007,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "30/11/2018",
+    "type": "STP Switch In - From Equity&Debt Fund - DP - Growth - DIRECT",
+    "amount": 5000.0,
+    "nav": 148.62,
+    "units": 33.643,
+    "balance_units": 1597.512,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "31/01/2017",
+    "type": "STP Switch In - From Balanced Fund - DP - Growth - DIRECT",
+    "amount": 5000.0,
+    "nav": 127.7,
+    "units": 39.154,
+    "balance_units": 433.317,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "31/01/2018",
+    "type": "STP Switch In - From Balanced Fund - DP - Growth - DIRECT",
+    "amount": 5000.0,
+    "nav": 157.64,
+    "units": 31.718,
+    "balance_units": 1270.467,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "31/01/2019",
+    "type": "STP Switch In - From Equity&Debt Fund - DP - Growth - DIRECT",
+    "amount": 5000.0,
+    "nav": 146.53,
+    "units": 34.123,
+    "balance_units": 1665.031,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "31/03/2017",
+    "type": "STP Switch In - From Balanced Fund - DP - Growth - DIRECT",
+    "amount": 5000.0,
+    "nav": 136.78,
+    "units": 36.555,
+    "balance_units": 582.449,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "31/05/2017",
+    "type": "STP Switch In - From Balanced Fund - DP - Growth - DIRECT",
+    "amount": 5000.0,
+    "nav": 139.48,
+    "units": 35.847,
+    "balance_units": 725.778,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "31/05/2018",
+    "type": "STP Switch In - From Equity&Debt Fund - DP - Growth - DIRECT",
+    "amount": 5000.0,
+    "nav": 151.55,
+    "units": 32.992,
+    "balance_units": 1402.818,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "31/05/2019",
+    "type": "STP Switch In - From Equity&Debt Fund - DP - Growth - DIRECT",
+    "amount": 5000.0,
+    "nav": 155.76,
+    "units": 32.101,
+    "balance_units": 1795.745,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "31/07/2017",
+    "type": "STP Switch In - From Balanced Fund - DP - Growth - DIRECT",
+    "amount": 5000.0,
+    "nav": 144.01,
+    "units": 34.72,
+    "balance_units": 867.38,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "31/07/2018",
+    "type": "STP Switch In - From Equity&Debt Fund - DP - Growth - DIRECT",
+    "amount": 5000.0,
+    "nav": 156.05,
+    "units": 32.041,
+    "balance_units": 1468.264,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "31/07/2019",
+    "type": "STP Switch In - From Equity&Debt Fund - DP - Growth - DIRECT",
+    "amount": 5000.0,
+    "nav": 148.73,
+    "units": 33.618,
+    "balance_units": 1861.33,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "31/08/2017",
+    "type": "STP Switch In - From Balanced Fund - DP - Growth - DIRECT",
+    "amount": 5000.0,
+    "nav": 142.15,
+    "units": 35.174,
+    "balance_units": 955.289,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "31/08/2018",
+    "type": "STP Switch In - From Equity&Debt Fund - DP - Growth - DIRECT",
+    "amount": 5000.0,
+    "nav": 163.59,
+    "units": 30.564,
+    "balance_units": 1498.828,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "31/10/2017",
+    "type": "STP Switch In - From Balanced Fund - DP - Growth - DIRECT",
+    "amount": 5000.0,
+    "nav": 149.06,
+    "units": 33.544,
+    "balance_units": 1140.56,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "31/10/2018",
+    "type": "STP Switch In - From Equity&Debt Fund - DP - Growth - DIRECT",
+    "amount": 5000.0,
+    "nav": 150.79,
+    "units": 33.159,
+    "balance_units": 1563.869,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "31/10/2019",
+    "type": "Switch Out - To Money Market Fund -Drt Growth  less STT",
+    "amount": -33937.81,
+    "nav": 151.53,
+    "units": -223.97,
+    "balance_units": 366.193,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "31/10/2019",
+    "type": "Switch Out - To Money Market Fund -Drt Growth less STT, Exit Load",
+    "amount": -54932.07,
+    "nav": 151.53,
+    "units": -366.193,
+    "balance_units": 0.0,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "31/10/2025",
+    "type": "SIP Purchase - Instalment 8/7826 - via Internet - DIRECT",
+    "amount": 100.0,
+    "nav": 534.18,
+    "units": 0.187,
+    "balance_units": 1.492,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "31/12/2018",
+    "type": "STP Switch In - From Equity&Debt Fund - DP - Growth - DIRECT",
+    "amount": 5000.0,
+    "nav": 149.72,
+    "units": 33.396,
+    "balance_units": 1630.908,
+    "scheme": "ICICI Prudential Value Fund (erstwhile Value Discovery Fund) - Direct Plan - Growth",
+    "folio": "5658902"
+  }
+]

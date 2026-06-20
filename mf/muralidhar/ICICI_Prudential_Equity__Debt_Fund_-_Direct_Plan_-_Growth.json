@@ -1,0 +1,962 @@
+[
+  {
+    "date": "01/01/2018",
+    "type": "*Switch Out - To Value Discovery Fund - DP Growth - Instalment 15/36  less STT",
+    "amount": -5000.0,
+    "nav": 137.53,
+    "units": -36.356,
+    "balance_units": 5475.133,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "01/04/2015",
+    "type": "Purchase - DIRECT",
+    "amount": 5000.0,
+    "nav": 94.01,
+    "units": 53.186,
+    "balance_units": 1346.105,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "01/04/2019",
+    "type": "*Switch Out - To Value Discovery Fund - DP Growth - Instalment 30/36  less STT",
+    "amount": -5000.0,
+    "nav": 144.79,
+    "units": -34.533,
+    "balance_units": 4924.816,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "01/06/2015",
+    "type": "Purchase - DIRECT",
+    "amount": 5000.0,
+    "nav": 94.07,
+    "units": 53.152,
+    "balance_units": 1559.478,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "01/07/2019",
+    "type": "*Switch Out - To Value Discovery Fund - DP Growth - Instalment 33/36  less STT",
+    "amount": -5000.0,
+    "nav": 147.16,
+    "units": -33.977,
+    "balance_units": 4822.077,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "01/10/2018",
+    "type": "*Switch Out - To Value Discovery Fund - DP Growth - Instalment 24/36  less STT",
+    "amount": -5000.0,
+    "nav": 136.97,
+    "units": -36.505,
+    "balance_units": 5144.335,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "01/11/2016",
+    "type": "*Switch Out - To Value Discovery Fund - DP Growth - Instalment 1/36  less STT",
+    "amount": -5000.0,
+    "nav": 111.16,
+    "units": -44.981,
+    "balance_units": 4777.994,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "02/01/2017",
+    "type": "*Switch Out - To Value Discovery Fund - DP Growth - Instalment 3/36  less STT",
+    "amount": -5000.0,
+    "nav": 109.49,
+    "units": -45.667,
+    "balance_units": 4778.707,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "02/03/2015",
+    "type": "Purchase - DIRECT",
+    "amount": 10000.0,
+    "nav": 96.2,
+    "units": 103.95,
+    "balance_units": 766.037,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "02/04/2018",
+    "type": "*Switch Out - To Value Discovery Fund - DP Growth - Instalment 18/36  less STT",
+    "amount": -5000.0,
+    "nav": 132.9,
+    "units": -37.623,
+    "balance_units": 5364.891,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "02/05/2017",
+    "type": "*Switch Out - To Value Discovery Fund - DP Growth - Instalment 7/36  less STT",
+    "amount": -5000.0,
+    "nav": 120.35,
+    "units": -41.546,
+    "balance_units": 5088.383,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "02/07/2018",
+    "type": "*Switch Out - To Value Discovery Fund - DP Growth - Instalment 21/36  less STT",
+    "amount": -5000.0,
+    "nav": 131.5,
+    "units": -38.023,
+    "balance_units": 5252.794,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "03/01/2017",
+    "type": "Purchase - DIRECT",
+    "amount": 5000.0,
+    "nav": 109.74,
+    "units": 45.562,
+    "balance_units": 4824.269,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "03/09/2015",
+    "type": "Purchase - DIRECT",
+    "amount": 5000.0,
+    "nav": 91.73,
+    "units": 54.508,
+    "balance_units": 2263.977,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "03/09/2019",
+    "type": "*Switch Out - To Value Discovery Fund - DP Growth - Instalment 35/36  less STT",
+    "amount": -5000.0,
+    "nav": 134.83,
+    "units": -37.084,
+    "balance_units": 4749.584,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "03/10/2017",
+    "type": "*Switch Out - To Value Discovery Fund - DP Growth - Instalment 12/36  less STT",
+    "amount": -5000.0,
+    "nav": 127.38,
+    "units": -39.253,
+    "balance_units": 5350.175,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "06/06/2016",
+    "type": "Purchase - DIRECT",
+    "amount": 50000.0,
+    "nav": 96.1,
+    "units": 520.291,
+    "balance_units": 3719.77,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "06/11/2017",
+    "type": "Purchase - DIRECT",
+    "amount": 15000.0,
+    "nav": 136.47,
+    "units": 109.914,
+    "balance_units": 5512.193,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "07/01/2016",
+    "type": "SIP Purchase - Instalment 9/37 - DIRECT",
+    "amount": 5000.0,
+    "nav": 91.52,
+    "units": 54.633,
+    "balance_units": 2534.192,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "07/01/2016",
+    "type": "Purchase - DIRECT",
+    "amount": 20000.0,
+    "nav": 91.52,
+    "units": 218.531,
+    "balance_units": 2752.723,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "07/02/2017",
+    "type": "SIP Purchase - Instalment 22/37 - DIRECT",
+    "amount": 5000.0,
+    "nav": 115.75,
+    "units": 43.197,
+    "balance_units": 5020.01,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "07/03/2017",
+    "type": "SIP Purchase - Instalment 23/37 - DIRECT",
+    "amount": 5000.0,
+    "nav": 117.27,
+    "units": 42.637,
+    "balance_units": 5019.864,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "07/04/2016",
+    "type": "SIP Purchase - Instalment 12/37 - DIRECT",
+    "amount": 5000.0,
+    "nav": 91.1,
+    "units": 54.885,
+    "balance_units": 3146.664,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "07/04/2017",
+    "type": "SIP Purchase - Instalment 24/37 - DIRECT",
+    "amount": 5000.0,
+    "nav": 119.35,
+    "units": 41.894,
+    "balance_units": 5075.604,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "07/05/2015",
+    "type": "SIP Purchase - Instalment 1/37 - DIRECT",
+    "amount": 5000.0,
+    "nav": 89.81,
+    "units": 55.673,
+    "balance_units": 1506.326,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "07/06/2016",
+    "type": "SIP Purchase - Instalment 14/37 - DIRECT",
+    "amount": 5000.0,
+    "nav": 96.73,
+    "units": 51.69,
+    "balance_units": 3771.46,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "07/06/2017",
+    "type": "SIP Purchase - Instalment 26/37 - DIRECT",
+    "amount": 5000.0,
+    "nav": 123.67,
+    "units": 40.43,
+    "balance_units": 5182.977,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "07/07/2015",
+    "type": "SIP Purchase - Instalment 3/37 - DIRECT",
+    "amount": 5000.0,
+    "nav": 95.03,
+    "units": 52.615,
+    "balance_units": 2158.218,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "07/07/2016",
+    "type": "SIP Purchase - Instalment 15/37 - DIRECT",
+    "amount": 5000.0,
+    "nav": 101.76,
+    "units": 49.135,
+    "balance_units": 4075.333,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "07/07/2017",
+    "type": "SIP Purchase - Instalment 27/37 - DIRECT",
+    "amount": 5000.0,
+    "nav": 124.64,
+    "units": 40.116,
+    "balance_units": 5235.238,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "07/08/2015",
+    "type": "SIP Purchase - Instalment 4/37 - DIRECT",
+    "amount": 5000.0,
+    "nav": 97.56,
+    "units": 51.251,
+    "balance_units": 2209.469,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "07/08/2017",
+    "type": "SIP Purchase - Instalment 28/37 - DIRECT",
+    "amount": 5000.0,
+    "nav": 128.3,
+    "units": 38.971,
+    "balance_units": 5286.858,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "07/09/2015",
+    "type": "SIP Purchase - Instalment 5/37 - DIRECT",
+    "amount": 5000.0,
+    "nav": 89.17,
+    "units": 56.073,
+    "balance_units": 2320.05,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "07/09/2016",
+    "type": "SIP Purchase - Instalment 17/37 - DIRECT",
+    "amount": 5000.0,
+    "nav": 109.62,
+    "units": 45.612,
+    "balance_units": 4168.302,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "07/09/2017",
+    "type": "SIP Purchase - Instalment 29/37 - DIRECT",
+    "amount": 5000.0,
+    "nav": 127.14,
+    "units": 39.327,
+    "balance_units": 5338.515,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "07/10/2015",
+    "type": "SIP Purchase - Instalment 6/37 - DIRECT",
+    "amount": 5000.0,
+    "nav": 94.38,
+    "units": 52.977,
+    "balance_units": 2373.027,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "07/10/2016",
+    "type": "SIP Purchase - Instalment 18/37 - DIRECT",
+    "amount": 5000.0,
+    "nav": 110.51,
+    "units": 45.245,
+    "balance_units": 4213.547,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "07/11/2016",
+    "type": "SIP Purchase - Instalment 19/37 - DIRECT",
+    "amount": 5000.0,
+    "nav": 108.86,
+    "units": 45.931,
+    "balance_units": 4823.925,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "07/12/2015",
+    "type": "SIP Purchase - Instalment 8/37 - DIRECT",
+    "amount": 5000.0,
+    "nav": 93.49,
+    "units": 53.482,
+    "balance_units": 2479.559,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "07/12/2016",
+    "type": "SIP Purchase - Instalment 20/37 - DIRECT",
+    "amount": 5000.0,
+    "nav": 108.64,
+    "units": 46.024,
+    "balance_units": 4824.374,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "08/02/2016",
+    "type": "SIP Purchase - Instalment 10/37 - DIRECT",
+    "amount": 5000.0,
+    "nav": 89.19,
+    "units": 56.06,
+    "balance_units": 3036.056,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "08/03/2016",
+    "type": "SIP Purchase - Instalment 11/37 - DIRECT",
+    "amount": 5000.0,
+    "nav": 89.73,
+    "units": 55.723,
+    "balance_units": 3091.779,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "08/05/2017",
+    "type": "SIP Purchase - Instalment 25/37 - DIRECT",
+    "amount": 5000.0,
+    "nav": 120.86,
+    "units": 41.37,
+    "balance_units": 5129.753,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "08/06/2015",
+    "type": "SIP Purchase - Instalment 2/37 - DIRECT",
+    "amount": 5000.0,
+    "nav": 90.7,
+    "units": 55.127,
+    "balance_units": 1614.605,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "08/08/2016",
+    "type": "SIP Purchase - Instalment 16/37 - DIRECT",
+    "amount": 5000.0,
+    "nav": 105.58,
+    "units": 47.357,
+    "balance_units": 4122.69,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "09/01/2017",
+    "type": "SIP Purchase - Instalment 21/37 - DIRECT",
+    "amount": 5000.0,
+    "nav": 110.51,
+    "units": 45.245,
+    "balance_units": 4869.514,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "09/05/2016",
+    "type": "SIP Purchase - Instalment 13/37 - DIRECT",
+    "amount": 5000.0,
+    "nav": 94.67,
+    "units": 52.815,
+    "balance_units": 3199.479,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "09/10/2017",
+    "type": "SIP Purchase - Instalment 30/37 - DIRECT",
+    "amount": 5000.0,
+    "nav": 128.72,
+    "units": 38.844,
+    "balance_units": 5389.019,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "09/11/2015",
+    "type": "SIP Purchase - Instalment 7/37 - DIRECT",
+    "amount": 5000.0,
+    "nav": 94.25,
+    "units": 53.05,
+    "balance_units": 2426.077,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "10/02/2020",
+    "type": "Purchase - DIRECT",
+    "amount": 5000.0,
+    "nav": 149.58,
+    "units": 33.427,
+    "balance_units": 4747.602,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "10/03/2017",
+    "type": "SIP Purchase - Instalment 1/61 - DIRECT",
+    "amount": 6500.0,
+    "nav": 116.65,
+    "units": 55.722,
+    "balance_units": 5075.586,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "10/04/2017",
+    "type": "SIP Purchase - Instalment 2/61 - DIRECT",
+    "amount": 6500.0,
+    "nav": 119.65,
+    "units": 54.325,
+    "balance_units": 5129.929,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "10/05/2017",
+    "type": "SIP Purchase - Instalment 3/61 - DIRECT",
+    "amount": 6500.0,
+    "nav": 121.98,
+    "units": 53.287,
+    "balance_units": 5183.04,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "10/06/2015",
+    "type": "Purchase - DIRECT",
+    "amount": 45000.0,
+    "nav": 91.65,
+    "units": 490.998,
+    "balance_units": 2105.603,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "10/07/2017",
+    "type": "SIP Purchase - Instalment 5/61 - DIRECT",
+    "amount": 6500.0,
+    "nav": 125.8,
+    "units": 51.669,
+    "balance_units": 5286.907,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "10/08/2017",
+    "type": "SIP Purchase - Instalment 6/61 - DIRECT",
+    "amount": 6500.0,
+    "nav": 125.64,
+    "units": 51.735,
+    "balance_units": 5338.593,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "10/10/2017",
+    "type": "SIP Purchase - Instalment 8/61 - DIRECT",
+    "amount": 6500.0,
+    "nav": 128.95,
+    "units": 50.407,
+    "balance_units": 5439.426,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "11/09/2017",
+    "type": "SIP Purchase - Instalment 7/61 - DIRECT",
+    "amount": 6500.0,
+    "nav": 127.67,
+    "units": 50.913,
+    "balance_units": 5389.428,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "12/06/2017",
+    "type": "SIP Purchase - Instalment 4/61 - DIRECT",
+    "amount": 6500.0,
+    "nav": 123.54,
+    "units": 52.615,
+    "balance_units": 5235.592,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "13/01/2017",
+    "type": "Purchase - DIRECT",
+    "amount": 17000.0,
+    "nav": 112.43,
+    "units": 151.205,
+    "balance_units": 5020.719,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "13/04/2015",
+    "type": "Purchase - DIRECT",
+    "amount": 10000.0,
+    "nav": 95.65,
+    "units": 104.548,
+    "balance_units": 1450.653,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "13/10/2016",
+    "type": "Purchase - DIRECT",
+    "amount": 40000.0,
+    "nav": 109.3,
+    "units": 365.965,
+    "balance_units": 4579.512,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "15/06/2016",
+    "type": "Purchase - DIRECT",
+    "amount": 25000.0,
+    "nav": 98.14,
+    "units": 254.738,
+    "balance_units": 4026.198,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "17/03/2020",
+    "type": "*Switch Out - To Savings Fund - DP - Growth  less STT",
+    "amount": -120000.0,
+    "nav": 118.27,
+    "units": -1014.638,
+    "balance_units": 3732.964,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "19/10/2016",
+    "type": "Purchase - DIRECT",
+    "amount": 27000.0,
+    "nav": 110.9,
+    "units": 243.463,
+    "balance_units": 4822.975,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "21/01/2016",
+    "type": "Purchase - DIRECT",
+    "amount": 20000.0,
+    "nav": 88.0,
+    "units": 227.273,
+    "balance_units": 2979.996,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "23/11/2020",
+    "type": "*Redemption - ELECTRONIC PAYMENT - via Internet  less STT",
+    "amount": -100000.0,
+    "nav": 150.06,
+    "units": -666.407,
+    "balance_units": 3066.557,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "25/03/2015",
+    "type": "Purchase - DIRECT",
+    "amount": 49000.0,
+    "nav": 93.0,
+    "units": 526.882,
+    "balance_units": 1292.919,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "26/11/2020",
+    "type": "Redemption - ELECTRONIC PAYMENT - via Internet  less STT",
+    "amount": -461053.42,
+    "nav": 151.84,
+    "units": -3036.473,
+    "balance_units": 30.084,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "26/11/2020",
+    "type": "Redemption - ELECTRONIC PAYMENT - via Internet less STT, Exit Load",
+    "amount": -4522.19,
+    "nav": 151.84,
+    "units": -30.084,
+    "balance_units": 0.0,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "28/02/2017",
+    "type": "*Switch Out - To Value Discovery Fund - DP Growth - Instalment 5/36  less STT",
+    "amount": -5000.0,
+    "nav": 116.87,
+    "units": -42.783,
+    "balance_units": 4977.227,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "28/02/2018",
+    "type": "*Switch Out - To Value Discovery Fund - DP Growth - Instalment 17/36  less STT",
+    "amount": -5000.0,
+    "nav": 135.78,
+    "units": -36.825,
+    "balance_units": 5402.514,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "28/02/2019",
+    "type": "*Switch Out - To Value Discovery Fund - DP Growth - Instalment 29/36  less STT",
+    "amount": -5000.0,
+    "nav": 134.76,
+    "units": -37.103,
+    "balance_units": 4959.349,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "28/12/2017",
+    "type": "Purchase - DIRECT",
+    "amount": 5000.0,
+    "nav": 137.5,
+    "units": 36.364,
+    "balance_units": 5511.489,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "30/04/2018",
+    "type": "*Switch Out - To Value Discovery Fund - DP Growth - Instalment 19/36  less STT",
+    "amount": -5000.0,
+    "nav": 136.03,
+    "units": -36.757,
+    "balance_units": 5328.134,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "30/04/2019",
+    "type": "*Switch Out - To Value Discovery Fund - DP Growth - Instalment 31/36  less STT",
+    "amount": -5000.0,
+    "nav": 144.26,
+    "units": -34.66,
+    "balance_units": 4890.156,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "30/06/2017",
+    "type": "*Switch Out - To Value Discovery Fund - DP Growth - Instalment 9/36  less STT",
+    "amount": -5000.0,
+    "nav": 123.55,
+    "units": -40.47,
+    "balance_units": 5195.122,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "30/09/2019",
+    "type": "*Switch Out - To Value Discovery Fund - DP Growth - Instalment 36/36  less STT",
+    "amount": -5000.0,
+    "nav": 141.21,
+    "units": -35.409,
+    "balance_units": 4714.175,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "30/11/2016",
+    "type": "*Switch Out - To Value Discovery Fund - DP Growth - Instalment 2/36  less STT",
+    "amount": -5000.0,
+    "nav": 109.71,
+    "units": -45.575,
+    "balance_units": 4778.35,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "30/11/2017",
+    "type": "*Switch Out - To Value Discovery Fund - DP Growth - Instalment 14/36  less STT",
+    "amount": -5000.0,
+    "nav": 134.89,
+    "units": -37.068,
+    "balance_units": 5475.125,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "30/11/2018",
+    "type": "*Switch Out - To Value Discovery Fund - DP Growth - Instalment 26/36  less STT",
+    "amount": -5000.0,
+    "nav": 134.84,
+    "units": -37.081,
+    "balance_units": 5070.024,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "31/01/2017",
+    "type": "*Switch Out - To Value Discovery Fund - DP Growth - Instalment 4/36  less STT",
+    "amount": -5000.0,
+    "nav": 113.88,
+    "units": -43.906,
+    "balance_units": 4976.813,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "31/01/2018",
+    "type": "*Switch Out - To Value Discovery Fund - DP Growth - Instalment 16/36  less STT",
+    "amount": -5000.0,
+    "nav": 139.69,
+    "units": -35.794,
+    "balance_units": 5439.339,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "31/01/2019",
+    "type": "*Switch Out - To Value Discovery Fund - DP Growth - Instalment 28/36  less STT",
+    "amount": -5000.0,
+    "nav": 134.95,
+    "units": -37.051,
+    "balance_units": 4996.452,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "31/03/2017",
+    "type": "*Switch Out - To Value Discovery Fund - DP Growth - Instalment 6/36  less STT",
+    "amount": -5000.0,
+    "nav": 119.4,
+    "units": -41.876,
+    "balance_units": 5033.71,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "31/05/2017",
+    "type": "*Switch Out - To Value Discovery Fund - DP Growth - Instalment 8/36  less STT",
+    "amount": -5000.0,
+    "nav": 123.48,
+    "units": -40.493,
+    "balance_units": 5142.547,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "31/05/2018",
+    "type": "*Switch Out - To Value Discovery Fund - DP Growth - Instalment 20/36  less STT",
+    "amount": -5000.0,
+    "nav": 133.99,
+    "units": -37.317,
+    "balance_units": 5290.817,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "31/05/2019",
+    "type": "*Switch Out - To Value Discovery Fund - DP Growth - Instalment 32/36  less STT",
+    "amount": -5000.0,
+    "nav": 146.62,
+    "units": -34.102,
+    "balance_units": 4856.054,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "31/07/2017",
+    "type": "*Switch Out - To Value Discovery Fund - DP Growth - Instalment 10/36  less STT",
+    "amount": -5000.0,
+    "nav": 128.14,
+    "units": -39.02,
+    "balance_units": 5247.887,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "31/07/2018",
+    "type": "*Switch Out - To Value Discovery Fund - DP Growth - Instalment 22/36  less STT",
+    "amount": -5000.0,
+    "nav": 136.41,
+    "units": -36.655,
+    "balance_units": 5216.139,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "31/07/2019",
+    "type": "*Switch Out - To Value Discovery Fund - DP Growth - Instalment 34/36  less STT",
+    "amount": -5000.0,
+    "nav": 141.21,
+    "units": -35.409,
+    "balance_units": 4786.668,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "31/08/2017",
+    "type": "*Switch Out - To Value Discovery Fund - DP Growth - Instalment 11/36  less STT",
+    "amount": -5000.0,
+    "nav": 126.89,
+    "units": -39.405,
+    "balance_units": 5299.188,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "31/08/2018",
+    "type": "*Switch Out - To Value Discovery Fund - DP Growth - Instalment 23/36  less STT",
+    "amount": -5000.0,
+    "nav": 141.65,
+    "units": -35.299,
+    "balance_units": 5180.84,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "31/10/2017",
+    "type": "*Switch Out - To Value Discovery Fund - DP Growth - Instalment 13/36  less STT",
+    "amount": -5000.0,
+    "nav": 134.6,
+    "units": -37.147,
+    "balance_units": 5402.279,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "31/10/2018",
+    "type": "*Switch Out - To Value Discovery Fund - DP Growth - Instalment 25/36  less STT",
+    "amount": -5000.0,
+    "nav": 134.3,
+    "units": -37.23,
+    "balance_units": 5107.105,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "31/12/2018",
+    "type": "*Switch Out - To Value Discovery Fund - DP Growth - Instalment 27/36  less STT",
+    "amount": -5000.0,
+    "nav": 136.91,
+    "units": -36.521,
+    "balance_units": 5033.503,
+    "scheme": "ICICI Prudential Equity & Debt Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  }
+]

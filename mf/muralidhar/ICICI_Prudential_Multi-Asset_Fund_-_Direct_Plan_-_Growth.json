@@ -1,0 +1,122 @@
+[
+  {
+    "date": "07/01/2026",
+    "type": "STP Switch-in - From Liquid Fund - DP Growth - Instalment 3/104 - via Internet",
+    "amount": 999.95,
+    "nav": 909.873,
+    "units": 1.099,
+    "balance_units": 3.309,
+    "scheme": "ICICI Prudential Multi-Asset Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "10/02/2026",
+    "type": "Purchase - via Internet - DIRECT",
+    "amount": 4999.75,
+    "nav": 918.3019,
+    "units": 5.445,
+    "balance_units": 13.186,
+    "scheme": "ICICI Prudential Multi-Asset Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "11/02/2026",
+    "type": "Switch-in - From Balanced Advantage Fund DP Growth - via Internet",
+    "amount": 63349.78,
+    "nav": 919.2454,
+    "units": 68.915,
+    "balance_units": 82.101,
+    "scheme": "ICICI Prudential Multi-Asset Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "11/02/2026",
+    "type": "Purchase - via Internet - DIRECT",
+    "amount": 29998.5,
+    "nav": 919.2454,
+    "units": 32.634,
+    "balance_units": 114.735,
+    "scheme": "ICICI Prudential Multi-Asset Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "14/01/2026",
+    "type": "STP Switch-in - From Liquid Fund - DP Growth - Instalment 4/104 - via Internet",
+    "amount": 999.95,
+    "nav": 902.768,
+    "units": 1.108,
+    "balance_units": 4.417,
+    "scheme": "ICICI Prudential Multi-Asset Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "15/06/2026",
+    "type": "Switch-in - From Liquid Fund - DP Growth - via Internet",
+    "amount": 4999.75,
+    "nav": 888.7241,
+    "units": 5.626,
+    "balance_units": 125.972,
+    "scheme": "ICICI Prudential Multi-Asset Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "21/01/2026",
+    "type": "STP Switch-in - From Liquid Fund - DP Growth - Instalment 5/104 - via Internet",
+    "amount": 999.95,
+    "nav": 897.9318,
+    "units": 1.114,
+    "balance_units": 5.531,
+    "scheme": "ICICI Prudential Multi-Asset Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "24/12/2025",
+    "type": "STP Switch-in - From Liquid Fund - DP Growth - Instalment 1/104 - via Internet",
+    "amount": 999.95,
+    "nav": 904.4052,
+    "units": 1.106,
+    "balance_units": 1.106,
+    "scheme": "ICICI Prudential Multi-Asset Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "27/05/2026",
+    "type": "Purchase - via Internet - DIRECT",
+    "amount": 4999.75,
+    "nav": 891.0285,
+    "units": 5.611,
+    "balance_units": 120.346,
+    "scheme": "ICICI Prudential Multi-Asset Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "28/01/2026",
+    "type": "Switch-in - From Liquid Fund - DP Growth - via Internet",
+    "amount": 999.95,
+    "nav": 905.1355,
+    "units": 1.105,
+    "balance_units": 6.636,
+    "scheme": "ICICI Prudential Multi-Asset Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "28/01/2026",
+    "type": "STP Switch-in - From Liquid Fund - DP Growth - Instalment 6/104 - via Internet",
+    "amount": 999.95,
+    "nav": 905.1355,
+    "units": 1.105,
+    "balance_units": 7.741,
+    "scheme": "ICICI Prudential Multi-Asset Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "31/12/2025",
+    "type": "STP Switch-in - From Liquid Fund - DP Growth - Instalment 2/104 - via Internet",
+    "amount": 999.95,
+    "nav": 905.7938,
+    "units": 1.104,
+    "balance_units": 2.21,
+    "scheme": "ICICI Prudential Multi-Asset Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  }
+]

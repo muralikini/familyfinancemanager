@@ -1,0 +1,4182 @@
+[
+  {
+    "date": "01/01/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 98/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 82.78,
+    "units": 6.04,
+    "balance_units": 650.053,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "01/01/2025",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 84/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 96.61,
+    "units": -5.228,
+    "balance_units": 445.169,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "01/02/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 119/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 85.04,
+    "units": 5.879,
+    "balance_units": 775.536,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "01/03/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 139/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 85.15,
+    "units": 5.872,
+    "balance_units": 893.273,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "01/04/2025",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 146/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 86.2,
+    "units": -5.859,
+    "balance_units": 94.444,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "01/07/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 214/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 98.68,
+    "units": 5.067,
+    "balance_units": 1026.907,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "01/08/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 236/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 101.26,
+    "units": 4.938,
+    "balance_units": 1137.342,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "01/09/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 18/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 74.37,
+    "units": 6.723,
+    "balance_units": 132.458,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "01/10/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 24/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 103.57,
+    "units": -4.877,
+    "balance_units": 758.456,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "01/11/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 58/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 72.56,
+    "units": 6.891,
+    "balance_units": 394.278,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "01/12/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 78/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 78.82,
+    "units": 6.343,
+    "balance_units": 525.967,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "02/01/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 99/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 82.45,
+    "units": 6.064,
+    "balance_units": 656.117,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "02/01/2025",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 85/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 97.42,
+    "units": -5.184,
+    "balance_units": 439.985,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "02/02/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 120/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 85.11,
+    "units": 5.874,
+    "balance_units": 781.41,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "02/04/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 157/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 85.07,
+    "units": 5.877,
+    "balance_units": 1002.635,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "02/04/2025",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 147/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 86.84,
+    "units": -5.816,
+    "balance_units": 88.628,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "02/05/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 175/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 88.26,
+    "units": 5.665,
+    "balance_units": 1336.956,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "02/07/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 215/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 98.82,
+    "units": 5.059,
+    "balance_units": 1031.966,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "02/08/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 237/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 100.0,
+    "units": 5.0,
+    "balance_units": 1142.342,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "02/09/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 3/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 101.82,
+    "units": -4.96,
+    "balance_units": 1107.517,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "02/11/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 59/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 73.12,
+    "units": 6.838,
+    "balance_units": 401.116,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "02/12/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 63/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 98.41,
+    "units": -5.132,
+    "balance_units": 552.966,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "03/01/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 100/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 82.54,
+    "units": 6.057,
+    "balance_units": 662.174,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "03/01/2025",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 86/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 97.05,
+    "units": -5.204,
+    "balance_units": 434.781,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "03/02/2025",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 108/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 90.42,
+    "units": -5.586,
+    "balance_units": 319.711,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "03/03/2025",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 127/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 80.69,
+    "units": -6.26,
+    "balance_units": 208.129,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "03/04/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 158/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 85.83,
+    "units": 5.825,
+    "balance_units": 1008.46,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "03/04/2025",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 148/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 87.34,
+    "units": -5.783,
+    "balance_units": 82.845,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "03/05/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 176/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 88.04,
+    "units": 5.679,
+    "balance_units": 1342.635,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "03/06/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 195/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 91.47,
+    "units": 5.466,
+    "balance_units": 1449.17,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "03/07/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 216/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 99.4,
+    "units": 5.03,
+    "balance_units": 1036.996,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "03/09/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 4/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 102.46,
+    "units": -4.929,
+    "balance_units": 1102.588,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "03/10/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment /365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 74.72,
+    "units": 6.691,
+    "balance_units": 259.333,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "03/10/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 25/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 101.81,
+    "units": -4.961,
+    "balance_units": 753.495,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "03/11/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 60/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 73.66,
+    "units": 6.788,
+    "balance_units": 407.904,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "03/12/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 64/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 99.57,
+    "units": -5.073,
+    "balance_units": 547.893,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "04/01/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 101/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 83.21,
+    "units": 6.009,
+    "balance_units": 668.183,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "04/02/2025",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 109/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 91.1,
+    "units": -5.544,
+    "balance_units": 314.167,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "04/03/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 140/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 85.35,
+    "units": 5.858,
+    "balance_units": 899.131,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "04/03/2025",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 128/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 81.31,
+    "units": -6.211,
+    "balance_units": 201.918,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "04/04/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 159/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 86.11,
+    "units": 5.806,
+    "balance_units": 1014.266,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "04/04/2025",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 149/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 85.01,
+    "units": -5.941,
+    "balance_units": 76.904,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "04/06/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 196/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 86.56,
+    "units": 5.776,
+    "balance_units": 1454.946,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "04/07/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 217/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 99.72,
+    "units": 5.014,
+    "balance_units": 1042.01,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "04/08/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 1/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 71.21,
+    "units": 7.021,
+    "balance_units": 7.021,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "04/09/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 19/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 75.01,
+    "units": 6.665,
+    "balance_units": 139.123,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "04/09/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 5/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 102.67,
+    "units": -4.919,
+    "balance_units": 1097.669,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "04/10/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 38/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 74.01,
+    "units": 6.756,
+    "balance_units": 266.089,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "04/10/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 26/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 101.03,
+    "units": -4.999,
+    "balance_units": 748.496,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "04/11/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 45/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 98.63,
+    "units": -5.121,
+    "balance_units": 647.062,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "04/12/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 79/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 79.87,
+    "units": 6.26,
+    "balance_units": 532.227,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "04/12/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 65/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 99.75,
+    "units": -5.063,
+    "balance_units": 542.83,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "05/01/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 102/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 83.57,
+    "units": 5.983,
+    "balance_units": 674.166,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "05/02/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 121/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 84.55,
+    "units": 5.913,
+    "balance_units": 787.323,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "05/02/2025",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 110/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 91.62,
+    "units": -5.513,
+    "balance_units": 308.654,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "05/03/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 141/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 84.87,
+    "units": 5.891,
+    "balance_units": 905.022,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "05/03/2025",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 129/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 82.98,
+    "units": -6.087,
+    "balance_units": 195.831,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "05/04/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 160/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 86.44,
+    "units": 5.784,
+    "balance_units": 1020.05,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "05/06/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 197/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 88.85,
+    "units": 5.627,
+    "balance_units": 1460.573,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "05/07/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 218/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 99.9,
+    "units": 5.005,
+    "balance_units": 1047.015,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "05/08/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 238/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 96.7,
+    "units": 5.17,
+    "balance_units": 1147.512,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "05/08/2025",
+    "type": "Redemption - ELECTRONIC PAYMENT-BSE - - 1180536330 less STT, Exit Load",
+    "amount": -6877.52,
+    "nav": 98.15,
+    "units": -70.779,
+    "balance_units": 0.0,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "05/09/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 20/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 75.72,
+    "units": 6.603,
+    "balance_units": 145.726,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "05/09/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 6/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 103.14,
+    "units": -4.897,
+    "balance_units": 1092.772,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "05/10/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 39/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 74.44,
+    "units": 6.716,
+    "balance_units": 272.805,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "05/11/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 46/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 98.89,
+    "units": -5.107,
+    "balance_units": 641.955,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "05/12/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 80/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 79.78,
+    "units": 6.267,
+    "balance_units": 538.494,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "05/12/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 66/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 99.89,
+    "units": -5.056,
+    "balance_units": 537.774,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "06/01/2025",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 87/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 94.93,
+    "units": -5.32,
+    "balance_units": 429.461,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "06/02/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 122/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 85.64,
+    "units": 5.838,
+    "balance_units": 793.161,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "06/02/2025",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 111/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 91.77,
+    "units": -5.504,
+    "balance_units": 303.15,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "06/03/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 142/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 83.62,
+    "units": 5.979,
+    "balance_units": 911.001,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "06/03/2025",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 130/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 84.03,
+    "units": -6.01,
+    "balance_units": 189.821,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "06/05/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 177/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 87.82,
+    "units": 5.693,
+    "balance_units": 1348.328,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "06/06/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 198/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 91.17,
+    "units": 5.484,
+    "balance_units": 1466.057,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "06/08/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 239/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 96.34,
+    "units": 5.19,
+    "balance_units": 1152.702,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "06/09/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 21/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 75.63,
+    "units": 6.611,
+    "balance_units": 152.337,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "06/09/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 7/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 102.42,
+    "units": -4.931,
+    "balance_units": 1087.841,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "06/10/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 41/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 74.69,
+    "units": 6.694,
+    "balance_units": 279.499,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "06/11/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 61/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 74.26,
+    "units": 6.733,
+    "balance_units": 414.637,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "06/11/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 47/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 100.18,
+    "units": -5.041,
+    "balance_units": 636.914,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "06/12/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 81/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 79.91,
+    "units": 6.257,
+    "balance_units": 544.751,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "06/12/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 67/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 100.11,
+    "units": -5.045,
+    "balance_units": 532.729,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "07/01/2025",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 88/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 95.82,
+    "units": -5.271,
+    "balance_units": 424.19,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "07/02/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 123/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 85.9,
+    "units": 5.82,
+    "balance_units": 798.981,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "07/02/2025",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 112/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 91.22,
+    "units": -5.537,
+    "balance_units": 297.613,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "07/03/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 143/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 83.89,
+    "units": 5.96,
+    "balance_units": 916.961,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "07/03/2025",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 131/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 84.19,
+    "units": -5.999,
+    "balance_units": 183.822,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "07/04/2025",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 150/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 82.46,
+    "units": -6.125,
+    "balance_units": 70.779,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "07/05/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 178/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 87.13,
+    "units": 5.738,
+    "balance_units": 1354.066,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "07/06/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 199/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 92.94,
+    "units": 5.38,
+    "balance_units": 1471.437,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "07/08/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 2/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 71.22,
+    "units": 7.02,
+    "balance_units": 14.041,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "07/08/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 240/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 97.97,
+    "units": 5.103,
+    "balance_units": 1157.805,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "07/09/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 22/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 75.98,
+    "units": 6.58,
+    "balance_units": 158.917,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "07/10/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 27/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 99.22,
+    "units": -5.09,
+    "balance_units": 743.406,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "07/11/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 62/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 74.35,
+    "units": 6.725,
+    "balance_units": 421.362,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "07/11/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 48/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 99.43,
+    "units": -5.079,
+    "balance_units": 631.835,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "07/12/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 82/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 79.79,
+    "units": 6.266,
+    "balance_units": 551.017,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "08/01/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 103/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 82.81,
+    "units": 6.038,
+    "balance_units": 680.204,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "08/01/2025",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 89/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 94.96,
+    "units": -5.319,
+    "balance_units": 418.871,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "08/02/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 124/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 85.59,
+    "units": 5.842,
+    "balance_units": 804.823,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "08/04/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 161/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 86.4,
+    "units": 5.787,
+    "balance_units": 1025.837,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "08/05/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 179/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 87.66,
+    "units": 5.704,
+    "balance_units": 1359.77,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "08/07/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 219/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 99.52,
+    "units": 5.024,
+    "balance_units": 1052.039,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "08/08/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 3/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 71.31,
+    "units": 7.011,
+    "balance_units": 21.052,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "08/08/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 241/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 97.71,
+    "units": 5.117,
+    "balance_units": 1162.922,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "08/09/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 23/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 76.36,
+    "units": 6.548,
+    "balance_units": 165.465,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "08/10/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 28/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 100.3,
+    "units": -5.035,
+    "balance_units": 738.371,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "08/11/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 63/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 74.64,
+    "units": 6.698,
+    "balance_units": 428.06,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "08/11/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 49/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 98.16,
+    "units": -5.145,
+    "balance_units": 626.69,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "08/12/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 83/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 79.3,
+    "units": 6.305,
+    "balance_units": 557.322,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "09/01/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 104/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 83.21,
+    "units": 6.009,
+    "balance_units": 686.213,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "09/01/2025",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 90/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 94.69,
+    "units": -5.334,
+    "balance_units": 413.537,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "09/02/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 125/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 84.93,
+    "units": 5.887,
+    "balance_units": 810.71,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "09/05/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 180/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 86.27,
+    "units": 5.795,
+    "balance_units": 1365.565,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "09/07/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 220/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 100.03,
+    "units": 4.998,
+    "balance_units": 1057.037,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "09/08/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 4/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 71.58,
+    "units": 6.985,
+    "balance_units": 28.037,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "09/08/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 242/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 97.9,
+    "units": 5.107,
+    "balance_units": 1168.029,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "09/09/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 8/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 101.81,
+    "units": -4.961,
+    "balance_units": 1082.88,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "09/10/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 42/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 73.96,
+    "units": 6.76,
+    "balance_units": 286.259,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "09/10/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 29/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 101.12,
+    "units": -4.995,
+    "balance_units": 733.376,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "09/11/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 64/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 74.56,
+    "units": 6.706,
+    "balance_units": 434.766,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "09/12/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 68/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 100.11,
+    "units": -5.045,
+    "balance_units": 527.684,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "10/01/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 105/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 83.36,
+    "units": 5.998,
+    "balance_units": 692.211,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "10/01/2025",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 91/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 93.19,
+    "units": -5.42,
+    "balance_units": 408.117,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "10/02/2016",
+    "type": "Redemption - ELECTRONIC PAYMENT less STT, Exit Load",
+    "amount": -19824.36,
+    "nav": 18.26,
+    "units": -1096.491,
+    "balance_units": 0.0,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "10/02/2025",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 113/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 89.86,
+    "units": -5.621,
+    "balance_units": 291.992,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "10/03/2025",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 132/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 83.2,
+    "units": -6.07,
+    "balance_units": 177.752,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "10/04/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 162/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 86.63,
+    "units": 5.771,
+    "balance_units": 1031.608,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "10/05/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 181/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 86.48,
+    "units": 5.781,
+    "balance_units": 1371.346,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "10/06/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 200/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 93.87,
+    "units": 5.326,
+    "balance_units": 1476.763,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "10/07/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 221/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 99.64,
+    "units": 5.018,
+    "balance_units": 1062.055,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "10/08/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 5/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 71.22,
+    "units": 7.02,
+    "balance_units": 35.057,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "10/09/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 9/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 102.7,
+    "units": -4.918,
+    "balance_units": 1077.962,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "10/10/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 43/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 74.46,
+    "units": 6.715,
+    "balance_units": 292.974,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "10/10/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 30/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 101.58,
+    "units": -4.972,
+    "balance_units": 728.404,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "10/11/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 65/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 74.98,
+    "units": 6.668,
+    "balance_units": 441.434,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "10/12/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 69/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 100.57,
+    "units": -5.022,
+    "balance_units": 522.662,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "11/01/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 106/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 83.78,
+    "units": 5.968,
+    "balance_units": 698.179,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "11/02/2016",
+    "type": "***Change of Bank Mandate - Others***",
+    "amount": 0.0,
+    "nav": 0.0,
+    "units": 0.0,
+    "balance_units": 0.0,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "11/02/2025",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 114/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 87.59,
+    "units": -5.766,
+    "balance_units": 286.226,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "11/03/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 144/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 83.0,
+    "units": 6.024,
+    "balance_units": 922.985,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "11/03/2025",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 133/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 83.11,
+    "units": -6.077,
+    "balance_units": 171.675,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "11/06/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 201/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 94.33,
+    "units": 5.3,
+    "balance_units": 1482.063,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "11/07/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 222/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 99.96,
+    "units": 5.002,
+    "balance_units": 1067.057,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "11/08/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 6/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 70.87,
+    "units": 7.055,
+    "balance_units": 42.112,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "11/09/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 24/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 76.77,
+    "units": 6.513,
+    "balance_units": 171.978,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "11/09/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 10/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 102.39,
+    "units": -4.932,
+    "balance_units": 1073.03,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "11/10/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 44/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 74.92,
+    "units": 6.673,
+    "balance_units": 299.647,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "11/10/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 31/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 101.69,
+    "units": -4.967,
+    "balance_units": 723.437,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "11/11/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 50/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 97.5,
+    "units": -5.18,
+    "balance_units": 621.51,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "11/12/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 84/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 79.51,
+    "units": 6.288,
+    "balance_units": 563.61,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "11/12/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 70/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 101.09,
+    "units": -4.996,
+    "balance_units": 517.666,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "12/01/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 107/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 84.14,
+    "units": 5.942,
+    "balance_units": 704.121,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "12/02/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 126/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 83.32,
+    "units": 6.001,
+    "balance_units": 816.711,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "12/02/2025",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 115/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 87.06,
+    "units": -5.801,
+    "balance_units": 280.425,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "12/03/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 145/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 82.03,
+    "units": 6.095,
+    "balance_units": 929.08,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "12/03/2025",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 134/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 82.65,
+    "units": -6.111,
+    "balance_units": 165.564,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "12/04/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 163/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 86.17,
+    "units": 5.802,
+    "balance_units": 1037.41,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "12/06/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 202/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 95.15,
+    "units": 5.255,
+    "balance_units": 1487.318,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "12/07/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 223/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 99.6,
+    "units": 5.02,
+    "balance_units": 1072.077,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "12/08/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 243/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 97.79,
+    "units": 5.113,
+    "balance_units": 1173.142,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "12/09/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 25/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 74.71,
+    "units": 6.692,
+    "balance_units": 178.67,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "12/09/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 11/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 102.96,
+    "units": -4.905,
+    "balance_units": 1068.125,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "12/10/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 45/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 75.29,
+    "units": 6.641,
+    "balance_units": 306.288,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "12/11/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 51/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 96.33,
+    "units": -5.243,
+    "balance_units": 616.267,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "12/12/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 85/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 79.25,
+    "units": 6.309,
+    "balance_units": 569.919,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "12/12/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 71/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 100.25,
+    "units": -5.038,
+    "balance_units": 512.628,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "13/01/2025",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 92/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 90.93,
+    "units": -5.554,
+    "balance_units": 402.563,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "13/02/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 127/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 82.9,
+    "units": 6.031,
+    "balance_units": 822.742,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "13/02/2025",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 116/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 86.45,
+    "units": -5.842,
+    "balance_units": 274.583,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "13/03/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 146/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 79.16,
+    "units": 6.316,
+    "balance_units": 935.396,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "13/03/2025",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 135/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 82.23,
+    "units": -6.142,
+    "balance_units": 159.422,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "13/05/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 182/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 86.55,
+    "units": 5.777,
+    "balance_units": 1377.123,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "13/06/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 203/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 95.74,
+    "units": 5.222,
+    "balance_units": 1492.54,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "13/08/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 244/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 96.62,
+    "units": 5.175,
+    "balance_units": 1178.317,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "13/09/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 26/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 75.02,
+    "units": 6.665,
+    "balance_units": 185.335,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "13/09/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 12/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 103.17,
+    "units": -4.895,
+    "balance_units": 1063.23,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "13/10/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 46/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 75.39,
+    "units": 6.632,
+    "balance_units": 312.92,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "13/11/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 66/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 75.32,
+    "units": 6.638,
+    "balance_units": 448.072,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "13/11/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 52/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 94.34,
+    "units": -5.353,
+    "balance_units": 610.914,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "13/12/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 86/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 79.67,
+    "units": 6.276,
+    "balance_units": 576.195,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "13/12/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 72/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 99.95,
+    "units": -5.053,
+    "balance_units": 507.575,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "14/01/2025",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 93/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 91.91,
+    "units": -5.495,
+    "balance_units": 397.068,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "14/02/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 128/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 83.94,
+    "units": 5.956,
+    "balance_units": 828.698,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "14/02/2025",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 117/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 84.84,
+    "units": -5.953,
+    "balance_units": 268.63,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "14/03/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 147/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 80.68,
+    "units": 6.197,
+    "balance_units": 941.593,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "14/05/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 183/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 87.36,
+    "units": 5.723,
+    "balance_units": 1382.846,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "14/06/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 204/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 96.25,
+    "units": 5.195,
+    "balance_units": 1497.735,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "14/08/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 7/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 70.49,
+    "units": 7.093,
+    "balance_units": 49.205,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "14/08/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 245/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 96.02,
+    "units": 5.207,
+    "balance_units": 1183.524,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "14/09/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 27/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 75.57,
+    "units": 6.616,
+    "balance_units": 191.951,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "14/10/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 32/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 101.83,
+    "units": -4.96,
+    "balance_units": 718.477,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "14/11/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 53/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 94.41,
+    "units": -5.349,
+    "balance_units": 605.565,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "14/12/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 87/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 80.51,
+    "units": 6.21,
+    "balance_units": 582.405,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "15/01/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 108/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 84.34,
+    "units": 5.928,
+    "balance_units": 710.049,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "15/01/2025",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 94/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 92.12,
+    "units": -5.483,
+    "balance_units": 391.585,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "15/02/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 129/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 84.56,
+    "units": 5.913,
+    "balance_units": 834.611,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "15/03/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 148/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 81.02,
+    "units": 6.171,
+    "balance_units": 947.764,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "15/04/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 164/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 85.22,
+    "units": 5.867,
+    "balance_units": 1043.277,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "15/05/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 184/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 88.17,
+    "units": 5.671,
+    "balance_units": 1388.517,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "15/07/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 224/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 99.54,
+    "units": 5.023,
+    "balance_units": 1077.1,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "15/09/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 28/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 75.47,
+    "units": 6.625,
+    "balance_units": 198.576,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "15/10/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 33/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 102.44,
+    "units": -4.93,
+    "balance_units": 713.547,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "15/11/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 67/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 75.92,
+    "units": 6.586,
+    "balance_units": 454.658,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "15/12/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 88/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 80.79,
+    "units": 6.189,
+    "balance_units": 588.594,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "16/01/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 109/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 84.03,
+    "units": 5.95,
+    "balance_units": 715.999,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "16/01/2025",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 95/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 92.82,
+    "units": -5.441,
+    "balance_units": 386.144,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "16/02/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 130/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 85.04,
+    "units": 5.879,
+    "balance_units": 840.49,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "16/04/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 165/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 85.39,
+    "units": 5.855,
+    "balance_units": 1049.132,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "16/05/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 185/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 89.3,
+    "units": 5.599,
+    "balance_units": 1394.116,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "16/07/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 225/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 99.8,
+    "units": 5.01,
+    "balance_units": 1082.11,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "16/08/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 246/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 97.18,
+    "units": 5.145,
+    "balance_units": 1188.669,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "16/09/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 13/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 103.11,
+    "units": -4.898,
+    "balance_units": 1058.332,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "16/10/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 47/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 75.48,
+    "units": 6.624,
+    "balance_units": 319.544,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "16/10/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 34/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 102.88,
+    "units": -4.909,
+    "balance_units": 708.638,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "16/11/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 68/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 75.94,
+    "units": 6.584,
+    "balance_units": 461.242,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "16/12/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 73/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 100.23,
+    "units": -5.039,
+    "balance_units": 502.536,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "17/01/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 110/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 83.4,
+    "units": 5.995,
+    "balance_units": 721.994,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "17/01/2025",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 97/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 93.1,
+    "units": -5.425,
+    "balance_units": 380.719,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "17/02/2025",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 118/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 84.58,
+    "units": -5.972,
+    "balance_units": 262.658,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "17/03/2025",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 136/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 82.31,
+    "units": -6.136,
+    "balance_units": 153.286,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "17/05/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 186/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 90.5,
+    "units": 5.525,
+    "balance_units": 1399.641,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "17/08/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 8/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 70.52,
+    "units": 7.09,
+    "balance_units": 56.295,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "17/09/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 14/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 102.99,
+    "units": -4.904,
+    "balance_units": 1053.428,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "17/10/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 48/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 75.8,
+    "units": 6.596,
+    "balance_units": 326.14,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "17/10/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 35/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 101.44,
+    "units": -4.979,
+    "balance_units": 703.659,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "17/11/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 69/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 76.18,
+    "units": 6.563,
+    "balance_units": 467.805,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "17/12/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 74/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 99.33,
+    "units": -5.085,
+    "balance_units": 497.451,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "18/01/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 111/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 83.52,
+    "units": 5.986,
+    "balance_units": 727.98,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "18/02/2025",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 119/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 83.96,
+    "units": -6.016,
+    "balance_units": 256.642,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "18/03/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 149/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 80.97,
+    "units": 6.175,
+    "balance_units": 953.939,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "18/03/2025",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 137/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 83.53,
+    "units": -6.047,
+    "balance_units": 147.239,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "18/04/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 166/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 85.44,
+    "units": 5.852,
+    "balance_units": 1054.984,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "18/06/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 205/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 96.48,
+    "units": 5.182,
+    "balance_units": 1502.917,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "18/07/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 226/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 99.18,
+    "units": 5.041,
+    "balance_units": 1087.151,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "18/08/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 8/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 70.7,
+    "units": 7.072,
+    "balance_units": 63.367,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "18/09/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 29/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 74.75,
+    "units": 6.689,
+    "balance_units": 205.265,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "18/09/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 15/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 102.5,
+    "units": -4.927,
+    "balance_units": 1048.501,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "18/10/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 49/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 75.51,
+    "units": 6.621,
+    "balance_units": 332.761,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "18/10/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 36/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 101.37,
+    "units": -4.982,
+    "balance_units": 698.677,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "18/11/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 54/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 94.04,
+    "units": -5.371,
+    "balance_units": 600.194,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "18/12/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 89/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 80.98,
+    "units": 6.174,
+    "balance_units": 594.768,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "18/12/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 75/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 98.67,
+    "units": -5.119,
+    "balance_units": 492.332,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "19/01/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 112/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 84.04,
+    "units": 5.949,
+    "balance_units": 733.929,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "19/02/2025",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 120/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 84.74,
+    "units": -5.96,
+    "balance_units": 250.682,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "19/03/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 150/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 80.4,
+    "units": 6.219,
+    "balance_units": 960.158,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "19/03/2025",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 138/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 84.64,
+    "units": -5.967,
+    "balance_units": 141.272,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "19/04/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 167/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 85.4,
+    "units": 5.855,
+    "balance_units": 1060.839,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "19/04/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 1/8 - via Internet - DIRECT",
+    "amount": 2499.88,
+    "nav": 85.4,
+    "units": 29.273,
+    "balance_units": 1090.112,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "19/06/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 206/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 95.72,
+    "units": 5.223,
+    "balance_units": 1508.14,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "19/07/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 227/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 97.28,
+    "units": 5.14,
+    "balance_units": 1092.291,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "19/08/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 247/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 97.89,
+    "units": 5.108,
+    "balance_units": 1193.777,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "19/09/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 16/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 101.77,
+    "units": -4.963,
+    "balance_units": 1043.538,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "19/10/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 50/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 75.51,
+    "units": 6.621,
+    "balance_units": 339.382,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "19/11/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 55/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 94.39,
+    "units": -5.351,
+    "balance_units": 594.843,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "19/12/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 90/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 81.3,
+    "units": 6.15,
+    "balance_units": 600.918,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "19/12/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 76/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 98.22,
+    "units": -5.142,
+    "balance_units": 487.19,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "20/01/2025",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 98/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 93.47,
+    "units": -5.403,
+    "balance_units": 375.316,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "20/02/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 131/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 85.28,
+    "units": 5.863,
+    "balance_units": 846.353,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "20/02/2025",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 121/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 85.36,
+    "units": -5.917,
+    "balance_units": 244.765,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "20/03/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 151/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 80.7,
+    "units": 6.195,
+    "balance_units": 966.353,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "20/03/2025",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 139/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 85.28,
+    "units": -5.922,
+    "balance_units": 135.35,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "20/06/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 207/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 96.27,
+    "units": 5.193,
+    "balance_units": 1513.333,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "20/08/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 248/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 98.72,
+    "units": 5.065,
+    "balance_units": 1198.842,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "20/09/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 30/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 73.91,
+    "units": 6.765,
+    "balance_units": 212.03,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "20/09/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 17/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 102.19,
+    "units": -4.942,
+    "balance_units": 1038.596,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "20/10/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 51/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 75.11,
+    "units": 6.657,
+    "balance_units": 346.039,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "20/11/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 70/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 76.62,
+    "units": 6.525,
+    "balance_units": 474.33,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "20/12/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 91/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 79.69,
+    "units": 6.274,
+    "balance_units": 607.192,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "20/12/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 77/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 96.45,
+    "units": -5.236,
+    "balance_units": 481.954,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "21/01/2016",
+    "type": "Purchase - DIRECT",
+    "amount": 20000.0,
+    "nav": 18.24,
+    "units": 1096.491,
+    "balance_units": 1096.491,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "21/01/2025",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 99/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 92.47,
+    "units": -5.462,
+    "balance_units": 369.854,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "21/02/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 132/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 84.77,
+    "units": 5.898,
+    "balance_units": 852.251,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "21/02/2025",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 122/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 84.94,
+    "units": -5.946,
+    "balance_units": 238.819,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "21/03/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 152/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 81.79,
+    "units": 6.113,
+    "balance_units": 972.466,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "21/03/2025",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 140/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 86.52,
+    "units": -5.838,
+    "balance_units": 129.512,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "21/05/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 187/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 90.78,
+    "units": 5.508,
+    "balance_units": 1405.149,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "21/06/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 208/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 96.03,
+    "units": 5.206,
+    "balance_units": 1518.539,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "21/08/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 9/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 71.25,
+    "units": 7.017,
+    "balance_units": 70.384,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "21/08/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 249/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 99.57,
+    "units": 5.021,
+    "balance_units": 1203.863,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "21/09/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 31/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 73.76,
+    "units": 6.778,
+    "balance_units": 218.808,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "21/10/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 37/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 100.15,
+    "units": -5.043,
+    "balance_units": 693.634,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "21/11/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 71/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 77.07,
+    "units": 6.487,
+    "balance_units": 480.817,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "21/11/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 56/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 93.81,
+    "units": -5.384,
+    "balance_units": 589.459,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "21/12/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 92/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 80.51,
+    "units": 6.21,
+    "balance_units": 613.402,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "22/01/2025",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 100/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 91.72,
+    "units": -5.507,
+    "balance_units": 364.347,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "22/02/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 133/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 85.23,
+    "units": 5.866,
+    "balance_units": 858.117,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "22/03/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 153/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 82.38,
+    "units": 6.069,
+    "balance_units": 978.535,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "22/04/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 168/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 85.93,
+    "units": 5.818,
+    "balance_units": 1095.93,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "22/04/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 2/8 - via Internet - DIRECT",
+    "amount": 2499.88,
+    "nav": 85.93,
+    "units": 29.092,
+    "balance_units": 1125.022,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "22/05/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 188/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 91.25,
+    "units": 5.479,
+    "balance_units": 1410.628,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "22/07/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 228/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 97.88,
+    "units": 5.108,
+    "balance_units": 1097.399,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "22/08/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 10/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 71.62,
+    "units": 6.981,
+    "balance_units": 77.365,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "22/08/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 250/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 99.78,
+    "units": 5.011,
+    "balance_units": 1208.874,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "22/09/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 32/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 73.57,
+    "units": 6.796,
+    "balance_units": 225.604,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "22/10/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 38/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 97.86,
+    "units": -5.161,
+    "balance_units": 688.473,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "22/11/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 72/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 76.94,
+    "units": 6.498,
+    "balance_units": 487.315,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "22/11/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 57/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 94.92,
+    "units": -5.321,
+    "balance_units": 584.138,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "22/12/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 93/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 81.26,
+    "units": 6.153,
+    "balance_units": 619.555,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "23/01/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 113/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 82.38,
+    "units": 6.069,
+    "balance_units": 739.998,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "23/01/2025",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 101/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 92.45,
+    "units": -5.463,
+    "balance_units": 358.884,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "23/02/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 134/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 85.81,
+    "units": 5.827,
+    "balance_units": 863.944,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "23/04/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 169/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 86.38,
+    "units": 5.788,
+    "balance_units": 1130.81,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "23/04/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 3/8 - via Internet - DIRECT",
+    "amount": 2499.88,
+    "nav": 86.38,
+    "units": 28.94,
+    "balance_units": 1159.75,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "23/07/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 229/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 97.89,
+    "units": 5.108,
+    "balance_units": 1102.507,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "23/08/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 11/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 71.71,
+    "units": 6.972,
+    "balance_units": 84.337,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "23/08/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 251/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 99.76,
+    "units": 5.012,
+    "balance_units": 1213.886,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "23/09/2024",
+    "type": "*Redemption - ELECTRONIC PAYMENT - via Internet - 781826360 less STT, Exit Load",
+    "amount": -25000.0,
+    "nav": 102.73,
+    "units": -245.824,
+    "balance_units": 792.772,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "23/09/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 18/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 102.73,
+    "units": -4.917,
+    "balance_units": 787.855,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "23/10/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 52/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 72.9,
+    "units": 6.858,
+    "balance_units": 352.897,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "23/10/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 39/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 98.01,
+    "units": -5.153,
+    "balance_units": 683.32,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "23/11/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 73/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 76.84,
+    "units": 6.507,
+    "balance_units": 493.822,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "23/12/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 78/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 95.84,
+    "units": -5.27,
+    "balance_units": 476.684,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "24/01/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 114/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 83.39,
+    "units": 5.996,
+    "balance_units": 745.994,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "24/01/2025",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 102/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 90.96,
+    "units": -5.553,
+    "balance_units": 353.331,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "24/02/2025",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 123/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 84.21,
+    "units": -5.997,
+    "balance_units": 232.822,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "24/03/2025",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 141/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 87.26,
+    "units": -5.788,
+    "balance_units": 123.724,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "24/04/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 170/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 86.96,
+    "units": 5.749,
+    "balance_units": 1165.499,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "24/04/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 4/8 - via Internet - DIRECT",
+    "amount": 2499.88,
+    "nav": 86.96,
+    "units": 28.747,
+    "balance_units": 1194.246,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "24/05/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 189/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 91.6,
+    "units": 5.458,
+    "balance_units": 1416.086,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "24/06/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 209/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 96.44,
+    "units": 5.184,
+    "balance_units": 1523.723,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "24/07/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 230/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 98.87,
+    "units": 5.057,
+    "balance_units": 1107.564,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "24/08/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 12/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 71.72,
+    "units": 6.971,
+    "balance_units": 91.308,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "24/09/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 19/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 103.13,
+    "units": -4.897,
+    "balance_units": 782.958,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "24/10/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 40/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 97.56,
+    "units": -5.177,
+    "balance_units": 678.143,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "24/11/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 74/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 76.94,
+    "units": 6.498,
+    "balance_units": 500.32,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "24/12/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 79/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 96.27,
+    "units": -5.246,
+    "balance_units": 471.438,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "25/01/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 115/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 83.63,
+    "units": 5.978,
+    "balance_units": 751.972,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "25/02/2025",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 124/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 83.66,
+    "units": -6.037,
+    "balance_units": 226.785,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "25/03/2025",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 142/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 86.65,
+    "units": -5.829,
+    "balance_units": 117.895,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "25/04/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 171/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 87.26,
+    "units": 5.73,
+    "balance_units": 1199.976,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "25/04/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 5/8 - via Internet - DIRECT",
+    "amount": 2499.88,
+    "nav": 87.26,
+    "units": 28.649,
+    "balance_units": 1228.625,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "25/06/2024",
+    "type": "*Redemption - ELECTRONIC PAYMENT - via Internet - 688954154 less STT, Exit Load",
+    "amount": -50000.0,
+    "nav": 96.66,
+    "units": -522.526,
+    "balance_units": 1001.197,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "25/06/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 210/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 96.66,
+    "units": 5.173,
+    "balance_units": 1006.37,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "25/07/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 231/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 98.98,
+    "units": 5.051,
+    "balance_units": 1112.615,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "25/08/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 13/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 71.76,
+    "units": 6.967,
+    "balance_units": 98.275,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "25/09/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 33/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 73.49,
+    "units": 6.803,
+    "balance_units": 232.407,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "25/09/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 20/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 102.87,
+    "units": -4.91,
+    "balance_units": 778.048,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "25/10/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 53/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 72.23,
+    "units": 6.922,
+    "balance_units": 359.819,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "25/10/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 41/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 96.12,
+    "units": -5.254,
+    "balance_units": 672.889,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "25/11/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 58/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 96.44,
+    "units": -5.237,
+    "balance_units": 578.901,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "26/02/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 135/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 85.93,
+    "units": 5.818,
+    "balance_units": 869.762,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "26/03/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 154/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 82.07,
+    "units": 6.092,
+    "balance_units": 984.627,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "26/03/2025",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 143/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 86.0,
+    "units": -5.873,
+    "balance_units": 112.022,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "26/04/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 172/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 87.4,
+    "units": 5.721,
+    "balance_units": 1234.346,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "26/04/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 6/8 - via Internet - DIRECT",
+    "amount": 2499.88,
+    "nav": 87.4,
+    "units": 28.603,
+    "balance_units": 1262.949,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "26/06/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 211/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 96.92,
+    "units": 5.159,
+    "balance_units": 1011.529,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "26/07/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 232/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 99.87,
+    "units": 5.006,
+    "balance_units": 1117.621,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "26/08/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 252/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 100.48,
+    "units": 4.976,
+    "balance_units": 1218.862,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "26/09/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 34/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 73.79,
+    "units": 6.776,
+    "balance_units": 239.183,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "26/09/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 21/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 102.78,
+    "units": -4.914,
+    "balance_units": 773.134,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "26/10/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 54/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 71.91,
+    "units": 6.953,
+    "balance_units": 366.772,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "26/11/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 59/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 96.52,
+    "units": -5.233,
+    "balance_units": 573.668,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "26/12/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 94/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 81.37,
+    "units": 6.144,
+    "balance_units": 625.699,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "26/12/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 80/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 96.11,
+    "units": -5.255,
+    "balance_units": 466.183,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "27/01/2025",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 103/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 89.44,
+    "units": -5.647,
+    "balance_units": 347.684,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "27/02/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 136/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 85.96,
+    "units": 5.816,
+    "balance_units": 875.578,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "27/02/2025",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 125/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 82.37,
+    "units": -6.131,
+    "balance_units": 220.654,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "27/03/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 155/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 82.4,
+    "units": 6.068,
+    "balance_units": 990.695,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "27/03/2025",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 144/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 86.26,
+    "units": -5.855,
+    "balance_units": 106.167,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "27/05/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 190/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 91.37,
+    "units": 5.472,
+    "balance_units": 1421.558,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "27/06/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 212/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 96.79,
+    "units": 5.166,
+    "balance_units": 1016.695,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "27/08/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - via Internet less STT, Exit Load",
+    "amount": -10000.0,
+    "nav": 101.12,
+    "units": -99.891,
+    "balance_units": 1118.971,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "27/08/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 253/365 - via Internet - DIRECT",
+    "amount": 353.59,
+    "nav": 101.12,
+    "units": 3.497,
+    "balance_units": 1122.468,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "27/09/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 35/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 74.12,
+    "units": 6.745,
+    "balance_units": 245.928,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "27/09/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 22/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 103.02,
+    "units": -4.903,
+    "balance_units": 768.231,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "27/10/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 55/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 72.77,
+    "units": 6.871,
+    "balance_units": 373.643,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "27/11/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 60/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 97.01,
+    "units": -5.206,
+    "balance_units": 568.462,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "27/12/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 95/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 81.68,
+    "units": 6.121,
+    "balance_units": 631.82,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "27/12/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 81/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 96.13,
+    "units": -5.254,
+    "balance_units": 460.929,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "28/01/2025",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 104/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 88.53,
+    "units": -5.705,
+    "balance_units": 341.979,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "28/02/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 137/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 84.66,
+    "units": 5.906,
+    "balance_units": 881.484,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "28/02/2025",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 126/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 80.62,
+    "units": -6.265,
+    "balance_units": 214.389,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "28/03/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 156/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 82.47,
+    "units": 6.063,
+    "balance_units": 996.758,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "28/03/2025",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 145/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 86.13,
+    "units": -5.864,
+    "balance_units": 100.303,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "28/05/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 191/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 90.84,
+    "units": 5.504,
+    "balance_units": 1427.062,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "28/06/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 213/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 97.18,
+    "units": 5.145,
+    "balance_units": 1021.84,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "28/08/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 14/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 72.02,
+    "units": 6.942,
+    "balance_units": 105.217,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "28/10/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 42/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 96.33,
+    "units": -5.243,
+    "balance_units": 667.646,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "28/11/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 75/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 77.15,
+    "units": 6.481,
+    "balance_units": 506.801,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "28/11/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 61/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 97.12,
+    "units": -5.2,
+    "balance_units": 563.262,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "28/12/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 96/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 81.66,
+    "units": 6.123,
+    "balance_units": 637.943,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "29/01/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 116/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 84.4,
+    "units": 5.924,
+    "balance_units": 757.896,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "29/01/2025",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 105/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 90.31,
+    "units": -5.592,
+    "balance_units": 336.387,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "29/02/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 138/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 84.5,
+    "units": 5.917,
+    "balance_units": 887.401,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "29/04/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 173/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 87.53,
+    "units": 5.712,
+    "balance_units": 1268.661,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "29/04/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 7/8 - via Internet - DIRECT",
+    "amount": 2499.88,
+    "nav": 87.53,
+    "units": 28.56,
+    "balance_units": 1297.221,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "29/05/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 192/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 91.0,
+    "units": 5.494,
+    "balance_units": 1432.556,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "29/07/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 233/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 100.96,
+    "units": 4.952,
+    "balance_units": 1122.573,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "29/08/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 15/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 72.51,
+    "units": 6.895,
+    "balance_units": 112.112,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "29/08/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 1/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 100.88,
+    "units": -5.007,
+    "balance_units": 1117.461,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "29/09/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 36/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 74.47,
+    "units": 6.714,
+    "balance_units": 252.642,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "29/10/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 43/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 97.06,
+    "units": -5.204,
+    "balance_units": 662.442,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "29/11/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 76/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 77.82,
+    "units": 6.425,
+    "balance_units": 513.226,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "29/11/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 62/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 97.81,
+    "units": -5.164,
+    "balance_units": 558.098,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "29/12/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 97/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 82.37,
+    "units": 6.07,
+    "balance_units": 644.013,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "30/01/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 117/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 84.57,
+    "units": 5.912,
+    "balance_units": 763.808,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "30/01/2025",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 106/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 90.57,
+    "units": -5.577,
+    "balance_units": 330.81,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "30/04/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 174/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 88.05,
+    "units": 5.678,
+    "balance_units": 1302.899,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "30/04/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 8/8 - via Internet - DIRECT",
+    "amount": 2499.88,
+    "nav": 88.05,
+    "units": 28.392,
+    "balance_units": 1331.291,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "30/05/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 193/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 89.69,
+    "units": 5.574,
+    "balance_units": 1438.13,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "30/07/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 234/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 101.69,
+    "units": 4.917,
+    "balance_units": 1127.49,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "30/08/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 16/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 73.03,
+    "units": 6.846,
+    "balance_units": 118.958,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "30/08/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 2/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 101.34,
+    "units": -4.984,
+    "balance_units": 1112.477,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "30/09/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 23/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 103.11,
+    "units": -4.898,
+    "balance_units": 763.333,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "30/10/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 56/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 72.89,
+    "units": 6.859,
+    "balance_units": 380.502,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "30/10/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 44/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 98.08,
+    "units": -5.149,
+    "balance_units": 657.293,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "30/11/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 77/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 78.14,
+    "units": 6.398,
+    "balance_units": 519.624,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "30/12/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 82/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 95.56,
+    "units": -5.286,
+    "balance_units": 455.643,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "31/01/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 118/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 85.48,
+    "units": 5.849,
+    "balance_units": 769.657,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "31/01/2025",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 107/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 91.62,
+    "units": -5.513,
+    "balance_units": 325.297,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "31/05/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 194/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 89.7,
+    "units": 5.574,
+    "balance_units": 1443.704,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "31/07/2024",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 235/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 101.75,
+    "units": 4.914,
+    "balance_units": 1132.404,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "31/08/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 17/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 73.77,
+    "units": 6.777,
+    "balance_units": 125.735,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "31/10/2023",
+    "type": "STP Switch In - From Liquid Fund - DP Growth - Instalment 57/365 - via Internet - DIRECT",
+    "amount": 499.98,
+    "nav": 72.62,
+    "units": 6.885,
+    "balance_units": 387.387,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "31/10/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 45/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 98.84,
+    "units": -5.11,
+    "balance_units": 652.183,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "31/12/2024",
+    "type": "*Switch Out - To Bluechip Fund - Direct Plan Growth - Instalment 83/150 - via Internet less STT, Exit Load",
+    "amount": -500.0,
+    "nav": 96.28,
+    "units": -5.246,
+    "balance_units": 450.397,
+    "scheme": "ICICI Prudential Smallcap Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  }
+]

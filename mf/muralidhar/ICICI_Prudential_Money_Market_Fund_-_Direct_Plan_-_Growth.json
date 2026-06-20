@@ -1,0 +1,82 @@
+[
+  {
+    "date": "03/01/2020",
+    "type": "Redemption - ELECTRONIC PAYMENT -  255511902193",
+    "amount": -100000.0,
+    "nav": 275.2807,
+    "units": -363.266,
+    "balance_units": 558.842,
+    "scheme": "ICICI Prudential Money Market Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "05/02/2020",
+    "type": "Switch Out - To Savings Fund - DP - Growth",
+    "amount": -154577.34,
+    "nav": 276.603,
+    "units": -558.842,
+    "balance_units": 0.0,
+    "scheme": "ICICI Prudential Money Market Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "15/11/2019",
+    "type": "Purchase - DIRECT",
+    "amount": 10000.0,
+    "nav": 273.2025,
+    "units": 36.603,
+    "balance_units": 1104.202,
+    "scheme": "ICICI Prudential Money Market Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "17/12/2019",
+    "type": "Redemption - ELECTRONIC PAYMENT -  242335700884",
+    "amount": -50000.0,
+    "nav": 274.583,
+    "units": -182.094,
+    "balance_units": 922.108,
+    "scheme": "ICICI Prudential Money Market Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "25/10/2019",
+    "type": "Purchase - DIRECT",
+    "amount": 2000.0,
+    "nav": 272.1662,
+    "units": 7.348,
+    "balance_units": 7.348,
+    "scheme": "ICICI Prudential Money Market Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "29/10/2019",
+    "type": "Switch In - From Value Discovery Fund - DP Growth - DIRECT",
+    "amount": 100000.0,
+    "nav": 272.3389,
+    "units": 367.189,
+    "balance_units": 374.537,
+    "scheme": "ICICI Prudential Money Market Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "30/10/2019",
+    "type": "Switch In - From Value Discovery Fund - DP Growth - DIRECT",
+    "amount": 100000.0,
+    "nav": 272.4723,
+    "units": 367.01,
+    "balance_units": 741.547,
+    "scheme": "ICICI Prudential Money Market Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  },
+  {
+    "date": "31/10/2019",
+    "type": "Switch In - From Value Discovery Fund - DP Growth - DIRECT",
+    "amount": 88869.88,
+    "nav": 272.5631,
+    "units": 326.052,
+    "balance_units": 1067.599,
+    "scheme": "ICICI Prudential Money Market Fund - Direct Plan - Growth",
+    "folio": "5658902"
+  }
+]
