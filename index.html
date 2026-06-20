@@ -1474,46 +1474,55 @@ async function loadMFData() {
 }
 
 function populateMFFilters() {
-    // === Year Filter (Fixed) ===
+    // Safety check - exit if elements don't exist
     const yearSelect = document.getElementById('mfYearFilter');
+    const schemeSelect = document.getElementById('mfSchemeFilter');
     
+    if (!yearSelect || !schemeSelect) {
+        console.warn("Filter elements not found");
+        return;
+    }
+
+    // === YEAR FILTER (Fixed) ===
     const years = new Set();
-    
+
     mfData.transactions.forEach(txn => {
         if (!txn.date) return;
-        
+
         let year = null;
-        
-        // Handle both YYYY-MM-DD and DD/MM/YYYY formats
+
+        // Support both formats: YYYY-MM-DD and DD/MM/YYYY
         if (txn.date.includes('-')) {
-            year = txn.date.substring(0, 4);           // YYYY-MM-DD
+            year = txn.date.substring(0, 4);
         } else if (txn.date.includes('/')) {
             const parts = txn.date.split('/');
-            year = parts[2];                           // DD/MM/YYYY
+            if (parts.length === 3) year = parts[2];
         }
-        
-        if (year && year.length === 4) {
+
+        if (year && year.length === 4 && !isNaN(year)) {
             years.add(year);
         }
     });
 
-    const sortedYears = Array.from(years).sort().reverse();
+    const sortedYears = Array.from(years).sort((a, b) => b - a); // Descending
 
     yearSelect.innerHTML = '<option value="">All Years</option>';
     sortedYears.forEach(y => {
         yearSelect.innerHTML += `<option value="${y}">${y}</option>`;
     });
 
-    // === Scheme Filter ===
-    const schemeSelect = document.getElementById('mfSchemeFilter');
-    const schemes = [...new Set(mfData.transactions.map(t => t.scheme))].sort();
+    // === SCHEME FILTER ===
+    const schemes = [...new Set(mfData.transactions.map(t => t.scheme))]
+        .filter(Boolean)
+        .sort();
 
     schemeSelect.innerHTML = '<option value="">All Schemes</option>';
     schemes.forEach(s => {
         schemeSelect.innerHTML += `<option value="${s}">${s}</option>`;
     });
-}
 
+    console.log(`Filters populated → Years: ${sortedYears.length}, Schemes: ${schemes.length}`);
+}
 
 
 function updateMFSummaryCards() {
