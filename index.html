@@ -330,9 +330,13 @@
                         <table class="w-full">
                             <thead>
                                 <tr class="border-b border-zinc-700">
+                                    <th class="text-left py-3 px-4 text-zinc-400 font-medium">Date</th>
                                     <th class="text-left py-3 px-4 text-zinc-400 font-medium">Scheme</th>
-                                    <th class="text-right py-3 px-4 text-zinc-400 font-medium">Current Units</th>
-                                    <th class="text-right py-3 px-4 text-zinc-400 font-medium">Total Invested (₹)</th>
+                                    <th class="text-left py-3 px-4 text-zinc-400 font-medium">Type</th>
+                                    <th class="text-right py-3 px-4 text-zinc-400 font-medium">Amount (₹)</th>
+                                    <th class="text-right py-3 px-4 text-zinc-400 font-medium">Units</th>
+                                    <th class="text-right py-3 px-4 text-zinc-400 font-medium">NAV</th>
+                                    <th class="text-right py-3 px-4 text-zinc-400 font-medium">Balance Units</th>
                                 </tr>
                             </thead>
                             <tbody id="mfHoldingsTable" class="text-white">
@@ -1656,25 +1660,12 @@ function renderMFTransactions(filteredTransactions = null) {
 
         html += `
             <tr class="border-b border-zinc-800 hover:bg-zinc-800 text-sm">
-                <!-- Date -->
                 <td class="py-2.5 px-4">${txn.date || '-'}</td>
-                
-                <!-- Scheme -->
                 <td class="py-2.5 px-4">${txn.scheme || txn.displayName || '-'}</td>
-                
-                <!-- Type (Invested / Redeemed / SIP etc.) -->
                 <td class="py-2.5 px-4">${txn.type || '-'}</td>
-                
-                <!-- Amount -->
                 <td class="py-2.5 px-4 text-right">₹${amount.toLocaleString('en-IN')}</td>
-                
-                <!-- Units -->
                 <td class="py-2.5 px-4 text-right">${units.toFixed(3)}</td>
-                
-                <!-- NAV -->
                 <td class="py-2.5 px-4 text-right">₹${nav.toFixed(4)}</td>
-                
-                <!-- Balance Units -->
                 <td class="py-2.5 px-4 text-right">${balance.toFixed(3)}</td>
             </tr>
         `;
