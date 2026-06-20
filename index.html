@@ -1641,31 +1641,47 @@ function renderMFHoldings() {
 }
 
 function renderMFTransactions(filteredTransactions = null) {
-    const transactions = filteredTransactions || mfData.transactions;
-    const container = document.getElementById('mfTransactionsTable'); // Change ID if different
-    if (!container) return;
-    
+    const tbody = document.getElementById('mfTransactionsTable');
+    if (!tbody) return;
+
+    const list = filteredTransactions || mfData.transactions;
+
     let html = '';
-    
-    transactions.forEach(txn => {
+
+    list.forEach(txn => {
         const amount = parseFloat(txn.amount) || 0;
         const units = parseFloat(txn.units) || 0;
         const nav = parseFloat(txn.nav) || 0;
-        
+        const balance = parseFloat(txn.balance_units) || 0;
+
         html += `
-            <tr>
-                <td>${txn.date || '-'}</td>
-                <td>${txn.scheme || txn.displayName || '-'}</td>
-                <td>${txn.type || '-'}</td>
-                <td>₹${amount.toLocaleString('en-IN')}</td>
-                <td>${units.toFixed(3)}</td>
-                <td>₹${nav.toFixed(4)}</td>
-                <td>${parseFloat(txn.balance_units || 0).toFixed(3)}</td>
+            <tr class="border-b border-zinc-800 hover:bg-zinc-800 text-sm">
+                <!-- Date -->
+                <td class="py-2.5 px-4">${txn.date || '-'}</td>
+                
+                <!-- Scheme -->
+                <td class="py-2.5 px-4">${txn.scheme || txn.displayName || '-'}</td>
+                
+                <!-- Type (Invested / Redeemed / SIP etc.) -->
+                <td class="py-2.5 px-4">${txn.type || '-'}</td>
+                
+                <!-- Amount -->
+                <td class="py-2.5 px-4 text-right">₹${amount.toLocaleString('en-IN')}</td>
+                
+                <!-- Units -->
+                <td class="py-2.5 px-4 text-right">${units.toFixed(3)}</td>
+                
+                <!-- NAV -->
+                <td class="py-2.5 px-4 text-right">₹${nav.toFixed(4)}</td>
+                
+                <!-- Balance Units -->
+                <td class="py-2.5 px-4 text-right">${balance.toFixed(3)}</td>
             </tr>
         `;
     });
-    
-    container.innerHTML = html || '<tr><td colspan="7">No transactions found</td></tr>';
+
+    tbody.innerHTML = html || 
+        '<tr><td colspan="7" class="py-4 text-center text-zinc-500">No transactions found</td></tr>';
 }
 
 function filterMFTransactions() {
