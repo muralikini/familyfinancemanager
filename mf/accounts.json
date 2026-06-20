@@ -96,5 +96,47 @@
     "folioNumber": "5658902",
     "filePath": "mf/muralidhar/ICICI_Prudential_Value_Fund_erstwhile_Value_Discovery_Fund_-_Direct_Plan_-_Growth.json",
     "displayName": "ICICI Prudential Value Fund (erstwhile Value Discovery - Direct)"
+  },
+  {
+    "personId": "muralidhar",
+    "provider": "Zerodha",
+    "folioNumber": null,
+    "filePath": "mf/zerodha/ADITYA_BIRLA_SUN_LIFE_CORPORATE_BOND_FUND.json",
+    "displayName": "Aditya Birla Sun Life Corporate Bond Fund"
+  },
+  {
+    "personId": "muralidhar",
+    "provider": "Zerodha",
+    "folioNumber": null,
+    "filePath": "mf/zerodha/ADITYA_BIRLA_SUN_LIFE_ELSS_TAX_SAVER_FUND.json",
+    "displayName": "Aditya Birla Sun Life ELSS Tax Saver Fund"
+  },
+  {
+    "personId": "muralidhar",
+    "provider": "Zerodha",
+    "folioNumber": null,
+    "filePath": "mf/zerodha/AXIS_ELSS_TAX_SAVER_FUND.json",
+    "displayName": "Axis ELSS Tax Saver Fund"
+  },
+  {
+    "personId": "muralidhar",
+    "provider": "Zerodha",
+    "folioNumber": null,
+    "filePath": "mf/zerodha/AXIS_LONG_TERM_EQUITY_FUND.json",
+    "displayName": "Axis Long Term Equity Fund"
+  },
+  {
+    "personId": "muralidhar",
+    "provider": "Zerodha",
+    "folioNumber": null,
+    "filePath": "mf/zerodha/ICICI_PRUDENTIAL_SHORT_TERM_FUND.json",
+    "displayName": "ICICI Prudential Short Term Fund"
+  },
+  {
+    "personId": "muralidhar",
+    "provider": "Zerodha",
+    "folioNumber": null,
+    "filePath": "mf/zerodha/QUANT_LARGE_AND_MID_CAP_FUND.json",
+    "displayName": "Quant Large & Mid Cap Fund"
   }
 ]
