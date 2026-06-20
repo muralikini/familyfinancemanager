@@ -835,7 +835,9 @@ async function loadBankYears(personId, bankName, availableYears) {
 async function loadEquityAccount(filePath, personId, broker, accountNumber) {
     try {
         const res = await fetch(filePath);
-        if (!res.ok) throw new Error(`File not found: ${filePath}`);
+        if (!res.ok) {
+            throw new Error(`File not found: ${filePath}`);
+        }
 
         const data = await res.json();
         allEquityTransactions = data;
@@ -884,19 +886,29 @@ function clearEquityData() {
 }
 
 function updateEquitySummary() {
-    const txns = equityTransactions;
-    let buy = 0, sell = 0;
+    const txns = equityTransactions || [];
+    let totalInvested = 0;
+    let realizedPnL = 0;
 
     txns.forEach(t => {
-        const val = (t.quantity || 0) * (t.price || 0);
-        if (t.tradeType === 'buy') buy += val;
-        else if (t.tradeType === 'sell') sell += val;
+        const value = (t.quantity || 0) * (t.price || 0);
+        if (t.tradeType === 'buy') {
+            totalInvested += value;
+        } else if (t.tradeType === 'sell') {
+            realizedPnL += value;
+        }
     });
 
-    document.getElementById('equityTotalTrades').textContent = txns.length;
-    document.getElementById('equityTotalBuy').textContent = '₹' + buy.toLocaleString('en-IN');
-    document.getElementById('equityTotalSell').textContent = '₹' + sell.toLocaleString('en-IN');
-    document.getElementById('equityNetInvestment').textContent = '₹' + (buy - sell).toLocaleString('en-IN');
+    // Update new card IDs from Option A layout
+    const totalTradesEl = document.getElementById('equityTotalTrades');
+    const totalInvestedEl = document.getElementById('equityTotalInvested');
+    const realizedPnLEl = document.getElementById('equityRealizedPnL');
+    const holdingsValueEl = document.getElementById('equityHoldingsValue');
+
+    if (totalTradesEl) totalTradesEl.textContent = txns.length;
+    if (totalInvestedEl) totalInvestedEl.textContent = '₹' + totalInvested.toLocaleString('en-IN');
+    if (realizedPnLEl) realizedPnLEl.textContent = '₹' + realizedPnL.toLocaleString('en-IN');
+    if (holdingsValueEl) holdingsValueEl.textContent = '₹' + totalInvested.toLocaleString('en-IN');
 }
 
 
