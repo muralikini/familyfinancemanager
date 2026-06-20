@@ -373,6 +373,7 @@
         let equityTransactions = [];
         let allEquityTransactions = [];
         let mfData = null;
+        let filteredTransactions = [];
 
         // ==================== LOGIN ====================
         function login() {
@@ -1384,78 +1385,125 @@ function exportEquityToExcel() {
 //===========================MUTUAL FUND ===============================================
 async function loadMFData() {
     try {
-        const response = await fetch('mf/muralidhar/ppfas_folio_10582613.json');
-        if (!response.ok) throw new Error('Failed to load MF data');
-        
-        mfData = await response.json();
-        
+        const accountsRes = await fetch('mf/accounts.json');
+        const accounts = await accountsRes.json();
+        const account = accounts[0];
+
+        const response = await fetch(account.filePath);
+        if (!response.ok) throw new Error('Failed to load data');
+
+        const rawTransactions = await response.json();
+
+        // Store data in a clean structure
+        mfData = {
+            folio_number: account.folioNumber,
+            provider: account.provider,
+            displayName: account.displayName,
+            transactions: rawTransactions,
+            scheme: rawTransactions[0]?.scheme || "Parag Parikh Flexi Cap Fund"
+        };
+
+        filteredTransactions = [...mfData.transactions];
+
         renderMFHoldings();
         renderMFTransactions();
         updateMFSummary();
-        
-        alert('Mutual Fund data loaded successfully!');
+        populateYearFilter();
+
+        alert(`✅ Data loaded successfully!\nFolio: ${account.folioNumber}`);
+
     } catch (error) {
         console.error(error);
-        alert('Error loading MF data. Make sure the file exists in mf/muralidhar/');
+        alert('Error loading MF data. Check console.');
     }
 }
+
+// ==================== YEAR FILTER ====================
+function populateYearFilter() {
+    if (!mfData) return;
+
+    const years = [...new Set(mfData.transactions.map(t => t.date.split('-')[0]))].sort().reverse();
+    
+    // Create year filter if it doesn't exist
+    let yearFilter = document.getElementById('mfYearFilter');
+    if (!yearFilter) {
+        const container = document.querySelector('#tab-4 .flex.justify-between.items-center');
+        if (container) {
+            yearFilter = document.createElement('select');
+            yearFilter.id = 'mfYearFilter';
+            yearFilter.className = 'bg-zinc-800 border border-zinc-700 rounded-lg px-3 py-1 text-sm mr-2';
+            yearFilter.innerHTML = `<option value="">All Years</option>`;
+            years.forEach(y => {
+                yearFilter.innerHTML += `<option value="${y}">${y}</option>`;
+            });
+            yearFilter.onchange = filterMFTransactions;
+            container.insertBefore(yearFilter, container.firstChild);
+        }
+    }
+}
+
+
 
 function updateMFSummary() {
     if (!mfData) return;
 
-    const totalInvested = mfData.all_transactions
-        .filter(t => t.transaction_type && t.transaction_type.toLowerCase().includes('purchase'))
-        .reduce((sum, t) => sum + (t.amount || 0), 0);
+    const investedTxns = mfData.transactions.filter(t => t.type === "Invested");
 
-    const latestHolding = mfData.yearly_data[mfData.yearly_data.length - 1]?.holdings[0];
-    const currentValue = latestHolding ? latestHolding.market_value : 0;
-    const totalUnits = latestHolding ? latestHolding.units : 0;
+    const totalInvested = investedTxns.reduce((sum, t) => sum + (t.value || 0), 0);
+    const totalUnits = investedTxns.reduce((sum, t) => sum + (t.units || 0), 0);
+
+    // Latest NAV from most recent transaction
+    const latestNav = mfData.transactions.length > 0 ? mfData.transactions[0].nav : 0;
+    const currentValue = totalUnits * latestNav;
 
     document.getElementById('mfTotalInvested').textContent = '₹' + totalInvested.toLocaleString('en-IN');
     document.getElementById('mfCurrentValue').textContent = '₹' + currentValue.toLocaleString('en-IN');
-    document.getElementById('mfTotalUnits').textContent = totalUnits.toLocaleString('en-IN');
-    document.getElementById('mfTotalTxns').textContent = mfData.all_transactions.length;
+    document.getElementById('mfTotalUnits').textContent = totalUnits.toFixed(3);
+    document.getElementById('mfTotalTxns').textContent = mfData.transactions.length;
 }
 
 function renderMFHoldings() {
     const tbody = document.getElementById('mfHoldingsTable');
     tbody.innerHTML = '';
 
-    if (!mfData || !mfData.yearly_data.length) return;
+    if (!mfData || mfData.transactions.length === 0) return;
 
-    const latestYear = mfData.yearly_data[mfData.yearly_data.length - 1];
-    
-    latestYear.holdings.forEach(holding => {
-        const row = document.createElement('tr');
-        row.className = 'border-b border-zinc-800 hover:bg-zinc-800';
-        row.innerHTML = `
-            <td class="py-3 px-4">${holding.scheme_name}</td>
-            <td class="text-right py-3 px-4">${holding.units.toLocaleString('en-IN')}</td>
-            <td class="text-right py-3 px-4">₹${holding.nav}</td>
-            <td class="text-right py-3 px-4 font-semibold text-emerald-400">
-                ₹${holding.market_value.toLocaleString('en-IN')}
-            </td>
-        `;
-        tbody.appendChild(row);
-    });
+    const investedTxns = mfData.transactions.filter(t => t.type === "Invested");
+    const totalUnits = investedTxns.reduce((sum, t) => sum + t.units, 0);
+    const latestNav = mfData.transactions[0].nav;
+    const currentValue = totalUnits * latestNav;
+    const totalInvested = investedTxns.reduce((sum, t) => sum + t.value, 0);
+    const gain = currentValue - totalInvested;
+
+    const row = document.createElement('tr');
+    row.className = 'border-b border-zinc-800 hover:bg-zinc-800';
+    row.innerHTML = `
+        <td class="py-3 px-4 font-medium">${mfData.scheme}</td>
+        <td class="text-right py-3 px-4">${totalUnits.toFixed(3)}</td>
+        <td class="text-right py-3 px-4">₹${latestNav}</td>
+        <td class="text-right py-3 px-4 font-semibold text-emerald-400">
+            ₹${currentValue.toLocaleString('en-IN')}
+        </td>
+    `;
+    tbody.appendChild(row);
 }
 
-function renderMFTransactions(filteredData = null) {
+function renderMFTransactions(data = null) {
     const tbody = document.getElementById('mfTransactionsTable');
     tbody.innerHTML = '';
 
-    const transactions = filteredData || (mfData ? mfData.all_transactions : []);
-    
-    transactions.forEach(txn => {
+    const transactionsToShow = data || filteredTransactions;
+
+    transactionsToShow.forEach(txn => {
         const row = document.createElement('tr');
         row.className = 'border-b border-zinc-800 hover:bg-zinc-800';
         row.innerHTML = `
             <td class="py-2 px-4">${txn.date}</td>
-            <td class="py-2 px-4">${txn.transaction_type || ''}</td>
-            <td class="text-right py-2 px-4">₹${(txn.amount || 0).toLocaleString('en-IN')}</td>
-            <td class="text-right py-2 px-4">${txn.units || ''}</td>
-            <td class="text-right py-2 px-4">₹${txn.nav || ''}</td>
-            <td class="text-right py-2 px-4">${txn.balance_units || ''}</td>
+            <td class="py-2 px-4">${txn.type}</td>
+            <td class="text-right py-2 px-4">₹${txn.value.toLocaleString('en-IN')}</td>
+            <td class="text-right py-2 px-4">${txn.units}</td>
+            <td class="text-right py-2 px-4">₹${txn.nav}</td>
+            <td class="text-right py-2 px-4">-</td>
         `;
         tbody.appendChild(row);
     });
@@ -1463,34 +1511,41 @@ function renderMFTransactions(filteredData = null) {
 
 function filterMFTransactions() {
     if (!mfData) return;
-    
-    const searchTerm = document.getElementById('mfSearch').value.toLowerCase();
-    
-    const filtered = mfData.all_transactions.filter(txn => 
-        (txn.transaction_type && txn.transaction_type.toLowerCase().includes(searchTerm)) ||
-        (txn.date && txn.date.includes(searchTerm))
-    );
-    
-    renderMFTransactions(filtered);
+
+    const searchTerm = document.getElementById('mfSearch')?.value.toLowerCase() || '';
+    const selectedYear = document.getElementById('mfYearFilter')?.value || '';
+
+    filteredTransactions = mfData.transactions.filter(txn => {
+        const matchesSearch = 
+            txn.type.toLowerCase().includes(searchTerm) ||
+            txn.date.includes(searchTerm);
+
+        const matchesYear = !selectedYear || txn.date.startsWith(selectedYear);
+
+        return matchesSearch && matchesYear;
+    });
+
+    renderMFTransactions(filteredTransactions);
 }
 
+
+
 function exportMFToExcel() {
-    if (!mfData || !mfData.all_transactions.length) {
+    if (!filteredTransactions.length) {
         alert('No data to export');
         return;
     }
 
-    let csv = 'Date,Type,Amount,Units,NAV,Balance Units\n';
-    
-    mfData.all_transactions.forEach(txn => {
-        csv += `${txn.date},${txn.transaction_type || ''},${txn.amount || ''},${txn.units || ''},${txn.nav || ''},${txn.balance_units || ''}\n`;
+    let csv = 'Date,Type,Value,Units,NAV\n';
+    filteredTransactions.forEach(t => {
+        csv += `${t.date},${t.type},${t.value},${t.units},${t.nav}\n`;
     });
 
     const blob = new Blob([csv], { type: 'text/csv' });
-    const url = window.URL.createObjectURL(blob);
+    const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
-    a.download = 'Mutual_Fund_Transactions.csv';
+    a.download = `Parag_Parikh_FlexiCap_Transactions.csv`;
     a.click();
 }
 
