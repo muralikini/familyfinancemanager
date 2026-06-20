@@ -310,6 +310,19 @@
                     </div>
                 </div>
 
+                <!-- Filters -->
+                <div class="flex flex-wrap gap-4 mb-4">
+                    <select id="mfYearFilter" onchange="filterMFTransactions()" 
+                            class="bg-zinc-800 border border-zinc-700 text-white px-4 py-2 rounded-xl">
+                        <option value="">All Years</option>
+                    </select>
+
+                    <select id="mfSchemeFilter" onchange="filterMFTransactions()" 
+                            class="bg-zinc-800 border border-zinc-700 text-white px-4 py-2 rounded-xl w-80">
+                        <option value="">All Schemes</option>
+                    </select>
+                </div>
+
                 <!-- Current Holdings -->
                 <div class="bg-zinc-900 border border-zinc-800 rounded-2xl p-6 mb-8">
                     <h3 class="text-xl font-semibold text-white mb-4">Current Holdings</h3>
@@ -1389,38 +1402,38 @@ async function loadMFData() {
     try {
         const response = await fetch('mf/accounts.json');
         if (!response.ok) throw new Error('Failed to load accounts.json');
-        
+
         const accounts = await response.json();
         let allTransactions = [];
 
         for (const account of accounts) {
             try {
                 const fileResponse = await fetch(account.filePath);
-                if (!fileResponse.ok) continue;
+                if (!fileResponse.ok) {
+                    console.warn("File not found:", account.filePath);
+                    continue;
+                }
 
-                let transactions = await fileResponse.json();
+                let rawData = await fileResponse.json();
 
-                // === NORMALIZE DATA FORMAT ===
-                const normalized = transactions.map(txn => {
-                    // Detect if it's Groww format or ICICI format
-                    const isGrowwFormat = txn.hasOwnProperty('value') && !txn.hasOwnProperty('amount');
+                // Normalize both Groww and ICICI formats
+                const normalized = rawData.map(txn => {
+                    const isGroww = txn.hasOwnProperty('value') && !txn.hasOwnProperty('amount');
 
-                    if (isGrowwFormat) {
-                        // Groww Format
+                    if (isGroww) {
                         return {
                             date: txn.date || "",
                             type: txn.type || "Invested",
                             amount: parseFloat(txn.value) || 0,
                             nav: parseFloat(txn.nav) || 0,
                             units: parseFloat(txn.units) || 0,
-                            balance_units: parseFloat(txn.units) || 0, // Groww doesn't have balance
-                            scheme: txn.scheme || account.displayName,
-                            provider: account.provider,
-                            folioNumber: account.folioNumber,
-                            displayName: account.displayName
+                            balance_units: parseFloat(txn.units) || 0,
+                            scheme: txn.scheme || account.displayName || "Unknown",
+                            provider: account.provider || "Groww",
+                            displayName: account.displayName || txn.scheme
                         };
                     } else {
-                        // ICICI Format (our generated JSONs)
+                        // ICICI format
                         return {
                             date: txn.date || "",
                             type: txn.type || "",
@@ -1428,35 +1441,56 @@ async function loadMFData() {
                             nav: parseFloat(txn.nav) || 0,
                             units: parseFloat(txn.units) || 0,
                             balance_units: parseFloat(txn.balance_units) || 0,
-                            scheme: txn.scheme || account.displayName,
-                            provider: account.provider,
-                            folioNumber: account.folioNumber,
-                            displayName: account.displayName
+                            scheme: txn.scheme || account.displayName || "Unknown",
+                            provider: account.provider || "ICICI Prudential",
+                            displayName: account.displayName || txn.scheme
                         };
                     }
                 });
 
                 allTransactions = allTransactions.concat(normalized);
-
-            } catch (err) {
-                console.warn(`Error loading: ${account.filePath}`);
+            } catch (e) {
+                console.warn("Error loading file:", account.filePath);
             }
         }
 
         mfData.transactions = allTransactions;
-        
         calculateMFHoldings();
         renderMFHoldings();
         renderMFTransactions();
         updateMFSummaryCards();
+        populateMFFilters();           // ← Add filters
 
-        console.log(`✅ Loaded ${allTransactions.length} transactions (normalized)`);
+        console.log(`✅ Loaded ${allTransactions.length} MF transactions`);
 
     } catch (error) {
         console.error("Error loading MF data:", error);
         alert("Error loading MF data");
     }
 }
+
+function populateMFFilters() {
+    // Year Filter
+    const yearSelect = document.getElementById('mfYearFilter');
+    const years = [...new Set(mfData.transactions.map(t => t.date ? t.date.substring(0, 4) : null))]
+        .filter(Boolean).sort().reverse();
+
+    yearSelect.innerHTML = '<option value="">All Years</option>';
+    years.forEach(y => {
+        yearSelect.innerHTML += `<option value="${y}">${y}</option>`;
+    });
+
+    // Scheme Filter
+    const schemeSelect = document.getElementById('mfSchemeFilter');
+    const schemes = [...new Set(mfData.transactions.map(t => t.scheme))].sort();
+
+    schemeSelect.innerHTML = '<option value="">All Schemes</option>';
+    schemes.forEach(s => {
+        schemeSelect.innerHTML += `<option value="${s}">${s}</option>`;
+    });
+}
+
+
 
 function updateMFSummaryCards() {
     let totalInvested = 0;
@@ -1498,18 +1532,18 @@ function calculateMFHoldings() {
             };
         }
 
-        // Only count actual investments for "Total Invested"
-        const isInvestment = 
+        // Only count real investments
+        const isRealInvestment = 
             type.includes("purchase") || 
             type.includes("sip") || 
             type.includes("switch-in") || 
-            type.includes("switch in");
+            type.includes("switch in") ||
+            type === "invested";                    // For Groww
 
-        if (isInvestment && amount > 0) {
+        if (isRealInvestment && amount > 0) {
             holdingsMap[scheme].totalInvested += amount;
         }
 
-        // Net units (buy adds, sell subtracts)
         holdingsMap[scheme].totalUnits += units;
     });
 
@@ -1614,25 +1648,21 @@ function renderMFTransactions(filteredTransactions = null) {
 }
 
 function filterMFTransactions() {
-    if (!mfData) return;
+    const year = document.getElementById('mfYearFilter').value;
+    const scheme = document.getElementById('mfSchemeFilter').value;
+    const search = document.getElementById('mfSearchInput').value.toLowerCase();
 
-    const searchTerm = document.getElementById('mfSearch')?.value.toLowerCase() || '';
-    const selectedYear = document.getElementById('mfYearFilter')?.value || '';
-    const selectedScheme = document.getElementById('mfSchemeFilter')?.value || '';
+    const filtered = mfData.transactions.filter(txn => {
+        const matchYear = !year || (txn.date && txn.date.startsWith(year));
+        const matchScheme = !scheme || txn.scheme === scheme;
+        const matchSearch = !search || 
+            (txn.scheme && txn.scheme.toLowerCase().includes(search)) ||
+            (txn.type && txn.type.toLowerCase().includes(search));
 
-    filteredTransactions = mfData.transactions.filter(txn => {
-        const matchesSearch = 
-            txn.type.toLowerCase().includes(searchTerm) ||
-            txn.date.includes(searchTerm) ||
-            txn.scheme.toLowerCase().includes(searchTerm);
-
-        const matchesYear = !selectedYear || txn.date.startsWith(selectedYear);
-        const matchesScheme = !selectedScheme || txn.scheme === selectedScheme;
-
-        return matchesSearch && matchesYear && matchesScheme;
+        return matchYear && matchScheme && matchSearch;
     });
 
-    renderMFTransactions(filteredTransactions);
+    renderMFTransactions(filtered);
 }
 
 function populateSchemeFilter() {
