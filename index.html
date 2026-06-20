@@ -144,108 +144,132 @@
             </div>
         </div>
 
-        <!-- EQUITY TAB -->
-       <!-- ==================== EQUITY TAB HEADER ==================== -->
-                    <div class="flex justify-between items-center mb-6">
-                        <h2 class="text-2xl font-bold text-white">Equity Portfolio</h2>
-                        
-                        <div class="flex gap-3">
-                            <!-- Export to Excel Button -->
-                            <button onclick="exportEquityToExcel()" 
-                                    class="px-4 py-2 bg-emerald-600 hover:bg-emerald-700 text-white rounded-lg text-sm font-medium flex items-center gap-x-2">
-                                <i class="fas fa-download"></i>
-                                <span>Export to Excel</span>
-                            </button>
+       <!-- ==================== EQUITY TAB ==================== -->
+<div id="tab-3" class="tab-content hidden px-6 pt-8">
 
-                            <!-- Clear Loaded Data Button -->
-                            <button onclick="clearEquityData()" 
-                                    class="px-4 py-2 bg-red-600 hover:bg-red-700 text-white rounded-lg text-sm font-medium">
-                                Clear Loaded Data
-                            </button>
-                        </div>
-                    </div>
+    <!-- Header -->
+    <div class="flex justify-between items-center mb-6">
+        <h2 class="text-2xl font-bold text-white">Equity Portfolio</h2>
+        <div class="flex gap-3">
+            <button onclick="exportEquityToExcel()" 
+                    class="px-4 py-2 bg-emerald-600 hover:bg-emerald-700 text-white rounded-lg text-sm font-medium flex items-center gap-x-2">
+                <i class="fas fa-download"></i>
+                <span>Export to Excel</span>
+            </button>
+            <button onclick="clearEquityData()" 
+                    class="px-4 py-2 bg-red-600 hover:bg-red-700 text-white rounded-lg text-sm font-medium">
+                Clear Loaded Data
+            </button>
+        </div>
+    </div>
 
-                <!-- Person Filter -->
-                <div class="mb-4">
-                    <label class="block text-sm font-medium text-zinc-400 mb-2">Filter by Person</label>
-                    <select id="equityPersonFilter" onchange="generateEquityLoadButtons()"
-                            class="bg-zinc-800 border border-zinc-700 text-white px-4 py-2 rounded-lg w-full md:w-64">
-                        <option value="">All Family Members</option>
-                        <option value="muralidhar">Muralidhar Kini</option>
-                        <option value="leena">Leena Kini</option>
-                        <option value="niyati">Niyati Kini</option>
-                        <option value="jayanth">Jayanth Kini</option>
-                    </select>
-                </div>
+    <!-- Person Filter + Load Buttons -->
+    <div class="mb-6">
+        <div class="flex items-end gap-4 mb-3">
+            <div>
+                <label class="block text-sm font-medium text-zinc-400 mb-1">Person</label>
+                <select id="equityPersonFilter" onchange="generateEquityLoadButtons()"
+                        class="bg-zinc-800 border border-zinc-700 text-white px-4 py-2 rounded-lg w-64">
+                    <option value="">All Family Members</option>
+                    <option value="muralidhar">Muralidhar Kini</option>
+                    <option value="leena">Leena Kini</option>
+                    <option value="niyati">Niyati Kini</option>
+                    <option value="jayanth">Jayanth Kini</option>
+                </select>
+            </div>
+        </div>
 
-                <!-- Load Buttons -->
-                <div class="mb-6">
-                    <h3 class="text-lg font-semibold mb-3 text-zinc-300">Load Equity Account</h3>
-                    <div id="equityLoadButtons" class="flex flex-wrap gap-3">
-                        <!-- Dynamically generated buttons -->
-                    </div>
-                </div>
+        <h3 class="text-lg font-semibold mb-3 text-zinc-300">Load Equity Account</h3>
+        <div id="equityLoadButtons" class="flex flex-wrap gap-3">
+            <!-- Dynamically generated -->
+        </div>
+    </div>
 
-                <!-- Summary Cards -->
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-6">
-                    <div class="bg-zinc-900 p-5 rounded-xl border border-zinc-800">
-                        <div class="text-sm text-zinc-400">Total Trades</div>
-                        <div id="equityTotalTrades" class="text-3xl font-bold text-white mt-1">0</div>
-                    </div>
-                    <div class="bg-zinc-900 p-5 rounded-xl border border-zinc-800">
-                        <div class="text-sm text-zinc-400">Total Buy Value</div>
-                        <div id="equityTotalBuy" class="text-3xl font-bold text-emerald-400 mt-1">₹0</div>
-                    </div>
-                    <div class="bg-zinc-900 p-5 rounded-xl border border-zinc-800">
-                        <div class="text-sm text-zinc-400">Total Sell Value</div>
-                        <div id="equityTotalSell" class="text-3xl font-bold text-red-400 mt-1">₹0</div>
-                    </div>
-                    <div class="bg-zinc-900 p-5 rounded-xl border border-zinc-800">
-                        <div class="text-sm text-zinc-400">Net Investment</div>
-                        <div id="equityNetInvestment" class="text-3xl font-bold text-blue-400 mt-1">₹0</div>
-                    </div>
-                </div>
+    <!-- Summary Cards -->
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
+        <div class="bg-zinc-900 p-5 rounded-xl border border-zinc-800">
+            <div class="text-sm text-zinc-400">Total Trades</div>
+            <div id="equityTotalTrades" class="text-3xl font-bold text-white mt-1">0</div>
+        </div>
+        <div class="bg-zinc-900 p-5 rounded-xl border border-zinc-800">
+            <div class="text-sm text-zinc-400">Total Invested</div>
+            <div id="equityTotalInvested" class="text-3xl font-bold text-emerald-400 mt-1">₹0</div>
+        </div>
+        <div class="bg-zinc-900 p-5 rounded-xl border border-zinc-800">
+            <div class="text-sm text-zinc-400">Realized P&L</div>
+            <div id="equityRealizedPnL" class="text-3xl font-bold text-blue-400 mt-1">₹0</div>
+        </div>
+        <div class="bg-zinc-900 p-5 rounded-xl border border-zinc-800">
+            <div class="text-sm text-zinc-400">Current Holdings Value</div>
+            <div id="equityHoldingsValue" class="text-3xl font-bold text-amber-400 mt-1">₹0</div>
+        </div>
+    </div>
 
-                <!-- Filters -->
-                <div class="flex flex-col md:flex-row gap-4 mb-4">
-                    <div class="w-full md:w-64">
-                        <label class="block text-sm font-medium text-zinc-400 mb-1">Financial Year</label>
-                        <select id="equityFYFilter" onchange="filterEquityTransactions()"
-                                class="w-full bg-zinc-800 border border-zinc-700 text-white px-4 py-2 rounded-lg">
-                            <option value="">All Years</option>
-                        </select>
-                    </div>
+    <!-- Current Holdings Section -->
+    <div class="mb-8">
+        <h3 class="text-xl font-semibold mb-4">Current Holdings</h3>
+        <div class="bg-zinc-900 border border-zinc-700 rounded-3xl overflow-hidden">
+            <table class="w-full text-sm">
+                <thead class="bg-zinc-950">
+                    <tr class="text-zinc-400">
+                        <th class="text-left py-3 px-6">Symbol</th>
+                        <th class="text-right py-3 px-6">Quantity</th>
+                        <th class="text-right py-3 px-6">Avg Cost</th>
+                        <th class="text-right py-3 px-6">Total Cost</th>
+                    </tr>
+                </thead>
+                <tbody id="equityHoldingsTable" class="divide-y divide-zinc-800 text-white">
+                    <!-- Populated by JS -->
+                </tbody>
+            </table>
+        </div>
+    </div>
 
-                    <div class="flex-1">
-                        <label class="block text-sm font-medium text-zinc-400 mb-1">Search Symbol</label>
-                        <input type="text" id="equitySymbolFilter" placeholder="e.g. RELIANCE, GOLDBEES"
-                            onkeyup="filterEquityTransactions()"
-                            class="w-full bg-zinc-800 border border-zinc-700 text-white px-4 py-2 rounded-lg">
-                    </div>
-                </div>
+    <!-- Transaction History -->
+    <div>
+        <h3 class="text-xl font-semibold mb-4">Transaction History</h3>
 
-                <!-- Transactions Table -->
-                <div class="bg-zinc-900 rounded-xl border border-zinc-800 overflow-hidden">
-                    <div class="overflow-x-auto">
-                        <table class="min-w-full divide-y divide-zinc-800">
-                            <thead class="bg-zinc-950">
-                                <tr>
-                                    <th class="px-6 py-3 text-left text-xs font-medium text-zinc-400 uppercase">Date</th>
-                                    <th class="px-6 py-3 text-left text-xs font-medium text-zinc-400 uppercase">Symbol</th>
-                                    <th class="px-6 py-3 text-left text-xs font-medium text-zinc-400 uppercase">Type</th>
-                                    <th class="px-6 py-3 text-right text-xs font-medium text-zinc-400 uppercase">Qty</th>
-                                    <th class="px-6 py-3 text-right text-xs font-medium text-zinc-400 uppercase">Price</th>
-                                    <th class="px-6 py-3 text-right text-xs font-medium text-zinc-400 uppercase">Value</th>
-                                    <th class="px-6 py-3 text-left text-xs font-medium text-zinc-400 uppercase">Exchange</th>
-                                </tr>
-                            </thead>
-                            <tbody id="equityTableBody" class="divide-y divide-zinc-800 text-sm text-white">
-                                <!-- Populated by JS -->
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-        </div>          
+        <!-- Filters -->
+        <div class="flex flex-col md:flex-row gap-4 mb-4">
+            <div class="w-full md:w-64">
+                <label class="block text-sm font-medium text-zinc-400 mb-1">Financial Year</label>
+                <select id="equityFYFilter" onchange="filterEquityTransactions()"
+                        class="w-full bg-zinc-800 border border-zinc-700 text-white px-4 py-2 rounded-lg">
+                    <option value="">All Years</option>
+                </select>
+            </div>
+            <div class="flex-1">
+                <label class="block text-sm font-medium text-zinc-400 mb-1">Search Symbol</label>
+                <input type="text" id="equitySymbolFilter" placeholder="e.g. RELIANCE, GOLDBEES"
+                    onkeyup="filterEquityTransactions()"
+                    class="w-full bg-zinc-800 border border-zinc-700 text-white px-4 py-2 rounded-lg">
+            </div>
+        </div>
+
+        <!-- Transactions Table -->
+        <div class="bg-zinc-900 rounded-xl border border-zinc-800 overflow-hidden">
+            <div class="overflow-x-auto">
+                <table class="min-w-full divide-y divide-zinc-800">
+                    <thead class="bg-zinc-950">
+                        <tr>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-zinc-400 uppercase">Date</th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-zinc-400 uppercase">Symbol</th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-zinc-400 uppercase">Type</th>
+                            <th class="px-6 py-3 text-right text-xs font-medium text-zinc-400 uppercase">Qty</th>
+                            <th class="px-6 py-3 text-right text-xs font-medium text-zinc-400 uppercase">Price</th>
+                            <th class="px-6 py-3 text-right text-xs font-medium text-zinc-400 uppercase">Value</th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-zinc-400 uppercase">Exchange</th>
+                        </tr>
+                    </thead>
+                    <tbody id="equityTableBody" class="divide-y divide-zinc-800 text-sm text-white">
+                        <!-- Populated by JS -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+</div>       
          
         <!-- ==================== EXPENSES TAB (Tab 4) ==================== -->
         <div id="tab-4" class="tab-content hidden max-w-screen-2xl mx-auto px-6 pt-8">
@@ -819,6 +843,7 @@ async function loadEquityAccount(filePath, personId, broker, accountNumber) {
 
         populateEquityFYFilter();
         filterEquityTransactions();
+        renderCurrentHoldings(data);
 
         alert(`Loaded ${broker} (${accountNumber}) - ${data.length} trades`);
     } catch (err) {
@@ -836,7 +861,6 @@ function filterEquityTransactions() {
     if (fyFilter) {
         filtered = filtered.filter(t => getEquityFinancialYear(t) === fyFilter);
     }
-
     if (symbolFilter) {
         filtered = filtered.filter(t => t.symbol.toUpperCase().includes(symbolFilter));
     }
@@ -844,6 +868,7 @@ function filterEquityTransactions() {
     equityTransactions = filtered;
     renderEquityTable(filtered);
     updateEquitySummary();
+    renderCurrentHoldings(filtered); // ← New line
 }
 
 function clearEquityData() {
@@ -944,9 +969,60 @@ function getEquityFinancialYear(transaction) {
 }
 
 
+function calculateHoldings(transactions) {
+    const holdings = {};
 
+    transactions.forEach(t => {
+        if (!holdings[t.symbol]) {
+            holdings[t.symbol] = { quantity: 0, totalCost: 0 };
+        }
 
+        const cost = t.totalCost || (t.quantity * t.price);
 
+        if (t.tradeType === 'buy') {
+            holdings[t.symbol].quantity += t.quantity;
+            holdings[t.symbol].totalCost += cost;
+        } else if (t.tradeType === 'sell') {
+            holdings[t.symbol].quantity -= t.quantity;
+            holdings[t.symbol].totalCost -= cost;
+        }
+    });
+
+    // Remove zero or negative holdings
+    Object.keys(holdings).forEach(symbol => {
+        if (holdings[symbol].quantity <= 0) {
+            delete holdings[symbol];
+        }
+    });
+
+    return holdings;
+}
+
+function renderCurrentHoldings(transactions) {
+    const holdings = calculateHoldings(transactions);
+    const tbody = document.getElementById('equityHoldingsTable');
+    tbody.innerHTML = '';
+
+    const symbols = Object.keys(holdings);
+    if (symbols.length === 0) {
+        tbody.innerHTML = `<tr><td colspan="4" class="px-6 py-6 text-center text-zinc-500">No current holdings</td></tr>`;
+        return;
+    }
+
+    symbols.forEach(symbol => {
+        const h = holdings[symbol];
+        const avgCost = h.totalCost / h.quantity;
+
+        const row = document.createElement('tr');
+        row.innerHTML = `
+            <td class="px-6 py-3 font-medium">${symbol}</td>
+            <td class="px-6 py-3 text-right">${h.quantity}</td>
+            <td class="px-6 py-3 text-right">₹${avgCost.toFixed(2)}</td>
+            <td class="px-6 py-3 text-right font-semibold">₹${h.totalCost.toFixed(2)}</td>
+        `;
+        tbody.appendChild(row);
+    });
+}
 
         // ==================== DASHBOARD (Placeholder) ====================
         function refreshDashboard() {
@@ -971,6 +1047,8 @@ function categorizeExpense(narration) {
 
     return "Others";
 }
+
+
 
 // ==================== LOAD EXPENSES ====================
 async function loadExpenses() {
