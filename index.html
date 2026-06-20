@@ -45,63 +45,217 @@
                 <button onclick="switchTab(1)" class="tab-btn px-6 py-3">Admin Panel</button>
                 <button onclick="switchTab(2)" class="tab-btn px-6 py-3">Bank Accounts</button>
                 <button onclick="switchTab(3)" class="tab-btn px-6 py-3">Equity</button>
-                <button onclick="switchTab(4)" class="tab-btn px-6 py-3">Expenses</button>
             </div>
         </div>
 
         <!-- DASHBOARD -->
         <div id="tab-0" class="tab-content max-w-screen-2xl mx-auto px-6 pt-8">
-            <!-- Your original Dashboard content can stay here -->
-            <div class="text-center text-zinc-400 py-10">
-                Dashboard content will appear here (we can enhance it later)
+    <div class="flex justify-between items-center mb-8">
+        <h2 class="text-3xl font-semibold">Dashboard</h2>
+        <button onclick="refreshDashboard()" 
+                class="px-5 py-2.5 bg-zinc-800 hover:bg-zinc-700 rounded-2xl text-sm flex items-center gap-x-2">
+            <i class="fas fa-sync-alt"></i>
+            <span>Refresh</span>
+        </button>
+    </div>
+
+    <!-- Family Overview -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+        
+        <!-- Family Net Worth -->
+        <div class="bg-zinc-900 border border-zinc-700 rounded-3xl p-6">
+            <div class="flex justify-between items-start">
+                <div>
+                    <div class="text-sm text-zinc-400">Family Net Worth</div>
+                    <div class="text-4xl font-bold mt-2" id="dash-family-networth">₹0</div>
+                </div>
+                <i class="fas fa-wallet text-3xl text-emerald-500"></i>
             </div>
+        </div>
+
+        <!-- Total Transactions -->
+        <div class="bg-zinc-900 border border-zinc-700 rounded-3xl p-6">
+            <div class="flex justify-between items-start">
+                <div>
+                    <div class="text-sm text-zinc-400">Total Transactions</div>
+                    <div class="text-4xl font-bold mt-2" id="dash-total-transactions">0</div>
+                </div>
+                <i class="fas fa-exchange-alt text-3xl text-blue-500"></i>
+            </div>
+        </div>
+
+        <!-- Accounts Loaded -->
+        <div class="bg-zinc-900 border border-zinc-700 rounded-3xl p-6">
+            <div class="flex justify-between items-start">
+                <div>
+                    <div class="text-sm text-zinc-400">Accounts Loaded</div>
+                    <div class="text-4xl font-bold mt-2" id="dash-accounts-loaded">0</div>
+                </div>
+                <i class="fas fa-university text-3xl text-orange-500"></i>
+            </div>
+        </div>
+
+        <!-- Current FY Net -->
+        <div class="bg-zinc-900 border border-zinc-700 rounded-3xl p-6">
+            <div class="flex justify-between items-start">
+                <div>
+                    <div class="text-sm text-zinc-400">Current FY Net</div>
+                    <div class="text-4xl font-bold mt-2" id="dash-current-fy-net">₹0</div>
+                </div>
+                <i class="fas fa-chart-line text-3xl text-purple-500"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- Per Person Breakdown -->
+    <div class="mb-8">
+        <h3 class="text-xl font-semibold mb-4">Balance by Family Member</h3>
+        <div id="dash-person-breakdown" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+            <!-- Populated by JavaScript -->
+        </div>
+    </div>
+
+    <!-- Recent Transactions -->
+    <div>
+        <div class="flex justify-between items-center mb-4">
+            <h3 class="text-xl font-semibold">Recent Transactions</h3>
+            <span class="text-sm text-zinc-400">Last 8 transactions</span>
+        </div>
+        
+        <div class="bg-zinc-900 border border-zinc-700 rounded-3xl overflow-hidden">
+            <table class="w-full text-sm">
+                <thead class="bg-zinc-950">
+                    <tr class="text-zinc-400">
+                        <th class="text-left py-4 px-6">Date</th>
+                        <th class="text-left py-4 px-6">Person</th>
+                        <th class="text-left py-4 px-6">Bank</th>
+                        <th class="text-left py-4 px-6">Narration</th>
+                        <th class="text-right py-4 px-6">Amount</th>
+                        <th class="text-right py-4 px-6">Balance</th>
+                    </tr>
+                </thead>
+                <tbody id="dash-recent-transactions" class="divide-y divide-zinc-800">
+                    <!-- Populated dynamically -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Monthly Expense Breakdown -->
+    <div class="mt-8">
+        <div class="flex justify-between items-center mb-4">
+            <h3 class="text-xl font-semibold">Monthly Breakdown (Current FY)</h3>
+            <span class="text-sm text-zinc-400" id="monthly-breakdown-period"></span>
+        </div>
+
+        <div class="bg-zinc-900 border border-zinc-700 rounded-3xl overflow-hidden">
+            <table class="w-full text-sm">
+                <thead class="bg-zinc-950">
+                    <tr class="text-zinc-400">
+                        <th class="text-left py-4 px-6">Month</th>
+                        <th class="text-right py-4 px-6">Expenses</th>
+                        <th class="text-right py-4 px-6">Income</th>
+                        <th class="text-right py-4 px-6">Net Savings</th>
+                    </tr>
+                </thead>
+                <tbody id="monthly-breakdown-body" class="divide-y divide-zinc-800">
+                    <!-- Populated by JavaScript -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Equity Holdings Summary -->
+    <div class="bg-zinc-900 rounded-2xl p-6 border border-zinc-800 mb-6">
+        <div class="flex justify-between items-center mb-4">
+            <h3 class="text-xl font-semibold text-white">Equity Holdings</h3>
+            <button onclick="refreshEquityHoldings()" 
+                    class="px-4 py-2 bg-zinc-800 hover:bg-zinc-700 text-sm rounded-lg flex items-center gap-2">
+                <span>Refresh</span>
+            </button>
+        </div>
+
+        <!-- Cumulative Holdings -->
+        <div class="mb-6">
+            <h4 class="text-sm font-medium text-zinc-400 mb-3">CUMULATIVE HOLDINGS (Family Total)</h4>
+            <div id="cumulativeEquityHoldings" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
+                <!-- Populated by JS -->
+            </div>
+        </div>
+
+        <!-- Individual Holdings -->
+        <div>
+            <h4 class="text-sm font-medium text-zinc-400 mb-3">INDIVIDUAL HOLDINGS</h4>
+            <div id="individualEquityHoldings" class="space-y-4">
+                <!-- Populated by JS -->
+            </div>
+        </div>
+    </div>
+
         </div>
 
         <!-- ADMIN PANEL -->
         <div id="tab-1" class="tab-content hidden max-w-screen-2xl mx-auto px-6 pt-8">
-            <!-- Admin content -->
+            <div class="flex justify-between mb-6">
+                <h2 class="text-2xl font-semibold">Family Members</h2>
+                <button onclick="showAddMemberModal()" class="px-5 py-2 bg-amber-600 rounded-2xl text-sm font-semibold">+ Add Member</button>
+            </div>
+            <div class="bg-zinc-900 border border-zinc-700 rounded-3xl p-6">
+                <table class="w-full">
+                    <thead><tr class="text-zinc-400 border-b border-zinc-700">
+                        <th class="text-left py-3 px-4">Name</th>
+                        <th class="text-left py-3 px-4">Relation</th>
+                        <th class="text-left py-3 px-4">DOB</th>
+                        <th></th>
+                    </tr></thead>
+                    <tbody id="family-table"></tbody>
+                </table>
+            </div>
         </div>
-
-        <!-- BANK ACCOUNTS TAB -->
+        
+        <!-- ==================== BANK ACCOUNTS TAB ==================== -->
         <div id="tab-2" class="tab-content hidden max-w-screen-2xl mx-auto px-6 pt-8">
-            <div class="flex justify-between items-center mb-6">
+            <div class="flex justify-between items-center mb-6 flex-wrap gap-3">
                 <h2 class="text-2xl font-semibold">Bank Accounts</h2>
-                <button onclick="clearAllData()" class="px-4 py-2 bg-red-600 hover:bg-red-700 rounded-2xl text-sm">
-                    <i class="fas fa-trash mr-2"></i>Clear All Data
+                <button onclick="clearAllData()" 
+                        class="px-4 py-2 bg-red-600 hover:bg-red-700 rounded-2xl text-sm font-semibold flex items-center gap-x-2">
+                    <i class="fas fa-trash"></i> Clear All Data
                 </button>
             </div>
 
-            <!-- Load Buttons -->
+            <!-- Person-wise Bank Accounts -->
             <div class="mb-6">
-                <div class="text-sm text-zinc-400 mb-2">Available Bank Accounts</div>
+                <div class="flex items-center justify-between mb-2">
+                    <div class="text-sm text-zinc-400">Available Bank Accounts</div>
+                    <div class="text-xs text-zinc-500">Changes based on selected Person</div>
+                </div>
                 <div id="auto-load-buttons" class="flex flex-wrap gap-3">
-                    <!-- Buttons generated from accounts.json -->
+                    <!-- Buttons generated dynamically based on selected person -->
                 </div>
             </div>
 
             <!-- Summary Cards -->
             <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mb-6">
                 <div class="bg-zinc-900 border border-zinc-700 rounded-3xl p-6">
-                    <div class="text-sm text-zinc-400">Total Transactions</div>
+                    <div class="text-sm text-zinc-400" id="summary-label-txns">Total Transactions</div>
                     <div class="text-4xl font-bold" id="bank-total-txns">0</div>
                 </div>
                 <div class="bg-zinc-900 border border-zinc-700 rounded-3xl p-6">
-                    <div class="text-sm text-zinc-400">Total Withdrawals</div>
+                    <div class="text-sm text-zinc-400" id="summary-label-withdrawal">Total Withdrawals</div>
                     <div class="text-4xl font-bold text-red-400" id="bank-total-withdrawal">₹0</div>
                 </div>
                 <div class="bg-zinc-900 border border-zinc-700 rounded-3xl p-6">
-                    <div class="text-sm text-zinc-400">Total Deposits</div>
+                    <div class="text-sm text-zinc-400" id="summary-label-deposit">Total Deposits</div>
                     <div class="text-4xl font-bold text-green-400" id="bank-total-deposit">₹0</div>
                 </div>
                 <div class="bg-zinc-900 border border-zinc-700 rounded-3xl p-6">
-                    <div class="text-sm text-zinc-400">Current Balance</div>
+                    <div class="text-sm text-zinc-400" id="summary-label-balance">Current Balance</div>
                     <div class="text-4xl font-bold text-amber-400" id="bank-current-balance">₹0</div>
                 </div>
             </div>
 
             <!-- Filters -->
             <div class="bg-zinc-900 border border-zinc-700 rounded-3xl p-4 mb-6 flex flex-wrap gap-4">
-                
                 <div>
                     <label class="block text-xs text-zinc-400 mb-1">Person</label>
                     <select id="filter-person" onchange="onPersonFilterChange()" class="bg-zinc-800 border border-zinc-700 rounded-2xl px-4 py-2 text-sm w-56"></select>
@@ -112,15 +266,10 @@
                 </div>
                 <div class="flex-1 min-w-[220px]">
                     <label class="block text-xs text-zinc-400 mb-1">Search</label>
-                    <input type="text" id="filter-search" onkeyup="filterTransactions()" placeholder="Search narration..." class="w-full bg-zinc-800 border border-zinc-700 rounded-2xl px-4 py-2 text-sm">
+                    <input type="text" id="filter-search" onkeyup="filterTransactions()" placeholder="Search narration..." 
+                        class="w-full bg-zinc-800 border border-zinc-700 rounded-2xl px-4 py-2 text-sm">
                 </div>
                 <button onclick="clearFilters()" class="px-4 py-2 bg-zinc-700 hover:bg-zinc-600 rounded-2xl text-sm">Clear Filters</button>
-                <!-- NEW: Export to Excel Button -->
-                <button onclick="exportBankTransactionsToExcel()" 
-                        class="px-4 py-2 bg-emerald-600 hover:bg-emerald-700 rounded-2xl text-sm flex items-center gap-x-2">
-                    <i class="fas fa-download"></i>
-                    <span>Export to Excel</span>
-                </button>
             </div>
 
             <!-- Transactions Table -->
@@ -144,212 +293,108 @@
             </div>
         </div>
 
-        <!-- EQUITY TAB -->
-        <div id="tab-3" class="tab-content hidden px-6 pt-8">
-                <div class="flex justify-between items-center mb-6">
-                    <h2 class="text-2xl font-semibold">Equity Portfolio</h2>
-                    <button onclick="clearEquityData()" 
-                            class="px-4 py-2 bg-red-600 hover:bg-red-700 rounded-2xl text-sm">
-                        Clear Loaded Data
-                    </button>
-                </div>
-
-                <!-- Person Filter -->
-                <div class="mb-4">
-                    <label class="block text-sm font-medium text-zinc-400 mb-2">Filter by Person</label>
-                    <select id="equityPersonFilter" onchange="generateEquityLoadButtons()"
-                            class="bg-zinc-800 border border-zinc-700 text-white px-4 py-2 rounded-lg w-full md:w-64">
-                        <option value="">All Family Members</option>
-                        <option value="muralidhar">Muralidhar Kini</option>
-                        <option value="leena">Leena Kini</option>
-                        <option value="niyati">Niyati Kini</option>
-                        <option value="jayanth">Jayanth Kini</option>
-                    </select>
-                </div>
-
-                <!-- Load Buttons -->
-                <div class="mb-6">
-                    <h3 class="text-lg font-semibold mb-3 text-zinc-300">Load Equity Account</h3>
-                    <div id="equityLoadButtons" class="flex flex-wrap gap-3">
-                        <!-- Dynamically generated buttons -->
-                    </div>
-                </div>
-
-                <!-- Summary Cards -->
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-6">
-                    <div class="bg-zinc-900 p-5 rounded-xl border border-zinc-800">
-                        <div class="text-sm text-zinc-400">Total Trades</div>
-                        <div id="equityTotalTrades" class="text-3xl font-bold text-white mt-1">0</div>
-                    </div>
-                    <div class="bg-zinc-900 p-5 rounded-xl border border-zinc-800">
-                        <div class="text-sm text-zinc-400">Total Buy Value</div>
-                        <div id="equityTotalBuy" class="text-3xl font-bold text-emerald-400 mt-1">₹0</div>
-                    </div>
-                    <div class="bg-zinc-900 p-5 rounded-xl border border-zinc-800">
-                        <div class="text-sm text-zinc-400">Total Sell Value</div>
-                        <div id="equityTotalSell" class="text-3xl font-bold text-red-400 mt-1">₹0</div>
-                    </div>
-                    <div class="bg-zinc-900 p-5 rounded-xl border border-zinc-800">
-                        <div class="text-sm text-zinc-400">Net Investment</div>
-                        <div id="equityNetInvestment" class="text-3xl font-bold text-blue-400 mt-1">₹0</div>
-                    </div>
-                </div>
-
-                <!-- Filters -->
-                <div class="flex flex-col md:flex-row gap-4 mb-4">
-                    <div class="w-full md:w-64">
-                        <label class="block text-sm font-medium text-zinc-400 mb-1">Financial Year</label>
-                        <select id="equityFYFilter" onchange="filterEquityTransactions()"
-                                class="w-full bg-zinc-800 border border-zinc-700 text-white px-4 py-2 rounded-lg">
-                            <option value="">All Years</option>
-                        </select>
-                    </div>
-
-                    <div class="flex-1">
-                        <label class="block text-sm font-medium text-zinc-400 mb-1">Search Symbol</label>
-                        <input type="text" id="equitySymbolFilter" placeholder="e.g. RELIANCE, GOLDBEES"
-                            onkeyup="filterEquityTransactions()"
-                            class="w-full bg-zinc-800 border border-zinc-700 text-white px-4 py-2 rounded-lg">
-                    </div>
-                </div>
-
-                <!-- Transactions Table -->
-                <div class="bg-zinc-900 rounded-xl border border-zinc-800 overflow-hidden">
-                    <div class="overflow-x-auto">
-                        <table class="min-w-full divide-y divide-zinc-800">
-                            <thead class="bg-zinc-950">
-                                <tr>
-                                    <th class="px-6 py-3 text-left text-xs font-medium text-zinc-400 uppercase">Date</th>
-                                    <th class="px-6 py-3 text-left text-xs font-medium text-zinc-400 uppercase">Symbol</th>
-                                    <th class="px-6 py-3 text-left text-xs font-medium text-zinc-400 uppercase">Type</th>
-                                    <th class="px-6 py-3 text-right text-xs font-medium text-zinc-400 uppercase">Qty</th>
-                                    <th class="px-6 py-3 text-right text-xs font-medium text-zinc-400 uppercase">Price</th>
-                                    <th class="px-6 py-3 text-right text-xs font-medium text-zinc-400 uppercase">Value</th>
-                                    <th class="px-6 py-3 text-left text-xs font-medium text-zinc-400 uppercase">Exchange</th>
-                                </tr>
-                            </thead>
-                            <tbody id="equityTableBody" class="divide-y divide-zinc-800 text-sm text-white">
-                                <!-- Populated by JS -->
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-        </div>          
-         
-        <!-- ==================== EXPENSES TAB (Tab 4) ==================== -->
-        <div id="tab-4" class="tab-content hidden max-w-screen-2xl mx-auto px-6 pt-8">
+        <!-- ==================== EQUITY TAB (Tab Index 3) ==================== -->
+        <div id="tab-3" class="tab-content hidden px-6 pt-6">
             <div class="flex justify-between items-center mb-6">
-                <h2 class="text-2xl font-semibold">Expense Tracker</h2>
-                <button onclick="exportExpensesToExcel()" 
-                        class="px-4 py-2 bg-emerald-600 hover:bg-emerald-700 rounded-2xl text-sm flex items-center gap-x-2">
-                    <i class="fas fa-download"></i>
-                    <span>Export to Excel</span>
+                <h2 class="text-2xl font-bold text-white">Equity Portfolio</h2>
+                <button onclick="clearEquityData()" 
+                        class="px-4 py-2 bg-red-600 hover:bg-red-700 text-white rounded-lg text-sm font-medium">
+                    Clear Loaded Data
                 </button>
             </div>
 
-            <!-- Filters -->
-            <div class="bg-zinc-900 border border-zinc-700 rounded-3xl p-4 mb-6 grid grid-cols-2 md:grid-cols-5 gap-4">
-                <div>
-                    <label class="block text-xs text-zinc-400 mb-1">Person</label>
-                    <select id="expense-person" onchange="loadExpenses()" class="w-full bg-zinc-800 border border-zinc-700 rounded-2xl px-3 py-2 text-sm"></select>
-                </div>
-                <div>
-                    <label class="block text-xs text-zinc-400 mb-1">Bank</label>
-                    <select id="expense-bank" onchange="loadExpenses()" class="w-full bg-zinc-800 border border-zinc-700 rounded-2xl px-3 py-2 text-sm">
-                        <option value="">All Banks</option>
-                        <option value="HDFC">HDFC</option>
-                        <option value="ICICI">ICICI</option>
-                        <option value="SBI">SBI</option>
-                    </select>
-                </div>
-                <div>
-                    <label class="block text-xs text-zinc-400 mb-1">Financial Year</label>
-                    <select id="expense-fy" onchange="loadExpenses()" class="w-full bg-zinc-800 border border-zinc-700 rounded-2xl px-3 py-2 text-sm"></select>
-                </div>
-                <div>
-                    <label class="block text-xs text-zinc-400 mb-1">Month</label>
-                    <select id="expense-month" onchange="loadExpenses()" class="w-full bg-zinc-800 border border-zinc-700 rounded-2xl px-3 py-2 text-sm">
-                        <option value="">All Months</option>
-                    </select>
-                </div>
-                <div>
-                    <label class="block text-xs text-zinc-400 mb-1">Category</label>
-                    <select id="expense-category" onchange="loadExpenses()" class="w-full bg-zinc-800 border border-zinc-700 rounded-2xl px-3 py-2 text-sm">
-                        <option value="">All Categories</option>
-                    </select>
+            <!-- Person Filter -->
+            <div class="mb-4">
+                <label class="block text-sm font-medium text-zinc-400 mb-2">Filter by Person</label>
+                <select id="equityPersonFilter" onchange="generateEquityLoadButtons()"
+                        class="bg-zinc-800 border border-zinc-700 text-white px-4 py-2 rounded-lg w-full md:w-64">
+                    <option value="">All Family Members</option>
+                    <option value="muralidhar">Muralidhar Kini</option>
+                    <option value="leena">Leena Kini</option>
+                    <option value="niyati">Niyati Kini</option>
+                    <option value="jayanth">Jayanth Kini</option>
+                </select>
+            </div>
+
+            <!-- Load Buttons -->
+            <div class="mb-6">
+                <h3 class="text-lg font-semibold mb-3 text-zinc-300">Load Equity Account</h3>
+                <div id="equityLoadButtons" class="flex flex-wrap gap-3">
+                    <!-- Dynamically generated -->
                 </div>
             </div>
 
             <!-- Summary Cards -->
-            <div class="grid grid-cols-1 md:grid-cols-4 gap-6 mb-6">
-                <div class="bg-zinc-900 border border-zinc-700 rounded-3xl p-6">
-                    <div class="text-sm text-zinc-400">Total Expenses</div>
-                    <div class="text-4xl font-bold text-red-400 mt-1" id="exp-total">₹0</div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-6">
+                <div class="bg-zinc-900 p-5 rounded-xl border border-zinc-800">
+                    <div class="text-sm text-zinc-400">Total Trades</div>
+                    <div id="equityTotalTrades" class="text-3xl font-bold text-white mt-1">0</div>
                 </div>
-                <div class="bg-zinc-900 border border-zinc-700 rounded-3xl p-6">
-                    <div class="text-sm text-zinc-400">Transactions</div>
-                    <div class="text-4xl font-bold mt-1" id="exp-count">0</div>
+                <div class="bg-zinc-900 p-5 rounded-xl border border-zinc-800">
+                    <div class="text-sm text-zinc-400">Total Buy Value</div>
+                    <div id="equityTotalBuy" class="text-3xl font-bold text-emerald-400 mt-1">₹0</div>
                 </div>
-                <div class="bg-zinc-900 border border-zinc-700 rounded-3xl p-6">
-                    <div class="text-sm text-zinc-400">Top Category</div>
-                    <div class="text-2xl font-bold mt-1" id="exp-top-category">-</div>
+                <div class="bg-zinc-900 p-5 rounded-xl border border-zinc-800">
+                    <div class="text-sm text-zinc-400">Total Sell Value</div>
+                    <div id="equityTotalSell" class="text-3xl font-bold text-red-400 mt-1">₹0</div>
                 </div>
-                <div class="bg-zinc-900 border border-zinc-700 rounded-3xl p-6">
-                    <div class="text-sm text-zinc-400">Avg per Transaction</div>
-                    <div class="text-3xl font-bold mt-1" id="exp-average">₹0</div>
-                </div>
-            </div>
-
-            <!-- Category Breakdown -->
-            <div class="bg-zinc-900 border border-zinc-700 rounded-3xl p-6 mb-6">
-                <h3 class="text-lg font-semibold mb-4">Expenses by Category</h3>
-                <div class="overflow-auto max-h-[300px]">
-                    <table class="w-full text-sm">
-                        <thead>
-                            <tr class="text-zinc-400 border-b border-zinc-700">
-                                <th class="text-left py-3 px-4">Category</th>
-                                <th class="text-right py-3 px-4">Amount</th>
-                                <th class="text-right py-3 px-4">% of Total</th>
-                                <th class="text-right py-3 px-4">Transactions</th>
-                            </tr>
-                        </thead>
-                        <tbody id="expense-category-table" class="divide-y divide-zinc-800"></tbody>
-                    </table>
+                <div class="bg-zinc-900 p-5 rounded-xl border border-zinc-800">
+                    <div class="text-sm text-zinc-400">Net Investment</div>
+                    <div id="equityNetInvestment" class="text-3xl font-bold text-blue-400 mt-1">₹0</div>
                 </div>
             </div>
 
-            <!-- Expense Transactions Table -->
-            <div class="bg-zinc-900 border border-zinc-700 rounded-3xl p-6">
-                <h3 class="text-lg font-semibold mb-4">Expense Transactions</h3>
-                <div class="overflow-auto max-h-[500px]">
-                    <table class="w-full text-sm">
-                        <thead class="sticky top-0 bg-zinc-900">
-                            <tr class="text-zinc-400 border-b border-zinc-700">
-                                <th class="text-left py-3 px-4">Date</th>
-                                <th class="text-left py-3 px-4">Person</th>
-                                <th class="text-left py-3 px-4">Bank</th>
-                                <th class="text-left py-3 px-4">Category</th>
-                                <th class="text-left py-3 px-4">Narration</th>
-                                <th class="text-right py-3 px-4">Amount</th>
+            <!-- Filters Row -->
+            <div class="flex flex-col md:flex-row gap-4 mb-4">
+                
+                <!-- Financial Year Filter -->
+                <div class="w-full md:w-64">
+                    <label class="block text-sm font-medium text-zinc-400 mb-1">Financial Year</label>
+                    <select id="equityFYFilter" onchange="filterEquityTransactions()"
+                            class="w-full bg-zinc-800 border border-zinc-700 text-white px-4 py-2 rounded-lg">
+                        <option value="">All Years</option>
+                    </select>
+                </div>
+
+                <!-- Symbol Search -->
+                <div class="flex-1">
+                    <label class="block text-sm font-medium text-zinc-400 mb-1">Search Symbol</label>
+                    <input type="text" id="equitySymbolFilter" placeholder="e.g. RELIANCE, GOLDBEES"
+                        onkeyup="filterEquityTransactions()"
+                        class="w-full bg-zinc-800 border border-zinc-700 text-white px-4 py-2 rounded-lg">
+                </div>
+
+            </div>
+
+            <!-- Transactions Table -->
+            <div class="bg-zinc-900 rounded-xl border border-zinc-800 overflow-hidden">
+                <div class="overflow-x-auto">
+                    <table class="min-w-full divide-y divide-zinc-800">
+                        <thead class="bg-zinc-950">
+                            <tr>
+                                <th class="px-6 py-3 text-left text-xs font-medium text-zinc-400 uppercase">Date</th>
+                                <th class="px-6 py-3 text-left text-xs font-medium text-zinc-400 uppercase">Symbol</th>
+                                <th class="px-6 py-3 text-left text-xs font-medium text-zinc-400 uppercase">Type</th>
+                                <th class="px-6 py-3 text-right text-xs font-medium text-zinc-400 uppercase">Qty</th>
+                                <th class="px-6 py-3 text-right text-xs font-medium text-zinc-400 uppercase">Price</th>
+                                <th class="px-6 py-3 text-right text-xs font-medium text-zinc-400 uppercase">Value</th>
+                                <th class="px-6 py-3 text-left text-xs font-medium text-zinc-400 uppercase">Exchange</th>
                             </tr>
                         </thead>
-                        <tbody id="expense-table" class="divide-y divide-zinc-800"></tbody>
+                        <tbody id="equityTableBody" class="divide-y divide-zinc-800 text-sm text-white">
+                            <!-- Populated by JS -->
+                        </tbody>
                     </table>
                 </div>
             </div>
         </div>
-
+        
     </div>
 
     <script>
         let familyMembers = [];
         let currentTransactions = [];
-        let currentExpenseData = [];
-        let currentBankTransactions = [];
-        let equityTransactions = [];
-        let allEquityTransactions = [];
 
-        // ==================== LOGIN ====================
         function login() {
             if (document.getElementById('login-password').value === "family2026") {
                 document.getElementById('login-screen').classList.add('hidden');
@@ -364,31 +409,23 @@
             location.reload();
         }
 
-        async function switchTab(tab) {
-            document.querySelectorAll('.tab-content').forEach(el => el.classList.add('hidden'));
-            document.querySelectorAll('.tab-btn').forEach(el => el.classList.remove('tab-active'));
+        function switchTab(tab) {
+    document.querySelectorAll('.tab-content').forEach(el => el.classList.add('hidden'));
+    document.querySelectorAll('.tab-btn').forEach(el => el.classList.remove('tab-active'));
+    
+    document.getElementById(`tab-${tab}`).classList.remove('hidden');
+    document.querySelectorAll('.tab-btn')[tab].classList.add('tab-active');
 
-            document.getElementById(`tab-${tab}`).classList.remove('hidden');
-            document.querySelectorAll('.tab-btn')[tab].classList.add('tab-active');
-
-            if (tab === 0) refreshDashboard();
-            
-            if (tab === 2) {
-                renderBankUI();
-                generateLoadButtons();
-            }
-            
-            if (tab === 3) {
-                initEquityTab();
-            }
-
-            if (tab === 4) {
-             await populateExpenseFilters();   // ← Add await here
-            loadExpenses();
-        }
+    if (tab === 0) refreshDashboard();
+    if (tab === 2) {
+        renderBankUI();
+        generateLoadButtons();           // ← Important
     }
+    if (index === 3) {
+        initEquityTab();
+    }
+}
 
-        // ==================== INIT ====================
         function initData() {
             const saved = localStorage.getItem('familyMembers');
             if (saved) {
@@ -407,7 +444,6 @@
 
         function renderFamilyTable() {
             const tbody = document.getElementById('family-table');
-            if (!tbody) return;
             tbody.innerHTML = '';
             familyMembers.forEach((m, i) => {
                 const row = document.createElement('tr');
@@ -415,31 +451,85 @@
                     <td class="py-3 px-4">${m.name}</td>
                     <td class="py-3 px-4">${m.relation}</td>
                     <td class="py-3 px-4">${m.dob}</td>
-                    <td class="py-3 px-4">
-                        <button onclick="deleteFamilyMember(${i})" class="text-red-400"><i class="fas fa-trash"></i></button>
-                    </td>
+                    <td class="py-3 px-4"><button onclick="deleteFamilyMember(${i})" class="text-red-400"><i class="fas fa-trash"></i></button></td>
                 `;
                 tbody.appendChild(row);
             });
         }
 
-        // ==================== DATE HELPERS ====================
-        function parseCustomDate(dateStr) {
-            if (!dateStr) return null;
-            const str = String(dateStr).trim();
-
-            let match = str.match(/^(\d{1,2})[-\/](\d{1,2})[-\/](\d{4})$/);
-            if (match) return new Date(parseInt(match[3]), parseInt(match[2]) - 1, parseInt(match[1]));
-
-            match = str.match(/^(\d{1,2})[-\/](\d{1,2})[-\/](\d{2})$/);
-            if (match) {
-                let year = parseInt(match[3]);
-                year += (year < 50) ? 2000 : 1900;
-                return new Date(year, parseInt(match[2]) - 1, parseInt(match[1]));
+        function deleteFamilyMember(i) {
+            if (confirm("Delete this member?")) {
+                familyMembers.splice(i, 1);
+                localStorage.setItem('familyMembers', JSON.stringify(familyMembers));
+                renderFamilyTable();
             }
-            const d = new Date(str);
-            return isNaN(d.getTime()) ? null : d;
         }
+
+        function showAddMemberModal() {
+            const name = prompt("Full Name:");
+            if (!name) return;
+            const relation = prompt("Relation:", "Son");
+            const dob = prompt("Date of Birth (YYYY-MM-DD):");
+            familyMembers.push({ id: Date.now().toString(), name, dob, relation });
+            localStorage.setItem('familyMembers', JSON.stringify(familyMembers));
+            renderFamilyTable();
+        }
+
+        // ==================== DATE PARSING ====================
+        function parseCustomDate(dateStr) {
+    if (!dateStr || String(dateStr).trim() === "") return null;
+    const str = String(dateStr).trim();
+
+    // === Indian format priority: DD/MM/YY or DD/MM/YYYY ===
+    // Try 4-digit year first
+    let match = str.match(/^(\d{1,2})[-\/](\d{1,2})[-\/](\d{4})$/);
+    if (match) {
+        const first = parseInt(match[1], 10);
+        const second = parseInt(match[2], 10);
+        const year = parseInt(match[3], 10);
+
+        // If second number > 12 → must be DD/MM format
+        if (second > 12) {
+            return new Date(year, first - 1, second);
+        }
+        // Otherwise prefer DD/MM (Indian format)
+        return new Date(year, first - 1, second);
+    }
+
+    // Try 2-digit year (DD/MM/YY)
+    match = str.match(/^(\d{1,2})[-\/](\d{1,2})[-\/](\d{2})$/);
+    if (match) {
+        const first = parseInt(match[1], 10);
+        const second = parseInt(match[2], 10);
+        let year = parseInt(match[3], 10);
+        year += (year < 50) ? 2000 : 1900;
+
+        // If second number > 12 → must be DD/MM format
+        if (second > 12) {
+            return new Date(year, first - 1, second);
+        }
+        // Prefer Indian format (first = day)
+        return new Date(year, first - 1, second);
+    }
+
+    // DD-MMM-YY fallback (SBI style)
+    const monthMap = {
+        'Jan': 0, 'Feb': 1, 'Mar': 2, 'Apr': 3, 'May': 4, 'Jun': 5,
+        'Jul': 6, 'Aug': 7, 'Sep': 8, 'Oct': 9, 'Nov': 10, 'Dec': 11
+    };
+    match = str.match(/^(\d{1,2})-([A-Za-z]{3})-(\d{2,4})$/);
+    if (match) {
+        const day = parseInt(match[1], 10);
+        const mon = monthMap[match[2]];
+        let year = parseInt(match[3], 10);
+        if (year < 100) year += 2000;
+        if (mon !== undefined) return new Date(year, mon, day);
+    }
+
+    // Last resort
+    const d = new Date(str);
+    return isNaN(d.getTime()) ? null : d;
+}
 
         function getFinancialYear(dateStr) {
             const d = parseCustomDate(dateStr);
@@ -449,133 +539,98 @@
             return month >= 4 ? `${year}-${(year + 1).toString().slice(-2)}` : `${year - 1}-${year.toString().slice(-2)}`;
         }
 
-        // ==================== NEW: LOAD FROM YEAR-WISE FILES ====================
-        async function loadAccountManifest() {
+        // ==================== LOAD FUNCTIONS ====================
+        async function loadHDFCDataFromFile() {
             try {
-                const res = await fetch('./bankjson/accounts.json');
-                return res.ok ? await res.json() : [];
-            } catch {
-                return [];
-            }
-        }
+                const res = await fetch('./bank/muralidhar/HDFC_4684.json');
+                if (!res.ok) { alert("HDFC file not found"); return; }
+                const data = await res.json();
 
- async function generateLoadButtons() {
-    const container = document.getElementById('auto-load-buttons');
-    if (!container) return;
-    container.innerHTML = '';
-
-    const accounts = await loadAccountManifest();
-    const selectedPerson = document.getElementById('filter-person').value;
-
-    // Group by bank
-    const banks = {};
-    accounts.forEach(acc => {
-        if (selectedPerson && acc.personId !== selectedPerson) return;
-
-        if (!banks[acc.bankName]) {
-            banks[acc.bankName] = {
-                personId: acc.personId,
-                bankName: acc.bankName,
-                accountNumber: acc.accountNumber,
-                years: new Set()
-            };
-        }
-        const fy = acc.filePath.match(/_(\d{4}-\d{2})\.json/);
-        if (fy) banks[acc.bankName].years.add(fy[1]);
-    });
-
-    Object.values(banks).forEach(bank => {
-        const btn = document.createElement('button');
-        let color = 'bg-zinc-700 hover:bg-zinc-600';
-        if (bank.bankName === 'HDFC') color = 'bg-emerald-600 hover:bg-emerald-700';
-        if (bank.bankName === 'ICICI') color = 'bg-blue-600 hover:bg-blue-700';
-        if (bank.bankName === 'SBI') color = 'bg-orange-600 hover:bg-orange-700';
-
-        btn.className = `px-5 py-2.5 rounded-2xl text-sm font-semibold flex items-center gap-x-2 text-white ${color}`;
-        btn.innerHTML = `🏦 Load ${bank.bankName} (${bank.accountNumber})`;
-
-        btn.onclick = () => loadBankYears(bank.personId, bank.bankName, [...bank.years]);
-        container.appendChild(btn);
-    });
-}
-
-async function loadBankYears(personId, bankName, availableYears) {
-    const fySelect = document.getElementById('filter-fy');
-    fySelect.innerHTML = '<option value="">All Years</option>';
-
-    // Sort years (latest first)
-    availableYears.sort().reverse();
-
-    // Populate year dropdown
-    availableYears.forEach(year => {
-        const opt = document.createElement('option');
-        opt.value = year;
-        opt.textContent = `FY ${year}`;
-        fySelect.appendChild(opt);
-    });
-
-    // === Load ALL years data for this bank ===
-    const accounts = await loadAccountManifest();
-    
-    let totalLoaded = 0;
-
-    for (const year of availableYears) {
-        const fileToLoad = accounts.find(a => 
-            a.personId === personId && 
-            a.bankName === bankName && 
-            a.filePath.includes(year)
-        );
-
-        if (fileToLoad) {
-            await loadSingleYearFile(fileToLoad.filePath, personId, bankName);
-            totalLoaded++;
-        }
-    }
-
-    alert(`${bankName} loaded successfully! (${totalLoaded} years)`);
-    filterTransactions();
-}
-
-        async function loadBankByName(personId, bankName, filePaths) {
-            let added = 0;
-
-            for (const filePath of filePaths) {
-                try {
-                    const res = await fetch(filePath);
-                    if (!res.ok) continue;
-
-                    const data = await res.json();
-                    data.forEach(item => {
-                        const dateStr = item.Date || item["Txn Date"] || item["Value Date"] || item["Transaction Date"];
-                        if (!dateStr) return;
-
-                        currentTransactions.push({
-                            date: dateStr,
-                            personId: personId,
-                            bankName: bankName,
-                            narration: item.Narration || item.Description || item["Transaction Remarks"] || "",
-                            withdrawal: parseAmount(item["Withdrawal Amount"] || item.Debit || item["Withdrawal Amount (INR )"]),
-                            deposit: parseAmount(item["Deposit Amount"] || item.Credit || item["Deposit Amount (INR )"]),
-                            balance: parseAmount(item["Closing Balance*"] || item.Balance || item["Balance (INR )"])
-                        });
-                        added++;
+                data.forEach(item => {
+                    const dateStr = item.Date || item.date;
+                    if (!dateStr) return;
+                    currentTransactions.push({
+                        date: dateStr, personId: "muralidhar", bankName: "HDFC",
+                        narration: item.Narration || "",
+                        withdrawal: parseFloat(String(item["Withdrawal Amount"] || 0).replace(/,/g, '')) || 0,
+                        deposit: parseFloat(String(item["Deposit Amount"] || 0).replace(/,/g, '')) || 0,
+                        balance: parseFloat(String(item["Closing Balance*"] || 0).replace(/,/g, '')) || 0
                     });
-                } catch (e) {
-                    console.error("Error loading", filePath);
-                }
-            }
-
-            alert(`${added} transactions loaded from ${bankName}`);
-            renderBankUI();
-            refreshDashboard();
+                });
+                alert("HDFC data loaded!");
+                renderBankUI();
+            } catch (err) { alert("Error loading HDFC: " + err.message); }
         }
 
-        function parseAmount(val) {
-            if (!val) return 0;
-            return parseFloat(String(val).replace(/[^0-9.-]/g, '')) || 0;
+        async function loadICICIDataFromFile() {
+            try {
+                const res = await fetch('./bank/muralidhar/ICICI_0212.json');
+                if (!res.ok) { alert("ICICI file not found"); return; }
+                const data = await res.json();
+                let added = 0;
+                data.forEach(item => {
+                    const dateStr = item["Value Date"] || item["Transaction Date"];
+                    if (!dateStr) return;
+                    currentTransactions.push({
+                        date: dateStr, personId: "muralidhar", bankName: "ICICI",
+                        narration: item["Transaction Remarks"] || "",
+                        withdrawal: parseFloat(String(item["Withdrawal Amount (INR )"] || 0).replace(/,/g, '')) || 0,
+                        deposit: parseFloat(String(item["Deposit Amount (INR )"] || 0).replace(/,/g, '')) || 0,
+                        balance: parseFloat(String(item["Balance (INR )"] || 0).replace(/,/g, '')) || 0
+                    });
+                    added++;
+                });
+                alert(`${added} ICICI transactions loaded!`);
+                renderBankUI();
+            } catch (err) { alert("Error loading ICICI: " + err.message); }
         }
 
-        // ==================== BANK UI & FILTERS ====================
+        async function loadSBIDataFromFile() {
+            try {
+                const res = await fetch('./bank/muralidhar/SBI_16269.json');
+                if (!res.ok) { alert("SBI file not found"); return; }
+                const data = await res.json();
+                let added = 0;
+                data.forEach(item => {
+                    const dateStr = item["Txn Date"] || item["Value Date"];
+                    if (!dateStr) return;
+                    currentTransactions.push({
+                        date: dateStr, personId: "muralidhar", bankName: "SBI",
+                        narration: item.Description || "",
+                        withdrawal: parseFloat(String(item.Debit || 0).replace(/,/g, '')) || 0,
+                        deposit: parseFloat(String(item.Credit || 0).replace(/,/g, '')) || 0,
+                        balance: parseFloat(String(item.Balance || 0).replace(/,/g, '')) || 0
+                    });
+                    added++;
+                });
+                alert(`${added} SBI transactions loaded!`);
+                renderBankUI();
+            } catch (err) { alert("Error loading SBI: " + err.message); }
+        }
+
+        // ==================== CLEAR ALL DATA ====================
+        function clearAllData() {
+            if (!confirm("Are you sure you want to clear all loaded bank data?")) return;
+            
+            currentTransactions = [];
+            document.getElementById('transactions-table').innerHTML = '';
+            
+            // Reset summary cards
+            document.getElementById('bank-total-txns').textContent = '0';
+            document.getElementById('bank-total-withdrawal').textContent = '₹0';
+            document.getElementById('bank-total-deposit').textContent = '₹0';
+            document.getElementById('bank-current-balance').textContent = '₹0';
+            
+            // Reset labels
+            document.getElementById('summary-label-txns').textContent = 'Total Transactions';
+            document.getElementById('summary-label-withdrawal').textContent = 'Total Withdrawals';
+            document.getElementById('summary-label-deposit').textContent = 'Total Deposits';
+            document.getElementById('summary-label-balance').textContent = 'Current Balance';
+            
+            alert("All loaded data has been cleared.");
+        }
+
+        // ==================== FILTER & SUMMARY ====================
         function renderBankUI() {
             const personSel = document.getElementById('filter-person');
             personSel.innerHTML = '<option value="">All Persons</option>';
@@ -603,139 +658,36 @@ async function loadBankYears(personId, bankName, availableYears) {
             filterTransactions();
         }
 
-        async function filterTransactions() {
-    const person = document.getElementById('filter-person').value;
-    const fy = document.getElementById('filter-fy').value;
-    const search = document.getElementById('filter-search').value.toLowerCase();
+        function filterTransactions() {
+            const person = document.getElementById('filter-person').value;
+            const fy = document.getElementById('filter-fy').value;
+            const search = document.getElementById('filter-search').value.toLowerCase();
 
-    const tbody = document.getElementById('transactions-table');
-    tbody.innerHTML = '';
+            const tbody = document.getElementById('transactions-table');
+            tbody.innerHTML = '';
 
-    // === Auto-load data for selected year if not already loaded ===
-    if (fy) {
-        const alreadyLoaded = currentTransactions.some(t => getFinancialYear(t.date) === fy);
+            let filtered = currentTransactions;
 
-        if (!alreadyLoaded) {
-            const accounts = await loadAccountManifest();
+            if (person) filtered = filtered.filter(t => t.personId === person);
+            if (fy) filtered = filtered.filter(t => getFinancialYear(t.date) === fy);
+            if (search) filtered = filtered.filter(t => t.narration?.toLowerCase().includes(search));
 
-            // Find file for the selected year + person + bank (if selected)
-            const fileToLoad = accounts.find(a => {
-                const yearMatch = a.filePath.includes(fy);
-                const personMatch = !person || a.personId === person;
-                return yearMatch && personMatch;
-            });
-
-            if (fileToLoad) {
-                await loadSingleYearFile(fileToLoad.filePath, fileToLoad.personId, fileToLoad.bankName);
-            }
-        }
-    }
-
-    // Now apply filters on the (possibly newly loaded) data
-    let filtered = currentTransactions;
-
-    if (person) filtered = filtered.filter(t => t.personId === person);
-    if (fy) filtered = filtered.filter(t => getFinancialYear(t.date) === fy);
-    if (search) filtered = filtered.filter(t => t.narration?.toLowerCase().includes(search));
-
-    // Store for Export button
-    currentBankTransactions = filtered;
-
-    // Render table
-    if (filtered.length === 0) {
-        const row = document.createElement('tr');
-        row.innerHTML = `
-            <td colspan="7" class="py-8 text-center text-zinc-400">
-                No transactions found for the selected filters.
-            </td>
-        `;
-        tbody.appendChild(row);
-    } else {
-        filtered.forEach(t => {
-            const personObj = familyMembers.find(p => p.id === t.personId);
-            const row = document.createElement('tr');
-            row.innerHTML = `
-                <td class="py-3 px-4">${t.date}</td>
-                <td class="py-3 px-4">${personObj ? personObj.name : t.personId}</td>
-                <td class="py-3 px-4">${t.bankName}</td>
-                <td class="py-3 px-4 text-xs max-w-xs truncate">${t.narration}</td>
-                <td class="py-3 px-4 text-right text-red-400">${t.withdrawal ? '₹' + t.withdrawal.toLocaleString('en-IN') : ''}</td>
-                <td class="py-3 px-4 text-right text-green-400">${t.deposit ? '₹' + t.deposit.toLocaleString('en-IN') : ''}</td>
-                <td class="py-3 px-4 text-right">${t.balance ? '₹' + t.balance.toLocaleString('en-IN') : ''}</td>
-            `;
-            tbody.appendChild(row);
-        });
-    }
-
-    updateBankSummary(filtered);
-}
-
-        function getFinancialYearFromFilePath(filePath) {
-    const match = filePath.match(/_(\d{4}-\d{2})\.json/);
-    return match ? match[1] : null;
-}
-
-        async function loadSingleYearFile(filePath, personId, bankName = null) {
-    try {
-        const res = await fetch(filePath);
-        if (!res.ok) {
-            console.error("Failed to load:", filePath);
-            return;
-        }
-
-        const data = await res.json();
-
-        data.forEach(item => {
-            const dateStr = item.Date || item["Txn Date"] || item["Value Date"] || item["Transaction Date"];
-            if (!dateStr) return;
-
-            currentTransactions.push({
-                date: dateStr,
-                personId: personId,
-                bankName: bankName || (filePath.includes("HDFC") ? "HDFC" : 
-                          filePath.includes("ICICI") ? "ICICI" : "SBI"),
-                narration: item.Narration || item.Description || item["Transaction Remarks"] || "",
-                withdrawal: parseAmount(item["Withdrawal Amount"] || item.Debit || item["Withdrawal Amount (INR )"]),
-                deposit: parseAmount(item["Deposit Amount"] || item.Credit || item["Deposit Amount (INR )"]),
-                balance: parseAmount(item["Closing Balance*"] || item.Balance || item["Balance (INR )"])
-            });
-        });
-
-    } catch (e) {
-        console.error("Error loading file:", filePath, e);
-    }
-}
-
-        function updateBankSummary(filtered) {
-            // Same as before
-            const txnsEl = document.getElementById('bank-total-txns');
-            const withdrawalEl = document.getElementById('bank-total-withdrawal');
-            const depositEl = document.getElementById('bank-total-deposit');
-            const balanceEl = document.getElementById('bank-current-balance');
-
-            if (!filtered) filtered = currentTransactions;
-
-            let totalW = 0, totalD = 0;
             filtered.forEach(t => {
-                totalW += t.withdrawal || 0;
-                totalD += t.deposit || 0;
+                const personObj = familyMembers.find(p => p.id === t.personId);
+                const row = document.createElement('tr');
+                row.innerHTML = `
+                    <td class="py-3 px-4">${t.date}</td>
+                    <td class="py-3 px-4">${personObj ? personObj.name : ''}</td>
+                    <td class="py-3 px-4">${t.bankName}</td>
+                    <td class="py-3 px-4 text-xs max-w-xs truncate">${t.narration}</td>
+                    <td class="py-3 px-4 text-right text-red-400">${t.withdrawal ? '₹' + t.withdrawal.toLocaleString('en-IN') : ''}</td>
+                    <td class="py-3 px-4 text-right text-green-400">${t.deposit ? '₹' + t.deposit.toLocaleString('en-IN') : ''}</td>
+                    <td class="py-3 px-4 text-right">${t.balance ? '₹' + t.balance.toLocaleString('en-IN') : ''}</td>
+                `;
+                tbody.appendChild(row);
             });
 
-            txnsEl.textContent = filtered.length;
-            withdrawalEl.textContent = '₹' + totalW.toLocaleString('en-IN');
-            depositEl.textContent = '₹' + totalD.toLocaleString('en-IN');
-
-            let closing = 0;
-            if (filtered.length > 0) {
-                const sorted = [...filtered].sort((a, b) => parseCustomDate(b.date) - parseCustomDate(a.date));
-                closing = sorted[0].balance || 0;
-            }
-            balanceEl.textContent = '₹' + closing.toLocaleString('en-IN');
-        }
-
-        function onPersonFilterChange() {
-            generateLoadButtons();
-            filterTransactions();
+            updateBankSummary(filtered, fy);
         }
 
         function clearFilters() {
@@ -745,21 +697,522 @@ async function loadBankYears(personId, bankName, availableYears) {
             filterTransactions();
         }
 
-        function clearAllData() {
-            if (!confirm("Clear all loaded bank data?")) return;
-            currentTransactions = [];
-            document.getElementById('transactions-table').innerHTML = '';
-            document.getElementById('bank-total-txns').textContent = '0';
-            document.getElementById('bank-total-withdrawal').textContent = '₹0';
-            document.getElementById('bank-total-deposit').textContent = '₹0';
-            document.getElementById('bank-current-balance').textContent = '₹0';
+        function updateBankSummary(filteredTransactions, selectedFY) {
+            const txnsEl = document.getElementById('bank-total-txns');
+            const withdrawalEl = document.getElementById('bank-total-withdrawal');
+            const depositEl = document.getElementById('bank-total-deposit');
+            const balanceEl = document.getElementById('bank-current-balance');
+
+            const labelTxns = document.getElementById('summary-label-txns');
+            const labelWithdrawal = document.getElementById('summary-label-withdrawal');
+            const labelDeposit = document.getElementById('summary-label-deposit');
+            const labelBalance = document.getElementById('summary-label-balance');
+
+            if (!filteredTransactions) filteredTransactions = currentTransactions;
+
+            if (selectedFY) {
+                labelTxns.textContent = `Transactions in FY ${selectedFY}`;
+                labelWithdrawal.textContent = `Withdrawals in FY ${selectedFY}`;
+                labelDeposit.textContent = `Deposits in FY ${selectedFY}`;
+                labelBalance.textContent = `Closing Balance (FY ${selectedFY})`;
+            } else {
+                labelTxns.textContent = "Total Transactions";
+                labelWithdrawal.textContent = "Total Withdrawals";
+                labelDeposit.textContent = "Total Deposits";
+                labelBalance.textContent = "Current Balance";
+            }
+
+            let totalW = 0, totalD = 0;
+            filteredTransactions.forEach(t => {
+                totalW += t.withdrawal || 0;
+                totalD += t.deposit || 0;
+            });
+
+            txnsEl.textContent = filteredTransactions.length;
+            withdrawalEl.textContent = '₹' + totalW.toLocaleString('en-IN');
+            depositEl.textContent = '₹' + totalD.toLocaleString('en-IN');
+
+            let closingBalance = 0;
+            if (filteredTransactions.length > 0) {
+                const sorted = [...filteredTransactions].sort((a, b) => {
+                    const da = parseCustomDate(a.date);
+                    const db = parseCustomDate(b.date);
+                    return da - db;
+                });
+                closingBalance = sorted[sorted.length - 1].balance || 0;
+            }
+            balanceEl.textContent = '₹' + closingBalance.toLocaleString('en-IN');
         }
 
-        // ==================== EQUITY (Placeholder) ====================
-        async function initEquityTab() {
-    await generateEquityLoadButtons();
+        // ==================== AUTO LOAD BUTTONS ====================
+async function loadAccountManifest() {
+    try {
+        const res = await fetch('./bank/accounts.json');
+        if (!res.ok) return [];
+        return await res.json();
+    } catch (err) {
+        return [];
+    }
 }
-        async function generateEquityLoadButtons() {
+
+// ==================== AUTO GENERATE LOAD BUTTONS (Person-wise) ====================
+<!--
+async function generateLoadButtons() {
+    const container = document.getElementById('auto-load-buttons');
+    container.innerHTML = '';
+
+    const selectedPerson = document.getElementById('filter-person').value;
+
+    const accounts = await loadAccountManifest();
+
+    let filteredAccounts = accounts;
+
+    // Filter by selected person (if not "All Persons")
+    if (selectedPerson) {
+        filteredAccounts = accounts.filter(acc => acc.personId === selectedPerson);
+    }
+
+    if (filteredAccounts.length === 0) {
+        container.innerHTML = `
+            <div class="text-zinc-400 text-sm px-4 py-2 bg-zinc-800 rounded-2xl">
+                No bank accounts found for this person. Add entries in bank/accounts.json
+            </div>`;
+        return;
+    }
+
+    filteredAccounts.forEach(account => {
+        const btn = document.createElement('button');
+        
+        let colorClass = 'bg-zinc-700 hover:bg-zinc-600';
+        if (account.bankName === 'HDFC') colorClass = 'bg-emerald-600 hover:bg-emerald-700';
+        if (account.bankName === 'ICICI') colorClass = 'bg-blue-600 hover:bg-blue-700';
+        if (account.bankName === 'SBI') colorClass = 'bg-orange-600 hover:bg-orange-700';
+
+        btn.className = `px-4 py-2 rounded-2xl text-sm font-semibold flex items-center gap-x-2 ${colorClass}`;
+        btn.innerHTML = `
+            <i class="fas fa-university"></i> 
+            Load ${account.bankName} (${account.accountNumber || ''})
+        `;
+
+        btn.onclick = () => loadBankFile(account);
+        container.appendChild(btn);
+    });
+}
+-->
+
+async function generateLoadButtons() {
+    const container = document.getElementById('auto-load-buttons');
+    if (!container) return;
+
+    container.innerHTML = '';
+
+    const accounts = await loadAccountManifest();
+    const selectedPerson = document.getElementById('filter-person').value;
+
+    accounts.forEach(acc => {
+        // Show button only if "All Persons" is selected OR if it matches the selected person
+        if (selectedPerson && acc.personId !== selectedPerson) {
+            return;
+        }
+
+        const btn = document.createElement('button');
+        btn.className = `px-5 py-2.5 rounded-2xl text-sm font-semibold flex items-center gap-x-2 text-white ${
+            acc.bankName === 'HDFC' ? 'bg-emerald-600 hover:bg-emerald-700' : 
+            acc.bankName === 'ICICI' ? 'bg-blue-600 hover:bg-blue-700' : 
+            'bg-orange-600 hover:bg-orange-700'
+        }`;
+
+        btn.innerHTML = `🏦 Load ${acc.bankName} (${acc.accountNumber})`;
+        btn.onclick = () => loadBankFile(acc);
+        container.appendChild(btn);
+    });
+}
+
+async function loadBankFile(account) {
+    try {
+        const res = await fetch(account.filePath);
+        if (!res.ok) {
+            alert(`File not found: ${account.filePath}`);
+            return;
+        }
+        const data = await res.json();
+
+        let added = 0;
+
+        data.forEach(item => {
+            const dateStr = item.Date || item["Txn Date"] || item["Value Date"] || item["Value Dt"] || item["Transaction Date"];
+            if (!dateStr) return;
+
+            // === Smart key detection for all bank formats ===
+            const withdrawalKey = 
+                item["Withdrawal Amount"] || 
+                item["Withdrawal Amt."] || 
+                item.Debit || 
+                item["Withdrawal Amount (INR )"] ||
+                item["Withdrawal Amount(INR)"];           // ← Added for Leena ICICI
+
+            const depositKey = 
+                item["Deposit Amount"] || 
+                item["Deposit Amt."] || 
+                item.Credit || 
+                item["Deposit Amount (INR )"] ||
+                item["Deposit Amount(INR)"];               // ← Added for Leena ICICI
+
+            const balanceKey = 
+                item["Closing Balance*"] || 
+                item["Closing Balance"] || 
+                item.Balance || 
+                item["Balance (INR )"] ||
+                item["Balance(INR)"];                      // ← Added for Leena ICICI
+
+            currentTransactions.push({
+                date: dateStr,
+                personId: account.personId,
+                bankName: account.bankName,
+                narration: item.Narration || item.Description || item["Transaction Remarks"] || item["Cheque Number"] || "",
+                withdrawal: parseAmount(withdrawalKey),
+                deposit: parseAmount(depositKey),
+                balance: parseAmount(balanceKey)
+            });
+            added++;
+        });
+
+        alert(`${added} transactions loaded from ${account.bankName}`);
+
+        populateFinancialYearFilter();
+        generateLoadButtons();
+        refreshPersonFilter();
+        filterTransactions();
+        refreshDashboard();
+
+    } catch (err) {
+        alert("Error loading file: " + err.message);
+    }
+}
+
+function refreshPersonFilter() {
+    const personSel = document.getElementById('filter-person');
+    if (!personSel) return;
+
+    const currentValue = personSel.value;
+
+    personSel.innerHTML = '<option value="">All Persons</option>';
+
+    // Get unique personIds from loaded transactions + familyMembers
+    const personIdsInData = new Set(currentTransactions.map(t => t.personId));
+    
+    familyMembers.forEach(member => {
+        // Show only if they have data or always show all family members
+        const opt = document.createElement('option');
+        opt.value = member.id;
+        opt.textContent = member.name;
+        personSel.appendChild(opt);
+    });
+
+    // Restore previous selection if still valid
+    if (currentValue) {
+        personSel.value = currentValue;
+    }
+}
+
+function refreshDashboard() {
+    if (currentTransactions.length === 0) {
+        document.getElementById('dash-family-networth').textContent = '₹0';
+        document.getElementById('dash-total-transactions').textContent = '0';
+        return;
+    }
+
+    const currentFY = getCurrentFinancialYear();
+
+    // === Calculate Latest Balance per Account ===
+    const accountBalances = {};
+    currentTransactions.forEach(t => {
+        const key = `${t.personId}-${t.bankName}`;
+        if (!accountBalances[key] || parseCustomDate(t.date) > parseCustomDate(accountBalances[key].date)) {
+            accountBalances[key] = { 
+                balance: t.balance || 0, 
+                date: t.date,
+                personId: t.personId,
+                bankName: t.bankName
+            };
+        }
+    });
+
+    // Total Family Net Worth
+    let totalNetWorth = 0;
+    Object.values(accountBalances).forEach(acc => totalNetWorth += acc.balance);
+
+    document.getElementById('dash-family-networth').textContent = '₹' + totalNetWorth.toLocaleString('en-IN');
+    document.getElementById('dash-total-transactions').textContent = currentTransactions.length;
+    document.getElementById('dash-accounts-loaded').textContent = Object.keys(accountBalances).length;
+
+    // === Current FY Summary ===
+    const fyTxns = currentTransactions.filter(t => getFinancialYear(t.date) === currentFY);
+    let fyIncome = 0, fyExpense = 0;
+
+    fyTxns.forEach(t => {
+        fyIncome += t.deposit || 0;
+        fyExpense += t.withdrawal || 0;
+    });
+
+    const fyNet = fyIncome - fyExpense;
+    document.getElementById('dash-current-fy-net').textContent = '₹' + fyNet.toLocaleString('en-IN');
+
+    // === Per Person Breakdown ===
+    const personBalances = {};
+    Object.values(accountBalances).forEach(acc => {
+        if (!personBalances[acc.personId]) personBalances[acc.personId] = 0;
+        personBalances[acc.personId] += acc.balance;
+    });
+
+    const breakdownContainer = document.getElementById('dash-person-breakdown');
+    breakdownContainer.innerHTML = '';
+
+    Object.keys(personBalances).forEach(personId => {
+        const member = familyMembers.find(m => m.id === personId);
+        const name = member ? member.name : personId;
+
+        const div = document.createElement('div');
+        div.className = 'bg-zinc-900 border border-zinc-700 rounded-3xl p-5';
+        div.innerHTML = `
+            <div class="text-sm text-zinc-400">${name}</div>
+            <div class="text-3xl font-bold mt-1">₹${personBalances[personId].toLocaleString('en-IN')}</div>
+        `;
+        breakdownContainer.appendChild(div);
+    });
+
+    // === Recent Transactions ===
+    const recentBody = document.getElementById('dash-recent-transactions');
+    recentBody.innerHTML = '';
+
+    const sortedTxns = [...currentTransactions]
+        .sort((a, b) => parseCustomDate(b.date) - parseCustomDate(a.date))
+        .slice(0, 8);
+
+    sortedTxns.forEach(t => {
+        const amount = t.withdrawal > 0 ? t.withdrawal : t.deposit;
+        const isWithdrawal = t.withdrawal > 0;
+        
+        const row = document.createElement('tr');
+        row.innerHTML = `
+            <td class="py-4 px-6">${t.date}</td>
+            <td class="py-4 px-6">${t.personId}</td>
+            <td class="py-4 px-6">${t.bankName}</td>
+            <td class="py-4 px-6 text-xs max-w-xs truncate">${t.narration}</td>
+            <td class="py-4 px-6 text-right ${isWithdrawal ? 'text-red-400' : 'text-green-400'}">
+                ₹${amount.toLocaleString('en-IN')}
+            </td>
+            <td class="py-4 px-6 text-right">₹${(t.balance || 0).toLocaleString('en-IN')}</td>
+        `;
+        recentBody.appendChild(row);
+    });
+
+    // === Monthly Breakdown (Current FY) ===
+const monthlyData = {};
+const currentFYForMonthly = getCurrentFinancialYear();
+
+fyTxns.forEach(t => {
+    const d = parseCustomDate(t.date);
+    if (!d) return;
+
+    const monthKey = `${d.getFullYear()}-${(d.getMonth() + 1).toString().padStart(2, '0')}`;
+    const monthName = d.toLocaleString('default', { month: 'short', year: 'numeric' });
+
+    if (!monthlyData[monthKey]) {
+        monthlyData[monthKey] = {
+            name: monthName,
+            expenses: 0,
+            income: 0
+        };
+    }
+
+    monthlyData[monthKey].expenses += t.withdrawal || 0;
+    monthlyData[monthKey].income += t.deposit || 0;
+});
+
+// Sort months chronologically
+const sortedMonths = Object.keys(monthlyData).sort();
+
+const monthlyBody = document.getElementById('monthly-breakdown-body');
+monthlyBody.innerHTML = '';
+
+sortedMonths.forEach(key => {
+    const data = monthlyData[key];
+    const net = data.income - data.expenses;
+
+    const row = document.createElement('tr');
+    row.innerHTML = `
+        <td class="py-4 px-6 font-medium">${data.name}</td>
+        <td class="py-4 px-6 text-right text-red-400">₹${data.expenses.toLocaleString('en-IN')}</td>
+        <td class="py-4 px-6 text-right text-green-400">₹${data.income.toLocaleString('en-IN')}</td>
+        <td class="py-4 px-6 text-right font-semibold ${net >= 0 ? 'text-emerald-400' : 'text-red-400'}">
+            ₹${net.toLocaleString('en-IN')}
+        </td>
+    `;
+    monthlyBody.appendChild(row);
+});
+// Update period label
+document.getElementById('monthly-breakdown-period').textContent = `FY ${currentFYForMonthly}`;
+}
+
+// ==================== PERSON FILTER CHANGE ====================
+function onPersonFilterChange() {
+    generateLoadButtons();     // Refresh buttons based on selected person
+    filterTransactions();      // Also filter the table
+}
+
+function populateFinancialYearFilter() {
+    const fySel = document.getElementById('filter-fy');
+    if (!fySel) return;
+
+    const currentValue = fySel.value; // Remember current selection
+
+    fySel.innerHTML = '<option value="">All Years</option>';
+
+    const fySet = new Set();
+    currentTransactions.forEach(t => {
+        const fy = getFinancialYear(t.date);
+        if (fy) fySet.add(fy);
+    });
+
+    [...fySet].sort().forEach(fy => {
+        const opt = document.createElement('option');
+        opt.value = fy;
+        opt.textContent = `FY ${fy}`;
+        fySel.appendChild(opt);
+    });
+
+    // Restore previous selection if still valid
+    if (currentValue && [...fySet].includes(currentValue)) {
+        fySel.value = currentValue;
+    }
+}
+
+// ==================== EQUITY TAB ====================
+let equityTransactions = [];
+let allEquityTransactions = []; // Store original data
+
+// Helper: Get Financial Year from date (April–March)
+function getEquityFinancialYear(transaction) {
+    if (!transaction) return null;
+
+    // Try multiple possible date fields
+    let dateStr = transaction.tradeDate || 
+                  transaction.orderExecutionTime || 
+                  transaction.settlementDate || "";
+
+    if (!dateStr) return null;
+
+    dateStr = String(dateStr).trim();
+
+    // Extract year using multiple strategies
+    let year = null;
+    let month = null;
+
+    // Strategy 1: YYYY-MM-DD format
+    if (/^\d{4}-\d{2}-\d{2}/.test(dateStr)) {
+        year = parseInt(dateStr.substring(0, 4));
+        month = parseInt(dateStr.substring(5, 7));
+    } 
+    // Strategy 2: DD-MM-YYYY format
+    else if (/^\d{2}-\d{2}-\d{4}/.test(dateStr)) {
+        year = parseInt(dateStr.substring(6, 10));
+        month = parseInt(dateStr.substring(3, 5));
+    } 
+    // Strategy 3: Try native Date as last resort
+    else {
+        const d = new Date(dateStr);
+        if (!isNaN(d.getTime())) {
+            year = d.getFullYear();
+            month = d.getMonth() + 1;
+        }
+    }
+
+    if (!year || year < 2000 || year > 2030) return null;
+
+    // Indian Financial Year logic
+    if (month >= 4) {
+        return `${year}-${(year + 1).toString().slice(-2)}`;
+    } else {
+        return `${year - 1}-${year.toString().slice(-2)}`;
+    }
+}
+
+// Populate FY dropdown
+function populateEquityFYFilter() {
+    const select = document.getElementById('equityFYFilter');
+    if (!select) return;
+
+    select.innerHTML = '<option value="">All Years</option>';
+
+    if (!allEquityTransactions || allEquityTransactions.length === 0) {
+        console.warn("No equity data loaded yet");
+        return;
+    }
+
+    const fySet = new Set();
+
+    allEquityTransactions.forEach((t, index) => {
+        const fy = getEquityFinancialYear(t);
+        if (fy) {
+            fySet.add(fy);
+        } else if (index < 5) {
+            // Debug first 5 records
+            console.log("No FY for record:", t.tradeDate || t.orderExecutionTime, t.symbol);
+        }
+    });
+
+    const sortedFYs = Array.from(fySet).sort((a, b) => b.localeCompare(a));
+
+    console.log("Financial Years found:", sortedFYs.length > 0 ? sortedFYs : "NONE");
+
+    sortedFYs.forEach(fy => {
+        const opt = document.createElement('option');
+        opt.value = fy;
+        opt.textContent = `FY ${fy}`;
+        select.appendChild(opt);
+    });
+
+    if (sortedFYs.length === 0) {
+        alert("Still no years detected. Please check browser console (F12) for debug logs.");
+    }
+}
+
+async function loadEquityAccountSafe(filePath, personId, broker, accountNumber) {
+    try {
+        const res = await fetch(filePath);
+        if (!res.ok) {
+            throw new Error(`File not found: ${filePath}`);
+        }
+
+        const data = await res.json();
+        
+        allEquityTransactions = data;
+        equityTransactions = [...data];
+
+        // Populate FY filter
+        populateEquityFYFilter();
+        filterEquityTransactions();
+
+        // Safe toast call
+        if (typeof showToast === 'function') {
+            showToast(`Loaded ${broker} (${accountNumber}) — ${data.length} trades`, 'success');
+        } else {
+            console.log(`Loaded ${broker} — ${data.length} trades`);
+        }
+
+    } catch (err) {
+        console.error("Error loading equity file:", err);
+        
+        if (typeof showToast === 'function') {
+            showToast(`Failed to load: ${filePath}`, 'error');
+        } else {
+            alert(`Failed to load equity file: ${filePath}`);
+        }
+    }
+}
+
+async function generateEquityLoadButtons() {
     const container = document.getElementById('equityLoadButtons');
     container.innerHTML = '';
 
@@ -775,7 +1228,7 @@ async function loadBankYears(personId, bankName, availableYears) {
         }
 
         if (filteredAccounts.length === 0) {
-            container.innerHTML = `<span class="text-zinc-500 text-sm">No equity accounts found for this person</span>`;
+            container.innerHTML = `<span class="text-zinc-500 text-sm">No accounts found for this person</span>`;
             return;
         }
 
@@ -797,6 +1250,7 @@ async function loadBankYears(personId, bankName, availableYears) {
     }
 }
 
+// Load Equity Account
 async function loadEquityAccount(filePath, personId, broker, accountNumber) {
     try {
         const res = await fetch(filePath);
@@ -809,50 +1263,42 @@ async function loadEquityAccount(filePath, personId, broker, accountNumber) {
         populateEquityFYFilter();
         filterEquityTransactions();
 
-        alert(`Loaded ${broker} (${accountNumber}) - ${data.length} trades`);
+        showToast(`Loaded ${broker} (${accountNumber}) - ${data.length} trades`, 'success');
     } catch (err) {
         console.error(err);
-        alert(`Failed to load file: ${filePath}`);
+        showToast(`Failed to load file: ${filePath}`, 'error');
     }
 }
 
-function filterEquityTransactions() {
-    const fyFilter = document.getElementById('equityFYFilter')?.value || '';
-    const symbolFilter = document.getElementById('equitySymbolFilter')?.value.toUpperCase().trim() || '';
+function populateEquityFYFilter() {
+    const select = document.getElementById('equityFYFilter');
+    if (!select || allEquityTransactions.length === 0) return;
 
-    let filtered = allEquityTransactions;
+    const fySet = new Set();
+    allEquityTransactions.forEach(t => {
+        const fy = getEquityFinancialYear(t.tradeDate);
+        if (fy) fySet.add(fy);
+    });
 
-    if (fyFilter) {
-        filtered = filtered.filter(t => getEquityFinancialYear(t) === fyFilter);
-    }
-
-    if (symbolFilter) {
-        filtered = filtered.filter(t => t.symbol.toUpperCase().includes(symbolFilter));
-    }
-
-    equityTransactions = filtered;
-    renderEquityTable(filtered);
-    updateEquitySummary();
+    const sortedFYs = Array.from(fySet).sort((a, b) => b.localeCompare(a));
+    select.innerHTML = '<option value="">All Years</option>';
+    sortedFYs.forEach(fy => {
+        const opt = document.createElement('option');
+        opt.value = fy;
+        opt.textContent = `FY ${fy}`;
+        select.appendChild(opt);
+    });
 }
 
-function clearEquityData() {
-    equityTransactions = [];
-    allEquityTransactions = [];
-    document.getElementById('equityTableBody').innerHTML = '';
-    document.getElementById('equityTotalTrades').textContent = '0';
-    document.getElementById('equityTotalBuy').textContent = '₹0';
-    document.getElementById('equityTotalSell').textContent = '₹0';
-    document.getElementById('equityNetInvestment').textContent = '₹0';
-    document.getElementById('equitySymbolFilter').value = '';
-    document.getElementById('equityFYFilter').innerHTML = '<option value="">All Years</option>';
-}
 
+
+// Update Summary Cards
 function updateEquitySummary() {
     const txns = equityTransactions;
     let buy = 0, sell = 0;
 
     txns.forEach(t => {
-        const val = (t.quantity || 0) * (t.price || 0);
+        const val = t.quantity * t.price;
         if (t.tradeType === 'buy') buy += val;
         else if (t.tradeType === 'sell') sell += val;
     });
@@ -863,8 +1309,7 @@ function updateEquitySummary() {
     document.getElementById('equityNetInvestment').textContent = '₹' + (buy - sell).toLocaleString('en-IN');
 }
 
-
-
+// Render Table
 function renderEquityTable(txns) {
     const tbody = document.getElementById('equityTableBody');
     tbody.innerHTML = '';
@@ -875,7 +1320,7 @@ function renderEquityTable(txns) {
     }
 
     txns.forEach(t => {
-        const value = (t.quantity || 0) * (t.price || 0);
+        const value = t.quantity * t.price;
         const row = document.createElement('tr');
         row.innerHTML = `
             <td class="px-6 py-3 text-sm">${t.tradeDate}</td>
@@ -895,371 +1340,311 @@ function renderEquityTable(txns) {
     });
 }
 
+// Main filter function (FY + Symbol)
+function filterEquityTransactions() {
+    const fyFilter = document.getElementById('equityFYFilter')?.value || '';
+    const symbolFilter = document.getElementById('equitySymbolFilter')?.value.toUpperCase().trim() || '';
 
+    let filtered = allEquityTransactions;
 
+    if (fyFilter) {
+        filtered = filtered.filter(t => getEquityFinancialYear(t) === fyFilter);
+    }
 
+    if (symbolFilter) {
+        filtered = filtered.filter(t => t.symbol.toUpperCase().includes(symbolFilter));
+    }
 
-function populateEquityFYFilter() {
-    const select = document.getElementById('equityFYFilter');
-    if (!select) return;
+    equityTransactions = filtered;
+    renderEquityTable(filtered);
+    updateEquitySummary();
+}
 
-    const fySet = new Set();
-    allEquityTransactions.forEach(t => {
-        const fy = getEquityFinancialYear(t);
-        if (fy) fySet.add(fy);
-    });
+function parseTradeDate(dateStr) {
+    if (!dateStr) return null;
 
-    const sortedFYs = Array.from(fySet).sort((a, b) => b.localeCompare(a));
-    select.innerHTML = '<option value="">All Years</option>';
-    
-    sortedFYs.forEach(fy => {
-        const opt = document.createElement('option');
-        opt.value = fy;
-        opt.textContent = `FY ${fy}`;
-        select.appendChild(opt);
+    let str = String(dateStr).trim();
+
+    // Remove time part if present
+    if (str.includes(" ")) str = str.split(" ")[0];
+    if (str.includes("T")) str = str.split("T")[0];
+
+    // Try native Date first (works for YYYY-MM-DD)
+    let d = new Date(str);
+    if (!isNaN(d.getTime())) return d;
+
+    // Try DD-MM-YYYY or DD/MM/YYYY format
+    const parts = str.split(/[-/]/);
+    if (parts.length === 3) {
+        let day = parseInt(parts[0], 10);
+        let month = parseInt(parts[1], 10);
+        let year = parseInt(parts[2], 10);
+
+        // Swap if it looks like MM-DD-YYYY
+        if (month > 12 && day <= 12) {
+            [day, month] = [month, day];
+        }
+
+        if (year > 1900 && month >= 1 && month <= 12 && day >= 1 && day <= 31) {
+            d = new Date(year, month - 1, day);
+            if (!isNaN(d.getTime())) return d;
+        }
+    }
+
+    return null;
+}
+
+// Clear Data
+function clearEquityData() {
+    equityTransactions = [];
+    allEquityTransactions = [];
+    document.getElementById('equityTableBody').innerHTML = '';
+    document.getElementById('equityTotalTrades').textContent = '0';
+    document.getElementById('equityTotalBuy').textContent = '₹0';
+    document.getElementById('equityTotalSell').textContent = '₹0';
+    document.getElementById('equityNetInvestment').textContent = '₹0';
+    document.getElementById('equitySymbolFilter').value = '';
+    document.getElementById('equityFYFilter').innerHTML = '<option value="">All Years</option>';
+}
+
+// Call this when Equity tab is opened
+function initEquityTab() {
+    generateEquityLoadButtons();
+}
+
+// ==================== EQUITY HOLDINGS CALCULATION ====================
+async function calculateEquityHoldings() {
+    try {
+        const accountsRes = await fetch('equity/accounts.json');
+        const accounts = await accountsRes.json();
+
+        const personHoldings = {};
+        const cumulativeHoldings = {};
+
+        for (const acc of accounts) {
+            const res = await fetch(acc.filePath);
+            const transactions = await res.json();
+
+            const holdings = {};
+
+            transactions.forEach(t => {
+                if (!holdings[t.symbol]) {
+                    holdings[t.symbol] = 0;
+                }
+                if (t.tradeType === 'buy') {
+                    holdings[t.symbol] += t.quantity;
+                } else if (t.tradeType === 'sell') {
+                    holdings[t.symbol] -= t.quantity;
+                }
+            });
+
+            // Remove symbols with 0 or negative quantity
+            Object.keys(holdings).forEach(symbol => {
+                if (holdings[symbol] <= 0) {
+                    delete holdings[symbol];
+                }
+            });
+
+            personHoldings[acc.personId] = {
+                broker: acc.broker,
+                accountNumber: acc.accountNumber,
+                holdings: holdings
+            };
+
+            // Add to cumulative
+            Object.keys(holdings).forEach(symbol => {
+                if (!cumulativeHoldings[symbol]) {
+                    cumulativeHoldings[symbol] = 0;
+                }
+                cumulativeHoldings[symbol] += holdings[symbol];
+            });
+        }
+
+        return { personHoldings, cumulativeHoldings };
+    } catch (error) {
+        console.error("Error calculating equity holdings:", error);
+        return { personHoldings: {}, cumulativeHoldings: {} };
+    }
+}
+
+// Render on Dashboard
+async function refreshEquityHoldings() {
+    const { personHoldings, cumulativeHoldings } = await calculateEquityHoldings();
+
+    // Render Cumulative
+    renderCumulativeHoldings(cumulativeHoldings);
+
+    // Render Individual
+    renderIndividualHoldings(personHoldings);
+}
+
+function renderCumulativeHoldings(cumulative) {
+    const container = document.getElementById('cumulativeEquityHoldings');
+    container.innerHTML = '';
+
+    const symbols = Object.keys(cumulative);
+    if (symbols.length === 0) {
+        container.innerHTML = `<div class="text-zinc-500 text-sm">No holdings found</div>`;
+        return;
+    }
+
+    symbols.forEach(symbol => {
+        const qty = cumulative[symbol];
+        const div = document.createElement('div');
+        div.className = `bg-zinc-800 p-4 rounded-xl border border-zinc-700`;
+        div.innerHTML = `
+            <div class="flex justify-between items-center">
+                <div>
+                    <div class="font-semibold text-white">${symbol}</div>
+                    <div class="text-xs text-zinc-400">Family Total</div>
+                </div>
+                <div class="text-right">
+                    <div class="text-xl font-bold text-emerald-400">${qty}</div>
+                    <div class="text-xs text-zinc-500">shares</div>
+                </div>
+            </div>
+        `;
+        container.appendChild(div);
     });
 }
 
-function getEquityFinancialYear(transaction) {
-    let dateStr = transaction.tradeDate || transaction.orderExecutionTime || "";
-    if (!dateStr) return null;
+function renderIndividualHoldings(personHoldings) {
+    const container = document.getElementById('individualEquityHoldings');
+    container.innerHTML = '';
 
+    Object.keys(personHoldings).forEach(personId => {
+        const data = personHoldings[personId];
+        const holdings = data.holdings;
+        const symbols = Object.keys(holdings);
+
+        if (symbols.length === 0) return;
+
+        const section = document.createElement('div');
+        section.className = `bg-zinc-800 rounded-xl p-4 border border-zinc-700`;
+
+        let html = `
+            <div class="flex justify-between items-center mb-3">
+                <div>
+                    <span class="font-semibold text-white">${personId.toUpperCase()}</span>
+                    <span class="text-xs text-zinc-400 ml-2">(${data.broker} - ${data.accountNumber})</span>
+                </div>
+                <span class="text-xs px-2 py-1 bg-zinc-700 rounded">${symbols.length} symbols</span>
+            </div>
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2">
+        `;
+
+        symbols.forEach(symbol => {
+            html += `
+                <div class="bg-zinc-900 px-3 py-2 rounded-lg flex justify-between text-sm">
+                    <span class="text-white">${symbol}</span>
+                    <span class="font-medium text-emerald-400">${holdings[symbol]}</span>
+                </div>
+            `;
+        });
+
+        html += `</div>`;
+        section.innerHTML = html;
+        container.appendChild(section);
+    });
+}
+
+function getValidTradeDate(transaction) {
+    // 1. Try tradeDate
+    let parsed = parseTradeDate(transaction.tradeDate);
+    if (parsed) {
+        return parsed.toISOString().split("T")[0];
+    }
+
+    // 2. Fallback to orderExecutionTime
+    if (transaction.orderExecutionTime) {
+        parsed = parseTradeDate(transaction.orderExecutionTime);
+        if (parsed) {
+            return parsed.toISOString().split("T")[0];
+        }
+    }
+
+    return null;
+}
+
+// ==================== HELPER FUNCTIONS ====================
+function parseAmount(value) {
+    if (!value) return 0;
+    
+    // Convert to string and clean it
+    let str = String(value).trim();
+    
+    // Remove all commas, spaces, and any non-numeric characters except dot and minus
+    str = str.replace(/[^0-9.-]/g, '');
+    
+    const num = parseFloat(str);
+    
+    return isNaN(num) ? 0 : num;
+}
+
+function parseCustomDate(dateStr) {
+    if (!dateStr || String(dateStr).trim() === "") return null;
+    
+    const str = String(dateStr).trim();
+
+    // Priority 1: DD/MM/YYYY or DD-MM-YYYY (4-digit year) - Most common in ICICI
+    const match4Digit = str.match(/^(\d{1,2})[-\/](\d{1,2})[-\/](\d{4})$/);
+    if (match4Digit) {
+        const day = parseInt(match4Digit[1], 10);
+        const month = parseInt(match4Digit[2], 10) - 1;
+        const year = parseInt(match4Digit[3], 10);
+        const d = new Date(year, month, day);
+        return isNaN(d.getTime()) ? null : d;
+    }
+
+    // Priority 2: DD/MM/YY or DD-MM/YY (2-digit year)
+    const match2Digit = str.match(/^(\d{1,2})[-\/](\d{1,2})[-\/](\d{2})$/);
+    if (match2Digit) {
+        const day = parseInt(match2Digit[1], 10);
+        const month = parseInt(match2Digit[2], 10) - 1;
+        let year = parseInt(match2Digit[3], 10);
+        year += (year < 50) ? 2000 : 1900;
+        const d = new Date(year, month, day);
+        return isNaN(d.getTime()) ? null : d;
+    }
+
+    // Priority 3: DD-MMM-YY format (SBI style)
+    const monthMap = {
+        'Jan': 0, 'Feb': 1, 'Mar': 2, 'Apr': 3, 'May': 4, 'Jun': 5,
+        'Jul': 6, 'Aug': 7, 'Sep': 8, 'Oct': 9, 'Nov': 10, 'Dec': 11
+    };
+    const matchMMM = str.match(/^(\d{1,2})-([A-Za-z]{3})-(\d{2,4})$/);
+    if (matchMMM) {
+        const day = parseInt(matchMMM[1], 10);
+        const month = monthMap[matchMMM[2]];
+        let year = parseInt(matchMMM[3], 10);
+        if (year < 100) year += 2000;
+        if (month !== undefined) {
+            const d = new Date(year, month, day);
+            return isNaN(d.getTime()) ? null : d;
+        }
+    }
+
+    // Final fallback
+    const d = new Date(str);
+    return isNaN(d.getTime()) ? null : d;
+}
+
+function getFinancialYear(dateStr) {
     const d = parseCustomDate(dateStr);
-    if (!d) return null;
-
+    if (!d) return "";
     const year = d.getFullYear();
     const month = d.getMonth() + 1;
     return month >= 4 ? `${year}-${(year + 1).toString().slice(-2)}` : `${year - 1}-${year.toString().slice(-2)}`;
 }
 
-
-
-
-
-
-        // ==================== DASHBOARD (Placeholder) ====================
-        function refreshDashboard() {
-            console.log("Dashboard refreshed");
-        }
-
-        // ==================== EXPENSE CATEGORIZATION ====================
-function categorizeExpense(narration) {
-    if (!narration) return "Others";
-    const n = narration.toLowerCase();
-
-    if (n.includes("tpt") && n.includes("salary")) return "Salary to Family";
-    if (n.includes("salary payment") || n.includes("employee salary")) return "Salary to Family";
-    
-    if (n.includes("rent") || n.includes("chirra energy")) return "Rent / Maintenance";
-    if (n.includes("credit card") || n.includes("cc ") || n.includes("autopay")) return "Credit Card Payment";
-    if (n.includes("cbdt") || n.includes("cgst") || n.includes("sgst") || n.includes("professional tax")) return "Taxes & Government";
-    if (n.includes("bescom") || n.includes("electricity")) return "Utilities";
-    if (n.startsWith("upi-")) return "UPI Payment";
-    if (n.includes("dhl") || n.includes("fedex")) return "Courier & Logistics";
-    if (n.includes("swiggy") || n.includes("zomato") || n.includes("food")) return "Food & Dining";
-
-    return "Others";
+function getCurrentFinancialYear() {
+    const now = new Date();
+    const year = now.getFullYear();
+    const month = now.getMonth() + 1;
+    return month >= 4 ? `${year}-${(year + 1).toString().slice(-2)}` : `${year - 1}-${year.toString().slice(-2)}`;
 }
 
-// ==================== LOAD EXPENSES ====================
-async function loadExpenses() {
-    const person = document.getElementById('expense-person').value;
-    const bank = document.getElementById('expense-bank').value;
-    const fy = document.getElementById('expense-fy').value;
-    const month = document.getElementById('expense-month').value;
-    const categoryFilter = document.getElementById('expense-category').value;
 
-    // === Step 1: Auto-load data if year is selected but not loaded yet ===
-    if (fy) {
-        const alreadyLoaded = currentTransactions.some(t => getFinancialYear(t.date) === fy);
-        
-        if (!alreadyLoaded) {
-            const accounts = await loadAccountManifest();
-            
-            // Find files matching the selected year
-            const filesToLoad = accounts.filter(acc => {
-                const match = acc.filePath.match(/_(\d{4}-\d{2})\.json/);
-                return match && match[1] === fy && 
-                       (!person || acc.personId === person) &&
-                       (!bank || acc.bankName === bank);
-            });
-
-            // Load each matching year file
-            for (const file of filesToLoad) {
-                try {
-                    const res = await fetch(file.filePath);
-                    const data = await res.json();
-
-                    data.forEach(item => {
-                        const dateStr = item.Date || item["Txn Date"] || item["Value Date"] || item["Transaction Date"];
-                        if (!dateStr) return;
-
-                        currentTransactions.push({
-                            date: dateStr,
-                            personId: file.personId,
-                            bankName: file.bankName,
-                            narration: item.Narration || item.Description || item["Transaction Remarks"] || "",
-                            withdrawal: parseAmount(item["Withdrawal Amount"] || item.Debit || item["Withdrawal Amount (INR )"]),
-                            deposit: parseAmount(item["Deposit Amount"] || item.Credit || item["Deposit Amount (INR )"]),
-                            balance: parseAmount(item["Closing Balance*"] || item.Balance || item["Balance (INR )"])
-                        });
-                    });
-                } catch (e) {
-                    console.error("Failed to load file:", file.filePath);
-                }
-            }
-        }
-    }
-
-    // === Step 2: Filter expenses ===
-    let expenses = currentTransactions.filter(t => {
-        if ((t.withdrawal || 0) <= 0) return false;
-
-        const narration = (t.narration || "").toLowerCase();
-
-        // Exclude investments
-        if (narration.includes("fd") || narration.includes("rd") || 
-            narration.includes("fixed deposit") || narration.includes("recurring deposit")) {
-            return false;
-        }
-
-        if (person && t.personId !== person) return false;
-        if (bank && t.bankName !== bank) return false;
-        if (fy && getFinancialYear(t.date) !== fy) return false;
-
-        // Month filter
-        if (month) {
-            const d = parseCustomDate(t.date);
-            if (!d || (d.getMonth() + 1) !== parseInt(month)) return false;
-        }
-
-        const category = categorizeExpense(t.narration);
-        if (categoryFilter && category !== categoryFilter) return false;
-
-        return true;
-    });
-
-    // === Step 3: Update Summary Cards ===
-    const total = expenses.reduce((sum, t) => sum + (t.withdrawal || 0), 0);
-    document.getElementById('exp-total').textContent = '₹' + total.toLocaleString('en-IN');
-    document.getElementById('exp-count').textContent = expenses.length;
-
-    const avg = expenses.length > 0 ? Math.round(total / expenses.length) : 0;
-    document.getElementById('exp-average').textContent = '₹' + avg.toLocaleString('en-IN');
-
-    // Top Category
-    const categoryMap = {};
-    expenses.forEach(t => {
-        const cat = categorizeExpense(t.narration);
-        categoryMap[cat] = (categoryMap[cat] || 0) + t.withdrawal;
-    });
-
-    let topCat = "-";
-    let maxAmount = 0;
-    Object.entries(categoryMap).forEach(([cat, amount]) => {
-        if (amount > maxAmount) {
-            maxAmount = amount;
-            topCat = cat;
-        }
-    });
-    document.getElementById('exp-top-category').textContent = topCat;
-
-    currentExpenseData = expenses;
-    // === Step 4: Render Tables ===
-    renderExpenseCategoryBreakdown(expenses, total);
-    renderExpenseTable(expenses);
-}
-
-// Helper functions for rendering (you can expand these)
-function renderExpenseCategoryBreakdown(expenses, total) {
-    // Group by category
-    const categoryMap = {};
-    expenses.forEach(t => {
-        const cat = categorizeExpense(t.narration);
-        if (!categoryMap[cat]) categoryMap[cat] = { amount: 0, count: 0 };
-        categoryMap[cat].amount += t.withdrawal;
-        categoryMap[cat].count++;
-    });
-
-    const tbody = document.getElementById('expense-category-table');
-    tbody.innerHTML = '';
-
-    Object.entries(categoryMap)
-        .sort((a, b) => b[1].amount - a[1].amount)
-        .forEach(([cat, data]) => {
-            const percent = total > 0 ? ((data.amount / total) * 100).toFixed(1) : 0;
-            const row = document.createElement('tr');
-            row.innerHTML = `
-                <td class="py-3 px-4">${cat}</td>
-                <td class="py-3 px-4 text-right text-red-400">₹${data.amount.toLocaleString('en-IN')}</td>
-                <td class="py-3 px-4 text-right">${percent}%</td>
-                <td class="py-3 px-4 text-right">${data.count}</td>
-            `;
-            tbody.appendChild(row);
-        });
-}
-
-function renderExpenseTable(expenses) {
-    const tbody = document.getElementById('expense-table');
-    tbody.innerHTML = '';
-
-    expenses.forEach(t => {
-        const row = document.createElement('tr');
-        row.innerHTML = `
-            <td class="py-3 px-4">${t.date}</td>
-            <td class="py-3 px-4">${t.personId}</td>
-            <td class="py-3 px-4">${t.bankName}</td>
-            <td class="py-3 px-4">${categorizeExpense(t.narration)}</td>
-            <td class="py-3 px-4 text-xs max-w-xs truncate">${t.narration}</td>
-            <td class="py-3 px-4 text-right text-red-400">₹${t.withdrawal.toLocaleString('en-IN')}</td>
-        `;
-        tbody.appendChild(row);
-    });
-}
-
-// ==================== POPULATE EXPENSE FILTERS ====================
-// ==================== POPULATE EXPENSE FILTERS ====================
-async function populateExpenseFilters() {
-    // === 1. Person Filter ===
-    const personSelect = document.getElementById('expense-person');
-    personSelect.innerHTML = '<option value="">All Persons</option>';
-
-    familyMembers.forEach(member => {
-        const option = document.createElement('option');
-        option.value = member.id;
-        option.textContent = member.name;
-        personSelect.appendChild(option);
-    });
-
-    // === 2. Financial Year Filter (from manifest) ===
-    const fySelect = document.getElementById('expense-fy');
-    fySelect.innerHTML = '<option value="">All Years</option>';
-
-    try {
-        const accounts = await loadAccountManifest(); // reads accounts.json
-        const fySet = new Set();
-
-        accounts.forEach(acc => {
-            // Extract year from filename like HDFC_2025-26.json
-            const match = acc.filePath.match(/_(\d{4}-\d{2})\.json/);
-            if (match) {
-                fySet.add(match[1]);
-            }
-        });
-
-        // Sort years in descending order (latest first)
-        const sortedYears = [...fySet].sort().reverse();
-
-        sortedYears.forEach(fy => {
-            const option = document.createElement('option');
-            option.value = fy;
-            option.textContent = `FY ${fy}`;
-            fySelect.appendChild(option);
-        });
-
-    } catch (e) {
-        console.error("Could not load years from manifest");
-    }
-
-    // === 3. Month Filter ===
-    const monthSelect = document.getElementById('expense-month');
-    monthSelect.innerHTML = '<option value="">All Months</option>';
-
-    const months = [
-        "January", "February", "March", "April", "May", "June",
-        "July", "August", "September", "October", "November", "December"
-    ];
-
-    months.forEach((monthName, index) => {
-        const option = document.createElement('option');
-        option.value = index + 1; // 1 = Jan, 2 = Feb ...
-        option.textContent = monthName;
-        monthSelect.appendChild(option);
-    });
-
-    // === 4. Category Filter ===
-    const categorySelect = document.getElementById('expense-category');
-    categorySelect.innerHTML = '<option value="">All Categories</option>';
-
-    const categories = [
-        "Salary to Family",
-        "Rent / Maintenance",
-        "Credit Card Payment",
-        "Taxes & Government",
-        "Utilities",
-        "UPI Payment",
-        "Food & Dining",
-        "Courier & Logistics",
-        "Others"
-    ];
-
-    categories.forEach(cat => {
-        const option = document.createElement('option');
-        option.value = cat;
-        option.textContent = cat;
-        categorySelect.appendChild(option);
-    });
-}
-
-function exportBankTransactionsToExcel() {
-    if (!currentBankTransactions || currentBankTransactions.length === 0) {
-        alert("No transactions to export. Please apply filters first.");
-        return;
-    }
-
-    let csvContent = "Date,Person,Bank,Narration,Withdrawal,Deposit,Balance\n";
-
-    currentBankTransactions.forEach(t => {
-        const personObj = familyMembers.find(p => p.id === t.personId);
-        const personName = personObj ? personObj.name : t.personId;
-        const narration = (t.narration || "").replace(/"/g, '""');
-
-        csvContent += `"${t.date}","${personName}","${t.bankName}","${narration}",${t.withdrawal || 0},${t.deposit || 0},${t.balance || 0}\n`;
-    });
-
-    const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
-    const link = document.createElement("a");
-    const url = URL.createObjectURL(blob);
-
-    link.setAttribute("href", url);
-    link.setAttribute("download", `Bank_Transactions_${new Date().toISOString().slice(0,10)}.csv`);
-    link.style.visibility = 'hidden';
-
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-}
-
-function exportExpensesToExcel() {
-    if (!currentExpenseData || currentExpenseData.length === 0) {
-        alert("No expense data to export. Please apply filters first.");
-        return;
-    }
-
-    // Create CSV content
-    let csvContent = "Date,Person,Bank,Category,Narration,Amount\n";
-
-    currentExpenseData.forEach(t => {
-        const category = categorizeExpense(t.narration);
-        const amount = t.withdrawal || 0;
-        const narration = (t.narration || "").replace(/"/g, '""'); // Escape quotes
-
-        csvContent += `"${t.date}","${t.personId}","${t.bankName}","${category}","${narration}",${amount}\n`;
-    });
-
-    // Create downloadable file
-    const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
-    const link = document.createElement("a");
-    const url = URL.createObjectURL(blob);
-    
-    link.setAttribute("href", url);
-    link.setAttribute("download", `Expenses_${new Date().toISOString().slice(0,10)}.csv`);
-    link.style.visibility = 'hidden';
-    
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-}
 
         function initApp() {}
         window.onload = initApp;
