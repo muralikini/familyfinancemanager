@@ -46,6 +46,7 @@
                 <button onclick="switchTab(2)" class="tab-btn px-6 py-3">Bank Accounts</button>
                 <button onclick="switchTab(3)" class="tab-btn px-6 py-3">Equity</button>
                 <button onclick="switchTab(4)" class="tab-btn px-6 py-3">Mutual Funds</button>   <!-- NEW -->
+                <button onclick="switchTab(5)" class="tab-btn px-6 py-3">NPS</button>
             </div>
         </div>
 
@@ -381,6 +382,113 @@
             </div>
         </div>
 
+        <!-- ==================== NPS TAB ==================== -->
+        <div id="tab-5" class="tab-content hidden max-w-screen-2xl mx-auto px-6 pt-8">
+
+            <!-- Header -->
+            <div class="flex justify-between items-center mb-6">
+                <h2 class="text-2xl font-bold text-white">NPS Portfolio</h2>
+            </div>
+
+            <!-- Family Member Cards -->
+            <div class="mb-8">
+                <h3 class="text-lg font-semibold text-zinc-300 mb-4">Select Family Member</h3>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-4" id="nps-person-cards">
+                    <!-- Populated by JavaScript -->
+                </div>
+            </div>
+
+            <!-- Selected Person Content -->
+            <div id="nps-person-content" class="hidden">
+                
+                <!-- Summary Cards -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+                    
+                    <!-- Tier I Summary -->
+                    <div class="bg-zinc-900 border border-zinc-700 rounded-3xl p-6">
+                        <div class="flex items-center justify-between mb-4">
+                            <h4 class="text-xl font-semibold">NPS Tier I</h4>
+                            <span class="px-3 py-1 bg-emerald-600/20 text-emerald-400 text-xs rounded-full">Active</span>
+                        </div>
+                        
+                        <div class="grid grid-cols-2 gap-4">
+                            <div>
+                                <div class="text-sm text-zinc-400">Total Invested</div>
+                                <div id="nps-tier1-invested" class="text-2xl font-bold">₹0</div>
+                            </div>
+                            <div>
+                                <div class="text-sm text-zinc-400">Current Value</div>
+                                <div id="nps-tier1-current" class="text-2xl font-bold text-emerald-400">₹0</div>
+                            </div>
+                            <div>
+                                <div class="text-sm text-zinc-400">Total Units</div>
+                                <div id="nps-tier1-units" class="text-xl font-semibold">0</div>
+                            </div>
+                            <div>
+                                <div class="text-sm text-zinc-400">Gain / Loss</div>
+                                <div id="nps-tier1-gain" class="text-xl font-semibold">₹0</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tier II Summary -->
+                    <div class="bg-zinc-900 border border-zinc-700 rounded-3xl p-6" id="nps-tier2-card">
+                        <div class="flex items-center justify-between mb-4">
+                            <h4 class="text-xl font-semibold">NPS Tier II</h4>
+                            <span class="px-3 py-1 bg-blue-600/20 text-blue-400 text-xs rounded-full">Active</span>
+                        </div>
+                        
+                        <div class="grid grid-cols-2 gap-4">
+                            <div>
+                                <div class="text-sm text-zinc-400">Total Invested</div>
+                                <div id="nps-tier2-invested" class="text-2xl font-bold">₹0</div>
+                            </div>
+                            <div>
+                                <div class="text-sm text-zinc-400">Current Value</div>
+                                <div id="nps-tier2-current" class="text-2xl font-bold text-emerald-400">₹0</div>
+                            </div>
+                            <div>
+                                <div class="text-sm text-zinc-400">Total Units</div>
+                                <div id="nps-tier2-units" class="text-xl font-semibold">0</div>
+                            </div>
+                            <div>
+                                <div class="text-sm text-zinc-400">Gain / Loss</div>
+                                <div id="nps-tier2-gain" class="text-xl font-semibold">₹0</div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Transaction History -->
+                <div class="bg-zinc-900 border border-zinc-700 rounded-3xl p-6">
+                    <div class="flex justify-between items-center mb-4">
+                        <h3 class="text-xl font-semibold">Transaction History</h3>
+                    </div>
+
+                    <div class="overflow-x-auto">
+                        <table class="w-full text-sm">
+                            <thead>
+                                <tr class="border-b border-zinc-700 text-zinc-400">
+                                    <th class="text-left py-3 px-4">Date</th>
+                                    <th class="text-left py-3 px-4">Type</th>
+                                    <th class="text-right py-3 px-4">Amount (₹)</th>
+                                    <th class="text-right py-3 px-4">Units</th>
+                                    <th class="text-right py-3 px-4">NAV</th>
+                                    <th class="text-left py-3 px-4">Remarks</th>
+                                </tr>
+                            </thead>
+                            <tbody id="nps-transactions-table" class="text-white">
+                                <!-- Populated by JS -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
     </div>
 
     <script>
@@ -430,7 +538,10 @@
             if (tab === 4) {
              await populateExpenseFilters();   // ← Add await here
             loadExpenses();
-        }
+            }
+            if (tab === 5) {
+                switchToNPSTab();
+            }
     }
 
         // ==================== INIT ====================
@@ -1582,6 +1693,73 @@ function calculateMFHoldings() {
     });
 
     mfData.holdings = Object.values(holdingsMap);
+}
+
+// ==================== NPS TAB ====================
+let currentNPSPerson = null;
+
+const npsFamilyMembers = [
+    { id: "muralidhar", name: "Muralidhar Kini", hasTier2: true },
+    { id: "leena", name: "Leena Kini", hasTier2: false },
+    { id: "niyati", name: "Niyati Kini", hasTier2: false },
+    { id: "jayanth", name: "Jayanth Kini", hasTier2: false }
+];
+
+function initNPSTab() {
+    const container = document.getElementById('nps-person-cards');
+    container.innerHTML = '';
+
+    npsFamilyMembers.forEach(member => {
+        const card = document.createElement('div');
+        card.className = `bg-zinc-900 border border-zinc-700 hover:border-amber-500 rounded-2xl p-5 cursor-pointer transition-all`;
+        card.innerHTML = `
+            <div class="font-semibold text-lg">${member.name}</div>
+            <div class="text-sm text-zinc-400 mt-1">
+                ${member.hasTier2 ? 'Tier I + Tier II' : 'Tier I Only'}
+            </div>
+        `;
+        card.onclick = () => selectNPSPerson(member.id);
+        container.appendChild(card);
+    });
+}
+
+function selectNPSPerson(personId) {
+    currentNPSPerson = personId;
+    document.getElementById('nps-person-content').classList.remove('hidden');
+
+    const member = npsFamilyMembers.find(m => m.id === personId);
+    
+    // For now, show empty data (we'll connect real data later)
+    document.getElementById('nps-tier1-invested').textContent = '₹0';
+    document.getElementById('nps-tier1-current').textContent = '₹0';
+    document.getElementById('nps-tier1-units').textContent = '0';
+    document.getElementById('nps-tier1-gain').textContent = '₹0';
+
+    const tier2Card = document.getElementById('nps-tier2-card');
+    
+    if (member.hasTier2) {
+        tier2Card.style.display = 'block';
+        document.getElementById('nps-tier2-invested').textContent = '₹0';
+        document.getElementById('nps-tier2-current').textContent = '₹0';
+        document.getElementById('nps-tier2-units').textContent = '0';
+        document.getElementById('nps-tier2-gain').textContent = '₹0';
+    } else {
+        tier2Card.style.display = 'none';
+    }
+
+    // Clear transaction table for now
+    document.getElementById('nps-transactions-table').innerHTML = `
+        <tr>
+            <td colspan="6" class="py-8 text-center text-zinc-500">
+                No transactions found. Data will be loaded soon.
+            </td>
+        </tr>
+    `;
+}
+
+// Call this when switching to NPS tab
+function switchToNPSTab() {
+    initNPSTab();
 }
 
 
