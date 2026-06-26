@@ -382,12 +382,13 @@
             </div>
         </div>
 
+        
         <!-- ==================== NPS TAB ==================== -->
         <div id="tab-5" class="tab-content hidden max-w-screen-2xl mx-auto px-6 pt-8">
 
-            <!-- Header -->
             <div class="flex justify-between items-center mb-6">
                 <h2 class="text-2xl font-bold text-white">NPS Portfolio</h2>
+                <div id="nps-loading" class="hidden text-sm text-amber-400">Loading data...</div>
             </div>
 
             <!-- Family Member Cards -->
@@ -402,59 +403,33 @@
             <div id="nps-person-content" class="hidden">
                 
                 <!-- Summary Cards -->
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8">
                     
-                    <!-- Tier I Summary -->
+                    <!-- Tier I -->
                     <div class="bg-zinc-900 border border-zinc-700 rounded-3xl p-6">
                         <div class="flex items-center justify-between mb-4">
                             <h4 class="text-xl font-semibold">NPS Tier I</h4>
                             <span class="px-3 py-1 bg-emerald-600/20 text-emerald-400 text-xs rounded-full">Active</span>
                         </div>
-                        
-                        <div class="grid grid-cols-2 gap-4">
-                            <div>
-                                <div class="text-sm text-zinc-400">Total Invested</div>
-                                <div id="nps-tier1-invested" class="text-2xl font-bold">₹0</div>
-                            </div>
-                            <div>
-                                <div class="text-sm text-zinc-400">Current Value</div>
-                                <div id="nps-tier1-current" class="text-2xl font-bold text-emerald-400">₹0</div>
-                            </div>
-                            <div>
-                                <div class="text-sm text-zinc-400">Total Units</div>
-                                <div id="nps-tier1-units" class="text-xl font-semibold">0</div>
-                            </div>
-                            <div>
-                                <div class="text-sm text-zinc-400">Gain / Loss</div>
-                                <div id="nps-tier1-gain" class="text-xl font-semibold">₹0</div>
-                            </div>
+                        <div class="grid grid-cols-2 gap-x-6 gap-y-4">
+                            <div><div class="text-sm text-zinc-400">Total Invested</div><div id="nps-t1-invested" class="text-2xl font-bold">₹0</div></div>
+                            <div><div class="text-sm text-zinc-400">Current Value</div><div id="nps-t1-current" class="text-2xl font-bold text-emerald-400">₹0</div></div>
+                            <div><div class="text-sm text-zinc-400">Total Units</div><div id="nps-t1-units" class="text-xl font-semibold">0</div></div>
+                            <div><div class="text-sm text-zinc-400">Gain / Loss</div><div id="nps-t1-gain" class="text-xl font-semibold">₹0</div></div>
                         </div>
                     </div>
 
-                    <!-- Tier II Summary -->
-                    <div class="bg-zinc-900 border border-zinc-700 rounded-3xl p-6" id="nps-tier2-card">
+                    <!-- Tier II -->
+                    <div class="bg-zinc-900 border border-zinc-700 rounded-3xl p-6" id="nps-tier2-summary">
                         <div class="flex items-center justify-between mb-4">
                             <h4 class="text-xl font-semibold">NPS Tier II</h4>
                             <span class="px-3 py-1 bg-blue-600/20 text-blue-400 text-xs rounded-full">Active</span>
                         </div>
-                        
-                        <div class="grid grid-cols-2 gap-4">
-                            <div>
-                                <div class="text-sm text-zinc-400">Total Invested</div>
-                                <div id="nps-tier2-invested" class="text-2xl font-bold">₹0</div>
-                            </div>
-                            <div>
-                                <div class="text-sm text-zinc-400">Current Value</div>
-                                <div id="nps-tier2-current" class="text-2xl font-bold text-emerald-400">₹0</div>
-                            </div>
-                            <div>
-                                <div class="text-sm text-zinc-400">Total Units</div>
-                                <div id="nps-tier2-units" class="text-xl font-semibold">0</div>
-                            </div>
-                            <div>
-                                <div class="text-sm text-zinc-400">Gain / Loss</div>
-                                <div id="nps-tier2-gain" class="text-xl font-semibold">₹0</div>
-                            </div>
+                        <div class="grid grid-cols-2 gap-x-6 gap-y-4">
+                            <div><div class="text-sm text-zinc-400">Total Invested</div><div id="nps-t2-invested" class="text-2xl font-bold">₹0</div></div>
+                            <div><div class="text-sm text-zinc-400">Current Value</div><div id="nps-t2-current" class="text-2xl font-bold text-emerald-400">₹0</div></div>
+                            <div><div class="text-sm text-zinc-400">Total Units</div><div id="nps-t2-units" class="text-xl font-semibold">0</div></div>
+                            <div><div class="text-sm text-zinc-400">Gain / Loss</div><div id="nps-t2-gain" class="text-xl font-semibold">₹0</div></div>
                         </div>
                     </div>
 
@@ -464,22 +439,23 @@
                 <div class="bg-zinc-900 border border-zinc-700 rounded-3xl p-6">
                     <div class="flex justify-between items-center mb-4">
                         <h3 class="text-xl font-semibold">Transaction History</h3>
+                        <div class="text-sm text-zinc-400" id="nps-transaction-count"></div>
                     </div>
 
-                    <div class="overflow-x-auto">
+                    <div class="overflow-x-auto max-h-[500px] overflow-y-auto">
                         <table class="w-full text-sm">
-                            <thead>
+                            <thead class="sticky top-0 bg-zinc-900">
                                 <tr class="border-b border-zinc-700 text-zinc-400">
                                     <th class="text-left py-3 px-4">Date</th>
                                     <th class="text-left py-3 px-4">Type</th>
                                     <th class="text-right py-3 px-4">Amount (₹)</th>
                                     <th class="text-right py-3 px-4">Units</th>
                                     <th class="text-right py-3 px-4">NAV</th>
+                                    <th class="text-left py-3 px-4">Scheme</th>
                                     <th class="text-left py-3 px-4">Remarks</th>
                                 </tr>
                             </thead>
-                            <tbody id="nps-transactions-table" class="text-white">
-                                <!-- Populated by JS -->
+                            <tbody id="nps-transactions-table" class="text-white divide-y divide-zinc-800">
                             </tbody>
                         </table>
                     </div>
@@ -523,6 +499,7 @@
 
             document.getElementById(`tab-${tab}`).classList.remove('hidden');
             document.querySelectorAll('.tab-btn')[tab].classList.add('tab-active');
+            const originalSwitchTab = window.switchTab;
 
             if (tab === 0) refreshDashboard();
             
@@ -540,7 +517,7 @@
             loadExpenses();
             }
             if (tab === 5) {
-                switchToNPSTab();
+                initNPSTab();
             }
     }
 
@@ -1905,6 +1882,168 @@ function populateSchemeFilter() {
     }
 }
 
+// ==================== NPS MODULE ====================
+let npsManifest = null;
+let currentNPSPerson = null;
+let npsCache = {}; // Cache loaded data
+
+async function loadNPSManifest() {
+    try {
+        const res = await fetch('./nps_json/manifest.json');
+        npsManifest = await res.json();
+        console.log("NPS Manifest loaded");
+    } catch (e) {
+        console.error("Failed to load NPS manifest", e);
+        npsManifest = {};
+    }
+}
+
+function initNPSTab() {
+    if (!npsManifest) {
+        loadNPSManifest().then(() => renderNPSPersonCards());
+    } else {
+        renderNPSPersonCards();
+    }
+}
+
+function renderNPSPersonCards() {
+    const container = document.getElementById('nps-person-cards');
+    container.innerHTML = '';
+
+    const people = [
+        { id: "muralidhar", name: "Muralidhar Kini" },
+        { id: "leena", name: "Leena Kini" },
+        { id: "niyati", name: "Niyati Kini" },
+        { id: "jayanth", name: "Jayanth Kini" }
+    ];
+
+    people.forEach(person => {
+        const hasData = npsManifest && npsManifest[person.id];
+        const card = document.createElement('div');
+        card.className = `bg-zinc-900 border border-zinc-700 hover:border-amber-500 rounded-2xl p-5 cursor-pointer transition-all ${hasData ? '' : 'opacity-50'}`;
+        
+        card.innerHTML = `
+            <div class="font-semibold text-lg">${person.name}</div>
+            <div class="text-sm text-zinc-400 mt-1">
+                ${hasData ? 'Data Available' : 'No data yet'}
+            </div>
+        `;
+        
+        if (hasData) {
+            card.onclick = () => selectNPSPerson(person.id);
+        }
+        container.appendChild(card);
+    });
+}
+
+async function selectNPSPerson(personId) {
+    currentNPSPerson = personId;
+    document.getElementById('nps-person-content').classList.remove('hidden');
+    document.getElementById('nps-loading').classList.remove('hidden');
+
+    const tier1Years = (npsManifest[personId]?.tieri || []);
+    const tier2Years = (npsManifest[personId]?.tierii || []);
+
+    // Load data
+    const [tier1Data, tier2Data] = await Promise.all([
+        loadNPSTierData(personId, 'tieri', tier1Years),
+        loadNPSTierData(personId, 'tierii', tier2Years)
+    ]);
+
+    document.getElementById('nps-loading').classList.add('hidden');
+
+    // Render summaries
+    renderNPSSummary('t1', tier1Data);
+    renderNPSSummary('t2', tier2Data);
+
+    // Show/Hide Tier II card
+    const tier2Card = document.getElementById('nps-tier2-summary');
+    tier2Card.style.display = tier2Data.length > 0 ? 'block' : 'none';
+
+    // Render combined transactions
+    const allTransactions = [...tier1Data, ...tier2Data].sort((a, b) => 
+        new Date(b.transactionDate) - new Date(a.transactionDate)
+    );
+    
+    renderNPSTransactions(allTransactions);
+}
+
+async function loadNPSTierData(personId, tierKey, years) {
+    if (!years || years.length === 0) return [];
+
+    const cacheKey = `${personId}_${tierKey}`;
+    if (npsCache[cacheKey]) return npsCache[cacheKey];
+
+    const promises = years.map(year => 
+        fetch(`./nps_json/${personId}/${tierKey}/${year}.json`)
+            .then(res => res.json())
+            .catch(() => [])
+    );
+
+    const results = await Promise.all(promises);
+    const flatData = results.flat();
+    npsCache[cacheKey] = flatData;
+    return flatData;
+}
+
+function renderNPSSummary(tier, transactions) {
+    const prefix = tier === 't1' ? 'nps-t1' : 'nps-t2';
+
+    if (!transactions || transactions.length === 0) {
+        document.getElementById(`${prefix}-invested`).textContent = '₹0';
+        document.getElementById(`${prefix}-current`).textContent = '₹0';
+        document.getElementById(`${prefix}-units`).textContent = '0';
+        document.getElementById(`${prefix}-gain`).textContent = '₹0';
+        return;
+    }
+
+    const totalInvested = transactions
+        .filter(t => t.type === 'Contribution' || t.type === 'Migration')
+        .reduce((sum, t) => sum + (t.amount || 0), 0);
+
+    const totalUnits = transactions.reduce((sum, t) => sum + (t.units || 0), 0);
+
+    // For now, current value = total invested (we'll improve this later with latest NAV)
+    const currentValue = totalInvested;
+    const gain = currentValue - totalInvested;
+
+    document.getElementById(`${prefix}-invested`).textContent = '₹' + totalInvested.toLocaleString('en-IN');
+    document.getElementById(`${prefix}-current`).textContent = '₹' + currentValue.toLocaleString('en-IN');
+    document.getElementById(`${prefix}-units`).textContent = totalUnits.toFixed(2);
+    document.getElementById(`${prefix}-gain`).textContent = '₹' + gain.toLocaleString('en-IN');
+}
+
+function renderNPSTransactions(transactions) {
+    const tbody = document.getElementById('nps-transactions-table');
+    tbody.innerHTML = '';
+
+    if (!transactions || transactions.length === 0) {
+        tbody.innerHTML = `<tr><td colspan="7" class="py-8 text-center text-zinc-500">No transactions found.</td></tr>`;
+        return;
+    }
+
+    document.getElementById('nps-transaction-count').textContent = `${transactions.length} transactions`;
+
+    transactions.forEach(txn => {
+        const row = document.createElement('tr');
+        row.className = 'hover:bg-zinc-800';
+
+        const typeColor = txn.type === 'Billing' ? 'text-red-400' : 
+                         txn.type === 'Migration' ? 'text-purple-400' : 'text-emerald-400';
+
+        row.innerHTML = `
+            <td class="py-3 px-4">${txn.transactionDate}</td>
+            <td class="py-3 px-4"><span class="${typeColor}">${txn.type}</span></td>
+            <td class="py-3 px-4 text-right">${txn.amount.toLocaleString('en-IN')}</td>
+            <td class="py-3 px-4 text-right">${txn.units.toFixed(4)}</td>
+            <td class="py-3 px-4 text-right">${txn.nav.toFixed(4)}</td>
+            <td class="py-3 px-4">${txn.scheme || '-'}</td>
+            <td class="py-3 px-4 text-xs text-zinc-400">${txn.remarks || ''}</td>
+        `;
+        tbody.appendChild(row);
+    });
+}
+
 // ==================== UPDATE YEAR FILTER ====================
 function populateYearFilter() {
     if (!mfData) return;
@@ -1962,7 +2101,9 @@ function clearMFData() {
     document.getElementById('mfTotalTxns').textContent = '0';
 }
 
-        function initApp() {}
+        function initApp() {
+            loadNPSManifest();
+        }
         window.onload = initApp;
     </script>
 </body>
